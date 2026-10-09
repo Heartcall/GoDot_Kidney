@@ -1,0 +1,39 @@
+# raw CT DICOM scan data -- large (800M+) and potentially patient-identifying,
+# shouldn't live in git history
+CT-MI NIAO WAI KE-20260720/
+
+# 3D mesh/texture assets (large binary files)
+model_asset/
+tissue/
+
+# generated capture frames (reproducible by re-running the Godot sim) -- every
+# organ, not just organ_1_kidney (was hardcoded, silently let organ_2/3's
+# captures slip into git; wildcarded so new organs don't need a manual add)
+godot_sim/captures/images/
+godot_sim/captures/organ_*_kidney/
+
+# generated analysis outputs (regenerable)
+godot_sim/analysis/
+
+# recorded demo videos (Godot Movie Maker output, large binary)
+godot_sim/recordings/
+
+# ablation study outputs/scripts (optimize_for_robot)
+godot_sim/optimize_for_robot/ablation*
+
+# parameter-sweep/tuning result caches (optimize_for_robot) -- same category
+# as the ablation outputs above, just not named "ablation*"
+godot_sim/optimize_for_robot/joint_sweep*.json
+godot_sim/optimize_for_robot/*_postproc_results.json
+
+# training checkpoints and per-iteration sample snapshots (regenerable, large)
+**/*.pt
+**/*.ckpt
+**/samples/
+
+# python cache
+__pycache__/
+*.pyc
+
+# Godot editor cache
+.godot/

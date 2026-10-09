@@ -1,0 +1,16 @@
+# Python 3.10+
+# 覆盖 godot_sim/PathPlanning/ 和 godot_sim/optimize_for_robot/ 两套流水线的全部依赖
+# （版本号取自本机当前实际可用、已验证跑通的环境）
+numpy==2.2.6
+trimesh==4.12.2
+vedo==2025.5.4
+pyvista==0.48.4
+networkx==3.4.2
+pandas==2.3.3
+scipy==1.15.3
+scikit-image==0.25.2
+matplotlib==3.10.9
+pillow==12.3.0
+openpyxl==3.1.5
+open3d==0.19.0
+plotly==6.9.0

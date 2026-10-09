@@ -1,0 +1,119 @@
+[gd_scene format=3 uid="uid://ca6exm6k4x34r"]
+
+[ext_resource type="Script" uid="uid://bl3wuq374qthp" path="res://scripts/kidney_collision.gd" id="2"]
+[ext_resource type="Script" uid="uid://devu05imqia85" path="res://scripts/endoscope_controller.gd" id="5"]
+[ext_resource type="ArrayMesh" uid="uid://csdvf0pnhijvo" path="res://source_assets/kidney_tissue.obj" id="5_272bh"]
+[ext_resource type="Shader" uid="uid://i02ph1dttjaq" path="res://shaders/endoscope_lens.gdshader" id="6"]
+[ext_resource type="Script" uid="uid://di7ktdv118m46" path="res://scripts/dof_axis_overlay.gd" id="7"]
+[ext_resource type="Script" uid="uid://ocd71biel4ng" path="res://scripts/path_guide_overlay.gd" id="8"]
+
+[sub_resource type="Environment" id="Environment_1"]
+background_mode = 1
+background_color = Color(0.01, 0.01, 0.01, 1)
+ambient_light_source = 2
+ambient_light_color = Color(0.15, 0.1, 0.1, 1)
+ambient_light_energy = 0.2
+fog_enabled = true
+fog_light_color = Color(0.35, 0.1, 0.08, 1)
+fog_density = 0.003
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_2"]
+shader = ExtResource("6")
+shader_parameter/distortion = 0.122
+shader_parameter/chroma_aberration = 0.004
+shader_parameter/vignette_radius = 1.5
+shader_parameter/vignette_softness = 0.1
+shader_parameter/vignette_color = Color(0, 0, 0, 1)
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_glkj4"]
+cull_mode = 2
+albedo_color = Color(0.9019608, 0.4, 0.54901963, 1)
+
+[sub_resource type="SphereShape3D" id="SphereShape3D_1"]
+radius = 2.0
+
+[sub_resource type="CameraAttributesPractical" id="CameraAttributesPractical_1"]
+dof_blur_far_enabled = true
+dof_blur_far_distance = 50.0
+dof_blur_far_transition = 10.0
+dof_blur_near_enabled = true
+dof_blur_near_distance = 5.0
+
+[node name="Main" type="Node3D" unique_id=641675802]
+
+[node name="WorldEnvironment" type="WorldEnvironment" parent="." unique_id=1207769154]
+environment = SubResource("Environment_1")
+
+[node name="SubViewportContainer" type="SubViewportContainer" parent="." unique_id=1325594629]
+material = SubResource("ShaderMaterial_2")
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+stretch = true
+
+[node name="EndoscopeView" type="SubViewport" parent="SubViewportContainer" unique_id=7167815]
+handle_input_locally = false
+size = Vector2i(1422, 1066)
+render_target_update_mode = 4
+
+[node name="KidneyBody" type="StaticBody3D" parent="SubViewportContainer/EndoscopeView" unique_id=103653841]
+script = ExtResource("2")
+
+[node name="kidney_tissue" type="MeshInstance3D" parent="SubViewportContainer/EndoscopeView/KidneyBody" unique_id=1197074115]
+mesh = ExtResource("5_272bh")
+surface_material_override/0 = SubResource("StandardMaterial3D_glkj4")
+
+[node name="Endoscope" type="CharacterBody3D" parent="SubViewportContainer/EndoscopeView" unique_id=329647709]
+script = ExtResource("5")
+cavity_path_file = "res://data/organ_2_kidney/lab_6/cavity_path_stone1.json"
+junction_snapshots_enabled = false
+lookahead_distance_mm = 10.0
+junction_lookahead_mm = 10.0
+debug_overlay_path = NodePath("../../../DebugOverlay")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="SubViewportContainer/EndoscopeView/Endoscope" unique_id=779359826]
+shape = SubResource("SphereShape3D_1")
+
+[node name="Head" type="Node3D" parent="SubViewportContainer/EndoscopeView/Endoscope" unique_id=506890517]
+
+[node name="Camera3D" type="Camera3D" parent="SubViewportContainer/EndoscopeView/Endoscope/Head" unique_id=301306991]
+transform = Transform3D(-0.9239062, -0.3826189, 0, 0.3826189, -0.9239062, 0, 0, 0, 1, 0, 0, 0)
+cull_mask = 1
+attributes = SubResource("CameraAttributesPractical_1")
+current = true
+fov = 90.0
+near = 0.01
+far = 300.0
+
+[node name="HeadLight" type="SpotLight3D" parent="SubViewportContainer/EndoscopeView/Endoscope/Head/Camera3D" unique_id=1987407283]
+light_color = Color(1, 0.87, 0.78, 1)
+light_energy = 12.0
+spot_range = 30.0
+spot_attenuation = 1.2
+spot_angle = 120.0
+spot_angle_attenuation = 1.5
+
+[node name="DebugOverlay" type="CanvasLayer" parent="." unique_id=301309409]
+layer = 10
+
+[node name="DofAxisOverlay" type="Control" parent="DebugOverlay" unique_id=301309410]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 2
+script = ExtResource("7")
+
+[node name="PathGuideOverlay" type="Control" parent="DebugOverlay" unique_id=301309411]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 2
+script = ExtResource("8")
+camera_path = NodePath("../../SubViewportContainer/EndoscopeView/Endoscope/Head/Camera3D")
+controller_path = NodePath("../../SubViewportContainer/EndoscopeView/Endoscope")
