@@ -1,0 +1,381 @@
+{
+  "blockers": [
+    "Original tissue has self intersections and original cavity/tissue boundaries cross.",
+    "Diagnostic barycentric transfer and smoothing introduce NEW cross-interface triangle pairs.",
+    "No validated anatomical inner/outer partition or wall-thickness model."
+  ],
+  "coordinate_system": {
+    "inspection_scene": {
+      "CavityReference": [
+        "identity (no serialized spatial transform)"
+      ],
+      "IrrigationAssetCheck": [
+        "identity (no serialized spatial transform)"
+      ],
+      "TissueReference": [
+        "identity (no serialized spatial transform)"
+      ]
+    },
+    "main_scene": {
+      "KidneyBody": [
+        "identity (no serialized spatial transform)"
+      ],
+      "Main": [
+        "identity (no serialized spatial transform)"
+      ],
+      "kidney_tissue": [
+        "identity (no serialized spatial transform)"
+      ]
+    },
+    "obj_headers": "ITK-SNAP / 3D Slicer SPACE=RAS; shared exported coordinates, mm per existing marker reference.",
+    "preview_origin_mm": [
+      16.0,
+      16.0,
+      -81.0
+    ]
+  },
+  "diagnostic_probes": [
+    {
+      "accepted": false,
+      "contact_pairs": 2887,
+      "fill": 0.25,
+      "new_proper_crossing_pair_count": 53,
+      "proper_crossing_pairs": 94,
+      "smoothing_strength": 0,
+      "tissue_maximum_displacement_mm": 0.1961011103761371,
+      "tissue_mean_displacement_mm": 0.02324368755493621
+    },
+    {
+      "accepted": false,
+      "contact_pairs": 3029,
+      "fill": 1.0,
+      "new_proper_crossing_pair_count": 57,
+      "proper_crossing_pairs": 99,
+      "smoothing_strength": 0,
+      "tissue_maximum_displacement_mm": 0.1961011103761371,
+      "tissue_mean_displacement_mm": 0.02324368755493621
+    },
+    {
+      "accepted": false,
+      "contact_pairs": 979,
+      "fill": 0.25,
+      "new_proper_crossing_pair_count": 896,
+      "proper_crossing_pairs": 899,
+      "smoothing_strength": 5,
+      "tissue_maximum_displacement_mm": 0.18997307855138265,
+      "tissue_mean_displacement_mm": 0.022598323248499787
+    },
+    {
+      "accepted": false,
+      "contact_pairs": 956,
+      "fill": 1.0,
+      "new_proper_crossing_pair_count": 896,
+      "proper_crossing_pairs": 898,
+      "smoothing_strength": 5,
+      "tissue_maximum_displacement_mm": 0.18997307855138265,
+      "tissue_mean_displacement_mm": 0.022598323248499787
+    },
+    {
+      "accepted": false,
+      "contact_pairs": 896,
+      "fill": 0.25,
+      "new_proper_crossing_pair_count": 896,
+      "proper_crossing_pairs": 896,
+      "smoothing_strength": 30,
+      "tissue_maximum_displacement_mm": 0.18115144411236908,
+      "tissue_mean_displacement_mm": 0.020341652174384394
+    },
+    {
+      "accepted": false,
+      "contact_pairs": 912,
+      "fill": 1.0,
+      "new_proper_crossing_pair_count": 912,
+      "proper_crossing_pairs": 912,
+      "smoothing_strength": 30,
+      "tissue_maximum_displacement_mm": 0.18115144411236908,
+      "tissue_mean_displacement_mm": 0.020341652174384394
+    }
+  ],
+  "limits": [
+    "VTK triangle contacts + both-sided plane crossing test distinguish proper crossings from touching; contact tolerance and mesh discretization remain limitations.",
+    "Audit preview is reference-only. Diagnostic probe arrays are UNACCEPTED, not production tissue states.",
+    "Cavity displacement, fixed masks, source OBJ, markers, topology and main scene are unchanged."
+  ],
+  "meshes": {
+    "cavity": {
+      "boundary_edges": 0,
+      "bounds_mm": [
+        [
+          -18.40288353,
+          -7.81936884,
+          -140.8125
+        ],
+        [
+          51.3900032,
+          39.09665298,
+          -21.96999931
+        ]
+      ],
+      "connected_components": 1,
+      "degenerate_triangles": 0,
+      "euler_characteristic": 2,
+      "nonmanifold_edges": 0,
+      "normal_finite": true,
+      "normal_length_range": [
+        0.9999999999999997,
+        1.0000000000000002
+      ],
+      "normal_method": "OBJ winding, recomputed geometric face normals; no anatomical inner/outer labels.",
+      "obj_supplied_normal_count": 0,
+      "self_intersection_pair_count": 1,
+      "self_intersection_pairs": [
+        [
+          1856,
+          1862
+        ]
+      ],
+      "signed_volume_mm3": 19723.07736251959,
+      "triangles": 50044,
+      "vertices": 25024,
+      "watertight": true,
+      "winding_consistent": true
+    },
+    "tissue": {
+      "boundary_edges": 0,
+      "bounds_mm": [
+        [
+          -24.88186455,
+          -22.53812027,
+          -140.8125
+        ],
+        [
+          73.54978943,
+          45.53610611,
+          -14.5625
+        ]
+      ],
+      "connected_components": 1,
+      "degenerate_triangles": 0,
+      "euler_characteristic": -18,
+      "nonmanifold_edges": 0,
+      "normal_finite": true,
+      "normal_length_range": [
+        0.9999999999999997,
+        1.0000000000000002
+      ],
+      "normal_method": "OBJ winding, recomputed geometric face normals; no anatomical inner/outer labels.",
+      "obj_supplied_normal_count": 0,
+      "self_intersection_pair_count": 23,
+      "self_intersection_pairs": [
+        [
+          9877,
+          273254
+        ],
+        [
+          10353,
+          10538
+        ],
+        [
+          10359,
+          10544
+        ],
+        [
+          10365,
+          10550
+        ],
+        [
+          10371,
+          10556
+        ],
+        [
+          10541,
+          24431
+        ],
+        [
+          10547,
+          26440
+        ],
+        [
+          24531,
+          26473
+        ],
+        [
+          51988,
+          53752
+        ],
+        [
+          98014,
+          98055
+        ],
+        [
+          152495,
+          154268
+        ],
+        [
+          154104,
+          154246
+        ],
+        [
+          154291,
+          154294
+        ],
+        [
+          154291,
+          154358
+        ],
+        [
+          154296,
+          156110
+        ],
+        [
+          154401,
+          156103
+        ],
+        [
+          181835,
+          183398
+        ],
+        [
+          187478,
+          189194
+        ],
+        [
+          191946,
+          208521
+        ],
+        [
+          191947,
+          208521
+        ],
+        [
+          191952,
+          210363
+        ],
+        [
+          237483,
+          237486
+        ],
+        [
+          267183,
+          267186
+        ]
+      ],
+      "signed_volume_mm3": 300224.43238551664,
+      "triangles": 311844,
+      "vertices": 155904,
+      "watertight": true,
+      "winding_consistent": true
+    }
+  },
+  "output_sha256": {
+    "cavity_reference.bin": "eebc674b2bba2b67d9cf101b714bcb4c04c759b763cf2fc893d5b77797a45b5c",
+    "cavity_self_intersections.npy": "97813240e6eca4b6b92f5a3bdb7ce2d2c0f873c2a962e70a4f942b70a99c9837",
+    "cross_contact_pairs.npy": "e2ff4dbd88c124e8b0fee9981588f3e9c4189e67dd7c129b27f69961adfd8505",
+    "mapping_barycentric.npy": "8bb64c4df8d3c30b20c56f43a74c6016c7bcd38f789073f02b3222934072ec91",
+    "proper_crossing_pairs.npy": "2ee83fca6706cb5aee609e9f24583a51372a2f2a09291178f6f23266c27281b3",
+    "tissue_reference.bin": "18a4944e320983a0cb0be112c2a0814d92b2d70c080a9ee12c98933ace5df30d",
+    "tissue_self_intersections.npy": "2c8936803adf359bd476d288b170b5befa07457bd5d89099a28257a940c826f4",
+    "tissue_to_cavity_distance_mm.npy": "92b3cc546acc8756335d78c06a313b07c1c1e0eb9b8059dff194649cb67a3e32",
+    "tissue_to_cavity_face.npy": "7aec68ffc5d6a2779563ab010f2d16aebc8d36bb5c63f159bab0e64d26597002"
+  },
+  "relation": {
+    "cavity_vertex_to_tissue_surface_mm": {
+      "max": 6.232654571533203,
+      "median": 0.4628120958805084,
+      "min": 0.0,
+      "p01": 0.039524078369140625,
+      "p05": 0.2138108476996422,
+      "p95": 0.9763639807701106,
+      "p99": 2.6922201251983644
+    },
+    "cavity_vertices_inside_tissue_parity_below_minus_1e_4": 0,
+    "center_path_clearance_min_mm": 0.7155362963676453,
+    "center_path_points_inside_tissue_parity": 0,
+    "center_path_points_tested": 108,
+    "contact_pairs": 3840,
+    "containment_limit": "Parity samples assume valid closed solids; tissue self intersections violate that assumption. Samples do not prove triangle separation.",
+    "coplanar_pairs": 643,
+    "crossing_tolerance_mm": 1e-06,
+    "inner_outer": "Single connected genus-10 boundary, not two explicitly labeled shells. Near-cavity opposing-normal patches are geometric inner-wall candidates only.",
+    "near_surface_normal_statistics": {
+      "0.01": {
+        "aligned_normals": 0,
+        "opposing_normals": 139,
+        "vertices": 139
+      },
+      "0.05": {
+        "aligned_normals": 0,
+        "opposing_normals": 275,
+        "vertices": 275
+      },
+      "0.1": {
+        "aligned_normals": 0,
+        "opposing_normals": 359,
+        "vertices": 359
+      },
+      "0.2": {
+        "aligned_normals": 0,
+        "opposing_normals": 1110,
+        "vertices": 1110
+      },
+      "0.5": {
+        "aligned_normals": 0,
+        "opposing_normals": 13594,
+        "vertices": 13594
+      },
+      "1": {
+        "aligned_normals": 0,
+        "opposing_normals": 26843,
+        "vertices": 26857
+      },
+      "12": {
+        "aligned_normals": 22652,
+        "opposing_normals": 31766,
+        "vertices": 58751
+      },
+      "2": {
+        "aligned_normals": 10,
+        "opposing_normals": 27821,
+        "vertices": 27964
+      },
+      "5": {
+        "aligned_normals": 3248,
+        "opposing_normals": 28623,
+        "vertices": 32284
+      }
+    },
+    "proper_crossing_pairs": 58,
+    "tissue_vertex_to_cavity_surface_mm": {
+      "max": 60.10285977506153,
+      "median": 15.299025919672022,
+      "min": 5.379299715909039e-10,
+      "p01": 0.25251879208237527,
+      "p05": 0.4414027904123706,
+      "p95": 35.251394874545824,
+      "p99": 52.00438276526781
+    },
+    "touching_or_ambiguous_pairs": 3139,
+    "wall_thickness": "Not established. Ordinary nearest-surface distances are gaps, NOT tissue wall thickness."
+  },
+  "schema_version": "1.0",
+  "sources": {
+    "approved_cavity_driver": {
+      "path": "deformation/full_cavity/field/displacement.npy",
+      "sha256": "fbe95cfeaf8b77d80c5aa850618ad8ce8439c8ef770719b1f9a1f1789b050573"
+    },
+    "auditor": {
+      "path": "tools/audit_tissue_cavity.py",
+      "sha256": "e5f7cb16e04cfda9d33c3f221a74e2987f1e01b2efb2a73bd08e00d70a60d7fd"
+    },
+    "cavity": {
+      "path": "source_assets/kidney_cavity.obj",
+      "sha256": "65a7a2cd0468dfbe301cc45b5c4f91482be4b80f766f538c47d347b5fa8b25e6"
+    },
+    "tissue": {
+      "path": "source_assets/kidney_tissue.obj",
+      "sha256": "44aeefd61af22e803bfb4830b8a11c4ed6228192a4aaac3b825118d00c006738"
+    }
+  },
+  "status": "P1_5_AUDIT_BLOCKED_NO_ACCEPTED_TISSUE_FIELD",
+  "unit": "mm"
+}

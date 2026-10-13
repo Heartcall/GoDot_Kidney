@@ -1,0 +1,188 @@
+{
+  "schema_version": "1.0",
+  "date": "2026-10-13",
+  "stage": "P1.5_AUDIT_GATE",
+  "status": "BLOCKED_NO_VALIDATED_TISSUE_FIELD",
+  "protected_files": {
+    "count": 101,
+    "changed": [],
+    "sha256": {
+      "deformation/full_cavity/region_statistics.json": "cf24ab1adaec2471b59e7484a6b480c47726541d7f503834d8f6ffe467fdcb06",
+      "deformation/p14_morph/expanded_vertices.npy": "d6849d345ff3a370a1bfb7c483a4c16f5eeebceec626d31f32b3a8d1c2745888",
+      "scripts/kidney_collision.gd": "c200d6ec15119350a7099a7539eb693216c8c99c3570f6dd381b913af3dca537",
+      "deformation/cavity_topology_draft.json": "9c9443de542cabc6672b8626e80d449e3724e72738acbebc8a522a7c8e26192f",
+      "deformation/p13_static/test_region_distance_mm.npy": "7a7755c2e97b4059086cf0ddd7bc3afbd896e0543199332da98372bae9dc4d7e",
+      "deformation/full_cavity/field/candidate_weights.npy": "5b98395456dda94a65e69f161b5693a25f9a695415a2f5408d26ba7de70d1851",
+      "deformation/p13_static/displacement_direction.npy": "e2c6c5207e2f91f1dd9dda716572136d0dac859afd48949a0bde17983eddb03c",
+      "deformation/p14_morph/morph_preview.bin": "baf0337339a8aa71fbf594f5e41a338084ac03e26c56cca26346d9f903a530bd",
+      "deformation/p1_masks/surface_mask_report.json": "45e0af44fd74ea1d55247d2f1cdbceff1621026178e06ffdc69c9e83bdd89dcb",
+      "deformation/full_cavity/field/deformed_normals.npy": "05efc66857727511be98c8f8fdc57fc0974adf967fc925305e01f7a4eca4d776",
+      "deformation/p14_morph/intersections_u075.npy": "97813240e6eca4b6b92f5a3bdb7ce2d2c0f873c2a962e70a4f942b70a99c9837",
+      "source_assets/kidney_tissue.obj": "44aeefd61af22e803bfb4830b8a11c4ed6228192a4aaac3b825118d00c006738",
+      "deformation/full_cavity/morph/expanded_normals.npy": "05efc66857727511be98c8f8fdc57fc0974adf967fc925305e01f7a4eca4d776",
+      "deformation/p14_morph/morph_preview.json": "8125bd03ac748592e645397faaa13add2639b3d0459551f93c3248e06fbf8942",
+      "deformation/p13_static/approved_p12_weights.npy": "ce6ff7e4a1c45e4d162941131e4da1ba6c83fb5869875cf7b051be981578acfb",
+      "deformation/full_cavity/morph/intersections_u075.npy": "55737cf1229ed3c3f82eb23b50874fb56749277d1c3a190bccfa1f3a991a57de",
+      "deformation/p1_masks/fixed_port_owner.npy": "973892841f3346fc7262a4df1e058fb57f81dfc0c9e586686a3a0efd93945d1a",
+      "deformation/full_cavity/local_baseline_comparison.json": "09b11c350428126759f50088ae0670376fb1d4604da186e135041769d67fa21f",
+      "deformation/p14_morph/mid_vertices.npy": "ec6f86e23db756d7911388c5cda8769f17bc2b9984aac1713a93ec120597a6e8",
+      "deformation/p1_masks/vertices.npy": "f137add4c401fe63851565f913a93968c9b11e18e630722ed42a21b4d0842fa1",
+      "deformation/p1_masks/vertex_area_mm2.npy": "2a9f82d359965893588da5a953ac0289c1a0e5dd379bbbac4db62f99c949332f",
+      "deformation/p13_static/reference_normals.npy": "cbcb4e90fd6a16a91643e1791caf8685fcb272178b6ec37d801af50eb6f2d291",
+      "source_assets/kidney_cavity.obj": "65a7a2cd0468dfbe301cc45b5c4f91482be4b80f766f538c47d347b5fa8b25e6",
+      "deformation/full_cavity/morph/morph_preview.bin": "f32ebdc326a44c5c472d1e5818361effc4487a478115580943436ae91ee0c8c9",
+      "deformation/p13_static/candidate_direction.npy": "0265767de8185daede682c608f4b86a55d948253f110682996fc58d07edfd2bb",
+      "deformation/p1_masks/in01_surface_support.npy": "47e94427a7975449c40d3f40c57baa2b8b42c817e00df7cd7bbefec49134e95c",
+      "deformation/full_cavity/field/displacement_magnitude_mm.npy": "213cf454931ef59f6626a3d1e03a7ae412861a1be30eea645a0713635147c804",
+      "deformation/p13_static/displacement_preview.json": "d5aaa5c286843da5144e6faf2d693b0921b905d5229fff89669c735f6eb0f3af",
+      "deformation/full_cavity/field/approved_p12_weights.npy": "ce6ff7e4a1c45e4d162941131e4da1ba6c83fb5869875cf7b051be981578acfb",
+      "deformation/p1_masks/port_weights.bin": "a095d2a8e5e624c7843db9eab1daef0a3cbe8967ac0320f469496911f3d9ca54",
+      "deformation/cavity_topology_resolved.json": "71e862f96b39a3270c432a4ebf7b5292ccc04a4df4f860578e23700dbd488443",
+      "deformation/p1_masks/port_weights.npy": "2b1dc440201362f03b4010b66fc1633bb6ec3e5318c9c8634b54faa0f05355ef",
+      "deformation/p13_static/test_region_activity.npy": "a039beca89b7c061c250dfaebff45704a586676580154979f9448ba28a2b8b4d",
+      "deformation/p1_masks/in01_unconstrained_weights.npy": "4907149be6c1fdd0426a0caf4de5ad24265a1431112f41e1e06d983f45d81f39",
+      "deformation/p14_morph/reference_normals.npy": "f36c331bd8d0a08ab4b9e3efc4c114650cab4957edb64aef4c577b2b1c6c6b6b",
+      "deformation/full_cavity/morph/intersections_u025.npy": "55737cf1229ed3c3f82eb23b50874fb56749277d1c3a190bccfa1f3a991a57de",
+      "deformation/full_cavity/field/deformed_self_intersection_pairs.npy": "55737cf1229ed3c3f82eb23b50874fb56749277d1c3a190bccfa1f3a991a57de",
+      "deformation/full_cavity/morph/mid_vertices.npy": "d1e0e8b11aa087f25a0f2b3aa4e018ccafd2e89c92f9cd44822ab9b2696c39dc",
+      "deformation/full_cavity/morph/intersections_u050.npy": "55737cf1229ed3c3f82eb23b50874fb56749277d1c3a190bccfa1f3a991a57de",
+      "deformation/p1_masks/path_arc_mm.npy": "174f25ebe2217a9b704d6a6da73c1689b6d218f5136000711aa0a473c15462b0",
+      "deformation/full_cavity/field/displacement_report.json": "b3a3065015eb35bbec4d75c7ffe77b9e54b575e006587bdeacd1a13a5c7b3dc1",
+      "deformation/full_cavity/field/faces.npy": "dbf4771365f42398f329100e695dc8580f8c038c557c671c02724bff45b29c3d",
+      "deformation/full_cavity/field/displacement_direction.npy": "420d18e5ef1a7dcf92322e84c8181d6158b40ea0bed3f695097303325ee73041",
+      "deformation/full_cavity/morph/reference_vertices.npy": "f137add4c401fe63851565f913a93968c9b11e18e630722ed42a21b4d0842fa1",
+      "deformation/p1_masks/in01_transition_domain.npy": "f89b0662ff77dc3f9ee3fa3497250550b42ddf40b91f9dadc03d6d8592b1f41e",
+      "deformation/p13_static/displacement_preview.bin": "87bf62c4895e11e0092efd8e9934bc7bbcf416b226d1f7a861cf190251b8523d",
+      "deformation/p1_masks/normals.npy": "4bd8f6939252ed33a2a2c41a40b540447a205dc462387e80537e489bd421c6c7",
+      "deformation/p14_morph/implementation_validation.json": "d5309ac4df999ef30f46414a69d0e8ebff593dd3a4338a5fc70cab5029da1a65",
+      "deformation/p14_morph/interpolation_report.json": "c19135ca3e20144e2a5fb3664ebf5462615263ffb4dab16b937165a55b9865a8",
+      "deformation/p13_static/displacement.npy": "a2595598fc2f00a45ca7fc14ac7be196d5397a51fd2ae175ee5d61375e4690b9",
+      "deformation/full_cavity/field/reference_self_intersection_pairs.npy": "97813240e6eca4b6b92f5a3bdb7ce2d2c0f873c2a962e70a4f942b70a99c9837",
+      "deformation/full_cavity/field/candidate_path_indices.npy": "ab2aa7e754abc3eabab86fc06c59a18a1ec32e24526f5d6738e2cc881cfb6ba6",
+      "deformation/p13_static/deformed_normals.npy": "95da9eb756e50dc848216dfa3370200bec38132aead0743c694d6c1fc701e70c",
+      "deformation/p1_masks/mask_preview.json": "b70ef6950a78a79a17b4837f0a57267b51226338aceff4d7e67a6e63236fa517",
+      "irrigation_asset_check.tscn": "6152ebb57f153c32be1cafd5bcc4cc23c2eb82e9a7d6e72a7be5754bf34bd5d9",
+      "deformation/full_cavity/morph/mid_normals.npy": "3579c1cdf144ef93d3a795ffa80064945de1c9924733a1313c9424a9c1e4987b",
+      "deformation/full_cavity/morph/fixed_vertex_indices.json": "e9713bb72c534d862dbf6c439e3297db16a4ef9f5d1171345e7f479bb62fc14a",
+      "deformation/p14_morph/intersections_u100.npy": "97813240e6eca4b6b92f5a3bdb7ce2d2c0f873c2a962e70a4f942b70a99c9837",
+      "deformation/p14_morph/displacement.npy": "a2595598fc2f00a45ca7fc14ac7be196d5397a51fd2ae175ee5d61375e4690b9",
+      "deformation/full_cavity/morph/expanded_vertices.npy": "bdc6f4ff65f7f682c7cd587723e4f174b132a0f4f284c40b90a819ac05370205",
+      "deformation/p13_static/displacement_report.json": "7d7b86857abcdcb61d9a294cdb53f15f697603a0cd52acb714d909db30b27b78",
+      "deformation/p1_masks/p1_validation.json": "11457f800fa0ec23ca2932c81b36c1bbe0f55e243d2bc5576d4e69bfaa4ca4de",
+      "deformation/p13_static/faces.npy": "dbf4771365f42398f329100e695dc8580f8c038c557c671c02724bff45b29c3d",
+      "deformation/p13_static/reference_vertices.npy": "f137add4c401fe63851565f913a93968c9b11e18e630722ed42a21b4d0842fa1",
+      "deformation/p14_morph/mid_normals.npy": "b22e82d4c5cbbd982b05f653168ea108f5b3c2640ffa3105cabafd35c5536749",
+      "scripts/full_cavity_preview.gd": "87cd1b8dc15c7a008a1fa6ead92a22c6709ef26172fc42da2f9587ba65770f48",
+      "deformation/irrigation_markers.json": "658ae10df115929495aca5838a79436776121bf6922911eb472c5258b0b7e662",
+      "deformation/p14_morph/faces.npy": "dbf4771365f42398f329100e695dc8580f8c038c557c671c02724bff45b29c3d",
+      "deformation/p14_morph/reference_vertices.npy": "f137add4c401fe63851565f913a93968c9b11e18e630722ed42a21b4d0842fa1",
+      "deformation/p1_masks/regions.npy": "7b8a846dce5e7276561e4b201ed5eaa3ed2f5ffde6778c8a62216a32ed3b928e",
+      "deformation/full_cavity/field/candidate_direction.npy": "0074b2b5e00de7d0ba9ecbf2032b099d4e41ae0bff9984c77fb038f30cb59c79",
+      "deformation/full_cavity/morph/interpolation_report.json": "d4fbb34ab31592c637c0544c35e16fa22937a70c32f693530dd6e4d9f04fb0a1",
+      "deformation/full_cavity/morph/displacement.npy": "fbe95cfeaf8b77d80c5aa850618ad8ce8439c8ef770719b1f9a1f1789b050573",
+      "deformation/p13_static/deformed_self_intersection_pairs.npy": "97813240e6eca4b6b92f5a3bdb7ce2d2c0f873c2a962e70a4f942b70a99c9837",
+      "main.tscn": "c246764faaa48b5f8f7575cbe4690d9a497b0f0def621bccb8dfd75ef1ea3511",
+      "deformation/full_cavity/field/reference_normals.npy": "f36c331bd8d0a08ab4b9e3efc4c114650cab4957edb64aef4c577b2b1c6c6b6b",
+      "deformation/p1_masks/weights.npy": "ce6ff7e4a1c45e4d162941131e4da1ba6c83fb5869875cf7b051be981578acfb",
+      "deformation/p13_static/implementation_validation.json": "9eb96f6e11c3e4ca3a86d0428860b72fd790703926bf658547eab4ce4f698ca4",
+      "deformation/p1_masks/in01_transition_comparison.json": "3735e8f1294dc023b102571bde84011917229b2c33efb374c60d6f2c52fd91a4",
+      "deformation/p14_morph/intersections_u050.npy": "97813240e6eca4b6b92f5a3bdb7ce2d2c0f873c2a962e70a4f942b70a99c9837",
+      "deformation/p1_masks/path_owner.npy": "7b92ab9e4686764022f0e084a2d78da1eb789a564cad20fa3e903c5d4029ce5b",
+      "deformation/full_cavity/coverage_statistics.md": "58189e3490794ee6c15b729afbfcb4ae29a797971bd6e77bdb4ffac16295070a",
+      "deformation/full_cavity/morph/morph_preview.json": "3996149cd66deaad7f6576a6392bde13d70a0146faac54399332d3ca9f938d07",
+      "deformation/full_cavity/morph/intersections_u000.npy": "97813240e6eca4b6b92f5a3bdb7ce2d2c0f873c2a962e70a4f942b70a99c9837",
+      "deformation/p14_morph/intersections_u000.npy": "97813240e6eca4b6b92f5a3bdb7ce2d2c0f873c2a962e70a4f942b70a99c9837",
+      "deformation/p1_masks/mask_preview.bin": "3b03b0251b63ed649c26c32210067259a0653247df83247059066595439553da",
+      "deformation/p13_static/reference_self_intersection_pairs.npy": "97813240e6eca4b6b92f5a3bdb7ce2d2c0f873c2a962e70a4f942b70a99c9837",
+      "deformation/p1_masks/port_fixed_masks.npy": "6a5969b840fb04a8c8ec8e5e42d901d85ac562255ccc1fd2fcb0d1d36527f2e9",
+      "full_cavity_preview.tscn": "7066ef8cf11e0d1303affb8b46420f36ef843ae9b200bb2392877bec1c6771ca",
+      "deformation/p14_morph/expanded_normals.npy": "6a4b936573c2150a5692868889989dccf4b3a8578ddf1edd272a2e2f9bbc743a",
+      "deformation/full_cavity/field/reference_vertices.npy": "f137add4c401fe63851565f913a93968c9b11e18e630722ed42a21b4d0842fa1",
+      "deformation/p13_static/displacement_magnitude_mm.npy": "421b1f7f0fa8e3b6f9a70dba026a30617c4d8014a4f2bf23667cae7515de691b",
+      "tools/build_full_cavity_deformation.py": "4b2115cba26f417c077dcaa2963d7ae83bb2821e9bdc89e092425b0ac100efde",
+      "deformation/p1_masks/faces.npy": "dbf4771365f42398f329100e695dc8580f8c038c557c671c02724bff45b29c3d",
+      "deformation/p14_morph/intersections_u025.npy": "97813240e6eca4b6b92f5a3bdb7ce2d2c0f873c2a962e70a4f942b70a99c9837",
+      "deformation/full_cavity/field/displacement.npy": "fbe95cfeaf8b77d80c5aa850618ad8ce8439c8ef770719b1f9a1f1789b050573",
+      "deformation/p14_morph/fixed_vertex_indices.json": "e9713bb72c534d862dbf6c439e3297db16a4ef9f5d1171345e7f479bb62fc14a",
+      "deformation/full_cavity/implementation_validation.json": "4d49ff23d2fddff8c756ee22c2862b8169d7901f56afbc9a231dba7c3f3cc6a9",
+      "deformation/full_cavity/morph/faces.npy": "dbf4771365f42398f329100e695dc8580f8c038c557c671c02724bff45b29c3d",
+      "deformation/full_cavity/morph/reference_normals.npy": "f36c331bd8d0a08ab4b9e3efc4c114650cab4957edb64aef4c577b2b1c6c6b6b",
+      "deformation/full_cavity/morph/intersections_u100.npy": "55737cf1229ed3c3f82eb23b50874fb56749277d1c3a190bccfa1f3a991a57de"
+    }
+  },
+  "python_tests": {
+    "passed": 10,
+    "failed": 0,
+    "scope": "Audit tools and failure gate only; NOT tissue deformation acceptance."
+  },
+  "godot": {
+    "headless_exit_code": 0,
+    "graphical_exit_code": 0,
+    "stderr_bytes": 0,
+    "renderer": "Forward+",
+    "gpu": "NVIDIA GeForce RTX 4070 Ti",
+    "native_screenshot_count": 5,
+    "resolution": [
+      1440,
+      1000
+    ],
+    "runtime": {
+      "counts": {
+        "cavity": {
+          "triangles": 50044,
+          "vertices": 25024
+        },
+        "tissue": {
+          "triangles": 311844,
+          "vertices": 155904
+        }
+      },
+      "geometry_arrays_match": true,
+      "opaque_section_shader": true,
+      "reference_only": true
+    },
+    "scope": "Original reference meshes only; opaque shader-discard sectioning; no DOF or transparency blend."
+  },
+  "not_delivered": [
+    "Accepted tissue displacement and regional response statistics.",
+    "Five-fill validated tissue meshes, relative clearance and wall-thickness validation.",
+    "Synchronized cavity/tissue morphs and filling slider."
+  ],
+  "blocking_evidence": {
+    "tissue_original_self_intersection_pairs": 23,
+    "cavity_tissue_original_proper_crossing_pairs": 58,
+    "diagnostic_mapping_new_pair_counts": [
+      {
+        "strength": 0,
+        "fill": 0.25,
+        "new_pairs": 53
+      },
+      {
+        "strength": 0,
+        "fill": 1,
+        "new_pairs": 57
+      },
+      {
+        "strength": 5,
+        "fill": 0.25,
+        "new_pairs": 896
+      },
+      {
+        "strength": 5,
+        "fill": 1,
+        "new_pairs": 896
+      },
+      {
+        "strength": 30,
+        "fill": 0.25,
+        "new_pairs": 896
+      },
+      {
+        "strength": 30,
+        "fill": 1,
+        "new_pairs": 912
+      }
+    ]
+  },
+  "next_step": "Confirm original contact semantics and choose contact-constrained mapping or a separately reviewed derived tissue reference. Original OBJ and accepted cavity driver remain frozen."
+}

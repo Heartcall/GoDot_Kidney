@@ -1,6 +1,6 @@
 # P1 工作指导：从人工拓扑生成可检查的局部形变
 
-2026-10-13 进展：用户已正式验收 P1.4。全天然腔体位移扩展及三态验证已实施，等待用户验收，见 [全天然扩展实施结果](kidney_irrigation_full_cavity_result.md)。P1.2 掩码及 P1.3／P1.4 数据和预览均保留为回归基准。尚未进入 P1.5 组织跟随阶段。历史记录见 [P1.4 实施结果](kidney_irrigation_p14_result.md)、[P1.3 实施结果](kidney_irrigation_p13_result.md)和 [P1.1～P1.2 实施结果](kidney_irrigation_p1_masks_result.md)。下文保留 2026-10-12 的接手核对与实施路线，历史现状不代表当前缺少文件。
+2026-10-13 进展：用户已正式验收全天然腔体位移和三态。P1.5 已进入几何审计，但原始组织自交、腔体—组织穿越及映射试验的新增穿越阻断了可信组织形变交付，见 [P1.5 审计与阻塞报告](kidney_irrigation_p15_audit_result.md)。仅交付只读参考态联合剖切预览，未生成通过验证的组织位移或联合三态。原有 OBJ、掩码、腔体驱动和旧阶段成果保持不变。历史记录见 [全天然扩展](kidney_irrigation_full_cavity_result.md)、[P1.4](kidney_irrigation_p14_result.md)、[P1.3](kidney_irrigation_p13_result.md)及 [P1.1～P1.2](kidney_irrigation_p1_masks_result.md)。下文保留历史路线，不代表当前文件缺失。
 
 更新：2026-10-12。依据：当前保存的检查场景、标记 JSON、拓扑草案、现有实现计划，以及本轮自动复核。
 
