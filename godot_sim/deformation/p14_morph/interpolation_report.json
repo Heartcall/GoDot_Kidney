@@ -1,0 +1,1255 @@
+{
+  "baseline_intersection": {
+    "location": "B_24",
+    "pairs": [
+      [
+        1856,
+        1862
+      ]
+    ],
+    "source_issue_preserved": true
+  },
+  "continuous_diagnostics": {
+    "all_u_fixed_displacement_exactly_zero": true,
+    "all_u_minimum_volume_derivative_mm3": 387.99941574186323,
+    "all_u_no_degenerate_or_reversed_faces": true,
+    "all_u_oriented_area_ratio_minimum": 0.9339872464732143,
+    "scope": "Analytic polynomials evaluated in float64; NOT a continuous self-intersection certificate.",
+    "signed_volume_polynomial_coefficients_mm3": [
+      19723.0773625195,
+      387.99941574186323,
+      7.861900508885412,
+      0.008166065244510962
+    ]
+  },
+  "coordinate_system": "cavity_mesh_local",
+  "formula": "x(u) = reference + u * accepted_P1.3_displacement; Mid = x(0.5)",
+  "godot_float32_samples": [
+    {
+      "degenerate_triangles": 0,
+      "fill": 0.0,
+      "fixed_coordinates_exactly_unchanged": true,
+      "intersection_pairs": [
+        [
+          1856,
+          1862
+        ]
+      ],
+      "maximum_coordinate_roundoff_mm": 1.9072265615704964e-06,
+      "new_intersection_pairs": [],
+      "normal_reversals": 0
+    },
+    {
+      "degenerate_triangles": 0,
+      "fill": 0.25,
+      "fixed_coordinates_exactly_unchanged": true,
+      "intersection_pairs": [
+        [
+          1856,
+          1862
+        ]
+      ],
+      "maximum_coordinate_roundoff_mm": 1.9072265615704964e-06,
+      "new_intersection_pairs": [],
+      "normal_reversals": 0
+    },
+    {
+      "degenerate_triangles": 0,
+      "fill": 0.5,
+      "fixed_coordinates_exactly_unchanged": true,
+      "intersection_pairs": [
+        [
+          1856,
+          1862
+        ]
+      ],
+      "maximum_coordinate_roundoff_mm": 1.9072265615704964e-06,
+      "new_intersection_pairs": [],
+      "normal_reversals": 0
+    },
+    {
+      "degenerate_triangles": 0,
+      "fill": 0.75,
+      "fixed_coordinates_exactly_unchanged": true,
+      "intersection_pairs": [
+        [
+          1856,
+          1862
+        ]
+      ],
+      "maximum_coordinate_roundoff_mm": 1.90889499590563e-06,
+      "new_intersection_pairs": [],
+      "normal_reversals": 0
+    },
+    {
+      "degenerate_triangles": 0,
+      "fill": 1.0,
+      "fixed_coordinates_exactly_unchanged": true,
+      "intersection_pairs": [
+        [
+          1856,
+          1862
+        ]
+      ],
+      "maximum_coordinate_roundoff_mm": 1.9072265615704964e-06,
+      "new_intersection_pairs": [],
+      "normal_reversals": 0
+    }
+  ],
+  "godot_preview_origin_mm": [
+    16.0,
+    16.0,
+    -81.0
+  ],
+  "limits": [
+    "Self-intersection tested at five fillings, in float64 and Godot float32; unsampled times are not certified.",
+    "Existing B_24 intersection and source skinny faces retained. Volume is geometric debug data, not physiology.",
+    "Same local P1.3 field only; B_32 and IN_01 remain inactive. No tissue, pressure, flow, collision update or video."
+  ],
+  "local_region_definition": "8 mm reference-space balls for markers/B_32; approved port+transition ownership plus one edge ring for interfaces.",
+  "normal_method": "Area-weighted incident face normals recomputed for each state/fill; not linearly blended normals.",
+  "output_sha256": {
+    "displacement.npy": "a2595598fc2f00a45ca7fc14ac7be196d5397a51fd2ae175ee5d61375e4690b9",
+    "expanded_normals.npy": "6a4b936573c2150a5692868889989dccf4b3a8578ddf1edd272a2e2f9bbc743a",
+    "expanded_vertices.npy": "d6849d345ff3a370a1bfb7c483a4c16f5eeebceec626d31f32b3a8d1c2745888",
+    "faces.npy": "dbf4771365f42398f329100e695dc8580f8c038c557c671c02724bff45b29c3d",
+    "fixed_vertex_indices.json": "e9713bb72c534d862dbf6c439e3297db16a4ef9f5d1171345e7f479bb62fc14a",
+    "intersections_u000.npy": "97813240e6eca4b6b92f5a3bdb7ce2d2c0f873c2a962e70a4f942b70a99c9837",
+    "intersections_u025.npy": "97813240e6eca4b6b92f5a3bdb7ce2d2c0f873c2a962e70a4f942b70a99c9837",
+    "intersections_u050.npy": "97813240e6eca4b6b92f5a3bdb7ce2d2c0f873c2a962e70a4f942b70a99c9837",
+    "intersections_u075.npy": "97813240e6eca4b6b92f5a3bdb7ce2d2c0f873c2a962e70a4f942b70a99c9837",
+    "intersections_u100.npy": "97813240e6eca4b6b92f5a3bdb7ce2d2c0f873c2a962e70a4f942b70a99c9837",
+    "mid_normals.npy": "b22e82d4c5cbbd982b05f653168ea108f5b3c2640ffa3105cabafd35c5536749",
+    "mid_vertices.npy": "ec6f86e23db756d7911388c5cda8769f17bc2b9984aac1713a93ec120597a6e8",
+    "morph_preview.bin": "baf0337339a8aa71fbf594f5e41a338084ac03e26c56cca26346d9f903a530bd",
+    "reference_normals.npy": "f36c331bd8d0a08ab4b9e3efc4c114650cab4957edb64aef4c577b2b1c6c6b6b",
+    "reference_vertices.npy": "f137add4c401fe63851565f913a93968c9b11e18e630722ed42a21b4d0842fa1"
+  },
+  "same_topology_all_states": true,
+  "samples": [
+    {
+      "area_ratio_range": [
+        1.0,
+        1.0
+      ],
+      "degenerate_triangles": 0,
+      "fill": 0.0,
+      "finite_vertices_and_normals": true,
+      "fixed_ports": {
+        "BLADDER": {
+          "coordinates_exactly_unchanged": true,
+          "maximum_displacement_mm": 0.0,
+          "vertices": 2793
+        },
+        "IN_01": {
+          "coordinates_exactly_unchanged": true,
+          "maximum_displacement_mm": 0.0,
+          "vertices": 397
+        },
+        "IN_02": {
+          "coordinates_exactly_unchanged": true,
+          "maximum_displacement_mm": 0.0,
+          "vertices": 485
+        }
+      },
+      "intersection_pairs": [
+        [
+          1856,
+          1862
+        ]
+      ],
+      "local_regions": {
+        "BLADDER_INTERFACE": {
+          "area_ratio_range": [
+            1.0,
+            1.0
+          ],
+          "degenerate_triangles": 0,
+          "incident_triangle_count": 6666,
+          "maximum_displacement_mm": 0.0,
+          "maximum_edge_gradient": 0.0,
+          "maximum_neighbor_difference_mm": 0.0,
+          "new_intersection_pairs": [],
+          "normal_reversals": 0,
+          "vertex_count": 3311
+        },
+        "B_32": {
+          "area_ratio_range": [
+            1.0,
+            1.0
+          ],
+          "degenerate_triangles": 0,
+          "incident_triangle_count": 1997,
+          "maximum_displacement_mm": 0.0,
+          "maximum_edge_gradient": 0.0,
+          "maximum_neighbor_difference_mm": 0.0,
+          "new_intersection_pairs": [],
+          "normal_reversals": 0,
+          "vertex_count": 920
+        },
+        "IN_01_INTERFACE": {
+          "area_ratio_range": [
+            1.0,
+            1.0
+          ],
+          "degenerate_triangles": 0,
+          "incident_triangle_count": 1385,
+          "maximum_displacement_mm": 0.0,
+          "maximum_edge_gradient": 0.0,
+          "maximum_neighbor_difference_mm": 0.0,
+          "new_intersection_pairs": [],
+          "normal_reversals": 0,
+          "vertex_count": 656
+        },
+        "IN_02_INTERFACE": {
+          "area_ratio_range": [
+            1.0,
+            1.0
+          ],
+          "degenerate_triangles": 0,
+          "incident_triangle_count": 1412,
+          "maximum_displacement_mm": 0.0,
+          "maximum_edge_gradient": 0.0,
+          "maximum_neighbor_difference_mm": 0.0,
+          "new_intersection_pairs": [],
+          "normal_reversals": 0,
+          "vertex_count": 676
+        },
+        "J_01": {
+          "area_ratio_range": [
+            1.0,
+            1.0
+          ],
+          "degenerate_triangles": 0,
+          "incident_triangle_count": 1992,
+          "maximum_displacement_mm": 0.0,
+          "maximum_edge_gradient": 0.0,
+          "maximum_neighbor_difference_mm": 0.0,
+          "new_intersection_pairs": [],
+          "normal_reversals": 0,
+          "vertex_count": 899
+        },
+        "J_02": {
+          "area_ratio_range": [
+            1.0,
+            1.0
+          ],
+          "degenerate_triangles": 0,
+          "incident_triangle_count": 2131,
+          "maximum_displacement_mm": 0.0,
+          "maximum_edge_gradient": 0.0,
+          "maximum_neighbor_difference_mm": 0.0,
+          "new_intersection_pairs": [],
+          "normal_reversals": 0,
+          "vertex_count": 993
+        },
+        "J_05": {
+          "area_ratio_range": [
+            1.0,
+            1.0
+          ],
+          "degenerate_triangles": 0,
+          "incident_triangle_count": 1682,
+          "maximum_displacement_mm": 0.0,
+          "maximum_edge_gradient": 0.0,
+          "maximum_neighbor_difference_mm": 0.0,
+          "new_intersection_pairs": [],
+          "normal_reversals": 0,
+          "vertex_count": 752
+        },
+        "J_09": {
+          "area_ratio_range": [
+            1.0,
+            1.0
+          ],
+          "degenerate_triangles": 0,
+          "incident_triangle_count": 2064,
+          "maximum_displacement_mm": 0.0,
+          "maximum_edge_gradient": 0.0,
+          "maximum_neighbor_difference_mm": 0.0,
+          "new_intersection_pairs": [],
+          "normal_reversals": 0,
+          "vertex_count": 949
+        },
+        "T_01": {
+          "area_ratio_range": [
+            1.0,
+            1.0
+          ],
+          "degenerate_triangles": 0,
+          "incident_triangle_count": 940,
+          "maximum_displacement_mm": 0.0,
+          "maximum_edge_gradient": 0.0,
+          "maximum_neighbor_difference_mm": 0.0,
+          "new_intersection_pairs": [],
+          "normal_reversals": 0,
+          "vertex_count": 454
+        },
+        "T_02": {
+          "area_ratio_range": [
+            1.0,
+            1.0
+          ],
+          "degenerate_triangles": 0,
+          "incident_triangle_count": 1067,
+          "maximum_displacement_mm": 0.0,
+          "maximum_edge_gradient": 0.0,
+          "maximum_neighbor_difference_mm": 0.0,
+          "new_intersection_pairs": [],
+          "normal_reversals": 0,
+          "vertex_count": 518
+        },
+        "T_03": {
+          "area_ratio_range": [
+            1.0,
+            1.0
+          ],
+          "degenerate_triangles": 0,
+          "incident_triangle_count": 824,
+          "maximum_displacement_mm": 0.0,
+          "maximum_edge_gradient": 0.0,
+          "maximum_neighbor_difference_mm": 0.0,
+          "new_intersection_pairs": [],
+          "normal_reversals": 0,
+          "vertex_count": 402
+        },
+        "T_04": {
+          "area_ratio_range": [
+            1.0,
+            1.0
+          ],
+          "degenerate_triangles": 0,
+          "incident_triangle_count": 745,
+          "maximum_displacement_mm": 0.0,
+          "maximum_edge_gradient": 0.0,
+          "maximum_neighbor_difference_mm": 0.0,
+          "new_intersection_pairs": [],
+          "normal_reversals": 0,
+          "vertex_count": 359
+        }
+      },
+      "maximum_displacement_mm": 0.0,
+      "maximum_edge_gradient": 0.0,
+      "maximum_face_normal_rotation_deg": 1.9090959104164224e-06,
+      "maximum_neighbor_difference_mm": 0.0,
+      "minimum_triangle_area_mm2": 6.259194728214461e-05,
+      "minimum_triangle_quality": 0.010951858362169284,
+      "new_intersection_pairs": [],
+      "normal_length_range": [
+        0.9999999999999997,
+        1.0000000000000002
+      ],
+      "normal_reversals": 0,
+      "removed_baseline_pairs": [],
+      "volume_mm3": 19723.07736251959,
+      "watertight": true,
+      "winding_consistent": true
+    },
+    {
+      "area_ratio_range": [
+        0.9837082837365939,
+        1.069886575057884
+      ],
+      "degenerate_triangles": 0,
+      "fill": 0.25,
+      "finite_vertices_and_normals": true,
+      "fixed_ports": {
+        "BLADDER": {
+          "coordinates_exactly_unchanged": true,
+          "maximum_displacement_mm": 0.0,
+          "vertices": 2793
+        },
+        "IN_01": {
+          "coordinates_exactly_unchanged": true,
+          "maximum_displacement_mm": 0.0,
+          "vertices": 397
+        },
+        "IN_02": {
+          "coordinates_exactly_unchanged": true,
+          "maximum_displacement_mm": 0.0,
+          "vertices": 485
+        }
+      },
+      "intersection_pairs": [
+        [
+          1856,
+          1862
+        ]
+      ],
+      "local_regions": {
+        "BLADDER_INTERFACE": {
+          "area_ratio_range": [
+            0.9935158434153282,
+            1.0185084494781256
+          ],
+          "degenerate_triangles": 0,
+          "incident_triangle_count": 6666,
+          "maximum_displacement_mm": 0.04564244848797374,
+          "maximum_edge_gradient": 0.014915909490423386,
+          "maximum_neighbor_difference_mm": 0.014252265540051148,
+          "new_intersection_pairs": [],
+          "normal_reversals": 0,
+          "vertex_count": 3311
+        },
+        "B_32": {
+          "area_ratio_range": [
+            1.0,
+            1.0
+          ],
+          "degenerate_triangles": 0,
+          "incident_triangle_count": 1997,
+          "maximum_displacement_mm": 0.0,
+          "maximum_edge_gradient": 0.0,
+          "maximum_neighbor_difference_mm": 0.0,
+          "new_intersection_pairs": [],
+          "normal_reversals": 0,
+          "vertex_count": 920
+        },
+        "IN_01_INTERFACE": {
+          "area_ratio_range": [
+            1.0,
+            1.0
+          ],
+          "degenerate_triangles": 0,
+          "incident_triangle_count": 1385,
+          "maximum_displacement_mm": 0.0,
+          "maximum_edge_gradient": 0.0,
+          "maximum_neighbor_difference_mm": 0.0,
+          "new_intersection_pairs": [],
+          "normal_reversals": 0,
+          "vertex_count": 656
+        },
+        "IN_02_INTERFACE": {
+          "area_ratio_range": [
+            1.0,
+            1.0
+          ],
+          "degenerate_triangles": 0,
+          "incident_triangle_count": 1412,
+          "maximum_displacement_mm": 0.0,
+          "maximum_edge_gradient": 0.0,
+          "maximum_neighbor_difference_mm": 0.0,
+          "new_intersection_pairs": [],
+          "normal_reversals": 0,
+          "vertex_count": 676
+        },
+        "J_01": {
+          "area_ratio_range": [
+            0.9837082837365939,
+            1.0123370937916638
+          ],
+          "degenerate_triangles": 0,
+          "incident_triangle_count": 1992,
+          "maximum_displacement_mm": 0.04780659322578853,
+          "maximum_edge_gradient": 0.012885796342533153,
+          "maximum_neighbor_difference_mm": 0.01309030156564562,
+          "new_intersection_pairs": [],
+          "normal_reversals": 0,
+          "vertex_count": 899
+        },
+        "J_02": {
+          "area_ratio_range": [
+            0.9960377373328855,
+            1.024365265094627
+          ],
+          "degenerate_triangles": 0,
+          "incident_triangle_count": 2131,
+          "maximum_displacement_mm": 0.04160014223397692,
+          "maximum_edge_gradient": 0.02363678812331161,
+          "maximum_neighbor_difference_mm": 0.016482873196366987,
+          "new_intersection_pairs": [],
+          "normal_reversals": 0,
+          "vertex_count": 993
+        },
+        "J_05": {
+          "area_ratio_range": [
+            1.0,
+            1.0
+          ],
+          "degenerate_triangles": 0,
+          "incident_triangle_count": 1682,
+          "maximum_displacement_mm": 0.0,
+          "maximum_edge_gradient": 0.0,
+          "maximum_neighbor_difference_mm": 0.0,
+          "new_intersection_pairs": [],
+          "normal_reversals": 0,
+          "vertex_count": 752
+        },
+        "J_09": {
+          "area_ratio_range": [
+            1.0,
+            1.0
+          ],
+          "degenerate_triangles": 0,
+          "incident_triangle_count": 2064,
+          "maximum_displacement_mm": 0.0,
+          "maximum_edge_gradient": 0.0,
+          "maximum_neighbor_difference_mm": 0.0,
+          "new_intersection_pairs": [],
+          "normal_reversals": 0,
+          "vertex_count": 949
+        },
+        "T_01": {
+          "area_ratio_range": [
+            1.003727541193935,
+            1.051109022367278
+          ],
+          "degenerate_triangles": 0,
+          "incident_triangle_count": 940,
+          "maximum_displacement_mm": 0.04709480267196369,
+          "maximum_edge_gradient": 0.027771380672613123,
+          "maximum_neighbor_difference_mm": 0.016162524767798593,
+          "new_intersection_pairs": [],
+          "normal_reversals": 0,
+          "vertex_count": 454
+        },
+        "T_02": {
+          "area_ratio_range": [
+            0.9960377373328855,
+            1.069886575057884
+          ],
+          "degenerate_triangles": 0,
+          "incident_triangle_count": 1067,
+          "maximum_displacement_mm": 0.04649842610388665,
+          "maximum_edge_gradient": 0.02900388888222198,
+          "maximum_neighbor_difference_mm": 0.02102196306857108,
+          "new_intersection_pairs": [],
+          "normal_reversals": 0,
+          "vertex_count": 518
+        },
+        "T_03": {
+          "area_ratio_range": [
+            1.0087044183686247,
+            1.0462503165004475
+          ],
+          "degenerate_triangles": 0,
+          "incident_triangle_count": 824,
+          "maximum_displacement_mm": 0.044588828295513624,
+          "maximum_edge_gradient": 0.026783643257535638,
+          "maximum_neighbor_difference_mm": 0.017150594381575787,
+          "new_intersection_pairs": [],
+          "normal_reversals": 0,
+          "vertex_count": 402
+        },
+        "T_04": {
+          "area_ratio_range": [
+            1.0068949531939948,
+            1.0379871013303112
+          ],
+          "degenerate_triangles": 0,
+          "incident_triangle_count": 745,
+          "maximum_displacement_mm": 0.04604160122125322,
+          "maximum_edge_gradient": 0.025479117467848894,
+          "maximum_neighbor_difference_mm": 0.01822054700148471,
+          "new_intersection_pairs": [],
+          "normal_reversals": 0,
+          "vertex_count": 359
+        }
+      },
+      "maximum_displacement_mm": 0.05,
+      "maximum_edge_gradient": 0.02900388888222198,
+      "maximum_face_normal_rotation_deg": 3.184421575447467,
+      "maximum_neighbor_difference_mm": 0.02102196306857108,
+      "minimum_triangle_area_mm2": 6.259194728214461e-05,
+      "minimum_triangle_quality": 0.010951858362169284,
+      "new_intersection_pairs": [],
+      "normal_length_range": [
+        0.9999999999999997,
+        1.0000000000000002
+      ],
+      "normal_reversals": 0,
+      "removed_baseline_pairs": [],
+      "volume_mm3": 19820.56871283163,
+      "watertight": true,
+      "winding_consistent": true
+    },
+    {
+      "area_ratio_range": [
+        0.967694523727068,
+        1.1411926117978504
+      ],
+      "degenerate_triangles": 0,
+      "fill": 0.5,
+      "finite_vertices_and_normals": true,
+      "fixed_ports": {
+        "BLADDER": {
+          "coordinates_exactly_unchanged": true,
+          "maximum_displacement_mm": 0.0,
+          "vertices": 2793
+        },
+        "IN_01": {
+          "coordinates_exactly_unchanged": true,
+          "maximum_displacement_mm": 0.0,
+          "vertices": 397
+        },
+        "IN_02": {
+          "coordinates_exactly_unchanged": true,
+          "maximum_displacement_mm": 0.0,
+          "vertices": 485
+        }
+      },
+      "intersection_pairs": [
+        [
+          1856,
+          1862
+        ]
+      ],
+      "local_regions": {
+        "BLADDER_INTERFACE": {
+          "area_ratio_range": [
+            0.9872985576619859,
+            1.0370710348912942
+          ],
+          "degenerate_triangles": 0,
+          "incident_triangle_count": 6666,
+          "maximum_displacement_mm": 0.09128489697594748,
+          "maximum_edge_gradient": 0.02983181898084677,
+          "maximum_neighbor_difference_mm": 0.028504531080102296,
+          "new_intersection_pairs": [],
+          "normal_reversals": 0,
+          "vertex_count": 3311
+        },
+        "B_32": {
+          "area_ratio_range": [
+            1.0,
+            1.0
+          ],
+          "degenerate_triangles": 0,
+          "incident_triangle_count": 1997,
+          "maximum_displacement_mm": 0.0,
+          "maximum_edge_gradient": 0.0,
+          "maximum_neighbor_difference_mm": 0.0,
+          "new_intersection_pairs": [],
+          "normal_reversals": 0,
+          "vertex_count": 920
+        },
+        "IN_01_INTERFACE": {
+          "area_ratio_range": [
+            1.0,
+            1.0
+          ],
+          "degenerate_triangles": 0,
+          "incident_triangle_count": 1385,
+          "maximum_displacement_mm": 0.0,
+          "maximum_edge_gradient": 0.0,
+          "maximum_neighbor_difference_mm": 0.0,
+          "new_intersection_pairs": [],
+          "normal_reversals": 0,
+          "vertex_count": 656
+        },
+        "IN_02_INTERFACE": {
+          "area_ratio_range": [
+            1.0,
+            1.0
+          ],
+          "degenerate_triangles": 0,
+          "incident_triangle_count": 1412,
+          "maximum_displacement_mm": 0.0,
+          "maximum_edge_gradient": 0.0,
+          "maximum_neighbor_difference_mm": 0.0,
+          "new_intersection_pairs": [],
+          "normal_reversals": 0,
+          "vertex_count": 676
+        },
+        "J_01": {
+          "area_ratio_range": [
+            0.967694523727068,
+            1.0245260023131053
+          ],
+          "degenerate_triangles": 0,
+          "incident_triangle_count": 1992,
+          "maximum_displacement_mm": 0.09561318645157706,
+          "maximum_edge_gradient": 0.025771592685066305,
+          "maximum_neighbor_difference_mm": 0.02618060313129124,
+          "new_intersection_pairs": [],
+          "normal_reversals": 0,
+          "vertex_count": 899
+        },
+        "J_02": {
+          "area_ratio_range": [
+            0.992035846866075,
+            1.0486129480318327
+          ],
+          "degenerate_triangles": 0,
+          "incident_triangle_count": 2131,
+          "maximum_displacement_mm": 0.08320028446795384,
+          "maximum_edge_gradient": 0.04727357624662322,
+          "maximum_neighbor_difference_mm": 0.032965746392733974,
+          "new_intersection_pairs": [],
+          "normal_reversals": 0,
+          "vertex_count": 993
+        },
+        "J_05": {
+          "area_ratio_range": [
+            1.0,
+            1.0
+          ],
+          "degenerate_triangles": 0,
+          "incident_triangle_count": 1682,
+          "maximum_displacement_mm": 0.0,
+          "maximum_edge_gradient": 0.0,
+          "maximum_neighbor_difference_mm": 0.0,
+          "new_intersection_pairs": [],
+          "normal_reversals": 0,
+          "vertex_count": 752
+        },
+        "J_09": {
+          "area_ratio_range": [
+            1.0,
+            1.0
+          ],
+          "degenerate_triangles": 0,
+          "incident_triangle_count": 2064,
+          "maximum_displacement_mm": 0.0,
+          "maximum_edge_gradient": 0.0,
+          "maximum_neighbor_difference_mm": 0.0,
+          "new_intersection_pairs": [],
+          "normal_reversals": 0,
+          "vertex_count": 949
+        },
+        "T_01": {
+          "area_ratio_range": [
+            1.0074183085697257,
+            1.1035205430780777
+          ],
+          "degenerate_triangles": 0,
+          "incident_triangle_count": 940,
+          "maximum_displacement_mm": 0.09418960534392738,
+          "maximum_edge_gradient": 0.055542761345226246,
+          "maximum_neighbor_difference_mm": 0.032325049535597186,
+          "new_intersection_pairs": [],
+          "normal_reversals": 0,
+          "vertex_count": 454
+        },
+        "T_02": {
+          "area_ratio_range": [
+            0.992035846866075,
+            1.1411926117978504
+          ],
+          "degenerate_triangles": 0,
+          "incident_triangle_count": 1067,
+          "maximum_displacement_mm": 0.0929968522077733,
+          "maximum_edge_gradient": 0.05800777776444396,
+          "maximum_neighbor_difference_mm": 0.04204392613714216,
+          "new_intersection_pairs": [],
+          "normal_reversals": 0,
+          "vertex_count": 518
+        },
+        "T_03": {
+          "area_ratio_range": [
+            1.0173893016211737,
+            1.0934239680834987
+          ],
+          "degenerate_triangles": 0,
+          "incident_triangle_count": 824,
+          "maximum_displacement_mm": 0.08917765659102725,
+          "maximum_edge_gradient": 0.053567286515071276,
+          "maximum_neighbor_difference_mm": 0.03430118876315157,
+          "new_intersection_pairs": [],
+          "normal_reversals": 0,
+          "vertex_count": 402
+        },
+        "T_04": {
+          "area_ratio_range": [
+            1.0137237839349706,
+            1.0760157669273613
+          ],
+          "degenerate_triangles": 0,
+          "incident_triangle_count": 745,
+          "maximum_displacement_mm": 0.09208320244250644,
+          "maximum_edge_gradient": 0.05095823493569779,
+          "maximum_neighbor_difference_mm": 0.03644109400296942,
+          "new_intersection_pairs": [],
+          "normal_reversals": 0,
+          "vertex_count": 359
+        }
+      },
+      "maximum_displacement_mm": 0.1,
+      "maximum_edge_gradient": 0.05800777776444396,
+      "maximum_face_normal_rotation_deg": 6.440565056098216,
+      "maximum_neighbor_difference_mm": 0.04204392613714216,
+      "minimum_triangle_area_mm2": 6.259194728214461e-05,
+      "minimum_triangle_quality": 0.010951858362169284,
+      "new_intersection_pairs": [],
+      "normal_length_range": [
+        0.9999999999999997,
+        1.0000000000000002
+      ],
+      "normal_reversals": 0,
+      "removed_baseline_pairs": [],
+      "volume_mm3": 19919.0435662759,
+      "watertight": true,
+      "winding_consistent": true
+    },
+    {
+      "area_ratio_range": [
+        0.9519795278315561,
+        1.2139184470533162
+      ],
+      "degenerate_triangles": 0,
+      "fill": 0.75,
+      "finite_vertices_and_normals": true,
+      "fixed_ports": {
+        "BLADDER": {
+          "coordinates_exactly_unchanged": true,
+          "maximum_displacement_mm": 0.0,
+          "vertices": 2793
+        },
+        "IN_01": {
+          "coordinates_exactly_unchanged": true,
+          "maximum_displacement_mm": 0.0,
+          "vertices": 397
+        },
+        "IN_02": {
+          "coordinates_exactly_unchanged": true,
+          "maximum_displacement_mm": 0.0,
+          "vertices": 485
+        }
+      },
+      "intersection_pairs": [
+        [
+          1856,
+          1862
+        ]
+      ],
+      "local_regions": {
+        "BLADDER_INTERFACE": {
+          "area_ratio_range": [
+            0.981369453815678,
+            1.0556883709354241
+          ],
+          "degenerate_triangles": 0,
+          "incident_triangle_count": 6666,
+          "maximum_displacement_mm": 0.1369273454639212,
+          "maximum_edge_gradient": 0.04474772847127014,
+          "maximum_neighbor_difference_mm": 0.04275679662015345,
+          "new_intersection_pairs": [],
+          "normal_reversals": 0,
+          "vertex_count": 3311
+        },
+        "B_32": {
+          "area_ratio_range": [
+            1.0,
+            1.0
+          ],
+          "degenerate_triangles": 0,
+          "incident_triangle_count": 1997,
+          "maximum_displacement_mm": 0.0,
+          "maximum_edge_gradient": 0.0,
+          "maximum_neighbor_difference_mm": 0.0,
+          "new_intersection_pairs": [],
+          "normal_reversals": 0,
+          "vertex_count": 920
+        },
+        "IN_01_INTERFACE": {
+          "area_ratio_range": [
+            1.0,
+            1.0
+          ],
+          "degenerate_triangles": 0,
+          "incident_triangle_count": 1385,
+          "maximum_displacement_mm": 0.0,
+          "maximum_edge_gradient": 0.0,
+          "maximum_neighbor_difference_mm": 0.0,
+          "new_intersection_pairs": [],
+          "normal_reversals": 0,
+          "vertex_count": 656
+        },
+        "IN_02_INTERFACE": {
+          "area_ratio_range": [
+            1.0,
+            1.0
+          ],
+          "degenerate_triangles": 0,
+          "incident_triangle_count": 1412,
+          "maximum_displacement_mm": 0.0,
+          "maximum_edge_gradient": 0.0,
+          "maximum_neighbor_difference_mm": 0.0,
+          "new_intersection_pairs": [],
+          "normal_reversals": 0,
+          "vertex_count": 676
+        },
+        "J_01": {
+          "area_ratio_range": [
+            0.9519795278315561,
+            1.036565731080915
+          ],
+          "degenerate_triangles": 0,
+          "incident_triangle_count": 1992,
+          "maximum_displacement_mm": 0.14341977967736558,
+          "maximum_edge_gradient": 0.03865738902759948,
+          "maximum_neighbor_difference_mm": 0.03927090469693685,
+          "new_intersection_pairs": [],
+          "normal_reversals": 0,
+          "vertex_count": 899
+        },
+        "J_02": {
+          "area_ratio_range": [
+            0.9879415504661876,
+            1.0727437986932906
+          ],
+          "degenerate_triangles": 0,
+          "incident_triangle_count": 2131,
+          "maximum_displacement_mm": 0.12480042670193078,
+          "maximum_edge_gradient": 0.07091036436993482,
+          "maximum_neighbor_difference_mm": 0.049448619589100976,
+          "new_intersection_pairs": [],
+          "normal_reversals": 0,
+          "vertex_count": 993
+        },
+        "J_05": {
+          "area_ratio_range": [
+            1.0,
+            1.0
+          ],
+          "degenerate_triangles": 0,
+          "incident_triangle_count": 1682,
+          "maximum_displacement_mm": 0.0,
+          "maximum_edge_gradient": 0.0,
+          "maximum_neighbor_difference_mm": 0.0,
+          "new_intersection_pairs": [],
+          "normal_reversals": 0,
+          "vertex_count": 752
+        },
+        "J_09": {
+          "area_ratio_range": [
+            1.0,
+            1.0
+          ],
+          "degenerate_triangles": 0,
+          "incident_triangle_count": 2064,
+          "maximum_displacement_mm": 0.0,
+          "maximum_edge_gradient": 0.0,
+          "maximum_neighbor_difference_mm": 0.0,
+          "new_intersection_pairs": [],
+          "normal_reversals": 0,
+          "vertex_count": 949
+        },
+        "T_01": {
+          "area_ratio_range": [
+            1.0110721773292501,
+            1.1572336905918932
+          ],
+          "degenerate_triangles": 0,
+          "incident_triangle_count": 940,
+          "maximum_displacement_mm": 0.14128440801589107,
+          "maximum_edge_gradient": 0.08331414201783935,
+          "maximum_neighbor_difference_mm": 0.04848757430339578,
+          "new_intersection_pairs": [],
+          "normal_reversals": 0,
+          "vertex_count": 454
+        },
+        "T_02": {
+          "area_ratio_range": [
+            0.9879940579628351,
+            1.2139184470533162
+          ],
+          "degenerate_triangles": 0,
+          "incident_triangle_count": 1067,
+          "maximum_displacement_mm": 0.13949527831165998,
+          "maximum_edge_gradient": 0.08701166664666649,
+          "maximum_neighbor_difference_mm": 0.06306588920571324,
+          "new_intersection_pairs": [],
+          "normal_reversals": 0,
+          "vertex_count": 518
+        },
+        "T_03": {
+          "area_ratio_range": [
+            1.0260551063286023,
+            1.1415156293347926
+          ],
+          "degenerate_triangles": 0,
+          "incident_triangle_count": 824,
+          "maximum_displacement_mm": 0.13376648488654086,
+          "maximum_edge_gradient": 0.080350929772607,
+          "maximum_neighbor_difference_mm": 0.05145178314472735,
+          "new_intersection_pairs": [],
+          "normal_reversals": 0,
+          "vertex_count": 402
+        },
+        "T_04": {
+          "area_ratio_range": [
+            1.0204863879141144,
+            1.1149630380595568
+          ],
+          "degenerate_triangles": 0,
+          "incident_triangle_count": 745,
+          "maximum_displacement_mm": 0.13812480366375965,
+          "maximum_edge_gradient": 0.0764373524035467,
+          "maximum_neighbor_difference_mm": 0.05466164100445413,
+          "new_intersection_pairs": [],
+          "normal_reversals": 0,
+          "vertex_count": 359
+        }
+      },
+      "maximum_displacement_mm": 0.15000000000000002,
+      "maximum_edge_gradient": 0.08701166664666649,
+      "maximum_face_normal_rotation_deg": 9.749267304693474,
+      "maximum_neighbor_difference_mm": 0.06306588920571324,
+      "minimum_triangle_area_mm2": 6.259194728214461e-05,
+      "minimum_triangle_quality": 0.010951858362169284,
+      "new_intersection_pairs": [],
+      "normal_length_range": [
+        0.9999999999999997,
+        1.0000000000000002
+      ],
+      "normal_reversals": 0,
+      "removed_baseline_pairs": [],
+      "volume_mm3": 20018.502688421017,
+      "watertight": true,
+      "winding_consistent": true
+    },
+    {
+      "area_ratio_range": [
+        0.9365852900410238,
+        1.2880644176644032
+      ],
+      "degenerate_triangles": 0,
+      "fill": 1.0,
+      "finite_vertices_and_normals": true,
+      "fixed_ports": {
+        "BLADDER": {
+          "coordinates_exactly_unchanged": true,
+          "maximum_displacement_mm": 0.0,
+          "vertices": 2793
+        },
+        "IN_01": {
+          "coordinates_exactly_unchanged": true,
+          "maximum_displacement_mm": 0.0,
+          "vertices": 397
+        },
+        "IN_02": {
+          "coordinates_exactly_unchanged": true,
+          "maximum_displacement_mm": 0.0,
+          "vertices": 485
+        }
+      },
+      "intersection_pairs": [
+        [
+          1856,
+          1862
+        ]
+      ],
+      "local_regions": {
+        "BLADDER_INTERFACE": {
+          "area_ratio_range": [
+            0.9757504419080537,
+            1.0743610732639335
+          ],
+          "degenerate_triangles": 0,
+          "incident_triangle_count": 6666,
+          "maximum_displacement_mm": 0.18256979395189496,
+          "maximum_edge_gradient": 0.05966363796169354,
+          "maximum_neighbor_difference_mm": 0.05700906216020459,
+          "new_intersection_pairs": [],
+          "normal_reversals": 0,
+          "vertex_count": 3311
+        },
+        "B_32": {
+          "area_ratio_range": [
+            1.0,
+            1.0
+          ],
+          "degenerate_triangles": 0,
+          "incident_triangle_count": 1997,
+          "maximum_displacement_mm": 0.0,
+          "maximum_edge_gradient": 0.0,
+          "maximum_neighbor_difference_mm": 0.0,
+          "new_intersection_pairs": [],
+          "normal_reversals": 0,
+          "vertex_count": 920
+        },
+        "IN_01_INTERFACE": {
+          "area_ratio_range": [
+            1.0,
+            1.0
+          ],
+          "degenerate_triangles": 0,
+          "incident_triangle_count": 1385,
+          "maximum_displacement_mm": 0.0,
+          "maximum_edge_gradient": 0.0,
+          "maximum_neighbor_difference_mm": 0.0,
+          "new_intersection_pairs": [],
+          "normal_reversals": 0,
+          "vertex_count": 656
+        },
+        "IN_02_INTERFACE": {
+          "area_ratio_range": [
+            1.0,
+            1.0
+          ],
+          "degenerate_triangles": 0,
+          "incident_triangle_count": 1412,
+          "maximum_displacement_mm": 0.0,
+          "maximum_edge_gradient": 0.0,
+          "maximum_neighbor_difference_mm": 0.0,
+          "new_intersection_pairs": [],
+          "normal_reversals": 0,
+          "vertex_count": 676
+        },
+        "J_01": {
+          "area_ratio_range": [
+            0.9365852900410238,
+            1.0484553495944244
+          ],
+          "degenerate_triangles": 0,
+          "incident_triangle_count": 1992,
+          "maximum_displacement_mm": 0.1912263729031541,
+          "maximum_edge_gradient": 0.05154318537013261,
+          "maximum_neighbor_difference_mm": 0.05236120626258248,
+          "new_intersection_pairs": [],
+          "normal_reversals": 0,
+          "vertex_count": 899
+        },
+        "J_02": {
+          "area_ratio_range": [
+            0.9835496971579548,
+            1.0967586494998078
+          ],
+          "degenerate_triangles": 0,
+          "incident_triangle_count": 2131,
+          "maximum_displacement_mm": 0.16640056893590768,
+          "maximum_edge_gradient": 0.09454715249324644,
+          "maximum_neighbor_difference_mm": 0.06593149278546795,
+          "new_intersection_pairs": [],
+          "normal_reversals": 0,
+          "vertex_count": 993
+        },
+        "J_05": {
+          "area_ratio_range": [
+            1.0,
+            1.0
+          ],
+          "degenerate_triangles": 0,
+          "incident_triangle_count": 1682,
+          "maximum_displacement_mm": 0.0,
+          "maximum_edge_gradient": 0.0,
+          "maximum_neighbor_difference_mm": 0.0,
+          "new_intersection_pairs": [],
+          "normal_reversals": 0,
+          "vertex_count": 752
+        },
+        "J_09": {
+          "area_ratio_range": [
+            1.0,
+            1.0
+          ],
+          "degenerate_triangles": 0,
+          "incident_triangle_count": 2064,
+          "maximum_displacement_mm": 0.0,
+          "maximum_edge_gradient": 0.0,
+          "maximum_neighbor_difference_mm": 0.0,
+          "new_intersection_pairs": [],
+          "normal_reversals": 0,
+          "vertex_count": 949
+        },
+        "T_01": {
+          "area_ratio_range": [
+            1.0146890282866212,
+            1.2122476875587562
+          ],
+          "degenerate_triangles": 0,
+          "incident_triangle_count": 940,
+          "maximum_displacement_mm": 0.18837921068785476,
+          "maximum_edge_gradient": 0.11108552269045249,
+          "maximum_neighbor_difference_mm": 0.06465009907119437,
+          "new_intersection_pairs": [],
+          "normal_reversals": 0,
+          "vertex_count": 454
+        },
+        "T_02": {
+          "area_ratio_range": [
+            0.983912103479613,
+            1.2880644176644032
+          ],
+          "degenerate_triangles": 0,
+          "incident_triangle_count": 1067,
+          "maximum_displacement_mm": 0.1859937044155466,
+          "maximum_edge_gradient": 0.11601555552888793,
+          "maximum_neighbor_difference_mm": 0.08408785227428432,
+          "new_intersection_pairs": [],
+          "normal_reversals": 0,
+          "vertex_count": 518
+        },
+        "T_03": {
+          "area_ratio_range": [
+            1.0347023093931405,
+            1.1905206142818299
+          ],
+          "degenerate_triangles": 0,
+          "incident_triangle_count": 824,
+          "maximum_displacement_mm": 0.1783553131820545,
+          "maximum_edge_gradient": 0.10713457303014255,
+          "maximum_neighbor_difference_mm": 0.06860237752630315,
+          "new_intersection_pairs": [],
+          "normal_reversals": 0,
+          "vertex_count": 402
+        },
+        "T_04": {
+          "area_ratio_range": [
+            1.0271826677038778,
+            1.1546060571211396
+          ],
+          "degenerate_triangles": 0,
+          "incident_triangle_count": 745,
+          "maximum_displacement_mm": 0.18416640488501287,
+          "maximum_edge_gradient": 0.10191646987139558,
+          "maximum_neighbor_difference_mm": 0.07288218800593883,
+          "new_intersection_pairs": [],
+          "normal_reversals": 0,
+          "vertex_count": 359
+        }
+      },
+      "maximum_displacement_mm": 0.2,
+      "maximum_edge_gradient": 0.11601555552888793,
+      "maximum_face_normal_rotation_deg": 13.089356840899454,
+      "maximum_neighbor_difference_mm": 0.08408785227428432,
+      "minimum_triangle_area_mm2": 6.259194728214461e-05,
+      "minimum_triangle_quality": 0.010951858362169284,
+      "new_intersection_pairs": [],
+      "normal_length_range": [
+        0.9999999999999997,
+        1.0000000000000002
+      ],
+      "normal_reversals": 0,
+      "removed_baseline_pairs": [],
+      "volume_mm3": 20118.946844835587,
+      "watertight": true,
+      "winding_consistent": true
+    }
+  ],
+  "schema_version": "1.0",
+  "sources": {
+    "builder": {
+      "path": "tools/build_cavity_morph_states.py",
+      "sha256": "76682192243e2d7af65d8777c14427b16d551aec0e091a24d69c66fd0829a922"
+    },
+    "p12_report": {
+      "path": "deformation/p1_masks/surface_mask_report.json",
+      "sha256": "45e0af44fd74ea1d55247d2f1cdbceff1621026178e06ffdc69c9e83bdd89dcb"
+    },
+    "p13_displacement": {
+      "path": "deformation/p13_static/displacement.npy",
+      "sha256": "a2595598fc2f00a45ca7fc14ac7be196d5397a51fd2ae175ee5d61375e4690b9"
+    },
+    "p13_report": {
+      "path": "deformation/p13_static/displacement_report.json",
+      "sha256": "7d7b86857abcdcb61d9a294cdb53f15f697603a0cd52acb714d909db30b27b78"
+    },
+    "resolved": {
+      "path": "deformation/cavity_topology_resolved.json",
+      "sha256": "71e862f96b39a3270c432a4ebf7b5292ccc04a4df4f860578e23700dbd488443"
+    }
+  },
+  "states": {
+    "expanded": 1.0,
+    "mid": 0.5,
+    "reference": 0.0
+  },
+  "status": "P1_4_VALIDATED_PENDING_USER_REVIEW",
+  "triangle_count": 50044,
+  "unit": "mm",
+  "user_accepted_input": "P1.3 accepted by user for MAIN, J_01/J_02, T_01..T_04; B_32 remains inactive.",
+  "vertex_count": 25024,
+  "volume_strictly_increasing_at_samples": true
+}
