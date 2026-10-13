@@ -2,6 +2,12 @@
   "area_method": "one third of triangle area per incident vertex",
   "area_partition_error_mm2": 0.0,
   "configuration": {
+    "in01_topology": {
+      "junction_collar_fraction": 0.15,
+      "junction_collar_max_mm": 1.5,
+      "smoothing_strength": 8.0,
+      "surface_feather_mm": 2.4
+    },
     "radius_edge_padding": 0.5,
     "radius_multiplier": 1.2,
     "radius_probe_fractions": [
@@ -16,6 +22,15 @@
   },
   "coordinate_system": "cavity_mesh_local",
   "fixed_weight_max_abs": 0.0,
+  "input_validation": {
+    "current_markers": {
+      "path": "deformation/irrigation_markers.json",
+      "sha256": "658ae10df115929495aca5838a79436776121bf6922911eb472c5258b0b7e662"
+    },
+    "geometry_and_provenance_match": false,
+    "note": "Marker export metadata/hash changed; every resolved geometric field is unchanged. Resolved source file preserved.",
+    "resolved_geometry_matches_current_export": true
+  },
   "limits": [
     "Masks require user visual review at port cut planes and J_05/J_09.",
     "Edge-graph distance approximates continuous surface geodesic distance.",
@@ -28,21 +43,25 @@
     "expandable": "All remaining surface vertices; weight exactly one.",
     "fixed": "Distal seed flood fill on mesh edges, constrained by BASE plane, adjacent path ownership and ray/core-adaptive radial envelope; includes distal cap and rejects disconnected Voronoi islands.",
     "path_owner": "Nearest declared polyline, diagnostic only; not certified anatomical segmentation.",
-    "transition": "Multi-source shortest edge distance from each fixed wall, smoothstep over that port's own transition arc length; minimum across ports."
+    "transition": "IN_01: topology-connected B_31/J_05 corridor, restricted geodesic propagation times intrinsic smoothstep support feather. Other ports: unchanged surface-geodesic smoothstep. Minimum across constrained fields."
   },
   "outputs": {
     "faces.npy": "dbf4771365f42398f329100e695dc8580f8c038c557c671c02724bff45b29c3d",
-    "fixed_port_owner.npy": "5d591e679c9f1d7328097334fb942b5423f50a30f4133124c2d1c46ef8eea16a",
-    "mask_preview.bin": "9cc2966cbb5c3a81273a0f6e71d53f40f5fd9fe68fd98bc0cc65c5bab3d4aca8",
+    "fixed_port_owner.npy": "973892841f3346fc7262a4df1e058fb57f81dfc0c9e586686a3a0efd93945d1a",
+    "in01_surface_support.npy": "47e94427a7975449c40d3f40c57baa2b8b42c817e00df7cd7bbefec49134e95c",
+    "in01_transition_domain.npy": "f89b0662ff77dc3f9ee3fa3497250550b42ddf40b91f9dadc03d6d8592b1f41e",
+    "in01_unconstrained_weights.npy": "4907149be6c1fdd0426a0caf4de5ad24265a1431112f41e1e06d983f45d81f39",
+    "mask_preview.bin": "3b03b0251b63ed649c26c32210067259a0653247df83247059066595439553da",
     "normals.npy": "4bd8f6939252ed33a2a2c41a40b540447a205dc462387e80537e489bd421c6c7",
-    "path_arc_mm.npy": "4cd94cf255c370389495533a57a516a90df2a1a75dabea94136d7964353c2cb7",
-    "path_owner.npy": "2b446ef421f21357acc9f033e8f924de5436aae1766e2d08588acfff51e20052",
-    "port_fixed_masks.npy": "72c453fc171bf2f25efed77668b1cf040408f3be026c8ba3fa718daf971f9d0d",
-    "port_weights.npy": "92b9686bfb84b1c7f4b41f3107a7da93dc83dcb42a0286641fcd8ae19f6f0548",
-    "regions.npy": "efa2c1070ee1b94a0e23c710809eb902bc70bf2c0e54edd8ddd9d3a659cb05a4",
+    "path_arc_mm.npy": "174f25ebe2217a9b704d6a6da73c1689b6d218f5136000711aa0a473c15462b0",
+    "path_owner.npy": "7b92ab9e4686764022f0e084a2d78da1eb789a564cad20fa3e903c5d4029ce5b",
+    "port_fixed_masks.npy": "6a5969b840fb04a8c8ec8e5e42d901d85ac562255ccc1fd2fcb0d1d36527f2e9",
+    "port_weights.bin": "a095d2a8e5e624c7843db9eab1daef0a3cbe8967ac0320f469496911f3d9ca54",
+    "port_weights.npy": "2b1dc440201362f03b4010b66fc1633bb6ec3e5318c9c8634b54faa0f05355ef",
+    "regions.npy": "7b8a846dce5e7276561e4b201ed5eaa3ed2f5ffde6778c8a62216a32ed3b928e",
     "vertex_area_mm2.npy": "2a9f82d359965893588da5a953ac0289c1a0e5dd379bbbac4db62f99c949332f",
     "vertices.npy": "f137add4c401fe63851565f913a93968c9b11e18e630722ed42a21b4d0842fa1",
-    "weights.npy": "6a13549df0b6ab84e4f737e72a9fe61ad224262526c14ce13381f87baeaebab4"
+    "weights.npy": "ce6ff7e4a1c45e4d162941131e4da1ba6c83fb5869875cf7b051be981578acfb"
   },
   "ports": [
     {
@@ -74,31 +93,163 @@
       "unfixed_seed_connected_port_vertices": 0
     },
     {
-      "boundary_edges": 46,
+      "boundary_edges": 48,
       "discarded_disconnected_eligible_vertices": 0,
       "disconnected_distal_voronoi_vertices": 0,
-      "distal_seed_core_vertices": 416,
-      "fixed_area_mm2": 184.59683539409411,
+      "distal_seed_core_vertices": 396,
+      "fixed_area_mm2": 174.6978776220903,
       "fixed_axial_range_mm": [
-        0.04982008931280134,
-        16.263090017942066
+        0.025622333959951855,
+        15.559898060301947
       ],
-      "fixed_envelope_radius_mm": 2.823409382269493,
+      "fixed_envelope_radius_mm": 2.719216934607139,
       "fixed_path_id": "IN_01",
-      "fixed_vertices": 420,
+      "fixed_vertices": 397,
       "id": "IN_01",
-      "maximum_transition_neighbor_weight_jump": 0.19715853218189006,
-      "radius_probe_p95_mm": 2.019951820373535,
+      "maximum_transition_neighbor_weight_jump": 0.42483616156409487,
+      "radius_probe_p95_mm": 1.9331247806549072,
       "radius_probe_range_mm": [
-        1.4895261526107788,
-        2.110736846923828
+        1.5402052402496338,
+        2.099149227142334
       ],
       "seed_vertex": 8129,
-      "surface_transition_support_length_mm": 9.205128249012258,
-      "transition_area_before_overlap_mm2": 334.25510441021066,
-      "transition_centerline_length_mm": 9.205128249012258,
+      "surface_transition_support_length_mm": 9.88207428515873,
+      "topology_constraint": {
+        "boundary_vertices": 90,
+        "branches": [
+          {
+            "affected_below_0_99": 0,
+            "affected_branch_progress_range_mm": [
+              0.7281757515485552,
+              3.3998559639469734
+            ],
+            "affected_count": 42,
+            "far_branch_affected_count": 0,
+            "far_branch_vertices": 68,
+            "id": "B_11",
+            "junction_collar_mm": 1.1923670972611702,
+            "mean_weight": 0.9995229816488443,
+            "minimum_weight": 0.9915536507749156,
+            "surface_feather_mm": 2.4,
+            "vertex_count": 118
+          },
+          {
+            "affected_below_0_99": 0,
+            "affected_branch_progress_range_mm": [],
+            "affected_count": 0,
+            "far_branch_affected_count": 0,
+            "far_branch_vertices": 641,
+            "id": "B_12",
+            "junction_collar_mm": 1.4823111427738094,
+            "mean_weight": 1.0,
+            "minimum_weight": 1.0,
+            "surface_feather_mm": 2.4,
+            "vertex_count": 651
+          },
+          {
+            "affected_below_0_99": 0,
+            "affected_branch_progress_range_mm": [],
+            "affected_count": 0,
+            "far_branch_affected_count": 0,
+            "far_branch_vertices": 568,
+            "id": "B_13",
+            "junction_collar_mm": 1.4823111427738094,
+            "mean_weight": 1.0,
+            "minimum_weight": 1.0,
+            "surface_feather_mm": 2.4,
+            "vertex_count": 568
+          },
+          {
+            "affected_below_0_99": 10,
+            "affected_branch_progress_range_mm": [
+              0.6668697335901367,
+              3.7572692874088447
+            ],
+            "affected_count": 27,
+            "far_branch_affected_count": 0,
+            "far_branch_vertices": 669,
+            "id": "B_14",
+            "junction_collar_mm": 1.4823111427738094,
+            "mean_weight": 0.9994798938993712,
+            "minimum_weight": 0.9305449632306682,
+            "surface_feather_mm": 2.4,
+            "vertex_count": 705
+          },
+          {
+            "affected_below_0_99": 0,
+            "affected_branch_progress_range_mm": [
+              2.6440792436474267,
+              2.6440792436474267
+            ],
+            "affected_count": 1,
+            "far_branch_affected_count": 0,
+            "far_branch_vertices": 621,
+            "id": "B_15",
+            "junction_collar_mm": 1.4823111427738094,
+            "mean_weight": 0.9999998583995621,
+            "minimum_weight": 0.9999110749249007,
+            "surface_feather_mm": 2.4,
+            "vertex_count": 628
+          },
+          {
+            "affected_below_0_99": 0,
+            "affected_branch_progress_range_mm": [],
+            "affected_count": 0,
+            "far_branch_affected_count": 0,
+            "far_branch_vertices": 649,
+            "id": "B_16",
+            "junction_collar_mm": 1.4823111427738094,
+            "mean_weight": 1.0,
+            "minimum_weight": 1.0,
+            "surface_feather_mm": 2.4,
+            "vertex_count": 650
+          },
+          {
+            "affected_below_0_99": 0,
+            "affected_branch_progress_range_mm": [],
+            "affected_count": 0,
+            "far_branch_affected_count": 0,
+            "far_branch_vertices": 604,
+            "id": "B_17",
+            "junction_collar_mm": 1.4823111427738094,
+            "mean_weight": 1.0,
+            "minimum_weight": 1.0,
+            "surface_feather_mm": 2.4,
+            "vertex_count": 606
+          },
+          {
+            "affected_below_0_99": 11,
+            "affected_branch_progress_range_mm": [
+              0.7867156123060807,
+              3.5705203714766482
+            ],
+            "affected_count": 29,
+            "far_branch_affected_count": 0,
+            "far_branch_vertices": 528,
+            "id": "B_18",
+            "junction_collar_mm": 1.4823111427738094,
+            "mean_weight": 0.9993103032863956,
+            "minimum_weight": 0.9355333595240658,
+            "surface_feather_mm": 2.4,
+            "vertex_count": 565
+          }
+        ],
+        "discarded_disconnected_domain_vertices": 0,
+        "domain_vertices": 843,
+        "hard_zero_to_one_edges": 0,
+        "junction": "J_05",
+        "maximum_exterior_boundary_jump": 0.0055203675118038475,
+        "maximum_neighbor_weight_jump": 0.42483616156409487,
+        "maximum_ownership_seam_jump": 0.3847643747211096,
+        "method": "topology_corridor_gate_screened_smoothing",
+        "neutral_recovery_width_mm": 2.2161212659287512,
+        "noncorridor_blended_vertices": 99,
+        "protected_natural_vertices": 24287
+      },
+      "transition_area_before_overlap_mm2": 127.35523405054357,
+      "transition_centerline_length_mm": 9.88207428515873,
       "transition_path_id": "B_31",
-      "transition_vertices_before_overlap": 766,
+      "transition_vertices_before_overlap": 296,
       "unfixed_seed_connected_port_vertices": 0
     },
     {
@@ -132,7 +283,7 @@
   ],
   "regions": [
     {
-      "area_mm2": 1628.2947690861567,
+      "area_mm2": 1618.395811314153,
       "color": [
         0.18,
         0.48,
@@ -140,10 +291,10 @@
       ],
       "id": 0,
       "name": "fixed",
-      "vertices": 3698
+      "vertices": 3675
     },
     {
-      "area_mm2": 580.0180794113237,
+      "area_mm2": 373.1182090516566,
       "color": [
         1.0,
         0.62,
@@ -151,10 +302,10 @@
       ],
       "id": 1,
       "name": "transition",
-      "vertices": 1356
+      "vertices": 886
     },
     {
-      "area_mm2": 8603.921496133791,
+      "area_mm2": 8820.720324265461,
       "color": [
         0.2,
         0.84,
@@ -162,19 +313,19 @@
       ],
       "id": 2,
       "name": "expandable",
-      "vertices": 19970
+      "vertices": 20463
     }
   ],
   "review_notes": [
     "B_32 uses its 2.84 mm local support; inspect the coarse-mesh weight gradient before deformation.",
     "IN_02 has disconnected nearest-path islands; they are excluded from the port fixed seed component."
   ],
-  "schema_version": "1.0",
+  "schema_version": "1.1",
   "source_geometry_modified": false,
   "sources": {
     "builder": {
       "path": "tools/build_cavity_surface_masks.py",
-      "sha256": "97dace60bb737971f63db107c3e9be63cb1a7dc85c37ef00f9e5c8674b87e956"
+      "sha256": "3685c47431cae66f2d700766b6e85be8ce4d38f48002d67a9b8bcf45db4b0360"
     },
     "cavity_mesh": {
       "path": "source_assets/kidney_cavity.obj",
@@ -182,14 +333,14 @@
     },
     "configuration": {
       "path": "deformation/surface_mask_config.json",
-      "sha256": "6be5229a7f04bd751fd7babf397efa8d623279e61209a90ad9452745173e234a"
+      "sha256": "8d3ba1853c42e3842f9e2bb72bca7df0ace2d32b46eb7afc89816503ae847d5b"
     },
     "resolved": {
       "path": "deformation/cavity_topology_resolved.json",
-      "sha256": "c32e82b57074950697601758e498c9fa6ca2699a1367383f3be28ef7478f4650"
+      "sha256": "71e862f96b39a3270c432a4ebf7b5292ccc04a4df4f860578e23700dbd488443"
     }
   },
-  "status": "P1_2_INITIAL_MASKS_PENDING_VISUAL_REVIEW",
+  "status": "P1_2_TOPOLOGY_TRANSITION_FIX_PENDING_VISUAL_REVIEW",
   "surface_components": 1,
   "total_area_mm2": 10812.234344631272,
   "triangle_count": 50044,

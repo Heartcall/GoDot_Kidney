@@ -1,0 +1,145 @@
+{
+  "affected_definition": "weight < 1 - 1e-8; column below_0_99 distinguishes visible influence",
+  "after_in01_port_weight_sha256": "36f616006d79d34abd20e61ad1faae1ebc8f391016dc88be42c777b540a8f706",
+  "after_total_in01_affected": 296,
+  "before_in01_port_weight_sha256": "e4dbd22233a7d3745a761dc3dac4089ec9b1f23303a1ac9ff96706ab7e055b61",
+  "before_total_in01_affected": 787,
+  "branch_membership": "same nearest-polyline ownership for before and after; no marker or ownership changes",
+  "branches": [
+    {
+      "after": {
+        "affected_below_0_99": 0,
+        "affected_count": 0,
+        "mean_weight": 1.0,
+        "minimum_weight": 1.0,
+        "vertex_count": 651
+      },
+      "before": {
+        "affected_below_0_99": 0,
+        "affected_count": 0,
+        "mean_weight": 1.0,
+        "minimum_weight": 1.0,
+        "vertex_count": 651
+      },
+      "id": "B_12"
+    },
+    {
+      "after": {
+        "affected_below_0_99": 0,
+        "affected_count": 0,
+        "mean_weight": 1.0,
+        "minimum_weight": 1.0,
+        "vertex_count": 568
+      },
+      "before": {
+        "affected_below_0_99": 106,
+        "affected_count": 121,
+        "mean_weight": 0.9635726648141095,
+        "minimum_weight": 0.4196705726649314,
+        "vertex_count": 568
+      },
+      "id": "B_13"
+    },
+    {
+      "after": {
+        "affected_below_0_99": 10,
+        "affected_count": 27,
+        "mean_weight": 0.9994798938993712,
+        "minimum_weight": 0.9305449632306682,
+        "vertex_count": 705
+      },
+      "before": {
+        "affected_below_0_99": 113,
+        "affected_count": 140,
+        "mean_weight": 0.9730069160636794,
+        "minimum_weight": 0.4179855931920836,
+        "vertex_count": 705
+      },
+      "id": "B_14"
+    },
+    {
+      "after": {
+        "affected_below_0_99": 0,
+        "affected_count": 1,
+        "mean_weight": 0.9999998583995621,
+        "minimum_weight": 0.9999110749249007,
+        "vertex_count": 628
+      },
+      "before": {
+        "affected_below_0_99": 0,
+        "affected_count": 0,
+        "mean_weight": 1.0,
+        "minimum_weight": 1.0,
+        "vertex_count": 628
+      },
+      "id": "B_15"
+    },
+    {
+      "after": {
+        "affected_below_0_99": 0,
+        "affected_count": 0,
+        "mean_weight": 1.0,
+        "minimum_weight": 1.0,
+        "vertex_count": 650
+      },
+      "before": {
+        "affected_below_0_99": 0,
+        "affected_count": 0,
+        "mean_weight": 1.0,
+        "minimum_weight": 1.0,
+        "vertex_count": 650
+      },
+      "id": "B_16"
+    },
+    {
+      "after": {
+        "affected_below_0_99": 0,
+        "affected_count": 0,
+        "mean_weight": 1.0,
+        "minimum_weight": 1.0,
+        "vertex_count": 606
+      },
+      "before": {
+        "affected_below_0_99": 47,
+        "affected_count": 63,
+        "mean_weight": 0.9887194848949054,
+        "minimum_weight": 0.6069331705688416,
+        "vertex_count": 606
+      },
+      "id": "B_17"
+    },
+    {
+      "after": {
+        "affected_below_0_99": 11,
+        "affected_count": 29,
+        "mean_weight": 0.9993103032863956,
+        "minimum_weight": 0.9355333595240658,
+        "vertex_count": 565
+      },
+      "before": {
+        "affected_below_0_99": 231,
+        "affected_count": 266,
+        "mean_weight": 0.9002551820944552,
+        "minimum_weight": 0.14086404964951518,
+        "vertex_count": 565
+      },
+      "id": "B_18"
+    }
+  ],
+  "checks": {
+    "all_fixed_weights_zero": true,
+    "b32_port_weights_identical": true,
+    "bladder_port_weights_identical": true,
+    "fixed_masks_unchanged": true
+  },
+  "fixed_vertex_count": 3675,
+  "preserved_array_sha256": {
+    "faces.npy": "dbf4771365f42398f329100e695dc8580f8c038c557c671c02724bff45b29c3d",
+    "fixed_port_owner.npy": "973892841f3346fc7262a4df1e058fb57f81dfc0c9e586686a3a0efd93945d1a",
+    "path_owner.npy": "7b92ab9e4686764022f0e084a2d78da1eb789a564cad20fa3e903c5d4029ce5b",
+    "port_fixed_masks.npy": "6a5969b840fb04a8c8ec8e5e42d901d85ac562255ccc1fd2fcb0d1d36527f2e9",
+    "vertices.npy": "f137add4c401fe63851565f913a93968c9b11e18e630722ed42a21b4d0842fa1"
+  },
+  "schema_version": "1.0",
+  "status": "P1_2_FIX_PENDING_USER_VISUAL_REVIEW"
+}

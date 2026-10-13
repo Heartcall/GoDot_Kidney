@@ -36,7 +36,7 @@ mesh = ExtResource("2_tissue")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 50.451035, 22.7836, -48.259903)
 
 [node name="P_IN_01_BASE" type="Marker3D" parent="00_ArtificialPorts/WaterInlet01" unique_id=1642033035]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 36.30771, 20.354427, -54.150013)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 36.999004, 20.354427, -53.97397)
 
 [node name="WaterInlet02" type="Node3D" parent="00_ArtificialPorts" unique_id=287577678]
 
@@ -252,7 +252,7 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 26.532717, 26.778366, -53.611
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 31.29596, 19.180891, -49.875206)
 
 [node name="B_31_P01" type="Marker3D" parent="04_Branches/From_J05" unique_id=276266020]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 32.262287, 19.01728, -55.890762)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 32.607933, 19.01728, -55.80274)
 
 [node name="From_J06" type="Node3D" parent="04_Branches" unique_id=1277709502 node_paths=PackedStringArray("start_marker", "end_marker")]
 script = ExtResource("3_l5ni4")

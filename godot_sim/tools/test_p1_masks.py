@@ -4,6 +4,7 @@ from __future__ import annotations
 import copy
 import hashlib
 import struct
+import tempfile
 import unittest
 
 import numpy as np
@@ -11,7 +12,8 @@ from scipy import sparse
 from scipy.sparse import csgraph
 
 from resolve_cavity_topology import PROJECT, build, json_bytes, read_json, resolve
-from build_cavity_surface_masks import load_obj, mesh_graph, transition_weights, connected_from_seed
+from build_cavity_surface_masks import (load_obj, mesh_graph, transition_weights, connected_from_seed,
+                                      surface_gate_transition_weights, validate_resolved_input)
 
 
 class ResolvedTopologyTests(unittest.TestCase):
@@ -24,7 +26,9 @@ class ResolvedTopologyTests(unittest.TestCase):
 
     def test_current_output_is_reproducible_and_preserves_order(self):
         actual = build(self.markers_path, self.draft_path)
-        self.assertEqual(json_bytes(actual), (PROJECT / "deformation/cavity_topology_resolved.json").read_bytes())
+        validated, _ = validate_resolved_input(PROJECT / "deformation/cavity_topology_resolved.json")
+        self.assertEqual({k: v for k, v in actual.items() if k != "sources"},
+                         {k: v for k, v in validated.items() if k != "sources"})
         paths = {p["id"]: p for p in actual["paths"]}
         for branch in self.draft["branches"]:
             self.assertEqual(paths[branch["id"]]["marker_names"],
@@ -45,6 +49,21 @@ class ResolvedTopologyTests(unittest.TestCase):
         with self.assertRaisesRegex(ValueError, "Duplicate marker"):
             resolve(markers, self.draft)
 
+    def test_metadata_reexport_does_not_hide_geometric_changes(self):
+        original = read_json(PROJECT / "deformation/cavity_topology_resolved.json")
+        with tempfile.TemporaryDirectory(dir=PROJECT / "analysis/irrigation_baseline") as directory:
+            path = PROJECT / directory / "resolved.json"
+            altered = copy.deepcopy(original)
+            altered["sources"]["markers"]["sha256"] = "0" * 64
+            path.write_bytes(json_bytes(altered))
+            validated, note = validate_resolved_input(path)
+            self.assertTrue(note["resolved_geometry_matches_current_export"])
+            self.assertEqual(validated["nodes"], original["nodes"])
+            altered["nodes"]["J_05"]["position_mm"][0] += 1.0
+            path.write_bytes(json_bytes(altered))
+            with self.assertRaisesRegex(ValueError, "Resolved geometry"):
+                validate_resolved_input(path)
+
     def test_invalid_coordinates_and_cycles_fail(self):
         markers = copy.deepcopy(self.markers)
         markers["markers"][0]["cavity_local_position_mm"][0] = float("nan")
@@ -57,6 +76,23 @@ class ResolvedTopologyTests(unittest.TestCase):
 
 
 class SurfaceAlgorithmTests(unittest.TestCase):
+    def test_connected_unrelated_branch_does_not_receive_interface_diffusion(self):
+        edges = np.asarray([(0, 1), (1, 2), (2, 3), (3, 4), (4, 5),
+                            (4, 6), (6, 7), (7, 8), (8, 9), (9, 10), (10, 11)])
+        graph = sparse.coo_matrix((np.ones(len(edges) * 2),
+            (np.r_[edges[:, 0], edges[:, 1]], np.r_[edges[:, 1], edges[:, 0]])), shape=(12, 12)).tocsr()
+        fixed = np.arange(12) == 0
+        core = np.arange(12) <= 6
+        neutral = np.arange(12) >= 8
+        old, _ = transition_weights(graph, fixed, 12.)
+        new, *_ = surface_gate_transition_weights(graph, fixed, core, np.ones(12, bool), 12., 2., neutral)
+        self.assertLess(old[9], 1)  # A connected Y branch reproduces the old leak.
+        np.testing.assert_array_equal(new[8:], np.ones(4))
+        self.assertEqual(new[0], 0)
+        self.assertGreater(new[6], 0)
+        self.assertLess(new[6], 1)  # A noncorridor junction retains a blended field.
+        self.assertLess(abs(new[edges[:, 0]] - new[edges[:, 1]]).max(), 1)
+
     def test_short_interface_uses_own_length_and_has_exact_endpoints(self):
         # A surface chain, sampled at fractions of the actual short B_32 length.
         length = 2.8435287822423687
@@ -89,6 +125,41 @@ class GeneratedMaskTests(unittest.TestCase):
         np.testing.assert_array_equal(self.faces, np.load(self.root / "faces.npy", allow_pickle=False))
         for name, digest in self.report["outputs"].items():
             self.assertEqual(hashlib.sha256((self.root / name).read_bytes()).hexdigest(), digest, name)
+
+    def test_in01_cannot_leak_into_natural_branch_interiors(self):
+        info = next(p for p in self.report["ports"] if p["id"] == "IN_01")["topology_constraint"]
+        self.assertEqual(info["hard_zero_to_one_edges"], 0)
+        self.assertLess(info["maximum_exterior_boundary_jump"], .01)
+        self.assertLess(info["maximum_neighbor_weight_jump"], .5)
+        self.assertGreater(info["noncorridor_blended_vertices"], 0)
+        branches = {b["id"]: b for b in info["branches"]}
+        for i in range(12, 19):
+            branch = branches[f"B_{i:02}"]
+            self.assertEqual(branch["far_branch_affected_count"], 0)
+            self.assertGreater(branch["minimum_weight"], .90)
+            self.assertGreater(branch["mean_weight"], .998)
+            self.assertLess(branch["affected_count"], .08 * branch["vertex_count"])
+        self.assertEqual(branches["B_13"]["affected_count"], 0)
+        self.assertEqual(branches["B_17"]["affected_count"], 0)
+
+    def test_other_ports_match_original_kernel_and_fixed_masks_stay_identical(self):
+        graph, _, _ = mesh_graph(self.vertices, self.faces)
+        port_weights = np.load(self.root / "port_weights.npy")
+        for i, port in enumerate(self.report["ports"]):
+            if port["id"] != "IN_01":
+                expected, _ = transition_weights(graph, self.fixed[i], port["surface_transition_support_length_mm"])
+                np.testing.assert_array_equal(port_weights[i], expected)
+        comparison = read_json(self.root / "in01_transition_comparison.json")
+        for name, digest in comparison["preserved_array_sha256"].items():
+            self.assertEqual(hashlib.sha256((self.root / name).read_bytes()).hexdigest(), digest)
+
+    def test_single_interface_preview_binary(self):
+        raw = (self.root / "port_weights.bin").read_bytes()
+        self.assertEqual(raw[:8], b"KPRT0001")
+        n, p = struct.unpack_from("<II", raw, 8)
+        self.assertEqual((n, p), (len(self.vertices), 3))
+        values = np.frombuffer(raw, dtype="<f4", offset=16).reshape(p, n)
+        np.testing.assert_allclose(values, np.load(self.root / "port_weights.npy"), atol=3e-8, rtol=0)
 
     def test_fixed_ports_connected_disjoint_and_zero_weight(self):
         graph, _, _ = mesh_graph(self.vertices, self.faces)

@@ -17,6 +17,7 @@ import open3d as o3d
 import trimesh
 from scipy import sparse
 from scipy.sparse import csgraph
+from scipy.sparse.linalg import spsolve
 
 from resolve_cavity_topology import PROJECT, build as resolve_build, json_bytes, read_json, source_record
 
@@ -30,7 +31,10 @@ REGIONS = [
 DEFAULTS = {"schema_version": "1.0", "ray_directions": 32,
             "radius_probe_fractions": [0.25, 0.5, 0.75],
             "radius_quantile": 0.95, "radius_multiplier": 1.2,
-            "radius_edge_padding": 0.5, "transition_length_scale": 1.0}
+            "radius_edge_padding": 0.5, "transition_length_scale": 1.0,
+            "in01_topology": {"junction_collar_fraction": 0.15,
+                              "junction_collar_max_mm": 1.5, "surface_feather_mm": 2.4,
+                              "smoothing_strength": 8.0}}
 
 
 def load_obj(path):
@@ -109,6 +113,156 @@ def transition_weights(graph, fixed, length_mm):
     return weights, distances
 
 
+def smooth_transition_field(graph, weights, fixed, domain, neutral, strength):
+    """Screened graph-Laplacian of deficit, with fixed/neutral Dirichlet values.
+
+    The target is the constrained corridor field, not unrestricted diffusion.
+    Eliminating fixed and neutral nodes preserves exact 0/1 endpoints.
+    """
+    conductance = graph.copy()
+    conductance.data = 1.0 / conductance.data
+    degree = np.asarray(conductance.sum(axis=1)).ravel()
+    system = sparse.diags(degree) + strength * csgraph.laplacian(conductance).tocsr()
+    unknown = domain & ~fixed & ~neutral
+    deficit = np.zeros(len(weights))
+    deficit[fixed] = 1.0
+    if unknown.any():
+        rhs = (degree * (1 - weights))[unknown] - system[unknown][:, ~unknown] @ deficit[~unknown]
+        deficit[unknown] = spsolve(system[unknown][:, unknown].tocsr(), rhs)
+    if not np.isfinite(deficit).all() or deficit.min() < -1e-8 or deficit.max() > 1 + 1e-8:
+        raise ValueError("Constrained transition solve violated the maximum principle")
+    deficit = np.clip(deficit, 0, 1)
+    return 1 - deficit
+
+
+def surface_gate_transition_weights(graph, fixed, core, allowed, length_mm, feather_mm, neutral=None, smoothing_strength=8.0):
+    """Constrained intrinsic propagation with a C1 smoothstep support gate.
+
+    Labels choose a corridor/core, never final weights. Neighbors outside the
+    core blend over surface distance; both the gate and longitudinal response
+    have zero slope at endpoints. Restriction removes long graph detours.
+    """
+    if feather_mm <= 0 or np.any(core & ~allowed) or np.any(fixed & ~core):
+        raise ValueError("Invalid transition core/allowed domain/feather")
+    selected = np.flatnonzero(allowed)
+    restricted = graph[selected][:, selected]
+    core_distance = csgraph.dijkstra(restricted, directed=False,
+        indices=np.flatnonzero(core[selected]), min_only=True, limit=feather_mm)
+    distance = np.full(len(fixed), np.inf)
+    distance[selected] = core_distance
+    eligible = core | (allowed & (distance < feather_mm))
+    domain = connected_from_seed(graph, eligible, int(np.flatnonzero(fixed)[0]))
+    if np.any(fixed & ~domain):
+        raise ValueError("Topology support disconnected the fixed wall")
+    selected = np.flatnonzero(domain)
+    restricted = graph[selected][:, selected]
+    distance[:] = np.inf
+    distance[selected] = csgraph.dijkstra(restricted, directed=False,
+        indices=np.flatnonzero(core[selected]), min_only=True, limit=feather_mm)
+    gate_t = np.clip(distance / feather_mm, 0, 1)
+    support = 1 - gate_t**2 * (3 - 2 * gate_t)
+    recovery_width = feather_mm
+    if neutral is not None:
+        # Recover toward one BEFORE reaching protected natural interiors. This
+        # distance field also feathers the B_31 side of a label seam, avoiding
+        # a hard clamp when a nearby natural arm has a far projection parameter.
+        distance_to_neutral = csgraph.dijkstra(graph, directed=False,
+            indices=np.flatnonzero(neutral), min_only=True, limit=feather_mm)
+        nearest_fixed_clearance = float(distance_to_neutral[fixed].min())
+        recovery_width = min(feather_mm, nearest_fixed_clearance * 0.95)
+        if recovery_width <= 1e-8:
+            raise ValueError("Neutral natural boundary intersects a fixed wall")
+        recovery_t = np.clip(distance_to_neutral / recovery_width, 0, 1)
+        recovery = recovery_t**2 * (3 - 2 * recovery_t)
+        if np.any(recovery[fixed] < 1 - 1e-10):
+            raise ValueError("Neutral natural boundary is too close to a fixed wall; reduce feather or inspect topology")
+        support *= recovery
+    local_weight, _ = transition_weights(restricted, fixed[selected], length_mm)
+    weights = np.ones(len(fixed))
+    weights[selected] = 1 - (1 - local_weight) * support[selected]
+    weights[fixed] = 0.0
+    if neutral is not None:
+        weights = smooth_transition_field(graph, weights, fixed, domain, neutral, smoothing_strength)
+    boundary = domain & (graph.astype(bool).astype(float) @ (~domain).astype(float) > 0)
+    return weights, domain, support, boundary, int(np.sum(eligible & ~domain)), recovery_width
+
+
+def topology_transition_weights(graph, fixed, resolved, owners, path_arcs, port, config):
+    """B_31 corridor plus bounded J_05 collars, with surface-connected feather.
+
+    Keep the existing fixed mask. Nearby but unrelated branch interiors cannot
+    participate in the solve even when their Euclidean distances are small.
+    """
+    paths = resolved["paths"]
+    ids = [p["id"] for p in paths]
+    transition_index = ids.index(port["transition_path_id"])
+    fixed_index = ids.index(port["fixed_path_id"])
+    transition = paths[transition_index]
+    junctions = [n for n in (transition["marker_names"][0], transition["marker_names"][-1])
+                 if n != port["base"]]
+    if len(junctions) != 1:
+        raise ValueError("Expected one natural junction for the interface")
+    junction = junctions[0]
+    options = config["in01_topology"]
+    core = fixed | np.isin(owners, [transition_index, fixed_index])
+    collar_bounds, progress_by_path = {}, {}
+    collar_allowed = np.zeros(len(fixed), dtype=bool)
+    allowed = core.copy()
+    neutral = np.zeros(len(fixed), dtype=bool)
+    for i, path in enumerate(paths):
+        if path["kind"] != "natural" or junction not in (path["marker_names"][0], path["marker_names"][-1]):
+            continue
+        distance_from_junction = path_arcs[i] if path["marker_names"][0] == junction else path["length_mm"] - path_arcs[i]
+        length = min(options["junction_collar_max_mm"],
+                     options["junction_collar_fraction"] * min(path["length_mm"], transition["length_mm"]))
+        collar_bounds[path["id"]] = length
+        progress_by_path[path["id"]] = distance_from_junction
+        belongs = owners == i
+        allowed |= belongs
+        collar_allowed |= belongs & (distance_from_junction <= length)
+        neutral |= belongs & (distance_from_junction > length + options["surface_feather_mm"])
+    core |= collar_allowed
+    neutral |= ~allowed
+    weights, domain, support, boundary, discarded, recovery_width = surface_gate_transition_weights(
+        graph, fixed, core, allowed, port["transition_length_mm"] * config["transition_length_scale"],
+        options["surface_feather_mm"], neutral, options["smoothing_strength"])
+    rows, cols = sparse.triu(graph, k=1).nonzero()
+    jumps = abs(weights[rows] - weights[cols])
+    exterior_edges = domain[rows] != domain[cols]
+    ownership_edges = owners[rows] != owners[cols]
+    branches = []
+    for name, collar in collar_bounds.items():
+        i = ids.index(name)
+        selection = owners == i
+        vals = weights[selection]
+        far = selection & neutral
+        branches.append({"id": name, "vertex_count": int(selection.sum()),
+            "affected_count": int(np.sum(vals < 1 - 1e-8)),
+            "affected_below_0_99": int(np.sum(vals < 0.99)),
+            "minimum_weight": float(vals.min()) if len(vals) else None,
+            "mean_weight": float(vals.mean()) if len(vals) else None,
+            "junction_collar_mm": collar,
+            "surface_feather_mm": options["surface_feather_mm"],
+            "affected_branch_progress_range_mm": [float(progress_by_path[name][selection & (weights < 1 - 1e-8)].min()),
+                float(progress_by_path[name][selection & (weights < 1 - 1e-8)].max())]
+                if np.any(selection & (weights < 1 - 1e-8)) else [],
+            "far_branch_vertices": int(far.sum()),
+            "far_branch_affected_count": int(np.sum(weights[far] < 1 - 1e-8))})
+    details = {"method": "topology_corridor_gate_screened_smoothing", "junction": junction,
+        "domain_vertices": int(domain.sum()), "boundary_vertices": int(boundary.sum()),
+        "discarded_disconnected_domain_vertices": discarded,
+        "protected_natural_vertices": int(neutral.sum()),
+        "neutral_recovery_width_mm": recovery_width,
+        "maximum_neighbor_weight_jump": float(jumps.max()),
+        "maximum_exterior_boundary_jump": float(jumps[exterior_edges].max()) if exterior_edges.any() else 0.0,
+        "maximum_ownership_seam_jump": float(jumps[ownership_edges].max()) if ownership_edges.any() else 0.0,
+        "hard_zero_to_one_edges": int(np.sum(jumps > 1 - 1e-8)),
+        "noncorridor_blended_vertices": int(np.sum((weights > 0) & (weights < 1 - 1e-8)
+            & ~np.isin(owners, [fixed_index, transition_index]))),
+        "branches": branches}
+    return weights, domain, support, details
+
+
 def radius_probe(scene, base, end, config):
     axis = end - base
     axis /= np.linalg.norm(axis)
@@ -128,6 +282,26 @@ def radius_probe(scene, base, end, config):
 
 def area_totals(values, vertex_area):
     return float(vertex_area[values].sum())
+
+
+def validate_resolved_input(resolved_path):
+    resolved = read_json(resolved_path)
+    rebuilt = resolve_build(PROJECT / resolved["sources"]["markers"]["path"],
+        PROJECT / resolved["sources"]["topology"]["path"],
+        resolved["validation"]["resampling"]["maximum_spacing_mm"])
+    if json_bytes(rebuilt) == Path(resolved_path).read_bytes():
+        return resolved, {"geometry_and_provenance_match": True}
+    # A re-export may change diagnostics/formatting while leaving every resolved
+    # coordinate, name, connection and reference transform byte-identical.
+    geometry_matches = {k: v for k, v in resolved.items() if k != "sources"} == {
+        k: v for k, v in rebuilt.items() if k != "sources"}
+    changed_sources = [k for k in resolved["sources"] if resolved["sources"][k] != rebuilt["sources"][k]]
+    if not geometry_matches or changed_sources != ["markers"]:
+        raise ValueError("Resolved geometry or non-marker provenance is stale; rebuild the resolved input")
+    return resolved, {"geometry_and_provenance_match": False,
+        "resolved_geometry_matches_current_export": True,
+        "note": "Marker export metadata/hash changed; every resolved geometric field is unchanged. Resolved source file preserved.",
+        "current_markers": rebuilt["sources"]["markers"]}
 
 
 def generate(resolved, mesh_path, config):
@@ -152,6 +326,7 @@ def generate(resolved, mesh_path, config):
     weights = np.ones(len(vertices))
     fixed_owner = np.full(len(vertices), -1, dtype=np.int32)
     port_details, per_port_fixed, per_port_weights = [], [], []
+    topology_arrays = {}
     vertex_area = np.zeros(len(vertices))
     np.add.at(vertex_area, faces.ravel(), np.repeat(mesh.area_faces / 3.0, 3))
     median_edge = float(np.median(edge_lengths))
@@ -189,7 +364,14 @@ def generate(resolved, mesh_path, config):
         all_fixed |= fixed
         fixed_owner[fixed] = port_index
         support_length = port["transition_length_mm"] * config["transition_length_scale"]
-        port_weight, geodesic = transition_weights(graph, fixed, support_length)
+        topology_details = None
+        if port["id"] == "IN_01":
+            port_weight, domain, support, topology_details = topology_transition_weights(
+                graph, fixed, resolved, owners, path_arcs, port, config)
+            topology_arrays = {"in01_transition_domain": domain, "in01_surface_support": support,
+                              "in01_unconstrained_weights": transition_weights(graph, fixed, support_length)[0]}
+        else:
+            port_weight, _ = transition_weights(graph, fixed, support_length)
         weights = np.minimum(weights, port_weight)
         per_port_fixed.append(fixed)
         per_port_weights.append(port_weight)
@@ -215,6 +397,8 @@ def generate(resolved, mesh_path, config):
             "fixed_axial_range_mm": [float(axial[fixed].min()), float(axial[fixed].max())],
             "maximum_transition_neighbor_weight_jump": float(np.abs(port_weight[edges[:, 0]] - port_weight[edges[:, 1]]).max()),
         })
+        if topology_details is not None:
+            port_details[-1]["topology_constraint"] = topology_details
     weights[all_fixed] = 0.0
     regions = np.where(all_fixed, 0, np.where(weights < 1.0, 1, 2)).astype(np.uint32)
     if not np.isfinite(weights).all() or weights.min() != 0 or weights.max() != 1:
@@ -229,7 +413,7 @@ def generate(resolved, mesh_path, config):
     by_region = [{**region, "vertices": int(np.sum(regions == region["id"])),
                   "area_mm2": area_totals(regions == region["id"], vertex_area)} for region in REGIONS]
     report = {
-        "schema_version": "1.0", "status": "P1_2_INITIAL_MASKS_PENDING_VISUAL_REVIEW",
+        "schema_version": "1.1", "status": "P1_2_TOPOLOGY_TRANSITION_FIX_PENDING_VISUAL_REVIEW",
         "coordinate_system": "cavity_mesh_local", "unit": "mm",
         "vertex_count": len(vertices), "triangle_count": len(faces),
         "total_area_mm2": float(mesh.area), "area_method": "one third of triangle area per incident vertex",
@@ -245,7 +429,7 @@ def generate(resolved, mesh_path, config):
         ],
         "methods": {
             "fixed": "Distal seed flood fill on mesh edges, constrained by BASE plane, adjacent path ownership and ray/core-adaptive radial envelope; includes distal cap and rejects disconnected Voronoi islands.",
-            "transition": "Multi-source shortest edge distance from each fixed wall, smoothstep over that port's own transition arc length; minimum across ports.",
+            "transition": "IN_01: topology-connected B_31/J_05 corridor, restricted geodesic propagation times intrinsic smoothstep support feather. Other ports: unchanged surface-geodesic smoothstep. Minimum across constrained fields.",
             "expandable": "All remaining surface vertices; weight exactly one.",
             "path_owner": "Nearest declared polyline, diagnostic only; not certified anatomical segmentation.",
         },
@@ -258,7 +442,8 @@ def generate(resolved, mesh_path, config):
     arrays = {"vertices": vertices, "faces": faces, "normals": normals, "weights": weights,
               "regions": regions, "path_owner": owners, "path_arc_mm": owner_arc,
               "fixed_port_owner": fixed_owner, "vertex_area_mm2": vertex_area,
-              "port_fixed_masks": np.asarray(per_port_fixed), "port_weights": np.asarray(per_port_weights)}
+              "port_fixed_masks": np.asarray(per_port_fixed), "port_weights": np.asarray(per_port_weights),
+              **topology_arrays}
     return arrays, report
 
 
@@ -274,6 +459,7 @@ def write_outputs(output, arrays, report, resolved_path, config_path, mesh_path,
         binary.extend(np.asarray(arrays[name], dtype=dtype).tobytes(order="C"))
     binary.extend(np.asarray(arrays["faces"][:, ::-1], dtype="<u4").tobytes(order="C"))
     (output / "mask_preview.bin").write_bytes(binary)
+    port_preview = write_port_weight_preview(output, arrays["port_weights"])
     path_palette = [{"id": p["id"], "kind": p["kind"],
                      "color": list(colorsys.hsv_to_rgb((i * 0.61803398875) % 1, 0.65, 0.95)),
                      "points_mm": p["points_mm"]} for i, p in enumerate(resolved["paths"])]
@@ -283,14 +469,23 @@ def write_outputs(output, arrays, report, resolved_path, config_path, mesh_path,
     report["outputs"] = {p.name: hashlib.sha256(p.read_bytes()).hexdigest()
                          for p in sorted(output.glob("*.npy"))}
     report["outputs"]["mask_preview.bin"] = hashlib.sha256(binary).hexdigest()
+    report["outputs"]["port_weights.bin"] = port_preview["sha256"]
     (output / "surface_mask_report.json").write_bytes(json_bytes(report))
     meta = {"schema_version": "1.0", "binary_file": "mask_preview.bin", "binary_sha256": hashlib.sha256(binary).hexdigest(),
             "source_mesh": report["sources"]["cavity_mesh"], "vertex_count": len(arrays["vertices"]),
             "triangle_count": len(arrays["faces"]), "regions": report["regions"],
             "ports": report["ports"], "paths": path_palette,
+            "port_weight_preview": port_preview,
             "bounds_mm": [arrays["vertices"].min(axis=0).tolist(), arrays["vertices"].max(axis=0).tolist()],
             "report_file": "surface_mask_report.json", "area_method": report["area_method"]}
     (output / "mask_preview.json").write_bytes(json_bytes(meta))
+
+
+def write_port_weight_preview(output, weights):
+    port_count, vertex_count = weights.shape
+    binary = b"KPRT0001" + struct.pack("<II", vertex_count, port_count) + np.asarray(weights, dtype="<f4").tobytes()
+    (Path(output) / "port_weights.bin").write_bytes(binary)
+    return {"file": "port_weights.bin", "sha256": hashlib.sha256(binary).hexdigest()}
 
 
 def main():
@@ -300,12 +495,8 @@ def main():
     parser.add_argument("--output-dir", type=Path, default=PROJECT / "deformation/p1_masks")
     args = parser.parse_args()
     try:
-        resolved, config = read_json(args.resolved), read_json(args.config)
-        markers = PROJECT / resolved["sources"]["markers"]["path"]
-        topology = PROJECT / resolved["sources"]["topology"]["path"]
-        rebuilt = resolve_build(markers, topology, resolved["validation"]["resampling"]["maximum_spacing_mm"])
-        if json_bytes(rebuilt) != args.resolved.read_bytes():
-            raise ValueError("Resolved input is stale; run resolve_cavity_topology.py first")
+        resolved, input_validation = validate_resolved_input(args.resolved)
+        config = read_json(args.config)
         if set(config) != set(DEFAULTS):
             raise ValueError("Surface configuration keys do not match the supported schema")
         if config["schema_version"] != "1.0" or not isinstance(config["ray_directions"], int) or not 8 <= config["ray_directions"] <= 256:
@@ -320,8 +511,14 @@ def main():
         if not isinstance(fractions, list) or not fractions or not all(
                 isinstance(f, (int, float)) and np.isfinite(f) and 0 < f < 1 for f in fractions):
             raise ValueError("Radius probe fractions must be nonempty and inside (0,1)")
+        options = config["in01_topology"]
+        if (not isinstance(options, dict) or set(options) != set(DEFAULTS["in01_topology"])
+                or not all(isinstance(v, (int, float)) and np.isfinite(v) and v > 0 for v in options.values())
+                or options["junction_collar_fraction"] > 1):
+            raise ValueError("Invalid IN_01 topology collar/feather parameters")
         mesh_path = PROJECT / resolved["sources"]["cavity_mesh"]["path"]
         arrays, report = generate(resolved, mesh_path, config)
+        report["input_validation"] = input_validation
         write_outputs(args.output_dir, arrays, report, args.resolved, args.config, mesh_path, resolved, config)
     except (KeyError, ValueError, OSError) as exc:
         parser.error(str(exc))

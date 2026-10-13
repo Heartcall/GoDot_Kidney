@@ -2,10 +2,10 @@
 extends Node3D
 
 ## P1.2 inspection only. Reads a canonical mesh; never moves source vertices.
-const META_PATH := "res://deformation/p1_masks/mask_preview.json"
-const BINARY_PATH := "res://deformation/p1_masks/mask_preview.bin"
+const MODE_NAMES := ["区域类别", "连续权重", "路径归属", "IN_01 单接口", "IN_02 单接口", "膀胱单接口"]
+@export_dir var mask_data_dir: String = "res://deformation/p1_masks"
 
-@export_enum("区域类别", "连续权重", "路径归属") var color_mode: int = 0:
+@export_enum("区域类别", "连续权重", "路径归属", "IN_01 单接口", "IN_02 单接口", "膀胱单接口") var color_mode: int = 0:
 	set(value):
 		color_mode = value
 		if is_inside_tree():
@@ -19,6 +19,7 @@ var _weights := PackedFloat32Array()
 var _regions := PackedInt32Array()
 var _owners := PackedInt32Array()
 var _indices := PackedInt32Array()
+var _port_weights := PackedFloat32Array()
 var _mesh_node: MeshInstance3D
 var _lines: MeshInstance3D
 var _label: Label
@@ -27,14 +28,20 @@ var _distance := 190.0
 var _yaw := 0.6
 var _pitch := 0.55
 var _focus_name := "全模型"
+var _dataset_label := "当前掩码"
 
 
 func _ready() -> void:
+	if not Engine.is_editor_hint():
+		for arg in OS.get_cmdline_user_args():
+			if arg.begins_with("--mask-data-dir="):
+				mask_data_dir = arg.trim_prefix("--mask-data-dir=")
 	_load_masks()
 	if not Engine.is_editor_hint():
 		_create_ui()
 		var screenshot_path := ""
 		var validation_dir := ""
+		var comparison_before := ""
 		for arg in OS.get_cmdline_user_args():
 			if arg.begins_with("--mask-mode="):
 				color_mode = int(arg.trim_prefix("--mask-mode="))
@@ -44,8 +51,12 @@ func _ready() -> void:
 				screenshot_path = arg.trim_prefix("--mask-screenshot=")
 			if arg.begins_with("--mask-validation-dir="):
 				validation_dir = arg.trim_prefix("--mask-validation-dir=")
+			if arg.begins_with("--mask-compare-before="):
+				comparison_before = arg.trim_prefix("--mask-compare-before=")
 		_apply_colors()
-		if not validation_dir.is_empty():
+		if not comparison_before.is_empty() and not validation_dir.is_empty():
+			call_deferred("_comparison_screenshots", comparison_before, validation_dir)
+		elif not validation_dir.is_empty():
 			call_deferred("_validation_screenshots", validation_dir)
 		elif not screenshot_path.is_empty():
 			call_deferred("_save_screenshot", screenshot_path)
@@ -71,22 +82,24 @@ func _load_masks() -> void:
 		return
 	_mesh_node = get_node("MaskMesh") as MeshInstance3D
 	_lines = get_node("Centerlines") as MeshInstance3D
-	if not FileAccess.file_exists(META_PATH) or not FileAccess.file_exists(BINARY_PATH):
+	var meta_path := mask_data_dir.path_join("mask_preview.json")
+	var binary_path := mask_data_dir.path_join("mask_preview.bin")
+	if not FileAccess.file_exists(meta_path) or not FileAccess.file_exists(binary_path):
 		_fail("请先运行 resolve_cavity_topology.py 和 build_cavity_surface_masks.py。")
 		return
-	var parsed: Variant = JSON.parse_string(FileAccess.get_file_as_string(META_PATH))
+	var parsed: Variant = JSON.parse_string(FileAccess.get_file_as_string(meta_path))
 	if not parsed is Dictionary:
 		_fail("掩码元数据不是有效的 JSON 对象。")
 		return
 	_meta = parsed
-	if FileAccess.get_sha256(BINARY_PATH) != str(_meta["binary_sha256"]):
+	if FileAccess.get_sha256(binary_path) != str(_meta["binary_sha256"]):
 		_fail("掩码二进制校验失败，请重新生成。")
 		return
 	var source_path := "res://" + str(_meta["source_mesh"]["path"])
 	if FileAccess.get_sha256(source_path) != str(_meta["source_mesh"]["sha256"]):
 		_fail("原始腔体已改变，请重新构建拓扑和掩码。")
 		return
-	var file := FileAccess.open(BINARY_PATH, FileAccess.READ)
+	var file := FileAccess.open(binary_path, FileAccess.READ)
 	if file == null:
 		_fail("无法打开掩码二进制。")
 		return
@@ -110,6 +123,25 @@ func _load_masks() -> void:
 	file.get_buffer(vertex_count * 4) # Owner arclength reserved for later inspection.
 	_indices = file.get_buffer(triangle_count * 12).to_int32_array()
 	file.close()
+	_port_weights = PackedFloat32Array()
+	if _meta.has("port_weight_preview"):
+		var info: Dictionary = _meta["port_weight_preview"]
+		var port_path := mask_data_dir.path_join(str(info["file"]))
+		if FileAccess.get_sha256(port_path) != str(info["sha256"]):
+			_fail("单接口权重校验失败，请重新生成。")
+			return
+		var port_file := FileAccess.open(port_path, FileAccess.READ)
+		if port_file == null:
+			_fail("无法打开单接口权重。")
+			return
+		var magic := port_file.get_buffer(8).get_string_from_ascii()
+		var n := int(port_file.get_32())
+		var p := int(port_file.get_32())
+		if magic != "KPRT0001" or n != vertex_count or p != _meta["ports"].size() or port_file.get_length() != 16 + n * p * 4:
+			_fail("单接口权重格式／数量不匹配。")
+			return
+		_port_weights = port_file.get_buffer(n * p * 4).to_float32_array()
+		port_file.close()
 	var material := StandardMaterial3D.new()
 	material.vertex_color_use_as_albedo = true
 	material.cull_mode = BaseMaterial3D.CULL_DISABLED
@@ -134,9 +166,18 @@ func _apply_colors() -> void:
 		return
 	var colors := PackedColorArray()
 	colors.resize(_vertices.size())
+	var port_index := -1
+	if color_mode >= 3:
+		var desired: String = ["IN_01", "IN_02", "BLADDER"][color_mode - 3]
+		for p in _meta["ports"].size():
+			if str(_meta["ports"][p]["id"]) == desired:
+				port_index = p
+		if port_index < 0 or _port_weights.size() != _vertices.size() * _meta["ports"].size():
+			_fail("缺少单接口权重，请重新生成预览数据。")
+			return
 	for i in _vertices.size():
-		if color_mode == 1:
-			var weight := float(_weights[i])
+		if color_mode == 1 or color_mode >= 3:
+			var weight := float(_weights[i]) if color_mode == 1 else float(_port_weights[port_index * _vertices.size() + i])
 			var low := Color(0.18, 0.48, 1.0)
 			var middle := Color(1.0, 0.62, 0.08)
 			var high := Color(0.2, 0.84, 0.4)
@@ -219,6 +260,13 @@ func _create_ui() -> void:
 		button.text = ["1 区域类别", "2 连续权重", "3 路径归属"][i]
 		button.pressed.connect(_select_mode.bind(i))
 		modes.add_child(button)
+	var port_modes := HBoxContainer.new()
+	column.add_child(port_modes)
+	for i in range(3, 6):
+		var button := Button.new()
+		button.text = "%d %s" % [i + 1, MODE_NAMES[i]]
+		button.pressed.connect(_select_mode.bind(i))
+		port_modes.add_child(button)
 	var focus_row := HBoxContainer.new()
 	column.add_child(focus_row)
 	for id in ["ALL", "BLADDER_TRANSITION", "B_31", "B_32"]:
@@ -237,7 +285,7 @@ func _update_label() -> void:
 	if _label == null or _meta.is_empty():
 		return
 	var r: Array = _meta["regions"]
-	_label.text = "P1.2 腔体掩码检查 · %s\n蓝：固定 %d  |  橙：过渡 %d  |  绿：可扩张 %d\n权重 0=固定，1=可扩张；当前模式：%s\n左键旋转 · 中键平移 · 滚轮缩放 · R 复位\n路径归属色仅为最近中心线诊断；本场景不执行形变。" % [_focus_name, int(r[0]["vertices"]), int(r[1]["vertices"]), int(r[2]["vertices"]), ["区域类别", "连续权重", "路径归属"][color_mode]]
+	_label.text = "P1.2 掩码 · %s · %s\n合并掩码 蓝 %d | 橙 %d | 绿 %d\n当前模式：%s（权重 0=蓝，1=绿）\n左键旋转 · 中键平移 · 滚轮缩放 · R 复位\n单接口视图仅显示该接口影响；固定约束仍以合并掩码为准。" % [_dataset_label, _focus_name, int(r[0]["vertices"]), int(r[1]["vertices"]), int(r[2]["vertices"]), MODE_NAMES[color_mode]]
 
 
 func _select_mode(mode: int) -> void:
@@ -267,7 +315,7 @@ func _unhandled_input(event: InputEvent) -> void:
 			_distance = minf(_distance / 0.88, 1500.0)
 		_update_camera()
 	elif event is InputEventKey and event.pressed and not event.echo:
-		if event.keycode >= KEY_1 and event.keycode <= KEY_3:
+		if event.keycode >= KEY_1 and event.keycode <= KEY_6:
 			color_mode = event.keycode - KEY_1
 		elif event.keycode == KEY_R:
 			_yaw = 0.6
@@ -301,4 +349,23 @@ func _validation_screenshots(directory: String) -> void:
 		_apply_colors()
 		if not await _write_screenshot(directory.path_join(str(shot[0]) + ".png")):
 			return
+	get_tree().quit()
+
+
+func _comparison_screenshots(before_directory: String, output_directory: String) -> void:
+	var after_directory := mask_data_dir
+	for dataset in [["before", before_directory], ["after", after_directory]]:
+		_dataset_label = str(dataset[0])
+		mask_data_dir = str(dataset[1])
+		color_mode = 0
+		_load_masks()
+		for shot in [["b31_regions", 0, "B_31"], ["b31_weights", 1, "B_31"],
+				["b31_in01", 3, "B_31"], ["whole_in01", 3, "ALL"],
+				["b32", 4, "B_32"], ["bladder", 5, "BLADDER_TRANSITION"]]:
+			color_mode = int(shot[1])
+			_focus(str(shot[2]))
+			_apply_colors()
+			var path := output_directory.path_join(str(dataset[0]) + "_" + str(shot[0]) + ".png")
+			if not await _write_screenshot(path):
+				return
 	get_tree().quit()

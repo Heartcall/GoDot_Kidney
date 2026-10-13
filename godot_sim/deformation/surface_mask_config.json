@@ -5,5 +5,11 @@
   "radius_quantile": 0.95,
   "radius_multiplier": 1.2,
   "radius_edge_padding": 0.5,
-  "transition_length_scale": 1.0
+  "transition_length_scale": 1.0,
+  "in01_topology": {
+    "junction_collar_fraction": 0.15,
+    "junction_collar_max_mm": 1.5,
+    "surface_feather_mm": 2.4,
+    "smoothing_strength": 8.0
+  }
 }
