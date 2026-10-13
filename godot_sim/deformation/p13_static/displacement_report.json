@@ -1,0 +1,242 @@
+{
+  "approved_mask_sha256": {
+    "faces.npy": "dbf4771365f42398f329100e695dc8580f8c038c557c671c02724bff45b29c3d",
+    "fixed_port_owner.npy": "973892841f3346fc7262a4df1e058fb57f81dfc0c9e586686a3a0efd93945d1a",
+    "in01_surface_support.npy": "47e94427a7975449c40d3f40c57baa2b8b42c817e00df7cd7bbefec49134e95c",
+    "in01_transition_comparison.json": "3735e8f1294dc023b102571bde84011917229b2c33efb374c60d6f2c52fd91a4",
+    "in01_transition_domain.npy": "f89b0662ff77dc3f9ee3fa3497250550b42ddf40b91f9dadc03d6d8592b1f41e",
+    "in01_unconstrained_weights.npy": "4907149be6c1fdd0426a0caf4de5ad24265a1431112f41e1e06d983f45d81f39",
+    "mask_preview.bin": "3b03b0251b63ed649c26c32210067259a0653247df83247059066595439553da",
+    "mask_preview.json": "b70ef6950a78a79a17b4837f0a57267b51226338aceff4d7e67a6e63236fa517",
+    "normals.npy": "4bd8f6939252ed33a2a2c41a40b540447a205dc462387e80537e489bd421c6c7",
+    "p1_validation.json": "11457f800fa0ec23ca2932c81b36c1bbe0f55e243d2bc5576d4e69bfaa4ca4de",
+    "path_arc_mm.npy": "174f25ebe2217a9b704d6a6da73c1689b6d218f5136000711aa0a473c15462b0",
+    "path_owner.npy": "7b92ab9e4686764022f0e084a2d78da1eb789a564cad20fa3e903c5d4029ce5b",
+    "port_fixed_masks.npy": "6a5969b840fb04a8c8ec8e5e42d901d85ac562255ccc1fd2fcb0d1d36527f2e9",
+    "port_weights.bin": "a095d2a8e5e624c7843db9eab1daef0a3cbe8967ac0320f469496911f3d9ca54",
+    "port_weights.npy": "2b1dc440201362f03b4010b66fc1633bb6ec3e5318c9c8634b54faa0f05355ef",
+    "regions.npy": "7b8a846dce5e7276561e4b201ed5eaa3ed2f5ffde6778c8a62216a32ed3b928e",
+    "surface_mask_report.json": "45e0af44fd74ea1d55247d2f1cdbceff1621026178e06ffdc69c9e83bdd89dcb",
+    "vertex_area_mm2.npy": "2a9f82d359965893588da5a953ac0289c1a0e5dd379bbbac4db62f99c949332f",
+    "vertices.npy": "f137add4c401fe63851565f913a93968c9b11e18e630722ed42a21b4d0842fa1",
+    "weights.npy": "ce6ff7e4a1c45e4d162941131e4da1ba6c83fb5869875cf7b051be981578acfb"
+  },
+  "configuration": {
+    "diagnostic_neighborhood_mm": 8.0,
+    "maximum_displacement_mm": 0.2,
+    "schema_version": "1.0",
+    "selected_path_ids": [
+      "MAIN",
+      "B_01",
+      "B_02",
+      "B_03",
+      "B_04",
+      "B_05"
+    ],
+    "test_region_feather_mm": 6.0,
+    "vector_smoothing_strength": 30.0
+  },
+  "coordinate_system": "cavity_mesh_local",
+  "debug_acceptance_bounds": {
+    "area_ratio": [
+      0.8,
+      1.35
+    ],
+    "maximum_edge_displacement_gradient": 0.2
+  },
+  "finite_displacement": true,
+  "fixed_maximum_displacement_mm": 0.0,
+  "fixed_vertex_count": 3675,
+  "limits": [
+    "One static debug field, not a calibrated tissue mechanics simulation.",
+    "Reference mesh already has a B_24 self-intersection; source geometry is preserved.",
+    "No state machine, three-state mesh library, filling slider, collision update or tissue mapping.",
+    "Endpoint normal changes are a reversal diagnostic; intersection tests are reported separately."
+  ],
+  "maximum_displacement_mm": 0.2,
+  "maximum_edge_displacement_gradient": 0.11601555552888793,
+  "maximum_neighbor_displacement_difference_mm": 0.08408785227428432,
+  "mesh_quality": {
+    "area_ratio_p01_p99": [
+      0.9961090661422909,
+      1.0883717678412532
+    ],
+    "area_ratio_range": [
+      0.9365852900410238,
+      1.2880644176644032
+    ],
+    "deformed_degenerate_triangles": 0,
+    "deformed_volume_mm3": 20118.946844835587,
+    "deformed_watertight": true,
+    "maximum_normal_rotation_deg": 13.089356840899454,
+    "minimum_quality_deformed": 0.010951858362169284,
+    "minimum_quality_reference": 0.010951858362169284,
+    "minimum_reference_normal_cosine": 0.9740180528066524,
+    "minimum_triangle_area_mm2": 6.259194728214461e-05,
+    "normal_reversal_candidates": 0,
+    "reference_degenerate_triangles": 0,
+    "reference_volume_mm3": 19723.07736251959,
+    "reference_watertight": true,
+    "triangle_indices_unchanged": true,
+    "volume_change_mm3": 395.8694823159967
+  },
+  "methods": {
+    "activity": "Additional test-region amplitude envelope on selected paths with intrinsic surface feather; not a replacement material mask.",
+    "amplitude": "Global scale then multiply approved P1.2 weight and test-region envelope; no vertex-position smoothing.",
+    "direction": "Soft blend of path radial directions, interpolated tangents, outward wall normals and stronger terminal normal response.",
+    "mask": "Read approved P1.2 weights/regions/fixed arrays, validate hashes; never regenerate them.",
+    "smoothing": "Screened graph Laplacian on vector displacement candidates, zero at fixed and inactive vertices."
+  },
+  "moved_vertices_over_1e_8mm": 6566,
+  "neighborhoods": {
+    "B_32": {
+      "maximum_displacement_mm": 0.0,
+      "maximum_edge_displacement_gradient": 0.0,
+      "maximum_neighbor_displacement_difference_mm": 0.0,
+      "vertex_count": 920
+    },
+    "J_01": {
+      "maximum_displacement_mm": 0.1912263729031541,
+      "maximum_edge_displacement_gradient": 0.05154318537013261,
+      "maximum_neighbor_displacement_difference_mm": 0.05236120626258248,
+      "vertex_count": 899
+    },
+    "J_02": {
+      "maximum_displacement_mm": 0.16640056893590768,
+      "maximum_edge_displacement_gradient": 0.09454715249324644,
+      "maximum_neighbor_displacement_difference_mm": 0.06572441000707759,
+      "vertex_count": 993
+    }
+  },
+  "output_sha256": {
+    "approved_p12_weights.npy": "ce6ff7e4a1c45e4d162941131e4da1ba6c83fb5869875cf7b051be981578acfb",
+    "candidate_direction.npy": "0265767de8185daede682c608f4b86a55d948253f110682996fc58d07edfd2bb",
+    "deformed_normals.npy": "95da9eb756e50dc848216dfa3370200bec38132aead0743c694d6c1fc701e70c",
+    "deformed_self_intersection_pairs.npy": "97813240e6eca4b6b92f5a3bdb7ce2d2c0f873c2a962e70a4f942b70a99c9837",
+    "displacement.npy": "a2595598fc2f00a45ca7fc14ac7be196d5397a51fd2ae175ee5d61375e4690b9",
+    "displacement_direction.npy": "e2c6c5207e2f91f1dd9dda716572136d0dac859afd48949a0bde17983eddb03c",
+    "displacement_magnitude_mm.npy": "421b1f7f0fa8e3b6f9a70dba026a30617c4d8014a4f2bf23667cae7515de691b",
+    "displacement_preview.bin": "87bf62c4895e11e0092efd8e9934bc7bbcf416b226d1f7a861cf190251b8523d",
+    "faces.npy": "dbf4771365f42398f329100e695dc8580f8c038c557c671c02724bff45b29c3d",
+    "reference_normals.npy": "cbcb4e90fd6a16a91643e1791caf8685fcb272178b6ec37d801af50eb6f2d291",
+    "reference_self_intersection_pairs.npy": "97813240e6eca4b6b92f5a3bdb7ce2d2c0f873c2a962e70a4f942b70a99c9837",
+    "reference_vertices.npy": "f137add4c401fe63851565f913a93968c9b11e18e630722ed42a21b4d0842fa1",
+    "test_region_activity.npy": "a039beca89b7c061c250dfaebff45704a586676580154979f9448ba28a2b8b4d",
+    "test_region_distance_mm.npy": "7a7755c2e97b4059086cf0ddd7bc3afbd896e0543199332da98372bae9dc4d7e"
+  },
+  "outward_normal_component_min_mm": 0.0,
+  "path_geometry": [
+    {
+      "id": "MAIN",
+      "median_wall_distance_mm": 4.798697561468069,
+      "terminal_normal_blend": false
+    },
+    {
+      "id": "B_01",
+      "median_wall_distance_mm": 3.3160617443536227,
+      "terminal_normal_blend": false
+    },
+    {
+      "id": "B_02",
+      "median_wall_distance_mm": 3.232813353265983,
+      "terminal_normal_blend": true
+    },
+    {
+      "id": "B_03",
+      "median_wall_distance_mm": 3.087368628645968,
+      "terminal_normal_blend": true
+    },
+    {
+      "id": "B_04",
+      "median_wall_distance_mm": 2.686028141399646,
+      "terminal_normal_blend": true
+    },
+    {
+      "id": "B_05",
+      "median_wall_distance_mm": 2.8715941868663633,
+      "terminal_normal_blend": true
+    }
+  ],
+  "schema_version": "1.0",
+  "selected_path_ids": [
+    "MAIN",
+    "B_01",
+    "B_02",
+    "B_03",
+    "B_04",
+    "B_05"
+  ],
+  "self_intersection": {
+    "deformed_pair_count": 1,
+    "deformed_pairs": [
+      [
+        1856,
+        1862
+      ]
+    ],
+    "limits": "Floating-point triangle test; no continuous collision certificate, tissue-wall clearance or tool contact check.",
+    "method": "Open3D 0.19 get_self_intersecting_triangles, reference and static endpoint",
+    "new_pair_count": 0,
+    "new_pairs": [],
+    "reference_pair_count": 1,
+    "reference_pairs": [
+      [
+        1856,
+        1862
+      ]
+    ],
+    "removed_pair_count": 0
+  },
+  "sources": {
+    "builder": {
+      "path": "tools/build_local_displacement.py",
+      "sha256": "d35dae2e822a6b70ca27e692d38c3c05865e377f4a3455df54ce5bb56dfdcd0f"
+    },
+    "config": {
+      "path": "deformation/local_displacement_config.json",
+      "sha256": "6df435a210e1a930ab9d3d3250d0792ef254989f6578fbaee7f4045c44742047"
+    },
+    "mask_report": {
+      "path": "deformation/p1_masks/surface_mask_report.json",
+      "sha256": "45e0af44fd74ea1d55247d2f1cdbceff1621026178e06ffdc69c9e83bdd89dcb"
+    },
+    "resolved": {
+      "path": "deformation/cavity_topology_resolved.json",
+      "sha256": "71e862f96b39a3270c432a4ebf7b5292ccc04a4df4f860578e23700dbd488443"
+    }
+  },
+  "status": "P1_3_STATIC_FIELD_PENDING_VISUAL_REVIEW",
+  "terminal_checks": [
+    {
+      "cap_vertices_beyond_terminal_marker": 60,
+      "maximum_cap_displacement_mm": 0.1715436695797328,
+      "mean_cap_axial_displacement_mm": 0.10578386806127499,
+      "path": "B_02",
+      "terminal": "T_01"
+    },
+    {
+      "cap_vertices_beyond_terminal_marker": 128,
+      "maximum_cap_displacement_mm": 0.17061860551523236,
+      "mean_cap_axial_displacement_mm": 0.08356356738289578,
+      "path": "B_03",
+      "terminal": "T_02"
+    },
+    {
+      "cap_vertices_beyond_terminal_marker": 47,
+      "maximum_cap_displacement_mm": 0.16788182175788557,
+      "mean_cap_axial_displacement_mm": 0.10334657699814949,
+      "path": "B_04",
+      "terminal": "T_03"
+    },
+    {
+      "cap_vertices_beyond_terminal_marker": 25,
+      "maximum_cap_displacement_mm": 0.13348155599287315,
+      "mean_cap_axial_displacement_mm": 0.10541678180816944,
+      "path": "B_05",
+      "terminal": "T_04"
+    }
+  ],
+  "triangle_count": 50044,
+  "unit": "mm",
+  "vertex_count": 25024
+}

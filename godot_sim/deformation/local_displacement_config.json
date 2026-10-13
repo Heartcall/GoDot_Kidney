@@ -1,0 +1,8 @@
+{
+  "schema_version": "1.0",
+  "selected_path_ids": ["MAIN", "B_01", "B_02", "B_03", "B_04", "B_05"],
+  "maximum_displacement_mm": 0.2,
+  "test_region_feather_mm": 6.0,
+  "vector_smoothing_strength": 30.0,
+  "diagnostic_neighborhood_mm": 8.0
+}
