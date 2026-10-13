@@ -1,0 +1,169 @@
+{
+  "baseline": {
+    "path": "deformation/p14_morph/interpolation_report.json",
+    "sha256": "c19135ca3e20144e2a5fb3664ebf5462615263ffb4dab16b937165a55b9865a8"
+  },
+  "full_moved_vertices": 21349,
+  "interpretation": "Local baseline is preserved, not forced as a full-field target; topology gating and stronger smoothing change local vectors too.",
+  "local_moved_vertices": 6566,
+  "newly_moving_vertices": 14783,
+  "paths": {
+    "B_01": {
+      "full_mean_mm": 0.12486816408418659,
+      "local_mean_mm": 0.1475110777167502,
+      "mean_vector_change_mm": 0.03500067545484631
+    },
+    "B_02": {
+      "full_mean_mm": 0.11955140080855448,
+      "local_mean_mm": 0.1542528780564793,
+      "mean_vector_change_mm": 0.039353903023813426
+    },
+    "B_03": {
+      "full_mean_mm": 0.11227386117140792,
+      "local_mean_mm": 0.1488391557797484,
+      "mean_vector_change_mm": 0.04218265196816963
+    },
+    "B_04": {
+      "full_mean_mm": 0.09353003180740323,
+      "local_mean_mm": 0.1371232452612007,
+      "mean_vector_change_mm": 0.04793963043878879
+    },
+    "B_05": {
+      "full_mean_mm": 0.10061482654148793,
+      "local_mean_mm": 0.1416850441599546,
+      "mean_vector_change_mm": 0.044758747513597145
+    },
+    "B_06": {
+      "full_mean_mm": 0.12277155489542502,
+      "local_mean_mm": 0.03259056558221518,
+      "mean_vector_change_mm": 0.10247030697869661
+    },
+    "B_07": {
+      "full_mean_mm": 0.10990744246366375,
+      "local_mean_mm": 0.0,
+      "mean_vector_change_mm": 0.10990744246366375
+    },
+    "B_08": {
+      "full_mean_mm": 0.10437718579486208,
+      "local_mean_mm": 0.0,
+      "mean_vector_change_mm": 0.10437718579486208
+    },
+    "B_09": {
+      "full_mean_mm": 0.10573036109453411,
+      "local_mean_mm": 0.0066334261488701874,
+      "mean_vector_change_mm": 0.09954612223106403
+    },
+    "B_10": {
+      "full_mean_mm": 0.14191950636570383,
+      "local_mean_mm": 0.02142596130453382,
+      "mean_vector_change_mm": 0.1244440043184659
+    },
+    "B_11": {
+      "full_mean_mm": 0.13779868227619546,
+      "local_mean_mm": 0.0,
+      "mean_vector_change_mm": 0.13779868227619546
+    },
+    "B_12": {
+      "full_mean_mm": 0.10141598180110231,
+      "local_mean_mm": 0.0,
+      "mean_vector_change_mm": 0.10141598180110231
+    },
+    "B_13": {
+      "full_mean_mm": 0.10013076300277773,
+      "local_mean_mm": 0.0,
+      "mean_vector_change_mm": 0.10013076300277773
+    },
+    "B_14": {
+      "full_mean_mm": 0.11379446290674738,
+      "local_mean_mm": 0.0,
+      "mean_vector_change_mm": 0.11379446290674738
+    },
+    "B_15": {
+      "full_mean_mm": 0.10837423949183368,
+      "local_mean_mm": 0.0,
+      "mean_vector_change_mm": 0.10837423949183368
+    },
+    "B_16": {
+      "full_mean_mm": 0.10943467894118875,
+      "local_mean_mm": 0.0,
+      "mean_vector_change_mm": 0.10943467894118875
+    },
+    "B_17": {
+      "full_mean_mm": 0.11034071116395269,
+      "local_mean_mm": 0.0,
+      "mean_vector_change_mm": 0.11034071116395269
+    },
+    "B_18": {
+      "full_mean_mm": 0.1078296114195322,
+      "local_mean_mm": 0.0,
+      "mean_vector_change_mm": 0.1078296114195322
+    },
+    "B_19": {
+      "full_mean_mm": 0.1311676929597158,
+      "local_mean_mm": 0.0,
+      "mean_vector_change_mm": 0.1311676929597158
+    },
+    "B_20": {
+      "full_mean_mm": 0.11368718898065278,
+      "local_mean_mm": 0.0,
+      "mean_vector_change_mm": 0.11368718898065278
+    },
+    "B_21": {
+      "full_mean_mm": 0.1384398740346292,
+      "local_mean_mm": 0.0,
+      "mean_vector_change_mm": 0.1384398740346292
+    },
+    "B_22": {
+      "full_mean_mm": 0.11890376791983676,
+      "local_mean_mm": 0.0,
+      "mean_vector_change_mm": 0.11890376791983676
+    },
+    "B_23": {
+      "full_mean_mm": 0.1274353968939523,
+      "local_mean_mm": 0.0,
+      "mean_vector_change_mm": 0.1274353968939523
+    },
+    "B_24": {
+      "full_mean_mm": 0.11602156836751544,
+      "local_mean_mm": 0.0,
+      "mean_vector_change_mm": 0.11602156836751544
+    },
+    "B_25": {
+      "full_mean_mm": 0.137000135955591,
+      "local_mean_mm": 0.0,
+      "mean_vector_change_mm": 0.137000135955591
+    },
+    "B_26": {
+      "full_mean_mm": 0.12463419787220434,
+      "local_mean_mm": 0.0,
+      "mean_vector_change_mm": 0.12463419787220434
+    },
+    "B_27": {
+      "full_mean_mm": 0.13258175330344535,
+      "local_mean_mm": 0.0,
+      "mean_vector_change_mm": 0.13258175330344535
+    },
+    "B_28": {
+      "full_mean_mm": 0.1322449103311549,
+      "local_mean_mm": 0.0,
+      "mean_vector_change_mm": 0.1322449103311549
+    },
+    "B_29": {
+      "full_mean_mm": 0.12647018233010965,
+      "local_mean_mm": 0.0,
+      "mean_vector_change_mm": 0.12647018233010965
+    },
+    "B_30": {
+      "full_mean_mm": 0.13061100935396416,
+      "local_mean_mm": 0.0,
+      "mean_vector_change_mm": 0.13061100935396416
+    },
+    "MAIN": {
+      "full_mean_mm": 0.16534125568740138,
+      "local_mean_mm": 0.1831800455638767,
+      "mean_vector_change_mm": 0.022790832134007104
+    }
+  },
+  "same_faces": true,
+  "same_reference_vertices": true
+}
