@@ -1,0 +1,3537 @@
+{
+  "coordinate_system": "Godot global (world) for position_mm; explicit cavity-local field added",
+  "count": 72,
+  "diagnostics": {
+	"first_world_minus_parent_local_mm": [
+	  0.0,
+	  0.0,
+	  0.0
+	],
+	"max_cavity_coordinate_roundtrip_error_mm": 0.0,
+	"max_difference_between_marker_offsets_mm": 0.0,
+	"offset_meaning": "Offset comparison is diagnostic only; it does NOT establish the cavity mesh coordinate system."
+  },
+  "marker_parent_global_transforms": {
+	"00_ArtificialPorts/BladderConnection": {
+	  "basis_x": [
+		1.0,
+		0.0,
+		0.0
+	  ],
+	  "basis_y": [
+		0.0,
+		1.0,
+		0.0
+	  ],
+	  "basis_z": [
+		0.0,
+		0.0,
+		1.0
+	  ],
+	  "determinant": 1.0,
+	  "origin": [
+		0.0,
+		0.0,
+		0.0
+	  ]
+	},
+	"00_ArtificialPorts/WaterInlet01": {
+	  "basis_x": [
+		1.0,
+		0.0,
+		0.0
+	  ],
+	  "basis_y": [
+		0.0,
+		1.0,
+		0.0
+	  ],
+	  "basis_z": [
+		0.0,
+		0.0,
+		1.0
+	  ],
+	  "determinant": 1.0,
+	  "origin": [
+		0.0,
+		0.0,
+		0.0
+	  ]
+	},
+	"00_ArtificialPorts/WaterInlet02": {
+	  "basis_x": [
+		1.0,
+		0.0,
+		0.0
+	  ],
+	  "basis_y": [
+		0.0,
+		1.0,
+		0.0
+	  ],
+	  "basis_z": [
+		0.0,
+		0.0,
+		1.0
+	  ],
+	  "determinant": 1.0,
+	  "origin": [
+		0.0,
+		0.0,
+		0.0
+	  ]
+	},
+	"01_MainCavity": {
+	  "basis_x": [
+		1.0,
+		0.0,
+		0.0
+	  ],
+	  "basis_y": [
+		0.0,
+		1.0,
+		0.0
+	  ],
+	  "basis_z": [
+		0.0,
+		0.0,
+		1.0
+	  ],
+	  "determinant": 1.0,
+	  "origin": [
+		0.0,
+		0.0,
+		0.0
+	  ]
+	},
+	"02_Junctions": {
+	  "basis_x": [
+		1.0,
+		0.0,
+		0.0
+	  ],
+	  "basis_y": [
+		0.0,
+		1.0,
+		0.0
+	  ],
+	  "basis_z": [
+		0.0,
+		0.0,
+		1.0
+	  ],
+	  "determinant": 1.0,
+	  "origin": [
+		0.0,
+		0.0,
+		0.0
+	  ]
+	},
+	"03_Terminals": {
+	  "basis_x": [
+		1.0,
+		0.0,
+		0.0
+	  ],
+	  "basis_y": [
+		0.0,
+		1.0,
+		0.0
+	  ],
+	  "basis_z": [
+		0.0,
+		0.0,
+		1.0
+	  ],
+	  "determinant": 1.0,
+	  "origin": [
+		0.0,
+		0.0,
+		0.0
+	  ]
+	},
+	"04_Branches/From_J01": {
+	  "basis_x": [
+		1.0,
+		0.0,
+		0.0
+	  ],
+	  "basis_y": [
+		0.0,
+		1.0,
+		0.0
+	  ],
+	  "basis_z": [
+		0.0,
+		0.0,
+		1.0
+	  ],
+	  "determinant": 1.0,
+	  "origin": [
+		0.0,
+		0.0,
+		0.0
+	  ]
+	},
+	"04_Branches/From_J02": {
+	  "basis_x": [
+		1.0,
+		0.0,
+		0.0
+	  ],
+	  "basis_y": [
+		0.0,
+		1.0,
+		0.0
+	  ],
+	  "basis_z": [
+		0.0,
+		0.0,
+		1.0
+	  ],
+	  "determinant": 1.0,
+	  "origin": [
+		0.0,
+		0.0,
+		0.0
+	  ]
+	},
+	"04_Branches/From_J03": {
+	  "basis_x": [
+		1.0,
+		0.0,
+		0.0
+	  ],
+	  "basis_y": [
+		0.0,
+		1.0,
+		0.0
+	  ],
+	  "basis_z": [
+		0.0,
+		0.0,
+		1.0
+	  ],
+	  "determinant": 1.0,
+	  "origin": [
+		0.0,
+		0.0,
+		0.0
+	  ]
+	},
+	"04_Branches/From_J04": {
+	  "basis_x": [
+		1.0,
+		0.0,
+		0.0
+	  ],
+	  "basis_y": [
+		0.0,
+		1.0,
+		0.0
+	  ],
+	  "basis_z": [
+		0.0,
+		0.0,
+		1.0
+	  ],
+	  "determinant": 1.0,
+	  "origin": [
+		0.0,
+		0.0,
+		0.0
+	  ]
+	},
+	"04_Branches/From_J05": {
+	  "basis_x": [
+		1.0,
+		0.0,
+		0.0
+	  ],
+	  "basis_y": [
+		0.0,
+		1.0,
+		0.0
+	  ],
+	  "basis_z": [
+		0.0,
+		0.0,
+		1.0
+	  ],
+	  "determinant": 1.0,
+	  "origin": [
+		0.0,
+		0.0,
+		0.0
+	  ]
+	},
+	"04_Branches/From_J06": {
+	  "basis_x": [
+		1.0,
+		0.0,
+		0.0
+	  ],
+	  "basis_y": [
+		0.0,
+		1.0,
+		0.0
+	  ],
+	  "basis_z": [
+		0.0,
+		0.0,
+		1.0
+	  ],
+	  "determinant": 1.0,
+	  "origin": [
+		0.0,
+		0.0,
+		0.0
+	  ]
+	},
+	"04_Branches/From_J07": {
+	  "basis_x": [
+		1.0,
+		0.0,
+		0.0
+	  ],
+	  "basis_y": [
+		0.0,
+		1.0,
+		0.0
+	  ],
+	  "basis_z": [
+		0.0,
+		0.0,
+		1.0
+	  ],
+	  "determinant": 1.0,
+	  "origin": [
+		0.0,
+		0.0,
+		0.0
+	  ]
+	},
+	"04_Branches/From_J08": {
+	  "basis_x": [
+		1.0,
+		0.0,
+		0.0
+	  ],
+	  "basis_y": [
+		0.0,
+		1.0,
+		0.0
+	  ],
+	  "basis_z": [
+		0.0,
+		0.0,
+		1.0
+	  ],
+	  "determinant": 1.0,
+	  "origin": [
+		0.0,
+		0.0,
+		0.0
+	  ]
+	},
+	"04_Branches/From_J09": {
+	  "basis_x": [
+		1.0,
+		0.0,
+		0.0
+	  ],
+	  "basis_y": [
+		0.0,
+		1.0,
+		0.0
+	  ],
+	  "basis_z": [
+		0.0,
+		0.0,
+		1.0
+	  ],
+	  "determinant": 1.0,
+	  "origin": [
+		0.0,
+		0.0,
+		0.0
+	  ]
+	}
+  },
+  "markers": [
+	{
+	  "cavity_local_position_mm": [
+		50.4510345458984,
+		22.7835998535156,
+		-48.2599029541016
+	  ],
+	  "cavity_local_roundtrip_error_mm": 0.0,
+	  "global_position_mm": [
+		50.4510345458984,
+		22.7835998535156,
+		-48.2599029541016
+	  ],
+	  "local_position_mm": [
+		50.4510345458984,
+		22.7835998535156,
+		-48.2599029541016
+	  ],
+	  "name": "P_IN_01_END",
+	  "parent": "WaterInlet01",
+	  "parent_local_position_mm": [
+		50.4510345458984,
+		22.7835998535156,
+		-48.2599029541016
+	  ],
+	  "parent_path": "00_ArtificialPorts/WaterInlet01",
+	  "path": "00_ArtificialPorts/WaterInlet01/P_IN_01_END",
+	  "position_mm": [
+		50.4510345458984,
+		22.7835998535156,
+		-48.2599029541016
+	  ],
+	  "scene_local_position_mm": [
+		50.4510345458984,
+		22.7835998535156,
+		-48.2599029541016
+	  ],
+	  "top_level": false,
+	  "world_minus_parent_local_mm": [
+		0.0,
+		0.0,
+		0.0
+	  ]
+	},
+	{
+	  "cavity_local_position_mm": [
+		36.3077087402344,
+		20.3544273376465,
+		-54.1500129699707
+	  ],
+	  "cavity_local_roundtrip_error_mm": 0.0,
+	  "global_position_mm": [
+		36.3077087402344,
+		20.3544273376465,
+		-54.1500129699707
+	  ],
+	  "local_position_mm": [
+		36.3077087402344,
+		20.3544273376465,
+		-54.1500129699707
+	  ],
+	  "name": "P_IN_01_BASE",
+	  "parent": "WaterInlet01",
+	  "parent_local_position_mm": [
+		36.3077087402344,
+		20.3544273376465,
+		-54.1500129699707
+	  ],
+	  "parent_path": "00_ArtificialPorts/WaterInlet01",
+	  "path": "00_ArtificialPorts/WaterInlet01/P_IN_01_BASE",
+	  "position_mm": [
+		36.3077087402344,
+		20.3544273376465,
+		-54.1500129699707
+	  ],
+	  "scene_local_position_mm": [
+		36.3077087402344,
+		20.3544273376465,
+		-54.1500129699707
+	  ],
+	  "top_level": false,
+	  "world_minus_parent_local_mm": [
+		0.0,
+		0.0,
+		0.0
+	  ]
+	},
+	{
+	  "cavity_local_position_mm": [
+		-3.44136047363281,
+		17.8085632324219,
+		-23.184642791748
+	  ],
+	  "cavity_local_roundtrip_error_mm": 0.0,
+	  "global_position_mm": [
+		-3.44136047363281,
+		17.8085632324219,
+		-23.184642791748
+	  ],
+	  "local_position_mm": [
+		-3.44136047363281,
+		17.8085632324219,
+		-23.184642791748
+	  ],
+	  "name": "P_IN_02_END",
+	  "parent": "WaterInlet02",
+	  "parent_local_position_mm": [
+		-3.44136047363281,
+		17.8085632324219,
+		-23.184642791748
+	  ],
+	  "parent_path": "00_ArtificialPorts/WaterInlet02",
+	  "path": "00_ArtificialPorts/WaterInlet02/P_IN_02_END",
+	  "position_mm": [
+		-3.44136047363281,
+		17.8085632324219,
+		-23.184642791748
+	  ],
+	  "scene_local_position_mm": [
+		-3.44136047363281,
+		17.8085632324219,
+		-23.184642791748
+	  ],
+	  "top_level": false,
+	  "world_minus_parent_local_mm": [
+		0.0,
+		0.0,
+		0.0
+	  ]
+	},
+	{
+	  "cavity_local_position_mm": [
+		5.44413185119629,
+		18.7488613128662,
+		-37.3311424255371
+	  ],
+	  "cavity_local_roundtrip_error_mm": 0.0,
+	  "global_position_mm": [
+		5.44413185119629,
+		18.7488613128662,
+		-37.3311424255371
+	  ],
+	  "local_position_mm": [
+		5.44413185119629,
+		18.7488613128662,
+		-37.3311424255371
+	  ],
+	  "name": "P_IN_02_BASE",
+	  "parent": "WaterInlet02",
+	  "parent_local_position_mm": [
+		5.44413185119629,
+		18.7488613128662,
+		-37.3311424255371
+	  ],
+	  "parent_path": "00_ArtificialPorts/WaterInlet02",
+	  "path": "00_ArtificialPorts/WaterInlet02/P_IN_02_BASE",
+	  "position_mm": [
+		5.44413185119629,
+		18.7488613128662,
+		-37.3311424255371
+	  ],
+	  "scene_local_position_mm": [
+		5.44413185119629,
+		18.7488613128662,
+		-37.3311424255371
+	  ],
+	  "top_level": false,
+	  "world_minus_parent_local_mm": [
+		0.0,
+		0.0,
+		0.0
+	  ]
+	},
+	{
+	  "cavity_local_position_mm": [
+		-10.0,
+		22.0,
+		-139.0
+	  ],
+	  "cavity_local_roundtrip_error_mm": 0.0,
+	  "global_position_mm": [
+		-10.0,
+		22.0,
+		-139.0
+	  ],
+	  "local_position_mm": [
+		-10.0,
+		22.0,
+		-139.0
+	  ],
+	  "name": "P_BLADDER_END",
+	  "parent": "BladderConnection",
+	  "parent_local_position_mm": [
+		-10.0,
+		22.0,
+		-139.0
+	  ],
+	  "parent_path": "00_ArtificialPorts/BladderConnection",
+	  "path": "00_ArtificialPorts/BladderConnection/P_BLADDER_END",
+	  "position_mm": [
+		-10.0,
+		22.0,
+		-139.0
+	  ],
+	  "scene_local_position_mm": [
+		-10.0,
+		22.0,
+		-139.0
+	  ],
+	  "top_level": false,
+	  "world_minus_parent_local_mm": [
+		0.0,
+		0.0,
+		0.0
+	  ]
+	},
+	{
+	  "cavity_local_position_mm": [
+		-10.2987651824951,
+		16.9888362884521,
+		-103.458778381348
+	  ],
+	  "cavity_local_roundtrip_error_mm": 0.0,
+	  "global_position_mm": [
+		-10.2987651824951,
+		16.9888362884521,
+		-103.458778381348
+	  ],
+	  "local_position_mm": [
+		-10.2987651824951,
+		16.9888362884521,
+		-103.458778381348
+	  ],
+	  "name": "P_BLADDER_BASE",
+	  "parent": "BladderConnection",
+	  "parent_local_position_mm": [
+		-10.2987651824951,
+		16.9888362884521,
+		-103.458778381348
+	  ],
+	  "parent_path": "00_ArtificialPorts/BladderConnection",
+	  "path": "00_ArtificialPorts/BladderConnection/P_BLADDER_BASE",
+	  "position_mm": [
+		-10.2987651824951,
+		16.9888362884521,
+		-103.458778381348
+	  ],
+	  "scene_local_position_mm": [
+		-10.2987651824951,
+		16.9888362884521,
+		-103.458778381348
+	  ],
+	  "top_level": false,
+	  "world_minus_parent_local_mm": [
+		0.0,
+		0.0,
+		0.0
+	  ]
+	},
+	{
+	  "cavity_local_position_mm": [
+		-8.03190040588379,
+		16.5296592712402,
+		-96.6844024658203
+	  ],
+	  "cavity_local_roundtrip_error_mm": 0.0,
+	  "global_position_mm": [
+		-8.03190040588379,
+		16.5296592712402,
+		-96.6844024658203
+	  ],
+	  "local_position_mm": [
+		-8.03190040588379,
+		16.5296592712402,
+		-96.6844024658203
+	  ],
+	  "name": "A_Start",
+	  "parent": "01_MainCavity",
+	  "parent_local_position_mm": [
+		-8.03190040588379,
+		16.5296592712402,
+		-96.6844024658203
+	  ],
+	  "parent_path": "01_MainCavity",
+	  "path": "01_MainCavity/A_Start",
+	  "position_mm": [
+		-8.03190040588379,
+		16.5296592712402,
+		-96.6844024658203
+	  ],
+	  "scene_local_position_mm": [
+		-8.03190040588379,
+		16.5296592712402,
+		-96.6844024658203
+	  ],
+	  "top_level": false,
+	  "world_minus_parent_local_mm": [
+		0.0,
+		0.0,
+		0.0
+	  ]
+	},
+	{
+	  "cavity_local_position_mm": [
+		4.43134117126465,
+		16.3525009155273,
+		-86.0930252075195
+	  ],
+	  "cavity_local_roundtrip_error_mm": 0.0,
+	  "global_position_mm": [
+		4.43134117126465,
+		16.3525009155273,
+		-86.0930252075195
+	  ],
+	  "local_position_mm": [
+		4.43134117126465,
+		16.3525009155273,
+		-86.0930252075195
+	  ],
+	  "name": "A_Middle",
+	  "parent": "01_MainCavity",
+	  "parent_local_position_mm": [
+		4.43134117126465,
+		16.3525009155273,
+		-86.0930252075195
+	  ],
+	  "parent_path": "01_MainCavity",
+	  "path": "01_MainCavity/A_Middle",
+	  "position_mm": [
+		4.43134117126465,
+		16.3525009155273,
+		-86.0930252075195
+	  ],
+	  "scene_local_position_mm": [
+		4.43134117126465,
+		16.3525009155273,
+		-86.0930252075195
+	  ],
+	  "top_level": false,
+	  "world_minus_parent_local_mm": [
+		0.0,
+		0.0,
+		0.0
+	  ]
+	},
+	{
+	  "cavity_local_position_mm": [
+		15.0682125091553,
+		14.2814712524414,
+		-78.740478515625
+	  ],
+	  "cavity_local_roundtrip_error_mm": 0.0,
+	  "global_position_mm": [
+		15.0682125091553,
+		14.2814712524414,
+		-78.740478515625
+	  ],
+	  "local_position_mm": [
+		15.0682125091553,
+		14.2814712524414,
+		-78.740478515625
+	  ],
+	  "name": "A_End",
+	  "parent": "01_MainCavity",
+	  "parent_local_position_mm": [
+		15.0682125091553,
+		14.2814712524414,
+		-78.740478515625
+	  ],
+	  "parent_path": "01_MainCavity",
+	  "path": "01_MainCavity/A_End",
+	  "position_mm": [
+		15.0682125091553,
+		14.2814712524414,
+		-78.740478515625
+	  ],
+	  "scene_local_position_mm": [
+		15.0682125091553,
+		14.2814712524414,
+		-78.740478515625
+	  ],
+	  "top_level": false,
+	  "world_minus_parent_local_mm": [
+		0.0,
+		0.0,
+		0.0
+	  ]
+	},
+	{
+	  "cavity_local_position_mm": [
+		20.6455535888672,
+		12.6209392547607,
+		-76.0362701416016
+	  ],
+	  "cavity_local_roundtrip_error_mm": 0.0,
+	  "global_position_mm": [
+		20.6455535888672,
+		12.6209392547607,
+		-76.0362701416016
+	  ],
+	  "local_position_mm": [
+		20.6455535888672,
+		12.6209392547607,
+		-76.0362701416016
+	  ],
+	  "name": "J_01",
+	  "parent": "02_Junctions",
+	  "parent_local_position_mm": [
+		20.6455535888672,
+		12.6209392547607,
+		-76.0362701416016
+	  ],
+	  "parent_path": "02_Junctions",
+	  "path": "02_Junctions/J_01",
+	  "position_mm": [
+		20.6455535888672,
+		12.6209392547607,
+		-76.0362701416016
+	  ],
+	  "scene_local_position_mm": [
+		20.6455535888672,
+		12.6209392547607,
+		-76.0362701416016
+	  ],
+	  "top_level": false,
+	  "world_minus_parent_local_mm": [
+		0.0,
+		0.0,
+		0.0
+	  ]
+	},
+	{
+	  "cavity_local_position_mm": [
+		22.9304218292236,
+		22.6206150054932,
+		-90.9267883300781
+	  ],
+	  "cavity_local_roundtrip_error_mm": 0.0,
+	  "global_position_mm": [
+		22.9304218292236,
+		22.6206150054932,
+		-90.9267883300781
+	  ],
+	  "local_position_mm": [
+		22.9304218292236,
+		22.6206150054932,
+		-90.9267883300781
+	  ],
+	  "name": "J_02",
+	  "parent": "02_Junctions",
+	  "parent_local_position_mm": [
+		22.9304218292236,
+		22.6206150054932,
+		-90.9267883300781
+	  ],
+	  "parent_path": "02_Junctions",
+	  "path": "02_Junctions/J_02",
+	  "position_mm": [
+		22.9304218292236,
+		22.6206150054932,
+		-90.9267883300781
+	  ],
+	  "scene_local_position_mm": [
+		22.9304218292236,
+		22.6206150054932,
+		-90.9267883300781
+	  ],
+	  "top_level": false,
+	  "world_minus_parent_local_mm": [
+		0.0,
+		0.0,
+		0.0
+	  ]
+	},
+	{
+	  "cavity_local_position_mm": [
+		33.8654479980469,
+		15.74294090271,
+		-78.0878295898438
+	  ],
+	  "cavity_local_roundtrip_error_mm": 0.0,
+	  "global_position_mm": [
+		33.8654479980469,
+		15.74294090271,
+		-78.0878295898438
+	  ],
+	  "local_position_mm": [
+		33.8654479980469,
+		15.74294090271,
+		-78.0878295898438
+	  ],
+	  "name": "J_03",
+	  "parent": "02_Junctions",
+	  "parent_local_position_mm": [
+		33.8654479980469,
+		15.74294090271,
+		-78.0878295898438
+	  ],
+	  "parent_path": "02_Junctions",
+	  "path": "02_Junctions/J_03",
+	  "position_mm": [
+		33.8654479980469,
+		15.74294090271,
+		-78.0878295898438
+	  ],
+	  "scene_local_position_mm": [
+		33.8654479980469,
+		15.74294090271,
+		-78.0878295898438
+	  ],
+	  "top_level": false,
+	  "world_minus_parent_local_mm": [
+		0.0,
+		0.0,
+		0.0
+	  ]
+	},
+	{
+	  "cavity_local_position_mm": [
+		21.7355175018311,
+		13.3084325790405,
+		-58.5521774291992
+	  ],
+	  "cavity_local_roundtrip_error_mm": 0.0,
+	  "global_position_mm": [
+		21.7355175018311,
+		13.3084325790405,
+		-58.5521774291992
+	  ],
+	  "local_position_mm": [
+		21.7355175018311,
+		13.3084325790405,
+		-58.5521774291992
+	  ],
+	  "name": "J_04",
+	  "parent": "02_Junctions",
+	  "parent_local_position_mm": [
+		21.7355175018311,
+		13.3084325790405,
+		-58.5521774291992
+	  ],
+	  "parent_path": "02_Junctions",
+	  "path": "02_Junctions/J_04",
+	  "position_mm": [
+		21.7355175018311,
+		13.3084325790405,
+		-58.5521774291992
+	  ],
+	  "scene_local_position_mm": [
+		21.7355175018311,
+		13.3084325790405,
+		-58.5521774291992
+	  ],
+	  "top_level": false,
+	  "world_minus_parent_local_mm": [
+		0.0,
+		0.0,
+		0.0
+	  ]
+	},
+	{
+	  "cavity_local_position_mm": [
+		28.2168655395508,
+		17.6801357269287,
+		-57.6315078735352
+	  ],
+	  "cavity_local_roundtrip_error_mm": 0.0,
+	  "global_position_mm": [
+		28.2168655395508,
+		17.6801357269287,
+		-57.6315078735352
+	  ],
+	  "local_position_mm": [
+		28.2168655395508,
+		17.6801357269287,
+		-57.6315078735352
+	  ],
+	  "name": "J_05",
+	  "parent": "02_Junctions",
+	  "parent_local_position_mm": [
+		28.2168655395508,
+		17.6801357269287,
+		-57.6315078735352
+	  ],
+	  "parent_path": "02_Junctions",
+	  "path": "02_Junctions/J_05",
+	  "position_mm": [
+		28.2168655395508,
+		17.6801357269287,
+		-57.6315078735352
+	  ],
+	  "scene_local_position_mm": [
+		28.2168655395508,
+		17.6801357269287,
+		-57.6315078735352
+	  ],
+	  "top_level": false,
+	  "world_minus_parent_local_mm": [
+		0.0,
+		0.0,
+		0.0
+	  ]
+	},
+	{
+	  "cavity_local_position_mm": [
+		18.2151660919189,
+		10.3820304870605,
+		-50.1413536071777
+	  ],
+	  "cavity_local_roundtrip_error_mm": 0.0,
+	  "global_position_mm": [
+		18.2151660919189,
+		10.3820304870605,
+		-50.1413536071777
+	  ],
+	  "local_position_mm": [
+		18.2151660919189,
+		10.3820304870605,
+		-50.1413536071777
+	  ],
+	  "name": "J_06",
+	  "parent": "02_Junctions",
+	  "parent_local_position_mm": [
+		18.2151660919189,
+		10.3820304870605,
+		-50.1413536071777
+	  ],
+	  "parent_path": "02_Junctions",
+	  "path": "02_Junctions/J_06",
+	  "position_mm": [
+		18.2151660919189,
+		10.3820304870605,
+		-50.1413536071777
+	  ],
+	  "scene_local_position_mm": [
+		18.2151660919189,
+		10.3820304870605,
+		-50.1413536071777
+	  ],
+	  "top_level": false,
+	  "world_minus_parent_local_mm": [
+		0.0,
+		0.0,
+		0.0
+	  ]
+	},
+	{
+	  "cavity_local_position_mm": [
+		13.1468448638916,
+		10.1255760192871,
+		-42.2978172302246
+	  ],
+	  "cavity_local_roundtrip_error_mm": 0.0,
+	  "global_position_mm": [
+		13.1468448638916,
+		10.1255760192871,
+		-42.2978172302246
+	  ],
+	  "local_position_mm": [
+		13.1468448638916,
+		10.1255760192871,
+		-42.2978172302246
+	  ],
+	  "name": "J_07",
+	  "parent": "02_Junctions",
+	  "parent_local_position_mm": [
+		13.1468448638916,
+		10.1255760192871,
+		-42.2978172302246
+	  ],
+	  "parent_path": "02_Junctions",
+	  "path": "02_Junctions/J_07",
+	  "position_mm": [
+		13.1468448638916,
+		10.1255760192871,
+		-42.2978172302246
+	  ],
+	  "scene_local_position_mm": [
+		13.1468448638916,
+		10.1255760192871,
+		-42.2978172302246
+	  ],
+	  "top_level": false,
+	  "world_minus_parent_local_mm": [
+		0.0,
+		0.0,
+		0.0
+	  ]
+	},
+	{
+	  "cavity_local_position_mm": [
+		18.3014545440674,
+		7.47692108154297,
+		-39.8363227844238
+	  ],
+	  "cavity_local_roundtrip_error_mm": 0.0,
+	  "global_position_mm": [
+		18.3014545440674,
+		7.47692108154297,
+		-39.8363227844238
+	  ],
+	  "local_position_mm": [
+		18.3014545440674,
+		7.47692108154297,
+		-39.8363227844238
+	  ],
+	  "name": "J_08",
+	  "parent": "02_Junctions",
+	  "parent_local_position_mm": [
+		18.3014545440674,
+		7.47692108154297,
+		-39.8363227844238
+	  ],
+	  "parent_path": "02_Junctions",
+	  "path": "02_Junctions/J_08",
+	  "position_mm": [
+		18.3014545440674,
+		7.47692108154297,
+		-39.8363227844238
+	  ],
+	  "scene_local_position_mm": [
+		18.3014545440674,
+		7.47692108154297,
+		-39.8363227844238
+	  ],
+	  "top_level": false,
+	  "world_minus_parent_local_mm": [
+		0.0,
+		0.0,
+		0.0
+	  ]
+	},
+	{
+	  "cavity_local_position_mm": [
+		6.54512739181519,
+		18.1802711486816,
+		-39.8904724121094
+	  ],
+	  "cavity_local_roundtrip_error_mm": 0.0,
+	  "global_position_mm": [
+		6.54512739181519,
+		18.1802711486816,
+		-39.8904724121094
+	  ],
+	  "local_position_mm": [
+		6.54512739181519,
+		18.1802711486816,
+		-39.8904724121094
+	  ],
+	  "name": "J_09",
+	  "parent": "02_Junctions",
+	  "parent_local_position_mm": [
+		6.54512739181519,
+		18.1802711486816,
+		-39.8904724121094
+	  ],
+	  "parent_path": "02_Junctions",
+	  "path": "02_Junctions/J_09",
+	  "position_mm": [
+		6.54512739181519,
+		18.1802711486816,
+		-39.8904724121094
+	  ],
+	  "scene_local_position_mm": [
+		6.54512739181519,
+		18.1802711486816,
+		-39.8904724121094
+	  ],
+	  "top_level": false,
+	  "world_minus_parent_local_mm": [
+		0.0,
+		0.0,
+		0.0
+	  ]
+	},
+	{
+	  "cavity_local_position_mm": [
+		16.9272270202637,
+		38.1623992919922,
+		-92.0970458984375
+	  ],
+	  "cavity_local_roundtrip_error_mm": 0.0,
+	  "global_position_mm": [
+		16.9272270202637,
+		38.1623992919922,
+		-92.0970458984375
+	  ],
+	  "local_position_mm": [
+		16.9272270202637,
+		38.1623992919922,
+		-92.0970458984375
+	  ],
+	  "name": "T_01",
+	  "parent": "03_Terminals",
+	  "parent_local_position_mm": [
+		16.9272270202637,
+		38.1623992919922,
+		-92.0970458984375
+	  ],
+	  "parent_path": "03_Terminals",
+	  "path": "03_Terminals/T_01",
+	  "position_mm": [
+		16.9272270202637,
+		38.1623992919922,
+		-92.0970458984375
+	  ],
+	  "scene_local_position_mm": [
+		16.9272270202637,
+		38.1623992919922,
+		-92.0970458984375
+	  ],
+	  "top_level": false,
+	  "world_minus_parent_local_mm": [
+		0.0,
+		0.0,
+		0.0
+	  ]
+	},
+	{
+	  "cavity_local_position_mm": [
+		30.1549530029297,
+		33.7061233520508,
+		-84.8305740356445
+	  ],
+	  "cavity_local_roundtrip_error_mm": 0.0,
+	  "global_position_mm": [
+		30.1549530029297,
+		33.7061233520508,
+		-84.8305740356445
+	  ],
+	  "local_position_mm": [
+		30.1549530029297,
+		33.7061233520508,
+		-84.8305740356445
+	  ],
+	  "name": "T_02",
+	  "parent": "03_Terminals",
+	  "parent_local_position_mm": [
+		30.1549530029297,
+		33.7061233520508,
+		-84.8305740356445
+	  ],
+	  "parent_path": "03_Terminals",
+	  "path": "03_Terminals/T_02",
+	  "position_mm": [
+		30.1549530029297,
+		33.7061233520508,
+		-84.8305740356445
+	  ],
+	  "scene_local_position_mm": [
+		30.1549530029297,
+		33.7061233520508,
+		-84.8305740356445
+	  ],
+	  "top_level": false,
+	  "world_minus_parent_local_mm": [
+		0.0,
+		0.0,
+		0.0
+	  ]
+	},
+	{
+	  "cavity_local_position_mm": [
+		19.5902328491211,
+		25.6950531005859,
+		-108.563987731934
+	  ],
+	  "cavity_local_roundtrip_error_mm": 0.0,
+	  "global_position_mm": [
+		19.5902328491211,
+		25.6950531005859,
+		-108.563987731934
+	  ],
+	  "local_position_mm": [
+		19.5902328491211,
+		25.6950531005859,
+		-108.563987731934
+	  ],
+	  "name": "T_03",
+	  "parent": "03_Terminals",
+	  "parent_local_position_mm": [
+		19.5902328491211,
+		25.6950531005859,
+		-108.563987731934
+	  ],
+	  "parent_path": "03_Terminals",
+	  "path": "03_Terminals/T_03",
+	  "position_mm": [
+		19.5902328491211,
+		25.6950531005859,
+		-108.563987731934
+	  ],
+	  "scene_local_position_mm": [
+		19.5902328491211,
+		25.6950531005859,
+		-108.563987731934
+	  ],
+	  "top_level": false,
+	  "world_minus_parent_local_mm": [
+		0.0,
+		0.0,
+		0.0
+	  ]
+	},
+	{
+	  "cavity_local_position_mm": [
+		31.3630523681641,
+		11.1308088302612,
+		-98.1752014160156
+	  ],
+	  "cavity_local_roundtrip_error_mm": 0.0,
+	  "global_position_mm": [
+		31.3630523681641,
+		11.1308088302612,
+		-98.1752014160156
+	  ],
+	  "local_position_mm": [
+		31.3630523681641,
+		11.1308088302612,
+		-98.1752014160156
+	  ],
+	  "name": "T_04",
+	  "parent": "03_Terminals",
+	  "parent_local_position_mm": [
+		31.3630523681641,
+		11.1308088302612,
+		-98.1752014160156
+	  ],
+	  "parent_path": "03_Terminals",
+	  "path": "03_Terminals/T_04",
+	  "position_mm": [
+		31.3630523681641,
+		11.1308088302612,
+		-98.1752014160156
+	  ],
+	  "scene_local_position_mm": [
+		31.3630523681641,
+		11.1308088302612,
+		-98.1752014160156
+	  ],
+	  "top_level": false,
+	  "world_minus_parent_local_mm": [
+		0.0,
+		0.0,
+		0.0
+	  ]
+	},
+	{
+	  "cavity_local_position_mm": [
+		40.2217864990234,
+		26.8241710662842,
+		-78.4639129638672
+	  ],
+	  "cavity_local_roundtrip_error_mm": 0.0,
+	  "global_position_mm": [
+		40.2217864990234,
+		26.8241710662842,
+		-78.4639129638672
+	  ],
+	  "local_position_mm": [
+		40.2217864990234,
+		26.8241710662842,
+		-78.4639129638672
+	  ],
+	  "name": "T_05",
+	  "parent": "03_Terminals",
+	  "parent_local_position_mm": [
+		40.2217864990234,
+		26.8241710662842,
+		-78.4639129638672
+	  ],
+	  "parent_path": "03_Terminals",
+	  "path": "03_Terminals/T_05",
+	  "position_mm": [
+		40.2217864990234,
+		26.8241710662842,
+		-78.4639129638672
+	  ],
+	  "scene_local_position_mm": [
+		40.2217864990234,
+		26.8241710662842,
+		-78.4639129638672
+	  ],
+	  "top_level": false,
+	  "world_minus_parent_local_mm": [
+		0.0,
+		0.0,
+		0.0
+	  ]
+	},
+	{
+	  "cavity_local_position_mm": [
+		42.6512908935547,
+		6.03333759307861,
+		-80.2824859619141
+	  ],
+	  "cavity_local_roundtrip_error_mm": 0.0,
+	  "global_position_mm": [
+		42.6512908935547,
+		6.03333759307861,
+		-80.2824859619141
+	  ],
+	  "local_position_mm": [
+		42.6512908935547,
+		6.03333759307861,
+		-80.2824859619141
+	  ],
+	  "name": "T_06",
+	  "parent": "03_Terminals",
+	  "parent_local_position_mm": [
+		42.6512908935547,
+		6.03333759307861,
+		-80.2824859619141
+	  ],
+	  "parent_path": "03_Terminals",
+	  "path": "03_Terminals/T_06",
+	  "position_mm": [
+		42.6512908935547,
+		6.03333759307861,
+		-80.2824859619141
+	  ],
+	  "scene_local_position_mm": [
+		42.6512908935547,
+		6.03333759307861,
+		-80.2824859619141
+	  ],
+	  "top_level": false,
+	  "world_minus_parent_local_mm": [
+		0.0,
+		0.0,
+		0.0
+	  ]
+	},
+	{
+	  "cavity_local_position_mm": [
+		30.7731990814209,
+		-5.6568808555603,
+		-71.7501983642578
+	  ],
+	  "cavity_local_roundtrip_error_mm": 0.0,
+	  "global_position_mm": [
+		30.7731990814209,
+		-5.6568808555603,
+		-71.7501983642578
+	  ],
+	  "local_position_mm": [
+		30.7731990814209,
+		-5.6568808555603,
+		-71.7501983642578
+	  ],
+	  "name": "T_07",
+	  "parent": "03_Terminals",
+	  "parent_local_position_mm": [
+		30.7731990814209,
+		-5.6568808555603,
+		-71.7501983642578
+	  ],
+	  "parent_path": "03_Terminals",
+	  "path": "03_Terminals/T_07",
+	  "position_mm": [
+		30.7731990814209,
+		-5.6568808555603,
+		-71.7501983642578
+	  ],
+	  "scene_local_position_mm": [
+		30.7731990814209,
+		-5.6568808555603,
+		-71.7501983642578
+	  ],
+	  "top_level": false,
+	  "world_minus_parent_local_mm": [
+		0.0,
+		0.0,
+		0.0
+	  ]
+	},
+	{
+	  "cavity_local_position_mm": [
+		25.1080627441406,
+		27.5972995758057,
+		-71.5262908935547
+	  ],
+	  "cavity_local_roundtrip_error_mm": 0.0,
+	  "global_position_mm": [
+		25.1080627441406,
+		27.5972995758057,
+		-71.5262908935547
+	  ],
+	  "local_position_mm": [
+		25.1080627441406,
+		27.5972995758057,
+		-71.5262908935547
+	  ],
+	  "name": "T_08",
+	  "parent": "03_Terminals",
+	  "parent_local_position_mm": [
+		25.1080627441406,
+		27.5972995758057,
+		-71.5262908935547
+	  ],
+	  "parent_path": "03_Terminals",
+	  "path": "03_Terminals/T_08",
+	  "position_mm": [
+		25.1080627441406,
+		27.5972995758057,
+		-71.5262908935547
+	  ],
+	  "scene_local_position_mm": [
+		25.1080627441406,
+		27.5972995758057,
+		-71.5262908935547
+	  ],
+	  "top_level": false,
+	  "world_minus_parent_local_mm": [
+		0.0,
+		0.0,
+		0.0
+	  ]
+	},
+	{
+	  "cavity_local_position_mm": [
+		35.5310592651367,
+		34.6983261108398,
+		-63.2201118469238
+	  ],
+	  "cavity_local_roundtrip_error_mm": 0.0,
+	  "global_position_mm": [
+		35.5310592651367,
+		34.6983261108398,
+		-63.2201118469238
+	  ],
+	  "local_position_mm": [
+		35.5310592651367,
+		34.6983261108398,
+		-63.2201118469238
+	  ],
+	  "name": "T_09",
+	  "parent": "03_Terminals",
+	  "parent_local_position_mm": [
+		35.5310592651367,
+		34.6983261108398,
+		-63.2201118469238
+	  ],
+	  "parent_path": "03_Terminals",
+	  "path": "03_Terminals/T_09",
+	  "position_mm": [
+		35.5310592651367,
+		34.6983261108398,
+		-63.2201118469238
+	  ],
+	  "scene_local_position_mm": [
+		35.5310592651367,
+		34.6983261108398,
+		-63.2201118469238
+	  ],
+	  "top_level": false,
+	  "world_minus_parent_local_mm": [
+		0.0,
+		0.0,
+		0.0
+	  ]
+	},
+	{
+	  "cavity_local_position_mm": [
+		43.815357208252,
+		15.3792753219604,
+		-62.9953422546387
+	  ],
+	  "cavity_local_roundtrip_error_mm": 0.0,
+	  "global_position_mm": [
+		43.815357208252,
+		15.3792753219604,
+		-62.9953422546387
+	  ],
+	  "local_position_mm": [
+		43.815357208252,
+		15.3792753219604,
+		-62.9953422546387
+	  ],
+	  "name": "T_10",
+	  "parent": "03_Terminals",
+	  "parent_local_position_mm": [
+		43.815357208252,
+		15.3792753219604,
+		-62.9953422546387
+	  ],
+	  "parent_path": "03_Terminals",
+	  "path": "03_Terminals/T_10",
+	  "position_mm": [
+		43.815357208252,
+		15.3792753219604,
+		-62.9953422546387
+	  ],
+	  "scene_local_position_mm": [
+		43.815357208252,
+		15.3792753219604,
+		-62.9953422546387
+	  ],
+	  "top_level": false,
+	  "world_minus_parent_local_mm": [
+		0.0,
+		0.0,
+		0.0
+	  ]
+	},
+	{
+	  "cavity_local_position_mm": [
+		7.6993293762207,
+		22.9976997375488,
+		-58.0009002685547
+	  ],
+	  "cavity_local_roundtrip_error_mm": 0.0,
+	  "global_position_mm": [
+		7.6993293762207,
+		22.9976997375488,
+		-58.0009002685547
+	  ],
+	  "local_position_mm": [
+		7.6993293762207,
+		22.9976997375488,
+		-58.0009002685547
+	  ],
+	  "name": "T_11",
+	  "parent": "03_Terminals",
+	  "parent_local_position_mm": [
+		7.6993293762207,
+		22.9976997375488,
+		-58.0009002685547
+	  ],
+	  "parent_path": "03_Terminals",
+	  "path": "03_Terminals/T_11",
+	  "position_mm": [
+		7.6993293762207,
+		22.9976997375488,
+		-58.0009002685547
+	  ],
+	  "scene_local_position_mm": [
+		7.6993293762207,
+		22.9976997375488,
+		-58.0009002685547
+	  ],
+	  "top_level": false,
+	  "world_minus_parent_local_mm": [
+		0.0,
+		0.0,
+		0.0
+	  ]
+	},
+	{
+	  "cavity_local_position_mm": [
+		18.6763114929199,
+		36.185474395752,
+		-59.7005500793457
+	  ],
+	  "cavity_local_roundtrip_error_mm": 0.0,
+	  "global_position_mm": [
+		18.6763114929199,
+		36.185474395752,
+		-59.7005500793457
+	  ],
+	  "local_position_mm": [
+		18.6763114929199,
+		36.185474395752,
+		-59.7005500793457
+	  ],
+	  "name": "T_12",
+	  "parent": "03_Terminals",
+	  "parent_local_position_mm": [
+		18.6763114929199,
+		36.185474395752,
+		-59.7005500793457
+	  ],
+	  "parent_path": "03_Terminals",
+	  "path": "03_Terminals/T_12",
+	  "position_mm": [
+		18.6763114929199,
+		36.185474395752,
+		-59.7005500793457
+	  ],
+	  "scene_local_position_mm": [
+		18.6763114929199,
+		36.185474395752,
+		-59.7005500793457
+	  ],
+	  "top_level": false,
+	  "world_minus_parent_local_mm": [
+		0.0,
+		0.0,
+		0.0
+	  ]
+	},
+	{
+	  "cavity_local_position_mm": [
+		26.2970104217529,
+		35.2337455749512,
+		-49.7916984558105
+	  ],
+	  "cavity_local_roundtrip_error_mm": 0.0,
+	  "global_position_mm": [
+		26.2970104217529,
+		35.2337455749512,
+		-49.7916984558105
+	  ],
+	  "local_position_mm": [
+		26.2970104217529,
+		35.2337455749512,
+		-49.7916984558105
+	  ],
+	  "name": "T_13",
+	  "parent": "03_Terminals",
+	  "parent_local_position_mm": [
+		26.2970104217529,
+		35.2337455749512,
+		-49.7916984558105
+	  ],
+	  "parent_path": "03_Terminals",
+	  "path": "03_Terminals/T_13",
+	  "position_mm": [
+		26.2970104217529,
+		35.2337455749512,
+		-49.7916984558105
+	  ],
+	  "scene_local_position_mm": [
+		26.2970104217529,
+		35.2337455749512,
+		-49.7916984558105
+	  ],
+	  "top_level": false,
+	  "world_minus_parent_local_mm": [
+		0.0,
+		0.0,
+		0.0
+	  ]
+	},
+	{
+	  "cavity_local_position_mm": [
+		31.6922988891602,
+		19.4579257965088,
+		-42.6238136291504
+	  ],
+	  "cavity_local_roundtrip_error_mm": 0.0,
+	  "global_position_mm": [
+		31.6922988891602,
+		19.4579257965088,
+		-42.6238136291504
+	  ],
+	  "local_position_mm": [
+		31.6922988891602,
+		19.4579257965088,
+		-42.6238136291504
+	  ],
+	  "name": "T_14",
+	  "parent": "03_Terminals",
+	  "parent_local_position_mm": [
+		31.6922988891602,
+		19.4579257965088,
+		-42.6238136291504
+	  ],
+	  "parent_path": "03_Terminals",
+	  "path": "03_Terminals/T_14",
+	  "position_mm": [
+		31.6922988891602,
+		19.4579257965088,
+		-42.6238136291504
+	  ],
+	  "scene_local_position_mm": [
+		31.6922988891602,
+		19.4579257965088,
+		-42.6238136291504
+	  ],
+	  "top_level": false,
+	  "world_minus_parent_local_mm": [
+		0.0,
+		0.0,
+		0.0
+	  ]
+	},
+	{
+	  "cavity_local_position_mm": [
+		27.3555183410645,
+		-4.15636491775513,
+		-50.4313545227051
+	  ],
+	  "cavity_local_roundtrip_error_mm": 0.0,
+	  "global_position_mm": [
+		27.3555183410645,
+		-4.15636491775513,
+		-50.4313545227051
+	  ],
+	  "local_position_mm": [
+		27.3555183410645,
+		-4.15636491775513,
+		-50.4313545227051
+	  ],
+	  "name": "T_15",
+	  "parent": "03_Terminals",
+	  "parent_local_position_mm": [
+		27.3555183410645,
+		-4.15636491775513,
+		-50.4313545227051
+	  ],
+	  "parent_path": "03_Terminals",
+	  "path": "03_Terminals/T_15",
+	  "position_mm": [
+		27.3555183410645,
+		-4.15636491775513,
+		-50.4313545227051
+	  ],
+	  "scene_local_position_mm": [
+		27.3555183410645,
+		-4.15636491775513,
+		-50.4313545227051
+	  ],
+	  "top_level": false,
+	  "world_minus_parent_local_mm": [
+		0.0,
+		0.0,
+		0.0
+	  ]
+	},
+	{
+	  "cavity_local_position_mm": [
+		23.0199337005615,
+		18.398099899292,
+		-32.7420959472656
+	  ],
+	  "cavity_local_roundtrip_error_mm": 0.0,
+	  "global_position_mm": [
+		23.0199337005615,
+		18.398099899292,
+		-32.7420959472656
+	  ],
+	  "local_position_mm": [
+		23.0199337005615,
+		18.398099899292,
+		-32.7420959472656
+	  ],
+	  "name": "T_16",
+	  "parent": "03_Terminals",
+	  "parent_local_position_mm": [
+		23.0199337005615,
+		18.398099899292,
+		-32.7420959472656
+	  ],
+	  "parent_path": "03_Terminals",
+	  "path": "03_Terminals/T_16",
+	  "position_mm": [
+		23.0199337005615,
+		18.398099899292,
+		-32.7420959472656
+	  ],
+	  "scene_local_position_mm": [
+		23.0199337005615,
+		18.398099899292,
+		-32.7420959472656
+	  ],
+	  "top_level": false,
+	  "world_minus_parent_local_mm": [
+		0.0,
+		0.0,
+		0.0
+	  ]
+	},
+	{
+	  "cavity_local_position_mm": [
+		22.4022369384766,
+		7.35899972915649,
+		-27.1259460449219
+	  ],
+	  "cavity_local_roundtrip_error_mm": 0.0,
+	  "global_position_mm": [
+		22.4022369384766,
+		7.35899972915649,
+		-27.1259460449219
+	  ],
+	  "local_position_mm": [
+		22.4022369384766,
+		7.35899972915649,
+		-27.1259460449219
+	  ],
+	  "name": "T_17",
+	  "parent": "03_Terminals",
+	  "parent_local_position_mm": [
+		22.4022369384766,
+		7.35899972915649,
+		-27.1259460449219
+	  ],
+	  "parent_path": "03_Terminals",
+	  "path": "03_Terminals/T_17",
+	  "position_mm": [
+		22.4022369384766,
+		7.35899972915649,
+		-27.1259460449219
+	  ],
+	  "scene_local_position_mm": [
+		22.4022369384766,
+		7.35899972915649,
+		-27.1259460449219
+	  ],
+	  "top_level": false,
+	  "world_minus_parent_local_mm": [
+		0.0,
+		0.0,
+		0.0
+	  ]
+	},
+	{
+	  "cavity_local_position_mm": [
+		12.3844146728516,
+		-6.10848808288574,
+		-37.896915435791
+	  ],
+	  "cavity_local_roundtrip_error_mm": 0.0,
+	  "global_position_mm": [
+		12.3844146728516,
+		-6.10848808288574,
+		-37.896915435791
+	  ],
+	  "local_position_mm": [
+		12.3844146728516,
+		-6.10848808288574,
+		-37.896915435791
+	  ],
+	  "name": "T_18",
+	  "parent": "03_Terminals",
+	  "parent_local_position_mm": [
+		12.3844146728516,
+		-6.10848808288574,
+		-37.896915435791
+	  ],
+	  "parent_path": "03_Terminals",
+	  "path": "03_Terminals/T_18",
+	  "position_mm": [
+		12.3844146728516,
+		-6.10848808288574,
+		-37.896915435791
+	  ],
+	  "scene_local_position_mm": [
+		12.3844146728516,
+		-6.10848808288574,
+		-37.896915435791
+	  ],
+	  "top_level": false,
+	  "world_minus_parent_local_mm": [
+		0.0,
+		0.0,
+		0.0
+	  ]
+	},
+	{
+	  "cavity_local_position_mm": [
+		5.73029565811157,
+		5.58725643157959,
+		-28.7386856079102
+	  ],
+	  "cavity_local_roundtrip_error_mm": 0.0,
+	  "global_position_mm": [
+		5.73029565811157,
+		5.58725643157959,
+		-28.7386856079102
+	  ],
+	  "local_position_mm": [
+		5.73029565811157,
+		5.58725643157959,
+		-28.7386856079102
+	  ],
+	  "name": "T_19",
+	  "parent": "03_Terminals",
+	  "parent_local_position_mm": [
+		5.73029565811157,
+		5.58725643157959,
+		-28.7386856079102
+	  ],
+	  "parent_path": "03_Terminals",
+	  "path": "03_Terminals/T_19",
+	  "position_mm": [
+		5.73029565811157,
+		5.58725643157959,
+		-28.7386856079102
+	  ],
+	  "scene_local_position_mm": [
+		5.73029565811157,
+		5.58725643157959,
+		-28.7386856079102
+	  ],
+	  "top_level": false,
+	  "world_minus_parent_local_mm": [
+		0.0,
+		0.0,
+		0.0
+	  ]
+	},
+	{
+	  "cavity_local_position_mm": [
+		6.59510850906372,
+		31.2638626098633,
+		-41.0546722412109
+	  ],
+	  "cavity_local_roundtrip_error_mm": 0.0,
+	  "global_position_mm": [
+		6.59510850906372,
+		31.2638626098633,
+		-41.0546722412109
+	  ],
+	  "local_position_mm": [
+		6.59510850906372,
+		31.2638626098633,
+		-41.0546722412109
+	  ],
+	  "name": "T_20",
+	  "parent": "03_Terminals",
+	  "parent_local_position_mm": [
+		6.59510850906372,
+		31.2638626098633,
+		-41.0546722412109
+	  ],
+	  "parent_path": "03_Terminals",
+	  "path": "03_Terminals/T_20",
+	  "position_mm": [
+		6.59510850906372,
+		31.2638626098633,
+		-41.0546722412109
+	  ],
+	  "scene_local_position_mm": [
+		6.59510850906372,
+		31.2638626098633,
+		-41.0546722412109
+	  ],
+	  "top_level": false,
+	  "world_minus_parent_local_mm": [
+		0.0,
+		0.0,
+		0.0
+	  ]
+	},
+	{
+	  "cavity_local_position_mm": [
+		-3.84280967712402,
+		15.6382999420166,
+		-54.1789054870605
+	  ],
+	  "cavity_local_roundtrip_error_mm": 0.0,
+	  "global_position_mm": [
+		-3.84280967712402,
+		15.6382999420166,
+		-54.1789054870605
+	  ],
+	  "local_position_mm": [
+		-3.84280967712402,
+		15.6382999420166,
+		-54.1789054870605
+	  ],
+	  "name": "T_21",
+	  "parent": "03_Terminals",
+	  "parent_local_position_mm": [
+		-3.84280967712402,
+		15.6382999420166,
+		-54.1789054870605
+	  ],
+	  "parent_path": "03_Terminals",
+	  "path": "03_Terminals/T_21",
+	  "position_mm": [
+		-3.84280967712402,
+		15.6382999420166,
+		-54.1789054870605
+	  ],
+	  "scene_local_position_mm": [
+		-3.84280967712402,
+		15.6382999420166,
+		-54.1789054870605
+	  ],
+	  "top_level": false,
+	  "world_minus_parent_local_mm": [
+		0.0,
+		0.0,
+		0.0
+	  ]
+	},
+	{
+	  "cavity_local_position_mm": [
+		1.61769676208496,
+		-0.0440918207168579,
+		-43.8436965942383
+	  ],
+	  "cavity_local_roundtrip_error_mm": 0.0,
+	  "global_position_mm": [
+		1.61769676208496,
+		-0.0440918207168579,
+		-43.8436965942383
+	  ],
+	  "local_position_mm": [
+		1.61769676208496,
+		-0.0440918207168579,
+		-43.8436965942383
+	  ],
+	  "name": "T_22",
+	  "parent": "03_Terminals",
+	  "parent_local_position_mm": [
+		1.61769676208496,
+		-0.0440918207168579,
+		-43.8436965942383
+	  ],
+	  "parent_path": "03_Terminals",
+	  "path": "03_Terminals/T_22",
+	  "position_mm": [
+		1.61769676208496,
+		-0.0440918207168579,
+		-43.8436965942383
+	  ],
+	  "scene_local_position_mm": [
+		1.61769676208496,
+		-0.0440918207168579,
+		-43.8436965942383
+	  ],
+	  "top_level": false,
+	  "world_minus_parent_local_mm": [
+		0.0,
+		0.0,
+		0.0
+	  ]
+	},
+	{
+	  "cavity_local_position_mm": [
+		21.7879867553711,
+		17.620777130127,
+		-83.4815292358398
+	  ],
+	  "cavity_local_roundtrip_error_mm": 0.0,
+	  "global_position_mm": [
+		21.7879867553711,
+		17.620777130127,
+		-83.4815292358398
+	  ],
+	  "local_position_mm": [
+		21.7879867553711,
+		17.620777130127,
+		-83.4815292358398
+	  ],
+	  "name": "B_01_P01",
+	  "parent": "From_J01",
+	  "parent_local_position_mm": [
+		21.7879867553711,
+		17.620777130127,
+		-83.4815292358398
+	  ],
+	  "parent_path": "04_Branches/From_J01",
+	  "path": "04_Branches/From_J01/B_01_P01",
+	  "position_mm": [
+		21.7879867553711,
+		17.620777130127,
+		-83.4815292358398
+	  ],
+	  "scene_local_position_mm": [
+		21.7879867553711,
+		17.620777130127,
+		-83.4815292358398
+	  ],
+	  "top_level": false,
+	  "world_minus_parent_local_mm": [
+		0.0,
+		0.0,
+		0.0
+	  ]
+	},
+	{
+	  "cavity_local_position_mm": [
+		27.255500793457,
+		14.1819400787354,
+		-77.0620498657227
+	  ],
+	  "cavity_local_roundtrip_error_mm": 0.0,
+	  "global_position_mm": [
+		27.255500793457,
+		14.1819400787354,
+		-77.0620498657227
+	  ],
+	  "local_position_mm": [
+		27.255500793457,
+		14.1819400787354,
+		-77.0620498657227
+	  ],
+	  "name": "B_06_P01",
+	  "parent": "From_J01",
+	  "parent_local_position_mm": [
+		27.255500793457,
+		14.1819400787354,
+		-77.0620498657227
+	  ],
+	  "parent_path": "04_Branches/From_J01",
+	  "path": "04_Branches/From_J01/B_06_P01",
+	  "position_mm": [
+		27.255500793457,
+		14.1819400787354,
+		-77.0620498657227
+	  ],
+	  "scene_local_position_mm": [
+		27.255500793457,
+		14.1819400787354,
+		-77.0620498657227
+	  ],
+	  "top_level": false,
+	  "world_minus_parent_local_mm": [
+		0.0,
+		0.0,
+		0.0
+	  ]
+	},
+	{
+	  "cavity_local_position_mm": [
+		27.6074295043945,
+		5.74854469299316,
+		-72.6987152099609
+	  ],
+	  "cavity_local_roundtrip_error_mm": 0.0,
+	  "global_position_mm": [
+		27.6074295043945,
+		5.74854469299316,
+		-72.6987152099609
+	  ],
+	  "local_position_mm": [
+		27.6074295043945,
+		5.74854469299316,
+		-72.6987152099609
+	  ],
+	  "name": "B_09_P01",
+	  "parent": "From_J01",
+	  "parent_local_position_mm": [
+		27.6074295043945,
+		5.74854469299316,
+		-72.6987152099609
+	  ],
+	  "parent_path": "04_Branches/From_J01",
+	  "path": "04_Branches/From_J01/B_09_P01",
+	  "position_mm": [
+		27.6074295043945,
+		5.74854469299316,
+		-72.6987152099609
+	  ],
+	  "scene_local_position_mm": [
+		27.6074295043945,
+		5.74854469299316,
+		-72.6987152099609
+	  ],
+	  "top_level": false,
+	  "world_minus_parent_local_mm": [
+		0.0,
+		0.0,
+		0.0
+	  ]
+	},
+	{
+	  "cavity_local_position_mm": [
+		21.1905364990234,
+		12.9646854400635,
+		-67.2942199707031
+	  ],
+	  "cavity_local_roundtrip_error_mm": 0.0,
+	  "global_position_mm": [
+		21.1905364990234,
+		12.9646854400635,
+		-67.2942199707031
+	  ],
+	  "local_position_mm": [
+		21.1905364990234,
+		12.9646854400635,
+		-67.2942199707031
+	  ],
+	  "name": "B_10_P01",
+	  "parent": "From_J01",
+	  "parent_local_position_mm": [
+		21.1905364990234,
+		12.9646854400635,
+		-67.2942199707031
+	  ],
+	  "parent_path": "04_Branches/From_J01",
+	  "path": "04_Branches/From_J01/B_10_P01",
+	  "position_mm": [
+		21.1905364990234,
+		12.9646854400635,
+		-67.2942199707031
+	  ],
+	  "scene_local_position_mm": [
+		21.1905364990234,
+		12.9646854400635,
+		-67.2942199707031
+	  ],
+	  "top_level": false,
+	  "world_minus_parent_local_mm": [
+		0.0,
+		0.0,
+		0.0
+	  ]
+	},
+	{
+	  "cavity_local_position_mm": [
+		19.4923610687256,
+		30.7663078308105,
+		-91.6513977050781
+	  ],
+	  "cavity_local_roundtrip_error_mm": 0.0,
+	  "global_position_mm": [
+		19.4923610687256,
+		30.7663078308105,
+		-91.6513977050781
+	  ],
+	  "local_position_mm": [
+		19.4923610687256,
+		30.7663078308105,
+		-91.6513977050781
+	  ],
+	  "name": "B_02_P01",
+	  "parent": "From_J02",
+	  "parent_local_position_mm": [
+		19.4923610687256,
+		30.7663078308105,
+		-91.6513977050781
+	  ],
+	  "parent_path": "04_Branches/From_J02",
+	  "path": "04_Branches/From_J02/B_02_P01",
+	  "position_mm": [
+		19.4923610687256,
+		30.7663078308105,
+		-91.6513977050781
+	  ],
+	  "scene_local_position_mm": [
+		19.4923610687256,
+		30.7663078308105,
+		-91.6513977050781
+	  ],
+	  "top_level": false,
+	  "world_minus_parent_local_mm": [
+		0.0,
+		0.0,
+		0.0
+	  ]
+	},
+	{
+	  "cavity_local_position_mm": [
+		27.4844093322754,
+		27.8687057495117,
+		-86.6508941650391
+	  ],
+	  "cavity_local_roundtrip_error_mm": 0.0,
+	  "global_position_mm": [
+		27.4844093322754,
+		27.8687057495117,
+		-86.6508941650391
+	  ],
+	  "local_position_mm": [
+		27.4844093322754,
+		27.8687057495117,
+		-86.6508941650391
+	  ],
+	  "name": "B_03_P01",
+	  "parent": "From_J02",
+	  "parent_local_position_mm": [
+		27.4844093322754,
+		27.8687057495117,
+		-86.6508941650391
+	  ],
+	  "parent_path": "04_Branches/From_J02",
+	  "path": "04_Branches/From_J02/B_03_P01",
+	  "position_mm": [
+		27.4844093322754,
+		27.8687057495117,
+		-86.6508941650391
+	  ],
+	  "scene_local_position_mm": [
+		27.4844093322754,
+		27.8687057495117,
+		-86.6508941650391
+	  ],
+	  "top_level": false,
+	  "world_minus_parent_local_mm": [
+		0.0,
+		0.0,
+		0.0
+	  ]
+	},
+	{
+	  "cavity_local_position_mm": [
+		21.3320617675781,
+		23.7290573120117,
+		-100.132797241211
+	  ],
+	  "cavity_local_roundtrip_error_mm": 0.0,
+	  "global_position_mm": [
+		21.3320617675781,
+		23.7290573120117,
+		-100.132797241211
+	  ],
+	  "local_position_mm": [
+		21.3320617675781,
+		23.7290573120117,
+		-100.132797241211
+	  ],
+	  "name": "B_04_P01",
+	  "parent": "From_J02",
+	  "parent_local_position_mm": [
+		21.3320617675781,
+		23.7290573120117,
+		-100.132797241211
+	  ],
+	  "parent_path": "04_Branches/From_J02",
+	  "path": "04_Branches/From_J02/B_04_P01",
+	  "position_mm": [
+		21.3320617675781,
+		23.7290573120117,
+		-100.132797241211
+	  ],
+	  "scene_local_position_mm": [
+		21.3320617675781,
+		23.7290573120117,
+		-100.132797241211
+	  ],
+	  "top_level": false,
+	  "world_minus_parent_local_mm": [
+		0.0,
+		0.0,
+		0.0
+	  ]
+	},
+	{
+	  "cavity_local_position_mm": [
+		27.3113594055176,
+		16.6195068359375,
+		-94.1511917114258
+	  ],
+	  "cavity_local_roundtrip_error_mm": 0.0,
+	  "global_position_mm": [
+		27.3113594055176,
+		16.6195068359375,
+		-94.1511917114258
+	  ],
+	  "local_position_mm": [
+		27.3113594055176,
+		16.6195068359375,
+		-94.1511917114258
+	  ],
+	  "name": "B_05_P01",
+	  "parent": "From_J02",
+	  "parent_local_position_mm": [
+		27.3113594055176,
+		16.6195068359375,
+		-94.1511917114258
+	  ],
+	  "parent_path": "04_Branches/From_J02",
+	  "path": "04_Branches/From_J02/B_05_P01",
+	  "position_mm": [
+		27.3113594055176,
+		16.6195068359375,
+		-94.1511917114258
+	  ],
+	  "scene_local_position_mm": [
+		27.3113594055176,
+		16.6195068359375,
+		-94.1511917114258
+	  ],
+	  "top_level": false,
+	  "world_minus_parent_local_mm": [
+		0.0,
+		0.0,
+		0.0
+	  ]
+	},
+	{
+	  "cavity_local_position_mm": [
+		37.8385734558105,
+		20.9402694702148,
+		-78.3572692871094
+	  ],
+	  "cavity_local_roundtrip_error_mm": 0.0,
+	  "global_position_mm": [
+		37.8385734558105,
+		20.9402694702148,
+		-78.3572692871094
+	  ],
+	  "local_position_mm": [
+		37.8385734558105,
+		20.9402694702148,
+		-78.3572692871094
+	  ],
+	  "name": "B_07_P01",
+	  "parent": "From_J03",
+	  "parent_local_position_mm": [
+		37.8385734558105,
+		20.9402694702148,
+		-78.3572692871094
+	  ],
+	  "parent_path": "04_Branches/From_J03",
+	  "path": "04_Branches/From_J03/B_07_P01",
+	  "position_mm": [
+		37.8385734558105,
+		20.9402694702148,
+		-78.3572692871094
+	  ],
+	  "scene_local_position_mm": [
+		37.8385734558105,
+		20.9402694702148,
+		-78.3572692871094
+	  ],
+	  "top_level": false,
+	  "world_minus_parent_local_mm": [
+		0.0,
+		0.0,
+		0.0
+	  ]
+	},
+	{
+	  "cavity_local_position_mm": [
+		38.4615707397461,
+		10.6310205459595,
+		-79.2948150634766
+	  ],
+	  "cavity_local_roundtrip_error_mm": 0.0,
+	  "global_position_mm": [
+		38.4615707397461,
+		10.6310205459595,
+		-79.2948150634766
+	  ],
+	  "local_position_mm": [
+		38.4615707397461,
+		10.6310205459595,
+		-79.2948150634766
+	  ],
+	  "name": "B_08_P01",
+	  "parent": "From_J03",
+	  "parent_local_position_mm": [
+		38.4615707397461,
+		10.6310205459595,
+		-79.2948150634766
+	  ],
+	  "parent_path": "04_Branches/From_J03",
+	  "path": "04_Branches/From_J03/B_08_P01",
+	  "position_mm": [
+		38.4615707397461,
+		10.6310205459595,
+		-79.2948150634766
+	  ],
+	  "scene_local_position_mm": [
+		38.4615707397461,
+		10.6310205459595,
+		-79.2948150634766
+	  ],
+	  "top_level": false,
+	  "world_minus_parent_local_mm": [
+		0.0,
+		0.0,
+		0.0
+	  ]
+	},
+	{
+	  "cavity_local_position_mm": [
+		24.7758255004883,
+		15.9960117340088,
+		-58.2417297363281
+	  ],
+	  "cavity_local_roundtrip_error_mm": 0.0,
+	  "global_position_mm": [
+		24.7758255004883,
+		15.9960117340088,
+		-58.2417297363281
+	  ],
+	  "local_position_mm": [
+		24.7758255004883,
+		15.9960117340088,
+		-58.2417297363281
+	  ],
+	  "name": "B_11_P01",
+	  "parent": "From_J04",
+	  "parent_local_position_mm": [
+		24.7758255004883,
+		15.9960117340088,
+		-58.2417297363281
+	  ],
+	  "parent_path": "04_Branches/From_J04",
+	  "path": "04_Branches/From_J04/B_11_P01",
+	  "position_mm": [
+		24.7758255004883,
+		15.9960117340088,
+		-58.2417297363281
+	  ],
+	  "scene_local_position_mm": [
+		24.7758255004883,
+		15.9960117340088,
+		-58.2417297363281
+	  ],
+	  "top_level": false,
+	  "world_minus_parent_local_mm": [
+		0.0,
+		0.0,
+		0.0
+	  ]
+	},
+	{
+	  "cavity_local_position_mm": [
+		19.975341796875,
+		11.8452320098877,
+		-54.3467636108398
+	  ],
+	  "cavity_local_roundtrip_error_mm": 0.0,
+	  "global_position_mm": [
+		19.975341796875,
+		11.8452320098877,
+		-54.3467636108398
+	  ],
+	  "local_position_mm": [
+		19.975341796875,
+		11.8452320098877,
+		-54.3467636108398
+	  ],
+	  "name": "B_19_P01",
+	  "parent": "From_J04",
+	  "parent_local_position_mm": [
+		19.975341796875,
+		11.8452320098877,
+		-54.3467636108398
+	  ],
+	  "parent_path": "04_Branches/From_J04",
+	  "path": "04_Branches/From_J04/B_19_P01",
+	  "position_mm": [
+		19.975341796875,
+		11.8452320098877,
+		-54.3467636108398
+	  ],
+	  "scene_local_position_mm": [
+		19.975341796875,
+		11.8452320098877,
+		-54.3467636108398
+	  ],
+	  "top_level": false,
+	  "world_minus_parent_local_mm": [
+		0.0,
+		0.0,
+		0.0
+	  ]
+	},
+	{
+	  "cavity_local_position_mm": [
+		23.954381942749,
+		22.4359931945801,
+		-66.2197952270508
+	  ],
+	  "cavity_local_roundtrip_error_mm": 0.0,
+	  "global_position_mm": [
+		23.954381942749,
+		22.4359931945801,
+		-66.2197952270508
+	  ],
+	  "local_position_mm": [
+		23.954381942749,
+		22.4359931945801,
+		-66.2197952270508
+	  ],
+	  "name": "B_12_P01",
+	  "parent": "From_J05",
+	  "parent_local_position_mm": [
+		23.954381942749,
+		22.4359931945801,
+		-66.2197952270508
+	  ],
+	  "parent_path": "04_Branches/From_J05",
+	  "path": "04_Branches/From_J05/B_12_P01",
+	  "position_mm": [
+		23.954381942749,
+		22.4359931945801,
+		-66.2197952270508
+	  ],
+	  "scene_local_position_mm": [
+		23.954381942749,
+		22.4359931945801,
+		-66.2197952270508
+	  ],
+	  "top_level": false,
+	  "world_minus_parent_local_mm": [
+		0.0,
+		0.0,
+		0.0
+	  ]
+	},
+	{
+	  "cavity_local_position_mm": [
+		31.9055824279785,
+		26.3183670043945,
+		-60.6288032531738
+	  ],
+	  "cavity_local_roundtrip_error_mm": 0.0,
+	  "global_position_mm": [
+		31.9055824279785,
+		26.3183670043945,
+		-60.6288032531738
+	  ],
+	  "local_position_mm": [
+		31.9055824279785,
+		26.3183670043945,
+		-60.6288032531738
+	  ],
+	  "name": "B_13_P01",
+	  "parent": "From_J05",
+	  "parent_local_position_mm": [
+		31.9055824279785,
+		26.3183670043945,
+		-60.6288032531738
+	  ],
+	  "parent_path": "04_Branches/From_J05",
+	  "path": "04_Branches/From_J05/B_13_P01",
+	  "position_mm": [
+		31.9055824279785,
+		26.3183670043945,
+		-60.6288032531738
+	  ],
+	  "scene_local_position_mm": [
+		31.9055824279785,
+		26.3183670043945,
+		-60.6288032531738
+	  ],
+	  "top_level": false,
+	  "world_minus_parent_local_mm": [
+		0.0,
+		0.0,
+		0.0
+	  ]
+	},
+	{
+	  "cavity_local_position_mm": [
+		36.1664352416992,
+		16.6298923492432,
+		-62.2548904418945
+	  ],
+	  "cavity_local_roundtrip_error_mm": 0.0,
+	  "global_position_mm": [
+		36.1664352416992,
+		16.6298923492432,
+		-62.2548904418945
+	  ],
+	  "local_position_mm": [
+		36.1664352416992,
+		16.6298923492432,
+		-62.2548904418945
+	  ],
+	  "name": "B_14_P01",
+	  "parent": "From_J05",
+	  "parent_local_position_mm": [
+		36.1664352416992,
+		16.6298923492432,
+		-62.2548904418945
+	  ],
+	  "parent_path": "04_Branches/From_J05",
+	  "path": "04_Branches/From_J05/B_14_P01",
+	  "position_mm": [
+		36.1664352416992,
+		16.6298923492432,
+		-62.2548904418945
+	  ],
+	  "scene_local_position_mm": [
+		36.1664352416992,
+		16.6298923492432,
+		-62.2548904418945
+	  ],
+	  "top_level": false,
+	  "world_minus_parent_local_mm": [
+		0.0,
+		0.0,
+		0.0
+	  ]
+	},
+	{
+	  "cavity_local_position_mm": [
+		17.765983581543,
+		21.6751327514648,
+		-57.8162040710449
+	  ],
+	  "cavity_local_roundtrip_error_mm": 0.0,
+	  "global_position_mm": [
+		17.765983581543,
+		21.6751327514648,
+		-57.8162040710449
+	  ],
+	  "local_position_mm": [
+		17.765983581543,
+		21.6751327514648,
+		-57.8162040710449
+	  ],
+	  "name": "B_15_P01",
+	  "parent": "From_J05",
+	  "parent_local_position_mm": [
+		17.765983581543,
+		21.6751327514648,
+		-57.8162040710449
+	  ],
+	  "parent_path": "04_Branches/From_J05",
+	  "path": "04_Branches/From_J05/B_15_P01",
+	  "position_mm": [
+		17.765983581543,
+		21.6751327514648,
+		-57.8162040710449
+	  ],
+	  "scene_local_position_mm": [
+		17.765983581543,
+		21.6751327514648,
+		-57.8162040710449
+	  ],
+	  "top_level": false,
+	  "world_minus_parent_local_mm": [
+		0.0,
+		0.0,
+		0.0
+	  ]
+	},
+	{
+	  "cavity_local_position_mm": [
+		19.5421829223633,
+		27.2383155822754,
+		-56.1264038085938
+	  ],
+	  "cavity_local_roundtrip_error_mm": 0.0,
+	  "global_position_mm": [
+		19.5421829223633,
+		27.2383155822754,
+		-56.1264038085938
+	  ],
+	  "local_position_mm": [
+		19.5421829223633,
+		27.2383155822754,
+		-56.1264038085938
+	  ],
+	  "name": "B_16_P01",
+	  "parent": "From_J05",
+	  "parent_local_position_mm": [
+		19.5421829223633,
+		27.2383155822754,
+		-56.1264038085938
+	  ],
+	  "parent_path": "04_Branches/From_J05",
+	  "path": "04_Branches/From_J05/B_16_P01",
+	  "position_mm": [
+		19.5421829223633,
+		27.2383155822754,
+		-56.1264038085938
+	  ],
+	  "scene_local_position_mm": [
+		19.5421829223633,
+		27.2383155822754,
+		-56.1264038085938
+	  ],
+	  "top_level": false,
+	  "world_minus_parent_local_mm": [
+		0.0,
+		0.0,
+		0.0
+	  ]
+	},
+	{
+	  "cavity_local_position_mm": [
+		26.5327167510986,
+		26.7783660888672,
+		-53.6113052368164
+	  ],
+	  "cavity_local_roundtrip_error_mm": 0.0,
+	  "global_position_mm": [
+		26.5327167510986,
+		26.7783660888672,
+		-53.6113052368164
+	  ],
+	  "local_position_mm": [
+		26.5327167510986,
+		26.7783660888672,
+		-53.6113052368164
+	  ],
+	  "name": "B_17_P01",
+	  "parent": "From_J05",
+	  "parent_local_position_mm": [
+		26.5327167510986,
+		26.7783660888672,
+		-53.6113052368164
+	  ],
+	  "parent_path": "04_Branches/From_J05",
+	  "path": "04_Branches/From_J05/B_17_P01",
+	  "position_mm": [
+		26.5327167510986,
+		26.7783660888672,
+		-53.6113052368164
+	  ],
+	  "scene_local_position_mm": [
+		26.5327167510986,
+		26.7783660888672,
+		-53.6113052368164
+	  ],
+	  "top_level": false,
+	  "world_minus_parent_local_mm": [
+		0.0,
+		0.0,
+		0.0
+	  ]
+	},
+	{
+	  "cavity_local_position_mm": [
+		31.2959594726563,
+		19.1808910369873,
+		-49.8752059936523
+	  ],
+	  "cavity_local_roundtrip_error_mm": 0.0,
+	  "global_position_mm": [
+		31.2959594726563,
+		19.1808910369873,
+		-49.8752059936523
+	  ],
+	  "local_position_mm": [
+		31.2959594726563,
+		19.1808910369873,
+		-49.8752059936523
+	  ],
+	  "name": "B_18_P01",
+	  "parent": "From_J05",
+	  "parent_local_position_mm": [
+		31.2959594726563,
+		19.1808910369873,
+		-49.8752059936523
+	  ],
+	  "parent_path": "04_Branches/From_J05",
+	  "path": "04_Branches/From_J05/B_18_P01",
+	  "position_mm": [
+		31.2959594726563,
+		19.1808910369873,
+		-49.8752059936523
+	  ],
+	  "scene_local_position_mm": [
+		31.2959594726563,
+		19.1808910369873,
+		-49.8752059936523
+	  ],
+	  "top_level": false,
+	  "world_minus_parent_local_mm": [
+		0.0,
+		0.0,
+		0.0
+	  ]
+	},
+	{
+	  "cavity_local_position_mm": [
+		32.2622871398926,
+		19.0172805786133,
+		-55.8907623291016
+	  ],
+	  "cavity_local_roundtrip_error_mm": 0.0,
+	  "global_position_mm": [
+		32.2622871398926,
+		19.0172805786133,
+		-55.8907623291016
+	  ],
+	  "local_position_mm": [
+		32.2622871398926,
+		19.0172805786133,
+		-55.8907623291016
+	  ],
+	  "name": "B_31_P01",
+	  "parent": "From_J05",
+	  "parent_local_position_mm": [
+		32.2622871398926,
+		19.0172805786133,
+		-55.8907623291016
+	  ],
+	  "parent_path": "04_Branches/From_J05",
+	  "path": "04_Branches/From_J05/B_31_P01",
+	  "position_mm": [
+		32.2622871398926,
+		19.0172805786133,
+		-55.8907623291016
+	  ],
+	  "scene_local_position_mm": [
+		32.2622871398926,
+		19.0172805786133,
+		-55.8907623291016
+	  ],
+	  "top_level": false,
+	  "world_minus_parent_local_mm": [
+		0.0,
+		0.0,
+		0.0
+	  ]
+	},
+	{
+	  "cavity_local_position_mm": [
+		25.6606521606445,
+		4.52565336227417,
+		-50.4278717041016
+	  ],
+	  "cavity_local_roundtrip_error_mm": 0.0,
+	  "global_position_mm": [
+		25.6606521606445,
+		4.52565336227417,
+		-50.4278717041016
+	  ],
+	  "local_position_mm": [
+		25.6606521606445,
+		4.52565336227417,
+		-50.4278717041016
+	  ],
+	  "name": "B_20_P01",
+	  "parent": "From_J06",
+	  "parent_local_position_mm": [
+		25.6606521606445,
+		4.52565336227417,
+		-50.4278717041016
+	  ],
+	  "parent_path": "04_Branches/From_J06",
+	  "path": "04_Branches/From_J06/B_20_P01",
+	  "position_mm": [
+		25.6606521606445,
+		4.52565336227417,
+		-50.4278717041016
+	  ],
+	  "scene_local_position_mm": [
+		25.6606521606445,
+		4.52565336227417,
+		-50.4278717041016
+	  ],
+	  "top_level": false,
+	  "world_minus_parent_local_mm": [
+		0.0,
+		0.0,
+		0.0
+	  ]
+	},
+	{
+	  "cavity_local_position_mm": [
+		15.6810054779053,
+		10.2538032531738,
+		-46.2195854187012
+	  ],
+	  "cavity_local_roundtrip_error_mm": 0.0,
+	  "global_position_mm": [
+		15.6810054779053,
+		10.2538032531738,
+		-46.2195854187012
+	  ],
+	  "local_position_mm": [
+		15.6810054779053,
+		10.2538032531738,
+		-46.2195854187012
+	  ],
+	  "name": "B_21_P01",
+	  "parent": "From_J06",
+	  "parent_local_position_mm": [
+		15.6810054779053,
+		10.2538032531738,
+		-46.2195854187012
+	  ],
+	  "parent_path": "04_Branches/From_J06",
+	  "path": "04_Branches/From_J06/B_21_P01",
+	  "position_mm": [
+		15.6810054779053,
+		10.2538032531738,
+		-46.2195854187012
+	  ],
+	  "scene_local_position_mm": [
+		15.6810054779053,
+		10.2538032531738,
+		-46.2195854187012
+	  ],
+	  "top_level": false,
+	  "world_minus_parent_local_mm": [
+		0.0,
+		0.0,
+		0.0
+	  ]
+	},
+	{
+	  "cavity_local_position_mm": [
+		15.7241497039795,
+		8.80124855041504,
+		-41.0670700073242
+	  ],
+	  "cavity_local_roundtrip_error_mm": 0.0,
+	  "global_position_mm": [
+		15.7241497039795,
+		8.80124855041504,
+		-41.0670700073242
+	  ],
+	  "local_position_mm": [
+		15.7241497039795,
+		8.80124855041504,
+		-41.0670700073242
+	  ],
+	  "name": "B_22_P01",
+	  "parent": "From_J07",
+	  "parent_local_position_mm": [
+		15.7241497039795,
+		8.80124855041504,
+		-41.0670700073242
+	  ],
+	  "parent_path": "04_Branches/From_J07",
+	  "path": "04_Branches/From_J07/B_22_P01",
+	  "position_mm": [
+		15.7241497039795,
+		8.80124855041504,
+		-41.0670700073242
+	  ],
+	  "scene_local_position_mm": [
+		15.7241497039795,
+		8.80124855041504,
+		-41.0670700073242
+	  ],
+	  "top_level": false,
+	  "world_minus_parent_local_mm": [
+		0.0,
+		0.0,
+		0.0
+	  ]
+	},
+	{
+	  "cavity_local_position_mm": [
+		8.58242416381836,
+		9.75671100616455,
+		-35.6971778869629
+	  ],
+	  "cavity_local_roundtrip_error_mm": 0.0,
+	  "global_position_mm": [
+		8.58242416381836,
+		9.75671100616455,
+		-35.6971778869629
+	  ],
+	  "local_position_mm": [
+		8.58242416381836,
+		9.75671100616455,
+		-35.6971778869629
+	  ],
+	  "name": "B_26_P01",
+	  "parent": "From_J07",
+	  "parent_local_position_mm": [
+		8.58242416381836,
+		9.75671100616455,
+		-35.6971778869629
+	  ],
+	  "parent_path": "04_Branches/From_J07",
+	  "path": "04_Branches/From_J07/B_26_P01",
+	  "position_mm": [
+		8.58242416381836,
+		9.75671100616455,
+		-35.6971778869629
+	  ],
+	  "scene_local_position_mm": [
+		8.58242416381836,
+		9.75671100616455,
+		-35.6971778869629
+	  ],
+	  "top_level": false,
+	  "world_minus_parent_local_mm": [
+		0.0,
+		0.0,
+		0.0
+	  ]
+	},
+	{
+	  "cavity_local_position_mm": [
+		9.84598636627197,
+		14.1529235839844,
+		-41.0941467285156
+	  ],
+	  "cavity_local_roundtrip_error_mm": 0.0,
+	  "global_position_mm": [
+		9.84598636627197,
+		14.1529235839844,
+		-41.0941467285156
+	  ],
+	  "local_position_mm": [
+		9.84598636627197,
+		14.1529235839844,
+		-41.0941467285156
+	  ],
+	  "name": "B_27_P01",
+	  "parent": "From_J07",
+	  "parent_local_position_mm": [
+		9.84598636627197,
+		14.1529235839844,
+		-41.0941467285156
+	  ],
+	  "parent_path": "04_Branches/From_J07",
+	  "path": "04_Branches/From_J07/B_27_P01",
+	  "position_mm": [
+		9.84598636627197,
+		14.1529235839844,
+		-41.0941467285156
+	  ],
+	  "scene_local_position_mm": [
+		9.84598636627197,
+		14.1529235839844,
+		-41.0941467285156
+	  ],
+	  "top_level": false,
+	  "world_minus_parent_local_mm": [
+		0.0,
+		0.0,
+		0.0
+	  ]
+	},
+	{
+	  "cavity_local_position_mm": [
+		19.8431034088135,
+		15.3918180465698,
+		-36.6340065002441
+	  ],
+	  "cavity_local_roundtrip_error_mm": 0.0,
+	  "global_position_mm": [
+		19.8431034088135,
+		15.3918180465698,
+		-36.6340065002441
+	  ],
+	  "local_position_mm": [
+		19.8431034088135,
+		15.3918180465698,
+		-36.6340065002441
+	  ],
+	  "name": "B_23_P01",
+	  "parent": "From_J08",
+	  "parent_local_position_mm": [
+		19.8431034088135,
+		15.3918180465698,
+		-36.6340065002441
+	  ],
+	  "parent_path": "04_Branches/From_J08",
+	  "path": "04_Branches/From_J08/B_23_P01",
+	  "position_mm": [
+		19.8431034088135,
+		15.3918180465698,
+		-36.6340065002441
+	  ],
+	  "scene_local_position_mm": [
+		19.8431034088135,
+		15.3918180465698,
+		-36.6340065002441
+	  ],
+	  "top_level": false,
+	  "world_minus_parent_local_mm": [
+		0.0,
+		0.0,
+		0.0
+	  ]
+	},
+	{
+	  "cavity_local_position_mm": [
+		21.439697265625,
+		7.62281894683838,
+		-33.7484130859375
+	  ],
+	  "cavity_local_roundtrip_error_mm": 0.0,
+	  "global_position_mm": [
+		21.439697265625,
+		7.62281894683838,
+		-33.7484130859375
+	  ],
+	  "local_position_mm": [
+		21.439697265625,
+		7.62281894683838,
+		-33.7484130859375
+	  ],
+	  "name": "B_24_P01",
+	  "parent": "From_J08",
+	  "parent_local_position_mm": [
+		21.439697265625,
+		7.62281894683838,
+		-33.7484130859375
+	  ],
+	  "parent_path": "04_Branches/From_J08",
+	  "path": "04_Branches/From_J08/B_24_P01",
+	  "position_mm": [
+		21.439697265625,
+		7.62281894683838,
+		-33.7484130859375
+	  ],
+	  "scene_local_position_mm": [
+		21.439697265625,
+		7.62281894683838,
+		-33.7484130859375
+	  ],
+	  "top_level": false,
+	  "world_minus_parent_local_mm": [
+		0.0,
+		0.0,
+		0.0
+	  ]
+	},
+	{
+	  "cavity_local_position_mm": [
+		15.3429346084595,
+		0.684216499328613,
+		-38.8666191101074
+	  ],
+	  "cavity_local_roundtrip_error_mm": 0.0,
+	  "global_position_mm": [
+		15.3429346084595,
+		0.684216499328613,
+		-38.8666191101074
+	  ],
+	  "local_position_mm": [
+		15.3429346084595,
+		0.684216499328613,
+		-38.8666191101074
+	  ],
+	  "name": "B_25_P01",
+	  "parent": "From_J08",
+	  "parent_local_position_mm": [
+		15.3429346084595,
+		0.684216499328613,
+		-38.8666191101074
+	  ],
+	  "parent_path": "04_Branches/From_J08",
+	  "path": "04_Branches/From_J08/B_25_P01",
+	  "position_mm": [
+		15.3429346084595,
+		0.684216499328613,
+		-38.8666191101074
+	  ],
+	  "scene_local_position_mm": [
+		15.3429346084595,
+		0.684216499328613,
+		-38.8666191101074
+	  ],
+	  "top_level": false,
+	  "world_minus_parent_local_mm": [
+		0.0,
+		0.0,
+		0.0
+	  ]
+	},
+	{
+	  "cavity_local_position_mm": [
+		6.57011795043945,
+		24.7220668792725,
+		-40.4725723266602
+	  ],
+	  "cavity_local_roundtrip_error_mm": 0.0,
+	  "global_position_mm": [
+		6.57011795043945,
+		24.7220668792725,
+		-40.4725723266602
+	  ],
+	  "local_position_mm": [
+		6.57011795043945,
+		24.7220668792725,
+		-40.4725723266602
+	  ],
+	  "name": "B_28_P01",
+	  "parent": "From_J09",
+	  "parent_local_position_mm": [
+		6.57011795043945,
+		24.7220668792725,
+		-40.4725723266602
+	  ],
+	  "parent_path": "04_Branches/From_J09",
+	  "path": "04_Branches/From_J09/B_28_P01",
+	  "position_mm": [
+		6.57011795043945,
+		24.7220668792725,
+		-40.4725723266602
+	  ],
+	  "scene_local_position_mm": [
+		6.57011795043945,
+		24.7220668792725,
+		-40.4725723266602
+	  ],
+	  "top_level": false,
+	  "world_minus_parent_local_mm": [
+		0.0,
+		0.0,
+		0.0
+	  ]
+	},
+	{
+	  "cavity_local_position_mm": [
+		1.35115909576416,
+		15.4011268615723,
+		-47.0346908569336
+	  ],
+	  "cavity_local_roundtrip_error_mm": 0.0,
+	  "global_position_mm": [
+		1.35115909576416,
+		15.4011268615723,
+		-47.0346908569336
+	  ],
+	  "local_position_mm": [
+		1.35115909576416,
+		15.4011268615723,
+		-47.0346908569336
+	  ],
+	  "name": "B_29_P01",
+	  "parent": "From_J09",
+	  "parent_local_position_mm": [
+		1.35115909576416,
+		15.4011268615723,
+		-47.0346908569336
+	  ],
+	  "parent_path": "04_Branches/From_J09",
+	  "path": "04_Branches/From_J09/B_29_P01",
+	  "position_mm": [
+		1.35115909576416,
+		15.4011268615723,
+		-47.0346908569336
+	  ],
+	  "scene_local_position_mm": [
+		1.35115909576416,
+		15.4011268615723,
+		-47.0346908569336
+	  ],
+	  "top_level": false,
+	  "world_minus_parent_local_mm": [
+		0.0,
+		0.0,
+		0.0
+	  ]
+	},
+	{
+	  "cavity_local_position_mm": [
+		3.90366172790527,
+		9.305908203125,
+		-43.90966796875
+	  ],
+	  "cavity_local_roundtrip_error_mm": 0.0,
+	  "global_position_mm": [
+		3.90366172790527,
+		9.305908203125,
+		-43.90966796875
+	  ],
+	  "local_position_mm": [
+		3.90366172790527,
+		9.305908203125,
+		-43.90966796875
+	  ],
+	  "name": "B_30_P01",
+	  "parent": "From_J09",
+	  "parent_local_position_mm": [
+		3.90366172790527,
+		9.305908203125,
+		-43.90966796875
+	  ],
+	  "parent_path": "04_Branches/From_J09",
+	  "path": "04_Branches/From_J09/B_30_P01",
+	  "position_mm": [
+		3.90366172790527,
+		9.305908203125,
+		-43.90966796875
+	  ],
+	  "scene_local_position_mm": [
+		3.90366172790527,
+		9.305908203125,
+		-43.90966796875
+	  ],
+	  "top_level": false,
+	  "world_minus_parent_local_mm": [
+		0.0,
+		0.0,
+		0.0
+	  ]
+	},
+	{
+	  "cavity_local_position_mm": [
+		5.99462985992432,
+		18.4645652770996,
+		-38.6108093261719
+	  ],
+	  "cavity_local_roundtrip_error_mm": 0.0,
+	  "global_position_mm": [
+		5.99462985992432,
+		18.4645652770996,
+		-38.6108093261719
+	  ],
+	  "local_position_mm": [
+		5.99462985992432,
+		18.4645652770996,
+		-38.6108093261719
+	  ],
+	  "name": "B_32_P01",
+	  "parent": "From_J09",
+	  "parent_local_position_mm": [
+		5.99462985992432,
+		18.4645652770996,
+		-38.6108093261719
+	  ],
+	  "parent_path": "04_Branches/From_J09",
+	  "path": "04_Branches/From_J09/B_32_P01",
+	  "position_mm": [
+		5.99462985992432,
+		18.4645652770996,
+		-38.6108093261719
+	  ],
+	  "scene_local_position_mm": [
+		5.99462985992432,
+		18.4645652770996,
+		-38.6108093261719
+	  ],
+	  "top_level": false,
+	  "world_minus_parent_local_mm": [
+		0.0,
+		0.0,
+		0.0
+	  ]
+	}
+  ],
+  "recommended_geometry_coordinate_field": "cavity_local_position_mm",
+  "reference_mesh": {
+	"global_transform": {
+	  "basis_x": [
+		1.0,
+		0.0,
+		0.0
+	  ],
+	  "basis_y": [
+		0.0,
+		1.0,
+		0.0
+	  ],
+	  "basis_z": [
+		0.0,
+		0.0,
+		1.0
+	  ],
+	  "determinant": 1.0,
+	  "origin": [
+		0.0,
+		0.0,
+		0.0
+	  ]
+	},
+	"local_transform": {
+	  "basis_x": [
+		1.0,
+		0.0,
+		0.0
+	  ],
+	  "basis_y": [
+		0.0,
+		1.0,
+		0.0
+	  ],
+	  "basis_z": [
+		0.0,
+		0.0,
+		1.0
+	  ],
+	  "determinant": 1.0,
+	  "origin": [
+		0.0,
+		0.0,
+		0.0
+	  ]
+	},
+	"mesh_resource_path": "res://source_assets/kidney_cavity.obj",
+	"node_path": "CavityReference"
+  },
+  "scene_root_global_transform": {
+	"basis_x": [
+	  1.0,
+	  0.0,
+	  0.0
+	],
+	"basis_y": [
+	  0.0,
+	  1.0,
+	  0.0
+	],
+	"basis_z": [
+	  0.0,
+	  0.0,
+	  1.0
+	],
+	"determinant": 1.0,
+	"origin": [
+	  0.0,
+	  0.0,
+	  0.0
+	]
+  },
+  "schema_version": "2.0",
+  "source_scene": "res://irrigation_asset_check.tscn",
+  "unit": "mm",
+  "unit_note": "Project convention: one Godot spatial unit is treated as one millimeter"
+}

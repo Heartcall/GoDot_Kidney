@@ -1,0 +1,19 @@
+[remap]
+
+importer="csv_translation"
+type="Translation"
+uid="uid://b2htk8pql6tpu"
+
+[deps]
+
+files=["res://deformation/irrigation_markers.path.translation", "res://deformation/irrigation_markers.parent.translation", "res://deformation/irrigation_markers.world.translation", "res://deformation/irrigation_markers.world.translation", "res://deformation/irrigation_markers.world.translation", "res://deformation/irrigation_markers.cavity.translation", "res://deformation/irrigation_markers.cavity.translation", "res://deformation/irrigation_markers.cavity.translation", "res://deformation/irrigation_markers.parent.translation", "res://deformation/irrigation_markers.parent.translation", "res://deformation/irrigation_markers.parent.translation", "res://deformation/irrigation_markers.scene.translation", "res://deformation/irrigation_markers.scene.translation", "res://deformation/irrigation_markers.scene.translation"]
+
+source_file="res://deformation/irrigation_markers.csv"
+dest_files=["res://deformation/irrigation_markers.path.translation", "res://deformation/irrigation_markers.parent.translation", "res://deformation/irrigation_markers.world.translation", "res://deformation/irrigation_markers.world.translation", "res://deformation/irrigation_markers.world.translation", "res://deformation/irrigation_markers.cavity.translation", "res://deformation/irrigation_markers.cavity.translation", "res://deformation/irrigation_markers.cavity.translation", "res://deformation/irrigation_markers.parent.translation", "res://deformation/irrigation_markers.parent.translation", "res://deformation/irrigation_markers.parent.translation", "res://deformation/irrigation_markers.scene.translation", "res://deformation/irrigation_markers.scene.translation", "res://deformation/irrigation_markers.scene.translation"]
+
+[params]
+
+compress=1
+delimiter=0
+unescape_keys=false
+unescape_translations=true

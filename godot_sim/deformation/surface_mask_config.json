@@ -1,0 +1,9 @@
+{
+  "schema_version": "1.0",
+  "ray_directions": 32,
+  "radius_probe_fractions": [0.25, 0.5, 0.75],
+  "radius_quantile": 0.95,
+  "radius_multiplier": 1.2,
+  "radius_edge_padding": 0.5,
+  "transition_length_scale": 1.0
+}

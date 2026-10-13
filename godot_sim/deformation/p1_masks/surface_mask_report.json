@@ -1,0 +1,202 @@
+{
+  "area_method": "one third of triangle area per incident vertex",
+  "area_partition_error_mm2": 0.0,
+  "configuration": {
+    "radius_edge_padding": 0.5,
+    "radius_multiplier": 1.2,
+    "radius_probe_fractions": [
+      0.25,
+      0.5,
+      0.75
+    ],
+    "radius_quantile": 0.95,
+    "ray_directions": 32,
+    "schema_version": "1.0",
+    "transition_length_scale": 1.0
+  },
+  "coordinate_system": "cavity_mesh_local",
+  "fixed_weight_max_abs": 0.0,
+  "limits": [
+    "Masks require user visual review at port cut planes and J_05/J_09.",
+    "Edge-graph distance approximates continuous surface geodesic distance.",
+    "No deformation, pressure model, wall-thickness mapping or collision update is performed.",
+    "Region area uses lumped vertex area; mixed triangles are split equally among their vertex labels.",
+    "Fixed wall extent is inferred from the manually placed BASE/END plus local radius probes; review that BASE is the intended cut plane."
+  ],
+  "maximum_neighbor_weight_jump": 0.5870495854182497,
+  "methods": {
+    "expandable": "All remaining surface vertices; weight exactly one.",
+    "fixed": "Distal seed flood fill on mesh edges, constrained by BASE plane, adjacent path ownership and ray/core-adaptive radial envelope; includes distal cap and rejects disconnected Voronoi islands.",
+    "path_owner": "Nearest declared polyline, diagnostic only; not certified anatomical segmentation.",
+    "transition": "Multi-source shortest edge distance from each fixed wall, smoothstep over that port's own transition arc length; minimum across ports."
+  },
+  "outputs": {
+    "faces.npy": "dbf4771365f42398f329100e695dc8580f8c038c557c671c02724bff45b29c3d",
+    "fixed_port_owner.npy": "5d591e679c9f1d7328097334fb942b5423f50a30f4133124c2d1c46ef8eea16a",
+    "mask_preview.bin": "9cc2966cbb5c3a81273a0f6e71d53f40f5fd9fe68fd98bc0cc65c5bab3d4aca8",
+    "normals.npy": "4bd8f6939252ed33a2a2c41a40b540447a205dc462387e80537e489bd421c6c7",
+    "path_arc_mm.npy": "4cd94cf255c370389495533a57a516a90df2a1a75dabea94136d7964353c2cb7",
+    "path_owner.npy": "2b446ef421f21357acc9f033e8f924de5436aae1766e2d08588acfff51e20052",
+    "port_fixed_masks.npy": "72c453fc171bf2f25efed77668b1cf040408f3be026c8ba3fa718daf971f9d0d",
+    "port_weights.npy": "92b9686bfb84b1c7f4b41f3107a7da93dc83dcb42a0286641fcd8ae19f6f0548",
+    "regions.npy": "efa2c1070ee1b94a0e23c710809eb902bc70bf2c0e54edd8ddd9d3a659cb05a4",
+    "vertex_area_mm2.npy": "2a9f82d359965893588da5a953ac0289c1a0e5dd379bbbac4db62f99c949332f",
+    "vertices.npy": "f137add4c401fe63851565f913a93968c9b11e18e630722ed42a21b4d0842fa1",
+    "weights.npy": "6a13549df0b6ab84e4f737e72a9fe61ad224262526c14ce13381f87baeaebab4"
+  },
+  "ports": [
+    {
+      "boundary_edges": 79,
+      "discarded_disconnected_eligible_vertices": 0,
+      "disconnected_distal_voronoi_vertices": 0,
+      "distal_seed_core_vertices": 2783,
+      "fixed_area_mm2": 1254.1508689964776,
+      "fixed_axial_range_mm": [
+        0.006311916531402414,
+        38.08735395240629
+      ],
+      "fixed_envelope_radius_mm": 9.314564240157353,
+      "fixed_path_id": "BLADDER",
+      "fixed_vertices": 2793,
+      "id": "BLADDER",
+      "maximum_transition_neighbor_weight_jump": 0.23159476186838784,
+      "radius_probe_p95_mm": 4.949674606323242,
+      "radius_probe_range_mm": [
+        2.5720725059509277,
+        5.0519514083862305
+      ],
+      "seed_vertex": 21623,
+      "surface_transition_support_length_mm": 7.158330007303268,
+      "transition_area_before_overlap_mm2": 194.6101144396908,
+      "transition_centerline_length_mm": 7.158330007303268,
+      "transition_path_id": "BLADDER_TRANSITION",
+      "transition_vertices_before_overlap": 470,
+      "unfixed_seed_connected_port_vertices": 0
+    },
+    {
+      "boundary_edges": 46,
+      "discarded_disconnected_eligible_vertices": 0,
+      "disconnected_distal_voronoi_vertices": 0,
+      "distal_seed_core_vertices": 416,
+      "fixed_area_mm2": 184.59683539409411,
+      "fixed_axial_range_mm": [
+        0.04982008931280134,
+        16.263090017942066
+      ],
+      "fixed_envelope_radius_mm": 2.823409382269493,
+      "fixed_path_id": "IN_01",
+      "fixed_vertices": 420,
+      "id": "IN_01",
+      "maximum_transition_neighbor_weight_jump": 0.19715853218189006,
+      "radius_probe_p95_mm": 2.019951820373535,
+      "radius_probe_range_mm": [
+        1.4895261526107788,
+        2.110736846923828
+      ],
+      "seed_vertex": 8129,
+      "surface_transition_support_length_mm": 9.205128249012258,
+      "transition_area_before_overlap_mm2": 334.25510441021066,
+      "transition_centerline_length_mm": 9.205128249012258,
+      "transition_path_id": "B_31",
+      "transition_vertices_before_overlap": 766,
+      "unfixed_seed_connected_port_vertices": 0
+    },
+    {
+      "boundary_edges": 38,
+      "discarded_disconnected_eligible_vertices": 0,
+      "disconnected_distal_voronoi_vertices": 56,
+      "distal_seed_core_vertices": 483,
+      "fixed_area_mm2": 189.54706469558505,
+      "fixed_axial_range_mm": [
+        0.042780476821365425,
+        17.788573754853985
+      ],
+      "fixed_envelope_radius_mm": 2.638798872397056,
+      "fixed_path_id": "IN_02",
+      "fixed_vertices": 485,
+      "id": "IN_02",
+      "maximum_transition_neighbor_weight_jump": 0.5870495854182497,
+      "radius_probe_p95_mm": 1.8661097288131714,
+      "radius_probe_range_mm": [
+        1.4856446981430054,
+        1.9035309553146362
+      ],
+      "seed_vertex": 276,
+      "surface_transition_support_length_mm": 2.8435287822423687,
+      "transition_area_before_overlap_mm2": 51.15286056142223,
+      "transition_centerline_length_mm": 2.8435287822423687,
+      "transition_path_id": "B_32",
+      "transition_vertices_before_overlap": 120,
+      "unfixed_seed_connected_port_vertices": 0
+    }
+  ],
+  "regions": [
+    {
+      "area_mm2": 1628.2947690861567,
+      "color": [
+        0.18,
+        0.48,
+        1.0
+      ],
+      "id": 0,
+      "name": "fixed",
+      "vertices": 3698
+    },
+    {
+      "area_mm2": 580.0180794113237,
+      "color": [
+        1.0,
+        0.62,
+        0.08
+      ],
+      "id": 1,
+      "name": "transition",
+      "vertices": 1356
+    },
+    {
+      "area_mm2": 8603.921496133791,
+      "color": [
+        0.2,
+        0.84,
+        0.4
+      ],
+      "id": 2,
+      "name": "expandable",
+      "vertices": 19970
+    }
+  ],
+  "review_notes": [
+    "B_32 uses its 2.84 mm local support; inspect the coarse-mesh weight gradient before deformation.",
+    "IN_02 has disconnected nearest-path islands; they are excluded from the port fixed seed component."
+  ],
+  "schema_version": "1.0",
+  "source_geometry_modified": false,
+  "sources": {
+    "builder": {
+      "path": "tools/build_cavity_surface_masks.py",
+      "sha256": "97dace60bb737971f63db107c3e9be63cb1a7dc85c37ef00f9e5c8674b87e956"
+    },
+    "cavity_mesh": {
+      "path": "source_assets/kidney_cavity.obj",
+      "sha256": "65a7a2cd0468dfbe301cc45b5c4f91482be4b80f766f538c47d347b5fa8b25e6"
+    },
+    "configuration": {
+      "path": "deformation/surface_mask_config.json",
+      "sha256": "6be5229a7f04bd751fd7babf397efa8d623279e61209a90ad9452745173e234a"
+    },
+    "resolved": {
+      "path": "deformation/cavity_topology_resolved.json",
+      "sha256": "c32e82b57074950697601758e498c9fa6ca2699a1367383f3be28ef7478f4650"
+    }
+  },
+  "status": "P1_2_INITIAL_MASKS_PENDING_VISUAL_REVIEW",
+  "surface_components": 1,
+  "total_area_mm2": 10812.234344631272,
+  "triangle_count": 50044,
+  "unit": "mm",
+  "vertex_count": 25024,
+  "weight_range": [
+    0.0,
+    1.0
+  ]
+}

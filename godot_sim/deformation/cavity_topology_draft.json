@@ -1,0 +1,100 @@
+
+{
+  "schema_version": "1.0",
+  "status": "P0_TOPOLOGY_UPDATED_PENDING_GEOMETRY_VALIDATION",
+  "source": "外部人工确认的拓扑结构",
+  "unit": "mm",
+  "coordinate_system": "Godot global",
+  "marker_file": "irrigation_markers.json",
+
+  "junctions": [
+	"J_01", "J_02", "J_03",
+	"J_04", "J_05", "J_06",
+	"J_07", "J_08", "J_09"
+  ],
+
+  "terminals": [
+	"T_01", "T_02", "T_03", "T_04",
+	"T_05", "T_06", "T_07", "T_08",
+	"T_09", "T_10", "T_11", "T_12",
+	"T_13", "T_14", "T_15", "T_16",
+	"T_17", "T_18", "T_19", "T_20",
+	"T_21", "T_22"
+  ],
+
+  "main_cavity": {
+	"centerline": [
+	  "A_Start", "A_Middle", "A_End", "J_01"
+	],
+	"bladder_transition": [
+	  "P_BLADDER_BASE", "A_Start"
+	]
+  },
+
+  "artificial_ports": [
+	{
+	  "id": "BLADDER",
+	  "base": "P_BLADDER_BASE",
+	  "end": "P_BLADDER_END",
+	  "geometry_role": "artificial_fixed",
+	  "purpose": "bladder_connection"
+	},
+	{
+	  "id": "IN_01",
+	  "base": "P_IN_01_BASE",
+	  "end": "P_IN_01_END",
+	  "geometry_role": "artificial_fixed",
+	  "purpose": "water_inlet"
+	},
+	{
+	  "id": "IN_02",
+	  "base": "P_IN_02_BASE",
+	  "end": "P_IN_02_END",
+	  "geometry_role": "artificial_fixed",
+	  "purpose": "water_inlet"
+	}
+  ],
+
+  "branches": [
+	{"id":"B_01","from":"J_01","to":"J_02","controls":["B_01_P01"],"kind":"natural"},
+	{"id":"B_02","from":"J_02","to":"T_01","controls":["B_02_P01"],"kind":"natural"},
+	{"id":"B_03","from":"J_02","to":"T_02","controls":["B_03_P01"],"kind":"natural"},
+	{"id":"B_04","from":"J_02","to":"T_03","controls":["B_04_P01"],"kind":"natural"},
+	{"id":"B_05","from":"J_02","to":"T_04","controls":["B_05_P01"],"kind":"natural"},
+
+	{"id":"B_06","from":"J_01","to":"J_03","controls":["B_06_P01"],"kind":"natural"},
+	{"id":"B_07","from":"J_03","to":"T_05","controls":["B_07_P01"],"kind":"natural"},
+	{"id":"B_08","from":"J_03","to":"T_06","controls":["B_08_P01"],"kind":"natural"},
+	{"id":"B_09","from":"J_01","to":"T_07","controls":["B_09_P01"],"kind":"natural"},
+
+	{"id":"B_10","from":"J_01","to":"J_04","controls":["B_10_P01"],"kind":"natural"},
+	{"id":"B_11","from":"J_04","to":"J_05","controls":["B_11_P01"],"kind":"natural"},
+
+	{"id":"B_12","from":"J_05","to":"T_08","controls":["B_12_P01"],"kind":"natural"},
+	{"id":"B_13","from":"J_05","to":"T_09","controls":["B_13_P01"],"kind":"natural"},
+	{"id":"B_14","from":"J_05","to":"T_10","controls":["B_14_P01"],"kind":"natural"},
+	{"id":"B_15","from":"J_05","to":"T_11","controls":["B_15_P01"],"kind":"natural"},
+	{"id":"B_16","from":"J_05","to":"T_12","controls":["B_16_P01"],"kind":"natural"},
+	{"id":"B_17","from":"J_05","to":"T_13","controls":["B_17_P01"],"kind":"natural"},
+	{"id":"B_18","from":"J_05","to":"T_14","controls":["B_18_P01"],"kind":"natural"},
+
+	{"id":"B_19","from":"J_04","to":"J_06","controls":["B_19_P01"],"kind":"natural"},
+	{"id":"B_20","from":"J_06","to":"T_15","controls":["B_20_P01"],"kind":"natural"},
+	{"id":"B_21","from":"J_06","to":"J_07","controls":["B_21_P01"],"kind":"natural"},
+
+	{"id":"B_22","from":"J_07","to":"J_08","controls":["B_22_P01"],"kind":"natural"},
+	{"id":"B_23","from":"J_08","to":"T_16","controls":["B_23_P01"],"kind":"natural"},
+	{"id":"B_24","from":"J_08","to":"T_17","controls":["B_24_P01"],"kind":"natural"},
+	{"id":"B_25","from":"J_08","to":"T_18","controls":["B_25_P01"],"kind":"natural"},
+	{"id":"B_26","from":"J_07","to":"T_19","controls":["B_26_P01"],"kind":"natural"},
+
+	{"id":"B_27","from":"J_07","to":"J_09","controls":["B_27_P01"],"kind":"natural"},
+	{"id":"B_28","from":"J_09","to":"T_20","controls":["B_28_P01"],"kind":"natural"},
+	{"id":"B_29","from":"J_09","to":"T_21","controls":["B_29_P01"],"kind":"natural"},
+	{"id":"B_30","from":"J_09","to":"T_22","controls":["B_30_P01"],"kind":"natural"},
+
+	{"id":"B_31","from":"J_05","to":"P_IN_01_BASE","controls":["B_31_P01"],"kind":"interface_transition"},
+	{"id":"B_32","from":"J_09","to":"P_IN_02_BASE","controls":["B_32_P01"],"kind":"interface_transition"}
+  ]
+
+}

@@ -1,0 +1,66 @@
+{
+  "schema_version": "1.0",
+  "scope": [
+    "P1.1",
+    "P1.2"
+  ],
+  "status": "IMPLEMENTED_PENDING_USER_MASK_REVIEW",
+  "validation_date": "2026-10-13",
+  "unit_tests": {
+    "passed": 9,
+    "failed": 0,
+    "command": "tools/test_p1_masks.py"
+  },
+  "reproducibility": {
+    "resolved_check_passed": true,
+    "mask_files_byte_identical_on_rebuild": 14
+  },
+  "protected_inputs": {
+    "unchanged": true,
+    "sha256_before": {
+      "main.tscn": "c246764faaa48b5f8f7575cbe4690d9a497b0f0def621bccb8dfd75ef1ea3511",
+      "irrigation_asset_check.tscn": "83f25a48fc0996ada585ac6ed1d64f02b2c0454aacead670e854b60ec5559511",
+      "deformation/irrigation_markers.json": "b3f97d8b6f9aaeacda14e956ca672f1445dc1e7e0ab95d028c8d482099b7fd2e",
+      "deformation/cavity_topology_draft.json": "9c9443de542cabc6672b8626e80d449e3724e72738acbebc8a522a7c8e26192f",
+      "source_assets/kidney_cavity.obj": "65a7a2cd0468dfbe301cc45b5c4f91482be4b80f766f538c47d347b5fa8b25e6",
+      "source_assets/kidney_tissue.obj": "44aeefd61af22e803bfb4830b8a11c4ed6228192a4aaac3b825118d00c006738"
+    },
+    "sha256_after": {
+      "main.tscn": "c246764faaa48b5f8f7575cbe4690d9a497b0f0def621bccb8dfd75ef1ea3511",
+      "irrigation_asset_check.tscn": "83f25a48fc0996ada585ac6ed1d64f02b2c0454aacead670e854b60ec5559511",
+      "deformation/irrigation_markers.json": "b3f97d8b6f9aaeacda14e956ca672f1445dc1e7e0ab95d028c8d482099b7fd2e",
+      "deformation/cavity_topology_draft.json": "9c9443de542cabc6672b8626e80d449e3724e72738acbebc8a522a7c8e26192f",
+      "source_assets/kidney_cavity.obj": "65a7a2cd0468dfbe301cc45b5c4f91482be4b80f766f538c47d347b5fa8b25e6",
+      "source_assets/kidney_tissue.obj": "44aeefd61af22e803bfb4830b8a11c4ed6228192a4aaac3b825118d00c006738"
+    }
+  },
+  "validated_artifact_hashes": {
+    "tools/resolve_cavity_topology.py": "7d3e2c31de13e4a00614addcc0713e9f6d2b81bcf3e5513a75e8f3da806f92ec",
+    "tools/build_cavity_surface_masks.py": "97dace60bb737971f63db107c3e9be63cb1a7dc85c37ef00f9e5c8674b87e956",
+    "tools/test_p1_masks.py": "d61bc8e6e6d28865515ed13d0d7bb5970a81dae29954b80e97eeeccc7cd51f2f",
+    "scripts/irrigation_mask_preview.gd": "5ddf9653977c1f170eb00871c9eee21bddd20caf1d5bdadcd24cff4777e48d56",
+    "irrigation_mask_preview.tscn": "b96d18acbe44c603c8cc526a3259d1888c0e773cafa636e9576d4937f3885e6d",
+    "deformation/cavity_topology_resolved.json": "c32e82b57074950697601758e498c9fa6ca2699a1367383f3be28ef7478f4650",
+    "deformation/surface_mask_config.json": "6be5229a7f04bd751fd7babf397efa8d623279e61209a90ad9452745173e234a",
+    "deformation/p1_masks/mask_preview.bin": "9cc2966cbb5c3a81273a0f6e71d53f40f5fd9fe68fd98bc0cc65c5bab3d4aca8",
+    "deformation/p1_masks/mask_preview.json": "f3fcc09e7b86293b59dcff0b6740a04e803828e1735860167203cb1e7cc5f45f",
+    "deformation/p1_masks/surface_mask_report.json": "1b376949e7970278945b419812d5214bbd1b1d0424de6fc8d3478e8f4533ae0e"
+  },
+  "render_log": [
+    "Godot Engine v4.7.stable.official.5b4e0cb0f - https://godotengine.org",
+    "Vulkan 1.4.341 - Forward+ - Using Device #0: NVIDIA - NVIDIA GeForce RTX 4070 Ti"
+  ],
+  "render_stderr_empty": true,
+  "render_screenshots": {
+    "b31.png": "30d60d7bd9cdfce42d51034f96168d1dc3ae48f71b95e118567e863b2e81f959",
+    "b32.png": "8e479b8da4a122b2580b6772ee04e23dbe62e9148d71a8ae1a3ba06a0a8e6c7c",
+    "bladder.png": "db6ebf2d4ecef1b472551ff177521ff7acc5048e5a2b51fceea572299b04edd2",
+    "paths.png": "9eca024bcd78315c9ef2cf9071ec606622c3e45975d1446cbf93c542970d5bc3",
+    "regions.png": "6955715288b7f1d1044d37a98b0ba5b3e2d0ab61ac35fa80851f9020b87bf179",
+    "weights.png": "48e290470eaad6f32d99bce7e964c7d63661f0c7e191e2375fa880b06c460c9b"
+  },
+  "limits": [
+    "Mask boundaries await user review.",
+    "No dynamic deformation or P1.3-P1.5 implementation."
+  ]
+}
