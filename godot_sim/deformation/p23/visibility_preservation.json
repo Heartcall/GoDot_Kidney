@@ -1,0 +1,9 @@
+{
+  "after_sha256": "6152ebb57f153c32be1cafd5bcc4cc23c2eb82e9a7d6e72a7be5754bf34bd5d9",
+  "authorization": "Current user instruction: preserve known TissueReference.visible=false setting.",
+  "before_sha256": "5601c0d7c5fa5cc667463b069362ab1328675ac1269eab3ef379a1db00264908",
+  "date": "2026-10-14",
+  "markers_transforms_geometry_changed": false,
+  "only_change": "Restore TissueReference visible=false; opening working tree had removed this line.",
+  "path": "godot_sim/irrigation_asset_check.tscn"
+}

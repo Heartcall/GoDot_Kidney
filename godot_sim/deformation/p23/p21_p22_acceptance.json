@@ -1,0 +1,29 @@
+{
+  "allowed_p23_code_changes": [
+    "godot_sim/scripts/p2/control_preview.gd",
+    "godot_sim/scripts/p2/deformation_player.gd",
+    "godot_sim/irrigation_control_preview.tscn"
+  ],
+  "authorized_existing_visibility_setting": "TissueReference.visible=false retained unchanged",
+  "baseline_sha256": {
+    "control_preview.gd": "fbe6d1979d9119b367d032a5fefd32cee93980c20b7e9cdf1716fc9327e6b038",
+    "deformation_player.gd": "d1005ec941e633b66c0c3b0fb30c92850a9862c175d0b0bcc896acc5b129ab91",
+    "irrigation_control_preview.tscn.txt": "650c719417ac832d0a43e26cdd3e47b91d375c22d2dc3264acef25e1633df8e4",
+    "irrigation_controller.gd": "515b8903164d9342609252ac598f5982df70485e296546578eebf60ae45fd46e"
+  },
+  "confirmed": [
+    "inject",
+    "drain",
+    "pause_resume",
+    "hold",
+    "reset",
+    "synchronous_cavity_tissue_deformation"
+  ],
+  "date": "2026-10-14",
+  "historical_measurements_preserved": true,
+  "input_manifest_sha256": "fee5d371309553c032db1deb753c498e3ee75b735ce61ff0ad7a706e6514f8d1",
+  "quantitative_30fps_status": "NOT_YET_PROVEN_BY_CONTINUOUS_FRAME_MEASUREMENT",
+  "stage": "P2.1+P2.2",
+  "status": "USER_ACCEPTED_FUNCTIONAL_BASELINE",
+  "subjective_experience": "User observed no obvious stutter in actual Godot interaction."
+}

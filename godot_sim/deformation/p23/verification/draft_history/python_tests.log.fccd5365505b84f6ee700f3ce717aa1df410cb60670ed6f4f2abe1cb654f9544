@@ -1,0 +1,31 @@
+test_accepted_stage_is_recorded_separately (__main__.P23Tests) ... ok
+test_actual_32_meshes_exact_and_fixed (__main__.P23Tests) ... ok
+test_actual_continuous_legs_and_components (__main__.P23Tests) ... ok
+test_all_five_levels_and_contact_constraints (__main__.P23Tests) ... ok
+test_all_six_authorities_and_old_manifest (__main__.P23Tests) ... ok
+test_baseline_and_early_optimized_measurements_preserved (__main__.P23Tests) ... ok
+test_complete_panel_state_and_layout_checks (__main__.P23Tests) ... ok
+test_controller_reused_exactly (__main__.P23Tests) ... ok
+test_normal_algorithm_is_unchanged (__main__.P23Tests) ... ok
+test_panel_separated_from_geometry (__main__.P23Tests) ... ok
+test_performance_failure_is_not_mislabeled_pass (__main__.P23Tests) ... ok
+test_protected_sources_and_authorized_visibility (__main__.P23Tests) ... ok
+test_readback_removed_only_from_normal_playback (__main__.P23Tests) ... ok
+
+----------------------------------------------------------------------
+Ran 13 tests in 3.601s
+
+OK
+P23 regression passed; 32 actual meshes; 808 protected files; ['godot_sim/irrigation_control_preview.tscn', 'godot_sim/scripts/p2/control_preview.gd', 'godot_sim/scripts/p2/deformation_player.gd']
+baseline_forward fill FPS mean/median/min 14.57 14.31 13.32 frame p95 73.328 update mean 67.333 wall_s 12.457 readbacks 722
+baseline_forward drain FPS mean/median/min 13.85 13.86 12.14 frame p95 74.854 update mean 70.72 wall_s 13.006 readbacks 722
+baseline_compatibility fill FPS mean/median/min 16.6 16.64 14.71 frame p95 61.717 update mean 58.529 wall_s 10.904 readbacks 722
+baseline_compatibility drain FPS mean/median/min 16.75 16.79 15.97 frame p95 61.465 update mean 58.026 wall_s 10.747 readbacks 722
+optimized_forward fill FPS mean/median/min 18.57 18.55 17.58 frame p95 55.583 update mean 52.539 wall_s 9.752 readbacks 0
+optimized_forward drain FPS mean/median/min 18.05 18.02 17.2 frame p95 56.667 update mean 54.052 wall_s 9.974 readbacks 0
+optimized_compatibility fill FPS mean/median/min 19.18 19.21 15.96 frame p95 53.278 update mean 50.574 wall_s 9.439 readbacks 0
+optimized_compatibility drain FPS mean/median/min 19.19 19.18 18.43 frame p95 53.299 update mean 50.56 wall_s 9.434 readbacks 0
+final_forward fill FPS mean/median/min 18.49 18.43 17.53 frame p95 55.507 update mean 52.715 wall_s 9.795 readbacks 0
+final_forward drain FPS mean/median/min 18.4 18.4 17.31 frame p95 55.685 update mean 52.943 wall_s 9.838 readbacks 0
+final_compatibility fill FPS mean/median/min 19.0 19.02 17.18 frame p95 53.893 update mean 50.964 wall_s 9.53 readbacks 0
+final_compatibility drain FPS mean/median/min 18.94 18.97 13.45 frame p95 54.385 update mean 51.168 wall_s 9.512 readbacks 0

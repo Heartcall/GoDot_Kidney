@@ -1,0 +1,378 @@
+{
+  "checks": [
+    {
+      "name": "initial reset reference",
+      "passed": true
+    },
+    {
+      "name": "UI injection unique u",
+      "passed": true
+    },
+    {
+      "name": "automatic slider reflection does not take over",
+      "passed": true
+    },
+    {
+      "name": "parameter edits keep active geometry and segment",
+      "passed": true
+    },
+    {
+      "name": "new parameters stored separately",
+      "passed": true
+    },
+    {
+      "name": "invalid parameters rejected",
+      "passed": true
+    },
+    {
+      "name": "rejected parameters have no hidden movement",
+      "passed": true
+    },
+    {
+      "name": "UI pause freezes without mesh submissions",
+      "passed": true
+    },
+    {
+      "name": "UI continue completes original target",
+      "passed": true
+    },
+    {
+      "name": "next drain uses edited duration",
+      "passed": true
+    },
+    {
+      "name": "UI hold cancels movement",
+      "passed": true
+    },
+    {
+      "name": "manual slider owns controller not mesh",
+      "passed": true
+    },
+    {
+      "name": "next injection uses target and proportional duration",
+      "passed": true
+    },
+    {
+      "name": "UI reverse position continuous",
+      "passed": true
+    },
+    {
+      "name": "focus only observation BLADDER",
+      "passed": true
+    },
+    {
+      "name": "focus only observation B_31",
+      "passed": true
+    },
+    {
+      "name": "focus only observation B_32",
+      "passed": true
+    },
+    {
+      "name": "focus only observation F01",
+      "passed": true
+    },
+    {
+      "name": "focus only observation F02",
+      "passed": true
+    },
+    {
+      "name": "focus only observation F03",
+      "passed": true
+    },
+    {
+      "name": "focus only observation F04",
+      "passed": true
+    },
+    {
+      "name": "focus only observation IN_01",
+      "passed": true
+    },
+    {
+      "name": "focus only observation IN_02",
+      "passed": true
+    },
+    {
+      "name": "focus only observation J_01",
+      "passed": true
+    },
+    {
+      "name": "focus only observation J_02",
+      "passed": true
+    },
+    {
+      "name": "focus only observation J_03",
+      "passed": true
+    },
+    {
+      "name": "focus only observation J_04",
+      "passed": true
+    },
+    {
+      "name": "focus only observation J_05",
+      "passed": true
+    },
+    {
+      "name": "focus only observation J_06",
+      "passed": true
+    },
+    {
+      "name": "focus only observation J_07",
+      "passed": true
+    },
+    {
+      "name": "focus only observation J_08",
+      "passed": true
+    },
+    {
+      "name": "focus only observation J_09",
+      "passed": true
+    },
+    {
+      "name": "focus only observation MAIN",
+      "passed": true
+    },
+    {
+      "name": "focus only observation T_01",
+      "passed": true
+    },
+    {
+      "name": "focus only observation T_02",
+      "passed": true
+    },
+    {
+      "name": "focus only observation T_03",
+      "passed": true
+    },
+    {
+      "name": "focus only observation T_04",
+      "passed": true
+    },
+    {
+      "name": "focus only observation T_05",
+      "passed": true
+    },
+    {
+      "name": "focus only observation T_06",
+      "passed": true
+    },
+    {
+      "name": "focus only observation T_07",
+      "passed": true
+    },
+    {
+      "name": "focus only observation T_08",
+      "passed": true
+    },
+    {
+      "name": "focus only observation T_09",
+      "passed": true
+    },
+    {
+      "name": "focus only observation T_10",
+      "passed": true
+    },
+    {
+      "name": "focus only observation T_11",
+      "passed": true
+    },
+    {
+      "name": "focus only observation T_12",
+      "passed": true
+    },
+    {
+      "name": "focus only observation T_13",
+      "passed": true
+    },
+    {
+      "name": "focus only observation T_14",
+      "passed": true
+    },
+    {
+      "name": "focus only observation T_15",
+      "passed": true
+    },
+    {
+      "name": "focus only observation T_16",
+      "passed": true
+    },
+    {
+      "name": "focus only observation T_17",
+      "passed": true
+    },
+    {
+      "name": "focus only observation T_18",
+      "passed": true
+    },
+    {
+      "name": "focus only observation T_19",
+      "passed": true
+    },
+    {
+      "name": "focus only observation T_20",
+      "passed": true
+    },
+    {
+      "name": "focus only observation T_21",
+      "passed": true
+    },
+    {
+      "name": "focus only observation T_22",
+      "passed": true
+    },
+    {
+      "name": "local section offset preserves local direction",
+      "passed": true
+    },
+    {
+      "name": "target label distinguishes active and next segment",
+      "passed": true
+    },
+    {
+      "name": "independent hide cavity",
+      "passed": true
+    },
+    {
+      "name": "independent hide tissue",
+      "passed": true
+    },
+    {
+      "name": "observation never submits geometry",
+      "passed": true
+    },
+    {
+      "name": "snapshot synchronous u000",
+      "passed": true
+    },
+    {
+      "name": "snapshot same camera u000",
+      "passed": true
+    },
+    {
+      "name": "snapshot synchronous u025",
+      "passed": true
+    },
+    {
+      "name": "snapshot same camera u025",
+      "passed": true
+    },
+    {
+      "name": "snapshot synchronous u050",
+      "passed": true
+    },
+    {
+      "name": "snapshot same camera u050",
+      "passed": true
+    },
+    {
+      "name": "snapshot synchronous u075",
+      "passed": true
+    },
+    {
+      "name": "snapshot same camera u075",
+      "passed": true
+    },
+    {
+      "name": "snapshot synchronous u100",
+      "passed": true
+    },
+    {
+      "name": "snapshot same camera u100",
+      "passed": true
+    },
+    {
+      "name": "snapshot synchronous u037",
+      "passed": true
+    },
+    {
+      "name": "snapshot same camera u037",
+      "passed": true
+    },
+    {
+      "name": "snapshot synchronous reset",
+      "passed": true
+    },
+    {
+      "name": "snapshot same camera reset",
+      "passed": true
+    },
+    {
+      "name": "no repeated filling rebuild",
+      "passed": true
+    },
+    {
+      "name": "Expanded button manual hold",
+      "passed": true
+    },
+    {
+      "name": "Mid button manual hold",
+      "passed": true
+    },
+    {
+      "name": "Reference button manual hold",
+      "passed": true
+    },
+    {
+      "name": "reset controller reference",
+      "passed": true
+    },
+    {
+      "name": "responsive layout (1024, 768)",
+      "passed": true
+    },
+    {
+      "name": "responsive layout (1280, 720)",
+      "passed": true
+    },
+    {
+      "name": "responsive layout (1422, 1066)",
+      "passed": true
+    },
+    {
+      "name": "responsive layout (1920, 1080)",
+      "passed": true
+    }
+  ],
+  "failures": [],
+  "layout": [
+    {
+      "model": "[P: (388.0, 0.0), S: (1034.0, 1066.0)]",
+      "panel": "[P: (0.0, 0.0), S: (384.0, 1066.0)]",
+      "root": "(1422.0, 1066.0)",
+      "scroll_content_height": 1123.0,
+      "scroll_visible_height": 1066.0,
+      "valid": true,
+      "window": "(1024, 768)"
+    },
+    {
+      "model": "[P: (394.0, 0.0), S: (1501.0, 1066.0)]",
+      "panel": "[P: (0.0, 0.0), S: (390.0, 1066.0)]",
+      "root": "(1895.0, 1066.0)",
+      "scroll_content_height": 1123.0,
+      "scroll_visible_height": 1066.0,
+      "valid": true,
+      "window": "(1280, 720)"
+    },
+    {
+      "model": "[P: (388.0, 0.0), S: (1034.0, 1066.0)]",
+      "panel": "[P: (0.0, 0.0), S: (384.0, 1066.0)]",
+      "root": "(1422.0, 1066.0)",
+      "scroll_content_height": 1123.0,
+      "scroll_visible_height": 1066.0,
+      "valid": true,
+      "window": "(1422, 1066)"
+    },
+    {
+      "model": "[P: (394.0, 0.0), S: (1501.0, 1066.0)]",
+      "panel": "[P: (0.0, 0.0), S: (390.0, 1066.0)]",
+      "root": "(1895.0, 1066.0)",
+      "scroll_content_height": 1123.0,
+      "scroll_visible_height": 1066.0,
+      "valid": true,
+      "window": "(1920, 1080)"
+    }
+  ],
+  "readback_count": 16,
+  "renderer": "gl_compatibility",
+  "unique_controller": true
+}

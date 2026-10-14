@@ -1,0 +1,447 @@
+{
+  "checks": [
+    {
+      "passed": true,
+      "test": "initial reference"
+    },
+    {
+      "passed": true,
+      "test": "full injection duration"
+    },
+    {
+      "passed": true,
+      "test": "injection smooth midpoint"
+    },
+    {
+      "passed": true,
+      "test": "injection stops exactly at goal"
+    },
+    {
+      "passed": true,
+      "test": "holding never auto drains"
+    },
+    {
+      "passed": true,
+      "test": "drain midpoint"
+    },
+    {
+      "passed": true,
+      "test": "oversized dt stops at zero"
+    },
+    {
+      "passed": true,
+      "test": "zero length drain"
+    },
+    {
+      "passed": true,
+      "test": "midflight reverse position continuous"
+    },
+    {
+      "passed": true,
+      "test": "partial drain duration proportional"
+    },
+    {
+      "passed": true,
+      "test": "reverse completes"
+    },
+    {
+      "passed": true,
+      "test": "partial inject duration proportional"
+    },
+    {
+      "passed": true,
+      "test": "paused u and elapsed unchanged"
+    },
+    {
+      "passed": true,
+      "test": "pause preserves segment and remaining"
+    },
+    {
+      "passed": true,
+      "test": "repeated injection during pause is idempotent"
+    },
+    {
+      "passed": true,
+      "test": "resume finishes remaining segment"
+    },
+    {
+      "passed": true,
+      "test": "hold cancels segment"
+    },
+    {
+      "passed": true,
+      "test": "hold cannot resume old motion"
+    },
+    {
+      "passed": true,
+      "test": "manual slider cancels motion and pause"
+    },
+    {
+      "passed": true,
+      "test": "no delayed command overrides manual"
+    },
+    {
+      "passed": true,
+      "test": "reset cancels paused motion exactly"
+    },
+    {
+      "passed": true,
+      "test": "same command does not restart clock"
+    },
+    {
+      "passed": true,
+      "test": "same drain does not restart clock"
+    },
+    {
+      "passed": true,
+      "test": "zero length injection holds"
+    },
+    {
+      "passed": true,
+      "test": "abnormal dt ignored"
+    },
+    {
+      "passed": true,
+      "test": "nonfinite manual and target ignored"
+    },
+    {
+      "passed": true,
+      "test": "invalid durations rejected"
+    },
+    {
+      "passed": true,
+      "test": "manual lower bound"
+    },
+    {
+      "passed": true,
+      "test": "manual upper bound"
+    },
+    {
+      "passed": true,
+      "test": "lower target does not drain during injection"
+    },
+    {
+      "passed": true,
+      "test": "target edit does not change active segment"
+    },
+    {
+      "passed": true,
+      "test": "active target completes unchanged"
+    },
+    {
+      "passed": true,
+      "test": "next command uses new target"
+    },
+    {
+      "passed": true,
+      "test": "time partition 30 at 0.25"
+    },
+    {
+      "passed": true,
+      "test": "time partition 30 at 1.00"
+    },
+    {
+      "passed": true,
+      "test": "time partition 30 at 2.37"
+    },
+    {
+      "passed": true,
+      "test": "time partition 30 at 3.00"
+    },
+    {
+      "passed": true,
+      "test": "time partition 30 at 5.90"
+    },
+    {
+      "passed": true,
+      "test": "time partition 30 at 6.00"
+    },
+    {
+      "passed": true,
+      "test": "partition endpoint exact 30"
+    },
+    {
+      "passed": true,
+      "test": "drain partition endpoint exact 30"
+    },
+    {
+      "passed": true,
+      "test": "time partition 60 at 0.25"
+    },
+    {
+      "passed": true,
+      "test": "time partition 60 at 1.00"
+    },
+    {
+      "passed": true,
+      "test": "time partition 60 at 2.37"
+    },
+    {
+      "passed": true,
+      "test": "time partition 60 at 3.00"
+    },
+    {
+      "passed": true,
+      "test": "time partition 60 at 5.90"
+    },
+    {
+      "passed": true,
+      "test": "time partition 60 at 6.00"
+    },
+    {
+      "passed": true,
+      "test": "partition endpoint exact 60"
+    },
+    {
+      "passed": true,
+      "test": "drain partition endpoint exact 60"
+    },
+    {
+      "passed": true,
+      "test": "time partition 120 at 0.25"
+    },
+    {
+      "passed": true,
+      "test": "time partition 120 at 1.00"
+    },
+    {
+      "passed": true,
+      "test": "time partition 120 at 2.37"
+    },
+    {
+      "passed": true,
+      "test": "time partition 120 at 3.00"
+    },
+    {
+      "passed": true,
+      "test": "time partition 120 at 5.90"
+    },
+    {
+      "passed": true,
+      "test": "time partition 120 at 6.00"
+    },
+    {
+      "passed": true,
+      "test": "partition endpoint exact 120"
+    },
+    {
+      "passed": true,
+      "test": "drain partition endpoint exact 120"
+    },
+    {
+      "passed": true,
+      "test": "time partition 0 at 0.25"
+    },
+    {
+      "passed": true,
+      "test": "time partition 0 at 1.00"
+    },
+    {
+      "passed": true,
+      "test": "time partition 0 at 2.37"
+    },
+    {
+      "passed": true,
+      "test": "time partition 0 at 3.00"
+    },
+    {
+      "passed": true,
+      "test": "time partition 0 at 5.90"
+    },
+    {
+      "passed": true,
+      "test": "time partition 0 at 6.00"
+    },
+    {
+      "passed": true,
+      "test": "partition endpoint exact 0"
+    },
+    {
+      "passed": true,
+      "test": "drain partition endpoint exact 0"
+    },
+    {
+      "passed": true,
+      "test": "repeat endpoint no controller drift 0"
+    },
+    {
+      "passed": true,
+      "test": "repeat endpoint no controller drift 1"
+    },
+    {
+      "passed": true,
+      "test": "repeat endpoint no controller drift 2"
+    },
+    {
+      "passed": true,
+      "test": "repeat endpoint no controller drift 3"
+    },
+    {
+      "passed": true,
+      "test": "repeat endpoint no controller drift 4"
+    },
+    {
+      "passed": true,
+      "test": "repeat endpoint no controller drift 5"
+    },
+    {
+      "passed": true,
+      "test": "repeat endpoint no controller drift 6"
+    },
+    {
+      "passed": true,
+      "test": "repeat endpoint no controller drift 7"
+    },
+    {
+      "passed": true,
+      "test": "no asynchronous callbacks or tweens"
+    }
+  ],
+  "failures": [],
+  "traces": [
+    {
+      "rate": 30,
+      "state": "FILLING",
+      "time": 0.25,
+      "u": 0.00506365740740741
+    },
+    {
+      "rate": 30,
+      "state": "FILLING",
+      "time": 1.0,
+      "u": 0.0740740740740741
+    },
+    {
+      "rate": 30,
+      "state": "FILLING",
+      "time": 2.37,
+      "u": 0.34481525
+    },
+    {
+      "rate": 30,
+      "state": "FILLING",
+      "time": 3.0,
+      "u": 0.5
+    },
+    {
+      "rate": 30,
+      "state": "FILLING",
+      "time": 5.9,
+      "u": 0.999175925925926
+    },
+    {
+      "rate": 30,
+      "state": "HOLDING",
+      "time": 6.0,
+      "u": 1.0
+    },
+    {
+      "rate": 60,
+      "state": "FILLING",
+      "time": 0.25,
+      "u": 0.00506365740740741
+    },
+    {
+      "rate": 60,
+      "state": "FILLING",
+      "time": 1.0,
+      "u": 0.0740740740740741
+    },
+    {
+      "rate": 60,
+      "state": "FILLING",
+      "time": 2.37,
+      "u": 0.34481525
+    },
+    {
+      "rate": 60,
+      "state": "FILLING",
+      "time": 3.0,
+      "u": 0.5
+    },
+    {
+      "rate": 60,
+      "state": "FILLING",
+      "time": 5.9,
+      "u": 0.999175925925926
+    },
+    {
+      "rate": 60,
+      "state": "HOLDING",
+      "time": 6.0,
+      "u": 1.0
+    },
+    {
+      "rate": 120,
+      "state": "FILLING",
+      "time": 0.25,
+      "u": 0.00506365740740741
+    },
+    {
+      "rate": 120,
+      "state": "FILLING",
+      "time": 1.0,
+      "u": 0.0740740740740739
+    },
+    {
+      "rate": 120,
+      "state": "FILLING",
+      "time": 2.37,
+      "u": 0.34481525
+    },
+    {
+      "rate": 120,
+      "state": "FILLING",
+      "time": 3.0,
+      "u": 0.5
+    },
+    {
+      "rate": 120,
+      "state": "FILLING",
+      "time": 5.9,
+      "u": 0.999175925925926
+    },
+    {
+      "rate": 120,
+      "state": "HOLDING",
+      "time": 6.0,
+      "u": 1.0
+    },
+    {
+      "rate": 0,
+      "state": "FILLING",
+      "time": 0.25,
+      "u": 0.00506365740740741
+    },
+    {
+      "rate": 0,
+      "state": "FILLING",
+      "time": 1.0,
+      "u": 0.0740740740740741
+    },
+    {
+      "rate": 0,
+      "state": "FILLING",
+      "time": 2.37,
+      "u": 0.34481525
+    },
+    {
+      "rate": 0,
+      "state": "FILLING",
+      "time": 3.0,
+      "u": 0.5
+    },
+    {
+      "rate": 0,
+      "state": "FILLING",
+      "time": 5.9,
+      "u": 0.999175925925926
+    },
+    {
+      "rate": 0,
+      "state": "HOLDING",
+      "time": 6.0,
+      "u": 1.0
+    }
+  ]
+}

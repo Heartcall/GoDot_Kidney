@@ -1,0 +1,662 @@
+{
+  "actual_mesh_records": [
+    {
+      "actual_positions_indices_normals_match_accepted": true,
+      "fixed_exact": true,
+      "indices_exact": true,
+      "mesh": "cavity",
+      "position_bits_exact": true,
+      "run": "final_regression_forward",
+      "tag": "u000",
+      "u": 0.0
+    },
+    {
+      "actual_positions_indices_normals_match_accepted": true,
+      "fixed_exact": true,
+      "indices_exact": true,
+      "mesh": "cavity",
+      "position_bits_exact": true,
+      "run": "final_regression_forward",
+      "tag": "u025",
+      "u": 0.25
+    },
+    {
+      "actual_positions_indices_normals_match_accepted": true,
+      "fixed_exact": true,
+      "indices_exact": true,
+      "mesh": "cavity",
+      "position_bits_exact": true,
+      "run": "final_regression_forward",
+      "tag": "u050",
+      "u": 0.5
+    },
+    {
+      "actual_positions_indices_normals_match_accepted": true,
+      "fixed_exact": true,
+      "indices_exact": true,
+      "mesh": "cavity",
+      "position_bits_exact": true,
+      "run": "final_regression_forward",
+      "tag": "u075",
+      "u": 0.75
+    },
+    {
+      "actual_positions_indices_normals_match_accepted": true,
+      "fixed_exact": true,
+      "indices_exact": true,
+      "mesh": "cavity",
+      "position_bits_exact": true,
+      "run": "final_regression_forward",
+      "tag": "u100",
+      "u": 1.0
+    },
+    {
+      "fixed_exact": true,
+      "indices_exact": true,
+      "mesh": "cavity",
+      "position_bits_exact": true,
+      "run": "final_regression_forward",
+      "tag": "u037",
+      "u": 0.37
+    },
+    {
+      "fixed_exact": true,
+      "indices_exact": true,
+      "mesh": "cavity",
+      "position_bits_exact": true,
+      "run": "final_regression_forward",
+      "tag": "reset",
+      "u": 0
+    },
+    {
+      "fixed_exact": true,
+      "indices_exact": true,
+      "mesh": "cavity",
+      "position_bits_exact": true,
+      "run": "final_regression_forward",
+      "tag": "restored",
+      "u": 0
+    },
+    {
+      "actual_float32_quality": {
+        "area_ratio_range": [
+          1.0,
+          1.0
+        ],
+        "degenerate_count": 0,
+        "finite": true,
+        "maximum_displacement_mm": 0.0,
+        "maximum_edge_gradient": 0.0,
+        "maximum_normal_rotation_deg": 1.7075472925031877e-06,
+        "normal_reversal_count": 0,
+        "volume_mm3": 300224.4348217309
+      },
+      "actual_positions_indices_normals_match_accepted": true,
+      "fixed_exact": null,
+      "indices_exact": true,
+      "mesh": "tissue",
+      "position_bits_exact": true,
+      "run": "final_regression_forward",
+      "tag": "u000",
+      "u": 0.0
+    },
+    {
+      "actual_float32_quality": {
+        "area_ratio_range": [
+          0.9722057554496573,
+          1.028133081042402
+        ],
+        "degenerate_count": 0,
+        "finite": true,
+        "maximum_displacement_mm": 0.0490254199620363,
+        "maximum_edge_gradient": 0.028186304169176064,
+        "maximum_normal_rotation_deg": 1.6799316652757106,
+        "normal_reversal_count": 0,
+        "volume_mm3": 299934.65036967566
+      },
+      "actual_positions_indices_normals_match_accepted": true,
+      "fixed_exact": null,
+      "indices_exact": true,
+      "mesh": "tissue",
+      "position_bits_exact": true,
+      "run": "final_regression_forward",
+      "tag": "u025",
+      "u": 0.25
+    },
+    {
+      "actual_float32_quality": {
+        "area_ratio_range": [
+          0.9446063544543388,
+          1.0567026735475198
+        ],
+        "degenerate_count": 0,
+        "finite": true,
+        "maximum_displacement_mm": 0.09805055200941687,
+        "maximum_edge_gradient": 0.056372621311016655,
+        "maximum_normal_rotation_deg": 3.3858637504307847,
+        "normal_reversal_count": 0,
+        "volume_mm3": 299642.93321021186
+      },
+      "actual_positions_indices_normals_match_accepted": true,
+      "fixed_exact": null,
+      "indices_exact": true,
+      "mesh": "tissue",
+      "position_bits_exact": true,
+      "run": "final_regression_forward",
+      "tag": "u050",
+      "u": 0.5
+    },
+    {
+      "actual_float32_quality": {
+        "area_ratio_range": [
+          0.9172334805115355,
+          1.0856934629061539
+        ],
+        "degenerate_count": 0,
+        "finite": true,
+        "maximum_displacement_mm": 0.147075971969565,
+        "maximum_edge_gradient": 0.08455657348483912,
+        "maximum_normal_rotation_deg": 5.114120002112583,
+        "normal_reversal_count": 0,
+        "volume_mm3": 299349.2823494032
+      },
+      "actual_positions_indices_normals_match_accepted": true,
+      "fixed_exact": null,
+      "indices_exact": true,
+      "mesh": "tissue",
+      "position_bits_exact": true,
+      "run": "final_regression_forward",
+      "tag": "u075",
+      "u": 0.75
+    },
+    {
+      "actual_float32_quality": {
+        "area_ratio_range": [
+          0.8901095700434579,
+          1.1151231151732852
+        ],
+        "degenerate_count": 0,
+        "finite": true,
+        "maximum_displacement_mm": 0.1961011137017264,
+        "maximum_edge_gradient": 0.11274290355225183,
+        "maximum_normal_rotation_deg": 6.863262442106674,
+        "normal_reversal_count": 0,
+        "volume_mm3": 299053.6966729826
+      },
+      "actual_positions_indices_normals_match_accepted": true,
+      "fixed_exact": null,
+      "indices_exact": true,
+      "mesh": "tissue",
+      "position_bits_exact": true,
+      "run": "final_regression_forward",
+      "tag": "u100",
+      "u": 1.0
+    },
+    {
+      "fixed_exact": null,
+      "indices_exact": true,
+      "mesh": "tissue",
+      "position_bits_exact": true,
+      "run": "final_regression_forward",
+      "tag": "u037",
+      "u": 0.37
+    },
+    {
+      "fixed_exact": null,
+      "indices_exact": true,
+      "mesh": "tissue",
+      "position_bits_exact": true,
+      "run": "final_regression_forward",
+      "tag": "reset",
+      "u": 0
+    },
+    {
+      "fixed_exact": null,
+      "indices_exact": true,
+      "mesh": "tissue",
+      "position_bits_exact": true,
+      "run": "final_regression_forward",
+      "tag": "restored",
+      "u": 0
+    },
+    {
+      "actual_positions_indices_normals_match_accepted": true,
+      "fixed_exact": true,
+      "indices_exact": true,
+      "mesh": "cavity",
+      "position_bits_exact": true,
+      "run": "final_regression_compatibility",
+      "tag": "u000",
+      "u": 0.0
+    },
+    {
+      "actual_positions_indices_normals_match_accepted": true,
+      "fixed_exact": true,
+      "indices_exact": true,
+      "mesh": "cavity",
+      "position_bits_exact": true,
+      "run": "final_regression_compatibility",
+      "tag": "u025",
+      "u": 0.25
+    },
+    {
+      "actual_positions_indices_normals_match_accepted": true,
+      "fixed_exact": true,
+      "indices_exact": true,
+      "mesh": "cavity",
+      "position_bits_exact": true,
+      "run": "final_regression_compatibility",
+      "tag": "u050",
+      "u": 0.5
+    },
+    {
+      "actual_positions_indices_normals_match_accepted": true,
+      "fixed_exact": true,
+      "indices_exact": true,
+      "mesh": "cavity",
+      "position_bits_exact": true,
+      "run": "final_regression_compatibility",
+      "tag": "u075",
+      "u": 0.75
+    },
+    {
+      "actual_positions_indices_normals_match_accepted": true,
+      "fixed_exact": true,
+      "indices_exact": true,
+      "mesh": "cavity",
+      "position_bits_exact": true,
+      "run": "final_regression_compatibility",
+      "tag": "u100",
+      "u": 1.0
+    },
+    {
+      "fixed_exact": true,
+      "indices_exact": true,
+      "mesh": "cavity",
+      "position_bits_exact": true,
+      "run": "final_regression_compatibility",
+      "tag": "u037",
+      "u": 0.37
+    },
+    {
+      "fixed_exact": true,
+      "indices_exact": true,
+      "mesh": "cavity",
+      "position_bits_exact": true,
+      "run": "final_regression_compatibility",
+      "tag": "reset",
+      "u": 0
+    },
+    {
+      "fixed_exact": true,
+      "indices_exact": true,
+      "mesh": "cavity",
+      "position_bits_exact": true,
+      "run": "final_regression_compatibility",
+      "tag": "restored",
+      "u": 0
+    },
+    {
+      "actual_float32_quality": {
+        "area_ratio_range": [
+          1.0,
+          1.0
+        ],
+        "degenerate_count": 0,
+        "finite": true,
+        "maximum_displacement_mm": 0.0,
+        "maximum_edge_gradient": 0.0,
+        "maximum_normal_rotation_deg": 1.7075472925031877e-06,
+        "normal_reversal_count": 0,
+        "volume_mm3": 300224.4348217309
+      },
+      "actual_positions_indices_normals_match_accepted": true,
+      "fixed_exact": null,
+      "indices_exact": true,
+      "mesh": "tissue",
+      "position_bits_exact": true,
+      "run": "final_regression_compatibility",
+      "tag": "u000",
+      "u": 0.0
+    },
+    {
+      "actual_float32_quality": {
+        "area_ratio_range": [
+          0.9722057554496573,
+          1.028133081042402
+        ],
+        "degenerate_count": 0,
+        "finite": true,
+        "maximum_displacement_mm": 0.0490254199620363,
+        "maximum_edge_gradient": 0.028186304169176064,
+        "maximum_normal_rotation_deg": 1.6799316652757106,
+        "normal_reversal_count": 0,
+        "volume_mm3": 299934.65036967566
+      },
+      "actual_positions_indices_normals_match_accepted": true,
+      "fixed_exact": null,
+      "indices_exact": true,
+      "mesh": "tissue",
+      "position_bits_exact": true,
+      "run": "final_regression_compatibility",
+      "tag": "u025",
+      "u": 0.25
+    },
+    {
+      "actual_float32_quality": {
+        "area_ratio_range": [
+          0.9446063544543388,
+          1.0567026735475198
+        ],
+        "degenerate_count": 0,
+        "finite": true,
+        "maximum_displacement_mm": 0.09805055200941687,
+        "maximum_edge_gradient": 0.056372621311016655,
+        "maximum_normal_rotation_deg": 3.3858637504307847,
+        "normal_reversal_count": 0,
+        "volume_mm3": 299642.93321021186
+      },
+      "actual_positions_indices_normals_match_accepted": true,
+      "fixed_exact": null,
+      "indices_exact": true,
+      "mesh": "tissue",
+      "position_bits_exact": true,
+      "run": "final_regression_compatibility",
+      "tag": "u050",
+      "u": 0.5
+    },
+    {
+      "actual_float32_quality": {
+        "area_ratio_range": [
+          0.9172334805115355,
+          1.0856934629061539
+        ],
+        "degenerate_count": 0,
+        "finite": true,
+        "maximum_displacement_mm": 0.147075971969565,
+        "maximum_edge_gradient": 0.08455657348483912,
+        "maximum_normal_rotation_deg": 5.114120002112583,
+        "normal_reversal_count": 0,
+        "volume_mm3": 299349.2823494032
+      },
+      "actual_positions_indices_normals_match_accepted": true,
+      "fixed_exact": null,
+      "indices_exact": true,
+      "mesh": "tissue",
+      "position_bits_exact": true,
+      "run": "final_regression_compatibility",
+      "tag": "u075",
+      "u": 0.75
+    },
+    {
+      "actual_float32_quality": {
+        "area_ratio_range": [
+          0.8901095700434579,
+          1.1151231151732852
+        ],
+        "degenerate_count": 0,
+        "finite": true,
+        "maximum_displacement_mm": 0.1961011137017264,
+        "maximum_edge_gradient": 0.11274290355225183,
+        "maximum_normal_rotation_deg": 6.863262442106674,
+        "normal_reversal_count": 0,
+        "volume_mm3": 299053.6966729826
+      },
+      "actual_positions_indices_normals_match_accepted": true,
+      "fixed_exact": null,
+      "indices_exact": true,
+      "mesh": "tissue",
+      "position_bits_exact": true,
+      "run": "final_regression_compatibility",
+      "tag": "u100",
+      "u": 1.0
+    },
+    {
+      "fixed_exact": null,
+      "indices_exact": true,
+      "mesh": "tissue",
+      "position_bits_exact": true,
+      "run": "final_regression_compatibility",
+      "tag": "u037",
+      "u": 0.37
+    },
+    {
+      "fixed_exact": null,
+      "indices_exact": true,
+      "mesh": "tissue",
+      "position_bits_exact": true,
+      "run": "final_regression_compatibility",
+      "tag": "reset",
+      "u": 0
+    },
+    {
+      "fixed_exact": null,
+      "indices_exact": true,
+      "mesh": "tissue",
+      "position_bits_exact": true,
+      "run": "final_regression_compatibility",
+      "tag": "restored",
+      "u": 0
+    }
+  ],
+  "coincident_vertices": 139,
+  "contact_relative_displacement_max_mm": 2.9079264368403834e-17,
+  "contact_samples": 3840,
+  "controller_checks": 74,
+  "controller_unchanged": true,
+  "finite_contact_validation_method": "Same six authoritative arrays AND five-level actual ArrayMesh position/index hashes equal accepted R2. Inherited finite-triangle scan unchanged; no new all-pairs scan or tolerance change.",
+  "five_levels": [
+    {
+      "inherited_confirmed_crossings": 0,
+      "inherited_confirmed_self_crossings": 0,
+      "recomputed_tissue_quality": {
+        "area_ratio_range": [
+          1.0,
+          1.0
+        ],
+        "degenerate_count": 0,
+        "finite": true,
+        "maximum_displacement_mm": 0.0,
+        "maximum_edge_gradient": 0.0,
+        "maximum_normal_rotation_deg": 1.9090959104164224e-06,
+        "normal_reversal_count": 0,
+        "volume_mm3": 300224.4323855167
+      },
+      "u": 0
+    },
+    {
+      "inherited_confirmed_crossings": 0,
+      "inherited_confirmed_self_crossings": 0,
+      "recomputed_tissue_quality": {
+        "area_ratio_range": [
+          0.972207312665178,
+          1.028131432309815
+        ],
+        "degenerate_count": 0,
+        "finite": true,
+        "maximum_displacement_mm": 0.04902527759403437,
+        "maximum_edge_gradient": 0.028185658648841476,
+        "maximum_normal_rotation_deg": 1.6801058133414553,
+        "normal_reversal_count": 0,
+        "volume_mm3": 299934.6479237071
+      },
+      "u": 0.25
+    },
+    {
+      "inherited_confirmed_crossings": 0,
+      "inherited_confirmed_self_crossings": 0,
+      "recomputed_tissue_quality": {
+        "area_ratio_range": [
+          0.9446089320576784,
+          1.0566990692133695
+        ],
+        "degenerate_count": 0,
+        "finite": true,
+        "maximum_displacement_mm": 0.09805055518807024,
+        "maximum_edge_gradient": 0.05637131729768285,
+        "maximum_normal_rotation_deg": 3.385667247327061,
+        "normal_reversal_count": 0,
+        "volume_mm3": 299642.9308209021
+      },
+      "u": 0.5
+    },
+    {
+      "inherited_confirmed_crossings": 0,
+      "inherited_confirmed_self_crossings": 0,
+      "recomputed_tissue_quality": {
+        "area_ratio_range": [
+          0.9172326736271268,
+          1.0856987114830394
+        ],
+        "degenerate_count": 0,
+        "finite": true,
+        "maximum_displacement_mm": 0.14707583278210046,
+        "maximum_edge_gradient": 0.08455697594652405,
+        "maximum_normal_rotation_deg": 5.114199685683821,
+        "normal_reversal_count": 0,
+        "volume_mm3": 299349.27996312286
+      },
+      "u": 0.75
+    },
+    {
+      "inherited_confirmed_crossings": 0,
+      "inherited_confirmed_self_crossings": 0,
+      "recomputed_tissue_quality": {
+        "area_ratio_range": [
+          0.8901096784153726,
+          1.1151264481228402
+        ],
+        "degenerate_count": 0,
+        "finite": true,
+        "maximum_displacement_mm": 0.19610111037613553,
+        "maximum_edge_gradient": 0.11274263459537223,
+        "maximum_normal_rotation_deg": 6.8629845825175355,
+        "normal_reversal_count": 0,
+        "volume_mm3": 299053.6942363913
+      },
+      "u": 1
+    }
+  ],
+  "fixed_cavity_vertices": 3675,
+  "inherited_continuous_area_orientation": {
+    "all_u_area_ratio_lower_bound": 0.8877861853932805,
+    "all_u_area_ratio_upper_bound": 1.1151264481228458,
+    "all_u_edge_gradient_limit_from_expanded": true,
+    "normals_continuous_and_not_reversed": true,
+    "scope": "Analytic minimum oriented-area projection and quadratic Bezier norm convex-hull bound; no continuous collision certificate."
+  },
+  "limits": [
+    "Continuous collision freedom, F03/F04 anatomy, true wall thickness and physiological calibration remain unverified.",
+    "B_24 original cavity record retained. Actual float32 coplanar contacts remain baseline contacts, not reclassified or removed."
+  ],
+  "manifest_unchanged": true,
+  "protected": {
+    "authorized_code_changes": [
+      "godot_sim/irrigation_control_preview.tscn",
+      "godot_sim/scripts/p2/control_preview.gd",
+      "godot_sim/scripts/p2/deformation_player.gd"
+    ],
+    "files": 808,
+    "unchanged": 805,
+    "unexpected_changes": [],
+    "user_visibility_setting_preserved": true
+  },
+  "remote_vertices": 126104,
+  "six_authority_hashes": {
+    "cavity_displacement": "fbe95cfeaf8b77d80c5aa850618ad8ce8439c8ef770719b1f9a1f1789b050573",
+    "cavity_faces": "dbf4771365f42398f329100e695dc8580f8c038c557c671c02724bff45b29c3d",
+    "cavity_reference_vertices": "f137add4c401fe63851565f913a93968c9b11e18e630722ed42a21b4d0842fa1",
+    "tissue_displacement": "bcef3bda21aa3621547a80f8d7902c7506fc638cd8c18fe6a8c8c5516491eaec",
+    "tissue_faces": "532034f649eac73d2c28ecba5f0097ba04b79164fea3e385de5518c098cc3a05",
+    "tissue_reference_vertices": "63ce22d71be21c2a1266933aac2112ab7c66bcd887312f81e1d7d87c4f9ecb20"
+  },
+  "status": "P23_FUNCTION_AND_GEOMETRY_PASSED_PERFORMANCE_BELOW_30FPS_PENDING_HUMAN_ACCEPTANCE",
+  "ui_runs": [
+    {
+      "checks": 83,
+      "failures": [],
+      "layout": [
+        {
+          "model": "[P: (388.0, 0.0), S: (1034.0, 1066.0)]",
+          "panel": "[P: (0.0, 0.0), S: (384.0, 1066.0)]",
+          "root": "(1422.0, 1066.0)",
+          "scroll_content_height": 1123.0,
+          "scroll_visible_height": 1066.0,
+          "valid": true,
+          "window": "(1024, 768)"
+        },
+        {
+          "model": "[P: (394.0, 0.0), S: (1501.0, 1066.0)]",
+          "panel": "[P: (0.0, 0.0), S: (390.0, 1066.0)]",
+          "root": "(1895.0, 1066.0)",
+          "scroll_content_height": 1123.0,
+          "scroll_visible_height": 1066.0,
+          "valid": true,
+          "window": "(1280, 720)"
+        },
+        {
+          "model": "[P: (388.0, 0.0), S: (1034.0, 1066.0)]",
+          "panel": "[P: (0.0, 0.0), S: (384.0, 1066.0)]",
+          "root": "(1422.0, 1066.0)",
+          "scroll_content_height": 1123.0,
+          "scroll_visible_height": 1066.0,
+          "valid": true,
+          "window": "(1422, 1066)"
+        },
+        {
+          "model": "[P: (394.0, 0.0), S: (1501.0, 1066.0)]",
+          "panel": "[P: (0.0, 0.0), S: (390.0, 1066.0)]",
+          "root": "(1895.0, 1066.0)",
+          "scroll_content_height": 1123.0,
+          "scroll_visible_height": 1066.0,
+          "valid": true,
+          "window": "(1920, 1080)"
+        }
+      ],
+      "run": "final_regression_forward"
+    },
+    {
+      "checks": 83,
+      "failures": [],
+      "layout": [
+        {
+          "model": "[P: (388.0, 0.0), S: (1034.0, 1066.0)]",
+          "panel": "[P: (0.0, 0.0), S: (384.0, 1066.0)]",
+          "root": "(1422.0, 1066.0)",
+          "scroll_content_height": 1123.0,
+          "scroll_visible_height": 1066.0,
+          "valid": true,
+          "window": "(1024, 768)"
+        },
+        {
+          "model": "[P: (394.0, 0.0), S: (1501.0, 1066.0)]",
+          "panel": "[P: (0.0, 0.0), S: (390.0, 1066.0)]",
+          "root": "(1895.0, 1066.0)",
+          "scroll_content_height": 1123.0,
+          "scroll_visible_height": 1066.0,
+          "valid": true,
+          "window": "(1280, 720)"
+        },
+        {
+          "model": "[P: (388.0, 0.0), S: (1034.0, 1066.0)]",
+          "panel": "[P: (0.0, 0.0), S: (384.0, 1066.0)]",
+          "root": "(1422.0, 1066.0)",
+          "scroll_content_height": 1123.0,
+          "scroll_visible_height": 1066.0,
+          "valid": true,
+          "window": "(1422, 1066)"
+        },
+        {
+          "model": "[P: (394.0, 0.0), S: (1501.0, 1066.0)]",
+          "panel": "[P: (0.0, 0.0), S: (390.0, 1066.0)]",
+          "root": "(1895.0, 1066.0)",
+          "scroll_content_height": 1123.0,
+          "scroll_visible_height": 1066.0,
+          "valid": true,
+          "window": "(1920, 1080)"
+        }
+      ],
+      "run": "final_regression_compatibility"
+    }
+  ]
+}
