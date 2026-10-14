@@ -1,0 +1,30 @@
+test_actual_float32_contact_scan_has_real_p23_exports (__main__.N0Tests) ... ok
+test_all_12_main_candidates_closed_and_consistent (__main__.N0Tests) ... ok
+test_all_five_contact_levels_classified_without_unresolved_cross (__main__.N0Tests) ... ok
+test_all_protected_files_unchanged (__main__.N0Tests) ... ok
+test_all_source_vertices_exact_and_new_vertices_barycentric (__main__.N0Tests) ... ok
+test_box_cut_has_known_volume (__main__.N0Tests) ... ok
+test_cap_finite_intersections_none_except_boundary_contacts (__main__.N0Tests) ... ok
+test_centerline_retention_not_anatomical_wall_certification (__main__.N0Tests) ... ok
+test_coplanar_groups_available_in_review_menu (__main__.N0Tests) ... ok
+test_edge_contact_is_not_transverse_crossing (__main__.N0Tests) ... ok
+test_effective_capacity_remains_null_and_all_pending (__main__.N0Tests) ... ok
+test_finite_transverse_crossing_primitive_detected (__main__.N0Tests) ... ok
+test_graphical_runtime_and_exact_accepted_arrays_both_backends (__main__.N0Tests) ... ok
+test_local_plane_keeps_other_u_tube_arm (__main__.N0Tests) ... ok
+test_missing_original_provenance_not_fabricated (__main__.N0Tests) ... ok
+test_multi_method_volume_and_additivity (__main__.N0Tests) ... ok
+test_new_contact_indices_rechecked_in_reference_geometry (__main__.N0Tests) ... ok
+test_point_coplanar_and_near_disjoint_primitives (__main__.N0Tests) ... ok
+test_real_faces_have_valid_parent_and_caps_explicit (__main__.N0Tests) ... ok
+test_rejected_anatomical_cuts_never_promoted (__main__.N0Tests) ... ok
+test_repeat_measurement_arrays_and_binaries_identical (__main__.N0Tests) ... ok
+test_six_inputs_and_fixed_3675_exact (__main__.N0Tests) ... ok
+test_six_small_plane_offset_variants_auditable (__main__.N0Tests) ... ok
+test_terminals_all_22_have_source_faces_unknown_semantics (__main__.N0Tests) ... ok
+test_visual_issue_left_open_for_user (__main__.N0Tests) ... ok
+
+----------------------------------------------------------------------
+Ran 25 tests in 4.576s
+
+OK

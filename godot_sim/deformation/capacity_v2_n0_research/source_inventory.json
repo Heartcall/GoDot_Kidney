@@ -1,0 +1,52 @@
+{
+  "D2_anatomical_approval": "PENDING_USER_REVIEW",
+  "V_reference_effective_mL": null,
+  "authorization": "User approved Capacity V2 plan and authorized N0 only.",
+  "date": "2026-10-14",
+  "geometry_or_segmentation_files": [
+    {
+      "bytes": 1907433,
+      "path": "godot_sim/source_assets/kidney_cavity.obj",
+      "sha256": "65a7a2cd0468dfbe301cc45b5c4f91482be4b80f766f538c47d347b5fa8b25e6"
+    },
+    {
+      "bytes": 12636635,
+      "path": "godot_sim/source_assets/kidney_tissue.obj",
+      "sha256": "44aeefd61af22e803bfb4830b8a11c4ed6228192a4aaac3b825118d00c006738"
+    }
+  ],
+  "interpretation": "Only current cavity/tissue OBJs found. ITK-SNAP/Slicer RAS header is provenance metadata, NOT original segmentation or a reversible artificial-port construction recipe. Natural anatomy has not been restored.",
+  "local_git_geometry_paths": [
+    "godot_sim/source_assets/kidney_cavity.obj",
+    "godot_sim/source_assets/kidney_tissue.obj"
+  ],
+  "obj_headers": {
+    "cavity": [
+      "# https://github.com/mikedh/trimesh",
+      "",
+      "o ITK-SNAP coord sys for 3D Slicer: SPACE=RAS",
+      "v -3.26369810 18.39840889 -21.96999931",
+      "v -2.35342288 18.39840889 -22.37500000",
+      "v -3.26369810 18.83758736 -22.37500000",
+      "v -2.34377599 18.39840889 -22.38181877",
+      "v -2.34377599 18.92794609 -23.00000000"
+    ],
+    "tissue": [
+      "# https://github.com/mikedh/trimesh",
+      "",
+      "o ITK-SNAP coord sys for 3D Slicer: SPACE=RAS",
+      "v 38.13279343 -0.00003200 -14.85081673",
+      "v 38.20766830 -0.00003200 -14.87500000",
+      "v 38.13279343 0.03556206 -14.87500000",
+      "v 39.05271530 -0.00003200 -15.25641727",
+      "v 39.05271530 0.21331829 -15.50000000"
+    ]
+  },
+  "original_segmentation_found": false,
+  "pre_artificial_natural_geometry_found": false,
+  "reversible_preprocessing_recipe_found": false,
+  "scope": "Current repository including ignored files and locally available Git refs; no external disk or remote history search.",
+  "source_asset_history": [
+    "ef5574b first commit"
+  ]
+}

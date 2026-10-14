@@ -1,0 +1,6084 @@
+{
+  "conclusion": "Finite geometric classification only. Specific user-observed appearance has not been identified without camera/location information; do not interpret zero confirmed crossings as closure of the visual issue.",
+  "levels": [
+    {
+      "additional_near_sample_pairs": 23,
+      "all_positive_finite_intersections": 286,
+      "cavity_positions_source": {
+        "kind": "ACTUAL_P23_ARRAYMESH_EXPORT",
+        "path": "godot_sim/analysis/irrigation_baseline/p23/final_regression_forward/cavity_u000.bin",
+        "positions_bit_equal": true,
+        "sha256": "62ac2429cbddd8188be493ac81c69558f51106cc34a6a0c900485ddbcb286470"
+      },
+      "confirmed_transverse_crossings": 0,
+      "coordinate_space": "actual_float32",
+      "coplanar_overlap_positive_area_mm2": 1e-12,
+      "coplanar_pair_area_sum_mm2": 12.073980569839478,
+      "counts": {
+        "COPLANAR_OVERLAP": 42,
+        "EDGE_CONTACT": 424,
+        "NEAR_DISJOINT": 18,
+        "POINT_CONTACT_OR_TANGENCY": 3405
+      },
+      "finite_epsilon_mm": 1e-10,
+      "limits": [
+        "Pair area sums may double count; not penetration area.",
+        "No physical penetration depth or true wall thickness established.",
+        "Additional near search samples cavity face centroids; not exhaustive distance or continuous collision certification.",
+        "Classification does not establish physiological acceptability of contact. User-observed visual anomaly may remain unlocalized."
+      ],
+      "near_surface_samples": [
+        {
+          "id": "BLADDER",
+          "minimum_centroid_surface_distance_mm": 0.08481539599376649,
+          "sample_count": 222
+        },
+        {
+          "id": "B_31",
+          "minimum_centroid_surface_distance_mm": 0.056955395210885336,
+          "sample_count": 847
+        },
+        {
+          "id": "B_32",
+          "minimum_centroid_surface_distance_mm": 0.02627421080525288,
+          "sample_count": 982
+        },
+        {
+          "id": "F01",
+          "minimum_centroid_surface_distance_mm": 0.37113255167005976,
+          "sample_count": 300
+        },
+        {
+          "id": "F02",
+          "minimum_centroid_surface_distance_mm": 0.2223340948319481,
+          "sample_count": 295
+        },
+        {
+          "id": "F03",
+          "minimum_centroid_surface_distance_mm": 0.15013860394898135,
+          "sample_count": 343
+        },
+        {
+          "id": "F04",
+          "minimum_centroid_surface_distance_mm": 0.04509957633221484,
+          "sample_count": 210
+        },
+        {
+          "id": "IN_01",
+          "minimum_centroid_surface_distance_mm": 0.7823692051924727,
+          "sample_count": 358
+        },
+        {
+          "id": "IN_02",
+          "minimum_centroid_surface_distance_mm": 0.8797891610499508,
+          "sample_count": 399
+        },
+        {
+          "id": "J_01",
+          "minimum_centroid_surface_distance_mm": 0.05887064546496017,
+          "sample_count": 850
+        },
+        {
+          "id": "J_02",
+          "minimum_centroid_surface_distance_mm": 3.1789143406513176e-07,
+          "sample_count": 1171
+        },
+        {
+          "id": "J_03",
+          "minimum_centroid_surface_distance_mm": 0.08277668956794129,
+          "sample_count": 977
+        },
+        {
+          "id": "J_04",
+          "minimum_centroid_surface_distance_mm": 0.013174692805055496,
+          "sample_count": 881
+        },
+        {
+          "id": "J_05",
+          "minimum_centroid_surface_distance_mm": 0.02632539359477124,
+          "sample_count": 599
+        },
+        {
+          "id": "J_06",
+          "minimum_centroid_surface_distance_mm": 0.013148843945890512,
+          "sample_count": 1076
+        },
+        {
+          "id": "J_07",
+          "minimum_centroid_surface_distance_mm": 0.013174692851135955,
+          "sample_count": 522
+        },
+        {
+          "id": "J_08",
+          "minimum_centroid_surface_distance_mm": 0.04407868258166885,
+          "sample_count": 699
+        },
+        {
+          "id": "J_09",
+          "minimum_centroid_surface_distance_mm": 0.02627421080525288,
+          "sample_count": 976
+        },
+        {
+          "id": "MAIN",
+          "minimum_centroid_surface_distance_mm": 7.947285496356926e-08,
+          "sample_count": 148
+        },
+        {
+          "id": "T_01",
+          "minimum_centroid_surface_distance_mm": 0.2763187467647331,
+          "sample_count": 314
+        },
+        {
+          "id": "T_02",
+          "minimum_centroid_surface_distance_mm": 0.09727649984587908,
+          "sample_count": 446
+        },
+        {
+          "id": "T_03",
+          "minimum_centroid_surface_distance_mm": 0.10176467895706418,
+          "sample_count": 343
+        },
+        {
+          "id": "T_04",
+          "minimum_centroid_surface_distance_mm": 0.3139065462936071,
+          "sample_count": 276
+        },
+        {
+          "id": "T_05",
+          "minimum_centroid_surface_distance_mm": 0.31250918298466135,
+          "sample_count": 266
+        },
+        {
+          "id": "T_06",
+          "minimum_centroid_surface_distance_mm": 0.14538323891198876,
+          "sample_count": 282
+        },
+        {
+          "id": "T_07",
+          "minimum_centroid_surface_distance_mm": 0.21843027763012868,
+          "sample_count": 273
+        },
+        {
+          "id": "T_08",
+          "minimum_centroid_surface_distance_mm": 0.10004972238172179,
+          "sample_count": 271
+        },
+        {
+          "id": "T_09",
+          "minimum_centroid_surface_distance_mm": 0.061372121178418663,
+          "sample_count": 279
+        },
+        {
+          "id": "T_10",
+          "minimum_centroid_surface_distance_mm": 0.19075734561998564,
+          "sample_count": 302
+        },
+        {
+          "id": "T_11",
+          "minimum_centroid_surface_distance_mm": 0.22784909540479006,
+          "sample_count": 294
+        },
+        {
+          "id": "T_12",
+          "minimum_centroid_surface_distance_mm": 0.3000720744080601,
+          "sample_count": 327
+        },
+        {
+          "id": "T_13",
+          "minimum_centroid_surface_distance_mm": 0.1336898803726055,
+          "sample_count": 321
+        },
+        {
+          "id": "T_14",
+          "minimum_centroid_surface_distance_mm": 0.1970858280383819,
+          "sample_count": 279
+        },
+        {
+          "id": "T_15",
+          "minimum_centroid_surface_distance_mm": 0.07454617818467617,
+          "sample_count": 304
+        },
+        {
+          "id": "T_16",
+          "minimum_centroid_surface_distance_mm": 0.20846606240625312,
+          "sample_count": 342
+        },
+        {
+          "id": "T_17",
+          "minimum_centroid_surface_distance_mm": 0.07454649608424913,
+          "sample_count": 297
+        },
+        {
+          "id": "T_18",
+          "minimum_centroid_surface_distance_mm": 1.2715657575768091e-06,
+          "sample_count": 288
+        },
+        {
+          "id": "T_19",
+          "minimum_centroid_surface_distance_mm": 0.17628022573095375,
+          "sample_count": 286
+        },
+        {
+          "id": "T_20",
+          "minimum_centroid_surface_distance_mm": 0.27137348640426384,
+          "sample_count": 328
+        },
+        {
+          "id": "T_21",
+          "minimum_centroid_surface_distance_mm": 0.0877234141055093,
+          "sample_count": 316
+        },
+        {
+          "id": "T_22",
+          "minimum_centroid_surface_distance_mm": 0.01317469285107603,
+          "sample_count": 337
+        }
+      ],
+      "priority_regions": [
+        {
+          "counts": {
+            "EDGE_CONTACT": 4,
+            "NEAR_DISJOINT": 2,
+            "POINT_CONTACT_OR_TANGENCY": 79
+          },
+          "id": "J_05",
+          "maximum_finite_segment_mm": 0.919921875,
+          "minimum_finite_feature_gap_mm": 0.0,
+          "pairs": 85
+        },
+        {
+          "counts": {
+            "EDGE_CONTACT": 4,
+            "NEAR_DISJOINT": 1,
+            "POINT_CONTACT_OR_TANGENCY": 57
+          },
+          "id": "J_09",
+          "maximum_finite_segment_mm": 0.919921875,
+          "minimum_finite_feature_gap_mm": 0.0,
+          "pairs": 62
+        },
+        {
+          "counts": {
+            "EDGE_CONTACT": 4,
+            "NEAR_DISJOINT": 1,
+            "POINT_CONTACT_OR_TANGENCY": 57
+          },
+          "id": "B_32",
+          "maximum_finite_segment_mm": 0.919921875,
+          "minimum_finite_feature_gap_mm": 0.0,
+          "pairs": 62
+        },
+        {
+          "counts": {},
+          "id": "IN_02",
+          "maximum_finite_segment_mm": 0.0,
+          "minimum_finite_feature_gap_mm": null,
+          "pairs": 0
+        },
+        {
+          "counts": {},
+          "id": "F01",
+          "maximum_finite_segment_mm": 0.0,
+          "minimum_finite_feature_gap_mm": null,
+          "pairs": 0
+        },
+        {
+          "counts": {},
+          "id": "F02",
+          "maximum_finite_segment_mm": 0.0,
+          "minimum_finite_feature_gap_mm": null,
+          "pairs": 0
+        },
+        {
+          "counts": {},
+          "id": "F03",
+          "maximum_finite_segment_mm": 0.0,
+          "minimum_finite_feature_gap_mm": null,
+          "pairs": 0
+        },
+        {
+          "counts": {
+            "EDGE_CONTACT": 4,
+            "NEAR_DISJOINT": 1,
+            "POINT_CONTACT_OR_TANGENCY": 57
+          },
+          "id": "F04",
+          "maximum_finite_segment_mm": 0.919921875,
+          "minimum_finite_feature_gap_mm": 0.0,
+          "pairs": 62
+        }
+      ],
+      "seconds": 6.717707872390747,
+      "source_arrays_sha256": {
+        "cavity_displacement": "fbe95cfeaf8b77d80c5aa850618ad8ce8439c8ef770719b1f9a1f1789b050573",
+        "cavity_faces": "dbf4771365f42398f329100e695dc8580f8c038c557c671c02724bff45b29c3d",
+        "cavity_reference_vertices": "f137add4c401fe63851565f913a93968c9b11e18e630722ed42a21b4d0842fa1",
+        "tissue_displacement": "bcef3bda21aa3621547a80f8d7902c7506fc638cd8c18fe6a8c8c5516491eaec",
+        "tissue_faces": "532034f649eac73d2c28ecba5f0097ba04b79164fea3e385de5518c098cc3a05",
+        "tissue_reference_vertices": "63ce22d71be21c2a1266933aac2112ab7c66bcd887312f81e1d7d87c4f9ecb20"
+      },
+      "tissue_positions_source": {
+        "kind": "ACTUAL_P23_ARRAYMESH_EXPORT",
+        "path": "godot_sim/analysis/irrigation_baseline/p23/final_regression_forward/tissue_u000.bin",
+        "positions_bit_equal": true,
+        "sha256": "9448b992456e89edc8c6c133f57ba74b2e0a2b77652aff4e2b032615882faeec"
+      },
+      "u": 0,
+      "vtk_box_and_cell_tolerance": 0.0,
+      "vtk_pairs": 3866
+    },
+    {
+      "additional_near_sample_pairs": 20,
+      "all_positive_finite_intersections": 287,
+      "cavity_positions_source": {
+        "kind": "SOURCE_FLOAT64_ACCEPTED_ARRAYS_ORIGINAL_COORDINATES"
+      },
+      "confirmed_transverse_crossings": 0,
+      "coordinate_space": "source_float64",
+      "coplanar_overlap_positive_area_mm2": 1e-12,
+      "coplanar_pair_area_sum_mm2": 12.073979974999943,
+      "counts": {
+        "COPLANAR_OVERLAP": 42,
+        "EDGE_CONTACT": 423,
+        "NEAR_DISJOINT": 18,
+        "POINT_CONTACT_OR_TANGENCY": 3377
+      },
+      "finite_epsilon_mm": 1e-10,
+      "limits": [
+        "Pair area sums may double count; not penetration area.",
+        "No physical penetration depth or true wall thickness established.",
+        "Additional near search samples cavity face centroids; not exhaustive distance or continuous collision certification.",
+        "Classification does not establish physiological acceptability of contact. User-observed visual anomaly may remain unlocalized."
+      ],
+      "near_surface_samples": [
+        {
+          "id": "BLADDER",
+          "minimum_centroid_surface_distance_mm": 0.08481583886347953,
+          "sample_count": 222
+        },
+        {
+          "id": "B_31",
+          "minimum_centroid_surface_distance_mm": 0.056955396650137644,
+          "sample_count": 847
+        },
+        {
+          "id": "B_32",
+          "minimum_centroid_surface_distance_mm": 0.02627421082787039,
+          "sample_count": 982
+        },
+        {
+          "id": "F01",
+          "minimum_centroid_surface_distance_mm": 0.37113255236343734,
+          "sample_count": 300
+        },
+        {
+          "id": "F02",
+          "minimum_centroid_surface_distance_mm": 0.22233409550639915,
+          "sample_count": 295
+        },
+        {
+          "id": "F03",
+          "minimum_centroid_surface_distance_mm": 0.1501386023254361,
+          "sample_count": 343
+        },
+        {
+          "id": "F04",
+          "minimum_centroid_surface_distance_mm": 0.04509957732668168,
+          "sample_count": 210
+        },
+        {
+          "id": "IN_01",
+          "minimum_centroid_surface_distance_mm": 0.7823692070513966,
+          "sample_count": 358
+        },
+        {
+          "id": "IN_02",
+          "minimum_centroid_surface_distance_mm": 0.8797889080222584,
+          "sample_count": 399
+        },
+        {
+          "id": "J_01",
+          "minimum_centroid_surface_distance_mm": 0.05887064074367878,
+          "sample_count": 850
+        },
+        {
+          "id": "J_02",
+          "minimum_centroid_surface_distance_mm": 3.1792398569191536e-07,
+          "sample_count": 1171
+        },
+        {
+          "id": "J_03",
+          "minimum_centroid_surface_distance_mm": 0.08277668579543497,
+          "sample_count": 977
+        },
+        {
+          "id": "J_04",
+          "minimum_centroid_surface_distance_mm": 0.013174689032268995,
+          "sample_count": 881
+        },
+        {
+          "id": "J_05",
+          "minimum_centroid_surface_distance_mm": 0.026325390437763014,
+          "sample_count": 599
+        },
+        {
+          "id": "J_06",
+          "minimum_centroid_surface_distance_mm": 0.013148848857881227,
+          "sample_count": 1076
+        },
+        {
+          "id": "J_07",
+          "minimum_centroid_surface_distance_mm": 0.013174694983290441,
+          "sample_count": 522
+        },
+        {
+          "id": "J_08",
+          "minimum_centroid_surface_distance_mm": 0.04407868191355644,
+          "sample_count": 699
+        },
+        {
+          "id": "J_09",
+          "minimum_centroid_surface_distance_mm": 0.02627421082787039,
+          "sample_count": 976
+        },
+        {
+          "id": "MAIN",
+          "minimum_centroid_surface_distance_mm": 7.948098978882948e-08,
+          "sample_count": 148
+        },
+        {
+          "id": "T_01",
+          "minimum_centroid_surface_distance_mm": 0.27631874802193856,
+          "sample_count": 314
+        },
+        {
+          "id": "T_02",
+          "minimum_centroid_surface_distance_mm": 0.09727649965598281,
+          "sample_count": 446
+        },
+        {
+          "id": "T_03",
+          "minimum_centroid_surface_distance_mm": 0.10176468227249566,
+          "sample_count": 343
+        },
+        {
+          "id": "T_04",
+          "minimum_centroid_surface_distance_mm": 0.31390654405346907,
+          "sample_count": 276
+        },
+        {
+          "id": "T_05",
+          "minimum_centroid_surface_distance_mm": 0.31250918273872186,
+          "sample_count": 266
+        },
+        {
+          "id": "T_06",
+          "minimum_centroid_surface_distance_mm": 0.14538335270465344,
+          "sample_count": 282
+        },
+        {
+          "id": "T_07",
+          "minimum_centroid_surface_distance_mm": 0.2184299431676748,
+          "sample_count": 273
+        },
+        {
+          "id": "T_08",
+          "minimum_centroid_surface_distance_mm": 0.10004972644255361,
+          "sample_count": 271
+        },
+        {
+          "id": "T_09",
+          "minimum_centroid_surface_distance_mm": 0.06137211901696898,
+          "sample_count": 279
+        },
+        {
+          "id": "T_10",
+          "minimum_centroid_surface_distance_mm": 0.19075734412988696,
+          "sample_count": 302
+        },
+        {
+          "id": "T_11",
+          "minimum_centroid_surface_distance_mm": 0.2278490959650343,
+          "sample_count": 294
+        },
+        {
+          "id": "T_12",
+          "minimum_centroid_surface_distance_mm": 0.3000720702510499,
+          "sample_count": 327
+        },
+        {
+          "id": "T_13",
+          "minimum_centroid_surface_distance_mm": 0.13368987962065237,
+          "sample_count": 321
+        },
+        {
+          "id": "T_14",
+          "minimum_centroid_surface_distance_mm": 0.1970858273330296,
+          "sample_count": 279
+        },
+        {
+          "id": "T_15",
+          "minimum_centroid_surface_distance_mm": 0.0745460207628033,
+          "sample_count": 304
+        },
+        {
+          "id": "T_16",
+          "minimum_centroid_surface_distance_mm": 0.20846606440571544,
+          "sample_count": 342
+        },
+        {
+          "id": "T_17",
+          "minimum_centroid_surface_distance_mm": 0.074546497096618,
+          "sample_count": 297
+        },
+        {
+          "id": "T_18",
+          "minimum_centroid_surface_distance_mm": 1.3582914684685845e-06,
+          "sample_count": 288
+        },
+        {
+          "id": "T_19",
+          "minimum_centroid_surface_distance_mm": 0.17628010671371552,
+          "sample_count": 286
+        },
+        {
+          "id": "T_20",
+          "minimum_centroid_surface_distance_mm": 0.2713732923118778,
+          "sample_count": 328
+        },
+        {
+          "id": "T_21",
+          "minimum_centroid_surface_distance_mm": 0.08772404538317853,
+          "sample_count": 316
+        },
+        {
+          "id": "T_22",
+          "minimum_centroid_surface_distance_mm": 0.013174216691505437,
+          "sample_count": 337
+        }
+      ],
+      "priority_regions": [
+        {
+          "counts": {
+            "EDGE_CONTACT": 4,
+            "NEAR_DISJOINT": 2,
+            "POINT_CONTACT_OR_TANGENCY": 84
+          },
+          "id": "J_05",
+          "maximum_finite_segment_mm": 0.9199218699999996,
+          "minimum_finite_feature_gap_mm": 0.0,
+          "pairs": 90
+        },
+        {
+          "counts": {
+            "EDGE_CONTACT": 4,
+            "NEAR_DISJOINT": 1,
+            "POINT_CONTACT_OR_TANGENCY": 55
+          },
+          "id": "J_09",
+          "maximum_finite_segment_mm": 0.9199218800000004,
+          "minimum_finite_feature_gap_mm": 0.0,
+          "pairs": 60
+        },
+        {
+          "counts": {
+            "EDGE_CONTACT": 4,
+            "NEAR_DISJOINT": 1,
+            "POINT_CONTACT_OR_TANGENCY": 55
+          },
+          "id": "B_32",
+          "maximum_finite_segment_mm": 0.9199218800000004,
+          "minimum_finite_feature_gap_mm": 0.0,
+          "pairs": 60
+        },
+        {
+          "counts": {},
+          "id": "IN_02",
+          "maximum_finite_segment_mm": 0.0,
+          "minimum_finite_feature_gap_mm": null,
+          "pairs": 0
+        },
+        {
+          "counts": {},
+          "id": "F01",
+          "maximum_finite_segment_mm": 0.0,
+          "minimum_finite_feature_gap_mm": null,
+          "pairs": 0
+        },
+        {
+          "counts": {},
+          "id": "F02",
+          "maximum_finite_segment_mm": 0.0,
+          "minimum_finite_feature_gap_mm": null,
+          "pairs": 0
+        },
+        {
+          "counts": {},
+          "id": "F03",
+          "maximum_finite_segment_mm": 0.0,
+          "minimum_finite_feature_gap_mm": null,
+          "pairs": 0
+        },
+        {
+          "counts": {
+            "EDGE_CONTACT": 4,
+            "NEAR_DISJOINT": 1,
+            "POINT_CONTACT_OR_TANGENCY": 55
+          },
+          "id": "F04",
+          "maximum_finite_segment_mm": 0.9199218800000004,
+          "minimum_finite_feature_gap_mm": 0.0,
+          "pairs": 60
+        }
+      ],
+      "seconds": 6.669573545455933,
+      "source_arrays_sha256": {
+        "cavity_displacement": "fbe95cfeaf8b77d80c5aa850618ad8ce8439c8ef770719b1f9a1f1789b050573",
+        "cavity_faces": "dbf4771365f42398f329100e695dc8580f8c038c557c671c02724bff45b29c3d",
+        "cavity_reference_vertices": "f137add4c401fe63851565f913a93968c9b11e18e630722ed42a21b4d0842fa1",
+        "tissue_displacement": "bcef3bda21aa3621547a80f8d7902c7506fc638cd8c18fe6a8c8c5516491eaec",
+        "tissue_faces": "532034f649eac73d2c28ecba5f0097ba04b79164fea3e385de5518c098cc3a05",
+        "tissue_reference_vertices": "63ce22d71be21c2a1266933aac2112ab7c66bcd887312f81e1d7d87c4f9ecb20"
+      },
+      "tissue_positions_source": {
+        "kind": "SOURCE_FLOAT64_ACCEPTED_ARRAYS_ORIGINAL_COORDINATES"
+      },
+      "u": 0,
+      "vtk_box_and_cell_tolerance": 0.0,
+      "vtk_pairs": 3840
+    },
+    {
+      "additional_near_sample_pairs": 36,
+      "all_positive_finite_intersections": 345,
+      "cavity_positions_source": {
+        "kind": "ACTUAL_P23_ARRAYMESH_EXPORT",
+        "path": "godot_sim/analysis/irrigation_baseline/p23/final_regression_forward/cavity_u025.bin",
+        "positions_bit_equal": true,
+        "sha256": "fc4bd3fb258a24b5e00f726bb9c5cd0f40d387d32411014087c1ca1a6a49d33e"
+      },
+      "confirmed_transverse_crossings": 0,
+      "coordinate_space": "actual_float32",
+      "coplanar_overlap_positive_area_mm2": 1e-12,
+      "coplanar_pair_area_sum_mm2": 11.863725748517421,
+      "counts": {
+        "COPLANAR_OVERLAP": 41,
+        "EDGE_CONTACT": 381,
+        "NEAR_DISJOINT": 18,
+        "POINT_CONTACT_OR_TANGENCY": 2498
+      },
+      "finite_epsilon_mm": 1e-10,
+      "limits": [
+        "Pair area sums may double count; not penetration area.",
+        "No physical penetration depth or true wall thickness established.",
+        "Additional near search samples cavity face centroids; not exhaustive distance or continuous collision certification.",
+        "Classification does not establish physiological acceptability of contact. User-observed visual anomaly may remain unlocalized."
+      ],
+      "near_surface_samples": [
+        {
+          "id": "BLADDER",
+          "minimum_centroid_surface_distance_mm": 0.08481539599376649,
+          "sample_count": 222
+        },
+        {
+          "id": "B_31",
+          "minimum_centroid_surface_distance_mm": 0.05694975639912236,
+          "sample_count": 842
+        },
+        {
+          "id": "B_32",
+          "minimum_centroid_surface_distance_mm": 0.026275173182287392,
+          "sample_count": 979
+        },
+        {
+          "id": "F01",
+          "minimum_centroid_surface_distance_mm": 0.3710564906977968,
+          "sample_count": 300
+        },
+        {
+          "id": "F02",
+          "minimum_centroid_surface_distance_mm": 0.2222526178181588,
+          "sample_count": 293
+        },
+        {
+          "id": "F03",
+          "minimum_centroid_surface_distance_mm": 0.1494641390470102,
+          "sample_count": 339
+        },
+        {
+          "id": "F04",
+          "minimum_centroid_surface_distance_mm": 0.04510412619246109,
+          "sample_count": 210
+        },
+        {
+          "id": "IN_01",
+          "minimum_centroid_surface_distance_mm": 0.7823692051924727,
+          "sample_count": 358
+        },
+        {
+          "id": "IN_02",
+          "minimum_centroid_surface_distance_mm": 0.8797891610499508,
+          "sample_count": 399
+        },
+        {
+          "id": "J_01",
+          "minimum_centroid_surface_distance_mm": 0.058873148429055035,
+          "sample_count": 840
+        },
+        {
+          "id": "J_02",
+          "minimum_centroid_surface_distance_mm": 0.0,
+          "sample_count": 1164
+        },
+        {
+          "id": "J_03",
+          "minimum_centroid_surface_distance_mm": 0.0827758041184555,
+          "sample_count": 975
+        },
+        {
+          "id": "J_04",
+          "minimum_centroid_surface_distance_mm": 0.01317465951560102,
+          "sample_count": 862
+        },
+        {
+          "id": "J_05",
+          "minimum_centroid_surface_distance_mm": 0.026327131309513977,
+          "sample_count": 593
+        },
+        {
+          "id": "J_06",
+          "minimum_centroid_surface_distance_mm": 0.01314911687245382,
+          "sample_count": 1071
+        },
+        {
+          "id": "J_07",
+          "minimum_centroid_surface_distance_mm": 0.013174613333792913,
+          "sample_count": 516
+        },
+        {
+          "id": "J_08",
+          "minimum_centroid_surface_distance_mm": 0.04408158425805212,
+          "sample_count": 682
+        },
+        {
+          "id": "J_09",
+          "minimum_centroid_surface_distance_mm": 0.026275173182287392,
+          "sample_count": 967
+        },
+        {
+          "id": "MAIN",
+          "minimum_centroid_surface_distance_mm": 1.1920928955078125e-07,
+          "sample_count": 142
+        },
+        {
+          "id": "T_01",
+          "minimum_centroid_surface_distance_mm": 0.27560429814457005,
+          "sample_count": 311
+        },
+        {
+          "id": "T_02",
+          "minimum_centroid_surface_distance_mm": 0.0973131428435042,
+          "sample_count": 443
+        },
+        {
+          "id": "T_03",
+          "minimum_centroid_surface_distance_mm": 0.1017701182719832,
+          "sample_count": 340
+        },
+        {
+          "id": "T_04",
+          "minimum_centroid_surface_distance_mm": 0.31436073728712155,
+          "sample_count": 276
+        },
+        {
+          "id": "T_05",
+          "minimum_centroid_surface_distance_mm": 0.3119069552451841,
+          "sample_count": 264
+        },
+        {
+          "id": "T_06",
+          "minimum_centroid_surface_distance_mm": 0.14550216556842294,
+          "sample_count": 279
+        },
+        {
+          "id": "T_07",
+          "minimum_centroid_surface_distance_mm": 0.21817610807710852,
+          "sample_count": 272
+        },
+        {
+          "id": "T_08",
+          "minimum_centroid_surface_distance_mm": 0.10002095736724304,
+          "sample_count": 266
+        },
+        {
+          "id": "T_09",
+          "minimum_centroid_surface_distance_mm": 0.06136650359880211,
+          "sample_count": 279
+        },
+        {
+          "id": "T_10",
+          "minimum_centroid_surface_distance_mm": 0.19078163386797026,
+          "sample_count": 295
+        },
+        {
+          "id": "T_11",
+          "minimum_centroid_surface_distance_mm": 0.22782970865767868,
+          "sample_count": 290
+        },
+        {
+          "id": "T_12",
+          "minimum_centroid_surface_distance_mm": 0.2995236335085534,
+          "sample_count": 325
+        },
+        {
+          "id": "T_13",
+          "minimum_centroid_surface_distance_mm": 0.13369137513551807,
+          "sample_count": 319
+        },
+        {
+          "id": "T_14",
+          "minimum_centroid_surface_distance_mm": 0.19708374887994584,
+          "sample_count": 275
+        },
+        {
+          "id": "T_15",
+          "minimum_centroid_surface_distance_mm": 0.07454427183650347,
+          "sample_count": 303
+        },
+        {
+          "id": "T_16",
+          "minimum_centroid_surface_distance_mm": 0.21337665772804185,
+          "sample_count": 336
+        },
+        {
+          "id": "T_17",
+          "minimum_centroid_surface_distance_mm": 0.07455447069765013,
+          "sample_count": 296
+        },
+        {
+          "id": "T_18",
+          "minimum_centroid_surface_distance_mm": 1.1920928955078125e-07,
+          "sample_count": 282
+        },
+        {
+          "id": "T_19",
+          "minimum_centroid_surface_distance_mm": 0.17628300809727257,
+          "sample_count": 277
+        },
+        {
+          "id": "T_20",
+          "minimum_centroid_surface_distance_mm": 0.2715109643460255,
+          "sample_count": 326
+        },
+        {
+          "id": "T_21",
+          "minimum_centroid_surface_distance_mm": 0.08772743234766761,
+          "sample_count": 313
+        },
+        {
+          "id": "T_22",
+          "minimum_centroid_surface_distance_mm": 0.013175027678304568,
+          "sample_count": 336
+        }
+      ],
+      "priority_regions": [
+        {
+          "counts": {
+            "EDGE_CONTACT": 4,
+            "NEAR_DISJOINT": 2,
+            "POINT_CONTACT_OR_TANGENCY": 69
+          },
+          "id": "J_05",
+          "maximum_finite_segment_mm": 0.9173894124494146,
+          "minimum_finite_feature_gap_mm": 0.0,
+          "pairs": 75
+        },
+        {
+          "counts": {
+            "EDGE_CONTACT": 4,
+            "NEAR_DISJOINT": 1,
+            "POINT_CONTACT_OR_TANGENCY": 30
+          },
+          "id": "J_09",
+          "maximum_finite_segment_mm": 0.917752082190012,
+          "minimum_finite_feature_gap_mm": 0.0,
+          "pairs": 35
+        },
+        {
+          "counts": {
+            "EDGE_CONTACT": 4,
+            "NEAR_DISJOINT": 1,
+            "POINT_CONTACT_OR_TANGENCY": 30
+          },
+          "id": "B_32",
+          "maximum_finite_segment_mm": 0.917752082190012,
+          "minimum_finite_feature_gap_mm": 0.0,
+          "pairs": 35
+        },
+        {
+          "counts": {},
+          "id": "IN_02",
+          "maximum_finite_segment_mm": 0.0,
+          "minimum_finite_feature_gap_mm": null,
+          "pairs": 0
+        },
+        {
+          "counts": {},
+          "id": "F01",
+          "maximum_finite_segment_mm": 0.0,
+          "minimum_finite_feature_gap_mm": null,
+          "pairs": 0
+        },
+        {
+          "counts": {},
+          "id": "F02",
+          "maximum_finite_segment_mm": 0.0,
+          "minimum_finite_feature_gap_mm": null,
+          "pairs": 0
+        },
+        {
+          "counts": {},
+          "id": "F03",
+          "maximum_finite_segment_mm": 0.0,
+          "minimum_finite_feature_gap_mm": null,
+          "pairs": 0
+        },
+        {
+          "counts": {
+            "EDGE_CONTACT": 4,
+            "NEAR_DISJOINT": 1,
+            "POINT_CONTACT_OR_TANGENCY": 30
+          },
+          "id": "F04",
+          "maximum_finite_segment_mm": 0.917752082190012,
+          "minimum_finite_feature_gap_mm": 0.0,
+          "pairs": 35
+        }
+      ],
+      "seconds": 5.863611936569214,
+      "source_arrays_sha256": {
+        "cavity_displacement": "fbe95cfeaf8b77d80c5aa850618ad8ce8439c8ef770719b1f9a1f1789b050573",
+        "cavity_faces": "dbf4771365f42398f329100e695dc8580f8c038c557c671c02724bff45b29c3d",
+        "cavity_reference_vertices": "f137add4c401fe63851565f913a93968c9b11e18e630722ed42a21b4d0842fa1",
+        "tissue_displacement": "bcef3bda21aa3621547a80f8d7902c7506fc638cd8c18fe6a8c8c5516491eaec",
+        "tissue_faces": "532034f649eac73d2c28ecba5f0097ba04b79164fea3e385de5518c098cc3a05",
+        "tissue_reference_vertices": "63ce22d71be21c2a1266933aac2112ab7c66bcd887312f81e1d7d87c4f9ecb20"
+      },
+      "tissue_positions_source": {
+        "kind": "ACTUAL_P23_ARRAYMESH_EXPORT",
+        "path": "godot_sim/analysis/irrigation_baseline/p23/final_regression_forward/tissue_u025.bin",
+        "positions_bit_equal": true,
+        "sha256": "25b29712a36c5649883e1206d98bd5c86636c8d772a960d4d0f262d4d36e1796"
+      },
+      "u": 0.25,
+      "vtk_box_and_cell_tolerance": 0.0,
+      "vtk_pairs": 2902
+    },
+    {
+      "additional_near_sample_pairs": 39,
+      "all_positive_finite_intersections": 362,
+      "cavity_positions_source": {
+        "kind": "SOURCE_FLOAT64_ACCEPTED_ARRAYS_ORIGINAL_COORDINATES"
+      },
+      "confirmed_transverse_crossings": 0,
+      "coordinate_space": "source_float64",
+      "coplanar_overlap_positive_area_mm2": 1e-12,
+      "coplanar_pair_area_sum_mm2": 11.864200794910474,
+      "counts": {
+        "COPLANAR_OVERLAP": 41,
+        "EDGE_CONTACT": 398,
+        "NEAR_DISJOINT": 18,
+        "POINT_CONTACT_OR_TANGENCY": 2469
+      },
+      "finite_epsilon_mm": 1e-10,
+      "limits": [
+        "Pair area sums may double count; not penetration area.",
+        "No physical penetration depth or true wall thickness established.",
+        "Additional near search samples cavity face centroids; not exhaustive distance or continuous collision certification.",
+        "Classification does not establish physiological acceptability of contact. User-observed visual anomaly may remain unlocalized."
+      ],
+      "near_surface_samples": [
+        {
+          "id": "BLADDER",
+          "minimum_centroid_surface_distance_mm": 0.08481583886347953,
+          "sample_count": 222
+        },
+        {
+          "id": "B_31",
+          "minimum_centroid_surface_distance_mm": 0.05694981694996455,
+          "sample_count": 842
+        },
+        {
+          "id": "B_32",
+          "minimum_centroid_surface_distance_mm": 0.026275212879305548,
+          "sample_count": 979
+        },
+        {
+          "id": "F01",
+          "minimum_centroid_surface_distance_mm": 0.37105634183636005,
+          "sample_count": 300
+        },
+        {
+          "id": "F02",
+          "minimum_centroid_surface_distance_mm": 0.22225257109485885,
+          "sample_count": 293
+        },
+        {
+          "id": "F03",
+          "minimum_centroid_surface_distance_mm": 0.14946416809186847,
+          "sample_count": 339
+        },
+        {
+          "id": "F04",
+          "minimum_centroid_surface_distance_mm": 0.045104195587318006,
+          "sample_count": 210
+        },
+        {
+          "id": "IN_01",
+          "minimum_centroid_surface_distance_mm": 0.7823692070513966,
+          "sample_count": 358
+        },
+        {
+          "id": "IN_02",
+          "minimum_centroid_surface_distance_mm": 0.8797889080222584,
+          "sample_count": 399
+        },
+        {
+          "id": "J_01",
+          "minimum_centroid_surface_distance_mm": 0.058873197127188456,
+          "sample_count": 840
+        },
+        {
+          "id": "J_02",
+          "minimum_centroid_surface_distance_mm": 3.234804903405561e-07,
+          "sample_count": 1164
+        },
+        {
+          "id": "J_03",
+          "minimum_centroid_surface_distance_mm": 0.08277556099116039,
+          "sample_count": 975
+        },
+        {
+          "id": "J_04",
+          "minimum_centroid_surface_distance_mm": 0.013174659574356097,
+          "sample_count": 862
+        },
+        {
+          "id": "J_05",
+          "minimum_centroid_surface_distance_mm": 0.02632711301134881,
+          "sample_count": 593
+        },
+        {
+          "id": "J_06",
+          "minimum_centroid_surface_distance_mm": 0.013149114235168393,
+          "sample_count": 1071
+        },
+        {
+          "id": "J_07",
+          "minimum_centroid_surface_distance_mm": 0.013174637855807943,
+          "sample_count": 516
+        },
+        {
+          "id": "J_08",
+          "minimum_centroid_surface_distance_mm": 0.044081673939578514,
+          "sample_count": 682
+        },
+        {
+          "id": "J_09",
+          "minimum_centroid_surface_distance_mm": 0.026275212879305548,
+          "sample_count": 967
+        },
+        {
+          "id": "MAIN",
+          "minimum_centroid_surface_distance_mm": 1.534486932257407e-07,
+          "sample_count": 142
+        },
+        {
+          "id": "T_01",
+          "minimum_centroid_surface_distance_mm": 0.27560398966618127,
+          "sample_count": 311
+        },
+        {
+          "id": "T_02",
+          "minimum_centroid_surface_distance_mm": 0.09731339831792628,
+          "sample_count": 443
+        },
+        {
+          "id": "T_03",
+          "minimum_centroid_surface_distance_mm": 0.101769879678214,
+          "sample_count": 340
+        },
+        {
+          "id": "T_04",
+          "minimum_centroid_surface_distance_mm": 0.3143607932976994,
+          "sample_count": 276
+        },
+        {
+          "id": "T_05",
+          "minimum_centroid_surface_distance_mm": 0.3119070301868424,
+          "sample_count": 264
+        },
+        {
+          "id": "T_06",
+          "minimum_centroid_surface_distance_mm": 0.14550235560017133,
+          "sample_count": 279
+        },
+        {
+          "id": "T_07",
+          "minimum_centroid_surface_distance_mm": 0.21817516539779594,
+          "sample_count": 272
+        },
+        {
+          "id": "T_08",
+          "minimum_centroid_surface_distance_mm": 0.10002088509709,
+          "sample_count": 266
+        },
+        {
+          "id": "T_09",
+          "minimum_centroid_surface_distance_mm": 0.061366757779796235,
+          "sample_count": 279
+        },
+        {
+          "id": "T_10",
+          "minimum_centroid_surface_distance_mm": 0.19078164295303565,
+          "sample_count": 295
+        },
+        {
+          "id": "T_11",
+          "minimum_centroid_surface_distance_mm": 0.22783005733399567,
+          "sample_count": 290
+        },
+        {
+          "id": "T_12",
+          "minimum_centroid_surface_distance_mm": 0.29952479537846116,
+          "sample_count": 325
+        },
+        {
+          "id": "T_13",
+          "minimum_centroid_surface_distance_mm": 0.13369175348912968,
+          "sample_count": 319
+        },
+        {
+          "id": "T_14",
+          "minimum_centroid_surface_distance_mm": 0.1970838947069433,
+          "sample_count": 275
+        },
+        {
+          "id": "T_15",
+          "minimum_centroid_surface_distance_mm": 0.07454392710936938,
+          "sample_count": 303
+        },
+        {
+          "id": "T_16",
+          "minimum_centroid_surface_distance_mm": 0.21337640393567586,
+          "sample_count": 336
+        },
+        {
+          "id": "T_17",
+          "minimum_centroid_surface_distance_mm": 0.07455468859947278,
+          "sample_count": 296
+        },
+        {
+          "id": "T_18",
+          "minimum_centroid_surface_distance_mm": 8.974034214493482e-07,
+          "sample_count": 282
+        },
+        {
+          "id": "T_19",
+          "minimum_centroid_surface_distance_mm": 0.1762826418467396,
+          "sample_count": 277
+        },
+        {
+          "id": "T_20",
+          "minimum_centroid_surface_distance_mm": 0.27150983490806363,
+          "sample_count": 326
+        },
+        {
+          "id": "T_21",
+          "minimum_centroid_surface_distance_mm": 0.08772658565919886,
+          "sample_count": 313
+        },
+        {
+          "id": "T_22",
+          "minimum_centroid_surface_distance_mm": 0.013174698320734765,
+          "sample_count": 336
+        }
+      ],
+      "priority_regions": [
+        {
+          "counts": {
+            "EDGE_CONTACT": 4,
+            "NEAR_DISJOINT": 2,
+            "POINT_CONTACT_OR_TANGENCY": 71
+          },
+          "id": "J_05",
+          "maximum_finite_segment_mm": 0.9173892736514654,
+          "minimum_finite_feature_gap_mm": 0.0,
+          "pairs": 77
+        },
+        {
+          "counts": {
+            "EDGE_CONTACT": 3,
+            "NEAR_DISJOINT": 1,
+            "POINT_CONTACT_OR_TANGENCY": 36
+          },
+          "id": "J_09",
+          "maximum_finite_segment_mm": 0.9177523307049452,
+          "minimum_finite_feature_gap_mm": 0.0,
+          "pairs": 40
+        },
+        {
+          "counts": {
+            "EDGE_CONTACT": 3,
+            "NEAR_DISJOINT": 1,
+            "POINT_CONTACT_OR_TANGENCY": 36
+          },
+          "id": "B_32",
+          "maximum_finite_segment_mm": 0.9177523307049452,
+          "minimum_finite_feature_gap_mm": 0.0,
+          "pairs": 40
+        },
+        {
+          "counts": {},
+          "id": "IN_02",
+          "maximum_finite_segment_mm": 0.0,
+          "minimum_finite_feature_gap_mm": null,
+          "pairs": 0
+        },
+        {
+          "counts": {},
+          "id": "F01",
+          "maximum_finite_segment_mm": 0.0,
+          "minimum_finite_feature_gap_mm": null,
+          "pairs": 0
+        },
+        {
+          "counts": {},
+          "id": "F02",
+          "maximum_finite_segment_mm": 0.0,
+          "minimum_finite_feature_gap_mm": null,
+          "pairs": 0
+        },
+        {
+          "counts": {},
+          "id": "F03",
+          "maximum_finite_segment_mm": 0.0,
+          "minimum_finite_feature_gap_mm": null,
+          "pairs": 0
+        },
+        {
+          "counts": {
+            "EDGE_CONTACT": 3,
+            "NEAR_DISJOINT": 1,
+            "POINT_CONTACT_OR_TANGENCY": 36
+          },
+          "id": "F04",
+          "maximum_finite_segment_mm": 0.9177523307049452,
+          "minimum_finite_feature_gap_mm": 0.0,
+          "pairs": 40
+        }
+      ],
+      "seconds": 5.810541391372681,
+      "source_arrays_sha256": {
+        "cavity_displacement": "fbe95cfeaf8b77d80c5aa850618ad8ce8439c8ef770719b1f9a1f1789b050573",
+        "cavity_faces": "dbf4771365f42398f329100e695dc8580f8c038c557c671c02724bff45b29c3d",
+        "cavity_reference_vertices": "f137add4c401fe63851565f913a93968c9b11e18e630722ed42a21b4d0842fa1",
+        "tissue_displacement": "bcef3bda21aa3621547a80f8d7902c7506fc638cd8c18fe6a8c8c5516491eaec",
+        "tissue_faces": "532034f649eac73d2c28ecba5f0097ba04b79164fea3e385de5518c098cc3a05",
+        "tissue_reference_vertices": "63ce22d71be21c2a1266933aac2112ab7c66bcd887312f81e1d7d87c4f9ecb20"
+      },
+      "tissue_positions_source": {
+        "kind": "SOURCE_FLOAT64_ACCEPTED_ARRAYS_ORIGINAL_COORDINATES"
+      },
+      "u": 0.25,
+      "vtk_box_and_cell_tolerance": 0.0,
+      "vtk_pairs": 2887
+    },
+    {
+      "additional_near_sample_pairs": 37,
+      "all_positive_finite_intersections": 344,
+      "cavity_positions_source": {
+        "kind": "ACTUAL_P23_ARRAYMESH_EXPORT",
+        "path": "godot_sim/analysis/irrigation_baseline/p23/final_regression_forward/cavity_u050.bin",
+        "positions_bit_equal": true,
+        "sha256": "4e0c31cbdd358e401fa2617431c910fc25563ebada1bc2deb458c56eb0efcfef"
+      },
+      "confirmed_transverse_crossings": 0,
+      "coordinate_space": "actual_float32",
+      "coplanar_overlap_positive_area_mm2": 1e-12,
+      "coplanar_pair_area_sum_mm2": 12.234743652018455,
+      "counts": {
+        "COPLANAR_OVERLAP": 42,
+        "EDGE_CONTACT": 380,
+        "NEAR_DISJOINT": 20,
+        "POINT_CONTACT_OR_TANGENCY": 2507
+      },
+      "finite_epsilon_mm": 1e-10,
+      "limits": [
+        "Pair area sums may double count; not penetration area.",
+        "No physical penetration depth or true wall thickness established.",
+        "Additional near search samples cavity face centroids; not exhaustive distance or continuous collision certification.",
+        "Classification does not establish physiological acceptability of contact. User-observed visual anomaly may remain unlocalized."
+      ],
+      "near_surface_samples": [
+        {
+          "id": "BLADDER",
+          "minimum_centroid_surface_distance_mm": 0.08481539599376649,
+          "sample_count": 222
+        },
+        {
+          "id": "B_31",
+          "minimum_centroid_surface_distance_mm": 0.05694367359443985,
+          "sample_count": 837
+        },
+        {
+          "id": "B_32",
+          "minimum_centroid_surface_distance_mm": 0.026274609442753002,
+          "sample_count": 973
+        },
+        {
+          "id": "F01",
+          "minimum_centroid_surface_distance_mm": 0.3709791568746536,
+          "sample_count": 300
+        },
+        {
+          "id": "F02",
+          "minimum_centroid_surface_distance_mm": 0.22217083277406557,
+          "sample_count": 292
+        },
+        {
+          "id": "F03",
+          "minimum_centroid_surface_distance_mm": 0.14878990182659835,
+          "sample_count": 337
+        },
+        {
+          "id": "F04",
+          "minimum_centroid_surface_distance_mm": 0.045108544558660466,
+          "sample_count": 210
+        },
+        {
+          "id": "IN_01",
+          "minimum_centroid_surface_distance_mm": 0.7823692051924727,
+          "sample_count": 358
+        },
+        {
+          "id": "IN_02",
+          "minimum_centroid_surface_distance_mm": 0.8797891610499508,
+          "sample_count": 399
+        },
+        {
+          "id": "J_01",
+          "minimum_centroid_surface_distance_mm": 0.05887622602083578,
+          "sample_count": 832
+        },
+        {
+          "id": "J_02",
+          "minimum_centroid_surface_distance_mm": 7.947285851628294e-08,
+          "sample_count": 1158
+        },
+        {
+          "id": "J_03",
+          "minimum_centroid_surface_distance_mm": 0.08277481756293499,
+          "sample_count": 970
+        },
+        {
+          "id": "J_04",
+          "minimum_centroid_surface_distance_mm": 0.013174590915640886,
+          "sample_count": 850
+        },
+        {
+          "id": "J_05",
+          "minimum_centroid_surface_distance_mm": 0.026328735619100707,
+          "sample_count": 585
+        },
+        {
+          "id": "J_06",
+          "minimum_centroid_surface_distance_mm": 0.013149278658481778,
+          "sample_count": 1059
+        },
+        {
+          "id": "J_07",
+          "minimum_centroid_surface_distance_mm": 0.013174534133970635,
+          "sample_count": 508
+        },
+        {
+          "id": "J_08",
+          "minimum_centroid_surface_distance_mm": 0.04408463111671578,
+          "sample_count": 662
+        },
+        {
+          "id": "J_09",
+          "minimum_centroid_surface_distance_mm": 0.026274609442753002,
+          "sample_count": 960
+        },
+        {
+          "id": "MAIN",
+          "minimum_centroid_surface_distance_mm": 1.7770671559745365e-07,
+          "sample_count": 133
+        },
+        {
+          "id": "T_01",
+          "minimum_centroid_surface_distance_mm": 0.2748851242050899,
+          "sample_count": 310
+        },
+        {
+          "id": "T_02",
+          "minimum_centroid_surface_distance_mm": 0.09735091664948116,
+          "sample_count": 437
+        },
+        {
+          "id": "T_03",
+          "minimum_centroid_surface_distance_mm": 0.10177498940896755,
+          "sample_count": 339
+        },
+        {
+          "id": "T_04",
+          "minimum_centroid_surface_distance_mm": 0.3143131206803151,
+          "sample_count": 275
+        },
+        {
+          "id": "T_05",
+          "minimum_centroid_surface_distance_mm": 0.3113039967095131,
+          "sample_count": 263
+        },
+        {
+          "id": "T_06",
+          "minimum_centroid_surface_distance_mm": 0.14561747791985533,
+          "sample_count": 277
+        },
+        {
+          "id": "T_07",
+          "minimum_centroid_surface_distance_mm": 0.21792128937272454,
+          "sample_count": 271
+        },
+        {
+          "id": "T_08",
+          "minimum_centroid_surface_distance_mm": 0.09999121570937727,
+          "sample_count": 265
+        },
+        {
+          "id": "T_09",
+          "minimum_centroid_surface_distance_mm": 0.061361724734058376,
+          "sample_count": 278
+        },
+        {
+          "id": "T_10",
+          "minimum_centroid_surface_distance_mm": 0.19080542192152877,
+          "sample_count": 292
+        },
+        {
+          "id": "T_11",
+          "minimum_centroid_surface_distance_mm": 0.22780918877777415,
+          "sample_count": 289
+        },
+        {
+          "id": "T_12",
+          "minimum_centroid_surface_distance_mm": 0.29897793796459143,
+          "sample_count": 324
+        },
+        {
+          "id": "T_13",
+          "minimum_centroid_surface_distance_mm": 0.1336926681131001,
+          "sample_count": 318
+        },
+        {
+          "id": "T_14",
+          "minimum_centroid_surface_distance_mm": 0.19707928246858272,
+          "sample_count": 273
+        },
+        {
+          "id": "T_15",
+          "minimum_centroid_surface_distance_mm": 0.0745423671992395,
+          "sample_count": 300
+        },
+        {
+          "id": "T_16",
+          "minimum_centroid_surface_distance_mm": 0.21871179472496607,
+          "sample_count": 332
+        },
+        {
+          "id": "T_17",
+          "minimum_centroid_surface_distance_mm": 0.07456281855738484,
+          "sample_count": 296
+        },
+        {
+          "id": "T_18",
+          "minimum_centroid_surface_distance_mm": 1.2740468603351918e-06,
+          "sample_count": 278
+        },
+        {
+          "id": "T_19",
+          "minimum_centroid_surface_distance_mm": 0.17628481691409023,
+          "sample_count": 271
+        },
+        {
+          "id": "T_20",
+          "minimum_centroid_surface_distance_mm": 0.2716395695601235,
+          "sample_count": 320
+        },
+        {
+          "id": "T_21",
+          "minimum_centroid_surface_distance_mm": 0.08773121339735375,
+          "sample_count": 310
+        },
+        {
+          "id": "T_22",
+          "minimum_centroid_surface_distance_mm": 0.013174129004347921,
+          "sample_count": 335
+        }
+      ],
+      "priority_regions": [
+        {
+          "counts": {
+            "EDGE_CONTACT": 3,
+            "NEAR_DISJOINT": 2,
+            "POINT_CONTACT_OR_TANGENCY": 68
+          },
+          "id": "J_05",
+          "maximum_finite_segment_mm": 0.9148579443040232,
+          "minimum_finite_feature_gap_mm": 0.0,
+          "pairs": 73
+        },
+        {
+          "counts": {
+            "EDGE_CONTACT": 4,
+            "NEAR_DISJOINT": 1,
+            "POINT_CONTACT_OR_TANGENCY": 44
+          },
+          "id": "J_09",
+          "maximum_finite_segment_mm": 0.9155852745092505,
+          "minimum_finite_feature_gap_mm": 0.0,
+          "pairs": 49
+        },
+        {
+          "counts": {
+            "EDGE_CONTACT": 4,
+            "NEAR_DISJOINT": 1,
+            "POINT_CONTACT_OR_TANGENCY": 44
+          },
+          "id": "B_32",
+          "maximum_finite_segment_mm": 0.9155852745092505,
+          "minimum_finite_feature_gap_mm": 0.0,
+          "pairs": 49
+        },
+        {
+          "counts": {},
+          "id": "IN_02",
+          "maximum_finite_segment_mm": 0.0,
+          "minimum_finite_feature_gap_mm": null,
+          "pairs": 0
+        },
+        {
+          "counts": {},
+          "id": "F01",
+          "maximum_finite_segment_mm": 0.0,
+          "minimum_finite_feature_gap_mm": null,
+          "pairs": 0
+        },
+        {
+          "counts": {},
+          "id": "F02",
+          "maximum_finite_segment_mm": 0.0,
+          "minimum_finite_feature_gap_mm": null,
+          "pairs": 0
+        },
+        {
+          "counts": {},
+          "id": "F03",
+          "maximum_finite_segment_mm": 0.0,
+          "minimum_finite_feature_gap_mm": null,
+          "pairs": 0
+        },
+        {
+          "counts": {
+            "EDGE_CONTACT": 4,
+            "NEAR_DISJOINT": 1,
+            "POINT_CONTACT_OR_TANGENCY": 44
+          },
+          "id": "F04",
+          "maximum_finite_segment_mm": 0.9155852745092505,
+          "minimum_finite_feature_gap_mm": 0.0,
+          "pairs": 49
+        }
+      ],
+      "seconds": 5.802623271942139,
+      "source_arrays_sha256": {
+        "cavity_displacement": "fbe95cfeaf8b77d80c5aa850618ad8ce8439c8ef770719b1f9a1f1789b050573",
+        "cavity_faces": "dbf4771365f42398f329100e695dc8580f8c038c557c671c02724bff45b29c3d",
+        "cavity_reference_vertices": "f137add4c401fe63851565f913a93968c9b11e18e630722ed42a21b4d0842fa1",
+        "tissue_displacement": "bcef3bda21aa3621547a80f8d7902c7506fc638cd8c18fe6a8c8c5516491eaec",
+        "tissue_faces": "532034f649eac73d2c28ecba5f0097ba04b79164fea3e385de5518c098cc3a05",
+        "tissue_reference_vertices": "63ce22d71be21c2a1266933aac2112ab7c66bcd887312f81e1d7d87c4f9ecb20"
+      },
+      "tissue_positions_source": {
+        "kind": "ACTUAL_P23_ARRAYMESH_EXPORT",
+        "path": "godot_sim/analysis/irrigation_baseline/p23/final_regression_forward/tissue_u050.bin",
+        "positions_bit_equal": true,
+        "sha256": "34c76dfa5c3d1dfe2b38cc9130a1ede556d6ab03b27e3a22d4544e8bd6332218"
+      },
+      "u": 0.5,
+      "vtk_box_and_cell_tolerance": 0.0,
+      "vtk_pairs": 2912
+    },
+    {
+      "additional_near_sample_pairs": 39,
+      "all_positive_finite_intersections": 343,
+      "cavity_positions_source": {
+        "kind": "SOURCE_FLOAT64_ACCEPTED_ARRAYS_ORIGINAL_COORDINATES"
+      },
+      "confirmed_transverse_crossings": 0,
+      "coordinate_space": "source_float64",
+      "coplanar_overlap_positive_area_mm2": 1e-12,
+      "coplanar_pair_area_sum_mm2": 12.234739806325512,
+      "counts": {
+        "COPLANAR_OVERLAP": 42,
+        "EDGE_CONTACT": 379,
+        "NEAR_DISJOINT": 20,
+        "POINT_CONTACT_OR_TANGENCY": 2412
+      },
+      "finite_epsilon_mm": 1e-10,
+      "limits": [
+        "Pair area sums may double count; not penetration area.",
+        "No physical penetration depth or true wall thickness established.",
+        "Additional near search samples cavity face centroids; not exhaustive distance or continuous collision certification.",
+        "Classification does not establish physiological acceptability of contact. User-observed visual anomaly may remain unlocalized."
+      ],
+      "near_surface_samples": [
+        {
+          "id": "BLADDER",
+          "minimum_centroid_surface_distance_mm": 0.08481583886347953,
+          "sample_count": 222
+        },
+        {
+          "id": "B_31",
+          "minimum_centroid_surface_distance_mm": 0.0569436560489568,
+          "sample_count": 837
+        },
+        {
+          "id": "B_32",
+          "minimum_centroid_surface_distance_mm": 0.026274604642327663,
+          "sample_count": 973
+        },
+        {
+          "id": "F01",
+          "minimum_centroid_surface_distance_mm": 0.370979394819026,
+          "sample_count": 300
+        },
+        {
+          "id": "F02",
+          "minimum_centroid_surface_distance_mm": 0.222170753287378,
+          "sample_count": 292
+        },
+        {
+          "id": "F03",
+          "minimum_centroid_surface_distance_mm": 0.14878974815145932,
+          "sample_count": 337
+        },
+        {
+          "id": "F04",
+          "minimum_centroid_surface_distance_mm": 0.0451085234178462,
+          "sample_count": 210
+        },
+        {
+          "id": "IN_01",
+          "minimum_centroid_surface_distance_mm": 0.7823692070513966,
+          "sample_count": 358
+        },
+        {
+          "id": "IN_02",
+          "minimum_centroid_surface_distance_mm": 0.8797889080222584,
+          "sample_count": 399
+        },
+        {
+          "id": "J_01",
+          "minimum_centroid_surface_distance_mm": 0.05887616417287152,
+          "sample_count": 832
+        },
+        {
+          "id": "J_02",
+          "minimum_centroid_surface_distance_mm": 1.1900060051258653e-07,
+          "sample_count": 1158
+        },
+        {
+          "id": "J_03",
+          "minimum_centroid_surface_distance_mm": 0.08277477341855786,
+          "sample_count": 970
+        },
+        {
+          "id": "J_04",
+          "minimum_centroid_surface_distance_mm": 0.013174578486564116,
+          "sample_count": 850
+        },
+        {
+          "id": "J_05",
+          "minimum_centroid_surface_distance_mm": 0.026328708665085968,
+          "sample_count": 585
+        },
+        {
+          "id": "J_06",
+          "minimum_centroid_surface_distance_mm": 0.01314926871546388,
+          "sample_count": 1059
+        },
+        {
+          "id": "J_07",
+          "minimum_centroid_surface_distance_mm": 0.013174526607112045,
+          "sample_count": 508
+        },
+        {
+          "id": "J_08",
+          "minimum_centroid_surface_distance_mm": 0.044084926503494604,
+          "sample_count": 662
+        },
+        {
+          "id": "J_09",
+          "minimum_centroid_surface_distance_mm": 0.026274604642327663,
+          "sample_count": 960
+        },
+        {
+          "id": "MAIN",
+          "minimum_centroid_surface_distance_mm": 2.304371959928315e-07,
+          "sample_count": 133
+        },
+        {
+          "id": "T_01",
+          "minimum_centroid_surface_distance_mm": 0.2748851906314256,
+          "sample_count": 310
+        },
+        {
+          "id": "T_02",
+          "minimum_centroid_surface_distance_mm": 0.09735097841095763,
+          "sample_count": 437
+        },
+        {
+          "id": "T_03",
+          "minimum_centroid_surface_distance_mm": 0.10177514489288292,
+          "sample_count": 339
+        },
+        {
+          "id": "T_04",
+          "minimum_centroid_surface_distance_mm": 0.3143136095479847,
+          "sample_count": 275
+        },
+        {
+          "id": "T_05",
+          "minimum_centroid_surface_distance_mm": 0.31130396762595625,
+          "sample_count": 263
+        },
+        {
+          "id": "T_06",
+          "minimum_centroid_surface_distance_mm": 0.1456175245541328,
+          "sample_count": 277
+        },
+        {
+          "id": "T_07",
+          "minimum_centroid_surface_distance_mm": 0.2179206900712365,
+          "sample_count": 271
+        },
+        {
+          "id": "T_08",
+          "minimum_centroid_surface_distance_mm": 0.0999912539937265,
+          "sample_count": 265
+        },
+        {
+          "id": "T_09",
+          "minimum_centroid_surface_distance_mm": 0.06136159762850954,
+          "sample_count": 278
+        },
+        {
+          "id": "T_10",
+          "minimum_centroid_surface_distance_mm": 0.19080512214984702,
+          "sample_count": 292
+        },
+        {
+          "id": "T_11",
+          "minimum_centroid_surface_distance_mm": 0.2278091819740261,
+          "sample_count": 289
+        },
+        {
+          "id": "T_12",
+          "minimum_centroid_surface_distance_mm": 0.29897790682155334,
+          "sample_count": 324
+        },
+        {
+          "id": "T_13",
+          "minimum_centroid_surface_distance_mm": 0.13369215514969343,
+          "sample_count": 318
+        },
+        {
+          "id": "T_14",
+          "minimum_centroid_surface_distance_mm": 0.19707926912495266,
+          "sample_count": 273
+        },
+        {
+          "id": "T_15",
+          "minimum_centroid_surface_distance_mm": 0.07454183510465108,
+          "sample_count": 300
+        },
+        {
+          "id": "T_16",
+          "minimum_centroid_surface_distance_mm": 0.21871223825213496,
+          "sample_count": 332
+        },
+        {
+          "id": "T_17",
+          "minimum_centroid_surface_distance_mm": 0.07456293657015568,
+          "sample_count": 296
+        },
+        {
+          "id": "T_18",
+          "minimum_centroid_surface_distance_mm": 6.198014693243245e-07,
+          "sample_count": 278
+        },
+        {
+          "id": "T_19",
+          "minimum_centroid_surface_distance_mm": 0.17628475750502576,
+          "sample_count": 271
+        },
+        {
+          "id": "T_20",
+          "minimum_centroid_surface_distance_mm": 0.271639503601668,
+          "sample_count": 320
+        },
+        {
+          "id": "T_21",
+          "minimum_centroid_surface_distance_mm": 0.08773143463299277,
+          "sample_count": 310
+        },
+        {
+          "id": "T_22",
+          "minimum_centroid_surface_distance_mm": 0.013174261760870252,
+          "sample_count": 335
+        }
+      ],
+      "priority_regions": [
+        {
+          "counts": {
+            "EDGE_CONTACT": 4,
+            "NEAR_DISJOINT": 2,
+            "POINT_CONTACT_OR_TANGENCY": 57
+          },
+          "id": "J_05",
+          "maximum_finite_segment_mm": 0.9148576740869522,
+          "minimum_finite_feature_gap_mm": 0.0,
+          "pairs": 63
+        },
+        {
+          "counts": {
+            "EDGE_CONTACT": 4,
+            "NEAR_DISJOINT": 1,
+            "POINT_CONTACT_OR_TANGENCY": 32
+          },
+          "id": "J_09",
+          "maximum_finite_segment_mm": 0.9155852877063705,
+          "minimum_finite_feature_gap_mm": 0.0,
+          "pairs": 37
+        },
+        {
+          "counts": {
+            "EDGE_CONTACT": 4,
+            "NEAR_DISJOINT": 1,
+            "POINT_CONTACT_OR_TANGENCY": 32
+          },
+          "id": "B_32",
+          "maximum_finite_segment_mm": 0.9155852877063705,
+          "minimum_finite_feature_gap_mm": 0.0,
+          "pairs": 37
+        },
+        {
+          "counts": {},
+          "id": "IN_02",
+          "maximum_finite_segment_mm": 0.0,
+          "minimum_finite_feature_gap_mm": null,
+          "pairs": 0
+        },
+        {
+          "counts": {},
+          "id": "F01",
+          "maximum_finite_segment_mm": 0.0,
+          "minimum_finite_feature_gap_mm": null,
+          "pairs": 0
+        },
+        {
+          "counts": {},
+          "id": "F02",
+          "maximum_finite_segment_mm": 0.0,
+          "minimum_finite_feature_gap_mm": null,
+          "pairs": 0
+        },
+        {
+          "counts": {},
+          "id": "F03",
+          "maximum_finite_segment_mm": 0.0,
+          "minimum_finite_feature_gap_mm": null,
+          "pairs": 0
+        },
+        {
+          "counts": {
+            "EDGE_CONTACT": 4,
+            "NEAR_DISJOINT": 1,
+            "POINT_CONTACT_OR_TANGENCY": 32
+          },
+          "id": "F04",
+          "maximum_finite_segment_mm": 0.9155852877063705,
+          "minimum_finite_feature_gap_mm": 0.0,
+          "pairs": 37
+        }
+      ],
+      "seconds": 5.780107736587524,
+      "source_arrays_sha256": {
+        "cavity_displacement": "fbe95cfeaf8b77d80c5aa850618ad8ce8439c8ef770719b1f9a1f1789b050573",
+        "cavity_faces": "dbf4771365f42398f329100e695dc8580f8c038c557c671c02724bff45b29c3d",
+        "cavity_reference_vertices": "f137add4c401fe63851565f913a93968c9b11e18e630722ed42a21b4d0842fa1",
+        "tissue_displacement": "bcef3bda21aa3621547a80f8d7902c7506fc638cd8c18fe6a8c8c5516491eaec",
+        "tissue_faces": "532034f649eac73d2c28ecba5f0097ba04b79164fea3e385de5518c098cc3a05",
+        "tissue_reference_vertices": "63ce22d71be21c2a1266933aac2112ab7c66bcd887312f81e1d7d87c4f9ecb20"
+      },
+      "tissue_positions_source": {
+        "kind": "SOURCE_FLOAT64_ACCEPTED_ARRAYS_ORIGINAL_COORDINATES"
+      },
+      "u": 0.5,
+      "vtk_box_and_cell_tolerance": 0.0,
+      "vtk_pairs": 2814
+    },
+    {
+      "additional_near_sample_pairs": 35,
+      "all_positive_finite_intersections": 343,
+      "cavity_positions_source": {
+        "kind": "ACTUAL_P23_ARRAYMESH_EXPORT",
+        "path": "godot_sim/analysis/irrigation_baseline/p23/final_regression_forward/cavity_u075.bin",
+        "positions_bit_equal": true,
+        "sha256": "811c753eb19f57690e50148f5538f349afa62eff48d1fd1c37fee4745a811c59"
+      },
+      "confirmed_transverse_crossings": 0,
+      "coordinate_space": "actual_float32",
+      "coplanar_overlap_positive_area_mm2": 1e-12,
+      "coplanar_pair_area_sum_mm2": 12.020121504390584,
+      "counts": {
+        "COPLANAR_OVERLAP": 41,
+        "EDGE_CONTACT": 379,
+        "NEAR_DISJOINT": 20,
+        "POINT_CONTACT_OR_TANGENCY": 2465
+      },
+      "finite_epsilon_mm": 1e-10,
+      "limits": [
+        "Pair area sums may double count; not penetration area.",
+        "No physical penetration depth or true wall thickness established.",
+        "Additional near search samples cavity face centroids; not exhaustive distance or continuous collision certification.",
+        "Classification does not establish physiological acceptability of contact. User-observed visual anomaly may remain unlocalized."
+      ],
+      "near_surface_samples": [
+        {
+          "id": "BLADDER",
+          "minimum_centroid_surface_distance_mm": 0.08481539599376649,
+          "sample_count": 222
+        },
+        {
+          "id": "B_31",
+          "minimum_centroid_surface_distance_mm": 0.056938087807166415,
+          "sample_count": 828
+        },
+        {
+          "id": "B_32",
+          "minimum_centroid_surface_distance_mm": 0.026275013386321842,
+          "sample_count": 967
+        },
+        {
+          "id": "F01",
+          "minimum_centroid_surface_distance_mm": 0.37090342633994866,
+          "sample_count": 299
+        },
+        {
+          "id": "F02",
+          "minimum_centroid_surface_distance_mm": 0.2220875728374016,
+          "sample_count": 292
+        },
+        {
+          "id": "F03",
+          "minimum_centroid_surface_distance_mm": 0.14811507936856635,
+          "sample_count": 335
+        },
+        {
+          "id": "F04",
+          "minimum_centroid_surface_distance_mm": 0.04511157582678084,
+          "sample_count": 210
+        },
+        {
+          "id": "IN_01",
+          "minimum_centroid_surface_distance_mm": 0.7823692051924727,
+          "sample_count": 358
+        },
+        {
+          "id": "IN_02",
+          "minimum_centroid_surface_distance_mm": 0.8797891610499508,
+          "sample_count": 399
+        },
+        {
+          "id": "J_01",
+          "minimum_centroid_surface_distance_mm": 0.05887937459687713,
+          "sample_count": 827
+        },
+        {
+          "id": "J_02",
+          "minimum_centroid_surface_distance_mm": 0.0,
+          "sample_count": 1153
+        },
+        {
+          "id": "J_03",
+          "minimum_centroid_surface_distance_mm": 0.08277356795293744,
+          "sample_count": 962
+        },
+        {
+          "id": "J_04",
+          "minimum_centroid_surface_distance_mm": 0.013174649161688343,
+          "sample_count": 837
+        },
+        {
+          "id": "J_05",
+          "minimum_centroid_surface_distance_mm": 0.026330165339993057,
+          "sample_count": 579
+        },
+        {
+          "id": "J_06",
+          "minimum_centroid_surface_distance_mm": 0.013149799214375734,
+          "sample_count": 1048
+        },
+        {
+          "id": "J_07",
+          "minimum_centroid_surface_distance_mm": 0.013174654172445078,
+          "sample_count": 501
+        },
+        {
+          "id": "J_08",
+          "minimum_centroid_surface_distance_mm": 0.04408649241528829,
+          "sample_count": 646
+        },
+        {
+          "id": "J_09",
+          "minimum_centroid_surface_distance_mm": 0.026275013386321842,
+          "sample_count": 942
+        },
+        {
+          "id": "MAIN",
+          "minimum_centroid_surface_distance_mm": 3.178914393942023e-07,
+          "sample_count": 127
+        },
+        {
+          "id": "T_01",
+          "minimum_centroid_surface_distance_mm": 0.2741673106456329,
+          "sample_count": 302
+        },
+        {
+          "id": "T_02",
+          "minimum_centroid_surface_distance_mm": 0.09738599902169476,
+          "sample_count": 431
+        },
+        {
+          "id": "T_03",
+          "minimum_centroid_surface_distance_mm": 0.10177961162768448,
+          "sample_count": 336
+        },
+        {
+          "id": "T_04",
+          "minimum_centroid_surface_distance_mm": 0.31426395297241827,
+          "sample_count": 275
+        },
+        {
+          "id": "T_05",
+          "minimum_centroid_surface_distance_mm": 0.3107014467179361,
+          "sample_count": 263
+        },
+        {
+          "id": "T_06",
+          "minimum_centroid_surface_distance_mm": 0.14572899215875568,
+          "sample_count": 274
+        },
+        {
+          "id": "T_07",
+          "minimum_centroid_surface_distance_mm": 0.2176681354282612,
+          "sample_count": 268
+        },
+        {
+          "id": "T_08",
+          "minimum_centroid_surface_distance_mm": 0.0999621134005503,
+          "sample_count": 262
+        },
+        {
+          "id": "T_09",
+          "minimum_centroid_surface_distance_mm": 0.06135649866485506,
+          "sample_count": 275
+        },
+        {
+          "id": "T_10",
+          "minimum_centroid_surface_distance_mm": 0.1908270948011523,
+          "sample_count": 289
+        },
+        {
+          "id": "T_11",
+          "minimum_centroid_surface_distance_mm": 0.2591657930441578,
+          "sample_count": 284
+        },
+        {
+          "id": "T_12",
+          "minimum_centroid_surface_distance_mm": 0.29843127195397806,
+          "sample_count": 321
+        },
+        {
+          "id": "T_13",
+          "minimum_centroid_surface_distance_mm": 0.13369502122246424,
+          "sample_count": 315
+        },
+        {
+          "id": "T_14",
+          "minimum_centroid_surface_distance_mm": 0.1970750201956499,
+          "sample_count": 267
+        },
+        {
+          "id": "T_15",
+          "minimum_centroid_surface_distance_mm": 0.07453982926025719,
+          "sample_count": 299
+        },
+        {
+          "id": "T_16",
+          "minimum_centroid_surface_distance_mm": 0.2186045855559356,
+          "sample_count": 331
+        },
+        {
+          "id": "T_17",
+          "minimum_centroid_surface_distance_mm": 0.0745708959731761,
+          "sample_count": 296
+        },
+        {
+          "id": "T_18",
+          "minimum_centroid_surface_distance_mm": 6.357828787884046e-07,
+          "sample_count": 275
+        },
+        {
+          "id": "T_19",
+          "minimum_centroid_surface_distance_mm": 0.19960378596561895,
+          "sample_count": 264
+        },
+        {
+          "id": "T_20",
+          "minimum_centroid_surface_distance_mm": 0.27176375342701004,
+          "sample_count": 314
+        },
+        {
+          "id": "T_21",
+          "minimum_centroid_surface_distance_mm": 0.0877341134944452,
+          "sample_count": 308
+        },
+        {
+          "id": "T_22",
+          "minimum_centroid_surface_distance_mm": 0.013174209331812927,
+          "sample_count": 334
+        }
+      ],
+      "priority_regions": [
+        {
+          "counts": {
+            "EDGE_CONTACT": 3,
+            "NEAR_DISJOINT": 2,
+            "POINT_CONTACT_OR_TANGENCY": 78
+          },
+          "id": "J_05",
+          "maximum_finite_segment_mm": 0.9123274848131105,
+          "minimum_finite_feature_gap_mm": 0.0,
+          "pairs": 83
+        },
+        {
+          "counts": {
+            "EDGE_CONTACT": 4,
+            "NEAR_DISJOINT": 1,
+            "POINT_CONTACT_OR_TANGENCY": 36
+          },
+          "id": "J_09",
+          "maximum_finite_segment_mm": 0.9134205120463904,
+          "minimum_finite_feature_gap_mm": 0.0,
+          "pairs": 41
+        },
+        {
+          "counts": {
+            "EDGE_CONTACT": 4,
+            "NEAR_DISJOINT": 1,
+            "POINT_CONTACT_OR_TANGENCY": 36
+          },
+          "id": "B_32",
+          "maximum_finite_segment_mm": 0.9134205120463904,
+          "minimum_finite_feature_gap_mm": 0.0,
+          "pairs": 41
+        },
+        {
+          "counts": {},
+          "id": "IN_02",
+          "maximum_finite_segment_mm": 0.0,
+          "minimum_finite_feature_gap_mm": null,
+          "pairs": 0
+        },
+        {
+          "counts": {},
+          "id": "F01",
+          "maximum_finite_segment_mm": 0.0,
+          "minimum_finite_feature_gap_mm": null,
+          "pairs": 0
+        },
+        {
+          "counts": {},
+          "id": "F02",
+          "maximum_finite_segment_mm": 0.0,
+          "minimum_finite_feature_gap_mm": null,
+          "pairs": 0
+        },
+        {
+          "counts": {},
+          "id": "F03",
+          "maximum_finite_segment_mm": 0.0,
+          "minimum_finite_feature_gap_mm": null,
+          "pairs": 0
+        },
+        {
+          "counts": {
+            "EDGE_CONTACT": 4,
+            "NEAR_DISJOINT": 1,
+            "POINT_CONTACT_OR_TANGENCY": 36
+          },
+          "id": "F04",
+          "maximum_finite_segment_mm": 0.9134205120463904,
+          "minimum_finite_feature_gap_mm": 0.0,
+          "pairs": 41
+        }
+      ],
+      "seconds": 5.780352354049683,
+      "source_arrays_sha256": {
+        "cavity_displacement": "fbe95cfeaf8b77d80c5aa850618ad8ce8439c8ef770719b1f9a1f1789b050573",
+        "cavity_faces": "dbf4771365f42398f329100e695dc8580f8c038c557c671c02724bff45b29c3d",
+        "cavity_reference_vertices": "f137add4c401fe63851565f913a93968c9b11e18e630722ed42a21b4d0842fa1",
+        "tissue_displacement": "bcef3bda21aa3621547a80f8d7902c7506fc638cd8c18fe6a8c8c5516491eaec",
+        "tissue_faces": "532034f649eac73d2c28ecba5f0097ba04b79164fea3e385de5518c098cc3a05",
+        "tissue_reference_vertices": "63ce22d71be21c2a1266933aac2112ab7c66bcd887312f81e1d7d87c4f9ecb20"
+      },
+      "tissue_positions_source": {
+        "kind": "ACTUAL_P23_ARRAYMESH_EXPORT",
+        "path": "godot_sim/analysis/irrigation_baseline/p23/final_regression_forward/tissue_u075.bin",
+        "positions_bit_equal": true,
+        "sha256": "9f3103a92b81c7a72f9abde6de8120175c3819b9987626901f1edc759cdf8520"
+      },
+      "u": 0.75,
+      "vtk_box_and_cell_tolerance": 0.0,
+      "vtk_pairs": 2870
+    },
+    {
+      "additional_near_sample_pairs": 36,
+      "all_positive_finite_intersections": 365,
+      "cavity_positions_source": {
+        "kind": "SOURCE_FLOAT64_ACCEPTED_ARRAYS_ORIGINAL_COORDINATES"
+      },
+      "confirmed_transverse_crossings": 0,
+      "coordinate_space": "source_float64",
+      "coplanar_overlap_positive_area_mm2": 1e-12,
+      "coplanar_pair_area_sum_mm2": 12.31535201619597,
+      "counts": {
+        "COPLANAR_OVERLAP": 42,
+        "EDGE_CONTACT": 401,
+        "NEAR_DISJOINT": 20,
+        "POINT_CONTACT_OR_TANGENCY": 2512
+      },
+      "finite_epsilon_mm": 1e-10,
+      "limits": [
+        "Pair area sums may double count; not penetration area.",
+        "No physical penetration depth or true wall thickness established.",
+        "Additional near search samples cavity face centroids; not exhaustive distance or continuous collision certification.",
+        "Classification does not establish physiological acceptability of contact. User-observed visual anomaly may remain unlocalized."
+      ],
+      "near_surface_samples": [
+        {
+          "id": "BLADDER",
+          "minimum_centroid_surface_distance_mm": 0.08481583886347953,
+          "sample_count": 222
+        },
+        {
+          "id": "B_31",
+          "minimum_centroid_surface_distance_mm": 0.05693812612591113,
+          "sample_count": 828
+        },
+        {
+          "id": "B_32",
+          "minimum_centroid_surface_distance_mm": 0.026275057829489325,
+          "sample_count": 967
+        },
+        {
+          "id": "F01",
+          "minimum_centroid_surface_distance_mm": 0.37090276431760366,
+          "sample_count": 299
+        },
+        {
+          "id": "F02",
+          "minimum_centroid_surface_distance_mm": 0.22208749307636877,
+          "sample_count": 292
+        },
+        {
+          "id": "F03",
+          "minimum_centroid_surface_distance_mm": 0.14811509735566464,
+          "sample_count": 335
+        },
+        {
+          "id": "F04",
+          "minimum_centroid_surface_distance_mm": 0.04511163638036216,
+          "sample_count": 210
+        },
+        {
+          "id": "IN_01",
+          "minimum_centroid_surface_distance_mm": 0.7823692070513966,
+          "sample_count": 358
+        },
+        {
+          "id": "IN_02",
+          "minimum_centroid_surface_distance_mm": 0.8797889080222584,
+          "sample_count": 399
+        },
+        {
+          "id": "J_01",
+          "minimum_centroid_surface_distance_mm": 0.05887950713949243,
+          "sample_count": 827
+        },
+        {
+          "id": "J_02",
+          "minimum_centroid_surface_distance_mm": 6.986337225351195e-08,
+          "sample_count": 1153
+        },
+        {
+          "id": "J_03",
+          "minimum_centroid_surface_distance_mm": 0.08277369139411045,
+          "sample_count": 962
+        },
+        {
+          "id": "J_04",
+          "minimum_centroid_surface_distance_mm": 0.013174654154648148,
+          "sample_count": 837
+        },
+        {
+          "id": "J_05",
+          "minimum_centroid_surface_distance_mm": 0.026330184645186966,
+          "sample_count": 579
+        },
+        {
+          "id": "J_06",
+          "minimum_centroid_surface_distance_mm": 0.0131497818986793,
+          "sample_count": 1048
+        },
+        {
+          "id": "J_07",
+          "minimum_centroid_surface_distance_mm": 0.013174524628236008,
+          "sample_count": 501
+        },
+        {
+          "id": "J_08",
+          "minimum_centroid_surface_distance_mm": 0.04408660748044112,
+          "sample_count": 646
+        },
+        {
+          "id": "J_09",
+          "minimum_centroid_surface_distance_mm": 0.026275057829489325,
+          "sample_count": 942
+        },
+        {
+          "id": "MAIN",
+          "minimum_centroid_surface_distance_mm": 3.433336335006176e-07,
+          "sample_count": 127
+        },
+        {
+          "id": "T_01",
+          "minimum_centroid_surface_distance_mm": 0.27416718186680133,
+          "sample_count": 302
+        },
+        {
+          "id": "T_02",
+          "minimum_centroid_surface_distance_mm": 0.09738654122280499,
+          "sample_count": 431
+        },
+        {
+          "id": "T_03",
+          "minimum_centroid_surface_distance_mm": 0.10177952448247526,
+          "sample_count": 336
+        },
+        {
+          "id": "T_04",
+          "minimum_centroid_surface_distance_mm": 0.31426404808130354,
+          "sample_count": 275
+        },
+        {
+          "id": "T_05",
+          "minimum_centroid_surface_distance_mm": 0.3107018885934263,
+          "sample_count": 263
+        },
+        {
+          "id": "T_06",
+          "minimum_centroid_surface_distance_mm": 0.14572888182946872,
+          "sample_count": 274
+        },
+        {
+          "id": "T_07",
+          "minimum_centroid_surface_distance_mm": 0.2176677874777312,
+          "sample_count": 268
+        },
+        {
+          "id": "T_08",
+          "minimum_centroid_surface_distance_mm": 0.09996211603244724,
+          "sample_count": 262
+        },
+        {
+          "id": "T_09",
+          "minimum_centroid_surface_distance_mm": 0.06135662956180322,
+          "sample_count": 275
+        },
+        {
+          "id": "T_10",
+          "minimum_centroid_surface_distance_mm": 0.19082712565745413,
+          "sample_count": 289
+        },
+        {
+          "id": "T_11",
+          "minimum_centroid_surface_distance_mm": 0.2591660625206725,
+          "sample_count": 284
+        },
+        {
+          "id": "T_12",
+          "minimum_centroid_surface_distance_mm": 0.2984317341511125,
+          "sample_count": 321
+        },
+        {
+          "id": "T_13",
+          "minimum_centroid_surface_distance_mm": 0.13369488796052606,
+          "sample_count": 315
+        },
+        {
+          "id": "T_14",
+          "minimum_centroid_surface_distance_mm": 0.19707480981493786,
+          "sample_count": 267
+        },
+        {
+          "id": "T_15",
+          "minimum_centroid_surface_distance_mm": 0.07454165315628983,
+          "sample_count": 299
+        },
+        {
+          "id": "T_16",
+          "minimum_centroid_surface_distance_mm": 0.21860434445563334,
+          "sample_count": 331
+        },
+        {
+          "id": "T_17",
+          "minimum_centroid_surface_distance_mm": 0.07457123184657392,
+          "sample_count": 296
+        },
+        {
+          "id": "T_18",
+          "minimum_centroid_surface_distance_mm": 4.5745180507179705e-07,
+          "sample_count": 275
+        },
+        {
+          "id": "T_19",
+          "minimum_centroid_surface_distance_mm": 0.19960426361780073,
+          "sample_count": 264
+        },
+        {
+          "id": "T_20",
+          "minimum_centroid_surface_distance_mm": 0.2717640543847153,
+          "sample_count": 314
+        },
+        {
+          "id": "T_21",
+          "minimum_centroid_surface_distance_mm": 0.0877347528205321,
+          "sample_count": 308
+        },
+        {
+          "id": "T_22",
+          "minimum_centroid_surface_distance_mm": 0.013174818279880061,
+          "sample_count": 334
+        }
+      ],
+      "priority_regions": [
+        {
+          "counts": {
+            "EDGE_CONTACT": 4,
+            "NEAR_DISJOINT": 2,
+            "POINT_CONTACT_OR_TANGENCY": 58
+          },
+          "id": "J_05",
+          "maximum_finite_segment_mm": 0.9123270796043258,
+          "minimum_finite_feature_gap_mm": 0.0,
+          "pairs": 64
+        },
+        {
+          "counts": {
+            "EDGE_CONTACT": 4,
+            "NEAR_DISJOINT": 1,
+            "POINT_CONTACT_OR_TANGENCY": 39
+          },
+          "id": "J_09",
+          "maximum_finite_segment_mm": 0.9134207688424482,
+          "minimum_finite_feature_gap_mm": 0.0,
+          "pairs": 44
+        },
+        {
+          "counts": {
+            "EDGE_CONTACT": 4,
+            "NEAR_DISJOINT": 1,
+            "POINT_CONTACT_OR_TANGENCY": 39
+          },
+          "id": "B_32",
+          "maximum_finite_segment_mm": 0.9134207688424482,
+          "minimum_finite_feature_gap_mm": 0.0,
+          "pairs": 44
+        },
+        {
+          "counts": {},
+          "id": "IN_02",
+          "maximum_finite_segment_mm": 0.0,
+          "minimum_finite_feature_gap_mm": null,
+          "pairs": 0
+        },
+        {
+          "counts": {},
+          "id": "F01",
+          "maximum_finite_segment_mm": 0.0,
+          "minimum_finite_feature_gap_mm": null,
+          "pairs": 0
+        },
+        {
+          "counts": {},
+          "id": "F02",
+          "maximum_finite_segment_mm": 0.0,
+          "minimum_finite_feature_gap_mm": null,
+          "pairs": 0
+        },
+        {
+          "counts": {},
+          "id": "F03",
+          "maximum_finite_segment_mm": 0.0,
+          "minimum_finite_feature_gap_mm": null,
+          "pairs": 0
+        },
+        {
+          "counts": {
+            "EDGE_CONTACT": 4,
+            "NEAR_DISJOINT": 1,
+            "POINT_CONTACT_OR_TANGENCY": 39
+          },
+          "id": "F04",
+          "maximum_finite_segment_mm": 0.9134207688424482,
+          "minimum_finite_feature_gap_mm": 0.0,
+          "pairs": 44
+        }
+      ],
+      "seconds": 5.813634872436523,
+      "source_arrays_sha256": {
+        "cavity_displacement": "fbe95cfeaf8b77d80c5aa850618ad8ce8439c8ef770719b1f9a1f1789b050573",
+        "cavity_faces": "dbf4771365f42398f329100e695dc8580f8c038c557c671c02724bff45b29c3d",
+        "cavity_reference_vertices": "f137add4c401fe63851565f913a93968c9b11e18e630722ed42a21b4d0842fa1",
+        "tissue_displacement": "bcef3bda21aa3621547a80f8d7902c7506fc638cd8c18fe6a8c8c5516491eaec",
+        "tissue_faces": "532034f649eac73d2c28ecba5f0097ba04b79164fea3e385de5518c098cc3a05",
+        "tissue_reference_vertices": "63ce22d71be21c2a1266933aac2112ab7c66bcd887312f81e1d7d87c4f9ecb20"
+      },
+      "tissue_positions_source": {
+        "kind": "SOURCE_FLOAT64_ACCEPTED_ARRAYS_ORIGINAL_COORDINATES"
+      },
+      "u": 0.75,
+      "vtk_box_and_cell_tolerance": 0.0,
+      "vtk_pairs": 2939
+    },
+    {
+      "additional_near_sample_pairs": 42,
+      "all_positive_finite_intersections": 355,
+      "cavity_positions_source": {
+        "kind": "ACTUAL_P23_ARRAYMESH_EXPORT",
+        "path": "godot_sim/analysis/irrigation_baseline/p23/final_regression_forward/cavity_u100.bin",
+        "positions_bit_equal": true,
+        "sha256": "81e148e9d07a680fedcf5a56a82be307a8e6a7d54190d0473d20cf5771c0d215"
+      },
+      "confirmed_transverse_crossings": 0,
+      "coordinate_space": "actual_float32",
+      "coplanar_overlap_positive_area_mm2": 1e-12,
+      "coplanar_pair_area_sum_mm2": 11.805177403613328,
+      "counts": {
+        "COPLANAR_OVERLAP": 40,
+        "EDGE_CONTACT": 391,
+        "NEAR_DISJOINT": 20,
+        "POINT_CONTACT_OR_TANGENCY": 2448
+      },
+      "finite_epsilon_mm": 1e-10,
+      "limits": [
+        "Pair area sums may double count; not penetration area.",
+        "No physical penetration depth or true wall thickness established.",
+        "Additional near search samples cavity face centroids; not exhaustive distance or continuous collision certification.",
+        "Classification does not establish physiological acceptability of contact. User-observed visual anomaly may remain unlocalized."
+      ],
+      "near_surface_samples": [
+        {
+          "id": "BLADDER",
+          "minimum_centroid_surface_distance_mm": 0.08481539599376649,
+          "sample_count": 222
+        },
+        {
+          "id": "B_31",
+          "minimum_centroid_surface_distance_mm": 0.056932188432317794,
+          "sample_count": 822
+        },
+        {
+          "id": "B_32",
+          "minimum_centroid_surface_distance_mm": 0.026275322266884848,
+          "sample_count": 960
+        },
+        {
+          "id": "F01",
+          "minimum_centroid_surface_distance_mm": 0.3708262804587775,
+          "sample_count": 299
+        },
+        {
+          "id": "F02",
+          "minimum_centroid_surface_distance_mm": 0.22200369663261432,
+          "sample_count": 290
+        },
+        {
+          "id": "F03",
+          "minimum_centroid_surface_distance_mm": 0.1474406400753714,
+          "sample_count": 334
+        },
+        {
+          "id": "F04",
+          "minimum_centroid_surface_distance_mm": 0.045114946700103756,
+          "sample_count": 210
+        },
+        {
+          "id": "IN_01",
+          "minimum_centroid_surface_distance_mm": 0.7823692051924727,
+          "sample_count": 358
+        },
+        {
+          "id": "IN_02",
+          "minimum_centroid_surface_distance_mm": 0.8797891610499508,
+          "sample_count": 399
+        },
+        {
+          "id": "J_01",
+          "minimum_centroid_surface_distance_mm": 0.05888242482228682,
+          "sample_count": 816
+        },
+        {
+          "id": "J_02",
+          "minimum_centroid_surface_distance_mm": 3.554134296060853e-07,
+          "sample_count": 1144
+        },
+        {
+          "id": "J_03",
+          "minimum_centroid_surface_distance_mm": 0.08277255690977327,
+          "sample_count": 957
+        },
+        {
+          "id": "J_04",
+          "minimum_centroid_surface_distance_mm": 0.013174641034229136,
+          "sample_count": 827
+        },
+        {
+          "id": "J_05",
+          "minimum_centroid_surface_distance_mm": 0.02633163468995684,
+          "sample_count": 571
+        },
+        {
+          "id": "J_06",
+          "minimum_centroid_surface_distance_mm": 0.013150324328422794,
+          "sample_count": 1037
+        },
+        {
+          "id": "J_07",
+          "minimum_centroid_surface_distance_mm": 0.013174693570015666,
+          "sample_count": 488
+        },
+        {
+          "id": "J_08",
+          "minimum_centroid_surface_distance_mm": 0.04409001784437481,
+          "sample_count": 631
+        },
+        {
+          "id": "J_09",
+          "minimum_centroid_surface_distance_mm": 0.026275322266884848,
+          "sample_count": 931
+        },
+        {
+          "id": "MAIN",
+          "minimum_centroid_surface_distance_mm": 3.7487273046687934e-07,
+          "sample_count": 122
+        },
+        {
+          "id": "T_01",
+          "minimum_centroid_surface_distance_mm": 0.2734438391319035,
+          "sample_count": 301
+        },
+        {
+          "id": "T_02",
+          "minimum_centroid_surface_distance_mm": 0.09742400925763176,
+          "sample_count": 426
+        },
+        {
+          "id": "T_03",
+          "minimum_centroid_surface_distance_mm": 0.10178588887586919,
+          "sample_count": 331
+        },
+        {
+          "id": "T_04",
+          "minimum_centroid_surface_distance_mm": 0.31421225505113665,
+          "sample_count": 275
+        },
+        {
+          "id": "T_05",
+          "minimum_centroid_surface_distance_mm": 0.31010029878509104,
+          "sample_count": 263
+        },
+        {
+          "id": "T_06",
+          "minimum_centroid_surface_distance_mm": 0.14584017706316016,
+          "sample_count": 274
+        },
+        {
+          "id": "T_07",
+          "minimum_centroid_surface_distance_mm": 0.21741202912423524,
+          "sample_count": 267
+        },
+        {
+          "id": "T_08",
+          "minimum_centroid_surface_distance_mm": 0.09993273380324016,
+          "sample_count": 259
+        },
+        {
+          "id": "T_09",
+          "minimum_centroid_surface_distance_mm": 0.061351449369948075,
+          "sample_count": 275
+        },
+        {
+          "id": "T_10",
+          "minimum_centroid_surface_distance_mm": 0.19084919276119452,
+          "sample_count": 287
+        },
+        {
+          "id": "T_11",
+          "minimum_centroid_surface_distance_mm": 0.25904856569724244,
+          "sample_count": 282
+        },
+        {
+          "id": "T_12",
+          "minimum_centroid_surface_distance_mm": 0.2978853938195452,
+          "sample_count": 316
+        },
+        {
+          "id": "T_13",
+          "minimum_centroid_surface_distance_mm": 0.1336958589596846,
+          "sample_count": 312
+        },
+        {
+          "id": "T_14",
+          "minimum_centroid_surface_distance_mm": 0.19707034239264196,
+          "sample_count": 266
+        },
+        {
+          "id": "T_15",
+          "minimum_centroid_surface_distance_mm": 0.0745379282676193,
+          "sample_count": 298
+        },
+        {
+          "id": "T_16",
+          "minimum_centroid_surface_distance_mm": 0.21849330163229452,
+          "sample_count": 326
+        },
+        {
+          "id": "T_17",
+          "minimum_centroid_surface_distance_mm": 0.07457871570004568,
+          "sample_count": 294
+        },
+        {
+          "id": "T_18",
+          "minimum_centroid_surface_distance_mm": 6.370234318850904e-07,
+          "sample_count": 270
+        },
+        {
+          "id": "T_19",
+          "minimum_centroid_surface_distance_mm": 0.19948040607999853,
+          "sample_count": 258
+        },
+        {
+          "id": "T_20",
+          "minimum_centroid_surface_distance_mm": 0.27188348634248943,
+          "sample_count": 308
+        },
+        {
+          "id": "T_21",
+          "minimum_centroid_surface_distance_mm": 0.08773610826040154,
+          "sample_count": 305
+        },
+        {
+          "id": "T_22",
+          "minimum_centroid_surface_distance_mm": 0.013174668160084646,
+          "sample_count": 328
+        }
+      ],
+      "priority_regions": [
+        {
+          "counts": {
+            "EDGE_CONTACT": 4,
+            "NEAR_DISJOINT": 2,
+            "POINT_CONTACT_OR_TANGENCY": 65
+          },
+          "id": "J_05",
+          "maximum_finite_segment_mm": 0.9097970787478926,
+          "minimum_finite_feature_gap_mm": 0.0,
+          "pairs": 71
+        },
+        {
+          "counts": {
+            "EDGE_CONTACT": 4,
+            "NEAR_DISJOINT": 1,
+            "POINT_CONTACT_OR_TANGENCY": 33
+          },
+          "id": "J_09",
+          "maximum_finite_segment_mm": 0.9112587669361082,
+          "minimum_finite_feature_gap_mm": 0.0,
+          "pairs": 38
+        },
+        {
+          "counts": {
+            "EDGE_CONTACT": 4,
+            "NEAR_DISJOINT": 1,
+            "POINT_CONTACT_OR_TANGENCY": 33
+          },
+          "id": "B_32",
+          "maximum_finite_segment_mm": 0.9112587669361082,
+          "minimum_finite_feature_gap_mm": 0.0,
+          "pairs": 38
+        },
+        {
+          "counts": {},
+          "id": "IN_02",
+          "maximum_finite_segment_mm": 0.0,
+          "minimum_finite_feature_gap_mm": null,
+          "pairs": 0
+        },
+        {
+          "counts": {},
+          "id": "F01",
+          "maximum_finite_segment_mm": 0.0,
+          "minimum_finite_feature_gap_mm": null,
+          "pairs": 0
+        },
+        {
+          "counts": {},
+          "id": "F02",
+          "maximum_finite_segment_mm": 0.0,
+          "minimum_finite_feature_gap_mm": null,
+          "pairs": 0
+        },
+        {
+          "counts": {},
+          "id": "F03",
+          "maximum_finite_segment_mm": 0.0,
+          "minimum_finite_feature_gap_mm": null,
+          "pairs": 0
+        },
+        {
+          "counts": {
+            "EDGE_CONTACT": 4,
+            "NEAR_DISJOINT": 1,
+            "POINT_CONTACT_OR_TANGENCY": 33
+          },
+          "id": "F04",
+          "maximum_finite_segment_mm": 0.9112587669361082,
+          "minimum_finite_feature_gap_mm": 0.0,
+          "pairs": 38
+        }
+      ],
+      "seconds": 5.703200817108154,
+      "source_arrays_sha256": {
+        "cavity_displacement": "fbe95cfeaf8b77d80c5aa850618ad8ce8439c8ef770719b1f9a1f1789b050573",
+        "cavity_faces": "dbf4771365f42398f329100e695dc8580f8c038c557c671c02724bff45b29c3d",
+        "cavity_reference_vertices": "f137add4c401fe63851565f913a93968c9b11e18e630722ed42a21b4d0842fa1",
+        "tissue_displacement": "bcef3bda21aa3621547a80f8d7902c7506fc638cd8c18fe6a8c8c5516491eaec",
+        "tissue_faces": "532034f649eac73d2c28ecba5f0097ba04b79164fea3e385de5518c098cc3a05",
+        "tissue_reference_vertices": "63ce22d71be21c2a1266933aac2112ab7c66bcd887312f81e1d7d87c4f9ecb20"
+      },
+      "tissue_positions_source": {
+        "kind": "ACTUAL_P23_ARRAYMESH_EXPORT",
+        "path": "godot_sim/analysis/irrigation_baseline/p23/final_regression_forward/tissue_u100.bin",
+        "positions_bit_equal": true,
+        "sha256": "b2250903be0987eed7b6470559522bb41de9f6f2888855a498cad6f88f23be53"
+      },
+      "u": 1,
+      "vtk_box_and_cell_tolerance": 0.0,
+      "vtk_pairs": 2857
+    },
+    {
+      "additional_near_sample_pairs": 34,
+      "all_positive_finite_intersections": 371,
+      "cavity_positions_source": {
+        "kind": "SOURCE_FLOAT64_ACCEPTED_ARRAYS_ORIGINAL_COORDINATES"
+      },
+      "confirmed_transverse_crossings": 0,
+      "coordinate_space": "source_float64",
+      "coplanar_overlap_positive_area_mm2": 1e-12,
+      "coplanar_pair_area_sum_mm2": 11.805468939834391,
+      "counts": {
+        "COPLANAR_OVERLAP": 40,
+        "EDGE_CONTACT": 407,
+        "NEAR_DISJOINT": 20,
+        "POINT_CONTACT_OR_TANGENCY": 2596
+      },
+      "finite_epsilon_mm": 1e-10,
+      "limits": [
+        "Pair area sums may double count; not penetration area.",
+        "No physical penetration depth or true wall thickness established.",
+        "Additional near search samples cavity face centroids; not exhaustive distance or continuous collision certification.",
+        "Classification does not establish physiological acceptability of contact. User-observed visual anomaly may remain unlocalized."
+      ],
+      "near_surface_samples": [
+        {
+          "id": "BLADDER",
+          "minimum_centroid_surface_distance_mm": 0.08481583886347953,
+          "sample_count": 222
+        },
+        {
+          "id": "B_31",
+          "minimum_centroid_surface_distance_mm": 0.056932291837373486,
+          "sample_count": 822
+        },
+        {
+          "id": "B_32",
+          "minimum_centroid_surface_distance_mm": 0.026275100744768774,
+          "sample_count": 960
+        },
+        {
+          "id": "F01",
+          "minimum_centroid_surface_distance_mm": 0.37082600360250356,
+          "sample_count": 299
+        },
+        {
+          "id": "F02",
+          "minimum_centroid_surface_distance_mm": 0.2220036322871895,
+          "sample_count": 290
+        },
+        {
+          "id": "F03",
+          "minimum_centroid_surface_distance_mm": 0.1474405649525292,
+          "sample_count": 334
+        },
+        {
+          "id": "F04",
+          "minimum_centroid_surface_distance_mm": 0.04511492223359158,
+          "sample_count": 210
+        },
+        {
+          "id": "IN_01",
+          "minimum_centroid_surface_distance_mm": 0.7823692070513966,
+          "sample_count": 358
+        },
+        {
+          "id": "IN_02",
+          "minimum_centroid_surface_distance_mm": 0.8797888748015084,
+          "sample_count": 399
+        },
+        {
+          "id": "J_01",
+          "minimum_centroid_surface_distance_mm": 0.058882447121020226,
+          "sample_count": 816
+        },
+        {
+          "id": "J_02",
+          "minimum_centroid_surface_distance_mm": 3.1820373377650524e-07,
+          "sample_count": 1144
+        },
+        {
+          "id": "J_03",
+          "minimum_centroid_surface_distance_mm": 0.08277239362798852,
+          "sample_count": 957
+        },
+        {
+          "id": "J_04",
+          "minimum_centroid_surface_distance_mm": 0.013174624506723052,
+          "sample_count": 827
+        },
+        {
+          "id": "J_05",
+          "minimum_centroid_surface_distance_mm": 0.02633165173247487,
+          "sample_count": 571
+        },
+        {
+          "id": "J_06",
+          "minimum_centroid_surface_distance_mm": 0.013150180989309587,
+          "sample_count": 1037
+        },
+        {
+          "id": "J_07",
+          "minimum_centroid_surface_distance_mm": 0.013174705626122094,
+          "sample_count": 488
+        },
+        {
+          "id": "J_08",
+          "minimum_centroid_surface_distance_mm": 0.04409006731483097,
+          "sample_count": 631
+        },
+        {
+          "id": "J_09",
+          "minimum_centroid_surface_distance_mm": 0.026275100744768774,
+          "sample_count": 931
+        },
+        {
+          "id": "MAIN",
+          "minimum_centroid_surface_distance_mm": 3.680903564798755e-07,
+          "sample_count": 122
+        },
+        {
+          "id": "T_01",
+          "minimum_centroid_surface_distance_mm": 0.27344389619728204,
+          "sample_count": 301
+        },
+        {
+          "id": "T_02",
+          "minimum_centroid_surface_distance_mm": 0.09742413271139932,
+          "sample_count": 426
+        },
+        {
+          "id": "T_03",
+          "minimum_centroid_surface_distance_mm": 0.10178587665188288,
+          "sample_count": 331
+        },
+        {
+          "id": "T_04",
+          "minimum_centroid_surface_distance_mm": 0.3142122683038864,
+          "sample_count": 275
+        },
+        {
+          "id": "T_05",
+          "minimum_centroid_surface_distance_mm": 0.31010050461091665,
+          "sample_count": 263
+        },
+        {
+          "id": "T_06",
+          "minimum_centroid_surface_distance_mm": 0.14584105249752552,
+          "sample_count": 274
+        },
+        {
+          "id": "T_07",
+          "minimum_centroid_surface_distance_mm": 0.21741249308667693,
+          "sample_count": 267
+        },
+        {
+          "id": "T_08",
+          "minimum_centroid_surface_distance_mm": 0.09993306638655812,
+          "sample_count": 259
+        },
+        {
+          "id": "T_09",
+          "minimum_centroid_surface_distance_mm": 0.061351841853840114,
+          "sample_count": 275
+        },
+        {
+          "id": "T_10",
+          "minimum_centroid_surface_distance_mm": 0.19084923289772487,
+          "sample_count": 287
+        },
+        {
+          "id": "T_11",
+          "minimum_centroid_surface_distance_mm": 0.2590485643516274,
+          "sample_count": 282
+        },
+        {
+          "id": "T_12",
+          "minimum_centroid_surface_distance_mm": 0.2978852238645037,
+          "sample_count": 316
+        },
+        {
+          "id": "T_13",
+          "minimum_centroid_surface_distance_mm": 0.1336961068103017,
+          "sample_count": 312
+        },
+        {
+          "id": "T_14",
+          "minimum_centroid_surface_distance_mm": 0.19707062241196,
+          "sample_count": 266
+        },
+        {
+          "id": "T_15",
+          "minimum_centroid_surface_distance_mm": 0.07453765738487325,
+          "sample_count": 298
+        },
+        {
+          "id": "T_16",
+          "minimum_centroid_surface_distance_mm": 0.21849312880208113,
+          "sample_count": 326
+        },
+        {
+          "id": "T_17",
+          "minimum_centroid_surface_distance_mm": 0.07457863495174513,
+          "sample_count": 294
+        },
+        {
+          "id": "T_18",
+          "minimum_centroid_surface_distance_mm": 6.508665942901317e-07,
+          "sample_count": 270
+        },
+        {
+          "id": "T_19",
+          "minimum_centroid_surface_distance_mm": 0.19948101409434724,
+          "sample_count": 258
+        },
+        {
+          "id": "T_20",
+          "minimum_centroid_surface_distance_mm": 0.27188206891169414,
+          "sample_count": 308
+        },
+        {
+          "id": "T_21",
+          "minimum_centroid_surface_distance_mm": 0.08773654898038849,
+          "sample_count": 305
+        },
+        {
+          "id": "T_22",
+          "minimum_centroid_surface_distance_mm": 0.013174459258117428,
+          "sample_count": 328
+        }
+      ],
+      "priority_regions": [
+        {
+          "counts": {
+            "EDGE_CONTACT": 4,
+            "NEAR_DISJOINT": 2,
+            "POINT_CONTACT_OR_TANGENCY": 65
+          },
+          "id": "J_05",
+          "maximum_finite_segment_mm": 0.9097974985904714,
+          "minimum_finite_feature_gap_mm": 0.0,
+          "pairs": 71
+        },
+        {
+          "counts": {
+            "EDGE_CONTACT": 4,
+            "NEAR_DISJOINT": 1,
+            "POINT_CONTACT_OR_TANGENCY": 47
+          },
+          "id": "J_09",
+          "maximum_finite_segment_mm": 0.9112587920999584,
+          "minimum_finite_feature_gap_mm": 0.0,
+          "pairs": 52
+        },
+        {
+          "counts": {
+            "EDGE_CONTACT": 4,
+            "NEAR_DISJOINT": 1,
+            "POINT_CONTACT_OR_TANGENCY": 47
+          },
+          "id": "B_32",
+          "maximum_finite_segment_mm": 0.9112587920999584,
+          "minimum_finite_feature_gap_mm": 0.0,
+          "pairs": 52
+        },
+        {
+          "counts": {},
+          "id": "IN_02",
+          "maximum_finite_segment_mm": 0.0,
+          "minimum_finite_feature_gap_mm": null,
+          "pairs": 0
+        },
+        {
+          "counts": {},
+          "id": "F01",
+          "maximum_finite_segment_mm": 0.0,
+          "minimum_finite_feature_gap_mm": null,
+          "pairs": 0
+        },
+        {
+          "counts": {},
+          "id": "F02",
+          "maximum_finite_segment_mm": 0.0,
+          "minimum_finite_feature_gap_mm": null,
+          "pairs": 0
+        },
+        {
+          "counts": {},
+          "id": "F03",
+          "maximum_finite_segment_mm": 0.0,
+          "minimum_finite_feature_gap_mm": null,
+          "pairs": 0
+        },
+        {
+          "counts": {
+            "EDGE_CONTACT": 4,
+            "NEAR_DISJOINT": 1,
+            "POINT_CONTACT_OR_TANGENCY": 47
+          },
+          "id": "F04",
+          "maximum_finite_segment_mm": 0.9112587920999584,
+          "minimum_finite_feature_gap_mm": 0.0,
+          "pairs": 52
+        }
+      ],
+      "seconds": 5.792571783065796,
+      "source_arrays_sha256": {
+        "cavity_displacement": "fbe95cfeaf8b77d80c5aa850618ad8ce8439c8ef770719b1f9a1f1789b050573",
+        "cavity_faces": "dbf4771365f42398f329100e695dc8580f8c038c557c671c02724bff45b29c3d",
+        "cavity_reference_vertices": "f137add4c401fe63851565f913a93968c9b11e18e630722ed42a21b4d0842fa1",
+        "tissue_displacement": "bcef3bda21aa3621547a80f8d7902c7506fc638cd8c18fe6a8c8c5516491eaec",
+        "tissue_faces": "532034f649eac73d2c28ecba5f0097ba04b79164fea3e385de5518c098cc3a05",
+        "tissue_reference_vertices": "63ce22d71be21c2a1266933aac2112ab7c66bcd887312f81e1d7d87c4f9ecb20"
+      },
+      "tissue_positions_source": {
+        "kind": "SOURCE_FLOAT64_ACCEPTED_ARRAYS_ORIGINAL_COORDINATES"
+      },
+      "u": 1,
+      "vtk_box_and_cell_tolerance": 0.0,
+      "vtk_pairs": 3029
+    }
+  ],
+  "review_pairs": [
+    {
+      "cavity_face": 24257,
+      "center_mm": [
+        29.39353370666504,
+        15.178681373596191,
+        -60.5
+      ],
+      "class": "EDGE_CONTACT",
+      "coplanar_pair_overlap_area_mm2": 0.0,
+      "finite_feature_gap_mm": 0.0,
+      "finite_segment_length_mm": 0.919921875,
+      "finite_segment_world_mm": [
+        [
+          13.853494644165039,
+          -0.8213186264038086,
+          20.5
+        ],
+        [
+          12.933572769165039,
+          -0.8213186264038086,
+          20.5
+        ]
+      ],
+      "godot_world_center_mm": [
+        13.393533706665039,
+        -0.8213186264038086,
+        20.5
+      ],
+      "id": "J_05_000_EDGE_CONTACT",
+      "nearest_locations": [
+        [
+          "J_05",
+          3.983725509732906
+        ],
+        [
+          "B_31",
+          6.865237689228733
+        ],
+        [
+          "J_04",
+          8.120163515247539
+        ]
+      ],
+      "one_sided_raw_coplanar_candidate_area_mm2": 0.0,
+      "raw_segment_candidate_length_mm": 0.919921875,
+      "reference_pair_present": true,
+      "region": "J_05",
+      "segment_midpoint_on_triangle_boundary": [
+        true,
+        true
+      ],
+      "segment_support_residual_mm": 0.0,
+      "tissue_face": 26251,
+      "two_sided_coplanarity_residual_mm": 0.184112548828125,
+      "u": 0.0,
+      "vtk_candidate": true
+    },
+    {
+      "cavity_face": 10354,
+      "center_mm": [
+        28.93357276916504,
+        16.098602287471294,
+        -56.125
+      ],
+      "class": "POINT_CONTACT_OR_TANGENCY",
+      "coplanar_pair_overlap_area_mm2": 0.0,
+      "finite_feature_gap_mm": 0.0,
+      "finite_segment_length_mm": 0.0,
+      "finite_segment_world_mm": null,
+      "godot_world_center_mm": [
+        12.933572769165039,
+        0.0986022874712944,
+        24.875
+      ],
+      "id": "J_05_000_POINT_CONTACT_OR_TANGENCY",
+      "nearest_locations": [
+        [
+          "J_05",
+          2.298800392841196
+        ],
+        [
+          "B_31",
+          4.703559516973251
+        ],
+        [
+          "J_04",
+          8.092480269129647
+        ]
+      ],
+      "one_sided_raw_coplanar_candidate_area_mm2": 0.0,
+      "raw_segment_candidate_length_mm": 0.0,
+      "reference_pair_present": true,
+      "region": "J_05",
+      "segment_midpoint_on_triangle_boundary": [],
+      "segment_support_residual_mm": 0.0,
+      "tissue_face": 115546,
+      "two_sided_coplanarity_residual_mm": 0.3038330152630806,
+      "u": 0.0,
+      "vtk_candidate": true
+    },
+    {
+      "cavity_face": 17878,
+      "center_mm": [
+        29.85349464416504,
+        16.07891896960498,
+        -56.7487552563553
+      ],
+      "class": "NEAR_DISJOINT",
+      "coplanar_pair_overlap_area_mm2": 0.0,
+      "finite_feature_gap_mm": 0.03944527292172366,
+      "finite_segment_length_mm": 0.0,
+      "finite_segment_world_mm": null,
+      "godot_world_center_mm": [
+        13.853494644165039,
+        0.07891896960498102,
+        24.251244743644698
+      ],
+      "id": "J_05_000_NEAR_DISJOINT",
+      "nearest_locations": [
+        [
+          "J_05",
+          2.4539156695254736
+        ],
+        [
+          "B_31",
+          4.13713172110791
+        ],
+        [
+          "J_04",
+          8.765242681025113
+        ]
+      ],
+      "one_sided_raw_coplanar_candidate_area_mm2": 0.0,
+      "raw_segment_candidate_length_mm": 0.0,
+      "reference_pair_present": false,
+      "region": "J_05",
+      "segment_midpoint_on_triangle_boundary": [],
+      "segment_support_residual_mm": 0.0,
+      "tissue_face": 115535,
+      "two_sided_coplanarity_residual_mm": 0.1350280150898932,
+      "u": 0.0,
+      "vtk_candidate": false
+    },
+    {
+      "cavity_face": 6970,
+      "center_mm": [
+        10.07517147064209,
+        19.778291702270508,
+        -39.875
+      ],
+      "class": "EDGE_CONTACT",
+      "coplanar_pair_overlap_area_mm2": 0.0,
+      "finite_feature_gap_mm": 0.0,
+      "finite_segment_length_mm": 0.919921875,
+      "finite_segment_world_mm": [
+        [
+          -5.92482852935791,
+          4.238252639770508,
+          41.125
+        ],
+        [
+          -5.92482852935791,
+          3.318330764770508,
+          41.125
+        ]
+      ],
+      "godot_world_center_mm": [
+        -5.92482852935791,
+        3.778291702270508,
+        41.125
+      ],
+      "id": "J_09_000_EDGE_CONTACT",
+      "nearest_locations": [
+        [
+          "J_09",
+          3.874934874767566
+        ],
+        [
+          "F04",
+          4.109394389494399
+        ],
+        [
+          "B_32",
+          4.469326331615358
+        ]
+      ],
+      "one_sided_raw_coplanar_candidate_area_mm2": 0.0,
+      "raw_segment_candidate_length_mm": 0.919921875,
+      "reference_pair_present": true,
+      "region": "J_09",
+      "segment_midpoint_on_triangle_boundary": [
+        true,
+        true
+      ],
+      "segment_support_residual_mm": 0.0,
+      "tissue_face": 64744,
+      "two_sided_coplanarity_residual_mm": 0.1352987289428711,
+      "u": 0.0,
+      "vtk_candidate": true
+    },
+    {
+      "cavity_face": 6970,
+      "center_mm": [
+        10.07517147064209,
+        19.318330764770508,
+        -39.875
+      ],
+      "class": "POINT_CONTACT_OR_TANGENCY",
+      "coplanar_pair_overlap_area_mm2": 0.0,
+      "finite_feature_gap_mm": 0.0,
+      "finite_segment_length_mm": 0.0,
+      "finite_segment_world_mm": null,
+      "godot_world_center_mm": [
+        -5.92482852935791,
+        3.318330764770508,
+        41.125
+      ],
+      "id": "J_09_000_POINT_CONTACT_OR_TANGENCY",
+      "nearest_locations": [
+        [
+          "J_09",
+          3.7089931630794046
+        ],
+        [
+          "F04",
+          4.285798722782102
+        ],
+        [
+          "B_32",
+          4.356365093869725
+        ]
+      ],
+      "one_sided_raw_coplanar_candidate_area_mm2": 0.0,
+      "raw_segment_candidate_length_mm": 0.0,
+      "reference_pair_present": true,
+      "region": "J_09",
+      "segment_midpoint_on_triangle_boundary": [],
+      "segment_support_residual_mm": 0.0,
+      "tissue_face": 60988,
+      "two_sided_coplanarity_residual_mm": 0.1352987289428711,
+      "u": 0.0,
+      "vtk_candidate": true
+    },
+    {
+      "cavity_face": 6973,
+      "center_mm": [
+        10.05552380197587,
+        18.397564716863457,
+        -39.25124251957378
+      ],
+      "class": "NEAR_DISJOINT",
+      "coplanar_pair_overlap_area_mm2": 0.0,
+      "finite_feature_gap_mm": 0.03941001734614151,
+      "finite_segment_length_mm": 0.0,
+      "finite_segment_world_mm": null,
+      "godot_world_center_mm": [
+        -5.94447619802413,
+        2.3975647168634566,
+        41.74875748042622
+      ],
+      "id": "J_09_000_NEAR_DISJOINT",
+      "nearest_locations": [
+        [
+          "J_09",
+          3.574732760186878
+        ],
+        [
+          "B_32",
+          4.111630621018964
+        ],
+        [
+          "F04",
+          4.275229642680677
+        ]
+      ],
+      "one_sided_raw_coplanar_candidate_area_mm2": 0.0,
+      "raw_segment_candidate_length_mm": 0.0,
+      "reference_pair_present": false,
+      "region": "J_09",
+      "segment_midpoint_on_triangle_boundary": [],
+      "segment_support_residual_mm": 0.0,
+      "tissue_face": 70474,
+      "two_sided_coplanarity_residual_mm": 0.13490026591452897,
+      "u": 0.0,
+      "vtk_candidate": false
+    },
+    {
+      "cavity_face": 6970,
+      "center_mm": [
+        10.07517147064209,
+        19.778291702270508,
+        -39.875
+      ],
+      "class": "EDGE_CONTACT",
+      "coplanar_pair_overlap_area_mm2": 0.0,
+      "finite_feature_gap_mm": 0.0,
+      "finite_segment_length_mm": 0.919921875,
+      "finite_segment_world_mm": [
+        [
+          -5.92482852935791,
+          4.238252639770508,
+          41.125
+        ],
+        [
+          -5.92482852935791,
+          3.318330764770508,
+          41.125
+        ]
+      ],
+      "godot_world_center_mm": [
+        -5.92482852935791,
+        3.778291702270508,
+        41.125
+      ],
+      "id": "B_32_000_EDGE_CONTACT",
+      "nearest_locations": [
+        [
+          "J_09",
+          3.874934874767566
+        ],
+        [
+          "F04",
+          4.109394389494399
+        ],
+        [
+          "B_32",
+          4.469326331615358
+        ]
+      ],
+      "one_sided_raw_coplanar_candidate_area_mm2": 0.0,
+      "raw_segment_candidate_length_mm": 0.919921875,
+      "reference_pair_present": true,
+      "region": "B_32",
+      "segment_midpoint_on_triangle_boundary": [
+        true,
+        true
+      ],
+      "segment_support_residual_mm": 0.0,
+      "tissue_face": 64744,
+      "two_sided_coplanarity_residual_mm": 0.1352987289428711,
+      "u": 0.0,
+      "vtk_candidate": true
+    },
+    {
+      "cavity_face": 6970,
+      "center_mm": [
+        10.07517147064209,
+        19.318330764770508,
+        -39.875
+      ],
+      "class": "POINT_CONTACT_OR_TANGENCY",
+      "coplanar_pair_overlap_area_mm2": 0.0,
+      "finite_feature_gap_mm": 0.0,
+      "finite_segment_length_mm": 0.0,
+      "finite_segment_world_mm": null,
+      "godot_world_center_mm": [
+        -5.92482852935791,
+        3.318330764770508,
+        41.125
+      ],
+      "id": "B_32_000_POINT_CONTACT_OR_TANGENCY",
+      "nearest_locations": [
+        [
+          "J_09",
+          3.7089931630794046
+        ],
+        [
+          "F04",
+          4.285798722782102
+        ],
+        [
+          "B_32",
+          4.356365093869725
+        ]
+      ],
+      "one_sided_raw_coplanar_candidate_area_mm2": 0.0,
+      "raw_segment_candidate_length_mm": 0.0,
+      "reference_pair_present": true,
+      "region": "B_32",
+      "segment_midpoint_on_triangle_boundary": [],
+      "segment_support_residual_mm": 0.0,
+      "tissue_face": 60988,
+      "two_sided_coplanarity_residual_mm": 0.1352987289428711,
+      "u": 0.0,
+      "vtk_candidate": true
+    },
+    {
+      "cavity_face": 6973,
+      "center_mm": [
+        10.05552380197587,
+        18.397564716863457,
+        -39.25124251957378
+      ],
+      "class": "NEAR_DISJOINT",
+      "coplanar_pair_overlap_area_mm2": 0.0,
+      "finite_feature_gap_mm": 0.03941001734614151,
+      "finite_segment_length_mm": 0.0,
+      "finite_segment_world_mm": null,
+      "godot_world_center_mm": [
+        -5.94447619802413,
+        2.3975647168634566,
+        41.74875748042622
+      ],
+      "id": "B_32_000_NEAR_DISJOINT",
+      "nearest_locations": [
+        [
+          "J_09",
+          3.574732760186878
+        ],
+        [
+          "B_32",
+          4.111630621018964
+        ],
+        [
+          "F04",
+          4.275229642680677
+        ]
+      ],
+      "one_sided_raw_coplanar_candidate_area_mm2": 0.0,
+      "raw_segment_candidate_length_mm": 0.0,
+      "reference_pair_present": false,
+      "region": "B_32",
+      "segment_midpoint_on_triangle_boundary": [],
+      "segment_support_residual_mm": 0.0,
+      "tissue_face": 70474,
+      "two_sided_coplanarity_residual_mm": 0.13490026591452897,
+      "u": 0.0,
+      "vtk_candidate": false
+    },
+    {
+      "cavity_face": 8885,
+      "center_mm": [
+        10.07517147064209,
+        20.238252639770508,
+        -39.875
+      ],
+      "class": "EDGE_CONTACT",
+      "coplanar_pair_overlap_area_mm2": 0.0,
+      "finite_feature_gap_mm": 0.0,
+      "finite_segment_length_mm": 0.0,
+      "finite_segment_world_mm": null,
+      "godot_world_center_mm": [
+        -5.92482852935791,
+        4.238252639770508,
+        41.125
+      ],
+      "id": "F04_000_EDGE_CONTACT",
+      "nearest_locations": [
+        [
+          "F04",
+          3.9786055261444493
+        ],
+        [
+          "J_09",
+          4.086164266358103
+        ],
+        [
+          "B_32",
+          4.625469383090324
+        ]
+      ],
+      "one_sided_raw_coplanar_candidate_area_mm2": 0.0,
+      "raw_segment_candidate_length_mm": 0.0,
+      "reference_pair_present": true,
+      "region": "F04",
+      "segment_midpoint_on_triangle_boundary": [],
+      "segment_support_residual_mm": 0.0,
+      "tissue_face": 64744,
+      "two_sided_coplanarity_residual_mm": 0.0,
+      "u": 0.0,
+      "vtk_candidate": true
+    },
+    {
+      "cavity_face": 6968,
+      "center_mm": [
+        10.07517147064209,
+        20.238252639770508,
+        -39.875
+      ],
+      "class": "POINT_CONTACT_OR_TANGENCY",
+      "coplanar_pair_overlap_area_mm2": 0.0,
+      "finite_feature_gap_mm": 0.0,
+      "finite_segment_length_mm": 0.0,
+      "finite_segment_world_mm": null,
+      "godot_world_center_mm": [
+        -5.92482852935791,
+        4.238252639770508,
+        41.125
+      ],
+      "id": "F04_000_POINT_CONTACT_OR_TANGENCY",
+      "nearest_locations": [
+        [
+          "F04",
+          3.9786055261444493
+        ],
+        [
+          "J_09",
+          4.086164266358103
+        ],
+        [
+          "B_32",
+          4.625469383090324
+        ]
+      ],
+      "one_sided_raw_coplanar_candidate_area_mm2": 0.0,
+      "raw_segment_candidate_length_mm": 0.0,
+      "reference_pair_present": true,
+      "region": "F04",
+      "segment_midpoint_on_triangle_boundary": [],
+      "segment_support_residual_mm": 0.0,
+      "tissue_face": 64743,
+      "two_sided_coplanarity_residual_mm": 0.18411540985107422,
+      "u": 0.0,
+      "vtk_candidate": true
+    },
+    {
+      "cavity_face": 6973,
+      "center_mm": [
+        10.05552380197587,
+        18.397564716863457,
+        -39.25124251957378
+      ],
+      "class": "NEAR_DISJOINT",
+      "coplanar_pair_overlap_area_mm2": 0.0,
+      "finite_feature_gap_mm": 0.03941001734614151,
+      "finite_segment_length_mm": 0.0,
+      "finite_segment_world_mm": null,
+      "godot_world_center_mm": [
+        -5.94447619802413,
+        2.3975647168634566,
+        41.74875748042622
+      ],
+      "id": "F04_000_NEAR_DISJOINT",
+      "nearest_locations": [
+        [
+          "J_09",
+          3.574732760186878
+        ],
+        [
+          "B_32",
+          4.111630621018964
+        ],
+        [
+          "F04",
+          4.275229642680677
+        ]
+      ],
+      "one_sided_raw_coplanar_candidate_area_mm2": 0.0,
+      "raw_segment_candidate_length_mm": 0.0,
+      "reference_pair_present": false,
+      "region": "F04",
+      "segment_midpoint_on_triangle_boundary": [],
+      "segment_support_residual_mm": 0.0,
+      "tissue_face": 70474,
+      "two_sided_coplanarity_residual_mm": 0.13490026591452897,
+      "u": 0.0,
+      "vtk_candidate": false
+    },
+    {
+      "cavity_face": 24257,
+      "center_mm": [
+        29.401196479797363,
+        15.148674696683884,
+        -60.50795936584473
+      ],
+      "class": "EDGE_CONTACT",
+      "coplanar_pair_overlap_area_mm2": 0.0,
+      "finite_feature_gap_mm": 0.0,
+      "finite_segment_length_mm": 0.9173894124494146,
+      "finite_segment_world_mm": [
+        [
+          13.859890937805176,
+          -0.851371705532074,
+          20.492515563964844
+        ],
+        [
+          12.94250202178955,
+          -0.8512789011001587,
+          20.491565704345703
+        ]
+      ],
+      "godot_world_center_mm": [
+        13.401196479797363,
+        -0.8513253033161163,
+        20.492040634155273
+      ],
+      "id": "J_05_025_EDGE_CONTACT",
+      "nearest_locations": [
+        [
+          "J_05",
+          4.0105994453801
+        ],
+        [
+          "B_31",
+          6.883922592205815
+        ],
+        [
+          "J_04",
+          8.12245087572042
+        ]
+      ],
+      "one_sided_raw_coplanar_candidate_area_mm2": 0.0,
+      "raw_segment_candidate_length_mm": 0.9173894124494146,
+      "reference_pair_present": true,
+      "region": "J_05",
+      "segment_midpoint_on_triangle_boundary": [
+        true,
+        true
+      ],
+      "segment_support_residual_mm": 0.0,
+      "tissue_face": 26251,
+      "two_sided_coplanarity_residual_mm": 0.18463022850419192,
+      "u": 0.25,
+      "vtk_candidate": true
+    },
+    {
+      "cavity_face": 10354,
+      "center_mm": [
+        28.940241813659668,
+        16.06766337901354,
+        -56.11102294921875
+      ],
+      "class": "POINT_CONTACT_OR_TANGENCY",
+      "coplanar_pair_overlap_area_mm2": 0.0,
+      "finite_feature_gap_mm": 0.0,
+      "finite_segment_length_mm": 0.0,
+      "finite_segment_world_mm": null,
+      "godot_world_center_mm": [
+        12.940241813659668,
+        0.06766337901353836,
+        24.88897705078125
+      ],
+      "id": "J_05_025_POINT_CONTACT_OR_TANGENCY",
+      "nearest_locations": [
+        [
+          "J_05",
+          2.3313546945517025
+        ],
+        [
+          "B_31",
+          4.716699392528565
+        ],
+        [
+          "J_04",
+          8.092011011615227
+        ]
+      ],
+      "one_sided_raw_coplanar_candidate_area_mm2": 0.0,
+      "raw_segment_candidate_length_mm": 0.0,
+      "reference_pair_present": true,
+      "region": "J_05",
+      "segment_midpoint_on_triangle_boundary": [],
+      "segment_support_residual_mm": 0.0,
+      "tissue_face": 115546,
+      "two_sided_coplanarity_residual_mm": 0.3039775360766758,
+      "u": 0.25,
+      "vtk_candidate": true
+    },
+    {
+      "cavity_face": 17878,
+      "center_mm": [
+        29.862424235789867,
+        16.047678208837965,
+        -56.73854561900917
+      ],
+      "class": "NEAR_DISJOINT",
+      "coplanar_pair_overlap_area_mm2": 0.0,
+      "finite_feature_gap_mm": 0.03944386175492827,
+      "finite_segment_length_mm": 0.0,
+      "finite_segment_world_mm": null,
+      "godot_world_center_mm": [
+        13.862424235789867,
+        0.04767820883796503,
+        24.261454380990827
+      ],
+      "id": "J_05_025_NEAR_DISJOINT",
+      "nearest_locations": [
+        [
+          "J_05",
+          2.483981191383539
+        ],
+        [
+          "B_31",
+          4.151156845495912
+        ],
+        [
+          "J_04",
+          8.765805155589645
+        ]
+      ],
+      "one_sided_raw_coplanar_candidate_area_mm2": 0.0,
+      "raw_segment_candidate_length_mm": 0.0,
+      "reference_pair_present": false,
+      "region": "J_05",
+      "segment_midpoint_on_triangle_boundary": [],
+      "segment_support_residual_mm": 0.0,
+      "tissue_face": 115535,
+      "two_sided_coplanarity_residual_mm": 0.13502441741446466,
+      "u": 0.25,
+      "vtk_candidate": false
+    },
+    {
+      "cavity_face": 6970,
+      "center_mm": [
+        10.10498332977295,
+        19.788575410842896,
+        -39.87152290344238
+      ],
+      "class": "EDGE_CONTACT",
+      "coplanar_pair_overlap_area_mm2": 0.0,
+      "finite_feature_gap_mm": 0.0,
+      "finite_segment_length_mm": 0.917752082190012,
+      "finite_segment_world_mm": [
+        [
+          -5.894260406494141,
+          4.247450828552246,
+          41.12846374511719
+        ],
+        [
+          -5.895772933959961,
+          3.329699993133545,
+          41.12849044799805
+        ]
+      ],
+      "godot_world_center_mm": [
+        -5.895016670227051,
+        3.7885754108428955,
+        41.12847709655762
+      ],
+      "id": "J_09_025_EDGE_CONTACT",
+      "nearest_locations": [
+        [
+          "J_09",
+          3.9063507244713733
+        ],
+        [
+          "F04",
+          4.109851093430189
+        ],
+        [
+          "B_32",
+          4.498600897446726
+        ]
+      ],
+      "one_sided_raw_coplanar_candidate_area_mm2": 0.0,
+      "raw_segment_candidate_length_mm": 0.917752082190012,
+      "reference_pair_present": true,
+      "region": "J_09",
+      "segment_midpoint_on_triangle_boundary": [
+        true,
+        true
+      ],
+      "segment_support_residual_mm": 0.0,
+      "tissue_face": 64744,
+      "two_sided_coplanarity_residual_mm": 0.13531184708293445,
+      "u": 0.25,
+      "vtk_candidate": true
+    },
+    {
+      "cavity_face": 6971,
+      "center_mm": [
+        10.104227066040039,
+        19.329699993133545,
+        -39.87150955200195
+      ],
+      "class": "POINT_CONTACT_OR_TANGENCY",
+      "coplanar_pair_overlap_area_mm2": 0.0,
+      "finite_feature_gap_mm": 0.0,
+      "finite_segment_length_mm": 0.0,
+      "finite_segment_world_mm": null,
+      "godot_world_center_mm": [
+        -5.895772933959961,
+        3.329699993133545,
+        41.12849044799805
+      ],
+      "id": "J_09_025_POINT_CONTACT_OR_TANGENCY",
+      "nearest_locations": [
+        [
+          "J_09",
+          3.7401519687826874
+        ],
+        [
+          "F04",
+          4.284483354959257
+        ],
+        [
+          "B_32",
+          4.3848165007520965
+        ]
+      ],
+      "one_sided_raw_coplanar_candidate_area_mm2": 0.0,
+      "raw_segment_candidate_length_mm": 0.0,
+      "reference_pair_present": true,
+      "region": "J_09",
+      "segment_midpoint_on_triangle_boundary": [],
+      "segment_support_residual_mm": 0.0,
+      "tissue_face": 60988,
+      "two_sided_coplanarity_residual_mm": 0.1353118471546831,
+      "u": 0.25,
+      "vtk_candidate": true
+    },
+    {
+      "cavity_face": 6973,
+      "center_mm": [
+        10.082269518059386,
+        18.410145306706987,
+        -39.243143795775616
+      ],
+      "class": "NEAR_DISJOINT",
+      "coplanar_pair_overlap_area_mm2": 0.0,
+      "finite_feature_gap_mm": 0.03941016645106178,
+      "finite_segment_length_mm": 0.0,
+      "finite_segment_world_mm": null,
+      "godot_world_center_mm": [
+        -5.917730481940614,
+        2.410145306706987,
+        41.756856204224384
+      ],
+      "id": "J_09_025_NEAR_DISJOINT",
+      "nearest_locations": [
+        [
+          "J_09",
+          3.603227842824237
+        ],
+        [
+          "B_32",
+          4.136618107357881
+        ],
+        [
+          "F04",
+          4.267165541002869
+        ]
+      ],
+      "one_sided_raw_coplanar_candidate_area_mm2": 0.0,
+      "raw_segment_candidate_length_mm": 0.0,
+      "reference_pair_present": false,
+      "region": "J_09",
+      "segment_midpoint_on_triangle_boundary": [],
+      "segment_support_residual_mm": 0.0,
+      "tissue_face": 70474,
+      "two_sided_coplanarity_residual_mm": 0.13485978404832513,
+      "u": 0.25,
+      "vtk_candidate": false
+    },
+    {
+      "cavity_face": 6970,
+      "center_mm": [
+        10.10498332977295,
+        19.788575410842896,
+        -39.87152290344238
+      ],
+      "class": "EDGE_CONTACT",
+      "coplanar_pair_overlap_area_mm2": 0.0,
+      "finite_feature_gap_mm": 0.0,
+      "finite_segment_length_mm": 0.917752082190012,
+      "finite_segment_world_mm": [
+        [
+          -5.894260406494141,
+          4.247450828552246,
+          41.12846374511719
+        ],
+        [
+          -5.895772933959961,
+          3.329699993133545,
+          41.12849044799805
+        ]
+      ],
+      "godot_world_center_mm": [
+        -5.895016670227051,
+        3.7885754108428955,
+        41.12847709655762
+      ],
+      "id": "B_32_025_EDGE_CONTACT",
+      "nearest_locations": [
+        [
+          "J_09",
+          3.9063507244713733
+        ],
+        [
+          "F04",
+          4.109851093430189
+        ],
+        [
+          "B_32",
+          4.498600897446726
+        ]
+      ],
+      "one_sided_raw_coplanar_candidate_area_mm2": 0.0,
+      "raw_segment_candidate_length_mm": 0.917752082190012,
+      "reference_pair_present": true,
+      "region": "B_32",
+      "segment_midpoint_on_triangle_boundary": [
+        true,
+        true
+      ],
+      "segment_support_residual_mm": 0.0,
+      "tissue_face": 64744,
+      "two_sided_coplanarity_residual_mm": 0.13531184708293445,
+      "u": 0.25,
+      "vtk_candidate": true
+    },
+    {
+      "cavity_face": 6971,
+      "center_mm": [
+        10.104227066040039,
+        19.329699993133545,
+        -39.87150955200195
+      ],
+      "class": "POINT_CONTACT_OR_TANGENCY",
+      "coplanar_pair_overlap_area_mm2": 0.0,
+      "finite_feature_gap_mm": 0.0,
+      "finite_segment_length_mm": 0.0,
+      "finite_segment_world_mm": null,
+      "godot_world_center_mm": [
+        -5.895772933959961,
+        3.329699993133545,
+        41.12849044799805
+      ],
+      "id": "B_32_025_POINT_CONTACT_OR_TANGENCY",
+      "nearest_locations": [
+        [
+          "J_09",
+          3.7401519687826874
+        ],
+        [
+          "F04",
+          4.284483354959257
+        ],
+        [
+          "B_32",
+          4.3848165007520965
+        ]
+      ],
+      "one_sided_raw_coplanar_candidate_area_mm2": 0.0,
+      "raw_segment_candidate_length_mm": 0.0,
+      "reference_pair_present": true,
+      "region": "B_32",
+      "segment_midpoint_on_triangle_boundary": [],
+      "segment_support_residual_mm": 0.0,
+      "tissue_face": 60988,
+      "two_sided_coplanarity_residual_mm": 0.1353118471546831,
+      "u": 0.25,
+      "vtk_candidate": true
+    },
+    {
+      "cavity_face": 6973,
+      "center_mm": [
+        10.082269518059386,
+        18.410145306706987,
+        -39.243143795775616
+      ],
+      "class": "NEAR_DISJOINT",
+      "coplanar_pair_overlap_area_mm2": 0.0,
+      "finite_feature_gap_mm": 0.03941016645106178,
+      "finite_segment_length_mm": 0.0,
+      "finite_segment_world_mm": null,
+      "godot_world_center_mm": [
+        -5.917730481940614,
+        2.410145306706987,
+        41.756856204224384
+      ],
+      "id": "B_32_025_NEAR_DISJOINT",
+      "nearest_locations": [
+        [
+          "J_09",
+          3.603227842824237
+        ],
+        [
+          "B_32",
+          4.136618107357881
+        ],
+        [
+          "F04",
+          4.267165541002869
+        ]
+      ],
+      "one_sided_raw_coplanar_candidate_area_mm2": 0.0,
+      "raw_segment_candidate_length_mm": 0.0,
+      "reference_pair_present": false,
+      "region": "B_32",
+      "segment_midpoint_on_triangle_boundary": [],
+      "segment_support_residual_mm": 0.0,
+      "tissue_face": 70474,
+      "two_sided_coplanarity_residual_mm": 0.13485978404832513,
+      "u": 0.25,
+      "vtk_candidate": false
+    },
+    {
+      "cavity_face": 6970,
+      "center_mm": [
+        10.10498332977295,
+        19.788575410842896,
+        -39.87152290344238
+      ],
+      "class": "EDGE_CONTACT",
+      "coplanar_pair_overlap_area_mm2": 0.0,
+      "finite_feature_gap_mm": 0.0,
+      "finite_segment_length_mm": 0.917752082190012,
+      "finite_segment_world_mm": [
+        [
+          -5.894260406494141,
+          4.247450828552246,
+          41.12846374511719
+        ],
+        [
+          -5.895772933959961,
+          3.329699993133545,
+          41.12849044799805
+        ]
+      ],
+      "godot_world_center_mm": [
+        -5.895016670227051,
+        3.7885754108428955,
+        41.12847709655762
+      ],
+      "id": "F04_025_EDGE_CONTACT",
+      "nearest_locations": [
+        [
+          "J_09",
+          3.9063507244713733
+        ],
+        [
+          "F04",
+          4.109851093430189
+        ],
+        [
+          "B_32",
+          4.498600897446726
+        ]
+      ],
+      "one_sided_raw_coplanar_candidate_area_mm2": 0.0,
+      "raw_segment_candidate_length_mm": 0.917752082190012,
+      "reference_pair_present": true,
+      "region": "F04",
+      "segment_midpoint_on_triangle_boundary": [
+        true,
+        true
+      ],
+      "segment_support_residual_mm": 0.0,
+      "tissue_face": 64744,
+      "two_sided_coplanarity_residual_mm": 0.13531184708293445,
+      "u": 0.25,
+      "vtk_candidate": true
+    },
+    {
+      "cavity_face": 6968,
+      "center_mm": [
+        10.10573959350586,
+        20.247450828552246,
+        -39.87153625488281
+      ],
+      "class": "POINT_CONTACT_OR_TANGENCY",
+      "coplanar_pair_overlap_area_mm2": 0.0,
+      "finite_feature_gap_mm": 0.0,
+      "finite_segment_length_mm": 0.0,
+      "finite_segment_world_mm": null,
+      "godot_world_center_mm": [
+        -5.894260406494141,
+        4.247450828552246,
+        41.12846374511719
+      ],
+      "id": "F04_025_POINT_CONTACT_OR_TANGENCY",
+      "nearest_locations": [
+        [
+          "F04",
+          3.980714614688895
+        ],
+        [
+          "J_09",
+          4.117225966321144
+        ],
+        [
+          "B_32",
+          4.655033701911426
+        ]
+      ],
+      "one_sided_raw_coplanar_candidate_area_mm2": 0.0,
+      "raw_segment_candidate_length_mm": 0.0,
+      "reference_pair_present": true,
+      "region": "F04",
+      "segment_midpoint_on_triangle_boundary": [],
+      "segment_support_residual_mm": 0.0,
+      "tissue_face": 64743,
+      "two_sided_coplanarity_residual_mm": 0.1841640272114511,
+      "u": 0.25,
+      "vtk_candidate": true
+    },
+    {
+      "cavity_face": 6973,
+      "center_mm": [
+        10.082269518059386,
+        18.410145306706987,
+        -39.243143795775616
+      ],
+      "class": "NEAR_DISJOINT",
+      "coplanar_pair_overlap_area_mm2": 0.0,
+      "finite_feature_gap_mm": 0.03941016645106178,
+      "finite_segment_length_mm": 0.0,
+      "finite_segment_world_mm": null,
+      "godot_world_center_mm": [
+        -5.917730481940614,
+        2.410145306706987,
+        41.756856204224384
+      ],
+      "id": "F04_025_NEAR_DISJOINT",
+      "nearest_locations": [
+        [
+          "J_09",
+          3.603227842824237
+        ],
+        [
+          "B_32",
+          4.136618107357881
+        ],
+        [
+          "F04",
+          4.267165541002869
+        ]
+      ],
+      "one_sided_raw_coplanar_candidate_area_mm2": 0.0,
+      "raw_segment_candidate_length_mm": 0.0,
+      "reference_pair_present": false,
+      "region": "F04",
+      "segment_midpoint_on_triangle_boundary": [],
+      "segment_support_residual_mm": 0.0,
+      "tissue_face": 70474,
+      "two_sided_coplanarity_residual_mm": 0.13485978404832513,
+      "u": 0.25,
+      "vtk_candidate": false
+    },
+    {
+      "cavity_face": 24257,
+      "center_mm": [
+        29.408860206604004,
+        15.118668019771576,
+        -60.51591968536377
+      ],
+      "class": "EDGE_CONTACT",
+      "coplanar_pair_overlap_area_mm2": 0.0,
+      "finite_feature_gap_mm": 0.0,
+      "finite_segment_length_mm": 0.9148579443040232,
+      "finite_segment_world_mm": [
+        [
+          13.866288185119629,
+          -0.8814247846603394,
+          20.485029220581055
+        ],
+        [
+          12.951432228088379,
+          -0.8812391757965088,
+          20.483131408691406
+        ]
+      ],
+      "godot_world_center_mm": [
+        13.408860206604004,
+        -0.8813319802284241,
+        20.48408031463623
+      ],
+      "id": "J_05_050_EDGE_CONTACT",
+      "nearest_locations": [
+        [
+          "J_05",
+          4.0375487119424625
+        ],
+        [
+          "B_31",
+          6.902705253000268
+        ],
+        [
+          "J_04",
+          8.124864568989238
+        ]
+      ],
+      "one_sided_raw_coplanar_candidate_area_mm2": 0.0,
+      "raw_segment_candidate_length_mm": 0.9148579443040232,
+      "reference_pair_present": true,
+      "region": "J_05",
+      "segment_midpoint_on_triangle_boundary": [
+        true,
+        true
+      ],
+      "segment_support_residual_mm": 0.0,
+      "tissue_face": 26251,
+      "two_sided_coplanarity_residual_mm": 0.1851430216901469,
+      "u": 0.5,
+      "vtk_candidate": true
+    },
+    {
+      "cavity_face": 10354,
+      "center_mm": [
+        28.946911811828613,
+        16.036724474281073,
+        -56.09704780578613
+      ],
+      "class": "POINT_CONTACT_OR_TANGENCY",
+      "coplanar_pair_overlap_area_mm2": 0.0,
+      "finite_feature_gap_mm": 0.0,
+      "finite_segment_length_mm": 0.0,
+      "finite_segment_world_mm": null,
+      "godot_world_center_mm": [
+        12.946911811828613,
+        0.03672447428107262,
+        24.902952194213867
+      ],
+      "id": "J_05_050_POINT_CONTACT_OR_TANGENCY",
+      "nearest_locations": [
+        [
+          "J_05",
+          2.363966117462779
+        ],
+        [
+          "B_31",
+          4.730055222427383
+        ],
+        [
+          "J_04",
+          8.09168993645087
+        ]
+      ],
+      "one_sided_raw_coplanar_candidate_area_mm2": 0.0,
+      "raw_segment_candidate_length_mm": 0.0,
+      "reference_pair_present": true,
+      "region": "J_05",
+      "segment_midpoint_on_triangle_boundary": [],
+      "segment_support_residual_mm": 0.0,
+      "tissue_face": 115559,
+      "two_sided_coplanarity_residual_mm": 0.30412044564574836,
+      "u": 0.5,
+      "vtk_candidate": true
+    },
+    {
+      "cavity_face": 17878,
+      "center_mm": [
+        29.871353750552696,
+        16.0164374415561,
+        -56.72833589572039
+      ],
+      "class": "NEAR_DISJOINT",
+      "coplanar_pair_overlap_area_mm2": 0.0,
+      "finite_feature_gap_mm": 0.039442420359478585,
+      "finite_segment_length_mm": 0.0,
+      "finite_segment_world_mm": null,
+      "godot_world_center_mm": [
+        13.871353750552696,
+        0.01643744155609994,
+        24.27166410427961
+      ],
+      "id": "J_05_050_NEAR_DISJOINT",
+      "nearest_locations": [
+        [
+          "J_05",
+          2.5141485331232722
+        ],
+        [
+          "B_31",
+          4.16541326323915
+        ],
+        [
+          "J_04",
+          8.766499856879184
+        ]
+      ],
+      "one_sided_raw_coplanar_candidate_area_mm2": 0.0,
+      "raw_segment_candidate_length_mm": 0.0,
+      "reference_pair_present": false,
+      "region": "J_05",
+      "segment_midpoint_on_triangle_boundary": [],
+      "segment_support_residual_mm": 0.0,
+      "tissue_face": 115535,
+      "two_sided_coplanarity_residual_mm": 0.13502060338846386,
+      "u": 0.5,
+      "vtk_candidate": false
+    },
+    {
+      "cavity_face": 6970,
+      "center_mm": [
+        10.134795188903809,
+        19.798859357833862,
+        -39.8680477142334
+      ],
+      "class": "EDGE_CONTACT",
+      "coplanar_pair_overlap_area_mm2": 0.0,
+      "finite_feature_gap_mm": 0.0,
+      "finite_segment_length_mm": 0.9155852745092505,
+      "finite_segment_world_mm": [
+        [
+          -5.863691806793213,
+          4.256649494171143,
+          41.131927490234375
+        ],
+        [
+          -5.86671781539917,
+          3.341069221496582,
+          41.13197708129883
+        ]
+      ],
+      "godot_world_center_mm": [
+        -5.865204811096191,
+        3.7988593578338623,
+        41.1319522857666
+      ],
+      "id": "J_09_050_EDGE_CONTACT",
+      "nearest_locations": [
+        [
+          "J_09",
+          3.9377716479420957
+        ],
+        [
+          "F04",
+          4.110554291815573
+        ],
+        [
+          "B_32",
+          4.527909100941285
+        ]
+      ],
+      "one_sided_raw_coplanar_candidate_area_mm2": 0.0,
+      "raw_segment_candidate_length_mm": 0.9155852745092505,
+      "reference_pair_present": true,
+      "region": "J_09",
+      "segment_midpoint_on_triangle_boundary": [
+        true,
+        true
+      ],
+      "segment_support_residual_mm": 0.0,
+      "tissue_face": 64744,
+      "two_sided_coplanarity_residual_mm": 0.13532450323307715,
+      "u": 0.5,
+      "vtk_candidate": true
+    },
+    {
+      "cavity_face": 6970,
+      "center_mm": [
+        10.13328218460083,
+        19.341069221496582,
+        -39.86802291870117
+      ],
+      "class": "POINT_CONTACT_OR_TANGENCY",
+      "coplanar_pair_overlap_area_mm2": 0.0,
+      "finite_feature_gap_mm": 0.0,
+      "finite_segment_length_mm": 0.0,
+      "finite_segment_world_mm": null,
+      "godot_world_center_mm": [
+        -5.86671781539917,
+        3.341069221496582,
+        41.13197708129883
+      ],
+      "id": "J_09_050_POINT_CONTACT_OR_TANGENCY",
+      "nearest_locations": [
+        [
+          "J_09",
+          3.7713142222036895
+        ],
+        [
+          "F04",
+          4.283400923637224
+        ],
+        [
+          "B_32",
+          4.413308469244524
+        ]
+      ],
+      "one_sided_raw_coplanar_candidate_area_mm2": 0.0,
+      "raw_segment_candidate_length_mm": 0.0,
+      "reference_pair_present": true,
+      "region": "J_09",
+      "segment_midpoint_on_triangle_boundary": [],
+      "segment_support_residual_mm": 0.0,
+      "tissue_face": 60988,
+      "two_sided_coplanarity_residual_mm": 0.13532450319919806,
+      "u": 0.5,
+      "vtk_candidate": true
+    },
+    {
+      "cavity_face": 6973,
+      "center_mm": [
+        10.109015254038727,
+        18.422726376429285,
+        -39.23504088680041
+      ],
+      "class": "NEAR_DISJOINT",
+      "coplanar_pair_overlap_area_mm2": 0.0,
+      "finite_feature_gap_mm": 0.03940943419956903,
+      "finite_segment_length_mm": 0.0,
+      "finite_segment_world_mm": null,
+      "godot_world_center_mm": [
+        -5.890984745961273,
+        2.422726376429285,
+        41.76495911319959
+      ],
+      "id": "J_09_050_NEAR_DISJOINT",
+      "nearest_locations": [
+        [
+          "J_09",
+          3.631758763510499
+        ],
+        [
+          "B_32",
+          4.161680628643889
+        ],
+        [
+          "F04",
+          4.259303321058426
+        ]
+      ],
+      "one_sided_raw_coplanar_candidate_area_mm2": 0.0,
+      "raw_segment_candidate_length_mm": 0.0,
+      "reference_pair_present": false,
+      "region": "J_09",
+      "segment_midpoint_on_triangle_boundary": [],
+      "segment_support_residual_mm": 0.0,
+      "tissue_face": 70474,
+      "two_sided_coplanarity_residual_mm": 0.13481842095159144,
+      "u": 0.5,
+      "vtk_candidate": false
+    },
+    {
+      "cavity_face": 6970,
+      "center_mm": [
+        10.134795188903809,
+        19.798859357833862,
+        -39.8680477142334
+      ],
+      "class": "EDGE_CONTACT",
+      "coplanar_pair_overlap_area_mm2": 0.0,
+      "finite_feature_gap_mm": 0.0,
+      "finite_segment_length_mm": 0.9155852745092505,
+      "finite_segment_world_mm": [
+        [
+          -5.863691806793213,
+          4.256649494171143,
+          41.131927490234375
+        ],
+        [
+          -5.86671781539917,
+          3.341069221496582,
+          41.13197708129883
+        ]
+      ],
+      "godot_world_center_mm": [
+        -5.865204811096191,
+        3.7988593578338623,
+        41.1319522857666
+      ],
+      "id": "B_32_050_EDGE_CONTACT",
+      "nearest_locations": [
+        [
+          "J_09",
+          3.9377716479420957
+        ],
+        [
+          "F04",
+          4.110554291815573
+        ],
+        [
+          "B_32",
+          4.527909100941285
+        ]
+      ],
+      "one_sided_raw_coplanar_candidate_area_mm2": 0.0,
+      "raw_segment_candidate_length_mm": 0.9155852745092505,
+      "reference_pair_present": true,
+      "region": "B_32",
+      "segment_midpoint_on_triangle_boundary": [
+        true,
+        true
+      ],
+      "segment_support_residual_mm": 0.0,
+      "tissue_face": 64744,
+      "two_sided_coplanarity_residual_mm": 0.13532450323307715,
+      "u": 0.5,
+      "vtk_candidate": true
+    },
+    {
+      "cavity_face": 6970,
+      "center_mm": [
+        10.13328218460083,
+        19.341069221496582,
+        -39.86802291870117
+      ],
+      "class": "POINT_CONTACT_OR_TANGENCY",
+      "coplanar_pair_overlap_area_mm2": 0.0,
+      "finite_feature_gap_mm": 0.0,
+      "finite_segment_length_mm": 0.0,
+      "finite_segment_world_mm": null,
+      "godot_world_center_mm": [
+        -5.86671781539917,
+        3.341069221496582,
+        41.13197708129883
+      ],
+      "id": "B_32_050_POINT_CONTACT_OR_TANGENCY",
+      "nearest_locations": [
+        [
+          "J_09",
+          3.7713142222036895
+        ],
+        [
+          "F04",
+          4.283400923637224
+        ],
+        [
+          "B_32",
+          4.413308469244524
+        ]
+      ],
+      "one_sided_raw_coplanar_candidate_area_mm2": 0.0,
+      "raw_segment_candidate_length_mm": 0.0,
+      "reference_pair_present": true,
+      "region": "B_32",
+      "segment_midpoint_on_triangle_boundary": [],
+      "segment_support_residual_mm": 0.0,
+      "tissue_face": 60988,
+      "two_sided_coplanarity_residual_mm": 0.13532450319919806,
+      "u": 0.5,
+      "vtk_candidate": true
+    },
+    {
+      "cavity_face": 6973,
+      "center_mm": [
+        10.109015254038727,
+        18.422726376429285,
+        -39.23504088680041
+      ],
+      "class": "NEAR_DISJOINT",
+      "coplanar_pair_overlap_area_mm2": 0.0,
+      "finite_feature_gap_mm": 0.03940943419956903,
+      "finite_segment_length_mm": 0.0,
+      "finite_segment_world_mm": null,
+      "godot_world_center_mm": [
+        -5.890984745961273,
+        2.422726376429285,
+        41.76495911319959
+      ],
+      "id": "B_32_050_NEAR_DISJOINT",
+      "nearest_locations": [
+        [
+          "J_09",
+          3.631758763510499
+        ],
+        [
+          "B_32",
+          4.161680628643889
+        ],
+        [
+          "F04",
+          4.259303321058426
+        ]
+      ],
+      "one_sided_raw_coplanar_candidate_area_mm2": 0.0,
+      "raw_segment_candidate_length_mm": 0.0,
+      "reference_pair_present": false,
+      "region": "B_32",
+      "segment_midpoint_on_triangle_boundary": [],
+      "segment_support_residual_mm": 0.0,
+      "tissue_face": 70474,
+      "two_sided_coplanarity_residual_mm": 0.13481842095159144,
+      "u": 0.5,
+      "vtk_candidate": false
+    },
+    {
+      "cavity_face": 6970,
+      "center_mm": [
+        10.134795188903809,
+        19.798859357833862,
+        -39.8680477142334
+      ],
+      "class": "EDGE_CONTACT",
+      "coplanar_pair_overlap_area_mm2": 0.0,
+      "finite_feature_gap_mm": 0.0,
+      "finite_segment_length_mm": 0.9155852745092505,
+      "finite_segment_world_mm": [
+        [
+          -5.863691806793213,
+          4.256649494171143,
+          41.131927490234375
+        ],
+        [
+          -5.86671781539917,
+          3.341069221496582,
+          41.13197708129883
+        ]
+      ],
+      "godot_world_center_mm": [
+        -5.865204811096191,
+        3.7988593578338623,
+        41.1319522857666
+      ],
+      "id": "F04_050_EDGE_CONTACT",
+      "nearest_locations": [
+        [
+          "J_09",
+          3.9377716479420957
+        ],
+        [
+          "F04",
+          4.110554291815573
+        ],
+        [
+          "B_32",
+          4.527909100941285
+        ]
+      ],
+      "one_sided_raw_coplanar_candidate_area_mm2": 0.0,
+      "raw_segment_candidate_length_mm": 0.9155852745092505,
+      "reference_pair_present": true,
+      "region": "F04",
+      "segment_midpoint_on_triangle_boundary": [
+        true,
+        true
+      ],
+      "segment_support_residual_mm": 0.0,
+      "tissue_face": 64744,
+      "two_sided_coplanarity_residual_mm": 0.13532450323307715,
+      "u": 0.5,
+      "vtk_candidate": true
+    },
+    {
+      "cavity_face": 6968,
+      "center_mm": [
+        10.136308193206787,
+        20.256649494171143,
+        -39.868072509765625
+      ],
+      "class": "POINT_CONTACT_OR_TANGENCY",
+      "coplanar_pair_overlap_area_mm2": 0.0,
+      "finite_feature_gap_mm": 0.0,
+      "finite_segment_length_mm": 0.0,
+      "finite_segment_world_mm": null,
+      "godot_world_center_mm": [
+        -5.863691806793213,
+        4.256649494171143,
+        41.131927490234375
+      ],
+      "id": "F04_050_POINT_CONTACT_OR_TANGENCY",
+      "nearest_locations": [
+        [
+          "F04",
+          3.9830814574597544
+        ],
+        [
+          "J_09",
+          4.148304272534319
+        ],
+        [
+          "B_32",
+          4.684632131290298
+        ]
+      ],
+      "one_sided_raw_coplanar_candidate_area_mm2": 0.0,
+      "raw_segment_candidate_length_mm": 0.0,
+      "reference_pair_present": false,
+      "region": "F04",
+      "segment_midpoint_on_triangle_boundary": [],
+      "segment_support_residual_mm": 0.0,
+      "tissue_face": 64744,
+      "two_sided_coplanarity_residual_mm": 0.1841411935562178,
+      "u": 0.5,
+      "vtk_candidate": true
+    },
+    {
+      "cavity_face": 6973,
+      "center_mm": [
+        10.109015254038727,
+        18.422726376429285,
+        -39.23504088680041
+      ],
+      "class": "NEAR_DISJOINT",
+      "coplanar_pair_overlap_area_mm2": 0.0,
+      "finite_feature_gap_mm": 0.03940943419956903,
+      "finite_segment_length_mm": 0.0,
+      "finite_segment_world_mm": null,
+      "godot_world_center_mm": [
+        -5.890984745961273,
+        2.422726376429285,
+        41.76495911319959
+      ],
+      "id": "F04_050_NEAR_DISJOINT",
+      "nearest_locations": [
+        [
+          "J_09",
+          3.631758763510499
+        ],
+        [
+          "B_32",
+          4.161680628643889
+        ],
+        [
+          "F04",
+          4.259303321058426
+        ]
+      ],
+      "one_sided_raw_coplanar_candidate_area_mm2": 0.0,
+      "raw_segment_candidate_length_mm": 0.0,
+      "reference_pair_present": false,
+      "region": "F04",
+      "segment_midpoint_on_triangle_boundary": [],
+      "segment_support_residual_mm": 0.0,
+      "tissue_face": 70474,
+      "two_sided_coplanarity_residual_mm": 0.13481842095159144,
+      "u": 0.5,
+      "vtk_candidate": false
+    },
+    {
+      "cavity_face": 24257,
+      "center_mm": [
+        29.416522979736328,
+        15.088661313056946,
+        -60.523879051208496
+      ],
+      "class": "EDGE_CONTACT",
+      "coplanar_pair_overlap_area_mm2": 0.0,
+      "finite_feature_gap_mm": 0.0,
+      "finite_segment_length_mm": 0.9123274848131105,
+      "finite_segment_world_mm": [
+        [
+          13.872684478759766,
+          -0.9114779233932495,
+          20.4775447845459
+        ],
+        [
+          12.96036148071289,
+          -0.9111994504928589,
+          20.47469711303711
+        ]
+      ],
+      "godot_world_center_mm": [
+        13.416522979736328,
+        -0.9113386869430542,
+        20.476120948791504
+      ],
+      "id": "J_05_075_EDGE_CONTACT",
+      "nearest_locations": [
+        [
+          "J_05",
+          4.064569920788627
+        ],
+        [
+          "B_31",
+          6.921584477607529
+        ],
+        [
+          "J_04",
+          8.127402216161201
+        ]
+      ],
+      "one_sided_raw_coplanar_candidate_area_mm2": 0.0,
+      "raw_segment_candidate_length_mm": 0.9123274848131105,
+      "reference_pair_present": true,
+      "region": "J_05",
+      "segment_midpoint_on_triangle_boundary": [
+        true,
+        true
+      ],
+      "segment_support_residual_mm": 0.0,
+      "tissue_face": 131421,
+      "two_sided_coplanarity_residual_mm": 0.1838094885678011,
+      "u": 0.75,
+      "vtk_candidate": true
+    },
+    {
+      "cavity_face": 10354,
+      "center_mm": [
+        28.953580856323242,
+        16.005785569548607,
+        -56.08307075500488
+      ],
+      "class": "POINT_CONTACT_OR_TANGENCY",
+      "coplanar_pair_overlap_area_mm2": 0.0,
+      "finite_feature_gap_mm": 0.0,
+      "finite_segment_length_mm": 0.0,
+      "finite_segment_world_mm": null,
+      "godot_world_center_mm": [
+        12.953580856323242,
+        0.0057855695486068726,
+        24.916929244995117
+      ],
+      "id": "J_05_075_POINT_CONTACT_OR_TANGENCY",
+      "nearest_locations": [
+        [
+          "J_05",
+          2.3966341851705972
+        ],
+        [
+          "B_31",
+          4.74362641597698
+        ],
+        [
+          "J_04",
+          8.091516515055524
+        ]
+      ],
+      "one_sided_raw_coplanar_candidate_area_mm2": 0.0,
+      "raw_segment_candidate_length_mm": 0.0,
+      "reference_pair_present": true,
+      "region": "J_05",
+      "segment_midpoint_on_triangle_boundary": [],
+      "segment_support_residual_mm": 0.0,
+      "tissue_face": 115546,
+      "two_sided_coplanarity_residual_mm": 0.3042645996665358,
+      "u": 0.75,
+      "vtk_candidate": true
+    },
+    {
+      "cavity_face": 17878,
+      "center_mm": [
+        29.880284136381817,
+        15.98519666816505,
+        -56.71812608955637
+      ],
+      "class": "NEAR_DISJOINT",
+      "coplanar_pair_overlap_area_mm2": 0.0,
+      "finite_feature_gap_mm": 0.03944095472536767,
+      "finite_segment_length_mm": 0.0,
+      "finite_segment_world_mm": null,
+      "godot_world_center_mm": [
+        13.880284136381817,
+        -0.014803331834949418,
+        24.28187391044363
+      ],
+      "id": "J_05_075_NEAR_DISJOINT",
+      "nearest_locations": [
+        [
+          "J_05",
+          2.5444146919301946
+        ],
+        [
+          "B_31",
+          4.179897989792286
+        ],
+        [
+          "J_04",
+          8.767327633695631
+        ]
+      ],
+      "one_sided_raw_coplanar_candidate_area_mm2": 0.0,
+      "raw_segment_candidate_length_mm": 0.0,
+      "reference_pair_present": false,
+      "region": "J_05",
+      "segment_midpoint_on_triangle_boundary": [],
+      "segment_support_residual_mm": 0.0,
+      "tissue_face": 115535,
+      "two_sided_coplanarity_residual_mm": 0.1350168331180531,
+      "u": 0.75,
+      "vtk_candidate": false
+    },
+    {
+      "cavity_face": 6970,
+      "center_mm": [
+        10.164607048034668,
+        19.80914306640625,
+        -39.864572525024414
+      ],
+      "class": "EDGE_CONTACT",
+      "coplanar_pair_overlap_area_mm2": 0.0,
+      "finite_feature_gap_mm": 0.0,
+      "finite_segment_length_mm": 0.9134205120463904,
+      "finite_segment_world_mm": [
+        [
+          -5.833123683929443,
+          4.265847682952881,
+          41.1353874206543
+        ],
+        [
+          -5.837662220001221,
+          3.352438449859619,
+          41.135467529296875
+        ]
+      ],
+      "godot_world_center_mm": [
+        -5.835392951965332,
+        3.80914306640625,
+        41.135427474975586
+      ],
+      "id": "J_09_075_EDGE_CONTACT",
+      "nearest_locations": [
+        [
+          "J_09",
+          3.969197338290156
+        ],
+        [
+          "F04",
+          4.111502276775118
+        ],
+        [
+          "B_32",
+          4.557249624940695
+        ]
+      ],
+      "one_sided_raw_coplanar_candidate_area_mm2": 0.0,
+      "raw_segment_candidate_length_mm": 0.9134205120463904,
+      "reference_pair_present": true,
+      "region": "J_09",
+      "segment_midpoint_on_triangle_boundary": [
+        true,
+        true
+      ],
+      "segment_support_residual_mm": 0.0,
+      "tissue_face": 64744,
+      "two_sided_coplanarity_residual_mm": 0.135334825612391,
+      "u": 0.75,
+      "vtk_candidate": true
+    },
+    {
+      "cavity_face": 6970,
+      "center_mm": [
+        10.16233777999878,
+        19.35243844985962,
+        -39.864532470703125
+      ],
+      "class": "POINT_CONTACT_OR_TANGENCY",
+      "coplanar_pair_overlap_area_mm2": 0.0,
+      "finite_feature_gap_mm": 0.0,
+      "finite_segment_length_mm": 0.0,
+      "finite_segment_world_mm": null,
+      "godot_world_center_mm": [
+        -5.837662220001221,
+        3.352438449859619,
+        41.135467529296875
+      ],
+      "id": "J_09_075_POINT_CONTACT_OR_TANGENCY",
+      "nearest_locations": [
+        [
+          "J_09",
+          3.8024807764003743
+        ],
+        [
+          "F04",
+          4.282545157475608
+        ],
+        [
+          "B_32",
+          4.441838941853481
+        ]
+      ],
+      "one_sided_raw_coplanar_candidate_area_mm2": 0.0,
+      "raw_segment_candidate_length_mm": 0.0,
+      "reference_pair_present": true,
+      "region": "J_09",
+      "segment_midpoint_on_triangle_boundary": [],
+      "segment_support_residual_mm": 0.0,
+      "tissue_face": 60988,
+      "two_sided_coplanarity_residual_mm": 0.13533482476734018,
+      "u": 0.75,
+      "vtk_candidate": true
+    },
+    {
+      "cavity_face": 6973,
+      "center_mm": [
+        10.135761265008547,
+        18.43530741137048,
+        -39.22694150209222
+      ],
+      "class": "NEAR_DISJOINT",
+      "coplanar_pair_overlap_area_mm2": 0.0,
+      "finite_feature_gap_mm": 0.03940922861098887,
+      "finite_segment_length_mm": 0.0,
+      "finite_segment_world_mm": null,
+      "godot_world_center_mm": [
+        -5.864238734991453,
+        2.4353074113704807,
+        41.77305849790778
+      ],
+      "id": "J_09_075_NEAR_DISJOINT",
+      "nearest_locations": [
+        [
+          "J_09",
+          3.6603235342190827
+        ],
+        [
+          "B_32",
+          4.186818256818288
+        ],
+        [
+          "F04",
+          4.251650146879462
+        ]
+      ],
+      "one_sided_raw_coplanar_candidate_area_mm2": 0.0,
+      "raw_segment_candidate_length_mm": 0.0,
+      "reference_pair_present": false,
+      "region": "J_09",
+      "segment_midpoint_on_triangle_boundary": [],
+      "segment_support_residual_mm": 0.0,
+      "tissue_face": 70474,
+      "two_sided_coplanarity_residual_mm": 0.1347768477077254,
+      "u": 0.75,
+      "vtk_candidate": false
+    },
+    {
+      "cavity_face": 6970,
+      "center_mm": [
+        10.164607048034668,
+        19.80914306640625,
+        -39.864572525024414
+      ],
+      "class": "EDGE_CONTACT",
+      "coplanar_pair_overlap_area_mm2": 0.0,
+      "finite_feature_gap_mm": 0.0,
+      "finite_segment_length_mm": 0.9134205120463904,
+      "finite_segment_world_mm": [
+        [
+          -5.833123683929443,
+          4.265847682952881,
+          41.1353874206543
+        ],
+        [
+          -5.837662220001221,
+          3.352438449859619,
+          41.135467529296875
+        ]
+      ],
+      "godot_world_center_mm": [
+        -5.835392951965332,
+        3.80914306640625,
+        41.135427474975586
+      ],
+      "id": "B_32_075_EDGE_CONTACT",
+      "nearest_locations": [
+        [
+          "J_09",
+          3.969197338290156
+        ],
+        [
+          "F04",
+          4.111502276775118
+        ],
+        [
+          "B_32",
+          4.557249624940695
+        ]
+      ],
+      "one_sided_raw_coplanar_candidate_area_mm2": 0.0,
+      "raw_segment_candidate_length_mm": 0.9134205120463904,
+      "reference_pair_present": true,
+      "region": "B_32",
+      "segment_midpoint_on_triangle_boundary": [
+        true,
+        true
+      ],
+      "segment_support_residual_mm": 0.0,
+      "tissue_face": 64744,
+      "two_sided_coplanarity_residual_mm": 0.135334825612391,
+      "u": 0.75,
+      "vtk_candidate": true
+    },
+    {
+      "cavity_face": 6970,
+      "center_mm": [
+        10.16233777999878,
+        19.35243844985962,
+        -39.864532470703125
+      ],
+      "class": "POINT_CONTACT_OR_TANGENCY",
+      "coplanar_pair_overlap_area_mm2": 0.0,
+      "finite_feature_gap_mm": 0.0,
+      "finite_segment_length_mm": 0.0,
+      "finite_segment_world_mm": null,
+      "godot_world_center_mm": [
+        -5.837662220001221,
+        3.352438449859619,
+        41.135467529296875
+      ],
+      "id": "B_32_075_POINT_CONTACT_OR_TANGENCY",
+      "nearest_locations": [
+        [
+          "J_09",
+          3.8024807764003743
+        ],
+        [
+          "F04",
+          4.282545157475608
+        ],
+        [
+          "B_32",
+          4.441838941853481
+        ]
+      ],
+      "one_sided_raw_coplanar_candidate_area_mm2": 0.0,
+      "raw_segment_candidate_length_mm": 0.0,
+      "reference_pair_present": true,
+      "region": "B_32",
+      "segment_midpoint_on_triangle_boundary": [],
+      "segment_support_residual_mm": 0.0,
+      "tissue_face": 60988,
+      "two_sided_coplanarity_residual_mm": 0.13533482476734018,
+      "u": 0.75,
+      "vtk_candidate": true
+    },
+    {
+      "cavity_face": 6973,
+      "center_mm": [
+        10.135761265008547,
+        18.43530741137048,
+        -39.22694150209222
+      ],
+      "class": "NEAR_DISJOINT",
+      "coplanar_pair_overlap_area_mm2": 0.0,
+      "finite_feature_gap_mm": 0.03940922861098887,
+      "finite_segment_length_mm": 0.0,
+      "finite_segment_world_mm": null,
+      "godot_world_center_mm": [
+        -5.864238734991453,
+        2.4353074113704807,
+        41.77305849790778
+      ],
+      "id": "B_32_075_NEAR_DISJOINT",
+      "nearest_locations": [
+        [
+          "J_09",
+          3.6603235342190827
+        ],
+        [
+          "B_32",
+          4.186818256818288
+        ],
+        [
+          "F04",
+          4.251650146879462
+        ]
+      ],
+      "one_sided_raw_coplanar_candidate_area_mm2": 0.0,
+      "raw_segment_candidate_length_mm": 0.0,
+      "reference_pair_present": false,
+      "region": "B_32",
+      "segment_midpoint_on_triangle_boundary": [],
+      "segment_support_residual_mm": 0.0,
+      "tissue_face": 70474,
+      "two_sided_coplanarity_residual_mm": 0.1347768477077254,
+      "u": 0.75,
+      "vtk_candidate": false
+    },
+    {
+      "cavity_face": 6970,
+      "center_mm": [
+        10.164607048034668,
+        19.80914306640625,
+        -39.864572525024414
+      ],
+      "class": "EDGE_CONTACT",
+      "coplanar_pair_overlap_area_mm2": 0.0,
+      "finite_feature_gap_mm": 0.0,
+      "finite_segment_length_mm": 0.9134205120463904,
+      "finite_segment_world_mm": [
+        [
+          -5.833123683929443,
+          4.265847682952881,
+          41.1353874206543
+        ],
+        [
+          -5.837662220001221,
+          3.352438449859619,
+          41.135467529296875
+        ]
+      ],
+      "godot_world_center_mm": [
+        -5.835392951965332,
+        3.80914306640625,
+        41.135427474975586
+      ],
+      "id": "F04_075_EDGE_CONTACT",
+      "nearest_locations": [
+        [
+          "J_09",
+          3.969197338290156
+        ],
+        [
+          "F04",
+          4.111502276775118
+        ],
+        [
+          "B_32",
+          4.557249624940695
+        ]
+      ],
+      "one_sided_raw_coplanar_candidate_area_mm2": 0.0,
+      "raw_segment_candidate_length_mm": 0.9134205120463904,
+      "reference_pair_present": true,
+      "region": "F04",
+      "segment_midpoint_on_triangle_boundary": [
+        true,
+        true
+      ],
+      "segment_support_residual_mm": 0.0,
+      "tissue_face": 64744,
+      "two_sided_coplanarity_residual_mm": 0.135334825612391,
+      "u": 0.75,
+      "vtk_candidate": true
+    },
+    {
+      "cavity_face": 6968,
+      "center_mm": [
+        10.166876316070557,
+        20.26584768295288,
+        -39.8646125793457
+      ],
+      "class": "POINT_CONTACT_OR_TANGENCY",
+      "coplanar_pair_overlap_area_mm2": 0.0,
+      "finite_feature_gap_mm": 0.0,
+      "finite_segment_length_mm": 0.0,
+      "finite_segment_world_mm": null,
+      "godot_world_center_mm": [
+        -5.833123683929443,
+        4.265847682952881,
+        41.1353874206543
+      ],
+      "id": "F04_075_POINT_CONTACT_OR_TANGENCY",
+      "nearest_locations": [
+        [
+          "F04",
+          3.985709150696989
+        ],
+        [
+          "J_09",
+          4.179397502224271
+        ],
+        [
+          "B_32",
+          4.714263846942776
+        ]
+      ],
+      "one_sided_raw_coplanar_candidate_area_mm2": 0.0,
+      "raw_segment_candidate_length_mm": 0.0,
+      "reference_pair_present": true,
+      "region": "F04",
+      "segment_midpoint_on_triangle_boundary": [],
+      "segment_support_residual_mm": 0.0,
+      "tissue_face": 67107,
+      "two_sided_coplanarity_residual_mm": 0.1840402013072902,
+      "u": 0.75,
+      "vtk_candidate": true
+    },
+    {
+      "cavity_face": 6973,
+      "center_mm": [
+        10.135761265008547,
+        18.43530741137048,
+        -39.22694150209222
+      ],
+      "class": "NEAR_DISJOINT",
+      "coplanar_pair_overlap_area_mm2": 0.0,
+      "finite_feature_gap_mm": 0.03940922861098887,
+      "finite_segment_length_mm": 0.0,
+      "finite_segment_world_mm": null,
+      "godot_world_center_mm": [
+        -5.864238734991453,
+        2.4353074113704807,
+        41.77305849790778
+      ],
+      "id": "F04_075_NEAR_DISJOINT",
+      "nearest_locations": [
+        [
+          "J_09",
+          3.6603235342190827
+        ],
+        [
+          "B_32",
+          4.186818256818288
+        ],
+        [
+          "F04",
+          4.251650146879462
+        ]
+      ],
+      "one_sided_raw_coplanar_candidate_area_mm2": 0.0,
+      "raw_segment_candidate_length_mm": 0.0,
+      "reference_pair_present": false,
+      "region": "F04",
+      "segment_midpoint_on_triangle_boundary": [],
+      "segment_support_residual_mm": 0.0,
+      "tissue_face": 70474,
+      "two_sided_coplanarity_residual_mm": 0.1347768477077254,
+      "u": 0.75,
+      "vtk_candidate": false
+    },
+    {
+      "cavity_face": 24257,
+      "center_mm": [
+        29.42418622970581,
+        15.058654636144638,
+        -60.53183937072754
+      ],
+      "class": "EDGE_CONTACT",
+      "coplanar_pair_overlap_area_mm2": 0.0,
+      "finite_feature_gap_mm": 0.0,
+      "finite_segment_length_mm": 0.9097970787478926,
+      "finite_segment_world_mm": [
+        [
+          13.879080772399902,
+          -0.9415310025215149,
+          20.47005844116211
+        ],
+        [
+          12.969291687011719,
+          -0.941159725189209,
+          20.466262817382812
+        ]
+      ],
+      "godot_world_center_mm": [
+        13.42418622970581,
+        -0.9413453638553619,
+        20.46816062927246
+      ],
+      "id": "J_05_100_EDGE_CONTACT",
+      "nearest_locations": [
+        [
+          "J_05",
+          4.091663372251038
+        ],
+        [
+          "B_31",
+          6.940560081393927
+        ],
+        [
+          "J_04",
+          8.130065526114048
+        ]
+      ],
+      "one_sided_raw_coplanar_candidate_area_mm2": 0.0,
+      "raw_segment_candidate_length_mm": 0.9097970787478926,
+      "reference_pair_present": true,
+      "region": "J_05",
+      "segment_midpoint_on_triangle_boundary": [
+        true,
+        true
+      ],
+      "segment_support_residual_mm": 0.0,
+      "tissue_face": 26251,
+      "two_sided_coplanarity_residual_mm": 0.18615459828393247,
+      "u": 1.0,
+      "vtk_candidate": true
+    },
+    {
+      "cavity_face": 10354,
+      "center_mm": [
+        28.96024990081787,
+        15.97484666109085,
+        -56.069095611572266
+      ],
+      "class": "POINT_CONTACT_OR_TANGENCY",
+      "coplanar_pair_overlap_area_mm2": 0.0,
+      "finite_feature_gap_mm": 0.0,
+      "finite_segment_length_mm": 0.0,
+      "finite_segment_world_mm": null,
+      "godot_world_center_mm": [
+        12.960249900817871,
+        -0.02515333890914917,
+        24.930904388427734
+      ],
+      "id": "J_05_100_POINT_CONTACT_OR_TANGENCY",
+      "nearest_locations": [
+        [
+          "J_05",
+          2.429354478657799
+        ],
+        [
+          "B_31",
+          4.757410627651555
+        ],
+        [
+          "J_04",
+          8.091490444099591
+        ]
+      ],
+      "one_sided_raw_coplanar_candidate_area_mm2": 0.0,
+      "raw_segment_candidate_length_mm": 0.0,
+      "reference_pair_present": true,
+      "region": "J_05",
+      "segment_midpoint_on_triangle_boundary": [],
+      "segment_support_residual_mm": 0.0,
+      "tissue_face": 115546,
+      "two_sided_coplanarity_residual_mm": 0.3044071462221173,
+      "u": 1.0,
+      "vtk_candidate": true
+    },
+    {
+      "cavity_face": 17878,
+      "center_mm": [
+        29.889213491874706,
+        15.953955896087102,
+        -56.70791619251172
+      ],
+      "class": "NEAR_DISJOINT",
+      "coplanar_pair_overlap_area_mm2": 0.0,
+      "finite_feature_gap_mm": 0.03943945823368726,
+      "finite_segment_length_mm": 0.0,
+      "finite_segment_world_mm": null,
+      "godot_world_center_mm": [
+        13.889213491874706,
+        -0.04604410391289804,
+        24.292083807488282
+      ],
+      "id": "J_05_100_NEAR_DISJOINT",
+      "nearest_locations": [
+        [
+          "J_05",
+          2.574774956244152
+        ],
+        [
+          "B_31",
+          4.194609891527638
+        ],
+        [
+          "J_04",
+          8.768286687160638
+        ]
+      ],
+      "one_sided_raw_coplanar_candidate_area_mm2": 0.0,
+      "raw_segment_candidate_length_mm": 0.0,
+      "reference_pair_present": false,
+      "region": "J_05",
+      "segment_midpoint_on_triangle_boundary": [],
+      "segment_support_residual_mm": 0.0,
+      "tissue_face": 115535,
+      "two_sided_coplanarity_residual_mm": 0.1350128469896314,
+      "u": 1.0,
+      "vtk_candidate": false
+    },
+    {
+      "cavity_face": 6970,
+      "center_mm": [
+        10.194418907165527,
+        19.819427013397217,
+        -39.86109733581543
+      ],
+      "class": "EDGE_CONTACT",
+      "coplanar_pair_overlap_area_mm2": 0.0,
+      "finite_feature_gap_mm": 0.0,
+      "finite_segment_length_mm": 0.9112587669361082,
+      "finite_segment_world_mm": [
+        [
+          -5.802555561065674,
+          4.275046348571777,
+          41.138851165771484
+        ],
+        [
+          -5.8086066246032715,
+          3.3638076782226562,
+          41.138954162597656
+        ]
+      ],
+      "godot_world_center_mm": [
+        -5.805581092834473,
+        3.819427013397217,
+        41.13890266418457
+      ],
+      "id": "J_09_100_EDGE_CONTACT",
+      "nearest_locations": [
+        [
+          "J_09",
+          4.000627876714708
+        ],
+        [
+          "F04",
+          4.11269472203076
+        ],
+        [
+          "B_32",
+          4.5866219884354
+        ]
+      ],
+      "one_sided_raw_coplanar_candidate_area_mm2": 0.0,
+      "raw_segment_candidate_length_mm": 0.9112587669361082,
+      "reference_pair_present": true,
+      "region": "J_09",
+      "segment_midpoint_on_triangle_boundary": [
+        true,
+        true
+      ],
+      "segment_support_residual_mm": 0.0,
+      "tissue_face": 64744,
+      "two_sided_coplanarity_residual_mm": 0.13534471875466905,
+      "u": 1.0,
+      "vtk_candidate": true
+    },
+    {
+      "cavity_face": 6970,
+      "center_mm": [
+        10.191393375396729,
+        19.363807678222656,
+        -39.861045837402344
+      ],
+      "class": "POINT_CONTACT_OR_TANGENCY",
+      "coplanar_pair_overlap_area_mm2": 0.0,
+      "finite_feature_gap_mm": 0.0,
+      "finite_segment_length_mm": 0.0,
+      "finite_segment_world_mm": null,
+      "godot_world_center_mm": [
+        -5.8086066246032715,
+        3.3638076782226562,
+        41.138954162597656
+      ],
+      "id": "J_09_100_POINT_CONTACT_OR_TANGENCY",
+      "nearest_locations": [
+        [
+          "J_09",
+          3.833651035642253
+        ],
+        [
+          "F04",
+          4.281922748390252
+        ],
+        [
+          "B_32",
+          4.470408885658991
+        ]
+      ],
+      "one_sided_raw_coplanar_candidate_area_mm2": 0.0,
+      "raw_segment_candidate_length_mm": 0.0,
+      "reference_pair_present": true,
+      "region": "J_09",
+      "segment_midpoint_on_triangle_boundary": [],
+      "segment_support_residual_mm": 0.0,
+      "tissue_face": 60988,
+      "two_sided_coplanarity_residual_mm": 0.1353447153597261,
+      "u": 1.0,
+      "vtk_candidate": true
+    },
+    {
+      "cavity_face": 6973,
+      "center_mm": [
+        10.16250729897041,
+        18.447888900228406,
+        -39.21883798892951
+      ],
+      "class": "NEAR_DISJOINT",
+      "coplanar_pair_overlap_area_mm2": 0.0,
+      "finite_feature_gap_mm": 0.03940909898990657,
+      "finite_segment_length_mm": 0.0,
+      "finite_segment_world_mm": null,
+      "godot_world_center_mm": [
+        -5.837492701029589,
+        2.4478889002284063,
+        41.78116201107049
+      ],
+      "id": "J_09_100_NEAR_DISJOINT",
+      "nearest_locations": [
+        [
+          "J_09",
+          3.688922532669055
+        ],
+        [
+          "B_32",
+          4.2120282757391765
+        ],
+        [
+          "F04",
+          4.244201181304173
+        ]
+      ],
+      "one_sided_raw_coplanar_candidate_area_mm2": 0.0,
+      "raw_segment_candidate_length_mm": 0.0,
+      "reference_pair_present": false,
+      "region": "J_09",
+      "segment_midpoint_on_triangle_boundary": [],
+      "segment_support_residual_mm": 0.0,
+      "tissue_face": 70474,
+      "two_sided_coplanarity_residual_mm": 0.13473460383703162,
+      "u": 1.0,
+      "vtk_candidate": false
+    },
+    {
+      "cavity_face": 6970,
+      "center_mm": [
+        10.194418907165527,
+        19.819427013397217,
+        -39.86109733581543
+      ],
+      "class": "EDGE_CONTACT",
+      "coplanar_pair_overlap_area_mm2": 0.0,
+      "finite_feature_gap_mm": 0.0,
+      "finite_segment_length_mm": 0.9112587669361082,
+      "finite_segment_world_mm": [
+        [
+          -5.802555561065674,
+          4.275046348571777,
+          41.138851165771484
+        ],
+        [
+          -5.8086066246032715,
+          3.3638076782226562,
+          41.138954162597656
+        ]
+      ],
+      "godot_world_center_mm": [
+        -5.805581092834473,
+        3.819427013397217,
+        41.13890266418457
+      ],
+      "id": "B_32_100_EDGE_CONTACT",
+      "nearest_locations": [
+        [
+          "J_09",
+          4.000627876714708
+        ],
+        [
+          "F04",
+          4.11269472203076
+        ],
+        [
+          "B_32",
+          4.5866219884354
+        ]
+      ],
+      "one_sided_raw_coplanar_candidate_area_mm2": 0.0,
+      "raw_segment_candidate_length_mm": 0.9112587669361082,
+      "reference_pair_present": true,
+      "region": "B_32",
+      "segment_midpoint_on_triangle_boundary": [
+        true,
+        true
+      ],
+      "segment_support_residual_mm": 0.0,
+      "tissue_face": 64744,
+      "two_sided_coplanarity_residual_mm": 0.13534471875466905,
+      "u": 1.0,
+      "vtk_candidate": true
+    },
+    {
+      "cavity_face": 6970,
+      "center_mm": [
+        10.191393375396729,
+        19.363807678222656,
+        -39.861045837402344
+      ],
+      "class": "POINT_CONTACT_OR_TANGENCY",
+      "coplanar_pair_overlap_area_mm2": 0.0,
+      "finite_feature_gap_mm": 0.0,
+      "finite_segment_length_mm": 0.0,
+      "finite_segment_world_mm": null,
+      "godot_world_center_mm": [
+        -5.8086066246032715,
+        3.3638076782226562,
+        41.138954162597656
+      ],
+      "id": "B_32_100_POINT_CONTACT_OR_TANGENCY",
+      "nearest_locations": [
+        [
+          "J_09",
+          3.833651035642253
+        ],
+        [
+          "F04",
+          4.281922748390252
+        ],
+        [
+          "B_32",
+          4.470408885658991
+        ]
+      ],
+      "one_sided_raw_coplanar_candidate_area_mm2": 0.0,
+      "raw_segment_candidate_length_mm": 0.0,
+      "reference_pair_present": true,
+      "region": "B_32",
+      "segment_midpoint_on_triangle_boundary": [],
+      "segment_support_residual_mm": 0.0,
+      "tissue_face": 60988,
+      "two_sided_coplanarity_residual_mm": 0.1353447153597261,
+      "u": 1.0,
+      "vtk_candidate": true
+    },
+    {
+      "cavity_face": 6973,
+      "center_mm": [
+        10.16250729897041,
+        18.447888900228406,
+        -39.21883798892951
+      ],
+      "class": "NEAR_DISJOINT",
+      "coplanar_pair_overlap_area_mm2": 0.0,
+      "finite_feature_gap_mm": 0.03940909898990657,
+      "finite_segment_length_mm": 0.0,
+      "finite_segment_world_mm": null,
+      "godot_world_center_mm": [
+        -5.837492701029589,
+        2.4478889002284063,
+        41.78116201107049
+      ],
+      "id": "B_32_100_NEAR_DISJOINT",
+      "nearest_locations": [
+        [
+          "J_09",
+          3.688922532669055
+        ],
+        [
+          "B_32",
+          4.2120282757391765
+        ],
+        [
+          "F04",
+          4.244201181304173
+        ]
+      ],
+      "one_sided_raw_coplanar_candidate_area_mm2": 0.0,
+      "raw_segment_candidate_length_mm": 0.0,
+      "reference_pair_present": false,
+      "region": "B_32",
+      "segment_midpoint_on_triangle_boundary": [],
+      "segment_support_residual_mm": 0.0,
+      "tissue_face": 70474,
+      "two_sided_coplanarity_residual_mm": 0.13473460383703162,
+      "u": 1.0,
+      "vtk_candidate": false
+    },
+    {
+      "cavity_face": 6970,
+      "center_mm": [
+        10.194418907165527,
+        19.819427013397217,
+        -39.86109733581543
+      ],
+      "class": "EDGE_CONTACT",
+      "coplanar_pair_overlap_area_mm2": 0.0,
+      "finite_feature_gap_mm": 0.0,
+      "finite_segment_length_mm": 0.9112587669361082,
+      "finite_segment_world_mm": [
+        [
+          -5.802555561065674,
+          4.275046348571777,
+          41.138851165771484
+        ],
+        [
+          -5.8086066246032715,
+          3.3638076782226562,
+          41.138954162597656
+        ]
+      ],
+      "godot_world_center_mm": [
+        -5.805581092834473,
+        3.819427013397217,
+        41.13890266418457
+      ],
+      "id": "F04_100_EDGE_CONTACT",
+      "nearest_locations": [
+        [
+          "J_09",
+          4.000627876714708
+        ],
+        [
+          "F04",
+          4.11269472203076
+        ],
+        [
+          "B_32",
+          4.5866219884354
+        ]
+      ],
+      "one_sided_raw_coplanar_candidate_area_mm2": 0.0,
+      "raw_segment_candidate_length_mm": 0.9112587669361082,
+      "reference_pair_present": true,
+      "region": "F04",
+      "segment_midpoint_on_triangle_boundary": [
+        true,
+        true
+      ],
+      "segment_support_residual_mm": 0.0,
+      "tissue_face": 64744,
+      "two_sided_coplanarity_residual_mm": 0.13534471875466905,
+      "u": 1.0,
+      "vtk_candidate": true
+    },
+    {
+      "cavity_face": 6968,
+      "center_mm": [
+        10.197444438934326,
+        20.275046348571777,
+        -39.861148834228516
+      ],
+      "class": "POINT_CONTACT_OR_TANGENCY",
+      "coplanar_pair_overlap_area_mm2": 0.0,
+      "finite_feature_gap_mm": 0.0,
+      "finite_segment_length_mm": 0.0,
+      "finite_segment_world_mm": null,
+      "godot_world_center_mm": [
+        -5.802555561065674,
+        4.275046348571777,
+        41.138851165771484
+      ],
+      "id": "F04_100_POINT_CONTACT_OR_TANGENCY",
+      "nearest_locations": [
+        [
+          "F04",
+          3.9885899263043294
+        ],
+        [
+          "J_09",
+          4.210506243074781
+        ],
+        [
+          "B_32",
+          4.743926980337947
+        ]
+      ],
+      "one_sided_raw_coplanar_candidate_area_mm2": 0.0,
+      "raw_segment_candidate_length_mm": 0.0,
+      "reference_pair_present": true,
+      "region": "F04",
+      "segment_midpoint_on_triangle_boundary": [],
+      "segment_support_residual_mm": 0.0,
+      "tissue_face": 67107,
+      "two_sided_coplanarity_residual_mm": 0.1840680335188041,
+      "u": 1.0,
+      "vtk_candidate": false
+    },
+    {
+      "cavity_face": 6973,
+      "center_mm": [
+        10.16250729897041,
+        18.447888900228406,
+        -39.21883798892951
+      ],
+      "class": "NEAR_DISJOINT",
+      "coplanar_pair_overlap_area_mm2": 0.0,
+      "finite_feature_gap_mm": 0.03940909898990657,
+      "finite_segment_length_mm": 0.0,
+      "finite_segment_world_mm": null,
+      "godot_world_center_mm": [
+        -5.837492701029589,
+        2.4478889002284063,
+        41.78116201107049
+      ],
+      "id": "F04_100_NEAR_DISJOINT",
+      "nearest_locations": [
+        [
+          "J_09",
+          3.688922532669055
+        ],
+        [
+          "B_32",
+          4.2120282757391765
+        ],
+        [
+          "F04",
+          4.244201181304173
+        ]
+      ],
+      "one_sided_raw_coplanar_candidate_area_mm2": 0.0,
+      "raw_segment_candidate_length_mm": 0.0,
+      "reference_pair_present": false,
+      "region": "F04",
+      "segment_midpoint_on_triangle_boundary": [],
+      "segment_support_residual_mm": 0.0,
+      "tissue_face": 70474,
+      "two_sided_coplanarity_residual_mm": 0.13473460383703162,
+      "u": 1.0,
+      "vtk_candidate": false
+    }
+  ],
+  "user_visual_anomaly_reproduced": false
+}

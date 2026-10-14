@@ -1,0 +1,2151 @@
+{
+  "candidate_pairs": 268,
+  "invalid_count": 0,
+  "pairs": [
+    {
+      "cap_face": 46912,
+      "coplanar_area_mm2": 0.0,
+      "finite_segment_mm": 0.26767784391067295,
+      "intended_section_ring_intersection": true,
+      "invalid": false,
+      "original_source_face": 2186
+    },
+    {
+      "cap_face": 46912,
+      "coplanar_area_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "intended_section_ring_intersection": false,
+      "invalid": false,
+      "original_source_face": 2187
+    },
+    {
+      "cap_face": 46914,
+      "coplanar_area_mm2": 0.0,
+      "finite_segment_mm": 0.135196847122517,
+      "intended_section_ring_intersection": true,
+      "invalid": false,
+      "original_source_face": 2185
+    },
+    {
+      "cap_face": 46918,
+      "coplanar_area_mm2": 0.0,
+      "finite_segment_mm": 0.7231286920285446,
+      "intended_section_ring_intersection": true,
+      "invalid": false,
+      "original_source_face": 2825
+    },
+    {
+      "cap_face": 46921,
+      "coplanar_area_mm2": 0.0,
+      "finite_segment_mm": 0.1529161282077366,
+      "intended_section_ring_intersection": true,
+      "invalid": false,
+      "original_source_face": 3094
+    },
+    {
+      "cap_face": 46922,
+      "coplanar_area_mm2": 0.0,
+      "finite_segment_mm": 0.19259356928138605,
+      "intended_section_ring_intersection": true,
+      "invalid": false,
+      "original_source_face": 3093
+    },
+    {
+      "cap_face": 46923,
+      "coplanar_area_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "intended_section_ring_intersection": false,
+      "invalid": false,
+      "original_source_face": 6050
+    },
+    {
+      "cap_face": 46904,
+      "coplanar_area_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "intended_section_ring_intersection": false,
+      "invalid": false,
+      "original_source_face": 151
+    },
+    {
+      "cap_face": 46905,
+      "coplanar_area_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "intended_section_ring_intersection": false,
+      "invalid": false,
+      "original_source_face": 151
+    },
+    {
+      "cap_face": 46906,
+      "coplanar_area_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "intended_section_ring_intersection": false,
+      "invalid": false,
+      "original_source_face": 151
+    },
+    {
+      "cap_face": 46904,
+      "coplanar_area_mm2": 0.0,
+      "finite_segment_mm": 0.1010149130328493,
+      "intended_section_ring_intersection": true,
+      "invalid": false,
+      "original_source_face": 158
+    },
+    {
+      "cap_face": 46905,
+      "coplanar_area_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "intended_section_ring_intersection": false,
+      "invalid": false,
+      "original_source_face": 158
+    },
+    {
+      "cap_face": 46905,
+      "coplanar_area_mm2": 0.0,
+      "finite_segment_mm": 0.059394688055511444,
+      "intended_section_ring_intersection": true,
+      "invalid": false,
+      "original_source_face": 159
+    },
+    {
+      "cap_face": 46906,
+      "coplanar_area_mm2": 0.0,
+      "finite_segment_mm": 0.05403195983529222,
+      "intended_section_ring_intersection": true,
+      "invalid": false,
+      "original_source_face": 160
+    },
+    {
+      "cap_face": 46907,
+      "coplanar_area_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "intended_section_ring_intersection": false,
+      "invalid": false,
+      "original_source_face": 151
+    },
+    {
+      "cap_face": 46907,
+      "coplanar_area_mm2": 0.0,
+      "finite_segment_mm": 0.859301581654018,
+      "intended_section_ring_intersection": true,
+      "invalid": false,
+      "original_source_face": 4522
+    },
+    {
+      "cap_face": 46901,
+      "coplanar_area_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "intended_section_ring_intersection": false,
+      "invalid": false,
+      "original_source_face": 151
+    },
+    {
+      "cap_face": 46902,
+      "coplanar_area_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "intended_section_ring_intersection": false,
+      "invalid": false,
+      "original_source_face": 151
+    },
+    {
+      "cap_face": 46901,
+      "coplanar_area_mm2": 0.0,
+      "finite_segment_mm": 0.15516264942145713,
+      "intended_section_ring_intersection": true,
+      "invalid": false,
+      "original_source_face": 4158
+    },
+    {
+      "cap_face": 46901,
+      "coplanar_area_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "intended_section_ring_intersection": false,
+      "invalid": false,
+      "original_source_face": 4159
+    },
+    {
+      "cap_face": 46902,
+      "coplanar_area_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "intended_section_ring_intersection": false,
+      "invalid": false,
+      "original_source_face": 4158
+    },
+    {
+      "cap_face": 46902,
+      "coplanar_area_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "intended_section_ring_intersection": false,
+      "invalid": false,
+      "original_source_face": 5033
+    },
+    {
+      "cap_face": 46902,
+      "coplanar_area_mm2": 0.0,
+      "finite_segment_mm": 0.031197194213344357,
+      "intended_section_ring_intersection": true,
+      "invalid": false,
+      "original_source_face": 5034
+    },
+    {
+      "cap_face": 46903,
+      "coplanar_area_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "intended_section_ring_intersection": false,
+      "invalid": false,
+      "original_source_face": 151
+    },
+    {
+      "cap_face": 46909,
+      "coplanar_area_mm2": 0.0,
+      "finite_segment_mm": 0.5967890921280677,
+      "intended_section_ring_intersection": true,
+      "invalid": false,
+      "original_source_face": 4535
+    },
+    {
+      "cap_face": 46911,
+      "coplanar_area_mm2": 0.0,
+      "finite_segment_mm": 0.3493364075897577,
+      "intended_section_ring_intersection": true,
+      "invalid": false,
+      "original_source_face": 2187
+    },
+    {
+      "cap_face": 46911,
+      "coplanar_area_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "intended_section_ring_intersection": false,
+      "invalid": false,
+      "original_source_face": 4535
+    },
+    {
+      "cap_face": 46926,
+      "coplanar_area_mm2": 0.0,
+      "finite_segment_mm": 0.2864828819183184,
+      "intended_section_ring_intersection": true,
+      "invalid": false,
+      "original_source_face": 4574
+    },
+    {
+      "cap_face": 46927,
+      "coplanar_area_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "intended_section_ring_intersection": false,
+      "invalid": false,
+      "original_source_face": 5981
+    },
+    {
+      "cap_face": 46932,
+      "coplanar_area_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "intended_section_ring_intersection": false,
+      "invalid": false,
+      "original_source_face": 3665
+    },
+    {
+      "cap_face": 46932,
+      "coplanar_area_mm2": 0.0,
+      "finite_segment_mm": 0.16065738861557985,
+      "intended_section_ring_intersection": true,
+      "invalid": false,
+      "original_source_face": 3666
+    },
+    {
+      "cap_face": 46934,
+      "coplanar_area_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "intended_section_ring_intersection": false,
+      "invalid": false,
+      "original_source_face": 3666
+    },
+    {
+      "cap_face": 46934,
+      "coplanar_area_mm2": 0.0,
+      "finite_segment_mm": 0.14524674722724729,
+      "intended_section_ring_intersection": true,
+      "invalid": false,
+      "original_source_face": 5150
+    },
+    {
+      "cap_face": 46935,
+      "coplanar_area_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "intended_section_ring_intersection": false,
+      "invalid": false,
+      "original_source_face": 5153
+    },
+    {
+      "cap_face": 46900,
+      "coplanar_area_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "intended_section_ring_intersection": false,
+      "invalid": false,
+      "original_source_face": 151
+    },
+    {
+      "cap_face": 46900,
+      "coplanar_area_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "intended_section_ring_intersection": false,
+      "invalid": false,
+      "original_source_face": 156
+    },
+    {
+      "cap_face": 46900,
+      "coplanar_area_mm2": 0.0,
+      "finite_segment_mm": 0.27591396664941736,
+      "intended_section_ring_intersection": true,
+      "invalid": false,
+      "original_source_face": 4159
+    },
+    {
+      "cap_face": 46892,
+      "coplanar_area_mm2": 0.0,
+      "finite_segment_mm": 0.310906966263772,
+      "intended_section_ring_intersection": true,
+      "invalid": false,
+      "original_source_face": 152
+    },
+    {
+      "cap_face": 46892,
+      "coplanar_area_mm2": 0.0,
+      "finite_segment_mm": 0.8047274744600275,
+      "intended_section_ring_intersection": true,
+      "invalid": false,
+      "original_source_face": 5620
+    },
+    {
+      "cap_face": 46894,
+      "coplanar_area_mm2": 0.0,
+      "finite_segment_mm": 0.011694483773637172,
+      "intended_section_ring_intersection": true,
+      "invalid": false,
+      "original_source_face": 5616
+    },
+    {
+      "cap_face": 46894,
+      "coplanar_area_mm2": 0.0,
+      "finite_segment_mm": 0.09904354990514781,
+      "intended_section_ring_intersection": true,
+      "invalid": false,
+      "original_source_face": 5619
+    },
+    {
+      "cap_face": 46895,
+      "coplanar_area_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "intended_section_ring_intersection": false,
+      "invalid": false,
+      "original_source_face": 5616
+    },
+    {
+      "cap_face": 46895,
+      "coplanar_area_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "intended_section_ring_intersection": false,
+      "invalid": false,
+      "original_source_face": 5620
+    },
+    {
+      "cap_face": 46896,
+      "coplanar_area_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "intended_section_ring_intersection": false,
+      "invalid": false,
+      "original_source_face": 5616
+    },
+    {
+      "cap_face": 46895,
+      "coplanar_area_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "intended_section_ring_intersection": false,
+      "invalid": false,
+      "original_source_face": 151
+    },
+    {
+      "cap_face": 46896,
+      "coplanar_area_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "intended_section_ring_intersection": false,
+      "invalid": false,
+      "original_source_face": 151
+    },
+    {
+      "cap_face": 46897,
+      "coplanar_area_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "intended_section_ring_intersection": false,
+      "invalid": false,
+      "original_source_face": 151
+    },
+    {
+      "cap_face": 46898,
+      "coplanar_area_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "intended_section_ring_intersection": false,
+      "invalid": false,
+      "original_source_face": 151
+    },
+    {
+      "cap_face": 46899,
+      "coplanar_area_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "intended_section_ring_intersection": false,
+      "invalid": false,
+      "original_source_face": 151
+    },
+    {
+      "cap_face": 46908,
+      "coplanar_area_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "intended_section_ring_intersection": false,
+      "invalid": false,
+      "original_source_face": 151
+    },
+    {
+      "cap_face": 46913,
+      "coplanar_area_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "intended_section_ring_intersection": false,
+      "invalid": false,
+      "original_source_face": 6047
+    },
+    {
+      "cap_face": 46916,
+      "coplanar_area_mm2": 0.0,
+      "finite_segment_mm": 0.02791876301505262,
+      "intended_section_ring_intersection": true,
+      "invalid": false,
+      "original_source_face": 6049
+    },
+    {
+      "cap_face": 46910,
+      "coplanar_area_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "intended_section_ring_intersection": false,
+      "invalid": false,
+      "original_source_face": 4535
+    },
+    {
+      "cap_face": 46916,
+      "coplanar_area_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "intended_section_ring_intersection": false,
+      "invalid": false,
+      "original_source_face": 2826
+    },
+    {
+      "cap_face": 46924,
+      "coplanar_area_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "intended_section_ring_intersection": false,
+      "invalid": false,
+      "original_source_face": 4574
+    },
+    {
+      "cap_face": 46893,
+      "coplanar_area_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "intended_section_ring_intersection": false,
+      "invalid": false,
+      "original_source_face": 152
+    },
+    {
+      "cap_face": 46893,
+      "coplanar_area_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "intended_section_ring_intersection": false,
+      "invalid": false,
+      "original_source_face": 5620
+    },
+    {
+      "cap_face": 46891,
+      "coplanar_area_mm2": 0.0,
+      "finite_segment_mm": 0.05533074253312319,
+      "intended_section_ring_intersection": true,
+      "invalid": false,
+      "original_source_face": 150
+    },
+    {
+      "cap_face": 46891,
+      "coplanar_area_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "intended_section_ring_intersection": false,
+      "invalid": false,
+      "original_source_face": 6040
+    },
+    {
+      "cap_face": 46893,
+      "coplanar_area_mm2": 0.0,
+      "finite_segment_mm": 0.0405933100733638,
+      "intended_section_ring_intersection": true,
+      "invalid": false,
+      "original_source_face": 151
+    },
+    {
+      "cap_face": 46889,
+      "coplanar_area_mm2": 0.0,
+      "finite_segment_mm": 0.7184601878401877,
+      "intended_section_ring_intersection": true,
+      "invalid": false,
+      "original_source_face": 6047
+    },
+    {
+      "cap_face": 46890,
+      "coplanar_area_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "intended_section_ring_intersection": false,
+      "invalid": false,
+      "original_source_face": 6046
+    },
+    {
+      "cap_face": 46925,
+      "coplanar_area_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "intended_section_ring_intersection": false,
+      "invalid": false,
+      "original_source_face": 4574
+    },
+    {
+      "cap_face": 46933,
+      "coplanar_area_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "intended_section_ring_intersection": false,
+      "invalid": false,
+      "original_source_face": 3666
+    },
+    {
+      "cap_face": 46933,
+      "coplanar_area_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "intended_section_ring_intersection": false,
+      "invalid": false,
+      "original_source_face": 5982
+    },
+    {
+      "cap_face": 46933,
+      "coplanar_area_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "intended_section_ring_intersection": false,
+      "invalid": false,
+      "original_source_face": 5983
+    },
+    {
+      "cap_face": 46941,
+      "coplanar_area_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "intended_section_ring_intersection": false,
+      "invalid": false,
+      "original_source_face": 4788
+    },
+    {
+      "cap_face": 46936,
+      "coplanar_area_mm2": 0.0,
+      "finite_segment_mm": 0.8036641943692283,
+      "intended_section_ring_intersection": true,
+      "invalid": false,
+      "original_source_face": 5153
+    },
+    {
+      "cap_face": 46936,
+      "coplanar_area_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "intended_section_ring_intersection": false,
+      "invalid": false,
+      "original_source_face": 5983
+    },
+    {
+      "cap_face": 46938,
+      "coplanar_area_mm2": 0.0,
+      "finite_segment_mm": 0.3910148019674403,
+      "intended_section_ring_intersection": true,
+      "invalid": false,
+      "original_source_face": 5155
+    },
+    {
+      "cap_face": 46940,
+      "coplanar_area_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "intended_section_ring_intersection": false,
+      "invalid": false,
+      "original_source_face": 5155
+    },
+    {
+      "cap_face": 46940,
+      "coplanar_area_mm2": 0.0,
+      "finite_segment_mm": 0.6381970357917045,
+      "intended_section_ring_intersection": true,
+      "invalid": false,
+      "original_source_face": 5728
+    },
+    {
+      "cap_face": 46941,
+      "coplanar_area_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "intended_section_ring_intersection": false,
+      "invalid": false,
+      "original_source_face": 5728
+    },
+    {
+      "cap_face": 46941,
+      "coplanar_area_mm2": 0.0,
+      "finite_segment_mm": 0.2732694137417782,
+      "intended_section_ring_intersection": true,
+      "invalid": false,
+      "original_source_face": 5729
+    },
+    {
+      "cap_face": 46943,
+      "coplanar_area_mm2": 0.0,
+      "finite_segment_mm": 0.34446660076712843,
+      "intended_section_ring_intersection": true,
+      "invalid": false,
+      "original_source_face": 3674
+    },
+    {
+      "cap_face": 46943,
+      "coplanar_area_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "intended_section_ring_intersection": false,
+      "invalid": false,
+      "original_source_face": 3675
+    },
+    {
+      "cap_face": 46945,
+      "coplanar_area_mm2": 0.0,
+      "finite_segment_mm": 0.12357387751274977,
+      "intended_section_ring_intersection": true,
+      "invalid": false,
+      "original_source_face": 3675
+    },
+    {
+      "cap_face": 46945,
+      "coplanar_area_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "intended_section_ring_intersection": false,
+      "invalid": false,
+      "original_source_face": 6155
+    },
+    {
+      "cap_face": 46946,
+      "coplanar_area_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "intended_section_ring_intersection": false,
+      "invalid": false,
+      "original_source_face": 6156
+    },
+    {
+      "cap_face": 46947,
+      "coplanar_area_mm2": 0.0,
+      "finite_segment_mm": 0.5438903645950223,
+      "intended_section_ring_intersection": true,
+      "invalid": false,
+      "original_source_face": 6156
+    },
+    {
+      "cap_face": 46947,
+      "coplanar_area_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "intended_section_ring_intersection": false,
+      "invalid": false,
+      "original_source_face": 6157
+    },
+    {
+      "cap_face": 46948,
+      "coplanar_area_mm2": 0.0,
+      "finite_segment_mm": 0.35845985155303806,
+      "intended_section_ring_intersection": true,
+      "invalid": false,
+      "original_source_face": 6157
+    },
+    {
+      "cap_face": 46953,
+      "coplanar_area_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "intended_section_ring_intersection": false,
+      "invalid": false,
+      "original_source_face": 5680
+    },
+    {
+      "cap_face": 46953,
+      "coplanar_area_mm2": 0.0,
+      "finite_segment_mm": 0.09835020039055004,
+      "intended_section_ring_intersection": true,
+      "invalid": false,
+      "original_source_face": 6133
+    },
+    {
+      "cap_face": 46954,
+      "coplanar_area_mm2": 0.0,
+      "finite_segment_mm": 0.19427968479178367,
+      "intended_section_ring_intersection": true,
+      "invalid": false,
+      "original_source_face": 5680
+    },
+    {
+      "cap_face": 46954,
+      "coplanar_area_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "intended_section_ring_intersection": false,
+      "invalid": false,
+      "original_source_face": 5681
+    },
+    {
+      "cap_face": 46959,
+      "coplanar_area_mm2": 0.0,
+      "finite_segment_mm": 0.16752220029237466,
+      "intended_section_ring_intersection": true,
+      "invalid": false,
+      "original_source_face": 6119
+    },
+    {
+      "cap_face": 46959,
+      "coplanar_area_mm2": 0.0,
+      "finite_segment_mm": 0.7877037973041522,
+      "intended_section_ring_intersection": true,
+      "invalid": false,
+      "original_source_face": 7143
+    },
+    {
+      "cap_face": 46942,
+      "coplanar_area_mm2": 0.0,
+      "finite_segment_mm": 0.42785546891952797,
+      "intended_section_ring_intersection": true,
+      "invalid": false,
+      "original_source_face": 4789
+    },
+    {
+      "cap_face": 46944,
+      "coplanar_area_mm2": 0.0,
+      "finite_segment_mm": 0.4212802699784737,
+      "intended_section_ring_intersection": true,
+      "invalid": false,
+      "original_source_face": 4790
+    },
+    {
+      "cap_face": 46951,
+      "coplanar_area_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "intended_section_ring_intersection": false,
+      "invalid": false,
+      "original_source_face": 4790
+    },
+    {
+      "cap_face": 46942,
+      "coplanar_area_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "intended_section_ring_intersection": false,
+      "invalid": false,
+      "original_source_face": 4788
+    },
+    {
+      "cap_face": 46885,
+      "coplanar_area_mm2": 0.0,
+      "finite_segment_mm": 0.03478045294606759,
+      "intended_section_ring_intersection": true,
+      "invalid": false,
+      "original_source_face": 4960
+    },
+    {
+      "cap_face": 46887,
+      "coplanar_area_mm2": 0.0,
+      "finite_segment_mm": 0.9476158536625406,
+      "intended_section_ring_intersection": true,
+      "invalid": false,
+      "original_source_face": 143
+    },
+    {
+      "cap_face": 46881,
+      "coplanar_area_mm2": 0.0,
+      "finite_segment_mm": 0.12836102586423961,
+      "intended_section_ring_intersection": true,
+      "invalid": false,
+      "original_source_face": 7417
+    },
+    {
+      "cap_face": 46883,
+      "coplanar_area_mm2": 0.0,
+      "finite_segment_mm": 0.5983496182291829,
+      "intended_section_ring_intersection": true,
+      "invalid": false,
+      "original_source_face": 5982
+    },
+    {
+      "cap_face": 46882,
+      "coplanar_area_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "intended_section_ring_intersection": false,
+      "invalid": false,
+      "original_source_face": 7416
+    },
+    {
+      "cap_face": 46939,
+      "coplanar_area_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "intended_section_ring_intersection": false,
+      "invalid": false,
+      "original_source_face": 5155
+    },
+    {
+      "cap_face": 46944,
+      "coplanar_area_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "intended_section_ring_intersection": false,
+      "invalid": false,
+      "original_source_face": 3675
+    },
+    {
+      "cap_face": 46963,
+      "coplanar_area_mm2": 0.0,
+      "finite_segment_mm": 0.7266484860848008,
+      "intended_section_ring_intersection": true,
+      "invalid": false,
+      "original_source_face": 7106
+    },
+    {
+      "cap_face": 46957,
+      "coplanar_area_mm2": 0.0,
+      "finite_segment_mm": 0.48905399307039615,
+      "intended_section_ring_intersection": true,
+      "invalid": false,
+      "original_source_face": 1477
+    },
+    {
+      "cap_face": 46960,
+      "coplanar_area_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "intended_section_ring_intersection": false,
+      "invalid": false,
+      "original_source_face": 6120
+    },
+    {
+      "cap_face": 46960,
+      "coplanar_area_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "intended_section_ring_intersection": false,
+      "invalid": false,
+      "original_source_face": 7143
+    },
+    {
+      "cap_face": 46966,
+      "coplanar_area_mm2": 0.0,
+      "finite_segment_mm": 0.3138839473846137,
+      "intended_section_ring_intersection": true,
+      "invalid": false,
+      "original_source_face": 7566
+    },
+    {
+      "cap_face": 46968,
+      "coplanar_area_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "intended_section_ring_intersection": false,
+      "invalid": false,
+      "original_source_face": 7570
+    },
+    {
+      "cap_face": 46968,
+      "coplanar_area_mm2": 0.0,
+      "finite_segment_mm": 0.6109494280005029,
+      "intended_section_ring_intersection": true,
+      "invalid": false,
+      "original_source_face": 7571
+    },
+    {
+      "cap_face": 46969,
+      "coplanar_area_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "intended_section_ring_intersection": false,
+      "invalid": false,
+      "original_source_face": 7571
+    },
+    {
+      "cap_face": 46970,
+      "coplanar_area_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "intended_section_ring_intersection": false,
+      "invalid": false,
+      "original_source_face": 7871
+    },
+    {
+      "cap_face": 46971,
+      "coplanar_area_mm2": 0.0,
+      "finite_segment_mm": 0.15765536644429184,
+      "intended_section_ring_intersection": true,
+      "invalid": false,
+      "original_source_face": 7871
+    },
+    {
+      "cap_face": 46972,
+      "coplanar_area_mm2": 0.0,
+      "finite_segment_mm": 0.3419476549220295,
+      "intended_section_ring_intersection": true,
+      "invalid": false,
+      "original_source_face": 8272
+    },
+    {
+      "cap_face": 46973,
+      "coplanar_area_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "intended_section_ring_intersection": false,
+      "invalid": false,
+      "original_source_face": 7456
+    },
+    {
+      "cap_face": 46974,
+      "coplanar_area_mm2": 0.0,
+      "finite_segment_mm": 0.39967450835244045,
+      "intended_section_ring_intersection": true,
+      "invalid": false,
+      "original_source_face": 7456
+    },
+    {
+      "cap_face": 46973,
+      "coplanar_area_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "intended_section_ring_intersection": false,
+      "invalid": false,
+      "original_source_face": 8272
+    },
+    {
+      "cap_face": 46976,
+      "coplanar_area_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "intended_section_ring_intersection": false,
+      "invalid": false,
+      "original_source_face": 4877
+    },
+    {
+      "cap_face": 46977,
+      "coplanar_area_mm2": 0.0,
+      "finite_segment_mm": 0.1359138596772348,
+      "intended_section_ring_intersection": true,
+      "invalid": false,
+      "original_source_face": 4877
+    },
+    {
+      "cap_face": 46978,
+      "coplanar_area_mm2": 0.0,
+      "finite_segment_mm": 0.21297944993338036,
+      "intended_section_ring_intersection": true,
+      "invalid": false,
+      "original_source_face": 8655
+    },
+    {
+      "cap_face": 46980,
+      "coplanar_area_mm2": 0.0,
+      "finite_segment_mm": 0.46226742803359183,
+      "intended_section_ring_intersection": true,
+      "invalid": false,
+      "original_source_face": 8156
+    },
+    {
+      "cap_face": 46981,
+      "coplanar_area_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "intended_section_ring_intersection": false,
+      "invalid": false,
+      "original_source_face": 8156
+    },
+    {
+      "cap_face": 46985,
+      "coplanar_area_mm2": 0.0,
+      "finite_segment_mm": 0.10563583096064584,
+      "intended_section_ring_intersection": true,
+      "invalid": false,
+      "original_source_face": 8898
+    },
+    {
+      "cap_face": 47071,
+      "coplanar_area_mm2": 0.0,
+      "finite_segment_mm": 0.14941521191506804,
+      "intended_section_ring_intersection": true,
+      "invalid": false,
+      "original_source_face": 6922
+    },
+    {
+      "cap_face": 47071,
+      "coplanar_area_mm2": 0.0,
+      "finite_segment_mm": 0.09166729111019242,
+      "intended_section_ring_intersection": true,
+      "invalid": false,
+      "original_source_face": 6923
+    },
+    {
+      "cap_face": 47073,
+      "coplanar_area_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "intended_section_ring_intersection": false,
+      "invalid": false,
+      "original_source_face": 6949
+    },
+    {
+      "cap_face": 47074,
+      "coplanar_area_mm2": 0.0,
+      "finite_segment_mm": 0.3167981405765786,
+      "intended_section_ring_intersection": true,
+      "invalid": false,
+      "original_source_face": 6949
+    },
+    {
+      "cap_face": 47067,
+      "coplanar_area_mm2": 0.0,
+      "finite_segment_mm": 0.012731637596118311,
+      "intended_section_ring_intersection": true,
+      "invalid": false,
+      "original_source_face": 8444
+    },
+    {
+      "cap_face": 47066,
+      "coplanar_area_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "intended_section_ring_intersection": false,
+      "invalid": false,
+      "original_source_face": 6406
+    },
+    {
+      "cap_face": 47067,
+      "coplanar_area_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "intended_section_ring_intersection": false,
+      "invalid": false,
+      "original_source_face": 6406
+    },
+    {
+      "cap_face": 47070,
+      "coplanar_area_mm2": 0.0,
+      "finite_segment_mm": 0.4687428254603325,
+      "intended_section_ring_intersection": true,
+      "invalid": false,
+      "original_source_face": 6920
+    },
+    {
+      "cap_face": 47065,
+      "coplanar_area_mm2": 0.0,
+      "finite_segment_mm": 0.9626262294766694,
+      "intended_section_ring_intersection": true,
+      "invalid": false,
+      "original_source_face": 8035
+    },
+    {
+      "cap_face": 47064,
+      "coplanar_area_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "intended_section_ring_intersection": false,
+      "invalid": false,
+      "original_source_face": 6406
+    },
+    {
+      "cap_face": 47065,
+      "coplanar_area_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "intended_section_ring_intersection": false,
+      "invalid": false,
+      "original_source_face": 6406
+    },
+    {
+      "cap_face": 47062,
+      "coplanar_area_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "intended_section_ring_intersection": false,
+      "invalid": false,
+      "original_source_face": 6406
+    },
+    {
+      "cap_face": 47063,
+      "coplanar_area_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "intended_section_ring_intersection": false,
+      "invalid": false,
+      "original_source_face": 6406
+    },
+    {
+      "cap_face": 47061,
+      "coplanar_area_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "intended_section_ring_intersection": false,
+      "invalid": false,
+      "original_source_face": 6406
+    },
+    {
+      "cap_face": 47060,
+      "coplanar_area_mm2": 0.0,
+      "finite_segment_mm": 0.40076807782499163,
+      "intended_section_ring_intersection": true,
+      "invalid": false,
+      "original_source_face": 8385
+    },
+    {
+      "cap_face": 47058,
+      "coplanar_area_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "intended_section_ring_intersection": false,
+      "invalid": false,
+      "original_source_face": 8417
+    },
+    {
+      "cap_face": 47056,
+      "coplanar_area_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "intended_section_ring_intersection": false,
+      "invalid": false,
+      "original_source_face": 8417
+    },
+    {
+      "cap_face": 47057,
+      "coplanar_area_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "intended_section_ring_intersection": false,
+      "invalid": false,
+      "original_source_face": 8416
+    },
+    {
+      "cap_face": 47057,
+      "coplanar_area_mm2": 0.0,
+      "finite_segment_mm": 0.3524961024710498,
+      "intended_section_ring_intersection": true,
+      "invalid": false,
+      "original_source_face": 8417
+    },
+    {
+      "cap_face": 47059,
+      "coplanar_area_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "intended_section_ring_intersection": false,
+      "invalid": false,
+      "original_source_face": 6406
+    },
+    {
+      "cap_face": 47060,
+      "coplanar_area_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "intended_section_ring_intersection": false,
+      "invalid": false,
+      "original_source_face": 6406
+    },
+    {
+      "cap_face": 47058,
+      "coplanar_area_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "intended_section_ring_intersection": false,
+      "invalid": false,
+      "original_source_face": 6406
+    },
+    {
+      "cap_face": 47056,
+      "coplanar_area_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "intended_section_ring_intersection": false,
+      "invalid": false,
+      "original_source_face": 6406
+    },
+    {
+      "cap_face": 47057,
+      "coplanar_area_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "intended_section_ring_intersection": false,
+      "invalid": false,
+      "original_source_face": 6406
+    },
+    {
+      "cap_face": 47083,
+      "coplanar_area_mm2": 0.0,
+      "finite_segment_mm": 0.4820005852034133,
+      "intended_section_ring_intersection": true,
+      "invalid": false,
+      "original_source_face": 6986
+    },
+    {
+      "cap_face": 47084,
+      "coplanar_area_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "intended_section_ring_intersection": false,
+      "invalid": false,
+      "original_source_face": 6986
+    },
+    {
+      "cap_face": 47084,
+      "coplanar_area_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "intended_section_ring_intersection": false,
+      "invalid": false,
+      "original_source_face": 6404
+    },
+    {
+      "cap_face": 47083,
+      "coplanar_area_mm2": 0.0,
+      "finite_segment_mm": 0.30416077475232145,
+      "intended_section_ring_intersection": true,
+      "invalid": false,
+      "original_source_face": 6987
+    },
+    {
+      "cap_face": 47079,
+      "coplanar_area_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "intended_section_ring_intersection": false,
+      "invalid": false,
+      "original_source_face": 6983
+    },
+    {
+      "cap_face": 47080,
+      "coplanar_area_mm2": 0.0,
+      "finite_segment_mm": 0.20024051709544136,
+      "intended_section_ring_intersection": true,
+      "invalid": false,
+      "original_source_face": 6983
+    },
+    {
+      "cap_face": 47079,
+      "coplanar_area_mm2": 0.0,
+      "finite_segment_mm": 0.8221432666199532,
+      "intended_section_ring_intersection": true,
+      "invalid": false,
+      "original_source_face": 6982
+    },
+    {
+      "cap_face": 47080,
+      "coplanar_area_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "intended_section_ring_intersection": false,
+      "invalid": false,
+      "original_source_face": 6982
+    },
+    {
+      "cap_face": 47080,
+      "coplanar_area_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "intended_section_ring_intersection": false,
+      "invalid": false,
+      "original_source_face": 6984
+    },
+    {
+      "cap_face": 47081,
+      "coplanar_area_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "intended_section_ring_intersection": false,
+      "invalid": false,
+      "original_source_face": 6985
+    },
+    {
+      "cap_face": 47082,
+      "coplanar_area_mm2": 0.0,
+      "finite_segment_mm": 0.46324304761994706,
+      "intended_section_ring_intersection": true,
+      "invalid": false,
+      "original_source_face": 6985
+    },
+    {
+      "cap_face": 47082,
+      "coplanar_area_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "intended_section_ring_intersection": false,
+      "invalid": false,
+      "original_source_face": 6986
+    },
+    {
+      "cap_face": 47078,
+      "coplanar_area_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "intended_section_ring_intersection": false,
+      "invalid": false,
+      "original_source_face": 6406
+    },
+    {
+      "cap_face": 47080,
+      "coplanar_area_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "intended_section_ring_intersection": false,
+      "invalid": false,
+      "original_source_face": 6406
+    },
+    {
+      "cap_face": 47081,
+      "coplanar_area_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "intended_section_ring_intersection": false,
+      "invalid": false,
+      "original_source_face": 6406
+    },
+    {
+      "cap_face": 47082,
+      "coplanar_area_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "intended_section_ring_intersection": false,
+      "invalid": false,
+      "original_source_face": 6406
+    },
+    {
+      "cap_face": 47075,
+      "coplanar_area_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "intended_section_ring_intersection": false,
+      "invalid": false,
+      "original_source_face": 6949
+    },
+    {
+      "cap_face": 47077,
+      "coplanar_area_mm2": 0.0,
+      "finite_segment_mm": 0.10590640778856528,
+      "intended_section_ring_intersection": true,
+      "invalid": false,
+      "original_source_face": 8048
+    },
+    {
+      "cap_face": 47077,
+      "coplanar_area_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "intended_section_ring_intersection": false,
+      "invalid": false,
+      "original_source_face": 8050
+    },
+    {
+      "cap_face": 47069,
+      "coplanar_area_mm2": 0.0,
+      "finite_segment_mm": 0.4744259061502931,
+      "intended_section_ring_intersection": true,
+      "invalid": false,
+      "original_source_face": 6919
+    },
+    {
+      "cap_face": 47068,
+      "coplanar_area_mm2": 0.0,
+      "finite_segment_mm": 0.9304629485153014,
+      "intended_section_ring_intersection": true,
+      "invalid": false,
+      "original_source_face": 6918
+    },
+    {
+      "cap_face": 47068,
+      "coplanar_area_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "intended_section_ring_intersection": false,
+      "invalid": false,
+      "original_source_face": 6919
+    },
+    {
+      "cap_face": 47068,
+      "coplanar_area_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "intended_section_ring_intersection": false,
+      "invalid": false,
+      "original_source_face": 8444
+    },
+    {
+      "cap_face": 47068,
+      "coplanar_area_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "intended_section_ring_intersection": false,
+      "invalid": false,
+      "original_source_face": 6406
+    },
+    {
+      "cap_face": 47016,
+      "coplanar_area_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "intended_section_ring_intersection": false,
+      "invalid": false,
+      "original_source_face": 6406
+    },
+    {
+      "cap_face": 47015,
+      "coplanar_area_mm2": 0.0,
+      "finite_segment_mm": 0.07757955445275337,
+      "intended_section_ring_intersection": true,
+      "invalid": false,
+      "original_source_face": 9886
+    },
+    {
+      "cap_face": 47054,
+      "coplanar_area_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "intended_section_ring_intersection": false,
+      "invalid": false,
+      "original_source_face": 6314
+    },
+    {
+      "cap_face": 47055,
+      "coplanar_area_mm2": 0.0,
+      "finite_segment_mm": 0.06471492212480326,
+      "intended_section_ring_intersection": true,
+      "invalid": false,
+      "original_source_face": 6314
+    },
+    {
+      "cap_face": 47055,
+      "coplanar_area_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "intended_section_ring_intersection": false,
+      "invalid": false,
+      "original_source_face": 9510
+    },
+    {
+      "cap_face": 47054,
+      "coplanar_area_mm2": 0.0,
+      "finite_segment_mm": 0.5291119581425157,
+      "intended_section_ring_intersection": true,
+      "invalid": false,
+      "original_source_face": 6313
+    },
+    {
+      "cap_face": 47053,
+      "coplanar_area_mm2": 0.0,
+      "finite_segment_mm": 0.4534839979186163,
+      "intended_section_ring_intersection": true,
+      "invalid": false,
+      "original_source_face": 6312
+    },
+    {
+      "cap_face": 47053,
+      "coplanar_area_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "intended_section_ring_intersection": false,
+      "invalid": false,
+      "original_source_face": 6903
+    },
+    {
+      "cap_face": 47051,
+      "coplanar_area_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "intended_section_ring_intersection": false,
+      "invalid": false,
+      "original_source_face": 6903
+    },
+    {
+      "cap_face": 47052,
+      "coplanar_area_mm2": 0.0,
+      "finite_segment_mm": 0.016057337950652627,
+      "intended_section_ring_intersection": true,
+      "invalid": false,
+      "original_source_face": 6903
+    },
+    {
+      "cap_face": 47054,
+      "coplanar_area_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "intended_section_ring_intersection": false,
+      "invalid": false,
+      "original_source_face": 6406
+    },
+    {
+      "cap_face": 47055,
+      "coplanar_area_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "intended_section_ring_intersection": false,
+      "invalid": false,
+      "original_source_face": 6406
+    },
+    {
+      "cap_face": 47053,
+      "coplanar_area_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "intended_section_ring_intersection": false,
+      "invalid": false,
+      "original_source_face": 6406
+    },
+    {
+      "cap_face": 47051,
+      "coplanar_area_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "intended_section_ring_intersection": false,
+      "invalid": false,
+      "original_source_face": 6406
+    },
+    {
+      "cap_face": 47052,
+      "coplanar_area_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "intended_section_ring_intersection": false,
+      "invalid": false,
+      "original_source_face": 6406
+    },
+    {
+      "cap_face": 47049,
+      "coplanar_area_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "intended_section_ring_intersection": false,
+      "invalid": false,
+      "original_source_face": 6905
+    },
+    {
+      "cap_face": 47050,
+      "coplanar_area_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "intended_section_ring_intersection": false,
+      "invalid": false,
+      "original_source_face": 6904
+    },
+    {
+      "cap_face": 47050,
+      "coplanar_area_mm2": 0.0,
+      "finite_segment_mm": 1.0005169897565045,
+      "intended_section_ring_intersection": true,
+      "invalid": false,
+      "original_source_face": 6905
+    },
+    {
+      "cap_face": 47049,
+      "coplanar_area_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "intended_section_ring_intersection": false,
+      "invalid": false,
+      "original_source_face": 6406
+    },
+    {
+      "cap_face": 47050,
+      "coplanar_area_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "intended_section_ring_intersection": false,
+      "invalid": false,
+      "original_source_face": 6406
+    },
+    {
+      "cap_face": 47048,
+      "coplanar_area_mm2": 0.0,
+      "finite_segment_mm": 0.16781564279539726,
+      "intended_section_ring_intersection": true,
+      "invalid": false,
+      "original_source_face": 9854
+    },
+    {
+      "cap_face": 47045,
+      "coplanar_area_mm2": 0.0,
+      "finite_segment_mm": 0.007374012240501213,
+      "intended_section_ring_intersection": true,
+      "invalid": false,
+      "original_source_face": 6891
+    },
+    {
+      "cap_face": 47047,
+      "coplanar_area_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "intended_section_ring_intersection": false,
+      "invalid": false,
+      "original_source_face": 6406
+    },
+    {
+      "cap_face": 47048,
+      "coplanar_area_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "intended_section_ring_intersection": false,
+      "invalid": false,
+      "original_source_face": 6406
+    },
+    {
+      "cap_face": 47046,
+      "coplanar_area_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "intended_section_ring_intersection": false,
+      "invalid": false,
+      "original_source_face": 6406
+    },
+    {
+      "cap_face": 47044,
+      "coplanar_area_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "intended_section_ring_intersection": false,
+      "invalid": false,
+      "original_source_face": 6406
+    },
+    {
+      "cap_face": 47045,
+      "coplanar_area_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "intended_section_ring_intersection": false,
+      "invalid": false,
+      "original_source_face": 6406
+    },
+    {
+      "cap_face": 47043,
+      "coplanar_area_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "intended_section_ring_intersection": false,
+      "invalid": false,
+      "original_source_face": 6406
+    },
+    {
+      "cap_face": 47042,
+      "coplanar_area_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "intended_section_ring_intersection": false,
+      "invalid": false,
+      "original_source_face": 9521
+    },
+    {
+      "cap_face": 47040,
+      "coplanar_area_mm2": 0.0,
+      "finite_segment_mm": 0.26497994625726684,
+      "intended_section_ring_intersection": true,
+      "invalid": false,
+      "original_source_face": 9522
+    },
+    {
+      "cap_face": 47040,
+      "coplanar_area_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "intended_section_ring_intersection": false,
+      "invalid": false,
+      "original_source_face": 6406
+    },
+    {
+      "cap_face": 47041,
+      "coplanar_area_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "intended_section_ring_intersection": false,
+      "invalid": false,
+      "original_source_face": 6406
+    },
+    {
+      "cap_face": 47039,
+      "coplanar_area_mm2": 0.0,
+      "finite_segment_mm": 0.5419082604493303,
+      "intended_section_ring_intersection": true,
+      "invalid": false,
+      "original_source_face": 9523
+    },
+    {
+      "cap_face": 47035,
+      "coplanar_area_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "intended_section_ring_intersection": false,
+      "invalid": false,
+      "original_source_face": 10912
+    },
+    {
+      "cap_face": 47035,
+      "coplanar_area_mm2": 0.0,
+      "finite_segment_mm": 0.29185504234824783,
+      "intended_section_ring_intersection": true,
+      "invalid": false,
+      "original_source_face": 10913
+    },
+    {
+      "cap_face": 47039,
+      "coplanar_area_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "intended_section_ring_intersection": false,
+      "invalid": false,
+      "original_source_face": 6406
+    },
+    {
+      "cap_face": 47037,
+      "coplanar_area_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "intended_section_ring_intersection": false,
+      "invalid": false,
+      "original_source_face": 6406
+    },
+    {
+      "cap_face": 47038,
+      "coplanar_area_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "intended_section_ring_intersection": false,
+      "invalid": false,
+      "original_source_face": 6406
+    },
+    {
+      "cap_face": 47035,
+      "coplanar_area_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "intended_section_ring_intersection": false,
+      "invalid": false,
+      "original_source_face": 6406
+    },
+    {
+      "cap_face": 47036,
+      "coplanar_area_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "intended_section_ring_intersection": false,
+      "invalid": false,
+      "original_source_face": 6406
+    },
+    {
+      "cap_face": 47033,
+      "coplanar_area_mm2": 0.0,
+      "finite_segment_mm": 0.3311488516753578,
+      "intended_section_ring_intersection": true,
+      "invalid": false,
+      "original_source_face": 9862
+    },
+    {
+      "cap_face": 47034,
+      "coplanar_area_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "intended_section_ring_intersection": false,
+      "invalid": false,
+      "original_source_face": 9862
+    },
+    {
+      "cap_face": 47034,
+      "coplanar_area_mm2": 0.0,
+      "finite_segment_mm": 0.026282969860502572,
+      "intended_section_ring_intersection": true,
+      "invalid": false,
+      "original_source_face": 10912
+    },
+    {
+      "cap_face": 47030,
+      "coplanar_area_mm2": 0.0,
+      "finite_segment_mm": 0.5733151775784338,
+      "intended_section_ring_intersection": true,
+      "invalid": false,
+      "original_source_face": 10927
+    },
+    {
+      "cap_face": 47034,
+      "coplanar_area_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "intended_section_ring_intersection": false,
+      "invalid": false,
+      "original_source_face": 6406
+    },
+    {
+      "cap_face": 47031,
+      "coplanar_area_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "intended_section_ring_intersection": false,
+      "invalid": false,
+      "original_source_face": 6406
+    },
+    {
+      "cap_face": 47030,
+      "coplanar_area_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "intended_section_ring_intersection": false,
+      "invalid": false,
+      "original_source_face": 6406
+    },
+    {
+      "cap_face": 47029,
+      "coplanar_area_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "intended_section_ring_intersection": false,
+      "invalid": false,
+      "original_source_face": 10927
+    },
+    {
+      "cap_face": 47026,
+      "coplanar_area_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "intended_section_ring_intersection": false,
+      "invalid": false,
+      "original_source_face": 6406
+    },
+    {
+      "cap_face": 47024,
+      "coplanar_area_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "intended_section_ring_intersection": false,
+      "invalid": false,
+      "original_source_face": 6406
+    },
+    {
+      "cap_face": 47021,
+      "coplanar_area_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "intended_section_ring_intersection": false,
+      "invalid": false,
+      "original_source_face": 6406
+    },
+    {
+      "cap_face": 47020,
+      "coplanar_area_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "intended_section_ring_intersection": false,
+      "invalid": false,
+      "original_source_face": 6406
+    },
+    {
+      "cap_face": 47018,
+      "coplanar_area_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "intended_section_ring_intersection": false,
+      "invalid": false,
+      "original_source_face": 6406
+    },
+    {
+      "cap_face": 47021,
+      "coplanar_area_mm2": 0.0,
+      "finite_segment_mm": 0.13327975194692,
+      "intended_section_ring_intersection": true,
+      "invalid": false,
+      "original_source_face": 8855
+    },
+    {
+      "cap_face": 47019,
+      "coplanar_area_mm2": 0.0,
+      "finite_segment_mm": 0.4542795947073864,
+      "intended_section_ring_intersection": true,
+      "invalid": false,
+      "original_source_face": 10256
+    },
+    {
+      "cap_face": 47018,
+      "coplanar_area_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "intended_section_ring_intersection": false,
+      "invalid": false,
+      "original_source_face": 10258
+    },
+    {
+      "cap_face": 47017,
+      "coplanar_area_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "intended_section_ring_intersection": false,
+      "invalid": false,
+      "original_source_face": 9885
+    },
+    {
+      "cap_face": 47017,
+      "coplanar_area_mm2": 0.0,
+      "finite_segment_mm": 0.6004340459743394,
+      "intended_section_ring_intersection": true,
+      "invalid": false,
+      "original_source_face": 10258
+    },
+    {
+      "cap_face": 47022,
+      "coplanar_area_mm2": 0.0,
+      "finite_segment_mm": 0.020765057956052782,
+      "intended_section_ring_intersection": true,
+      "invalid": false,
+      "original_source_face": 8856
+    },
+    {
+      "cap_face": 47023,
+      "coplanar_area_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "intended_section_ring_intersection": false,
+      "invalid": false,
+      "original_source_face": 8856
+    },
+    {
+      "cap_face": 47023,
+      "coplanar_area_mm2": 0.0,
+      "finite_segment_mm": 0.025153106820230097,
+      "intended_section_ring_intersection": true,
+      "invalid": false,
+      "original_source_face": 8440
+    },
+    {
+      "cap_face": 47085,
+      "coplanar_area_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "intended_section_ring_intersection": false,
+      "invalid": false,
+      "original_source_face": 6986
+    },
+    {
+      "cap_face": 47086,
+      "coplanar_area_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "intended_section_ring_intersection": false,
+      "invalid": false,
+      "original_source_face": 6986
+    },
+    {
+      "cap_face": 47087,
+      "coplanar_area_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "intended_section_ring_intersection": false,
+      "invalid": false,
+      "original_source_face": 6986
+    },
+    {
+      "cap_face": 47085,
+      "coplanar_area_mm2": 0.0,
+      "finite_segment_mm": 0.045054051149721816,
+      "intended_section_ring_intersection": true,
+      "invalid": false,
+      "original_source_face": 6404
+    },
+    {
+      "cap_face": 47086,
+      "coplanar_area_mm2": 0.0,
+      "finite_segment_mm": 0.05745014531036618,
+      "intended_section_ring_intersection": true,
+      "invalid": false,
+      "original_source_face": 6405
+    },
+    {
+      "cap_face": 47087,
+      "coplanar_area_mm2": 0.0,
+      "finite_segment_mm": 0.3005596675142902,
+      "intended_section_ring_intersection": true,
+      "invalid": false,
+      "original_source_face": 6406
+    },
+    {
+      "cap_face": 46874,
+      "coplanar_area_mm2": 0.0,
+      "finite_segment_mm": 0.6586618818451969,
+      "intended_section_ring_intersection": true,
+      "invalid": false,
+      "original_source_face": 122
+    },
+    {
+      "cap_face": 46874,
+      "coplanar_area_mm2": 0.0,
+      "finite_segment_mm": 0.05021027602514339,
+      "intended_section_ring_intersection": true,
+      "invalid": false,
+      "original_source_face": 123
+    },
+    {
+      "cap_face": 46876,
+      "coplanar_area_mm2": 0.0,
+      "finite_segment_mm": 0.14555665355554562,
+      "intended_section_ring_intersection": true,
+      "invalid": false,
+      "original_source_face": 4788
+    },
+    {
+      "cap_face": 46876,
+      "coplanar_area_mm2": 0.0,
+      "finite_segment_mm": 0.7936744727806693,
+      "intended_section_ring_intersection": true,
+      "invalid": false,
+      "original_source_face": 5970
+    },
+    {
+      "cap_face": 47013,
+      "coplanar_area_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "intended_section_ring_intersection": false,
+      "invalid": false,
+      "original_source_face": 8866
+    },
+    {
+      "cap_face": 47011,
+      "coplanar_area_mm2": 0.0,
+      "finite_segment_mm": 0.38558826083816017,
+      "intended_section_ring_intersection": true,
+      "invalid": false,
+      "original_source_face": 9889
+    },
+    {
+      "cap_face": 47009,
+      "coplanar_area_mm2": 0.0,
+      "finite_segment_mm": 0.11525760198539299,
+      "intended_section_ring_intersection": true,
+      "invalid": false,
+      "original_source_face": 9891
+    },
+    {
+      "cap_face": 47008,
+      "coplanar_area_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "intended_section_ring_intersection": false,
+      "invalid": false,
+      "original_source_face": 6355
+    },
+    {
+      "cap_face": 47006,
+      "coplanar_area_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "intended_section_ring_intersection": false,
+      "invalid": false,
+      "original_source_face": 3246
+    },
+    {
+      "cap_face": 47006,
+      "coplanar_area_mm2": 0.0,
+      "finite_segment_mm": 0.5063731316043297,
+      "intended_section_ring_intersection": true,
+      "invalid": false,
+      "original_source_face": 3245
+    },
+    {
+      "cap_face": 47007,
+      "coplanar_area_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "intended_section_ring_intersection": false,
+      "invalid": false,
+      "original_source_face": 6354
+    },
+    {
+      "cap_face": 47007,
+      "coplanar_area_mm2": 0.0,
+      "finite_segment_mm": 0.43597755595250637,
+      "intended_section_ring_intersection": true,
+      "invalid": false,
+      "original_source_face": 6355
+    },
+    {
+      "cap_face": 46999,
+      "coplanar_area_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "intended_section_ring_intersection": false,
+      "invalid": false,
+      "original_source_face": 8478
+    },
+    {
+      "cap_face": 47000,
+      "coplanar_area_mm2": 0.0,
+      "finite_segment_mm": 0.08370669817567493,
+      "intended_section_ring_intersection": true,
+      "invalid": false,
+      "original_source_face": 8478
+    },
+    {
+      "cap_face": 47001,
+      "coplanar_area_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "intended_section_ring_intersection": false,
+      "invalid": false,
+      "original_source_face": 8893
+    },
+    {
+      "cap_face": 47002,
+      "coplanar_area_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "intended_section_ring_intersection": false,
+      "invalid": false,
+      "original_source_face": 8894
+    },
+    {
+      "cap_face": 47003,
+      "coplanar_area_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "intended_section_ring_intersection": false,
+      "invalid": false,
+      "original_source_face": 9027
+    },
+    {
+      "cap_face": 47003,
+      "coplanar_area_mm2": 0.0,
+      "finite_segment_mm": 0.16371136534452446,
+      "intended_section_ring_intersection": true,
+      "invalid": false,
+      "original_source_face": 9594
+    },
+    {
+      "cap_face": 47004,
+      "coplanar_area_mm2": 0.0,
+      "finite_segment_mm": 0.048504546283265455,
+      "intended_section_ring_intersection": true,
+      "invalid": false,
+      "original_source_face": 9027
+    },
+    {
+      "cap_face": 47004,
+      "coplanar_area_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "intended_section_ring_intersection": false,
+      "invalid": false,
+      "original_source_face": 9594
+    },
+    {
+      "cap_face": 46877,
+      "coplanar_area_mm2": 0.0,
+      "finite_segment_mm": 0.48709940868991747,
+      "intended_section_ring_intersection": true,
+      "invalid": false,
+      "original_source_face": 5969
+    },
+    {
+      "cap_face": 46878,
+      "coplanar_area_mm2": 0.0,
+      "finite_segment_mm": 0.4526357278444897,
+      "intended_section_ring_intersection": true,
+      "invalid": false,
+      "original_source_face": 7415
+    },
+    {
+      "cap_face": 46878,
+      "coplanar_area_mm2": 0.0,
+      "finite_segment_mm": 0.8121202376115615,
+      "intended_section_ring_intersection": true,
+      "invalid": false,
+      "original_source_face": 7416
+    },
+    {
+      "cap_face": 46879,
+      "coplanar_area_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "intended_section_ring_intersection": false,
+      "invalid": false,
+      "original_source_face": 5969
+    },
+    {
+      "cap_face": 46879,
+      "coplanar_area_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "intended_section_ring_intersection": false,
+      "invalid": false,
+      "original_source_face": 7416
+    },
+    {
+      "cap_face": 46994,
+      "coplanar_area_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "intended_section_ring_intersection": false,
+      "invalid": false,
+      "original_source_face": 6406
+    },
+    {
+      "cap_face": 46992,
+      "coplanar_area_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "intended_section_ring_intersection": false,
+      "invalid": false,
+      "original_source_face": 8485
+    },
+    {
+      "cap_face": 46991,
+      "coplanar_area_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "intended_section_ring_intersection": false,
+      "invalid": false,
+      "original_source_face": 8083
+    },
+    {
+      "cap_face": 46992,
+      "coplanar_area_mm2": 0.0,
+      "finite_segment_mm": 0.024638447538242656,
+      "intended_section_ring_intersection": true,
+      "invalid": false,
+      "original_source_face": 8083
+    },
+    {
+      "cap_face": 46993,
+      "coplanar_area_mm2": 0.0,
+      "finite_segment_mm": 0.22764596526638983,
+      "intended_section_ring_intersection": true,
+      "invalid": false,
+      "original_source_face": 8485
+    },
+    {
+      "cap_face": 46994,
+      "coplanar_area_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "intended_section_ring_intersection": false,
+      "invalid": false,
+      "original_source_face": 8483
+    },
+    {
+      "cap_face": 46995,
+      "coplanar_area_mm2": 0.0,
+      "finite_segment_mm": 0.344223793877615,
+      "intended_section_ring_intersection": true,
+      "invalid": false,
+      "original_source_face": 8483
+    },
+    {
+      "cap_face": 46996,
+      "coplanar_area_mm2": 0.0,
+      "finite_segment_mm": 0.8158297675324776,
+      "intended_section_ring_intersection": true,
+      "invalid": false,
+      "original_source_face": 8482
+    },
+    {
+      "cap_face": 46997,
+      "coplanar_area_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "intended_section_ring_intersection": false,
+      "invalid": false,
+      "original_source_face": 8482
+    }
+  ],
+  "scope": "All original walls, including excluded structures. Only the recorded selected-loop intersection in source split faces is allowed; other finite lines or overlapping areas are rejected."
+}

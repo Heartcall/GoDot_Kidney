@@ -1,0 +1,27 @@
+{
+  "D2_approved": false,
+  "V_reference_effective_mL": null,
+  "date": "2026-10-14",
+  "next_stage_started": false,
+  "no_new_deformation": true,
+  "protected_unchanged_files": 1157,
+  "report_sha256": "e6060b0a92e89f2392a2a40f7bdf9e5d705b57a392544af4ff0ad16120ca6dfe",
+  "source_hashes": {
+    "cavity_displacement": "fbe95cfeaf8b77d80c5aa850618ad8ce8439c8ef770719b1f9a1f1789b050573",
+    "cavity_faces": "dbf4771365f42398f329100e695dc8580f8c038c557c671c02724bff45b29c3d",
+    "cavity_reference_vertices": "f137add4c401fe63851565f913a93968c9b11e18e630722ed42a21b4d0842fa1",
+    "tissue_displacement": "bcef3bda21aa3621547a80f8d7902c7506fc638cd8c18fe6a8c8c5516491eaec",
+    "tissue_faces": "532034f649eac73d2c28ecba5f0097ba04b79164fea3e385de5518c098cc3a05",
+    "tissue_reference_vertices": "63ce22d71be21c2a1266933aac2112ab7c66bcd887312f81e1d7d87c4f9ecb20"
+  },
+  "stage": "N0",
+  "status": "DELIVERED_FOR_USER_REVIEW",
+  "tests": {
+    "errors": 0,
+    "failures": 0,
+    "passed": true,
+    "scope": "N0 engineering review only; no anatomical capacity acceptance.",
+    "tests": 25
+  },
+  "user_visual_anomaly_status": "NEEDS_USER_SAVED_CAMERA_LOCATION"
+}

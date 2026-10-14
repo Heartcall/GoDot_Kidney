@@ -1,0 +1,50 @@
+{
+	"anatomical_approval": "PENDING",
+	"camera_display_position_mm": [
+		-42.7627220153809,
+		1.78512644767761,
+		-33.0416641235352
+	],
+	"camera_fov": 42.0,
+	"camera_rotation_radians": [
+		0.0,
+		-1.57079637050629,
+		0.0
+	],
+	"candidate": "C06_near_BASE",
+	"cavity_visible": true,
+	"distance_mm": 12.0,
+	"focus_display_center_mm": [
+		-30.7627220153809,
+		1.78512644767761,
+		-33.0416641235352
+	],
+	"mode": 3,
+	"origin_mm": [
+		16,
+		16,
+		-81
+	],
+	"pitch": 0.0,
+	"schema": "N0_USER_REVIEW_SESSION_V1",
+	"section_enabled": true,
+	"section_normal": [
+		-1.0,
+		0.0,
+		0.0
+	],
+	"section_offset_RAS_mm": 15.0627220153809,
+	"section_offset_display_mm": 31.0627220153809,
+	"selected_pair": {
+		"cavity_face": 45373,
+		"tissue_face": 259512
+	},
+	"source_manifest_sha256": "fee5d371309553c032db1deb753c498e3ee75b735ce61ff0ad7a706e6514f8d1",
+	"tissue_visible": true,
+	"u": 0.0,
+	"viewport_size": [
+		1422.0,
+		1066.0
+	],
+	"yaw": -1.5707963267949
+}

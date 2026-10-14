@@ -1,0 +1,114 @@
+{
+  "full_level_counts": {
+    "COPLANAR_OVERLAP": 42,
+    "EDGE_CONTACT": 424,
+    "NEAR_DISJOINT": 18,
+    "POINT_CONTACT_OR_TANGENCY": 3405
+  },
+  "scope": "Geometric classification; visual appearance still requires same camera/section review.",
+  "selected_pair_classification": {
+    "cavity_face": 24257,
+    "center_mm": [
+      29.39353370666504,
+      15.178681373596191,
+      -60.5
+    ],
+    "class": "EDGE_CONTACT",
+    "coplanar_pair_overlap_area_mm2": 0.0,
+    "finite_feature_gap_mm": 0.0,
+    "finite_segment_length_mm": 0.919921875,
+    "finite_segment_world_mm": [
+      [
+        13.853494644165039,
+        -0.8213186264038086,
+        20.5
+      ],
+      [
+        12.933572769165039,
+        -0.8213186264038086,
+        20.5
+      ]
+    ],
+    "godot_world_center_mm": [
+      13.393533706665039,
+      -0.8213186264038086,
+      20.5
+    ],
+    "nearest_locations": [
+      [
+        "J_05",
+        3.983725509732906
+      ],
+      [
+        "B_31",
+        6.865237689228733
+      ],
+      [
+        "J_04",
+        8.120163515247539
+      ]
+    ],
+    "one_sided_raw_coplanar_candidate_area_mm2": 0.0,
+    "raw_segment_candidate_length_mm": 0.919921875,
+    "segment_midpoint_on_triangle_boundary": [
+      true,
+      true
+    ],
+    "segment_support_residual_mm": 0.0,
+    "tissue_face": 26251,
+    "two_sided_coplanarity_residual_mm": 0.184112548828125,
+    "u": 0.0,
+    "vtk_candidate": false
+  },
+  "session": {
+    "anatomical_approval": "PENDING",
+    "camera_display_position_mm": [
+      13.546854019165,
+      -12.1599473953247,
+      24.4553337097168
+    ],
+    "camera_fov": 42.0,
+    "camera_rotation_radians": [
+      1.25323581695557,
+      0.0,
+      0.0
+    ],
+    "candidate": "C11_inlet_distal_control",
+    "cavity_visible": true,
+    "distance_mm": 12.0,
+    "focus_display_center_mm": [
+      13.546854019165,
+      -0.759947776794434,
+      20.7083339691162
+    ],
+    "mode": 3,
+    "origin_mm": [
+      16,
+      16,
+      -81
+    ],
+    "pitch": -1.25323589750338,
+    "schema": "N0_USER_REVIEW_SESSION_V1",
+    "section_enabled": true,
+    "section_normal": [
+      0.0,
+      -0.959245324134827,
+      0.282574564218521
+    ],
+    "section_offset_RAS_mm": -31.3558408737183,
+    "section_offset_display_mm": 6.8806245803833,
+    "selected_pair": {
+      "cavity_face": 24257,
+      "tissue_face": 26251
+    },
+    "source_manifest_sha256": "fee5d371309553c032db1deb753c498e3ee75b735ce61ff0ad7a706e6514f8d1",
+    "tissue_visible": true,
+    "u": 0.0,
+    "viewport_size": [
+      1422.0,
+      1066.0
+    ],
+    "yaw": 0.0
+  },
+  "source_session_sha256": "f4f787e9a26d6fd3c1612973f881596f6c8d5c2a83df91ea988c2298d5f0c041"
+}

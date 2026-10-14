@@ -1,0 +1,8086 @@
+{
+  "candidate_wall_pairs": 721,
+  "cap_cap_invalid_pairs": [],
+  "cap_wall_invalid_count": 0,
+  "method": "VTK finite candidate broad phase + finite plane-edge intersection + coplanar finite polygon overlap; actual shared cut boundary edges are allowed, overlapping area is not.",
+  "pairs": [
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43051,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25134
+      ],
+      "wall_face": 42942
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43051,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25134
+      ],
+      "wall_face": 42965
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43051,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25065
+      ],
+      "wall_face": 42883
+    },
+    {
+      "allowed_boundary_edge": true,
+      "cap_face": 43051,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.06103816872431855,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25065,
+        25134
+      ],
+      "wall_face": 42966
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43052,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25065
+      ],
+      "wall_face": 42883
+    },
+    {
+      "allowed_boundary_edge": true,
+      "cap_face": 43052,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.10084679449211177,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25065,
+        25066
+      ],
+      "wall_face": 42884
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43052,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25066
+      ],
+      "wall_face": 42885
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43052,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25065
+      ],
+      "wall_face": 42966
+    },
+    {
+      "allowed_boundary_edge": true,
+      "cap_face": 43050,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.2679247893402166,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25133,
+        25134
+      ],
+      "wall_face": 42942
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43050,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25134
+      ],
+      "wall_face": 42965
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43050,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25134
+      ],
+      "wall_face": 42966
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43048,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25131
+      ],
+      "wall_face": 42939
+    },
+    {
+      "allowed_boundary_edge": true,
+      "cap_face": 43048,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.05379179052164608,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25131,
+        25132
+      ],
+      "wall_face": 42940
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43049,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25133
+      ],
+      "wall_face": 42941
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43049,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25133
+      ],
+      "wall_face": 42942
+    },
+    {
+      "allowed_boundary_edge": true,
+      "cap_face": 43049,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.8072875472430349,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25132,
+        25133
+      ],
+      "wall_face": 42943
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43051,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25152
+      ],
+      "wall_face": 42974
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43051,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25152
+      ],
+      "wall_face": 42975
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43052,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25152
+      ],
+      "wall_face": 42974
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43052,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25152
+      ],
+      "wall_face": 42975
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43050,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25152
+      ],
+      "wall_face": 42974
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43050,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25152
+      ],
+      "wall_face": 42975
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43048,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25152
+      ],
+      "wall_face": 42974
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43048,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25152
+      ],
+      "wall_face": 42975
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43049,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25152
+      ],
+      "wall_face": 42974
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43049,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25152
+      ],
+      "wall_face": 42975
+    },
+    {
+      "allowed_boundary_edge": true,
+      "cap_face": 43046,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.18196339186223628,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25129,
+        25130
+      ],
+      "wall_face": 42937
+    },
+    {
+      "allowed_boundary_edge": true,
+      "cap_face": 43047,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.16336891904784445,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25130,
+        25131
+      ],
+      "wall_face": 42939
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43047,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25131
+      ],
+      "wall_face": 42940
+    },
+    {
+      "allowed_boundary_edge": true,
+      "cap_face": 43045,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.27901004281210884,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25128,
+        25129
+      ],
+      "wall_face": 42936
+    },
+    {
+      "allowed_boundary_edge": true,
+      "cap_face": 43043,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.13501484571140854,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25056,
+        25057
+      ],
+      "wall_face": 42881
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43043,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25056
+      ],
+      "wall_face": 42882
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43043,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25057
+      ],
+      "wall_face": 42970
+    },
+    {
+      "allowed_boundary_edge": true,
+      "cap_face": 43044,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.6773974295555778,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25057,
+        25128
+      ],
+      "wall_face": 42970
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43046,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25152
+      ],
+      "wall_face": 42974
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43046,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25152
+      ],
+      "wall_face": 42975
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43047,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25152
+      ],
+      "wall_face": 42974
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43047,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25152
+      ],
+      "wall_face": 42975
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43045,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25152
+      ],
+      "wall_face": 42974
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43045,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25152
+      ],
+      "wall_face": 42975
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43043,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25152
+      ],
+      "wall_face": 42974
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43043,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25152
+      ],
+      "wall_face": 42975
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43044,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25152
+      ],
+      "wall_face": 42974
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43044,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25152
+      ],
+      "wall_face": 42975
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43041,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25058
+      ],
+      "wall_face": 42882
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43041,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25090
+      ],
+      "wall_face": 42902
+    },
+    {
+      "allowed_boundary_edge": true,
+      "cap_face": 43041,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.7173478989847805,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25058,
+        25090
+      ],
+      "wall_face": 42903
+    },
+    {
+      "allowed_boundary_edge": true,
+      "cap_face": 43042,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.20360843989641256,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25056,
+        25058
+      ],
+      "wall_face": 42882
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43042,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25058
+      ],
+      "wall_face": 42903
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43039,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25089
+      ],
+      "wall_face": 42901
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43039,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25089
+      ],
+      "wall_face": 42902
+    },
+    {
+      "allowed_boundary_edge": true,
+      "cap_face": 43039,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.01381872818352744,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25089,
+        25103
+      ],
+      "wall_face": 42905
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43040,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25090
+      ],
+      "wall_face": 42903
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43039,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25103
+      ],
+      "wall_face": 42904
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43039,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25103
+      ],
+      "wall_face": 42906
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43039,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25103
+      ],
+      "wall_face": 42907
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43038,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25103
+      ],
+      "wall_face": 42905
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43038,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25103
+      ],
+      "wall_face": 42904
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43038,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25103
+      ],
+      "wall_face": 42906
+    },
+    {
+      "allowed_boundary_edge": true,
+      "cap_face": 43038,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0664540672790458,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25103,
+        25104
+      ],
+      "wall_face": 42907
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43037,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25104
+      ],
+      "wall_face": 42907
+    },
+    {
+      "allowed_boundary_edge": true,
+      "cap_face": 43037,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.7190217320594113,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25104,
+        25105
+      ],
+      "wall_face": 42908
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43037,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25105
+      ],
+      "wall_face": 42909
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43041,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25152
+      ],
+      "wall_face": 42974
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43041,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25152
+      ],
+      "wall_face": 42975
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43042,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25152
+      ],
+      "wall_face": 42974
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43042,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25152
+      ],
+      "wall_face": 42975
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43039,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25152
+      ],
+      "wall_face": 42974
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43039,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25152
+      ],
+      "wall_face": 42975
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43040,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25152
+      ],
+      "wall_face": 42974
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43040,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25152
+      ],
+      "wall_face": 42975
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43038,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25152
+      ],
+      "wall_face": 42974
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43038,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25152
+      ],
+      "wall_face": 42975
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43037,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25152
+      ],
+      "wall_face": 42974
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43037,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25152
+      ],
+      "wall_face": 42975
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43035,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25106
+      ],
+      "wall_face": 42909
+    },
+    {
+      "allowed_boundary_edge": true,
+      "cap_face": 43035,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.6247548907561989,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25106,
+        25107
+      ],
+      "wall_face": 42911
+    },
+    {
+      "allowed_boundary_edge": true,
+      "cap_face": 43036,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.14494371748778595,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25105,
+        25106
+      ],
+      "wall_face": 42909
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43036,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25106
+      ],
+      "wall_face": 42911
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43035,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25107
+      ],
+      "wall_face": 42910
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43034,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25107
+      ],
+      "wall_face": 42911
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43034,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25107
+      ],
+      "wall_face": 42910
+    },
+    {
+      "allowed_boundary_edge": true,
+      "cap_face": 43034,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.3045742925852176,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25107,
+        25108
+      ],
+      "wall_face": 42912
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43034,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25108
+      ],
+      "wall_face": 42914
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43035,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25152
+      ],
+      "wall_face": 42974
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43035,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25152
+      ],
+      "wall_face": 42975
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43036,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25152
+      ],
+      "wall_face": 42974
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43036,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25152
+      ],
+      "wall_face": 42975
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43034,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25152
+      ],
+      "wall_face": 42974
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43034,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25152
+      ],
+      "wall_face": 42975
+    },
+    {
+      "allowed_boundary_edge": true,
+      "cap_face": 43058,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.6574554779074168,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25053,
+        25054
+      ],
+      "wall_face": 42878
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43058,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25053
+      ],
+      "wall_face": 42900
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43058,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25054
+      ],
+      "wall_face": 42879
+    },
+    {
+      "allowed_boundary_edge": true,
+      "cap_face": 43059,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.2724095739315795,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25054,
+        25055
+      ],
+      "wall_face": 42879
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43059,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25055
+      ],
+      "wall_face": 42947
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43057,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25053
+      ],
+      "wall_face": 42877
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43057,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25053
+      ],
+      "wall_face": 42878
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43057,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25088
+      ],
+      "wall_face": 42899
+    },
+    {
+      "allowed_boundary_edge": true,
+      "cap_face": 43057,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.35019049457795165,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25053,
+        25088
+      ],
+      "wall_face": 42900
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43058,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25152
+      ],
+      "wall_face": 42974
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43058,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25152
+      ],
+      "wall_face": 42975
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43059,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25152
+      ],
+      "wall_face": 42974
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43059,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25152
+      ],
+      "wall_face": 42975
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43057,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25152
+      ],
+      "wall_face": 42974
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43057,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25152
+      ],
+      "wall_face": 42975
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43055,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25068
+      ],
+      "wall_face": 42887
+    },
+    {
+      "allowed_boundary_edge": true,
+      "cap_face": 43055,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.2491684466656349,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25068,
+        25069
+      ],
+      "wall_face": 42888
+    },
+    {
+      "allowed_boundary_edge": true,
+      "cap_face": 43056,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.5699756654696261,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25069,
+        25088
+      ],
+      "wall_face": 42899
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43056,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25088
+      ],
+      "wall_face": 42900
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43053,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25066
+      ],
+      "wall_face": 42884
+    },
+    {
+      "allowed_boundary_edge": true,
+      "cap_face": 43053,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.09500691620780469,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25066,
+        25067
+      ],
+      "wall_face": 42885
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43053,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25067
+      ],
+      "wall_face": 42886
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43053,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25067
+      ],
+      "wall_face": 42887
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43054,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25067
+      ],
+      "wall_face": 42885
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43054,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25067
+      ],
+      "wall_face": 42886
+    },
+    {
+      "allowed_boundary_edge": true,
+      "cap_face": 43054,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.5553156595900045,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25067,
+        25068
+      ],
+      "wall_face": 42887
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43055,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25152
+      ],
+      "wall_face": 42974
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43055,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25152
+      ],
+      "wall_face": 42975
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43056,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25152
+      ],
+      "wall_face": 42974
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43056,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25152
+      ],
+      "wall_face": 42975
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43053,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25152
+      ],
+      "wall_face": 42974
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43053,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25152
+      ],
+      "wall_face": 42975
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43054,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25152
+      ],
+      "wall_face": 42974
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43054,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25152
+      ],
+      "wall_face": 42975
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43061,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25138
+      ],
+      "wall_face": 42947
+    },
+    {
+      "allowed_boundary_edge": true,
+      "cap_face": 43061,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.24383330207657983,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25138,
+        25139
+      ],
+      "wall_face": 42948
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43061,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25139
+      ],
+      "wall_face": 42949
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43061,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25139
+      ],
+      "wall_face": 42969
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43062,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25150
+      ],
+      "wall_face": 42968
+    },
+    {
+      "allowed_boundary_edge": true,
+      "cap_face": 43062,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 1.0037334783721699,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25139,
+        25150
+      ],
+      "wall_face": 42969
+    },
+    {
+      "allowed_boundary_edge": true,
+      "cap_face": 43060,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.7237731569024914,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25055,
+        25138
+      ],
+      "wall_face": 42947
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43060,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25138
+      ],
+      "wall_face": 42948
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43061,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25152
+      ],
+      "wall_face": 42974
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43061,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25152
+      ],
+      "wall_face": 42975
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43062,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25152
+      ],
+      "wall_face": 42974
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43062,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25152
+      ],
+      "wall_face": 42975
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43060,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25152
+      ],
+      "wall_face": 42974
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43060,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25152
+      ],
+      "wall_face": 42975
+    },
+    {
+      "allowed_boundary_edge": true,
+      "cap_face": 43065,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.08394522891091194,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25145,
+        25147
+      ],
+      "wall_face": 42960
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43065,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25147
+      ],
+      "wall_face": 42961
+    },
+    {
+      "allowed_boundary_edge": true,
+      "cap_face": 43066,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.9538431220449803,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25147,
+        25148
+      ],
+      "wall_face": 42961
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43066,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25148
+      ],
+      "wall_face": 42962
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43066,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25148
+      ],
+      "wall_face": 42963
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43063,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25150
+      ],
+      "wall_face": 42968
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43063,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25146
+      ],
+      "wall_face": 42959
+    },
+    {
+      "allowed_boundary_edge": true,
+      "cap_face": 43064,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.02957114166519629,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25145,
+        25146
+      ],
+      "wall_face": 42959
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43064,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25145
+      ],
+      "wall_face": 42960
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43067,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25148
+      ],
+      "wall_face": 42962
+    },
+    {
+      "allowed_boundary_edge": true,
+      "cap_face": 43067,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.12701661765478697,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25148,
+        25149
+      ],
+      "wall_face": 42963
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43067,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25149
+      ],
+      "wall_face": 42964
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43067,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25149
+      ],
+      "wall_face": 42972
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43068,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25137
+      ],
+      "wall_face": 42946
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43068,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25137
+      ],
+      "wall_face": 42971
+    },
+    {
+      "allowed_boundary_edge": true,
+      "cap_face": 43068,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.493377562032962,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25137,
+        25149
+      ],
+      "wall_face": 42972
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43065,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25152
+      ],
+      "wall_face": 42974
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43065,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25152
+      ],
+      "wall_face": 42975
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43066,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25152
+      ],
+      "wall_face": 42974
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43066,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25152
+      ],
+      "wall_face": 42975
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43063,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25152
+      ],
+      "wall_face": 42974
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43063,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25152
+      ],
+      "wall_face": 42975
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43064,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25152
+      ],
+      "wall_face": 42974
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43064,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25152
+      ],
+      "wall_face": 42975
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43067,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25152
+      ],
+      "wall_face": 42974
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43067,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25152
+      ],
+      "wall_face": 42975
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43068,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25152
+      ],
+      "wall_face": 42974
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43068,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25152
+      ],
+      "wall_face": 42975
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43032,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25109
+      ],
+      "wall_face": 42914
+    },
+    {
+      "allowed_boundary_edge": true,
+      "cap_face": 43033,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.47311829605994676,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25108,
+        25109
+      ],
+      "wall_face": 42914
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43032,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25152
+      ],
+      "wall_face": 42974
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43032,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25152
+      ],
+      "wall_face": 42975
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43033,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25152
+      ],
+      "wall_face": 42974
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43033,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25152
+      ],
+      "wall_face": 42975
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43032,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25109
+      ],
+      "wall_face": 42913
+    },
+    {
+      "allowed_boundary_edge": true,
+      "cap_face": 43032,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.4741831760010954,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25109,
+        25110
+      ],
+      "wall_face": 42915
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43033,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25109
+      ],
+      "wall_face": 42915
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43031,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25152
+      ],
+      "wall_face": 42974
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43031,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25152
+      ],
+      "wall_face": 42975
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43031,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25110
+      ],
+      "wall_face": 42915
+    },
+    {
+      "allowed_boundary_edge": true,
+      "cap_face": 43031,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.3668087738140519,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25110,
+        25140
+      ],
+      "wall_face": 42952
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43031,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25140
+      ],
+      "wall_face": 42951
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43029,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25152
+      ],
+      "wall_face": 42974
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43029,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25152
+      ],
+      "wall_face": 42975
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43030,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25152
+      ],
+      "wall_face": 42974
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43030,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25152
+      ],
+      "wall_face": 42975
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43030,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25140
+      ],
+      "wall_face": 42952
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43029,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25111
+      ],
+      "wall_face": 42916
+    },
+    {
+      "allowed_boundary_edge": true,
+      "cap_face": 43029,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.13999969413694985,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25111,
+        25112
+      ],
+      "wall_face": 42917
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43029,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25111
+      ],
+      "wall_face": 42918
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43029,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25112
+      ],
+      "wall_face": 42950
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43029,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25112
+      ],
+      "wall_face": 42951
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43030,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25112
+      ],
+      "wall_face": 42917
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43030,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25112
+      ],
+      "wall_face": 42950
+    },
+    {
+      "allowed_boundary_edge": true,
+      "cap_face": 43030,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.1737160464203124,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25112,
+        25140
+      ],
+      "wall_face": 42951
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43027,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25152
+      ],
+      "wall_face": 42974
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43027,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25152
+      ],
+      "wall_face": 42975
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43028,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25152
+      ],
+      "wall_face": 42974
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43028,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25152
+      ],
+      "wall_face": 42975
+    },
+    {
+      "allowed_boundary_edge": true,
+      "cap_face": 43027,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.14789785566418162,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25070,
+        25071
+      ],
+      "wall_face": 42890
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43027,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25071
+      ],
+      "wall_face": 42918
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43028,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25071
+      ],
+      "wall_face": 42890
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43028,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25111
+      ],
+      "wall_face": 42916
+    },
+    {
+      "allowed_boundary_edge": true,
+      "cap_face": 43028,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.40052511229892745,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25071,
+        25111
+      ],
+      "wall_face": 42918
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43027,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25070
+      ],
+      "wall_face": 42889
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43027,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25070
+      ],
+      "wall_face": 42891
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43027,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25070
+      ],
+      "wall_face": 42892
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43026,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25152
+      ],
+      "wall_face": 42974
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43026,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25152
+      ],
+      "wall_face": 42975
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43026,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25070
+      ],
+      "wall_face": 42889
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43026,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25070
+      ],
+      "wall_face": 42891
+    },
+    {
+      "allowed_boundary_edge": true,
+      "cap_face": 43026,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.696051890133386,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25070,
+        25072
+      ],
+      "wall_face": 42892
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43026,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25072
+      ],
+      "wall_face": 42893
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43025,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25152
+      ],
+      "wall_face": 42974
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43025,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25152
+      ],
+      "wall_face": 42975
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43023,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25152
+      ],
+      "wall_face": 42974
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43023,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25152
+      ],
+      "wall_face": 42975
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43024,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25152
+      ],
+      "wall_face": 42974
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43024,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25152
+      ],
+      "wall_face": 42975
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43025,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25072
+      ],
+      "wall_face": 42892
+    },
+    {
+      "allowed_boundary_edge": true,
+      "cap_face": 43025,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.12712422167879195,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25072,
+        25073
+      ],
+      "wall_face": 42893
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43025,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25073
+      ],
+      "wall_face": 42894
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43023,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25121
+      ],
+      "wall_face": 42930
+    },
+    {
+      "allowed_boundary_edge": true,
+      "cap_face": 43023,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.01655476273312369,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25074,
+        25121
+      ],
+      "wall_face": 42931
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43024,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25073
+      ],
+      "wall_face": 42893
+    },
+    {
+      "allowed_boundary_edge": true,
+      "cap_face": 43024,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.028653048907248905,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25073,
+        25074
+      ],
+      "wall_face": 42894
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43024,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25074
+      ],
+      "wall_face": 42931
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43022,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25152
+      ],
+      "wall_face": 42974
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43022,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25152
+      ],
+      "wall_face": 42975
+    },
+    {
+      "allowed_boundary_edge": true,
+      "cap_face": 43022,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.45380470306213133,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25120,
+        25121
+      ],
+      "wall_face": 42930
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43022,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25121
+      ],
+      "wall_face": 42931
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43022,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25120
+      ],
+      "wall_face": 42929
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43022,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25120
+      ],
+      "wall_face": 42954
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43021,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25152
+      ],
+      "wall_face": 42974
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43021,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25152
+      ],
+      "wall_face": 42975
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43021,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25141
+      ],
+      "wall_face": 42953
+    },
+    {
+      "allowed_boundary_edge": true,
+      "cap_face": 43021,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.595236015684536,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25120,
+        25141
+      ],
+      "wall_face": 42954
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43021,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25141
+      ],
+      "wall_face": 42955
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43019,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25152
+      ],
+      "wall_face": 42974
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43019,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25152
+      ],
+      "wall_face": 42975
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43020,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25152
+      ],
+      "wall_face": 42974
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43020,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25152
+      ],
+      "wall_face": 42975
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43019,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25142
+      ],
+      "wall_face": 42955
+    },
+    {
+      "allowed_boundary_edge": true,
+      "cap_face": 43019,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.07279845760287879,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25142,
+        25144
+      ],
+      "wall_face": 42958
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43020,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25141
+      ],
+      "wall_face": 42953
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43020,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25141
+      ],
+      "wall_face": 42954
+    },
+    {
+      "allowed_boundary_edge": true,
+      "cap_face": 43020,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.20435296531588412,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25141,
+        25142
+      ],
+      "wall_face": 42955
+    },
+    {
+      "allowed_boundary_edge": true,
+      "cap_face": 43073,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 1.0669162161474188,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25157,
+        25158
+      ],
+      "wall_face": 42984
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43073,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25158
+      ],
+      "wall_face": 42985
+    },
+    {
+      "allowed_boundary_edge": true,
+      "cap_face": 43073,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.35622246469478996,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25158,
+        25159
+      ],
+      "wall_face": 42986
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43073,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25159
+      ],
+      "wall_face": 42987
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43071,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25136
+      ],
+      "wall_face": 42945
+    },
+    {
+      "allowed_boundary_edge": true,
+      "cap_face": 43071,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.03368815501164827,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25136,
+        25156
+      ],
+      "wall_face": 42982
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43072,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25156
+      ],
+      "wall_face": 42982
+    },
+    {
+      "allowed_boundary_edge": true,
+      "cap_face": 43072,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.031065473342317566,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25156,
+        25157
+      ],
+      "wall_face": 42983
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43072,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25157
+      ],
+      "wall_face": 42984
+    },
+    {
+      "allowed_boundary_edge": true,
+      "cap_face": 43070,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.14819796086392953,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25135,
+        25136
+      ],
+      "wall_face": 42945
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43070,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25136
+      ],
+      "wall_face": 42982
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43069,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25135
+      ],
+      "wall_face": 42944
+    },
+    {
+      "allowed_boundary_edge": true,
+      "cap_face": 43069,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.2424198957510962,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25135,
+        25137
+      ],
+      "wall_face": 42946
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43074,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25157
+      ],
+      "wall_face": 42984
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43074,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25159
+      ],
+      "wall_face": 42986
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43074,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25159
+      ],
+      "wall_face": 42987
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43075,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25159
+      ],
+      "wall_face": 42986
+    },
+    {
+      "allowed_boundary_edge": true,
+      "cap_face": 43075,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.590233531581341,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25151,
+        25159
+      ],
+      "wall_face": 42987
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43071,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25152
+      ],
+      "wall_face": 42974
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43071,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25152
+      ],
+      "wall_face": 42975
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43072,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25152
+      ],
+      "wall_face": 42974
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43072,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25152
+      ],
+      "wall_face": 42975
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43070,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25152
+      ],
+      "wall_face": 42974
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43070,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25152
+      ],
+      "wall_face": 42975
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43069,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25152
+      ],
+      "wall_face": 42974
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43069,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25152
+      ],
+      "wall_face": 42975
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43074,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25152
+      ],
+      "wall_face": 42974
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43074,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25152
+      ],
+      "wall_face": 42975
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43075,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25151
+      ],
+      "wall_face": 42973
+    },
+    {
+      "allowed_boundary_edge": true,
+      "cap_face": 43075,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.3784064732057172,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25151,
+        25152
+      ],
+      "wall_face": 42974
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 42996,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25044
+      ],
+      "wall_face": 42919
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 42996,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25044
+      ],
+      "wall_face": 42920
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 42995,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25152
+      ],
+      "wall_face": 42974
+    },
+    {
+      "allowed_boundary_edge": true,
+      "cap_face": 42995,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.5549181745649326,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25042,
+        25152
+      ],
+      "wall_face": 42975
+    },
+    {
+      "allowed_boundary_edge": true,
+      "cap_face": 42996,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.7234867993699612,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25043,
+        25044
+      ],
+      "wall_face": 42873
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 42996,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25152
+      ],
+      "wall_face": 42974
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 42996,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25152
+      ],
+      "wall_face": 42975
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 42997,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25044
+      ],
+      "wall_face": 42919
+    },
+    {
+      "allowed_boundary_edge": true,
+      "cap_face": 42997,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.03301695450519132,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25044,
+        25113
+      ],
+      "wall_face": 42920
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 42997,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25113
+      ],
+      "wall_face": 42921
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 42998,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25113
+      ],
+      "wall_face": 42920
+    },
+    {
+      "allowed_boundary_edge": true,
+      "cap_face": 42998,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.42510317345462995,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25113,
+        25114
+      ],
+      "wall_face": 42921
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 42998,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25114
+      ],
+      "wall_face": 42922
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 42997,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25044
+      ],
+      "wall_face": 42873
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 42997,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25152
+      ],
+      "wall_face": 42974
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 42997,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25152
+      ],
+      "wall_face": 42975
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 42998,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25152
+      ],
+      "wall_face": 42974
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 42998,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25152
+      ],
+      "wall_face": 42975
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43000,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25115
+      ],
+      "wall_face": 42923
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43000,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25152
+      ],
+      "wall_face": 42974
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43000,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25152
+      ],
+      "wall_face": 42975
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43001,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25152
+      ],
+      "wall_face": 42974
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43001,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25152
+      ],
+      "wall_face": 42975
+    },
+    {
+      "allowed_boundary_edge": true,
+      "cap_face": 43000,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.05494645474960836,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25115,
+        25116
+      ],
+      "wall_face": 42924
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43001,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25116
+      ],
+      "wall_face": 42989
+    },
+    {
+      "allowed_boundary_edge": true,
+      "cap_face": 43001,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.301834151809442,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25116,
+        25118
+      ],
+      "wall_face": 42990
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 42999,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25114
+      ],
+      "wall_face": 42921
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 42999,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25114
+      ],
+      "wall_face": 42922
+    },
+    {
+      "allowed_boundary_edge": true,
+      "cap_face": 42999,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.3321244475308026,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25114,
+        25115
+      ],
+      "wall_face": 42923
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 42999,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25152
+      ],
+      "wall_face": 42974
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 42999,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25152
+      ],
+      "wall_face": 42975
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 42999,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25115
+      ],
+      "wall_face": 42924
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43002,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25152
+      ],
+      "wall_face": 42974
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43002,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25152
+      ],
+      "wall_face": 42975
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43003,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25152
+      ],
+      "wall_face": 42974
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43003,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25152
+      ],
+      "wall_face": 42975
+    },
+    {
+      "allowed_boundary_edge": true,
+      "cap_face": 43002,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.09570758627721401,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25117,
+        25118
+      ],
+      "wall_face": 42925
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43002,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25118
+      ],
+      "wall_face": 42990
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43003,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25117
+      ],
+      "wall_face": 42925
+    },
+    {
+      "allowed_boundary_edge": true,
+      "cap_face": 43003,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.07968716261057873,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25117,
+        25119
+      ],
+      "wall_face": 42926
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43003,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25119
+      ],
+      "wall_face": 42927
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43006,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25152
+      ],
+      "wall_face": 42974
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43006,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25152
+      ],
+      "wall_face": 42975
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43007,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25152
+      ],
+      "wall_face": 42974
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43007,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25152
+      ],
+      "wall_face": 42975
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43006,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25075
+      ],
+      "wall_face": 42895
+    },
+    {
+      "allowed_boundary_edge": true,
+      "cap_face": 43006,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.1424994494872686,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25075,
+        25076
+      ],
+      "wall_face": 42896
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43006,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25076
+      ],
+      "wall_face": 42932
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43006,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25076
+      ],
+      "wall_face": 42933
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43007,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25076
+      ],
+      "wall_face": 42896
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43007,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25076
+      ],
+      "wall_face": 42932
+    },
+    {
+      "allowed_boundary_edge": true,
+      "cap_face": 43007,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.14454287839302693,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25076,
+        25122
+      ],
+      "wall_face": 42933
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43005,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25152
+      ],
+      "wall_face": 42974
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43005,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25152
+      ],
+      "wall_face": 42975
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43005,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25075
+      ],
+      "wall_face": 42895
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43005,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25075
+      ],
+      "wall_face": 42896
+    },
+    {
+      "allowed_boundary_edge": true,
+      "cap_face": 43005,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.18768674230204702,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25075,
+        25077
+      ],
+      "wall_face": 42897
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43005,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25077
+      ],
+      "wall_face": 42928
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43004,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25152
+      ],
+      "wall_face": 42974
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43004,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25152
+      ],
+      "wall_face": 42975
+    },
+    {
+      "allowed_boundary_edge": true,
+      "cap_face": 43004,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.7588267134894471,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25077,
+        25119
+      ],
+      "wall_face": 42927
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43010,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25152
+      ],
+      "wall_face": 42974
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43010,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25152
+      ],
+      "wall_face": 42975
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43011,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25152
+      ],
+      "wall_face": 42974
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43011,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25152
+      ],
+      "wall_face": 42975
+    },
+    {
+      "allowed_boundary_edge": true,
+      "cap_face": 43010,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.5424101901963426,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25160,
+        25161
+      ],
+      "wall_face": 42991
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43010,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25161
+      ],
+      "wall_face": 42993
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43011,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25154
+      ],
+      "wall_face": 42979
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43011,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25154
+      ],
+      "wall_face": 42980
+    },
+    {
+      "allowed_boundary_edge": true,
+      "cap_face": 43011,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.38836391925457936,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25154,
+        25161
+      ],
+      "wall_face": 42993
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43008,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25152
+      ],
+      "wall_face": 42974
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43008,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25152
+      ],
+      "wall_face": 42975
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43009,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25152
+      ],
+      "wall_face": 42974
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43009,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25152
+      ],
+      "wall_face": 42975
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43008,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25123
+      ],
+      "wall_face": 42994
+    },
+    {
+      "allowed_boundary_edge": true,
+      "cap_face": 43009,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.36986324672049836,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25123,
+        25160
+      ],
+      "wall_face": 42994
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43008,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25122
+      ],
+      "wall_face": 42933
+    },
+    {
+      "allowed_boundary_edge": true,
+      "cap_face": 43008,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.4289518244149243,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25122,
+        25123
+      ],
+      "wall_face": 42934
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43009,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25123
+      ],
+      "wall_face": 42934
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43017,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25152
+      ],
+      "wall_face": 42974
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43017,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25152
+      ],
+      "wall_face": 42975
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43018,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25152
+      ],
+      "wall_face": 42974
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43018,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25152
+      ],
+      "wall_face": 42975
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43018,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25143
+      ],
+      "wall_face": 42956
+    },
+    {
+      "allowed_boundary_edge": true,
+      "cap_face": 43018,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.3445629528057765,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25143,
+        25144
+      ],
+      "wall_face": 42957
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43018,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25143
+      ],
+      "wall_face": 42978
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43015,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25152
+      ],
+      "wall_face": 42974
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43015,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25152
+      ],
+      "wall_face": 42975
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43016,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25152
+      ],
+      "wall_face": 42974
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43016,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25152
+      ],
+      "wall_face": 42975
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43015,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25046
+      ],
+      "wall_face": 42875
+    },
+    {
+      "allowed_boundary_edge": true,
+      "cap_face": 43015,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.36752252567661003,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25046,
+        25047
+      ],
+      "wall_face": 42876
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43015,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25047
+      ],
+      "wall_face": 42976
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43016,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25047
+      ],
+      "wall_face": 42876
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43016,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25047
+      ],
+      "wall_face": 42976
+    },
+    {
+      "allowed_boundary_edge": true,
+      "cap_face": 43016,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.6277007181523634,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25047,
+        25153
+      ],
+      "wall_face": 42977
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43013,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25152
+      ],
+      "wall_face": 42974
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43013,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25152
+      ],
+      "wall_face": 42975
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43014,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25152
+      ],
+      "wall_face": 42974
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43014,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25152
+      ],
+      "wall_face": 42975
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43013,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25045
+      ],
+      "wall_face": 42875
+    },
+    {
+      "allowed_boundary_edge": true,
+      "cap_face": 43014,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.5573020228885708,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25045,
+        25046
+      ],
+      "wall_face": 42875
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43014,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25046
+      ],
+      "wall_face": 42876
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43013,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25045
+      ],
+      "wall_face": 42874
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43013,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25155
+      ],
+      "wall_face": 42980
+    },
+    {
+      "allowed_boundary_edge": true,
+      "cap_face": 43013,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.3866168148477285,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25045,
+        25155
+      ],
+      "wall_face": 42981
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43014,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25045
+      ],
+      "wall_face": 42874
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43014,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25045
+      ],
+      "wall_face": 42981
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43012,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25152
+      ],
+      "wall_face": 42974
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43012,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25152
+      ],
+      "wall_face": 42975
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43012,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25154
+      ],
+      "wall_face": 42979
+    },
+    {
+      "allowed_boundary_edge": true,
+      "cap_face": 43012,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.5347125568630625,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25154,
+        25155
+      ],
+      "wall_face": 42980
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43012,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25155
+      ],
+      "wall_face": 42981
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43012,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25154
+      ],
+      "wall_face": 42993
+    },
+    {
+      "allowed_boundary_edge": true,
+      "cap_face": 43171,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.2161823299689063,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25221,
+        25222
+      ],
+      "wall_face": 43082
+    },
+    {
+      "allowed_boundary_edge": true,
+      "cap_face": 43172,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.48264988690700694,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25221,
+        25223
+      ],
+      "wall_face": 43083
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43170,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25222
+      ],
+      "wall_face": 43082
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43170,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25250
+      ],
+      "wall_face": 43122
+    },
+    {
+      "allowed_boundary_edge": true,
+      "cap_face": 43170,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.46801814171606965,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25222,
+        25250
+      ],
+      "wall_face": 43123
+    },
+    {
+      "allowed_boundary_edge": true,
+      "cap_face": 43168,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.04108489915013623,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25241,
+        25242
+      ],
+      "wall_face": 43106
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43168,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25242
+      ],
+      "wall_face": 43107
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43169,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25241
+      ],
+      "wall_face": 43106
+    },
+    {
+      "allowed_boundary_edge": true,
+      "cap_face": 43169,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.08407256020308483,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25241,
+        25250
+      ],
+      "wall_face": 43122
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43169,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25250
+      ],
+      "wall_face": 43123
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43167,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25242
+      ],
+      "wall_face": 43106
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43167,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25242
+      ],
+      "wall_face": 43107
+    },
+    {
+      "allowed_boundary_edge": true,
+      "cap_face": 43167,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.15682175660023912,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25242,
+        25243
+      ],
+      "wall_face": 43108
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43167,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25243
+      ],
+      "wall_face": 43119
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43166,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25243
+      ],
+      "wall_face": 43108
+    },
+    {
+      "allowed_boundary_edge": true,
+      "cap_face": 43166,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.6192809144960539,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25243,
+        25245
+      ],
+      "wall_face": 43119
+    },
+    {
+      "allowed_boundary_edge": true,
+      "cap_face": 43165,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.03798893251351482,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25244,
+        25245
+      ],
+      "wall_face": 43110
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43165,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25245
+      ],
+      "wall_face": 43119
+    },
+    {
+      "allowed_boundary_edge": true,
+      "cap_face": 43163,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.007790280553793168,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25235,
+        25246
+      ],
+      "wall_face": 43114
+    },
+    {
+      "allowed_boundary_edge": true,
+      "cap_face": 43164,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.013187399516401176,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25244,
+        25246
+      ],
+      "wall_face": 43112
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43162,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25234
+      ],
+      "wall_face": 43098
+    },
+    {
+      "allowed_boundary_edge": true,
+      "cap_face": 43162,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.44187788673093875,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25234,
+        25235
+      ],
+      "wall_face": 43099
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43162,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25235
+      ],
+      "wall_face": 43114
+    },
+    {
+      "allowed_boundary_edge": true,
+      "cap_face": 43160,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.016525981195459883,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25233,
+        25248
+      ],
+      "wall_face": 43121
+    },
+    {
+      "allowed_boundary_edge": true,
+      "cap_face": 43161,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.011897339309243403,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25233,
+        25234
+      ],
+      "wall_face": 43098
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43161,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25234
+      ],
+      "wall_face": 43099
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43176,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25254
+      ],
+      "wall_face": 43132
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43177,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25254
+      ],
+      "wall_face": 43132
+    },
+    {
+      "allowed_boundary_edge": true,
+      "cap_face": 43177,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.051329827599645717,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25254,
+        25258
+      ],
+      "wall_face": 43140
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43176,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25253
+      ],
+      "wall_face": 43130
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43177,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25254
+      ],
+      "wall_face": 43131
+    },
+    {
+      "allowed_boundary_edge": true,
+      "cap_face": 43174,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.010473119053845627,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25224,
+        25225
+      ],
+      "wall_face": 43086
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43174,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25225
+      ],
+      "wall_face": 43087
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43174,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25225
+      ],
+      "wall_face": 43130
+    },
+    {
+      "allowed_boundary_edge": true,
+      "cap_face": 43175,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.01167529068940013,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25225,
+        25253
+      ],
+      "wall_face": 43130
+    },
+    {
+      "allowed_boundary_edge": true,
+      "cap_face": 43173,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.2593960119279722,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25223,
+        25224
+      ],
+      "wall_face": 43084
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43173,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25224
+      ],
+      "wall_face": 43085
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43173,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25224
+      ],
+      "wall_face": 43086
+    },
+    {
+      "allowed_boundary_edge": true,
+      "cap_face": 43181,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.34617836470870006,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25236,
+        25238
+      ],
+      "wall_face": 43101
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43181,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25238
+      ],
+      "wall_face": 43102
+    },
+    {
+      "allowed_boundary_edge": true,
+      "cap_face": 43182,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.5866947379848488,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25238,
+        25239
+      ],
+      "wall_face": 43102
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43182,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25239
+      ],
+      "wall_face": 43103
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43179,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25237
+      ],
+      "wall_face": 43100
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43179,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25257
+      ],
+      "wall_face": 43137
+    },
+    {
+      "allowed_boundary_edge": true,
+      "cap_face": 43179,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.36899315545750455,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25237,
+        25257
+      ],
+      "wall_face": 43138
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43179,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25237
+      ],
+      "wall_face": 43139
+    },
+    {
+      "allowed_boundary_edge": true,
+      "cap_face": 43180,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.010429642384573246,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25236,
+        25237
+      ],
+      "wall_face": 43100
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43180,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25237
+      ],
+      "wall_face": 43139
+    },
+    {
+      "allowed_boundary_edge": true,
+      "cap_face": 43178,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.34519535462136286,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25257,
+        25258
+      ],
+      "wall_face": 43137
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43183,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25239
+      ],
+      "wall_face": 43103
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43159,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25248
+      ],
+      "wall_face": 43117
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43158,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25226
+      ],
+      "wall_face": 43088
+    },
+    {
+      "allowed_boundary_edge": true,
+      "cap_face": 43158,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.6532005642739271,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25226,
+        25247
+      ],
+      "wall_face": 43115
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43156,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25227
+      ],
+      "wall_face": 43088
+    },
+    {
+      "allowed_boundary_edge": true,
+      "cap_face": 43156,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.06507737744294044,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25227,
+        25228
+      ],
+      "wall_face": 43089
+    },
+    {
+      "allowed_boundary_edge": true,
+      "cap_face": 43157,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.031593165750487984,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25226,
+        25227
+      ],
+      "wall_face": 43088
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43157,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25226
+      ],
+      "wall_face": 43115
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43171,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25216
+      ],
+      "wall_face": 43076
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43171,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25216
+      ],
+      "wall_face": 43142
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43172,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25216
+      ],
+      "wall_face": 43076
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43172,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25216
+      ],
+      "wall_face": 43142
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43170,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25216
+      ],
+      "wall_face": 43076
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43170,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25216
+      ],
+      "wall_face": 43142
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43168,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25216
+      ],
+      "wall_face": 43076
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43168,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25216
+      ],
+      "wall_face": 43142
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43169,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25216
+      ],
+      "wall_face": 43076
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43169,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25216
+      ],
+      "wall_face": 43142
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43168,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25216
+      ],
+      "wall_face": 43143
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43167,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25216
+      ],
+      "wall_face": 43076
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43167,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25216
+      ],
+      "wall_face": 43142
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43167,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25216
+      ],
+      "wall_face": 43143
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43166,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25216
+      ],
+      "wall_face": 43076
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43166,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25216
+      ],
+      "wall_face": 43142
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43165,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25216
+      ],
+      "wall_face": 43076
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43165,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25216
+      ],
+      "wall_face": 43142
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43163,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25216
+      ],
+      "wall_face": 43076
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43163,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25216
+      ],
+      "wall_face": 43142
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43164,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25216
+      ],
+      "wall_face": 43076
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43164,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25216
+      ],
+      "wall_face": 43142
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43164,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25216
+      ],
+      "wall_face": 43143
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43162,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25216
+      ],
+      "wall_face": 43076
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43162,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25216
+      ],
+      "wall_face": 43142
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43160,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25216
+      ],
+      "wall_face": 43076
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43160,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25216
+      ],
+      "wall_face": 43142
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43161,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25216
+      ],
+      "wall_face": 43076
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43161,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25216
+      ],
+      "wall_face": 43142
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43160,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25216
+      ],
+      "wall_face": 43143
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43176,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25216
+      ],
+      "wall_face": 43076
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43176,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25216
+      ],
+      "wall_face": 43142
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43177,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25216
+      ],
+      "wall_face": 43076
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43177,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25216
+      ],
+      "wall_face": 43142
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43176,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25216
+      ],
+      "wall_face": 43143
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43177,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25216
+      ],
+      "wall_face": 43143
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43174,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25216
+      ],
+      "wall_face": 43076
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43174,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25216
+      ],
+      "wall_face": 43142
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43175,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25216
+      ],
+      "wall_face": 43076
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43175,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25216
+      ],
+      "wall_face": 43142
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43175,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25216
+      ],
+      "wall_face": 43143
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43173,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25216
+      ],
+      "wall_face": 43076
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43173,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25216
+      ],
+      "wall_face": 43142
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43145,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25220
+      ],
+      "wall_face": 43081
+    },
+    {
+      "allowed_boundary_edge": true,
+      "cap_face": 43145,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.21098925007794309,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25217,
+        25220
+      ],
+      "wall_face": 43133
+    },
+    {
+      "allowed_boundary_edge": true,
+      "cap_face": 43146,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.4786268442136325,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25219,
+        25220
+      ],
+      "wall_face": 43081
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43147,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25218
+      ],
+      "wall_face": 43118
+    },
+    {
+      "allowed_boundary_edge": true,
+      "cap_face": 43148,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.17768927548047497,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25218,
+        25249
+      ],
+      "wall_face": 43118
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43149,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25249
+      ],
+      "wall_face": 43118
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43149,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25252
+      ],
+      "wall_face": 43127
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43149,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25252
+      ],
+      "wall_face": 43128
+    },
+    {
+      "allowed_boundary_edge": true,
+      "cap_face": 43149,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.35049372168453197,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25249,
+        25252
+      ],
+      "wall_face": 43129
+    },
+    {
+      "allowed_boundary_edge": true,
+      "cap_face": 43150,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.10038546327125185,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25251,
+        25252
+      ],
+      "wall_face": 43127
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43150,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25252
+      ],
+      "wall_face": 43128
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43150,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25252
+      ],
+      "wall_face": 43129
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43150,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25251
+      ],
+      "wall_face": 43126
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43182,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25239
+      ],
+      "wall_face": 43104
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43181,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25216
+      ],
+      "wall_face": 43076
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43181,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25216
+      ],
+      "wall_face": 43142
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43182,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25216
+      ],
+      "wall_face": 43076
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43182,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25216
+      ],
+      "wall_face": 43142
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43182,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25216
+      ],
+      "wall_face": 43143
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43179,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25216
+      ],
+      "wall_face": 43076
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43179,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25216
+      ],
+      "wall_face": 43142
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43180,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25216
+      ],
+      "wall_face": 43076
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43180,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25216
+      ],
+      "wall_face": 43142
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43179,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25216
+      ],
+      "wall_face": 43143
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43178,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25216
+      ],
+      "wall_face": 43076
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43178,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25216
+      ],
+      "wall_face": 43142
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43178,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25216
+      ],
+      "wall_face": 43143
+    },
+    {
+      "allowed_boundary_edge": true,
+      "cap_face": 43183,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.4519347149083209,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25239,
+        25240
+      ],
+      "wall_face": 43104
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43183,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25240
+      ],
+      "wall_face": 43135
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43183,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25216
+      ],
+      "wall_face": 43076
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43183,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25216
+      ],
+      "wall_face": 43142
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43183,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25240
+      ],
+      "wall_face": 43105
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43183,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25240
+      ],
+      "wall_face": 43134
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43183,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25216
+      ],
+      "wall_face": 43143
+    },
+    {
+      "allowed_boundary_edge": true,
+      "cap_face": 43184,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.15170972088571985,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25240,
+        25255
+      ],
+      "wall_face": 43135
+    },
+    {
+      "allowed_boundary_edge": true,
+      "cap_face": 43185,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.08967069968526407,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25255,
+        25256
+      ],
+      "wall_face": 43136
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43184,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25216
+      ],
+      "wall_face": 43076
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43184,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25216
+      ],
+      "wall_face": 43142
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43185,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25216
+      ],
+      "wall_face": 43076
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43185,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25216
+      ],
+      "wall_face": 43142
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43184,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25240
+      ],
+      "wall_face": 43105
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43184,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25240
+      ],
+      "wall_face": 43134
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43184,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25216
+      ],
+      "wall_face": 43143
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43186,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25256
+      ],
+      "wall_face": 43136
+    },
+    {
+      "allowed_boundary_edge": true,
+      "cap_face": 43186,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.3141621780488916,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25256,
+        25259
+      ],
+      "wall_face": 43141
+    },
+    {
+      "allowed_boundary_edge": true,
+      "cap_face": 43186,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.08984927377171892,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25216,
+        25259
+      ],
+      "wall_face": 43142
+    },
+    {
+      "allowed_boundary_edge": true,
+      "cap_face": 43144,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.1286309804863624,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25215,
+        25216
+      ],
+      "wall_face": 43076
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43144,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25216
+      ],
+      "wall_face": 43142
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43145,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25216
+      ],
+      "wall_face": 43076
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43145,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25216
+      ],
+      "wall_face": 43142
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43144,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25217
+      ],
+      "wall_face": 43078
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43145,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25217
+      ],
+      "wall_face": 43078
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43146,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25216
+      ],
+      "wall_face": 43076
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43146,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25216
+      ],
+      "wall_face": 43142
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43147,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25216
+      ],
+      "wall_face": 43076
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43147,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25216
+      ],
+      "wall_face": 43142
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43148,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25216
+      ],
+      "wall_face": 43076
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43148,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25216
+      ],
+      "wall_face": 43142
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43147,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25216
+      ],
+      "wall_face": 43143
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43149,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25216
+      ],
+      "wall_face": 43076
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43149,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25216
+      ],
+      "wall_face": 43142
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43150,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25216
+      ],
+      "wall_face": 43076
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43150,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25216
+      ],
+      "wall_face": 43142
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43149,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25216
+      ],
+      "wall_face": 43143
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43155,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25229
+      ],
+      "wall_face": 43092
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43152,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25231
+      ],
+      "wall_face": 43094
+    },
+    {
+      "allowed_boundary_edge": true,
+      "cap_face": 43153,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.16787815384297156,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25230,
+        25231
+      ],
+      "wall_face": 43094
+    },
+    {
+      "allowed_boundary_edge": true,
+      "cap_face": 43154,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.1890248135118092,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25229,
+        25230
+      ],
+      "wall_face": 43092
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43154,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25230
+      ],
+      "wall_face": 43093
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43154,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25230
+      ],
+      "wall_face": 43094
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43151,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25251
+      ],
+      "wall_face": 43127
+    },
+    {
+      "allowed_boundary_edge": true,
+      "cap_face": 43151,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.43308054168816856,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25232,
+        25251
+      ],
+      "wall_face": 43125
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43151,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25251
+      ],
+      "wall_face": 43126
+    },
+    {
+      "allowed_boundary_edge": true,
+      "cap_face": 43152,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.2984528800400776,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25231,
+        25232
+      ],
+      "wall_face": 43096
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43153,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25231
+      ],
+      "wall_face": 43096
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43159,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25216
+      ],
+      "wall_face": 43076
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43159,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25216
+      ],
+      "wall_face": 43142
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43159,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25216
+      ],
+      "wall_face": 43143
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43158,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25216
+      ],
+      "wall_face": 43076
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43158,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25216
+      ],
+      "wall_face": 43142
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43158,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25216
+      ],
+      "wall_face": 43143
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43156,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25216
+      ],
+      "wall_face": 43076
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43156,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25216
+      ],
+      "wall_face": 43142
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43157,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25216
+      ],
+      "wall_face": 43076
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43157,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25216
+      ],
+      "wall_face": 43142
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43155,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25216
+      ],
+      "wall_face": 43076
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43155,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25216
+      ],
+      "wall_face": 43142
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43151,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25216
+      ],
+      "wall_face": 43076
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43151,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25216
+      ],
+      "wall_face": 43142
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43151,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25216
+      ],
+      "wall_face": 43143
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43152,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25216
+      ],
+      "wall_face": 43076
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43152,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25216
+      ],
+      "wall_face": 43142
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43152,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25216
+      ],
+      "wall_face": 43143
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43153,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25216
+      ],
+      "wall_face": 43076
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43153,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25216
+      ],
+      "wall_face": 43142
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43154,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25216
+      ],
+      "wall_face": 43076
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43154,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25216
+      ],
+      "wall_face": 43142
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43154,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25216
+      ],
+      "wall_face": 43143
+    },
+    {
+      "allowed_boundary_edge": true,
+      "cap_face": 43251,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.9106922364162492,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25520,
+        25521
+      ],
+      "wall_face": 43208
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43251,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25521
+      ],
+      "wall_face": 43209
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43251,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25521
+      ],
+      "wall_face": 43210
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43251,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25349
+      ],
+      "wall_face": 43224
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43252,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25520
+      ],
+      "wall_face": 43208
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43252,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25489
+      ],
+      "wall_face": 43220
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43252,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25349
+      ],
+      "wall_face": 43187
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43252,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25349
+      ],
+      "wall_face": 43224
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43253,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25489
+      ],
+      "wall_face": 43220
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43254,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25361
+      ],
+      "wall_face": 43190
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43254,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25361
+      ],
+      "wall_face": 43191
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43253,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25349
+      ],
+      "wall_face": 43187
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43253,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25349
+      ],
+      "wall_face": 43224
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43254,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25349
+      ],
+      "wall_face": 43187
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43254,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25349
+      ],
+      "wall_face": 43224
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43252,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25489
+      ],
+      "wall_face": 43202
+    },
+    {
+      "allowed_boundary_edge": true,
+      "cap_face": 43252,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.3822125144551139,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25489,
+        25520
+      ],
+      "wall_face": 43221
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43253,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25363
+      ],
+      "wall_face": 43192
+    },
+    {
+      "allowed_boundary_edge": true,
+      "cap_face": 43253,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0478334076273626,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25363,
+        25489
+      ],
+      "wall_face": 43202
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43253,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25489
+      ],
+      "wall_face": 43221
+    },
+    {
+      "allowed_boundary_edge": true,
+      "cap_face": 43254,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.3520451460220317,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25361,
+        25363
+      ],
+      "wall_face": 43192
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43254,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25363
+      ],
+      "wall_face": 43202
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43255,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25361
+      ],
+      "wall_face": 43190
+    },
+    {
+      "allowed_boundary_edge": true,
+      "cap_face": 43255,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.7632332110985365,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25361,
+        25362
+      ],
+      "wall_face": 43191
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43256,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25362
+      ],
+      "wall_face": 43191
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43255,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25349
+      ],
+      "wall_face": 43187
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43255,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25349
+      ],
+      "wall_face": 43224
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43256,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25349
+      ],
+      "wall_face": 43187
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43256,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25349
+      ],
+      "wall_face": 43224
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43255,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25362
+      ],
+      "wall_face": 43231
+    },
+    {
+      "allowed_boundary_edge": true,
+      "cap_face": 43256,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.41739176829279145,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25362,
+        25564
+      ],
+      "wall_face": 43231
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43256,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25564
+      ],
+      "wall_face": 43234
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43257,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25349
+      ],
+      "wall_face": 43224
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43257,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25564
+      ],
+      "wall_face": 43231
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43257,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25569
+      ],
+      "wall_face": 43233
+    },
+    {
+      "allowed_boundary_edge": true,
+      "cap_face": 43257,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.697370255398965,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25564,
+        25569
+      ],
+      "wall_face": 43234
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43257,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25569
+      ],
+      "wall_face": 43237
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43248,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25349
+      ],
+      "wall_face": 43187
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43248,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25349
+      ],
+      "wall_face": 43224
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43249,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25349
+      ],
+      "wall_face": 43224
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43250,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25521
+      ],
+      "wall_face": 43208
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43250,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25521
+      ],
+      "wall_face": 43209
+    },
+    {
+      "allowed_boundary_edge": true,
+      "cap_face": 43250,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0674738492035652,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25521,
+        25522
+      ],
+      "wall_face": 43210
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43250,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25522
+      ],
+      "wall_face": 43218
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43250,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25522
+      ],
+      "wall_face": 43219
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43250,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25349
+      ],
+      "wall_face": 43187
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43250,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25349
+      ],
+      "wall_face": 43224
+    },
+    {
+      "allowed_boundary_edge": true,
+      "cap_face": 43247,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.8858696870990532,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25518,
+        25519
+      ],
+      "wall_face": 43206
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43247,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25518
+      ],
+      "wall_face": 43216
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43247,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25349
+      ],
+      "wall_face": 43187
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43247,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25519
+      ],
+      "wall_face": 43207
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43247,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25349
+      ],
+      "wall_face": 43224
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43245,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25349
+      ],
+      "wall_face": 43224
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43246,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25349
+      ],
+      "wall_face": 43187
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43246,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25488
+      ],
+      "wall_face": 43201
+    },
+    {
+      "allowed_boundary_edge": true,
+      "cap_face": 43246,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.31340769843207755,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25488,
+        25519
+      ],
+      "wall_face": 43207
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43246,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25349
+      ],
+      "wall_face": 43224
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43244,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25349
+      ],
+      "wall_face": 43187
+    },
+    {
+      "allowed_boundary_edge": true,
+      "cap_face": 43244,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.438544714970345,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25486,
+        25487
+      ],
+      "wall_face": 43198
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43244,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25349
+      ],
+      "wall_face": 43224
+    },
+    {
+      "allowed_boundary_edge": true,
+      "cap_face": 43242,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.03373710167481446,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25484,
+        25485
+      ],
+      "wall_face": 43196
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43242,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25349
+      ],
+      "wall_face": 43224
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43243,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25484
+      ],
+      "wall_face": 43196
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43243,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25349
+      ],
+      "wall_face": 43224
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43241,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25349
+      ],
+      "wall_face": 43187
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43241,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25485
+      ],
+      "wall_face": 43196
+    },
+    {
+      "allowed_boundary_edge": true,
+      "cap_face": 43241,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.19901422268253008,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25485,
+        25543
+      ],
+      "wall_face": 43211
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43241,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25543
+      ],
+      "wall_face": 43212
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43241,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25543
+      ],
+      "wall_face": 43213
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43241,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25349
+      ],
+      "wall_face": 43224
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43239,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25544
+      ],
+      "wall_face": 43214
+    },
+    {
+      "allowed_boundary_edge": true,
+      "cap_face": 43239,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.10469222613654204,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25350,
+        25544
+      ],
+      "wall_face": 43215
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43239,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25349
+      ],
+      "wall_face": 43224
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43240,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25543
+      ],
+      "wall_face": 43212
+    },
+    {
+      "allowed_boundary_edge": true,
+      "cap_face": 43240,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.18555239720460437,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25543,
+        25544
+      ],
+      "wall_face": 43213
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43240,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25544
+      ],
+      "wall_face": 43214
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43240,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25544
+      ],
+      "wall_face": 43215
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43240,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25349
+      ],
+      "wall_face": 43224
+    },
+    {
+      "allowed_boundary_edge": true,
+      "cap_face": 43238,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.41132818226848755,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25348,
+        25349
+      ],
+      "wall_face": 43187
+    },
+    {
+      "allowed_boundary_edge": true,
+      "cap_face": 43238,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.15340973126992175,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25348,
+        25350
+      ],
+      "wall_face": 43188
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43238,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25349
+      ],
+      "wall_face": 43224
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43269,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25559
+      ],
+      "wall_face": 43222
+    },
+    {
+      "allowed_boundary_edge": true,
+      "cap_face": 43269,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.30326770557476007,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25559,
+        25560
+      ],
+      "wall_face": 43223
+    },
+    {
+      "allowed_boundary_edge": true,
+      "cap_face": 43269,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.1636758290639939,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25349,
+        25559
+      ],
+      "wall_face": 43224
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43269,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25560
+      ],
+      "wall_face": 43225
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43267,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25560
+      ],
+      "wall_face": 43223
+    },
+    {
+      "allowed_boundary_edge": true,
+      "cap_face": 43267,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.10255773014118963,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25560,
+        25561
+      ],
+      "wall_face": 43225
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43268,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25560
+      ],
+      "wall_face": 43223
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43268,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25349
+      ],
+      "wall_face": 43224
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43268,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25560
+      ],
+      "wall_face": 43225
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43267,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25417
+      ],
+      "wall_face": 43193
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43267,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25417
+      ],
+      "wall_face": 43194
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43267,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25417
+      ],
+      "wall_face": 43195
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43261,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25349
+      ],
+      "wall_face": 43224
+    },
+    {
+      "allowed_boundary_edge": true,
+      "cap_face": 43261,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.009406432648433858,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25490,
+        25491
+      ],
+      "wall_face": 43203
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43261,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25491
+      ],
+      "wall_face": 43204
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43262,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25349
+      ],
+      "wall_face": 43224
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43263,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25349
+      ],
+      "wall_face": 43224
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43266,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25561
+      ],
+      "wall_face": 43225
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43266,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25561
+      ],
+      "wall_face": 43226
+    },
+    {
+      "allowed_boundary_edge": true,
+      "cap_face": 43266,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.35528788360362257,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25561,
+        25562
+      ],
+      "wall_face": 43227
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43266,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25562
+      ],
+      "wall_face": 43228
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43266,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25417
+      ],
+      "wall_face": 43193
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43266,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25417
+      ],
+      "wall_face": 43194
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43266,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25417
+      ],
+      "wall_face": 43195
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43265,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25562
+      ],
+      "wall_face": 43227
+    },
+    {
+      "allowed_boundary_edge": true,
+      "cap_face": 43265,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.5422725715257332,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25562,
+        25563
+      ],
+      "wall_face": 43228
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43265,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25563
+      ],
+      "wall_face": 43229
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43265,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25417
+      ],
+      "wall_face": 43193
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43265,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25417
+      ],
+      "wall_face": 43194
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43265,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25417
+      ],
+      "wall_face": 43195
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43265,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25563
+      ],
+      "wall_face": 43230
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43258,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25349
+      ],
+      "wall_face": 43187
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43258,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25349
+      ],
+      "wall_face": 43224
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43259,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25349
+      ],
+      "wall_face": 43187
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43259,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25349
+      ],
+      "wall_face": 43224
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43258,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25569
+      ],
+      "wall_face": 43233
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43258,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25569
+      ],
+      "wall_face": 43234
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43258,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25570
+      ],
+      "wall_face": 43235
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43258,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25570
+      ],
+      "wall_face": 43236
+    },
+    {
+      "allowed_boundary_edge": true,
+      "cap_face": 43258,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.07572145405795146,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25569,
+        25570
+      ],
+      "wall_face": 43237
+    },
+    {
+      "allowed_boundary_edge": true,
+      "cap_face": 43259,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.20736004620767254,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25492,
+        25570
+      ],
+      "wall_face": 43235
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43259,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25570
+      ],
+      "wall_face": 43236
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43259,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25570
+      ],
+      "wall_face": 43237
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43259,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25492
+      ],
+      "wall_face": 43205
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43260,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25349
+      ],
+      "wall_face": 43187
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43260,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25349
+      ],
+      "wall_face": 43224
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43260,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25491
+      ],
+      "wall_face": 43204
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43264,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25563
+      ],
+      "wall_face": 43228
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43264,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25563
+      ],
+      "wall_face": 43229
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43264,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25417
+      ],
+      "wall_face": 43193
+    },
+    {
+      "allowed_boundary_edge": true,
+      "cap_face": 43264,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.9193725052430622,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25417,
+        25418
+      ],
+      "wall_face": 43194
+    },
+    {
+      "allowed_boundary_edge": false,
+      "cap_face": 43264,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.0,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25417
+      ],
+      "wall_face": 43195
+    },
+    {
+      "allowed_boundary_edge": true,
+      "cap_face": 43264,
+      "coplanar_overlap_mm2": 0.0,
+      "finite_segment_mm": 0.35603501553960953,
+      "invalid": false,
+      "source_shared_vertex_ids": [
+        25418,
+        25563
+      ],
+      "wall_face": 43230
+    }
+  ],
+  "tolerance_mm": 1e-10
+}

@@ -1,0 +1,2270 @@
+{
+	"adapter": "NVIDIA GeForce RTX 4070 Ti",
+	"captures": [
+		{
+			"path": "res://deformation/capacity_v2_n0_research/verification/forward/D0_complete.png",
+			"state": {
+				"anatomical_approval": "PENDING",
+				"camera_display_position_mm": [
+					117.455894470215,
+					88.8534698486328,
+					162.815582275391
+				],
+				"camera_fov": 42.0,
+				"camera_rotation_radians": [
+					-0.450000017881393,
+					0.600000023841858,
+					0.0
+				],
+				"candidate": "C11_inlet_distal_control",
+				"cavity_visible": true,
+				"distance_mm": 214.625,
+				"focus_display_center_mm": [
+					8.33396148681641,
+					-4.50100708007813,
+					3.3125
+				],
+				"mode": 0,
+				"origin_mm": [
+					16,
+					16,
+					-81
+				],
+				"pitch": 0.45,
+				"schema": "N0_USER_REVIEW_SESSION_V1",
+				"section_enabled": false,
+				"section_normal": [
+					1.0,
+					0.0,
+					0.0
+				],
+				"section_offset_RAS_mm": 16.0,
+				"section_offset_display_mm": 0.0,
+				"selected_pair": {},
+				"source_manifest_sha256": "fee5d371309553c032db1deb753c498e3ee75b735ce61ff0ad7a706e6514f8d1",
+				"tissue_visible": false,
+				"u": 0.0,
+				"viewport_size": [
+					1422.0,
+					1066.0
+				],
+				"yaw": 0.6
+			},
+			"tag": "D0_complete"
+		},
+		{
+			"path": "res://deformation/capacity_v2_n0_research/verification/forward/D2_C00_distal_control.png",
+			"state": {
+				"anatomical_approval": "PENDING",
+				"camera_display_position_mm": [
+					76.5465545654297,
+					65.9728393554688,
+					127.163650512695
+				],
+				"camera_fov": 42.0,
+				"camera_rotation_radians": [
+					-0.450000017881393,
+					0.600000023841858,
+					0.0
+				],
+				"candidate": "C00_distal_control",
+				"cavity_visible": true,
+				"distance_mm": 152.504502868652,
+				"focus_display_center_mm": [
+					-0.991413116455078,
+					-0.361357688903809,
+					13.826717376709
+				],
+				"mode": 2,
+				"origin_mm": [
+					16,
+					16,
+					-81
+				],
+				"pitch": 0.45,
+				"schema": "N0_USER_REVIEW_SESSION_V1",
+				"section_enabled": false,
+				"section_normal": [
+					1.0,
+					0.0,
+					0.0
+				],
+				"section_offset_RAS_mm": 16.0,
+				"section_offset_display_mm": 0.0,
+				"selected_pair": {},
+				"source_manifest_sha256": "fee5d371309553c032db1deb753c498e3ee75b735ce61ff0ad7a706e6514f8d1",
+				"tissue_visible": false,
+				"u": 0.0,
+				"viewport_size": [
+					1422.0,
+					1066.0
+				],
+				"yaw": 0.6
+			},
+			"tag": "D2_C00_distal_control"
+		},
+		{
+			"path": "res://deformation/capacity_v2_n0_research/verification/forward/D2_C01_transition_mid.png",
+			"state": {
+				"anatomical_approval": "PENDING",
+				"camera_display_position_mm": [
+					75.0670852661133,
+					64.6013946533203,
+					123.944595336914
+				],
+				"camera_fov": 42.0,
+				"camera_rotation_radians": [
+					-0.450000017881393,
+					0.600000023841858,
+					0.0
+				],
+				"candidate": "C01_transition_mid",
+				"cavity_visible": true,
+				"distance_mm": 149.351495361328,
+				"focus_display_center_mm": [
+					-0.867799758911133,
+					-0.361357688903809,
+					12.9508838653564
+				],
+				"mode": 2,
+				"origin_mm": [
+					16,
+					16,
+					-81
+				],
+				"pitch": 0.45,
+				"schema": "N0_USER_REVIEW_SESSION_V1",
+				"section_enabled": false,
+				"section_normal": [
+					1.0,
+					0.0,
+					0.0
+				],
+				"section_offset_RAS_mm": 16.0,
+				"section_offset_display_mm": 0.0,
+				"selected_pair": {},
+				"source_manifest_sha256": "fee5d371309553c032db1deb753c498e3ee75b735ce61ff0ad7a706e6514f8d1",
+				"tissue_visible": false,
+				"u": 0.0,
+				"viewport_size": [
+					1422.0,
+					1066.0
+				],
+				"yaw": 0.6
+			},
+			"tag": "D2_C01_transition_mid"
+		},
+		{
+			"path": "res://deformation/capacity_v2_n0_research/verification/forward/D2_C02_transition_proximal.png",
+			"state": {
+				"anatomical_approval": "PENDING",
+				"camera_display_position_mm": [
+					75.7655029296875,
+					64.6013946533203,
+					123.944595336914
+				],
+				"camera_fov": 42.0,
+				"camera_rotation_radians": [
+					-0.450000017881393,
+					0.600000023841858,
+					0.0
+				],
+				"candidate": "C02_transition_proximal",
+				"cavity_visible": true,
+				"distance_mm": 149.351495361328,
+				"focus_display_center_mm": [
+					-0.169377326965332,
+					-0.361357688903809,
+					12.9508838653564
+				],
+				"mode": 2,
+				"origin_mm": [
+					16,
+					16,
+					-81
+				],
+				"pitch": 0.45,
+				"schema": "N0_USER_REVIEW_SESSION_V1",
+				"section_enabled": false,
+				"section_normal": [
+					1.0,
+					0.0,
+					0.0
+				],
+				"section_offset_RAS_mm": 16.0,
+				"section_offset_display_mm": 0.0,
+				"selected_pair": {},
+				"source_manifest_sha256": "fee5d371309553c032db1deb753c498e3ee75b735ce61ff0ad7a706e6514f8d1",
+				"tissue_visible": false,
+				"u": 0.0,
+				"viewport_size": [
+					1422.0,
+					1066.0
+				],
+				"yaw": 0.6
+			},
+			"tag": "D2_C02_transition_proximal"
+		},
+		{
+			"path": "res://deformation/capacity_v2_n0_research/verification/forward/D2_C03_transition_distal.png",
+			"state": {
+				"anatomical_approval": "PENDING",
+				"camera_display_position_mm": [
+					75.3709106445313,
+					64.6013946533203,
+					123.944595336914
+				],
+				"camera_fov": 42.0,
+				"camera_rotation_radians": [
+					-0.450000017881393,
+					0.600000023841858,
+					0.0
+				],
+				"candidate": "C03_transition_distal",
+				"cavity_visible": true,
+				"distance_mm": 149.351495361328,
+				"focus_display_center_mm": [
+					-0.563972473144531,
+					-0.361357688903809,
+					12.9508838653564
+				],
+				"mode": 2,
+				"origin_mm": [
+					16,
+					16,
+					-81
+				],
+				"pitch": 0.45,
+				"schema": "N0_USER_REVIEW_SESSION_V1",
+				"section_enabled": false,
+				"section_normal": [
+					1.0,
+					0.0,
+					0.0
+				],
+				"section_offset_RAS_mm": 16.0,
+				"section_offset_display_mm": 0.0,
+				"selected_pair": {},
+				"source_manifest_sha256": "fee5d371309553c032db1deb753c498e3ee75b735ce61ff0ad7a706e6514f8d1",
+				"tissue_visible": false,
+				"u": 0.0,
+				"viewport_size": [
+					1422.0,
+					1066.0
+				],
+				"yaw": 0.6
+			},
+			"tag": "D2_C03_transition_distal"
+		},
+		{
+			"path": "res://deformation/capacity_v2_n0_research/verification/forward/D2_C04_bladder_proximal.png",
+			"state": {
+				"anatomical_approval": "PENDING",
+				"camera_display_position_mm": [
+					75.7655029296875,
+					64.6013946533203,
+					123.944595336914
+				],
+				"camera_fov": 42.0,
+				"camera_rotation_radians": [
+					-0.450000017881393,
+					0.600000023841858,
+					0.0
+				],
+				"candidate": "C04_bladder_proximal",
+				"cavity_visible": true,
+				"distance_mm": 149.351495361328,
+				"focus_display_center_mm": [
+					-0.169377326965332,
+					-0.361357688903809,
+					12.9508838653564
+				],
+				"mode": 2,
+				"origin_mm": [
+					16,
+					16,
+					-81
+				],
+				"pitch": 0.45,
+				"schema": "N0_USER_REVIEW_SESSION_V1",
+				"section_enabled": false,
+				"section_normal": [
+					1.0,
+					0.0,
+					0.0
+				],
+				"section_offset_RAS_mm": 16.0,
+				"section_offset_display_mm": 0.0,
+				"selected_pair": {},
+				"source_manifest_sha256": "fee5d371309553c032db1deb753c498e3ee75b735ce61ff0ad7a706e6514f8d1",
+				"tissue_visible": false,
+				"u": 0.0,
+				"viewport_size": [
+					1422.0,
+					1066.0
+				],
+				"yaw": 0.6
+			},
+			"tag": "D2_C04_bladder_proximal"
+		},
+		{
+			"path": "res://deformation/capacity_v2_n0_research/verification/forward/D2_C05_bladder_distal.png",
+			"state": {
+				"anatomical_approval": "PENDING",
+				"camera_display_position_mm": [
+					74.8188934326172,
+					64.6013946533203,
+					123.944595336914
+				],
+				"camera_fov": 42.0,
+				"camera_rotation_radians": [
+					-0.450000017881393,
+					0.600000023841858,
+					0.0
+				],
+				"candidate": "C05_bladder_distal",
+				"cavity_visible": true,
+				"distance_mm": 149.351495361328,
+				"focus_display_center_mm": [
+					-1.11598968505859,
+					-0.361357688903809,
+					12.9508838653564
+				],
+				"mode": 2,
+				"origin_mm": [
+					16,
+					16,
+					-81
+				],
+				"pitch": 0.45,
+				"schema": "N0_USER_REVIEW_SESSION_V1",
+				"section_enabled": false,
+				"section_normal": [
+					1.0,
+					0.0,
+					0.0
+				],
+				"section_offset_RAS_mm": 16.0,
+				"section_offset_display_mm": 0.0,
+				"selected_pair": {},
+				"source_manifest_sha256": "fee5d371309553c032db1deb753c498e3ee75b735ce61ff0ad7a706e6514f8d1",
+				"tissue_visible": false,
+				"u": 0.0,
+				"viewport_size": [
+					1422.0,
+					1066.0
+				],
+				"yaw": 0.6
+			},
+			"tag": "D2_C05_bladder_distal"
+		},
+		{
+			"path": "res://deformation/capacity_v2_n0_research/verification/forward/D2_C06_near_BASE.png",
+			"state": {
+				"anatomical_approval": "PENDING",
+				"camera_display_position_mm": [
+					77.2221832275391,
+					65.9728393554688,
+					127.163650512695
+				],
+				"camera_fov": 42.0,
+				"camera_rotation_radians": [
+					-0.450000017881393,
+					0.600000023841858,
+					0.0
+				],
+				"candidate": "C06_near_BASE",
+				"cavity_visible": true,
+				"distance_mm": 152.504502868652,
+				"focus_display_center_mm": [
+					-0.31578254699707,
+					-0.361357688903809,
+					13.826717376709
+				],
+				"mode": 2,
+				"origin_mm": [
+					16,
+					16,
+					-81
+				],
+				"pitch": 0.45,
+				"schema": "N0_USER_REVIEW_SESSION_V1",
+				"section_enabled": false,
+				"section_normal": [
+					1.0,
+					0.0,
+					0.0
+				],
+				"section_offset_RAS_mm": 16.0,
+				"section_offset_display_mm": 0.0,
+				"selected_pair": {},
+				"source_manifest_sha256": "fee5d371309553c032db1deb753c498e3ee75b735ce61ff0ad7a706e6514f8d1",
+				"tissue_visible": false,
+				"u": 0.0,
+				"viewport_size": [
+					1422.0,
+					1066.0
+				],
+				"yaw": 0.6
+			},
+			"tag": "D2_C06_near_BASE"
+		},
+		{
+			"path": "res://deformation/capacity_v2_n0_research/verification/forward/C06_cut_BLADDER.png",
+			"state": {
+				"anatomical_approval": "PENDING",
+				"camera_display_position_mm": [
+					-31.4988346099854,
+					2.04216337203979,
+					-37.9988479614258
+				],
+				"camera_fov": 42.0,
+				"camera_rotation_radians": [
+					-0.0641898885369301,
+					-2.81868147850037,
+					0.0
+				],
+				"candidate": "C06_near_BASE",
+				"cavity_visible": true,
+				"distance_mm": 20.0,
+				"focus_display_center_mm": [
+					-25.1653327941895,
+					0.759246826171875,
+					-19.0715942382813
+				],
+				"mode": 2,
+				"origin_mm": [
+					16,
+					16,
+					-81
+				],
+				"pitch": 0.0641899049204889,
+				"schema": "N0_USER_REVIEW_SESSION_V1",
+				"section_enabled": true,
+				"section_normal": [
+					-0.316675096750259,
+					0.0641458332538605,
+					-0.946362614631653
+				],
+				"section_offset_RAS_mm": 98.9814861297607,
+				"section_offset_display_mm": 26.3665798187256,
+				"selected_pair": {},
+				"source_manifest_sha256": "fee5d371309553c032db1deb753c498e3ee75b735ce61ff0ad7a706e6514f8d1",
+				"tissue_visible": false,
+				"u": 0.0,
+				"viewport_size": [
+					1422.0,
+					1066.0
+				],
+				"yaw": -2.81868146892928
+			},
+			"tag": "C06_cut_BLADDER"
+		},
+		{
+			"path": "res://deformation/capacity_v2_n0_research/verification/forward/C06_cut_IN01.png",
+			"state": {
+				"anatomical_approval": "PENDING",
+				"camera_display_position_mm": [
+					38.5972366333008,
+					9.71335220336914,
+					34.3552474975586
+				],
+				"camera_fov": 42.0,
+				"camera_rotation_radians": [
+					-0.274037569761276,
+					1.17616891860962,
+					0.0
+				],
+				"candidate": "C06_near_BASE",
+				"cavity_visible": true,
+				"distance_mm": 20.0,
+				"focus_display_center_mm": [
+					20.8233604431152,
+					4.30094146728516,
+					26.952880859375
+				],
+				"mode": 2,
+				"origin_mm": [
+					16,
+					16,
+					-81
+				],
+				"pitch": 0.274037580629137,
+				"schema": "N0_USER_REVIEW_SESSION_V1",
+				"section_enabled": true,
+				"section_normal": [
+					0.888693928718567,
+					0.270620554685593,
+					0.37011843919754
+				],
+				"section_offset_RAS_mm": 18.514714050293,
+				"section_offset_display_mm": 29.9452751159668,
+				"selected_pair": {},
+				"source_manifest_sha256": "fee5d371309553c032db1deb753c498e3ee75b735ce61ff0ad7a706e6514f8d1",
+				"tissue_visible": false,
+				"u": 0.0,
+				"viewport_size": [
+					1422.0,
+					1066.0
+				],
+				"yaw": 1.17616888159821
+			},
+			"tag": "C06_cut_IN01"
+		},
+		{
+			"path": "res://deformation/capacity_v2_n0_research/verification/forward/C06_cut_IN02.png",
+			"state": {
+				"anatomical_approval": "PENDING",
+				"camera_display_position_mm": [
+					-32.3793716430664,
+					14.0192651748657,
+					94.3989410400391
+				],
+				"camera_fov": 42.0,
+				"camera_rotation_radians": [
+					-0.201316848397255,
+					-0.40625724196434,
+					0.0
+				],
+				"candidate": "C06_near_BASE",
+				"cavity_visible": true,
+				"distance_mm": 56.4202365875244,
+				"focus_display_center_mm": [
+					-10.5338478088379,
+					2.73748970031738,
+					43.6176719665527
+				],
+				"mode": 2,
+				"origin_mm": [
+					16,
+					16,
+					-81
+				],
+				"pitch": 0.201316830815771,
+				"schema": "N0_USER_REVIEW_SESSION_V1",
+				"section_enabled": true,
+				"section_normal": [
+					-0.387193024158478,
+					0.199959740042686,
+					0.900054275989532
+				],
+				"section_offset_RAS_mm": -31.7158424377441,
+				"section_offset_display_mm": 44.1842887878418,
+				"selected_pair": {},
+				"source_manifest_sha256": "fee5d371309553c032db1deb753c498e3ee75b735ce61ff0ad7a706e6514f8d1",
+				"tissue_visible": false,
+				"u": 0.0,
+				"viewport_size": [
+					1422.0,
+					1066.0
+				],
+				"yaw": -0.406257156264144
+			},
+			"tag": "C06_cut_IN02"
+		},
+		{
+			"path": "res://deformation/capacity_v2_n0_research/verification/forward/D2_C07_IN01_collar.png",
+			"state": {
+				"anatomical_approval": "PENDING",
+				"camera_display_position_mm": [
+					77.2221832275391,
+					65.9728393554688,
+					127.163650512695
+				],
+				"camera_fov": 42.0,
+				"camera_rotation_radians": [
+					-0.450000017881393,
+					0.600000023841858,
+					0.0
+				],
+				"candidate": "C07_IN01_collar",
+				"cavity_visible": true,
+				"distance_mm": 152.504502868652,
+				"focus_display_center_mm": [
+					-0.31578254699707,
+					-0.361357688903809,
+					13.826717376709
+				],
+				"mode": 2,
+				"origin_mm": [
+					16,
+					16,
+					-81
+				],
+				"pitch": 0.45,
+				"schema": "N0_USER_REVIEW_SESSION_V1",
+				"section_enabled": false,
+				"section_normal": [
+					-0.387193024158478,
+					0.199959740042686,
+					0.900054275989532
+				],
+				"section_offset_RAS_mm": -31.7158424377441,
+				"section_offset_display_mm": 44.1842887878418,
+				"selected_pair": {},
+				"source_manifest_sha256": "fee5d371309553c032db1deb753c498e3ee75b735ce61ff0ad7a706e6514f8d1",
+				"tissue_visible": false,
+				"u": 0.0,
+				"viewport_size": [
+					1422.0,
+					1066.0
+				],
+				"yaw": 0.6
+			},
+			"tag": "D2_C07_IN01_collar"
+		},
+		{
+			"path": "res://deformation/capacity_v2_n0_research/verification/forward/D2_C08_IN02_collar.png",
+			"state": {
+				"anatomical_approval": "PENDING",
+				"camera_display_position_mm": [
+					77.2221832275391,
+					65.9728393554688,
+					127.163650512695
+				],
+				"camera_fov": 42.0,
+				"camera_rotation_radians": [
+					-0.450000017881393,
+					0.600000023841858,
+					0.0
+				],
+				"candidate": "C08_IN02_collar",
+				"cavity_visible": true,
+				"distance_mm": 152.504502868652,
+				"focus_display_center_mm": [
+					-0.31578254699707,
+					-0.361357688903809,
+					13.826717376709
+				],
+				"mode": 2,
+				"origin_mm": [
+					16,
+					16,
+					-81
+				],
+				"pitch": 0.45,
+				"schema": "N0_USER_REVIEW_SESSION_V1",
+				"section_enabled": false,
+				"section_normal": [
+					-0.387193024158478,
+					0.199959740042686,
+					0.900054275989532
+				],
+				"section_offset_RAS_mm": -31.7158424377441,
+				"section_offset_display_mm": 44.1842887878418,
+				"selected_pair": {},
+				"source_manifest_sha256": "fee5d371309553c032db1deb753c498e3ee75b735ce61ff0ad7a706e6514f8d1",
+				"tissue_visible": false,
+				"u": 0.0,
+				"viewport_size": [
+					1422.0,
+					1066.0
+				],
+				"yaw": 0.6
+			},
+			"tag": "D2_C08_IN02_collar"
+		},
+		{
+			"path": "res://deformation/capacity_v2_n0_research/verification/forward/D2_C09_UPJ_proximal_unconfirmed.png",
+			"state": {
+				"anatomical_approval": "PENDING",
+				"camera_display_position_mm": [
+					77.9206008911133,
+					65.9728393554688,
+					127.163650512695
+				],
+				"camera_fov": 42.0,
+				"camera_rotation_radians": [
+					-0.450000017881393,
+					0.600000023841858,
+					0.0
+				],
+				"candidate": "C09_UPJ_proximal_unconfirmed",
+				"cavity_visible": true,
+				"distance_mm": 152.504502868652,
+				"focus_display_center_mm": [
+					0.38263988494873,
+					-0.361357688903809,
+					13.826717376709
+				],
+				"mode": 2,
+				"origin_mm": [
+					16,
+					16,
+					-81
+				],
+				"pitch": 0.45,
+				"schema": "N0_USER_REVIEW_SESSION_V1",
+				"section_enabled": false,
+				"section_normal": [
+					-0.387193024158478,
+					0.199959740042686,
+					0.900054275989532
+				],
+				"section_offset_RAS_mm": -31.7158424377441,
+				"section_offset_display_mm": 44.1842887878418,
+				"selected_pair": {},
+				"source_manifest_sha256": "fee5d371309553c032db1deb753c498e3ee75b735ce61ff0ad7a706e6514f8d1",
+				"tissue_visible": false,
+				"u": 0.0,
+				"viewport_size": [
+					1422.0,
+					1066.0
+				],
+				"yaw": 0.6
+			},
+			"tag": "D2_C09_UPJ_proximal_unconfirmed"
+		},
+		{
+			"path": "res://deformation/capacity_v2_n0_research/verification/forward/D2_C10_UPJ_distal_unconfirmed.png",
+			"state": {
+				"anatomical_approval": "PENDING",
+				"camera_display_position_mm": [
+					76.973991394043,
+					65.9728393554688,
+					127.163650512695
+				],
+				"camera_fov": 42.0,
+				"camera_rotation_radians": [
+					-0.450000017881393,
+					0.600000023841858,
+					0.0
+				],
+				"candidate": "C10_UPJ_distal_unconfirmed",
+				"cavity_visible": true,
+				"distance_mm": 152.504502868652,
+				"focus_display_center_mm": [
+					-0.563972473144531,
+					-0.361357688903809,
+					13.826717376709
+				],
+				"mode": 2,
+				"origin_mm": [
+					16,
+					16,
+					-81
+				],
+				"pitch": 0.45,
+				"schema": "N0_USER_REVIEW_SESSION_V1",
+				"section_enabled": false,
+				"section_normal": [
+					-0.387193024158478,
+					0.199959740042686,
+					0.900054275989532
+				],
+				"section_offset_RAS_mm": -31.7158424377441,
+				"section_offset_display_mm": 44.1842887878418,
+				"selected_pair": {},
+				"source_manifest_sha256": "fee5d371309553c032db1deb753c498e3ee75b735ce61ff0ad7a706e6514f8d1",
+				"tissue_visible": false,
+				"u": 0.0,
+				"viewport_size": [
+					1422.0,
+					1066.0
+				],
+				"yaw": 0.6
+			},
+			"tag": "D2_C10_UPJ_distal_unconfirmed"
+		},
+		{
+			"path": "res://deformation/capacity_v2_n0_research/verification/forward/D2_C11_inlet_distal_control.png",
+			"state": {
+				"anatomical_approval": "PENDING",
+				"camera_display_position_mm": [
+					77.2221832275391,
+					65.9728393554688,
+					127.163650512695
+				],
+				"camera_fov": 42.0,
+				"camera_rotation_radians": [
+					-0.450000017881393,
+					0.600000023841858,
+					0.0
+				],
+				"candidate": "C11_inlet_distal_control",
+				"cavity_visible": true,
+				"distance_mm": 152.504502868652,
+				"focus_display_center_mm": [
+					-0.31578254699707,
+					-0.361357688903809,
+					13.826717376709
+				],
+				"mode": 2,
+				"origin_mm": [
+					16,
+					16,
+					-81
+				],
+				"pitch": 0.45,
+				"schema": "N0_USER_REVIEW_SESSION_V1",
+				"section_enabled": false,
+				"section_normal": [
+					-0.387193024158478,
+					0.199959740042686,
+					0.900054275989532
+				],
+				"section_offset_RAS_mm": -31.7158424377441,
+				"section_offset_display_mm": 44.1842887878418,
+				"selected_pair": {},
+				"source_manifest_sha256": "fee5d371309553c032db1deb753c498e3ee75b735ce61ff0ad7a706e6514f8d1",
+				"tissue_visible": false,
+				"u": 0.0,
+				"viewport_size": [
+					1422.0,
+					1066.0
+				],
+				"yaw": 0.6
+			},
+			"tag": "D2_C11_inlet_distal_control"
+		},
+		{
+			"path": "res://deformation/capacity_v2_n0_research/verification/forward/compare_C11_inlet_distal_control.png",
+			"state": {
+				"anatomical_approval": "PENDING",
+				"camera_display_position_mm": [
+					77.2221832275391,
+					65.9728393554688,
+					127.163650512695
+				],
+				"camera_fov": 42.0,
+				"camera_rotation_radians": [
+					-0.450000017881393,
+					0.600000023841858,
+					0.0
+				],
+				"candidate": "C11_inlet_distal_control",
+				"cavity_visible": true,
+				"distance_mm": 152.504502868652,
+				"focus_display_center_mm": [
+					-0.31578254699707,
+					-0.361357688903809,
+					13.826717376709
+				],
+				"mode": 2,
+				"origin_mm": [
+					16,
+					16,
+					-81
+				],
+				"pitch": 0.45,
+				"schema": "N0_USER_REVIEW_SESSION_V1",
+				"section_enabled": false,
+				"section_normal": [
+					-0.387193024158478,
+					0.199959740042686,
+					0.900054275989532
+				],
+				"section_offset_RAS_mm": -31.7158424377441,
+				"section_offset_display_mm": 44.1842887878418,
+				"selected_pair": {},
+				"source_manifest_sha256": "fee5d371309553c032db1deb753c498e3ee75b735ce61ff0ad7a706e6514f8d1",
+				"tissue_visible": false,
+				"u": 0.0,
+				"viewport_size": [
+					1422.0,
+					1066.0
+				],
+				"yaw": 0.6
+			},
+			"tag": "compare_C11_inlet_distal_control"
+		},
+		{
+			"path": "res://deformation/capacity_v2_n0_research/verification/forward/compare_C06_near_BASE.png",
+			"state": {
+				"anatomical_approval": "PENDING",
+				"camera_display_position_mm": [
+					77.2221832275391,
+					65.9728393554688,
+					127.163650512695
+				],
+				"camera_fov": 42.0,
+				"camera_rotation_radians": [
+					-0.450000017881393,
+					0.600000023841858,
+					0.0
+				],
+				"candidate": "C06_near_BASE",
+				"cavity_visible": true,
+				"distance_mm": 152.504502868652,
+				"focus_display_center_mm": [
+					-0.31578254699707,
+					-0.361357688903809,
+					13.826717376709
+				],
+				"mode": 2,
+				"origin_mm": [
+					16,
+					16,
+					-81
+				],
+				"pitch": 0.45,
+				"schema": "N0_USER_REVIEW_SESSION_V1",
+				"section_enabled": false,
+				"section_normal": [
+					-0.387193024158478,
+					0.199959740042686,
+					0.900054275989532
+				],
+				"section_offset_RAS_mm": -31.7158424377441,
+				"section_offset_display_mm": 44.1842887878418,
+				"selected_pair": {},
+				"source_manifest_sha256": "fee5d371309553c032db1deb753c498e3ee75b735ce61ff0ad7a706e6514f8d1",
+				"tissue_visible": false,
+				"u": 0.0,
+				"viewport_size": [
+					1422.0,
+					1066.0
+				],
+				"yaw": 0.6
+			},
+			"tag": "compare_C06_near_BASE"
+		},
+		{
+			"path": "res://deformation/capacity_v2_n0_research/verification/forward/contact_J_05_u000.png",
+			"state": {
+				"anatomical_approval": "PENDING",
+				"camera_display_position_mm": [
+					22.2344512939453,
+					9.19332408905029,
+					48.4124526977539
+				],
+				"camera_fov": 42.0,
+				"camera_rotation_radians": [
+					-0.271657139062881,
+					0.380506426095963,
+					0.0
+				],
+				"candidate": "C06_near_BASE",
+				"cavity_visible": true,
+				"distance_mm": 28.0,
+				"focus_display_center_mm": [
+					12.2168655395508,
+					1.68013572692871,
+					23.3684921264648
+				],
+				"mode": 3,
+				"origin_mm": [
+					16,
+					16,
+					-81
+				],
+				"pitch": 0.271657126529726,
+				"schema": "N0_USER_REVIEW_SESSION_V1",
+				"section_enabled": true,
+				"section_normal": [
+					0.357770889997482,
+					0.268328160047531,
+					0.894427180290222
+				],
+				"section_offset_RAS_mm": -36.4079334259033,
+				"section_offset_display_mm": 26.0230815887451,
+				"selected_pair": {},
+				"source_manifest_sha256": "fee5d371309553c032db1deb753c498e3ee75b735ce61ff0ad7a706e6514f8d1",
+				"tissue_visible": true,
+				"u": 0.0,
+				"viewport_size": [
+					1422.0,
+					1066.0
+				],
+				"yaw": 0.380506394346853
+			},
+			"tag": "contact_J_05_u000"
+		},
+		{
+			"path": "res://deformation/capacity_v2_n0_research/verification/forward/contact_J_05_u100.png",
+			"state": {
+				"anatomical_approval": "PENDING",
+				"camera_display_position_mm": [
+					22.2344512939453,
+					9.19332408905029,
+					48.4124526977539
+				],
+				"camera_fov": 42.0,
+				"camera_rotation_radians": [
+					-0.271657139062881,
+					0.380506426095963,
+					0.0
+				],
+				"candidate": "C06_near_BASE",
+				"cavity_visible": true,
+				"distance_mm": 28.0,
+				"focus_display_center_mm": [
+					12.2168655395508,
+					1.68013572692871,
+					23.3684921264648
+				],
+				"mode": 3,
+				"origin_mm": [
+					16,
+					16,
+					-81
+				],
+				"pitch": 0.271657126529726,
+				"schema": "N0_USER_REVIEW_SESSION_V1",
+				"section_enabled": true,
+				"section_normal": [
+					0.357770889997482,
+					0.268328160047531,
+					0.894427180290222
+				],
+				"section_offset_RAS_mm": -36.4079334259033,
+				"section_offset_display_mm": 26.0230815887451,
+				"selected_pair": {},
+				"source_manifest_sha256": "fee5d371309553c032db1deb753c498e3ee75b735ce61ff0ad7a706e6514f8d1",
+				"tissue_visible": true,
+				"u": 1.0,
+				"viewport_size": [
+					1422.0,
+					1066.0
+				],
+				"yaw": 0.380506394346853
+			},
+			"tag": "contact_J_05_u100"
+		},
+		{
+			"path": "res://deformation/capacity_v2_n0_research/verification/forward/contact_J_09_u000.png",
+			"state": {
+				"anatomical_approval": "PENDING",
+				"camera_display_position_mm": [
+					0.562712669372559,
+					9.69345951080322,
+					66.1534881591797
+				],
+				"camera_fov": 42.0,
+				"camera_rotation_radians": [
+					-0.271657139062881,
+					0.380506366491318,
+					0.0
+				],
+				"candidate": "C06_near_BASE",
+				"cavity_visible": true,
+				"distance_mm": 28.0,
+				"focus_display_center_mm": [
+					-9.45487213134766,
+					2.18027114868164,
+					41.1095275878906
+				],
+				"mode": 3,
+				"origin_mm": [
+					16,
+					16,
+					-81
+				],
+				"pitch": 0.271657126529726,
+				"schema": "N0_USER_REVIEW_SESSION_V1",
+				"section_enabled": true,
+				"section_normal": [
+					0.357770889997482,
+					0.268328160047531,
+					0.894427180290222
+				],
+				"section_offset_RAS_mm": -28.1591865539551,
+				"section_offset_display_mm": 34.2718284606934,
+				"selected_pair": {},
+				"source_manifest_sha256": "fee5d371309553c032db1deb753c498e3ee75b735ce61ff0ad7a706e6514f8d1",
+				"tissue_visible": true,
+				"u": 0.0,
+				"viewport_size": [
+					1422.0,
+					1066.0
+				],
+				"yaw": 0.380506394346853
+			},
+			"tag": "contact_J_09_u000"
+		},
+		{
+			"path": "res://deformation/capacity_v2_n0_research/verification/forward/contact_J_09_u100.png",
+			"state": {
+				"anatomical_approval": "PENDING",
+				"camera_display_position_mm": [
+					0.562712669372559,
+					9.69345951080322,
+					66.1534881591797
+				],
+				"camera_fov": 42.0,
+				"camera_rotation_radians": [
+					-0.271657139062881,
+					0.380506366491318,
+					0.0
+				],
+				"candidate": "C06_near_BASE",
+				"cavity_visible": true,
+				"distance_mm": 28.0,
+				"focus_display_center_mm": [
+					-9.45487213134766,
+					2.18027114868164,
+					41.1095275878906
+				],
+				"mode": 3,
+				"origin_mm": [
+					16,
+					16,
+					-81
+				],
+				"pitch": 0.271657126529726,
+				"schema": "N0_USER_REVIEW_SESSION_V1",
+				"section_enabled": true,
+				"section_normal": [
+					0.357770889997482,
+					0.268328160047531,
+					0.894427180290222
+				],
+				"section_offset_RAS_mm": -28.1591865539551,
+				"section_offset_display_mm": 34.2718284606934,
+				"selected_pair": {},
+				"source_manifest_sha256": "fee5d371309553c032db1deb753c498e3ee75b735ce61ff0ad7a706e6514f8d1",
+				"tissue_visible": true,
+				"u": 1.0,
+				"viewport_size": [
+					1422.0,
+					1066.0
+				],
+				"yaw": 0.380506394346853
+			},
+			"tag": "contact_J_09_u100"
+		},
+		{
+			"path": "res://deformation/capacity_v2_n0_research/verification/forward/contact_F01_u000.png",
+			"state": {
+				"anatomical_approval": "PENDING",
+				"camera_display_position_mm": [
+					-8.3148889541626,
+					0.73909854888916,
+					42.3169441223145
+				],
+				"camera_fov": 42.0,
+				"camera_rotation_radians": [
+					0.442385613918304,
+					1.58150315284729,
+					0.0
+				],
+				"candidate": "C06_near_BASE",
+				"cavity_visible": true,
+				"distance_mm": 6.0,
+				"focus_display_center_mm": [
+					-13.7369756698608,
+					3.30767822265625,
+					42.375
+				],
+				"mode": 3,
+				"origin_mm": [
+					16,
+					16,
+					-81
+				],
+				"pitch": -0.442385562232817,
+				"schema": "N0_USER_REVIEW_SESSION_V1",
+				"section_enabled": true,
+				"section_normal": [
+					0.90368115901947,
+					-0.4280965924263,
+					-0.00967606250196695
+				],
+				"section_offset_RAS_mm": -5.54676074981689,
+				"section_offset_display_mm": -13.9398748397827,
+				"selected_pair": {},
+				"source_manifest_sha256": "fee5d371309553c032db1deb753c498e3ee75b735ce61ff0ad7a706e6514f8d1",
+				"tissue_visible": true,
+				"u": 0.0,
+				"viewport_size": [
+					1422.0,
+					1066.0
+				],
+				"yaw": 1.58150330308857
+			},
+			"tag": "contact_F01_u000"
+		},
+		{
+			"path": "res://deformation/capacity_v2_n0_research/verification/forward/contact_F01_u100.png",
+			"state": {
+				"anatomical_approval": "PENDING",
+				"camera_display_position_mm": [
+					-8.3148889541626,
+					0.73909854888916,
+					42.3169441223145
+				],
+				"camera_fov": 42.0,
+				"camera_rotation_radians": [
+					0.442385613918304,
+					1.58150315284729,
+					0.0
+				],
+				"candidate": "C06_near_BASE",
+				"cavity_visible": true,
+				"distance_mm": 6.0,
+				"focus_display_center_mm": [
+					-13.7369756698608,
+					3.30767822265625,
+					42.375
+				],
+				"mode": 3,
+				"origin_mm": [
+					16,
+					16,
+					-81
+				],
+				"pitch": -0.442385562232817,
+				"schema": "N0_USER_REVIEW_SESSION_V1",
+				"section_enabled": true,
+				"section_normal": [
+					0.90368115901947,
+					-0.4280965924263,
+					-0.00967606250196695
+				],
+				"section_offset_RAS_mm": -5.54676074981689,
+				"section_offset_display_mm": -13.9398748397827,
+				"selected_pair": {},
+				"source_manifest_sha256": "fee5d371309553c032db1deb753c498e3ee75b735ce61ff0ad7a706e6514f8d1",
+				"tissue_visible": true,
+				"u": 1.0,
+				"viewport_size": [
+					1422.0,
+					1066.0
+				],
+				"yaw": 1.58150330308857
+			},
+			"tag": "contact_F01_u100"
+		},
+		{
+			"path": "res://deformation/capacity_v2_n0_research/verification/forward/contact_F02_u000.png",
+			"state": {
+				"anatomical_approval": "PENDING",
+				"camera_display_position_mm": [
+					-7.31044578552246,
+					-0.654096126556396,
+					41.3756942749023
+				],
+				"camera_fov": 42.0,
+				"camera_rotation_radians": [
+					-0.366813063621521,
+					2.62890219688416,
+					0.0
+				],
+				"candidate": "C06_near_BASE",
+				"cavity_visible": true,
+				"distance_mm": 6.0,
+				"focus_display_center_mm": [
+					-10.0577945709229,
+					-2.80595016479492,
+					46.2564315795898
+				],
+				"mode": 3,
+				"origin_mm": [
+					16,
+					16,
+					-81
+				],
+				"pitch": 0.366813071152167,
+				"schema": "N0_USER_REVIEW_SESSION_V1",
+				"section_enabled": true,
+				"section_normal": [
+					0.457891464233398,
+					0.358642339706421,
+					-0.813456237316132
+				],
+				"section_offset_RAS_mm": 36.0152061462402,
+				"section_offset_display_mm": -42.9392921447754,
+				"selected_pair": {},
+				"source_manifest_sha256": "fee5d371309553c032db1deb753c498e3ee75b735ce61ff0ad7a706e6514f8d1",
+				"tissue_visible": true,
+				"u": 0.0,
+				"viewport_size": [
+					1422.0,
+					1066.0
+				],
+				"yaw": 2.62890223654867
+			},
+			"tag": "contact_F02_u000"
+		},
+		{
+			"path": "res://deformation/capacity_v2_n0_research/verification/forward/contact_F02_u100.png",
+			"state": {
+				"anatomical_approval": "PENDING",
+				"camera_display_position_mm": [
+					-7.31044578552246,
+					-0.654096126556396,
+					41.3756942749023
+				],
+				"camera_fov": 42.0,
+				"camera_rotation_radians": [
+					-0.366813063621521,
+					2.62890219688416,
+					0.0
+				],
+				"candidate": "C06_near_BASE",
+				"cavity_visible": true,
+				"distance_mm": 6.0,
+				"focus_display_center_mm": [
+					-10.0577945709229,
+					-2.80595016479492,
+					46.2564315795898
+				],
+				"mode": 3,
+				"origin_mm": [
+					16,
+					16,
+					-81
+				],
+				"pitch": 0.366813071152167,
+				"schema": "N0_USER_REVIEW_SESSION_V1",
+				"section_enabled": true,
+				"section_normal": [
+					0.457891464233398,
+					0.358642339706421,
+					-0.813456237316132
+				],
+				"section_offset_RAS_mm": 36.0152061462402,
+				"section_offset_display_mm": -42.9392921447754,
+				"selected_pair": {},
+				"source_manifest_sha256": "fee5d371309553c032db1deb753c498e3ee75b735ce61ff0ad7a706e6514f8d1",
+				"tissue_visible": true,
+				"u": 1.0,
+				"viewport_size": [
+					1422.0,
+					1066.0
+				],
+				"yaw": 2.62890223654867
+			},
+			"tag": "contact_F02_u100"
+		},
+		{
+			"path": "res://deformation/capacity_v2_n0_research/verification/forward/classified_pair.png",
+			"state": {
+				"anatomical_approval": "PENDING",
+				"camera_display_position_mm": [
+					13.393533706665,
+					-12.2213182449341,
+					24.246997833252
+				],
+				"camera_fov": 42.0,
+				"camera_rotation_radians": [
+					1.25323593616486,
+					0.0,
+					0.0
+				],
+				"candidate": "C06_near_BASE",
+				"cavity_visible": true,
+				"distance_mm": 12.0,
+				"focus_display_center_mm": [
+					13.393533706665,
+					-0.821318626403809,
+					20.5
+				],
+				"mode": 3,
+				"origin_mm": [
+					16,
+					16,
+					-81
+				],
+				"pitch": -1.25323589750338,
+				"schema": "N0_USER_REVIEW_SESSION_V1",
+				"section_enabled": true,
+				"section_normal": [
+					0.0,
+					-0.959245324134827,
+					0.282574564218521
+				],
+				"section_offset_RAS_mm": -31.3558408737183,
+				"section_offset_display_mm": 6.8806245803833,
+				"selected_pair": {
+					"cavity_face": 24257.0,
+					"center_mm": [
+						29.393533706665,
+						15.1786813735962,
+						-60.5
+					],
+					"class": "EDGE_CONTACT",
+					"coplanar_pair_overlap_area_mm2": 0.0,
+					"finite_feature_gap_mm": 0.0,
+					"finite_segment_length_mm": 0.919921875,
+					"finite_segment_world_mm": [
+						[
+							13.853494644165,
+							-0.821318626403809,
+							20.5
+						],
+						[
+							12.933572769165,
+							-0.821318626403809,
+							20.5
+						]
+					],
+					"godot_world_center_mm": [
+						13.393533706665,
+						-0.821318626403809,
+						20.5
+					],
+					"id": "J_05_000_EDGE_CONTACT",
+					"nearest_locations": [
+						[
+							"J_05",
+							3.98372550973291
+						],
+						[
+							"B_31",
+							6.86523768922873
+						],
+						[
+							"J_04",
+							8.12016351524754
+						]
+					],
+					"one_sided_raw_coplanar_candidate_area_mm2": 0.0,
+					"raw_segment_candidate_length_mm": 0.919921875,
+					"reference_pair_present": true,
+					"region": "J_05",
+					"segment_midpoint_on_triangle_boundary": [
+						true,
+						true
+					],
+					"segment_support_residual_mm": 0.0,
+					"tissue_face": 26251.0,
+					"two_sided_coplanarity_residual_mm": 0.184112548828125,
+					"u": 0.0,
+					"vtk_candidate": true
+				},
+				"source_manifest_sha256": "fee5d371309553c032db1deb753c498e3ee75b735ce61ff0ad7a706e6514f8d1",
+				"tissue_visible": true,
+				"u": 0.0,
+				"viewport_size": [
+					1422.0,
+					1066.0
+				],
+				"yaw": 0.0
+			},
+			"tag": "classified_pair"
+		},
+		{
+			"path": "res://deformation/capacity_v2_n0_research/verification/forward/coplanar_both.png",
+			"state": {
+				"anatomical_approval": "PENDING",
+				"camera_display_position_mm": [
+					-42.7627258300781,
+					1.47848510742188,
+					-32.625
+				],
+				"camera_fov": 42.0,
+				"camera_rotation_radians": [
+					0.0,
+					-1.57079637050629,
+					0.0
+				],
+				"candidate": "C06_near_BASE",
+				"cavity_visible": true,
+				"distance_mm": 12.0,
+				"focus_display_center_mm": [
+					-30.7627239227295,
+					1.47848510742188,
+					-32.625
+				],
+				"mode": 3,
+				"origin_mm": [
+					16,
+					16,
+					-81
+				],
+				"pitch": 0.0,
+				"schema": "N0_USER_REVIEW_SESSION_V1",
+				"section_enabled": true,
+				"section_normal": [
+					-1.0,
+					0.0,
+					0.0
+				],
+				"section_offset_RAS_mm": 15.0627239227295,
+				"section_offset_display_mm": 31.0627239227295,
+				"selected_pair": {
+					"cavity_face": 45373.0,
+					"center_mm": [
+						-14.7627239227295,
+						17.4784851074219,
+						-113.625
+					],
+					"class": "COPLANAR_OVERLAP",
+					"coplanar_pair_overlap_area_mm2": 0.287476181983948,
+					"finite_feature_gap_mm": 0.0,
+					"finite_segment_length_mm": 0.0,
+					"finite_segment_world_mm": null,
+					"godot_world_center_mm": [
+						-30.7627239227295,
+						1.47848510742188,
+						-32.625
+					],
+					"id": "COPLANAR_u000_01",
+					"nearest_locations": [
+						[
+							"BLADDER",
+							9.11995829008432
+						],
+						[
+							"T_03",
+							35.6826494774763
+						],
+						[
+							"MAIN",
+							37.1566139801348
+						]
+					],
+					"one_sided_raw_coplanar_candidate_area_mm2": 0.287476181983948,
+					"raw_segment_candidate_length_mm": 0.0,
+					"reference_pair_present": true,
+					"region": "COPLANAR_u000_01",
+					"segment_midpoint_on_triangle_boundary": [],
+					"segment_support_residual_mm": 0.0,
+					"tissue_face": 259512.0,
+					"two_sided_coplanarity_residual_mm": 0.0,
+					"u": 0.0,
+					"vtk_candidate": true
+				},
+				"source_manifest_sha256": "fee5d371309553c032db1deb753c498e3ee75b735ce61ff0ad7a706e6514f8d1",
+				"tissue_visible": true,
+				"u": 0.0,
+				"viewport_size": [
+					1422.0,
+					1066.0
+				],
+				"yaw": -1.5707963267949
+			},
+			"tag": "coplanar_both"
+		},
+		{
+			"path": "res://deformation/capacity_v2_n0_research/verification/forward/coplanar_cavity_only.png",
+			"state": {
+				"anatomical_approval": "PENDING",
+				"camera_display_position_mm": [
+					-42.7627258300781,
+					1.47848510742188,
+					-32.625
+				],
+				"camera_fov": 42.0,
+				"camera_rotation_radians": [
+					0.0,
+					-1.57079637050629,
+					0.0
+				],
+				"candidate": "C06_near_BASE",
+				"cavity_visible": true,
+				"distance_mm": 12.0,
+				"focus_display_center_mm": [
+					-30.7627239227295,
+					1.47848510742188,
+					-32.625
+				],
+				"mode": 3,
+				"origin_mm": [
+					16,
+					16,
+					-81
+				],
+				"pitch": 0.0,
+				"schema": "N0_USER_REVIEW_SESSION_V1",
+				"section_enabled": true,
+				"section_normal": [
+					-1.0,
+					0.0,
+					0.0
+				],
+				"section_offset_RAS_mm": 15.0627239227295,
+				"section_offset_display_mm": 31.0627239227295,
+				"selected_pair": {
+					"cavity_face": 45373.0,
+					"center_mm": [
+						-14.7627239227295,
+						17.4784851074219,
+						-113.625
+					],
+					"class": "COPLANAR_OVERLAP",
+					"coplanar_pair_overlap_area_mm2": 0.287476181983948,
+					"finite_feature_gap_mm": 0.0,
+					"finite_segment_length_mm": 0.0,
+					"finite_segment_world_mm": null,
+					"godot_world_center_mm": [
+						-30.7627239227295,
+						1.47848510742188,
+						-32.625
+					],
+					"id": "COPLANAR_u000_01",
+					"nearest_locations": [
+						[
+							"BLADDER",
+							9.11995829008432
+						],
+						[
+							"T_03",
+							35.6826494774763
+						],
+						[
+							"MAIN",
+							37.1566139801348
+						]
+					],
+					"one_sided_raw_coplanar_candidate_area_mm2": 0.287476181983948,
+					"raw_segment_candidate_length_mm": 0.0,
+					"reference_pair_present": true,
+					"region": "COPLANAR_u000_01",
+					"segment_midpoint_on_triangle_boundary": [],
+					"segment_support_residual_mm": 0.0,
+					"tissue_face": 259512.0,
+					"two_sided_coplanarity_residual_mm": 0.0,
+					"u": 0.0,
+					"vtk_candidate": true
+				},
+				"source_manifest_sha256": "fee5d371309553c032db1deb753c498e3ee75b735ce61ff0ad7a706e6514f8d1",
+				"tissue_visible": false,
+				"u": 0.0,
+				"viewport_size": [
+					1422.0,
+					1066.0
+				],
+				"yaw": -1.5707963267949
+			},
+			"tag": "coplanar_cavity_only"
+		},
+		{
+			"path": "res://deformation/capacity_v2_n0_research/verification/forward/coplanar_tissue_only.png",
+			"state": {
+				"anatomical_approval": "PENDING",
+				"camera_display_position_mm": [
+					-42.7627258300781,
+					1.47848510742188,
+					-32.625
+				],
+				"camera_fov": 42.0,
+				"camera_rotation_radians": [
+					0.0,
+					-1.57079637050629,
+					0.0
+				],
+				"candidate": "C06_near_BASE",
+				"cavity_visible": false,
+				"distance_mm": 12.0,
+				"focus_display_center_mm": [
+					-30.7627239227295,
+					1.47848510742188,
+					-32.625
+				],
+				"mode": 3,
+				"origin_mm": [
+					16,
+					16,
+					-81
+				],
+				"pitch": 0.0,
+				"schema": "N0_USER_REVIEW_SESSION_V1",
+				"section_enabled": true,
+				"section_normal": [
+					-1.0,
+					0.0,
+					0.0
+				],
+				"section_offset_RAS_mm": 15.0627239227295,
+				"section_offset_display_mm": 31.0627239227295,
+				"selected_pair": {
+					"cavity_face": 45373.0,
+					"center_mm": [
+						-14.7627239227295,
+						17.4784851074219,
+						-113.625
+					],
+					"class": "COPLANAR_OVERLAP",
+					"coplanar_pair_overlap_area_mm2": 0.287476181983948,
+					"finite_feature_gap_mm": 0.0,
+					"finite_segment_length_mm": 0.0,
+					"finite_segment_world_mm": null,
+					"godot_world_center_mm": [
+						-30.7627239227295,
+						1.47848510742188,
+						-32.625
+					],
+					"id": "COPLANAR_u000_01",
+					"nearest_locations": [
+						[
+							"BLADDER",
+							9.11995829008432
+						],
+						[
+							"T_03",
+							35.6826494774763
+						],
+						[
+							"MAIN",
+							37.1566139801348
+						]
+					],
+					"one_sided_raw_coplanar_candidate_area_mm2": 0.287476181983948,
+					"raw_segment_candidate_length_mm": 0.0,
+					"reference_pair_present": true,
+					"region": "COPLANAR_u000_01",
+					"segment_midpoint_on_triangle_boundary": [],
+					"segment_support_residual_mm": 0.0,
+					"tissue_face": 259512.0,
+					"two_sided_coplanarity_residual_mm": 0.0,
+					"u": 0.0,
+					"vtk_candidate": true
+				},
+				"source_manifest_sha256": "fee5d371309553c032db1deb753c498e3ee75b735ce61ff0ad7a706e6514f8d1",
+				"tissue_visible": true,
+				"u": 0.0,
+				"viewport_size": [
+					1422.0,
+					1066.0
+				],
+				"yaw": -1.5707963267949
+			},
+			"tag": "coplanar_tissue_only"
+		},
+		{
+			"path": "res://deformation/capacity_v2_n0_research/verification/forward/layout_1024.png",
+			"state": {
+				"anatomical_approval": "PENDING",
+				"camera_display_position_mm": [
+					-42.7627220153809,
+					1.78512644767761,
+					-33.0416641235352
+				],
+				"camera_fov": 42.0,
+				"camera_rotation_radians": [
+					0.0,
+					-1.57079637050629,
+					0.0
+				],
+				"candidate": "C06_near_BASE",
+				"cavity_visible": true,
+				"distance_mm": 12.0,
+				"focus_display_center_mm": [
+					-30.7627220153809,
+					1.78512644767761,
+					-33.0416641235352
+				],
+				"mode": 3,
+				"origin_mm": [
+					16,
+					16,
+					-81
+				],
+				"pitch": 0.0,
+				"schema": "N0_USER_REVIEW_SESSION_V1",
+				"section_enabled": true,
+				"section_normal": [
+					-1.0,
+					0.0,
+					0.0
+				],
+				"section_offset_RAS_mm": 15.0627220153809,
+				"section_offset_display_mm": 31.0627220153809,
+				"selected_pair": {
+					"cavity_face": 45373,
+					"tissue_face": 259512
+				},
+				"source_manifest_sha256": "fee5d371309553c032db1deb753c498e3ee75b735ce61ff0ad7a706e6514f8d1",
+				"tissue_visible": true,
+				"u": 0.0,
+				"viewport_size": [
+					1422.0,
+					1066.0
+				],
+				"yaw": -1.5707963267949
+			},
+			"tag": "layout_1024"
+		},
+		{
+			"path": "res://deformation/capacity_v2_n0_research/verification/forward/layout_1280.png",
+			"state": {
+				"anatomical_approval": "PENDING",
+				"camera_display_position_mm": [
+					-42.7627220153809,
+					1.78512644767761,
+					-33.0416641235352
+				],
+				"camera_fov": 42.0,
+				"camera_rotation_radians": [
+					0.0,
+					-1.57079637050629,
+					0.0
+				],
+				"candidate": "C06_near_BASE",
+				"cavity_visible": true,
+				"distance_mm": 12.0,
+				"focus_display_center_mm": [
+					-30.7627220153809,
+					1.78512644767761,
+					-33.0416641235352
+				],
+				"mode": 3,
+				"origin_mm": [
+					16,
+					16,
+					-81
+				],
+				"pitch": 0.0,
+				"schema": "N0_USER_REVIEW_SESSION_V1",
+				"section_enabled": true,
+				"section_normal": [
+					-1.0,
+					0.0,
+					0.0
+				],
+				"section_offset_RAS_mm": 15.0627220153809,
+				"section_offset_display_mm": 31.0627220153809,
+				"selected_pair": {
+					"cavity_face": 45373,
+					"tissue_face": 259512
+				},
+				"source_manifest_sha256": "fee5d371309553c032db1deb753c498e3ee75b735ce61ff0ad7a706e6514f8d1",
+				"tissue_visible": true,
+				"u": 0.0,
+				"viewport_size": [
+					1895.0,
+					1066.0
+				],
+				"yaw": -1.5707963267949
+			},
+			"tag": "layout_1280"
+		}
+	],
+	"checks": [
+		{
+			"name": "accepted player ready",
+			"passed": true
+		},
+		{
+			"name": "both meshes one u 0.0",
+			"passed": true
+		},
+		{
+			"name": "unchanged u no rebuild 0.0",
+			"passed": true
+		},
+		{
+			"name": "both meshes one u 0.25",
+			"passed": true
+		},
+		{
+			"name": "unchanged u no rebuild 0.25",
+			"passed": true
+		},
+		{
+			"name": "both meshes one u 0.5",
+			"passed": true
+		},
+		{
+			"name": "unchanged u no rebuild 0.5",
+			"passed": true
+		},
+		{
+			"name": "both meshes one u 0.75",
+			"passed": true
+		},
+		{
+			"name": "unchanged u no rebuild 0.75",
+			"passed": true
+		},
+		{
+			"name": "both meshes one u 1.0",
+			"passed": true
+		},
+		{
+			"name": "unchanged u no rebuild 1.0",
+			"passed": true
+		},
+		{
+			"name": "both meshes one u 0.37",
+			"passed": true
+		},
+		{
+			"name": "unchanged u no rebuild 0.37",
+			"passed": true
+		},
+		{
+			"name": "screenshot D0_complete",
+			"passed": true
+		},
+		{
+			"name": "candidate source mesh separate 0",
+			"passed": true
+		},
+		{
+			"name": "candidate reference only 0",
+			"passed": true
+		},
+		{
+			"name": "virtual caps separate 0",
+			"passed": true
+		},
+		{
+			"name": "source cavity vertices 0",
+			"passed": true
+		},
+		{
+			"name": "screenshot D2_C00_distal_control",
+			"passed": true
+		},
+		{
+			"name": "candidate source mesh separate 1",
+			"passed": true
+		},
+		{
+			"name": "candidate reference only 1",
+			"passed": true
+		},
+		{
+			"name": "virtual caps separate 1",
+			"passed": true
+		},
+		{
+			"name": "source cavity vertices 1",
+			"passed": true
+		},
+		{
+			"name": "screenshot D2_C01_transition_mid",
+			"passed": true
+		},
+		{
+			"name": "candidate source mesh separate 2",
+			"passed": true
+		},
+		{
+			"name": "candidate reference only 2",
+			"passed": true
+		},
+		{
+			"name": "virtual caps separate 2",
+			"passed": true
+		},
+		{
+			"name": "source cavity vertices 2",
+			"passed": true
+		},
+		{
+			"name": "screenshot D2_C02_transition_proximal",
+			"passed": true
+		},
+		{
+			"name": "candidate source mesh separate 3",
+			"passed": true
+		},
+		{
+			"name": "candidate reference only 3",
+			"passed": true
+		},
+		{
+			"name": "virtual caps separate 3",
+			"passed": true
+		},
+		{
+			"name": "source cavity vertices 3",
+			"passed": true
+		},
+		{
+			"name": "screenshot D2_C03_transition_distal",
+			"passed": true
+		},
+		{
+			"name": "candidate source mesh separate 4",
+			"passed": true
+		},
+		{
+			"name": "candidate reference only 4",
+			"passed": true
+		},
+		{
+			"name": "virtual caps separate 4",
+			"passed": true
+		},
+		{
+			"name": "source cavity vertices 4",
+			"passed": true
+		},
+		{
+			"name": "screenshot D2_C04_bladder_proximal",
+			"passed": true
+		},
+		{
+			"name": "candidate source mesh separate 5",
+			"passed": true
+		},
+		{
+			"name": "candidate reference only 5",
+			"passed": true
+		},
+		{
+			"name": "virtual caps separate 5",
+			"passed": true
+		},
+		{
+			"name": "source cavity vertices 5",
+			"passed": true
+		},
+		{
+			"name": "screenshot D2_C05_bladder_distal",
+			"passed": true
+		},
+		{
+			"name": "candidate source mesh separate 6",
+			"passed": true
+		},
+		{
+			"name": "candidate reference only 6",
+			"passed": true
+		},
+		{
+			"name": "virtual caps separate 6",
+			"passed": true
+		},
+		{
+			"name": "source cavity vertices 6",
+			"passed": true
+		},
+		{
+			"name": "screenshot D2_C06_near_BASE",
+			"passed": true
+		},
+		{
+			"name": "screenshot C06_cut_BLADDER",
+			"passed": true
+		},
+		{
+			"name": "screenshot C06_cut_IN01",
+			"passed": true
+		},
+		{
+			"name": "screenshot C06_cut_IN02",
+			"passed": true
+		},
+		{
+			"name": "candidate source mesh separate 7",
+			"passed": true
+		},
+		{
+			"name": "candidate reference only 7",
+			"passed": true
+		},
+		{
+			"name": "virtual caps separate 7",
+			"passed": true
+		},
+		{
+			"name": "source cavity vertices 7",
+			"passed": true
+		},
+		{
+			"name": "screenshot D2_C07_IN01_collar",
+			"passed": true
+		},
+		{
+			"name": "candidate source mesh separate 8",
+			"passed": true
+		},
+		{
+			"name": "candidate reference only 8",
+			"passed": true
+		},
+		{
+			"name": "virtual caps separate 8",
+			"passed": true
+		},
+		{
+			"name": "source cavity vertices 8",
+			"passed": true
+		},
+		{
+			"name": "screenshot D2_C08_IN02_collar",
+			"passed": true
+		},
+		{
+			"name": "candidate source mesh separate 9",
+			"passed": true
+		},
+		{
+			"name": "candidate reference only 9",
+			"passed": true
+		},
+		{
+			"name": "virtual caps separate 9",
+			"passed": true
+		},
+		{
+			"name": "source cavity vertices 9",
+			"passed": true
+		},
+		{
+			"name": "screenshot D2_C09_UPJ_proximal_unconfirmed",
+			"passed": true
+		},
+		{
+			"name": "candidate source mesh separate 10",
+			"passed": true
+		},
+		{
+			"name": "candidate reference only 10",
+			"passed": true
+		},
+		{
+			"name": "virtual caps separate 10",
+			"passed": true
+		},
+		{
+			"name": "source cavity vertices 10",
+			"passed": true
+		},
+		{
+			"name": "screenshot D2_C10_UPJ_distal_unconfirmed",
+			"passed": true
+		},
+		{
+			"name": "candidate source mesh separate 11",
+			"passed": true
+		},
+		{
+			"name": "candidate reference only 11",
+			"passed": true
+		},
+		{
+			"name": "virtual caps separate 11",
+			"passed": true
+		},
+		{
+			"name": "source cavity vertices 11",
+			"passed": true
+		},
+		{
+			"name": "screenshot D2_C11_inlet_distal_control",
+			"passed": true
+		},
+		{
+			"name": "same domain comparison camera C11_inlet_distal_control",
+			"passed": true
+		},
+		{
+			"name": "screenshot compare_C11_inlet_distal_control",
+			"passed": true
+		},
+		{
+			"name": "same domain comparison camera C06_near_BASE",
+			"passed": true
+		},
+		{
+			"name": "screenshot compare_C06_near_BASE",
+			"passed": true
+		},
+		{
+			"name": "same camera J_050.0",
+			"passed": true
+		},
+		{
+			"name": "screenshot contact_J_05_u000",
+			"passed": true
+		},
+		{
+			"name": "same camera J_051.0",
+			"passed": true
+		},
+		{
+			"name": "screenshot contact_J_05_u100",
+			"passed": true
+		},
+		{
+			"name": "same camera J_090.0",
+			"passed": true
+		},
+		{
+			"name": "screenshot contact_J_09_u000",
+			"passed": true
+		},
+		{
+			"name": "same camera J_091.0",
+			"passed": true
+		},
+		{
+			"name": "screenshot contact_J_09_u100",
+			"passed": true
+		},
+		{
+			"name": "same camera F010.0",
+			"passed": true
+		},
+		{
+			"name": "screenshot contact_F01_u000",
+			"passed": true
+		},
+		{
+			"name": "same camera F011.0",
+			"passed": true
+		},
+		{
+			"name": "screenshot contact_F01_u100",
+			"passed": true
+		},
+		{
+			"name": "same camera F020.0",
+			"passed": true
+		},
+		{
+			"name": "screenshot contact_F02_u000",
+			"passed": true
+		},
+		{
+			"name": "same camera F021.0",
+			"passed": true
+		},
+		{
+			"name": "screenshot contact_F02_u100",
+			"passed": true
+		},
+		{
+			"name": "pair lines generated",
+			"passed": true
+		},
+		{
+			"name": "screenshot classified_pair",
+			"passed": true
+		},
+		{
+			"name": "same coplanar camera both",
+			"passed": true
+		},
+		{
+			"name": "screenshot coplanar_both",
+			"passed": true
+		},
+		{
+			"name": "same coplanar camera cavity_only",
+			"passed": true
+		},
+		{
+			"name": "screenshot coplanar_cavity_only",
+			"passed": true
+		},
+		{
+			"name": "same coplanar camera tissue_only",
+			"passed": true
+		},
+		{
+			"name": "screenshot coplanar_tissue_only",
+			"passed": true
+		},
+		{
+			"name": "manual pair stored",
+			"passed": true
+		},
+		{
+			"name": "view area positive 1024",
+			"passed": true
+		},
+		{
+			"name": "screenshot layout_1024",
+			"passed": true
+		},
+		{
+			"name": "view area positive 1280",
+			"passed": true
+		},
+		{
+			"name": "screenshot layout_1280",
+			"passed": true
+		}
+	],
+	"failures": 0,
+	"renderer": "forward_plus",
+	"virtual_caps_in_accepted_player": false
+}
