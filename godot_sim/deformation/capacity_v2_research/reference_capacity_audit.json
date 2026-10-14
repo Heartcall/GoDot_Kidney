@@ -1,0 +1,796 @@
+{
+  "artificial_distal_proxies": [
+    {
+      "alternative_ear_cap_test": {
+        "projected_polygon_triangulated": true,
+        "signed_algebraic_volume_mL": 2.4086242650190353,
+        "status": "TOPOLOGY_ONLY_PASSED_NOT_ANATOMICALLY_APPROVED",
+        "watertight": true,
+        "winding_consistent": true
+      },
+      "boundary_axial_offset_from_BASE_mm": [
+        0.006311916531402414,
+        0.6907775076448218
+      ],
+      "boundary_center_mm": [
+        -10.63925694153846,
+        16.696613409487174,
+        -103.8173076923077
+      ],
+      "boundary_edges": 39,
+      "boundary_sensitivity_not_physiological_uncertainty": [
+        {
+          "boundary_definition": "one_ring_eroded",
+          "projected_cap_nonoverlapping": false,
+          "proxy_mL": 2.3768261818966656
+        },
+        {
+          "boundary_definition": "original_fixed_mask",
+          "projected_cap_nonoverlapping": false,
+          "proxy_mL": 2.4105445650086326
+        },
+        {
+          "boundary_definition": "one_ring_dilated",
+          "projected_cap_nonoverlapping": true,
+          "proxy_mL": 2.4466839748123195
+        }
+      ],
+      "boundary_vertex_ids": [
+        21215,
+        22647,
+        22590,
+        22589,
+        22588,
+        22281,
+        22280,
+        22278,
+        22276,
+        22275,
+        22136,
+        22273,
+        22134,
+        22133,
+        22389,
+        22387,
+        22388,
+        22578,
+        22302,
+        22303,
+        22483,
+        22501,
+        22513,
+        22516,
+        22520,
+        22414,
+        22415,
+        22532,
+        22613,
+        22615,
+        21429,
+        21428,
+        22652,
+        22535,
+        22430,
+        22431,
+        22611,
+        22525,
+        21216
+      ],
+      "cap_planarity_max_residual_mm": 0.353435711040673,
+      "centroid_fan_would_be_star_shaped": false,
+      "closed_winding_consistent": true,
+      "closure_method": "Explicit centroid fan algebraic accounting only; may overlap in projection and is NOT accepted for effective capacity.",
+      "closure_triangles": [
+        [
+          21215,
+          21216,
+          25024
+        ],
+        [
+          21428,
+          21429,
+          25024
+        ],
+        [
+          22133,
+          22134,
+          25024
+        ],
+        [
+          22134,
+          22273,
+          25024
+        ],
+        [
+          22275,
+          22276,
+          25024
+        ],
+        [
+          22303,
+          22302,
+          25024
+        ],
+        [
+          22388,
+          22387,
+          25024
+        ],
+        [
+          22415,
+          22414,
+          25024
+        ],
+        [
+          22431,
+          22430,
+          25024
+        ],
+        [
+          22389,
+          22133,
+          25024
+        ],
+        [
+          22483,
+          22303,
+          25024
+        ],
+        [
+          22501,
+          22483,
+          25024
+        ],
+        [
+          22513,
+          22501,
+          25024
+        ],
+        [
+          22516,
+          22513,
+          25024
+        ],
+        [
+          22414,
+          22520,
+          25024
+        ],
+        [
+          21216,
+          22525,
+          25024
+        ],
+        [
+          22532,
+          22415,
+          25024
+        ],
+        [
+          22430,
+          22535,
+          25024
+        ],
+        [
+          22302,
+          22578,
+          25024
+        ],
+        [
+          22578,
+          22388,
+          25024
+        ],
+        [
+          22589,
+          22590,
+          25024
+        ],
+        [
+          22520,
+          22516,
+          25024
+        ],
+        [
+          22613,
+          22532,
+          25024
+        ],
+        [
+          22615,
+          22613,
+          25024
+        ],
+        [
+          22647,
+          21215,
+          25024
+        ],
+        [
+          22525,
+          22611,
+          25024
+        ],
+        [
+          21429,
+          22615,
+          25024
+        ],
+        [
+          22652,
+          21428,
+          25024
+        ],
+        [
+          22590,
+          22647,
+          25024
+        ],
+        [
+          22273,
+          22136,
+          25024
+        ],
+        [
+          22276,
+          22278,
+          25024
+        ],
+        [
+          22278,
+          22280,
+          25024
+        ],
+        [
+          22280,
+          22281,
+          25024
+        ],
+        [
+          22387,
+          22389,
+          25024
+        ],
+        [
+          22136,
+          22275,
+          25024
+        ],
+        [
+          22281,
+          22588,
+          25024
+        ],
+        [
+          22588,
+          22589,
+          25024
+        ],
+        [
+          22611,
+          22431,
+          25024
+        ],
+        [
+          22535,
+          22652,
+          25024
+        ]
+      ],
+      "declared_path_length_mm": 35.89400307188295,
+      "effective_capacity_use_allowed": false,
+      "face_ids_sha256": "8bdd6a977e670bf386391994ec062f8f4804826665f637013fbfef53e8770fa1",
+      "faces_in_source": 5545,
+      "fixed_vertices": 2793,
+      "id": "BLADDER",
+      "interpretation": "Artificial distal fixed-wall accounting proxy only; not approved effective PCS capacity.",
+      "projected_cap_nonoverlapping": false,
+      "signed_proxy_volume_mL": 2.4105445650086326,
+      "signed_proxy_volume_mm3": 2410.5445650086326
+    },
+    {
+      "alternative_ear_cap_test": {
+        "projected_polygon_triangulated": true,
+        "signed_algebraic_volume_mL": 0.13761506159683778,
+        "status": "REJECTED_SOURCE_CAP_INDEX_CONFLICT",
+        "watertight": false,
+        "winding_consistent": true
+      },
+      "boundary_axial_offset_from_BASE_mm": [
+        0.025622333959951855,
+        1.007306872845654
+      ],
+      "boundary_center_mm": [
+        37.35653956833334,
+        20.543127059583327,
+        -53.60904200875001
+      ],
+      "boundary_edges": 24,
+      "boundary_sensitivity_not_physiological_uncertainty": [
+        {
+          "boundary_definition": "one_ring_eroded",
+          "projected_cap_nonoverlapping": false,
+          "proxy_mL": 0.12884319748831566
+        },
+        {
+          "boundary_definition": "original_fixed_mask",
+          "projected_cap_nonoverlapping": false,
+          "proxy_mL": 0.13838912393507247
+        },
+        {
+          "boundary_definition": "one_ring_dilated",
+          "projected_cap_nonoverlapping": true,
+          "proxy_mL": 0.14905467342786555
+        }
+      ],
+      "boundary_vertex_ids": [
+        7646,
+        9632,
+        9631,
+        10963,
+        9629,
+        9027,
+        9028,
+        9026,
+        10661,
+        9022,
+        9710,
+        9712,
+        9617,
+        9615,
+        9613,
+        9614,
+        9716,
+        9390,
+        9392,
+        9394,
+        9395,
+        9397,
+        8196,
+        7647
+      ],
+      "cap_planarity_max_residual_mm": 0.5037507135420397,
+      "centroid_fan_would_be_star_shaped": false,
+      "closed_winding_consistent": true,
+      "closure_method": "Explicit centroid fan algebraic accounting only; may overlap in projection and is NOT accepted for effective capacity.",
+      "closure_triangles": [
+        [
+          9614,
+          9613,
+          25024
+        ],
+        [
+          9632,
+          7646,
+          25024
+        ],
+        [
+          7647,
+          8196,
+          25024
+        ],
+        [
+          9028,
+          9027,
+          25024
+        ],
+        [
+          9392,
+          9390,
+          25024
+        ],
+        [
+          9394,
+          9392,
+          25024
+        ],
+        [
+          9395,
+          9394,
+          25024
+        ],
+        [
+          9712,
+          9710,
+          25024
+        ],
+        [
+          9617,
+          9712,
+          25024
+        ],
+        [
+          9716,
+          9614,
+          25024
+        ],
+        [
+          9397,
+          9395,
+          25024
+        ],
+        [
+          8196,
+          9397,
+          25024
+        ],
+        [
+          10963,
+          9631,
+          25024
+        ],
+        [
+          7646,
+          7647,
+          25024
+        ],
+        [
+          9026,
+          9028,
+          25024
+        ],
+        [
+          9613,
+          9615,
+          25024
+        ],
+        [
+          9615,
+          9617,
+          25024
+        ],
+        [
+          9631,
+          9632,
+          25024
+        ],
+        [
+          9390,
+          9716,
+          25024
+        ],
+        [
+          9710,
+          9022,
+          25024
+        ],
+        [
+          9022,
+          10661,
+          25024
+        ],
+        [
+          10661,
+          9026,
+          25024
+        ],
+        [
+          9027,
+          9629,
+          25024
+        ],
+        [
+          9629,
+          10963,
+          25024
+        ]
+      ],
+      "declared_path_length_mm": 14.8158206069045,
+      "effective_capacity_use_allowed": false,
+      "face_ids_sha256": "b29582e5ac2df2f3c7e55e9ebb58b6ae9b032be429352d7f713b5e51168c0103",
+      "faces_in_source": 768,
+      "fixed_vertices": 397,
+      "id": "IN_01",
+      "interpretation": "Artificial distal fixed-wall accounting proxy only; not approved effective PCS capacity.",
+      "projected_cap_nonoverlapping": false,
+      "signed_proxy_volume_mL": 0.13838912393507247,
+      "signed_proxy_volume_mm3": 138.38912393507246
+    },
+    {
+      "alternative_ear_cap_test": {
+        "projected_polygon_triangulated": true,
+        "signed_algebraic_volume_mL": 0.1453845016189423,
+        "status": "TOPOLOGY_ONLY_PASSED_NOT_ANATOMICALLY_APPROVED",
+        "watertight": true,
+        "winding_consistent": true
+      },
+      "boundary_axial_offset_from_BASE_mm": [
+        0.042780476821365425,
+        0.8499146567172432
+      ],
+      "boundary_center_mm": [
+        5.44560554,
+        18.57104652842105,
+        -36.98026315789474
+      ],
+      "boundary_edges": 19,
+      "boundary_sensitivity_not_physiological_uncertainty": [
+        {
+          "boundary_definition": "one_ring_eroded",
+          "projected_cap_nonoverlapping": true,
+          "proxy_mL": 0.13920114336824171
+        },
+        {
+          "boundary_definition": "original_fixed_mask",
+          "projected_cap_nonoverlapping": true,
+          "proxy_mL": 0.14593744919912807
+        },
+        {
+          "boundary_definition": "one_ring_dilated",
+          "projected_cap_nonoverlapping": false,
+          "proxy_mL": 0.15239369102642822
+        }
+      ],
+      "boundary_vertex_ids": [
+        95,
+        96,
+        3891,
+        2234,
+        2235,
+        2983,
+        2985,
+        2986,
+        4145,
+        254,
+        255,
+        257,
+        3430,
+        3432,
+        3431,
+        3592,
+        3593,
+        2943,
+        2944
+      ],
+      "cap_planarity_max_residual_mm": 0.4277481132261708,
+      "centroid_fan_would_be_star_shaped": true,
+      "closed_winding_consistent": true,
+      "closure_method": "Explicit centroid fan algebraic accounting only; may overlap in projection and is NOT accepted for effective capacity.",
+      "closure_triangles": [
+        [
+          255,
+          254,
+          25024
+        ],
+        [
+          2235,
+          2234,
+          25024
+        ],
+        [
+          4145,
+          2986,
+          25024
+        ],
+        [
+          96,
+          95,
+          25024
+        ],
+        [
+          257,
+          255,
+          25024
+        ],
+        [
+          2944,
+          2943,
+          25024
+        ],
+        [
+          2985,
+          2983,
+          25024
+        ],
+        [
+          2986,
+          2985,
+          25024
+        ],
+        [
+          3432,
+          3430,
+          25024
+        ],
+        [
+          95,
+          2944,
+          25024
+        ],
+        [
+          3593,
+          3592,
+          25024
+        ],
+        [
+          2943,
+          3593,
+          25024
+        ],
+        [
+          3592,
+          3431,
+          25024
+        ],
+        [
+          3430,
+          257,
+          25024
+        ],
+        [
+          3891,
+          96,
+          25024
+        ],
+        [
+          2234,
+          3891,
+          25024
+        ],
+        [
+          254,
+          4145,
+          25024
+        ],
+        [
+          2983,
+          2235,
+          25024
+        ],
+        [
+          3431,
+          3432,
+          25024
+        ]
+      ],
+      "declared_path_length_mm": 16.731992894556203,
+      "effective_capacity_use_allowed": false,
+      "face_ids_sha256": "509b9b99fa2ec0582ce24a34bdb1084a470be51fd02c823ac430ad531e8798b0",
+      "faces_in_source": 949,
+      "fixed_vertices": 485,
+      "id": "IN_02",
+      "interpretation": "Artificial distal fixed-wall accounting proxy only; not approved effective PCS capacity.",
+      "projected_cap_nonoverlapping": true,
+      "signed_proxy_volume_mL": 0.14593744919912807,
+      "signed_proxy_volume_mm3": 145.93744919912808
+    }
+  ],
+  "artificial_distal_proxy_total_mL": 2.6948711381428327,
+  "complement_proxy_mL": 17.028206224376753,
+  "coordinate_system": "Original cavity-local RAS, accepted unit convention; source DICOM spacing not independently revalidated.",
+  "endoscope_inventory": {
+    "clearance_verified": false,
+    "current_collision_sphere_radius_mm": 2.0,
+    "note": "Read-only inventory, no new path/pose/collision safety acceptance.",
+    "path_points": 88,
+    "polyline_length_mm": 86.53288913360157,
+    "source": "godot_sim/data/organ_2_kidney/lab_6/cavity_path_stone1.json"
+  },
+  "historical_B24_targeted_review": {
+    "coplanar_overlap_area_mm2": 0.0,
+    "finite_feature_distance_mm": 0.12819925138871574,
+    "pair": [
+      1856,
+      1862
+    ],
+    "positive_finite_segment_mm": 0.0,
+    "scope": "Targeted independent recheck of cached B_24 candidate only; not a new global self-intersection scan. Historical reports unchanged.",
+    "tolerance_sensitivity": {
+      "1e-06": false,
+      "1e-08": false,
+      "1e-10": false,
+      "1e-12": false
+    }
+  },
+  "legacy_debug_expansion_mL": 1.0433952544711715,
+  "legacy_debug_volume_levels": [
+    {
+      "closed_mesh_volume_mL": 19.72307736251959,
+      "closed_mesh_volume_mm3": 19723.07736251959,
+      "legacy_u": 0
+    },
+    {
+      "closed_mesh_volume_mL": 19.98104370549597,
+      "closed_mesh_volume_mm3": 19981.04370549597,
+      "legacy_u": 0.25
+    },
+    {
+      "closed_mesh_volume_mL": 20.240930951234166,
+      "closed_mesh_volume_mm3": 20240.930951234164,
+      "legacy_u": 0.5
+    },
+    {
+      "closed_mesh_volume_mL": 20.502740216232855,
+      "closed_mesh_volume_mm3": 20502.740216232854,
+      "legacy_u": 0.75
+    },
+    {
+      "closed_mesh_volume_mL": 20.76647261699076,
+      "closed_mesh_volume_mm3": 20766.472616990763,
+      "legacy_u": 1
+    }
+  ],
+  "legacy_debug_volume_polynomial_mm3": [
+    19723.07736251909,
+    1028.025055046929,
+    15.358290104682236,
+    0.011909319583358806
+  ],
+  "limits": [
+    "Numerical precision is not segmentation or clinical accuracy.",
+    "Cached B24 candidate was rechecked; no new exhaustive mesh scan.",
+    "No artificial-port anatomical cut has been approved. No normal individual capacity bounds can be inferred from reference volume alone."
+  ],
+  "proxy_additivity_error_mm3": 9.094947017729282e-11,
+  "proxy_limit": "Algebraic fan bookkeeping only, not certified spatial capacities. Non-star-shaped fans and alternative cap index conflicts are explicitly reported and prohibit effective-capacity use. Complement still includes B_31/B_32/BLADDER_TRANSITION. Proper anatomical plane cuts/closures require approval. No meshes or source masks exported/changed.",
+  "reference_closed_mesh": {
+    "area_mm2": 10812.234344631272,
+    "boundary_edges": 0,
+    "bounds_mm": [
+      [
+        -18.40288353,
+        -7.81936884,
+        -140.8125
+      ],
+      [
+        51.3900032,
+        39.09665298,
+        -21.96999931
+      ]
+    ],
+    "degenerate_triangles": 0,
+    "euler_number": 2,
+    "face_components": 1,
+    "independent_trimesh_volume_mm3": 19723.07736251959,
+    "meaning": "Whole sealed computational mesh volume, including artificial ports; NOT an established physiological capacity.",
+    "nonmanifold_edges": 0,
+    "numerical_spread_mm3": 1.7542624846100807e-06,
+    "signed_volume_mL": 19.723077362519497,
+    "signed_volume_mm3": 19723.077362519496,
+    "three_axis_flux_volumes_mm3": [
+      19723.077362519518,
+      19723.07736251968,
+      19723.07736251955
+    ],
+    "translated_origin_volumes_mm3": [
+      19723.077362519496,
+      19723.07736251959,
+      19723.077362519587,
+      19723.07736076542
+    ],
+    "triangles": 50044,
+    "vertices": 25024,
+    "watertight": true,
+    "winding_consistent": true
+  },
+  "scope": "Requirement impact analysis only. No Contracted or new Expanded field generated.",
+  "sources": {
+    "cavity_obj_sha256": "65a7a2cd0468dfbe301cc45b5c4f91482be4b80f766f538c47d347b5fa8b25e6",
+    "fixed_masks_sha256": "6a5969b840fb04a8c8ec8e5e42d901d85ac562255ccc1fd2fcb0d1d36527f2e9",
+    "resolved_sha256": "71e862f96b39a3270c432a4ebf7b5292ccc04a4df4f860578e23700dbd488443",
+    "six_authority_hashes": {
+      "cavity_displacement": "fbe95cfeaf8b77d80c5aa850618ad8ce8439c8ef770719b1f9a1f1789b050573",
+      "cavity_faces": "dbf4771365f42398f329100e695dc8580f8c038c557c671c02724bff45b29c3d",
+      "cavity_reference_vertices": "f137add4c401fe63851565f913a93968c9b11e18e630722ed42a21b4d0842fa1",
+      "tissue_displacement": "bcef3bda21aa3621547a80f8d7902c7506fc638cd8c18fe6a8c8c5516491eaec",
+      "tissue_faces": "532034f649eac73d2c28ecba5f0097ba04b79164fea3e385de5518c098cc3a05",
+      "tissue_reference_vertices": "63ce22d71be21c2a1266933aac2112ab7c66bcd887312f81e1d7d87c4f9ecb20"
+    }
+  },
+  "target_status": {
+    "V_max_physiological_mL": null,
+    "V_min_physiological_mL": null,
+    "V_reference_effective_mL": null,
+    "V_reference_mesh_mL": 19.723077362519497,
+    "delta_contract_mL": null,
+    "delta_expand_mL": null
+  },
+  "unit": "mm, mm^3; 1000 mm^3=1mL",
+  "user_provided_case": {
+    "CT_excretory_phase": "UNKNOWN",
+    "adult": true,
+    "paired_images": false,
+    "pressure_volume_data": false,
+    "stone_obstruction_or_hydronephrosis": false
+  }
+}

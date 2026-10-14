@@ -1,0 +1,17 @@
+test_all_accepted_input_hashes_and_protected_files (__main__.CapacityTests) ... ok
+test_artificial_additivity_is_not_anatomical_capacity (__main__.CapacityTests) ... ok
+test_bad_port_closure_is_reported_not_promoted (__main__.CapacityTests) ... ok
+test_cached_b24_has_finite_gap_not_a_confirmed_cross (__main__.CapacityTests) ... ok
+test_independent_flux_and_origin_invariance (__main__.CapacityTests) ... ok
+test_legacy_volume_is_cubic_and_not_physiological_max (__main__.CapacityTests) ... ok
+test_length_scale_cubes_volume (__main__.CapacityTests) ... ok
+test_reference_closed_winding_and_units (__main__.CapacityTests) ... ok
+test_repeat_audit_is_byte_identical (__main__.CapacityTests) ... ok
+test_simple_concave_ear_clipping_and_crossed_ring_rejection (__main__.CapacityTests) ... ok
+test_tetrahedron_known_volume (__main__.CapacityTests) ... ok
+test_unit_cube_translation_and_sign (__main__.CapacityTests) ... ok
+
+----------------------------------------------------------------------
+Ran 12 tests in 2.314s
+
+OK
