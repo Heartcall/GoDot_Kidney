@@ -1,0 +1,15 @@
+{
+  "builds": 2,
+  "byte_identical": true,
+  "sha256": {
+    "accepted_inputs.json": "fee5d371309553c032db1deb753c498e3ee75b735ce61ff0ad7a706e6514f8d1",
+    "cavity.bin": "d6f93030493f82b3cd6b14e17fa7cc8921a94ca52767548b3e177f95d4819b8a",
+    "cavity_displacement.npy": "fbe95cfeaf8b77d80c5aa850618ad8ce8439c8ef770719b1f9a1f1789b050573",
+    "cavity_faces.npy": "dbf4771365f42398f329100e695dc8580f8c038c557c671c02724bff45b29c3d",
+    "cavity_reference_vertices.npy": "f137add4c401fe63851565f913a93968c9b11e18e630722ed42a21b4d0842fa1",
+    "tissue.bin": "7867296f685a3f630970f6fa1c228d84d8283d30f5339a2c2866b293b67b4cbb",
+    "tissue_displacement.npy": "bcef3bda21aa3621547a80f8d7902c7506fc638cd8c18fe6a8c8c5516491eaec",
+    "tissue_faces.npy": "532034f649eac73d2c28ecba5f0097ba04b79164fea3e385de5518c098cc3a05",
+    "tissue_reference_vertices.npy": "63ce22d71be21c2a1266933aac2112ab7c66bcd887312f81e1d7d87c4f9ecb20"
+  }
+}

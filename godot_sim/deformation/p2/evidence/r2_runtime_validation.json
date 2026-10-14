@@ -1,0 +1,597 @@
+{
+  "all_cavity_fixed_exact": true,
+  "all_position_arrays_match": true,
+  "float32_cross_review": [
+    {
+      "coordinate_scope": "Actual centered float32 Godot positions; not substituted for float64 reference geometry.",
+      "coplanar_overlap_pair_count": 42,
+      "coplanar_pair_area_sum_mm2": 12.073980569839478,
+      "fill": 0,
+      "maximum_segment_mm": 0.0,
+      "old_plane_straddle_count": 51,
+      "positive_segment_count": 0,
+      "proper_centers_mm": [],
+      "proper_pairs": [],
+      "raw_candidate_count": 3866,
+      "segment_sum_mm": 0.0
+    },
+    {
+      "coordinate_scope": "Actual centered float32 Godot positions; not substituted for float64 reference geometry.",
+      "coplanar_overlap_pair_count": 41,
+      "coplanar_pair_area_sum_mm2": 11.86372574851742,
+      "fill": 0.25,
+      "maximum_segment_mm": 0.0,
+      "old_plane_straddle_count": 100,
+      "positive_segment_count": 0,
+      "proper_centers_mm": [],
+      "proper_pairs": [],
+      "raw_candidate_count": 2902,
+      "segment_sum_mm": 0.0
+    },
+    {
+      "coordinate_scope": "Actual centered float32 Godot positions; not substituted for float64 reference geometry.",
+      "coplanar_overlap_pair_count": 42,
+      "coplanar_pair_area_sum_mm2": 12.234743652018453,
+      "fill": 0.5,
+      "maximum_segment_mm": 0.0,
+      "old_plane_straddle_count": 103,
+      "positive_segment_count": 0,
+      "proper_centers_mm": [],
+      "proper_pairs": [],
+      "raw_candidate_count": 2912,
+      "segment_sum_mm": 0.0
+    },
+    {
+      "coordinate_scope": "Actual centered float32 Godot positions; not substituted for float64 reference geometry.",
+      "coplanar_overlap_pair_count": 41,
+      "coplanar_pair_area_sum_mm2": 12.020121504390582,
+      "fill": 0.75,
+      "maximum_segment_mm": 0.0,
+      "old_plane_straddle_count": 89,
+      "positive_segment_count": 0,
+      "proper_centers_mm": [],
+      "proper_pairs": [],
+      "raw_candidate_count": 2870,
+      "segment_sum_mm": 0.0
+    },
+    {
+      "coordinate_scope": "Actual centered float32 Godot positions; not substituted for float64 reference geometry.",
+      "coplanar_overlap_pair_count": 40,
+      "coplanar_pair_area_sum_mm2": 11.80517740361333,
+      "fill": 1,
+      "maximum_segment_mm": 0.0,
+      "old_plane_straddle_count": 98,
+      "positive_segment_count": 0,
+      "proper_centers_mm": [],
+      "proper_pairs": [],
+      "raw_candidate_count": 2857,
+      "segment_sum_mm": 0.0
+    }
+  ],
+  "graphical_runtime": {
+    "camera_unchanged_during_before_after": true,
+    "camera_unchanged_during_states": true,
+    "checks": [
+      {
+        "after": false,
+        "fill": 0.0,
+        "indices_exact": true,
+        "mesh": "cavity",
+        "triangles": 50044,
+        "vertices": 25024
+      },
+      {
+        "after": false,
+        "fill": 0.0,
+        "indices_exact": true,
+        "mesh": "tissue",
+        "triangles": 311844,
+        "vertices": 155904
+      },
+      {
+        "after": false,
+        "fill": 0.25,
+        "indices_exact": true,
+        "mesh": "cavity",
+        "triangles": 50044,
+        "vertices": 25024
+      },
+      {
+        "after": false,
+        "fill": 0.25,
+        "indices_exact": true,
+        "mesh": "tissue",
+        "triangles": 311844,
+        "vertices": 155904
+      },
+      {
+        "after": false,
+        "fill": 0.5,
+        "indices_exact": true,
+        "mesh": "cavity",
+        "triangles": 50044,
+        "vertices": 25024
+      },
+      {
+        "after": false,
+        "fill": 0.5,
+        "indices_exact": true,
+        "mesh": "tissue",
+        "triangles": 311844,
+        "vertices": 155904
+      },
+      {
+        "after": false,
+        "fill": 0.75,
+        "indices_exact": true,
+        "mesh": "cavity",
+        "triangles": 50044,
+        "vertices": 25024
+      },
+      {
+        "after": false,
+        "fill": 0.75,
+        "indices_exact": true,
+        "mesh": "tissue",
+        "triangles": 311844,
+        "vertices": 155904
+      },
+      {
+        "after": false,
+        "fill": 1.0,
+        "indices_exact": true,
+        "mesh": "cavity",
+        "triangles": 50044,
+        "vertices": 25024
+      },
+      {
+        "after": false,
+        "fill": 1.0,
+        "indices_exact": true,
+        "mesh": "tissue",
+        "triangles": 311844,
+        "vertices": 155904
+      },
+      {
+        "after": true,
+        "fill": 0.0,
+        "indices_exact": true,
+        "mesh": "cavity",
+        "triangles": 50044,
+        "vertices": 25024
+      },
+      {
+        "after": true,
+        "fill": 0.0,
+        "indices_exact": true,
+        "mesh": "tissue",
+        "triangles": 311844,
+        "vertices": 155904
+      },
+      {
+        "after": true,
+        "fill": 0.25,
+        "indices_exact": true,
+        "mesh": "cavity",
+        "triangles": 50044,
+        "vertices": 25024
+      },
+      {
+        "after": true,
+        "fill": 0.25,
+        "indices_exact": true,
+        "mesh": "tissue",
+        "triangles": 311844,
+        "vertices": 155904
+      },
+      {
+        "after": true,
+        "fill": 0.5,
+        "indices_exact": true,
+        "mesh": "cavity",
+        "triangles": 50044,
+        "vertices": 25024
+      },
+      {
+        "after": true,
+        "fill": 0.5,
+        "indices_exact": true,
+        "mesh": "tissue",
+        "triangles": 311844,
+        "vertices": 155904
+      },
+      {
+        "after": true,
+        "fill": 0.75,
+        "indices_exact": true,
+        "mesh": "cavity",
+        "triangles": 50044,
+        "vertices": 25024
+      },
+      {
+        "after": true,
+        "fill": 0.75,
+        "indices_exact": true,
+        "mesh": "tissue",
+        "triangles": 311844,
+        "vertices": 155904
+      },
+      {
+        "after": true,
+        "fill": 1.0,
+        "indices_exact": true,
+        "mesh": "cavity",
+        "triangles": 50044,
+        "vertices": 25024
+      },
+      {
+        "after": true,
+        "fill": 1.0,
+        "indices_exact": true,
+        "mesh": "tissue",
+        "triangles": 311844,
+        "vertices": 155904
+      }
+    ],
+    "opaque_shader": true,
+    "reference_origin_mm": [
+      16,
+      16,
+      -81
+    ],
+    "research_not_accepted": true
+  },
+  "records": [
+    {
+      "after": false,
+      "fill": 0,
+      "fixed_positions_exactly_reference": true,
+      "maximum_normal_angle_to_actual_geometry_deg": 0.007044480358096364,
+      "maximum_position_error_mm": 0.0,
+      "mesh": "cavity",
+      "normal_finite": true,
+      "normal_length_error": 1.2245232949847917e-07,
+      "positions_bit_equal_to_expected": true,
+      "source_indices_exact": true
+    },
+    {
+      "after": false,
+      "fill": 0,
+      "maximum_normal_angle_to_actual_geometry_deg": 0.007246895440991657,
+      "maximum_position_error_mm": 0.0,
+      "mesh": "tissue",
+      "normal_finite": true,
+      "normal_length_error": 1.3498555673230328e-07,
+      "positions_bit_equal_to_expected": true,
+      "source_indices_exact": true
+    },
+    {
+      "after": false,
+      "fill": 0.25,
+      "fixed_positions_exactly_reference": true,
+      "maximum_normal_angle_to_actual_geometry_deg": 0.007142289202850428,
+      "maximum_position_error_mm": 0.0,
+      "mesh": "cavity",
+      "normal_finite": true,
+      "normal_length_error": 1.1935031896115333e-07,
+      "positions_bit_equal_to_expected": true,
+      "source_indices_exact": true
+    },
+    {
+      "after": false,
+      "fill": 0.25,
+      "maximum_normal_angle_to_actual_geometry_deg": 0.007246895440991657,
+      "maximum_position_error_mm": 0.0,
+      "mesh": "tissue",
+      "normal_finite": true,
+      "normal_length_error": 1.3498555673230328e-07,
+      "positions_bit_equal_to_expected": true,
+      "source_indices_exact": true
+    },
+    {
+      "after": false,
+      "fill": 0.5,
+      "fixed_positions_exactly_reference": true,
+      "maximum_normal_angle_to_actual_geometry_deg": 0.007170988339657699,
+      "maximum_position_error_mm": 0.0,
+      "mesh": "cavity",
+      "normal_finite": true,
+      "normal_length_error": 1.221688868957571e-07,
+      "positions_bit_equal_to_expected": true,
+      "source_indices_exact": true
+    },
+    {
+      "after": false,
+      "fill": 0.5,
+      "maximum_normal_angle_to_actual_geometry_deg": 0.007246895440991657,
+      "maximum_position_error_mm": 0.0,
+      "mesh": "tissue",
+      "normal_finite": true,
+      "normal_length_error": 1.3498555673230328e-07,
+      "positions_bit_equal_to_expected": true,
+      "source_indices_exact": true
+    },
+    {
+      "after": false,
+      "fill": 0.75,
+      "fixed_positions_exactly_reference": true,
+      "maximum_normal_angle_to_actual_geometry_deg": 0.0070893299760669826,
+      "maximum_position_error_mm": 0.0,
+      "mesh": "cavity",
+      "normal_finite": true,
+      "normal_length_error": 1.3421277256231434e-07,
+      "positions_bit_equal_to_expected": true,
+      "source_indices_exact": true
+    },
+    {
+      "after": false,
+      "fill": 0.75,
+      "maximum_normal_angle_to_actual_geometry_deg": 0.007246895440991657,
+      "maximum_position_error_mm": 0.0,
+      "mesh": "tissue",
+      "normal_finite": true,
+      "normal_length_error": 1.3498555673230328e-07,
+      "positions_bit_equal_to_expected": true,
+      "source_indices_exact": true
+    },
+    {
+      "after": false,
+      "fill": 1,
+      "fixed_positions_exactly_reference": true,
+      "maximum_normal_angle_to_actual_geometry_deg": 0.007202770986543636,
+      "maximum_position_error_mm": 0.0,
+      "mesh": "cavity",
+      "normal_finite": true,
+      "normal_length_error": 1.228604886716056e-07,
+      "positions_bit_equal_to_expected": true,
+      "source_indices_exact": true
+    },
+    {
+      "after": false,
+      "fill": 1,
+      "maximum_normal_angle_to_actual_geometry_deg": 0.007246895440991657,
+      "maximum_position_error_mm": 0.0,
+      "mesh": "tissue",
+      "normal_finite": true,
+      "normal_length_error": 1.3498555673230328e-07,
+      "positions_bit_equal_to_expected": true,
+      "source_indices_exact": true
+    },
+    {
+      "after": true,
+      "fill": 0,
+      "fixed_positions_exactly_reference": true,
+      "maximum_normal_angle_to_actual_geometry_deg": 0.007044480358096364,
+      "maximum_position_error_mm": 0.0,
+      "mesh": "cavity",
+      "normal_finite": true,
+      "normal_length_error": 1.2245232949847917e-07,
+      "positions_bit_equal_to_expected": true,
+      "source_indices_exact": true
+    },
+    {
+      "actual_float32_geometry_quality": {
+        "area_ratio_range": [
+          1.0,
+          1.0
+        ],
+        "degenerate_count": 0,
+        "finite": true,
+        "maximum_displacement_mm": 0.0,
+        "maximum_edge_gradient": 0.0,
+        "maximum_neighbor_difference_mm": 0.0,
+        "maximum_normal_rotation_deg": 1.7075472925031877e-06,
+        "mean_displacement_mm": 0.0,
+        "minimum_triangle_area_mm2": 7.616107568796116e-07,
+        "minimum_triangle_quality": 0.0019385221595378886,
+        "moving_vertices": 0,
+        "normal_length_range": [
+          0.9999999999999997,
+          1.0000000000000002
+        ],
+        "normal_reversal_count": 0,
+        "volume_mm3": 300224.4348217309
+      },
+      "after": true,
+      "fill": 0,
+      "maximum_normal_angle_to_actual_geometry_deg": 0.007246895440991657,
+      "maximum_position_error_mm": 0.0,
+      "mesh": "tissue",
+      "normal_finite": true,
+      "normal_length_error": 1.3498555673230328e-07,
+      "positions_bit_equal_to_expected": true,
+      "source_indices_exact": true
+    },
+    {
+      "after": true,
+      "fill": 0.25,
+      "fixed_positions_exactly_reference": true,
+      "maximum_normal_angle_to_actual_geometry_deg": 0.007142289202850428,
+      "maximum_position_error_mm": 0.0,
+      "mesh": "cavity",
+      "normal_finite": true,
+      "normal_length_error": 1.1935031896115333e-07,
+      "positions_bit_equal_to_expected": true,
+      "source_indices_exact": true
+    },
+    {
+      "actual_float32_geometry_quality": {
+        "area_ratio_range": [
+          0.9722057554496573,
+          1.028133081042402
+        ],
+        "degenerate_count": 0,
+        "finite": true,
+        "maximum_displacement_mm": 0.0490254199620363,
+        "maximum_edge_gradient": 0.028186304169176064,
+        "maximum_neighbor_difference_mm": 0.026874364684810248,
+        "maximum_normal_rotation_deg": 1.6799316652757106,
+        "mean_displacement_mm": 0.004637437141970479,
+        "minimum_triangle_area_mm2": 7.616107568796116e-07,
+        "minimum_triangle_quality": 0.0019385221595378886,
+        "moving_vertices": 24583,
+        "normal_length_range": [
+          0.9999999999999997,
+          1.0000000000000002
+        ],
+        "normal_reversal_count": 0,
+        "volume_mm3": 299934.65036967566
+      },
+      "after": true,
+      "fill": 0.25,
+      "maximum_normal_angle_to_actual_geometry_deg": 0.007246895440991657,
+      "maximum_position_error_mm": 0.0,
+      "mesh": "tissue",
+      "normal_finite": true,
+      "normal_length_error": 1.3498555673230328e-07,
+      "positions_bit_equal_to_expected": true,
+      "source_indices_exact": true
+    },
+    {
+      "after": true,
+      "fill": 0.5,
+      "fixed_positions_exactly_reference": true,
+      "maximum_normal_angle_to_actual_geometry_deg": 0.007170988339657699,
+      "maximum_position_error_mm": 0.0,
+      "mesh": "cavity",
+      "normal_finite": true,
+      "normal_length_error": 1.221688868957571e-07,
+      "positions_bit_equal_to_expected": true,
+      "source_indices_exact": true
+    },
+    {
+      "actual_float32_geometry_quality": {
+        "area_ratio_range": [
+          0.9446063544543388,
+          1.0567026735475198
+        ],
+        "degenerate_count": 0,
+        "finite": true,
+        "maximum_displacement_mm": 0.09805055200941687,
+        "maximum_edge_gradient": 0.056372621311016655,
+        "maximum_neighbor_difference_mm": 0.05374872224432732,
+        "maximum_normal_rotation_deg": 3.3858637504307847,
+        "mean_displacement_mm": 0.009274874909814742,
+        "minimum_triangle_area_mm2": 7.616107568796116e-07,
+        "minimum_triangle_quality": 0.0019385221595378886,
+        "moving_vertices": 24613,
+        "normal_length_range": [
+          0.9999999999999997,
+          1.0000000000000002
+        ],
+        "normal_reversal_count": 0,
+        "volume_mm3": 299642.93321021186
+      },
+      "after": true,
+      "fill": 0.5,
+      "maximum_normal_angle_to_actual_geometry_deg": 0.007246895440991657,
+      "maximum_position_error_mm": 0.0,
+      "mesh": "tissue",
+      "normal_finite": true,
+      "normal_length_error": 1.3498555673230328e-07,
+      "positions_bit_equal_to_expected": true,
+      "source_indices_exact": true
+    },
+    {
+      "after": true,
+      "fill": 0.75,
+      "fixed_positions_exactly_reference": true,
+      "maximum_normal_angle_to_actual_geometry_deg": 0.0070893299760669826,
+      "maximum_position_error_mm": 0.0,
+      "mesh": "cavity",
+      "normal_finite": true,
+      "normal_length_error": 1.3421277256231434e-07,
+      "positions_bit_equal_to_expected": true,
+      "source_indices_exact": true
+    },
+    {
+      "actual_float32_geometry_quality": {
+        "area_ratio_range": [
+          0.9172334805115355,
+          1.0856934629061539
+        ],
+        "degenerate_count": 0,
+        "finite": true,
+        "maximum_displacement_mm": 0.147075971969565,
+        "maximum_edge_gradient": 0.08455657348483912,
+        "maximum_neighbor_difference_mm": 0.08062307980393221,
+        "maximum_normal_rotation_deg": 5.114120002112583,
+        "mean_displacement_mm": 0.013912312733844521,
+        "minimum_triangle_area_mm2": 7.616107568796116e-07,
+        "minimum_triangle_quality": 0.0019385221595378886,
+        "moving_vertices": 24630,
+        "normal_length_range": [
+          0.9999999999999997,
+          1.0000000000000002
+        ],
+        "normal_reversal_count": 0,
+        "volume_mm3": 299349.2823494032
+      },
+      "after": true,
+      "fill": 0.75,
+      "maximum_normal_angle_to_actual_geometry_deg": 0.007246895440991657,
+      "maximum_position_error_mm": 0.0,
+      "mesh": "tissue",
+      "normal_finite": true,
+      "normal_length_error": 1.3498555673230328e-07,
+      "positions_bit_equal_to_expected": true,
+      "source_indices_exact": true
+    },
+    {
+      "after": true,
+      "fill": 1,
+      "fixed_positions_exactly_reference": true,
+      "maximum_normal_angle_to_actual_geometry_deg": 0.007202770986543636,
+      "maximum_position_error_mm": 0.0,
+      "mesh": "cavity",
+      "normal_finite": true,
+      "normal_length_error": 1.228604886716056e-07,
+      "positions_bit_equal_to_expected": true,
+      "source_indices_exact": true
+    },
+    {
+      "actual_float32_geometry_quality": {
+        "area_ratio_range": [
+          0.8901095700434579,
+          1.1151231151732852
+        ],
+        "degenerate_count": 0,
+        "finite": true,
+        "maximum_displacement_mm": 0.1961011137017264,
+        "maximum_edge_gradient": 0.11274290355225183,
+        "maximum_neighbor_difference_mm": 0.10749671897561129,
+        "maximum_normal_rotation_deg": 6.863262442106674,
+        "mean_displacement_mm": 0.018549749663889465,
+        "minimum_triangle_area_mm2": 7.616107568796116e-07,
+        "minimum_triangle_quality": 0.0019385221595378886,
+        "moving_vertices": 24639,
+        "normal_length_range": [
+          0.9999999999999997,
+          1.0000000000000002
+        ],
+        "normal_reversal_count": 0,
+        "volume_mm3": 299053.6966729826
+      },
+      "after": true,
+      "fill": 1,
+      "maximum_normal_angle_to_actual_geometry_deg": 0.007246895440991657,
+      "maximum_position_error_mm": 0.0,
+      "mesh": "tissue",
+      "normal_finite": true,
+      "normal_length_error": 1.3498555673230328e-07,
+      "positions_bit_equal_to_expected": true,
+      "source_indices_exact": true
+    }
+  ],
+  "sources": {
+    "driver": {
+      "path": "deformation/full_cavity/field/displacement.npy",
+      "sha256": "fbe95cfeaf8b77d80c5aa850618ad8ce8439c8ef770719b1f9a1f1789b050573"
+    },
+    "research_field": {
+      "path": "analysis/irrigation_baseline/p15_r2/research_tissue_displacement.npy",
+      "sha256": "bcef3bda21aa3621547a80f8d7902c7506fc638cd8c18fe6a8c8c5516491eaec"
+    }
+  },
+  "status": "REAL_RUNTIME_DATA_MATCHED"
+}

@@ -22,6 +22,7 @@ material_override = SubResource("Material_cavity")
 mesh = ExtResource("1_cavity")
 
 [node name="TissueReference" type="MeshInstance3D" parent="." unique_id=743070706]
+visible = false
 material_override = SubResource("Material_tissue")
 mesh = ExtResource("2_tissue")
 

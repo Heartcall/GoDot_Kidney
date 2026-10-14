@@ -1,0 +1,19 @@
+test_01_six_hashes_from_authority_guide (__main__.P2Tests) ... ok
+test_02_human_acceptance_record (__main__.P2Tests) ... ok
+test_03_rebuild_twice_is_byte_identical (__main__.P2Tests) ... ok
+test_04_missing_or_changed_authority_stops (__main__.P2Tests) ... ok
+test_05_binary_layout_exact (__main__.P2Tests) ... ok
+test_06_no_accumulated_vertex_drift (__main__.P2Tests) ... ok
+test_07_godot_controller_real_tests (__main__.P2Tests) ... ok
+test_08_no_ignored_input_or_r1_in_player (__main__.P2Tests) ... ok
+test_09_safe_opaque_shader (__main__.P2Tests) ... ok
+test_10_all_runtime_geometry_contacts_and_fixed (__main__.P2Tests) ... ok
+test_11_runtime_assets_not_git_ignored (__main__.P2Tests) ... ok
+test_12_frozen_evidence_identity (__main__.P2Tests) ... ok
+test_13_real_process_live_playback (__main__.P2Tests) ... ok
+test_14_isolated_project_without_analysis_cache (__main__.P2Tests) ... ok
+
+----------------------------------------------------------------------
+Ran 14 tests in 5.941s
+
+OK

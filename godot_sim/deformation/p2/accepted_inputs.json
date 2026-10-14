@@ -1,0 +1,112 @@
+{
+  "arrays": {
+    "cavity_displacement": {
+      "dtype": "float64",
+      "runtime": "runtime/cavity_displacement.npy",
+      "sha256": "fbe95cfeaf8b77d80c5aa850618ad8ce8439c8ef770719b1f9a1f1789b050573",
+      "shape": [
+        25024,
+        3
+      ],
+      "source": "godot_sim/deformation/full_cavity/field/displacement.npy"
+    },
+    "cavity_faces": {
+      "dtype": "int64",
+      "runtime": "runtime/cavity_faces.npy",
+      "sha256": "dbf4771365f42398f329100e695dc8580f8c038c557c671c02724bff45b29c3d",
+      "shape": [
+        50044,
+        3
+      ],
+      "source": "godot_sim/deformation/full_cavity/field/faces.npy"
+    },
+    "cavity_reference_vertices": {
+      "dtype": "float64",
+      "runtime": "runtime/cavity_reference_vertices.npy",
+      "sha256": "f137add4c401fe63851565f913a93968c9b11e18e630722ed42a21b4d0842fa1",
+      "shape": [
+        25024,
+        3
+      ],
+      "source": "godot_sim/deformation/full_cavity/field/reference_vertices.npy"
+    },
+    "tissue_displacement": {
+      "dtype": "float64",
+      "runtime": "runtime/tissue_displacement.npy",
+      "sha256": "bcef3bda21aa3621547a80f8d7902c7506fc638cd8c18fe6a8c8c5516491eaec",
+      "shape": [
+        155904,
+        3
+      ],
+      "source": "godot_sim/analysis/irrigation_baseline/p15_r2/candidate/displacement.npy"
+    },
+    "tissue_faces": {
+      "dtype": "int64",
+      "runtime": "runtime/tissue_faces.npy",
+      "sha256": "532034f649eac73d2c28ecba5f0097ba04b79164fea3e385de5518c098cc3a05",
+      "shape": [
+        311844,
+        3
+      ],
+      "source": "godot_sim/analysis/irrigation_baseline/p15_r2/candidate/faces.npy"
+    },
+    "tissue_reference_vertices": {
+      "dtype": "float64",
+      "runtime": "runtime/tissue_reference_vertices.npy",
+      "sha256": "63ce22d71be21c2a1266933aac2112ab7c66bcd887312f81e1d7d87c4f9ecb20",
+      "shape": [
+        155904,
+        3
+      ],
+      "source": "godot_sim/analysis/irrigation_baseline/p15_r2/candidate/reference_vertices.npy"
+    }
+  },
+  "authority": "docs/kidney_irrigation_p2_guide.md section 2",
+  "binaries": {
+    "cavity": {
+      "path": "runtime/cavity.bin",
+      "sha256": "d6f93030493f82b3cd6b14e17fa7cc8921a94ca52767548b3e177f95d4819b8a",
+      "triangles": 50044,
+      "vertices": 25024
+    },
+    "tissue": {
+      "path": "runtime/tissue.bin",
+      "sha256": "7867296f685a3f630970f6fa1c228d84d8283d30f5339a2c2866b293b67b4cbb",
+      "triangles": 311844,
+      "vertices": 155904
+    }
+  },
+  "cavity_maximum_displacement_mm": 0.2,
+  "evidence_sha256": {
+    "coincident_cavity_vertex.npy": "65c3d7a2dacfde10b1717893325b0998d0f7e09c922fe365412ecf1fb52dab6f",
+    "coincident_mask.npy": "dad930455d73dd9384c62460e6f2a7a4d8cea8b50c695211cb1fdbe36c927fa2",
+    "contact_pairs.npy": "e2ff4dbd88c124e8b0fee9981588f3e9c4189e67dd7c129b27f69961adfd8505",
+    "contact_sample_points.npy": "82682f94c771de6621ed634f3951290e0e188756157bed7ecd01c1c7bc4f8274",
+    "port_fixed_masks.npy": "6a5969b840fb04a8c8ec8e5e42d901d85ac562255ccc1fd2fcb0d1d36527f2e9",
+    "r2_actual_array_hashes.json": "34e518944f9efdf972b838c4e2c067458e3cc1e8ee956162ffbed4f9f4f0d384",
+    "r2_quality_report.json": "dda5787433b9fffc0da7d3580a212edb5401efd4e72919762e190a0bdfec514c",
+    "r2_runtime_validation.json": "f79b618cd06439d88b9aded35076f3d936c9e4b4273a4f77a5918303b7fed064",
+    "remote_anchors.npy": "8e18dc794adfce20558e97d9ff63926d4053702127027be45ff121b4a2ee4511"
+  },
+  "float32_formula": "float32(reference-origin) + float32(u)*float32(displacement)",
+  "formula": "reference + u * accepted_displacement",
+  "human_acceptance": {
+    "date": "2026-10-14",
+    "source": "User explicitly accepted synchronous geometry, three states, slider, F01/F02 and five-level engineering checks.",
+    "stage": "P1.5-R2",
+    "status": "USER_ACCEPTED_ENGINEERING_GEOMETRY"
+  },
+  "limits": [
+    "No physiological calibration, true wall-thickness validation or confirmed F03/F04 anatomy.",
+    "Five-level finite contact checks do not certify collision freedom over all continuous u.",
+    "Runtime reads only P2 versioned assets, never analysis cache or R1 displacement."
+  ],
+  "origin_mm": [
+    16.0,
+    16.0,
+    -81.0
+  ],
+  "schema": "P2_ACCEPTED_INPUTS_V1",
+  "unit": "mm",
+  "version": "p2.1-p2.2-v1"
+}

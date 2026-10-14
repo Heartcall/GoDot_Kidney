@@ -1,0 +1,14 @@
+{
+  "authorization_date": "2026-10-14",
+  "changes": {
+    "godot_sim/irrigation_asset_check.tscn": {
+      "after_sha256": "6152ebb57f153c32be1cafd5bcc4cc23c2eb82e9a7d6e72a7be5754bf34bd5d9",
+      "before_sha256": "5601c0d7c5fa5cc667463b069362ab1328675ac1269eab3ef379a1db00264908",
+      "geometry_or_marker_changed": false,
+      "kind": "user_saved_visibility_only",
+      "only_change": "TissueReference visible=false",
+      "reconstructed_original_sha256": "5601c0d7c5fa5cc667463b069362ab1328675ac1269eab3ef379a1db00264908"
+    }
+  },
+  "user_confirmation": "是的，如果有必要你可以自行调整设置"
+}

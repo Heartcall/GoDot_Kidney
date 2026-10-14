@@ -1,0 +1,29 @@
+{
+  "files": {
+    "deformation/p2/accepted_inputs.json": "fee5d371309553c032db1deb753c498e3ee75b735ce61ff0ad7a706e6514f8d1",
+    "deformation/p2/evidence/coincident_cavity_vertex.npy": "65c3d7a2dacfde10b1717893325b0998d0f7e09c922fe365412ecf1fb52dab6f",
+    "deformation/p2/evidence/coincident_mask.npy": "dad930455d73dd9384c62460e6f2a7a4d8cea8b50c695211cb1fdbe36c927fa2",
+    "deformation/p2/evidence/contact_pairs.npy": "e2ff4dbd88c124e8b0fee9981588f3e9c4189e67dd7c129b27f69961adfd8505",
+    "deformation/p2/evidence/contact_sample_points.npy": "82682f94c771de6621ed634f3951290e0e188756157bed7ecd01c1c7bc4f8274",
+    "deformation/p2/evidence/port_fixed_masks.npy": "6a5969b840fb04a8c8ec8e5e42d901d85ac562255ccc1fd2fcb0d1d36527f2e9",
+    "deformation/p2/evidence/r2_actual_array_hashes.json": "34e518944f9efdf972b838c4e2c067458e3cc1e8ee956162ffbed4f9f4f0d384",
+    "deformation/p2/evidence/r2_quality_report.json": "dda5787433b9fffc0da7d3580a212edb5401efd4e72919762e190a0bdfec514c",
+    "deformation/p2/evidence/r2_runtime_validation.json": "f79b618cd06439d88b9aded35076f3d936c9e4b4273a4f77a5918303b7fed064",
+    "deformation/p2/evidence/remote_anchors.npy": "8e18dc794adfce20558e97d9ff63926d4053702127027be45ff121b4a2ee4511",
+    "deformation/p2/runtime/cavity.bin": "d6f93030493f82b3cd6b14e17fa7cc8921a94ca52767548b3e177f95d4819b8a",
+    "deformation/p2/runtime/cavity_displacement.npy": "fbe95cfeaf8b77d80c5aa850618ad8ce8439c8ef770719b1f9a1f1789b050573",
+    "deformation/p2/runtime/cavity_faces.npy": "dbf4771365f42398f329100e695dc8580f8c038c557c671c02724bff45b29c3d",
+    "deformation/p2/runtime/cavity_reference_vertices.npy": "f137add4c401fe63851565f913a93968c9b11e18e630722ed42a21b4d0842fa1",
+    "deformation/p2/runtime/tissue.bin": "7867296f685a3f630970f6fa1c228d84d8283d30f5339a2c2866b293b67b4cbb",
+    "deformation/p2/runtime/tissue_displacement.npy": "bcef3bda21aa3621547a80f8d7902c7506fc638cd8c18fe6a8c8c5516491eaec",
+    "deformation/p2/runtime/tissue_faces.npy": "532034f649eac73d2c28ecba5f0097ba04b79164fea3e385de5518c098cc3a05",
+    "deformation/p2/runtime/tissue_reference_vertices.npy": "63ce22d71be21c2a1266933aac2112ab7c66bcd887312f81e1d7d87c4f9ecb20",
+    "irrigation_control_preview.tscn": "650c719417ac832d0a43e26cdd3e47b91d375c22d2dc3264acef25e1633df8e4",
+    "scripts/p2/control_preview.gd": "fbe6d1979d9119b367d032a5fefd32cee93980c20b7e9cdf1716fc9327e6b038",
+    "scripts/p2/deformation_player.gd": "d1005ec941e633b66c0c3b0fb30c92850a9862c175d0b0bcc896acc5b129ab91",
+    "scripts/p2/irrigation_controller.gd": "515b8903164d9342609252ac598f5982df70485e296546578eebf60ae45fd46e",
+    "shaders/audit_section.gdshader": "58dab28a0b2a8d1eeb258a7e2052930b8a252281870befe7a3a187170e43681c"
+  },
+  "isolated_project": "godot_sim/analysis/irrigation_baseline/p2/clean_checkout",
+  "source_analysis_files_copied": false
+}

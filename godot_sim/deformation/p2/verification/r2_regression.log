@@ -1,0 +1,42 @@
+test_actual_float32_contacts_and_geometry (__main__.R2Tests) ... ok
+test_actual_godot_20_mesh_snapshots (__main__.R2Tests) ... ok
+test_actual_godot_cavity_before_after_identical (__main__.R2Tests) ... ok
+test_all_natural_regions_checked (__main__.R2Tests) ... ok
+test_all_u_area_and_orientation_bound (__main__.R2Tests) ... ok
+test_ambiguous_donors_are_not_declared_anatomy (__main__.R2Tests) ... ok
+test_contact_faces_remain_exactly_r1 (__main__.R2Tests) ... ok
+test_engineering_gate_rejects_actual_crossing (__main__.R2Tests) ... ok
+test_engineering_gate_rejects_area_failure (__main__.R2Tests) ... ok
+test_engineering_gate_rejects_gradient_failure (__main__.R2Tests) ... ok
+test_exact_139_coincident_constraints (__main__.R2Tests) ... ok
+test_f01_f02_and_neighborhoods_improved (__main__.R2Tests) ... ok
+test_f01_same_donor_constraint_seam_diagnosed (__main__.R2Tests) ... ok
+test_failed_result_cannot_publish_passed_report (__main__.R2Tests) ... ok
+test_five_level_checks_are_complete_and_unmodified (__main__.R2Tests) ... ok
+test_fixed_cavity_ports_still_exact (__main__.R2Tests) ... ok
+test_legacy_false_candidates_not_called_proper_crosses (__main__.R2Tests) ... ok
+test_no_degenerate_flipped_or_confirmed_new_crosses (__main__.R2Tests) ... ok
+test_no_global_laplacian_increase_or_scale_reduction (__main__.R2Tests) ... ok
+test_no_unsafe_transparency (__main__.R2Tests) ... ok
+test_original_far_and_exterior_fixed (__main__.R2Tests) ... ok
+test_protected_sources_and_previous_results (__main__.R2Tests) ... FAIL
+test_real_finite_cross_synthetic_is_detected (__main__.R2Tests) ... ok
+test_rebuild_arrays_identical (__main__.R2Tests) ... ok
+test_reference_mid_expanded_same_topology (__main__.R2Tests) ... ok
+test_single_vertex_fix_would_transfer_f02_distortion (__main__.R2Tests) ... ok
+
+======================================================================
+FAIL: test_protected_sources_and_previous_results (__main__.R2Tests)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "E:\Study\˫����ʦ��\Simulator\FURS-NAV-main\godot_sim\tools\p15_r2\test_r2_mapping.py", line 135, in test_protected_sources_and_previous_results
+    for name,digest in before.items(): self.assertEqual(source_record(PROJECT.parent/name)['sha256'],digest,name)
+AssertionError: '6152ebb57f153c32be1cafd5bcc4cc23c2eb82e9a7d6e72a7be5754bf34bd5d9' != '5601c0d7c5fa5cc667463b069362ab1328675ac1269eab3ef379a1db00264908'
+- 6152ebb57f153c32be1cafd5bcc4cc23c2eb82e9a7d6e72a7be5754bf34bd5d9
++ 5601c0d7c5fa5cc667463b069362ab1328675ac1269eab3ef379a1db00264908
+ : godot_sim/irrigation_asset_check.tscn
+
+----------------------------------------------------------------------
+Ran 26 tests in 2.030s
+
+FAILED (failures=1)
