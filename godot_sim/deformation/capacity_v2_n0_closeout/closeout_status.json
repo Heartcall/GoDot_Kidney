@@ -1,0 +1,27 @@
+{
+  "D2_approved": false,
+  "N1_reference_only_descriptive_work_possible_after_user_approval": true,
+  "N1_started": false,
+  "N1_target_calibration_ready": false,
+  "V_reference_effective_mL": null,
+  "normal_V_max_mL": null,
+  "normal_V_min_mL": null,
+  "old_finite_checks_preserved": [
+    0,
+    0.25,
+    0.5,
+    0.75,
+    1,
+    0.37
+  ],
+  "recommended_engineering_proxy_parent": "C11_inlet_distal_control",
+  "refinement_candidate": "C11_R1_IN02_fixed_collar",
+  "remaining_transition_volume_identifiable": false,
+  "required_evidence": [
+    "Pre-artificial segmented natural cavity or reversible preprocessing with labeled wall ancestry.",
+    "Approved UPJ/ureter cut boundary and artificial port aperture curves tied to source faces.",
+    "Anatomical/segmentation meaning of T01-T22 terminal caps."
+  ],
+  "status": "N0_BOUNDARY_CLOSEOUT_PENDING_USER_DOMAIN_CONFIRMATION",
+  "user_contact_status": "NO_VISIBLE_ANOMALY_IN_USER_REVIEWED_VIEWS"
+}

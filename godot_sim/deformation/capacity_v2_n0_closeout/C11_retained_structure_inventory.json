@@ -1,0 +1,76 @@
+{
+  "C11_minus_C06_interpretation": "Includes user-confirmed natural-wall removal; cannot estimate retained artificial volume.",
+  "C11_minus_rejected_C06_mL": 0.1416208978239304,
+  "all_natural_wall_in_C11_certified": false,
+  "fixed_wall_inventory": [
+    {
+      "C11_cut_axial_from_BASE_mm": -3.376515934898001,
+      "C11_cut_source_faces_not_fully_fixed": 96,
+      "C11_retained_fully_fixed_source_faces": 0,
+      "C11_retained_fully_fixed_wall_area_mm2": 0.0,
+      "fixed_only_plane_lower_bound_mm": 0.6907789635191334,
+      "mixed_wall_triangle_max_axial_mm": 0.6907775076448218,
+      "numerical_guard_mm": 1.4558743116002143e-06,
+      "port": "BLADDER",
+      "total_retained_artificial_transition_volume_mL": null,
+      "unambiguously_fixed_only_proximal_refinement_possible": false
+    },
+    {
+      "C11_cut_axial_from_BASE_mm": 1.0000000000000018,
+      "C11_cut_source_faces_not_fully_fixed": 2,
+      "C11_retained_fully_fixed_source_faces": 52,
+      "C11_retained_fully_fixed_wall_area_mm2": 5.334006771517136,
+      "fixed_only_plane_lower_bound_mm": 1.0073083287199656,
+      "mixed_wall_triangle_max_axial_mm": 1.007306872845654,
+      "numerical_guard_mm": 1.4558743116002143e-06,
+      "port": "IN_01",
+      "total_retained_artificial_transition_volume_mL": null,
+      "unambiguously_fixed_only_proximal_refinement_possible": false
+    },
+    {
+      "C11_cut_axial_from_BASE_mm": 1.0000000000000022,
+      "C11_cut_source_faces_not_fully_fixed": 0,
+      "C11_retained_fully_fixed_source_faces": 58,
+      "C11_retained_fully_fixed_wall_area_mm2": 8.014416931991544,
+      "fixed_only_plane_lower_bound_mm": 0.8499161125915548,
+      "mixed_wall_triangle_max_axial_mm": 0.8499146567172432,
+      "next_source_vertex_event_mm": 0.8649191747602253,
+      "numerical_guard_mm": 1.4558743116002143e-06,
+      "port": "IN_02",
+      "quality_plane_rule": "Midpoint of first source-vertex event interval above all mixed fixed/nonfixed triangles, inside the original C11 cut; chosen for stable clipping, not desired volume.",
+      "selected_quality_plane_mm": 0.8574169157387342,
+      "total_retained_artificial_transition_volume_mL": null,
+      "unambiguously_fixed_only_proximal_refinement_possible": true
+    }
+  ],
+  "retained_transition_centerlines": [
+    {
+      "full_centerline_length_mm": 7.158330007303268,
+      "id": "BLADDER_TRANSITION",
+      "nominal_retained_centerline_length_mm": 3.579165003651634,
+      "volume_mL": null
+    },
+    {
+      "full_centerline_length_mm": 9.88207428515873,
+      "id": "B_31",
+      "nominal_retained_centerline_length_mm": 9.88207428515873,
+      "volume_mL": null
+    },
+    {
+      "full_centerline_length_mm": 2.8435287822423687,
+      "id": "B_32",
+      "nominal_retained_centerline_length_mm": 2.8435287822423687,
+      "volume_mL": null
+    }
+  ],
+  "source_arrays_sha256": {
+    "cavity_displacement": "fbe95cfeaf8b77d80c5aa850618ad8ce8439c8ef770719b1f9a1f1789b050573",
+    "cavity_faces": "dbf4771365f42398f329100e695dc8580f8c038c557c671c02724bff45b29c3d",
+    "cavity_reference_vertices": "f137add4c401fe63851565f913a93968c9b11e18e630722ed42a21b4d0842fa1",
+    "tissue_displacement": "bcef3bda21aa3621547a80f8d7902c7506fc638cd8c18fe6a8c8c5516491eaec",
+    "tissue_faces": "532034f649eac73d2c28ecba5f0097ba04b79164fea3e385de5518c098cc3a05",
+    "tissue_reference_vertices": "63ce22d71be21c2a1266933aac2112ab7c66bcd887312f81e1d7d87c4f9ecb20"
+  },
+  "terminal_boundary_semantics": "T01-T22 retain source closed surfaces; anatomical termination and segmentation/virtual-cap provenance remain unknown.",
+  "total_artificial_transition_volume_in_C11_mL": null
+}

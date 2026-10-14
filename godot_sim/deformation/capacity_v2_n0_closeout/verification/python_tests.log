@@ -1,0 +1,24 @@
+test_3675_fixed_vertices_and_fields_unchanged (__main__.CloseoutTests) ... ok
+test_BLADDER_IN01_planes_preserved (__main__.CloseoutTests) ... ok
+test_C07_to_C10_have_independent_computer_evidence (__main__.CloseoutTests) ... ok
+test_IN01_cannot_use_same_fixed_only_proximal_refinement (__main__.CloseoutTests) ... ok
+test_actual_Godot_arrays_identical_to_accepted_data (__main__.CloseoutTests) ... ok
+test_all_31_natural_paths_and_34_landmarks_retained (__main__.CloseoutTests) ... ok
+test_closed_differential_collar_matches_volume_difference (__main__.CloseoutTests) ... ok
+test_history_and_all_sources_unchanged (__main__.CloseoutTests) ... ok
+test_human_statuses_not_expanded_to_anatomical_acceptance (__main__.CloseoutTests) ... ok
+test_near_vertex_failure_preserved_and_not_promoted (__main__.CloseoutTests) ... ok
+test_no_visible_anomaly_limited_to_reviewed_views (__main__.CloseoutTests) ... ok
+test_old_N0_report_and_candidates_remain_unchanged (__main__.CloseoutTests) ... ok
+test_only_fully_fixed_IN02_source_wall_changed (__main__.CloseoutTests) ... ok
+test_quality_plane_uses_source_vertex_interval_not_volume_target (__main__.CloseoutTests) ... ok
+test_reference_vertices_and_barycentric_mapping_exact (__main__.CloseoutTests) ... ok
+test_refinement_passes_all_geometry_gates (__main__.CloseoutTests) ... ok
+test_remaining_volume_unknown_and_N1_not_started (__main__.CloseoutTests) ... ok
+test_repeat_build_does_not_mutate_feedback_or_change_arrays (__main__.CloseoutTests) ... ok
+test_source_terminal_semantics_not_invented (__main__.CloseoutTests) ... ok
+
+----------------------------------------------------------------------
+Ran 19 tests in 8.726s
+
+OK

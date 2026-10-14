@@ -1,0 +1,7 @@
+{
+  "status": "REJECTED_DEGENERATE_SLIVER_FACES",
+  "degenerate_faces": 2,
+  "cause": "Numerical guard plane too close to a source vertex; closedness and source provenance alone are insufficient.",
+  "geometry_gate_threshold_unchanged": true,
+  "script_sha256": "445c3418d15c4b26ebe2b9f124cb2fbf4bce8938908b466249ad3cb2bca97278"
+}

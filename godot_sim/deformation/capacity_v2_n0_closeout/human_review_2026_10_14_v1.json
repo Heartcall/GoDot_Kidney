@@ -1,0 +1,106 @@
+{
+  "D2_approved": false,
+  "V_reference_effective_mL": null,
+  "authority": "Direct user feedback in this conversation",
+  "candidate_statuses": {
+    "C00_distal_control": {
+      "D2_approved": false,
+      "source_candidate_sha256": "ecc26ce60f791e5f0a93a1f696e594d8142f9e5d37ae7e57ad3c203f9278cb95",
+      "status": "CONTROL_NOT_ANATOMICALLY_APPROVED",
+      "user_individual_visual_review": false
+    },
+    "C01_transition_mid": {
+      "D2_approved": false,
+      "source_candidate_sha256": "29690de7750114692f2c7dc8a850774a29e0c697787cc8e01c3c77fdbefb01a4",
+      "status": "EXISTING_NATURAL_BRANCH_EXCLUSION_NOT_RECOMMENDED",
+      "user_individual_visual_review": false
+    },
+    "C02_transition_proximal": {
+      "D2_approved": false,
+      "source_candidate_sha256": "0b4002e67b08e209c972ebfe1c0a33677bd75b1b00fd32a5da426a7ff3676233",
+      "status": "EXISTING_NATURAL_BRANCH_EXCLUSION_NOT_RECOMMENDED",
+      "user_individual_visual_review": false
+    },
+    "C03_transition_distal": {
+      "D2_approved": false,
+      "source_candidate_sha256": "c25bb6bc073bad098a27745367c45f8d97a268c93d187dcb924537c1eefcc676",
+      "status": "EXISTING_NATURAL_BRANCH_EXCLUSION_NOT_RECOMMENDED",
+      "user_individual_visual_review": false
+    },
+    "C04_bladder_proximal": {
+      "D2_approved": false,
+      "source_candidate_sha256": "9618129f81405da3945a1cde327d864a530878295b3ea98947090a79002ed029",
+      "status": "EXISTING_NATURAL_BRANCH_EXCLUSION_NOT_RECOMMENDED",
+      "user_individual_visual_review": false
+    },
+    "C05_bladder_distal": {
+      "D2_approved": false,
+      "source_candidate_sha256": "ef81a39f294e01eb7e4f54f079b2e2adff37d0e38542ef107391feddc52ae3c6",
+      "status": "EXISTING_NATURAL_BRANCH_EXCLUSION_NOT_RECOMMENDED",
+      "user_individual_visual_review": false
+    },
+    "C06_near_BASE": {
+      "D2_approved": false,
+      "source_candidate_sha256": "be9321e1fb44a229e579b1cd6d3a0b76d1e0c1f83f80161b8adb893af6133e49",
+      "status": "REJECTED_BY_USER_NATURAL_WALL_REMOVAL",
+      "user_individual_visual_review": true
+    },
+    "C07_IN01_collar": {
+      "D2_approved": false,
+      "source_candidate_sha256": "40ce750afe7e2421f91b83030617acf11b90062d8c6333067269eb4dd0b8dec6",
+      "status": "NOT_INDIVIDUALLY_REVIEWED_WIDE_CHAMBER_RISK",
+      "user_individual_visual_review": false
+    },
+    "C08_IN02_collar": {
+      "D2_approved": false,
+      "source_candidate_sha256": "93aa1ac2c5abc47f1610a310d126e06a226ddf3bd19ded47c240fd780fa6cc71",
+      "status": "NOT_INDIVIDUALLY_REVIEWED_WIDE_CHAMBER_RISK",
+      "user_individual_visual_review": false
+    },
+    "C09_UPJ_proximal_unconfirmed": {
+      "D2_approved": false,
+      "source_candidate_sha256": "7c3510a07cdddd175e753c29f695ba5e869cd5d5c5f473ad974750fd8538072d",
+      "status": "NOT_INDIVIDUALLY_REVIEWED_WIDE_CHAMBER_RISK",
+      "user_individual_visual_review": false
+    },
+    "C10_UPJ_distal_unconfirmed": {
+      "D2_approved": false,
+      "source_candidate_sha256": "50cda3f221aa62bbd230c2c39c09629aa3b865c44e740bb551072b3861bc13af",
+      "status": "NOT_INDIVIDUALLY_REVIEWED_WIDE_CHAMBER_RISK",
+      "user_individual_visual_review": false
+    },
+    "C11_inlet_distal_control": {
+      "D2_approved": false,
+      "source_candidate_sha256": "53530ca506a7dbca0a0a3cfffaaad53a7f14f103cc7ac4166acac7862d589aa5",
+      "status": "VISUAL_REVIEW_PASSED_D2_PENDING",
+      "user_individual_visual_review": true
+    }
+  },
+  "contact_review": {
+    "limits": "Does not mean repaired, globally collision-free, or continuously certified. New deformation requires new verification.",
+    "specific_previous_anomaly_reproduced": false,
+    "status": "NO_VISIBLE_ANOMALY_IN_USER_REVIEWED_VIEWS"
+  },
+  "date": "2026-10-14",
+  "historical_n0_report_sha256": "e6060b0a92e89f2392a2a40f7bdf9e5d705b57a392544af4ff0ad16120ca6dfe",
+  "observations": {
+    "BLADDER_IN01": "No visible abnormality in the views examined this round; not identification of a true UPJ or complete anatomical boundary.",
+    "C06_IN02": "Gold cap crosses a wider natural chamber, removes natural branch entrance, and excludes wall that must be retained. User rejected this candidate.",
+    "C11_IN02": "Gold virtual cap is in the narrower artificial tube; excluded gray region contains artificial structures that should not be retained. Visual review passed, D2 still pending."
+  },
+  "preferred_candidate": "C11_inlet_distal_control",
+  "schema": "N0_HUMAN_REVIEW_V1",
+  "scope_limits": [
+    "No complete anatomy, true wall thickness, F03/F04 ownership, normal capacities or continuous collisions approved.",
+    "C07-C10 are not individually user accepted/rejected; computational comparison is recorded separately."
+  ],
+  "source_arrays_sha256": {
+    "cavity_displacement": "fbe95cfeaf8b77d80c5aa850618ad8ce8439c8ef770719b1f9a1f1789b050573",
+    "cavity_faces": "dbf4771365f42398f329100e695dc8580f8c038c557c671c02724bff45b29c3d",
+    "cavity_reference_vertices": "f137add4c401fe63851565f913a93968c9b11e18e630722ed42a21b4d0842fa1",
+    "tissue_displacement": "bcef3bda21aa3621547a80f8d7902c7506fc638cd8c18fe6a8c8c5516491eaec",
+    "tissue_faces": "532034f649eac73d2c28ecba5f0097ba04b79164fea3e385de5518c098cc3a05",
+    "tissue_reference_vertices": "63ce22d71be21c2a1266933aac2112ab7c66bcd887312f81e1d7d87c4f9ecb20"
+  },
+  "version": "2026-10-14-v1"
+}

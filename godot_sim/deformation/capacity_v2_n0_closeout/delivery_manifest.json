@@ -1,0 +1,18 @@
+{
+  "D2_approved": false,
+  "N1_started": false,
+  "V_reference_effective_mL": null,
+  "candidate_sha256": "5dda2756b0194dbe49c63e20556e27b96320efc4148c47b34964b516444531ad",
+  "date": "2026-10-14",
+  "human_review_sha256": "4ae5001212392f0e667adf0c41ff24c8e847f578dff75256f0f21c109e12d083",
+  "protected_unchanged_files": 1917,
+  "report_sha256": "0240921c17fcc19c731e914cbe687e67e9d0476daa9c56c4090511d506f05ef8",
+  "source_arrays": {
+    "cavity_displacement": "fbe95cfeaf8b77d80c5aa850618ad8ce8439c8ef770719b1f9a1f1789b050573",
+    "cavity_faces": "dbf4771365f42398f329100e695dc8580f8c038c557c671c02724bff45b29c3d",
+    "cavity_reference_vertices": "f137add4c401fe63851565f913a93968c9b11e18e630722ed42a21b4d0842fa1",
+    "tissue_displacement": "bcef3bda21aa3621547a80f8d7902c7506fc638cd8c18fe6a8c8c5516491eaec",
+    "tissue_faces": "532034f649eac73d2c28ecba5f0097ba04b79164fea3e385de5518c098cc3a05",
+    "tissue_reference_vertices": "63ce22d71be21c2a1266933aac2112ab7c66bcd887312f81e1d7d87c4f9ecb20"
+  }
+}

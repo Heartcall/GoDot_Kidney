@@ -1,0 +1,52 @@
+{
+  "comparisons": [
+    {
+      "IN02_area_mm2": 94.88376151147608,
+      "IN02_removed_source_faces_identical": true,
+      "IN02_ring_hausdorff_mm": 0.0,
+      "IN02_split_source_faces_identical": true,
+      "computer_evidence": "SAME_IN02_CUT_AS_REJECTED_C06",
+      "id": "C07_IN01_collar",
+      "individual_user_review": "NOT_REVIEWED",
+      "limits": "Geometry comparison is not an additional user observation or an anatomical material classification.",
+      "recommendation": "DO_NOT_PROMOTE_TO_D2",
+      "shift_toward_artificial_END_mm": 0.0
+    },
+    {
+      "IN02_area_mm2": 96.71010678301998,
+      "IN02_removed_source_faces_identical": false,
+      "IN02_ring_hausdorff_mm": 0.43839507102738834,
+      "IN02_split_source_faces_identical": false,
+      "computer_evidence": "DIFFERENT_NEARBY_WIDE_IN02_CUT_REQUIRES_OWN_REVIEW",
+      "id": "C08_IN02_collar",
+      "individual_user_review": "NOT_REVIEWED",
+      "limits": "Geometry comparison is not an additional user observation or an anatomical material classification.",
+      "recommendation": "DO_NOT_PROMOTE_TO_D2",
+      "shift_toward_artificial_END_mm": -0.08530586346727445
+    },
+    {
+      "IN02_area_mm2": 94.88376151147608,
+      "IN02_removed_source_faces_identical": true,
+      "IN02_ring_hausdorff_mm": 0.0,
+      "IN02_split_source_faces_identical": true,
+      "computer_evidence": "SAME_IN02_CUT_AS_REJECTED_C06",
+      "id": "C09_UPJ_proximal_unconfirmed",
+      "individual_user_review": "NOT_REVIEWED",
+      "limits": "Geometry comparison is not an additional user observation or an anatomical material classification.",
+      "recommendation": "DO_NOT_PROMOTE_TO_D2",
+      "shift_toward_artificial_END_mm": 0.0
+    },
+    {
+      "IN02_area_mm2": 94.88376151147608,
+      "IN02_removed_source_faces_identical": true,
+      "IN02_ring_hausdorff_mm": 0.0,
+      "IN02_split_source_faces_identical": true,
+      "computer_evidence": "SAME_IN02_CUT_AS_REJECTED_C06",
+      "id": "C10_UPJ_distal_unconfirmed",
+      "individual_user_review": "NOT_REVIEWED",
+      "limits": "Geometry comparison is not an additional user observation or an anatomical material classification.",
+      "recommendation": "DO_NOT_PROMOTE_TO_D2",
+      "shift_toward_artificial_END_mm": 0.0
+    }
+  ]
+}
