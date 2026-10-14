@@ -1,0 +1,71 @@
+{
+  "accepted_inputs_unchanged": true,
+  "graphics": {
+    "compatibility_delivery": {
+      "caps": {
+        "indices_byte_exact": true,
+        "normal_difference_note": "Used vertices only: ArrayMesh standard octahedral packing/readback. Original input normals retained; color toggles checked byte-exact against initial actual normals.",
+        "normal_finite": true,
+        "normal_max_component_difference": 6.35385513305664e-05,
+        "positions_float32_byte_exact": true,
+        "unreferenced_vertices_not_surface_normals": 25430,
+        "used_vertices": 176
+      },
+      "cavity_accepted_Reference": {
+        "whole_actual_mesh_byte_exact_to_N0": true
+      },
+      "fixed_cavity_vertices_exact": 3675,
+      "runtime_checks": 37,
+      "screenshots": 11,
+      "tissue_accepted_Reference": {
+        "whole_actual_mesh_byte_exact_to_N0": true
+      },
+      "wall": {
+        "indices_byte_exact": true,
+        "normal_byte_exact_after_repeated_color_changes": true,
+        "normal_difference_note": "Used vertices only: ArrayMesh standard octahedral packing/readback. Original input normals retained; color toggles checked byte-exact against initial actual normals.",
+        "normal_finite": true,
+        "normal_max_component_difference": 0.00011146068572998047,
+        "positions_float32_byte_exact": true,
+        "unreferenced_vertices_not_surface_normals": 4274,
+        "used_vertices": 21332
+      }
+    },
+    "forward_delivery": {
+      "caps": {
+        "indices_byte_exact": true,
+        "normal_difference_note": "Used vertices only: ArrayMesh standard octahedral packing/readback. Original input normals retained; color toggles checked byte-exact against initial actual normals.",
+        "normal_finite": true,
+        "normal_max_component_difference": 6.35385513305664e-05,
+        "positions_float32_byte_exact": true,
+        "unreferenced_vertices_not_surface_normals": 25430,
+        "used_vertices": 176
+      },
+      "cavity_accepted_Reference": {
+        "whole_actual_mesh_byte_exact_to_N0": true
+      },
+      "fixed_cavity_vertices_exact": 3675,
+      "runtime_checks": 37,
+      "screenshots": 11,
+      "tissue_accepted_Reference": {
+        "whole_actual_mesh_byte_exact_to_N0": true
+      },
+      "wall": {
+        "indices_byte_exact": true,
+        "normal_byte_exact_after_repeated_color_changes": true,
+        "normal_difference_note": "Used vertices only: ArrayMesh standard octahedral packing/readback. Original input normals retained; color toggles checked byte-exact against initial actual normals.",
+        "normal_finite": true,
+        "normal_max_component_difference": 0.00011146068572998047,
+        "positions_float32_byte_exact": true,
+        "unreferenced_vertices_not_surface_normals": 4274,
+        "used_vertices": 21332
+      }
+    }
+  },
+  "protected_files_unchanged": 2059,
+  "repeat_build": {
+    "byte_identical": true,
+    "changed": [],
+    "checked_products": 30
+  }
+}

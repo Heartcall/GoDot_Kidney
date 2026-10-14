@@ -1,0 +1,487 @@
+{
+	"adapter": "NVIDIA GeForce RTX 4070 Ti",
+	"captures": [
+		{
+			"state": {
+				"D2_approved": true,
+				"V_max": null,
+				"V_min": null,
+				"approval_sha256": "b94e4cd3f9f8d0aade3926e51402bb2549b73e4a51d6f4e64ebcc0a21dfee68d",
+				"camera_position_display_mm": [
+					81.5298461914063,
+					69.658073425293,
+					133.460144042969
+				],
+				"distance_mm": 160.976975250244,
+				"domain": "C11_R1_IN02_fixed_collar",
+				"focused_node": "",
+				"pitch": 0.45,
+				"region_partition_approved": false,
+				"s": 0,
+				"schema": "N1_REVIEW_SESSION_V1",
+				"section_enabled": false,
+				"section_normal": [
+					1.0,
+					0.0,
+					0.0
+				],
+				"section_offset_display_mm": 0.0,
+				"station_id": "MAIN:22",
+				"yaw": 0.6
+			},
+			"tag": "D2_reference_overview"
+		},
+		{
+			"state": {
+				"D2_approved": true,
+				"V_max": null,
+				"V_min": null,
+				"approval_sha256": "b94e4cd3f9f8d0aade3926e51402bb2549b73e4a51d6f4e64ebcc0a21dfee68d",
+				"camera_position_display_mm": [
+					4.65047931671143,
+					-2.80541300773621,
+					6.11816501617432
+				],
+				"distance_mm": 18.2247467041016,
+				"domain": "C11_R1_IN02_fixed_collar",
+				"focused_node": "",
+				"pitch": -0.158814953130902,
+				"region_partition_approved": false,
+				"s": 0,
+				"schema": "N1_REVIEW_SESSION_V1",
+				"section_enabled": true,
+				"section_normal": [
+					0.812253892421722,
+					-0.158148184418678,
+					0.561455965042114
+				],
+				"section_offset_display_mm": -10.2686254501343,
+				"station_id": "MAIN:22",
+				"yaw": 0.965979128610105
+			},
+			"tag": "MAIN_section"
+		},
+		{
+			"state": {
+				"D2_approved": true,
+				"V_max": null,
+				"V_min": null,
+				"approval_sha256": "b94e4cd3f9f8d0aade3926e51402bb2549b73e4a51d6f4e64ebcc0a21dfee68d",
+				"camera_position_display_mm": [
+					2.02125120162964,
+					13.0558729171753,
+					2.8258056640625
+				],
+				"distance_mm": 16.0,
+				"domain": "C11_R1_IN02_fixed_collar",
+				"focused_node": "",
+				"pitch": 0.460465003547386,
+				"region_partition_approved": false,
+				"s": 0,
+				"schema": "N1_REVIEW_SESSION_V1",
+				"section_enabled": true,
+				"section_normal": [
+					-0.398266226053238,
+					0.444364726543427,
+					-0.802448749542236
+				],
+				"section_offset_display_mm": -12.9709903717041,
+				"station_id": "B_12:23",
+				"yaw": -2.68089851272489
+			},
+			"tag": "B_12_section"
+		},
+		{
+			"state": {
+				"D2_approved": true,
+				"V_max": null,
+				"V_min": null,
+				"approval_sha256": "b94e4cd3f9f8d0aade3926e51402bb2549b73e4a51d6f4e64ebcc0a21dfee68d",
+				"camera_position_display_mm": [
+					71.7059173583984,
+					19.7954387664795,
+					48.144172668457
+				],
+				"distance_mm": 61.8398681640625,
+				"domain": "C11_R1_IN02_fixed_collar",
+				"focused_node": "",
+				"pitch": 0.274037580629137,
+				"region_partition_approved": false,
+				"s": 0,
+				"schema": "N1_REVIEW_SESSION_V1",
+				"section_enabled": true,
+				"section_normal": [
+					0.888693928718567,
+					0.270620554685593,
+					0.370118528604507
+				],
+				"section_offset_display_mm": 25.3608425140381,
+				"station_id": "B_31:14",
+				"yaw": 1.176168795864
+			},
+			"tag": "B_31_section"
+		},
+		{
+			"state": {
+				"D2_approved": true,
+				"V_max": null,
+				"V_min": null,
+				"approval_sha256": "b94e4cd3f9f8d0aade3926e51402bb2549b73e4a51d6f4e64ebcc0a21dfee68d",
+				"camera_position_display_mm": [
+					-29.7071552276611,
+					12.6392345428467,
+					88.1872024536133
+				],
+				"distance_mm": 50.7053741455078,
+				"domain": "C11_R1_IN02_fixed_collar",
+				"focused_node": "",
+				"pitch": 0.201316724357627,
+				"region_partition_approved": false,
+				"s": 0,
+				"schema": "N1_REVIEW_SESSION_V1",
+				"section_enabled": true,
+				"section_normal": [
+					-0.387193143367767,
+					0.199959635734558,
+					0.900054275989532
+				],
+				"section_offset_display_mm": 42.9976356506348,
+				"station_id": "B_32:7",
+				"yaw": -0.406257268027709
+			},
+			"tag": "B_32_section"
+		},
+		{
+			"state": {
+				"D2_approved": true,
+				"V_max": null,
+				"V_min": null,
+				"approval_sha256": "b94e4cd3f9f8d0aade3926e51402bb2549b73e4a51d6f4e64ebcc0a21dfee68d",
+				"camera_position_display_mm": [
+					12.2168655395508,
+					1.68013572692871,
+					47.3684921264648
+				],
+				"distance_mm": 24.0,
+				"domain": "C11_R1_IN02_fixed_collar",
+				"focused_node": "J_05",
+				"pitch": 0.0,
+				"region_partition_approved": false,
+				"s": 0,
+				"schema": "N1_REVIEW_SESSION_V1",
+				"section_enabled": true,
+				"section_normal": [
+					0.0,
+					0.0,
+					1.0
+				],
+				"section_offset_display_mm": 23.6684921264648,
+				"station_id": "B_32:7",
+				"yaw": 0.0
+			},
+			"tag": "J_05_node"
+		},
+		{
+			"state": {
+				"D2_approved": true,
+				"V_max": null,
+				"V_min": null,
+				"approval_sha256": "b94e4cd3f9f8d0aade3926e51402bb2549b73e4a51d6f4e64ebcc0a21dfee68d",
+				"camera_position_display_mm": [
+					-9.45487213134766,
+					2.18027114868164,
+					65.1095275878906
+				],
+				"distance_mm": 24.0,
+				"domain": "C11_R1_IN02_fixed_collar",
+				"focused_node": "J_09",
+				"pitch": 0.0,
+				"region_partition_approved": false,
+				"s": 0,
+				"schema": "N1_REVIEW_SESSION_V1",
+				"section_enabled": true,
+				"section_normal": [
+					0.0,
+					0.0,
+					1.0
+				],
+				"section_offset_display_mm": 41.4095275878906,
+				"station_id": "B_32:7",
+				"yaw": 0.0
+			},
+			"tag": "J_09_node"
+		},
+		{
+			"state": {
+				"D2_approved": true,
+				"V_max": null,
+				"V_min": null,
+				"approval_sha256": "b94e4cd3f9f8d0aade3926e51402bb2549b73e4a51d6f4e64ebcc0a21dfee68d",
+				"camera_position_display_mm": [
+					0.927227020263672,
+					22.1623992919922,
+					12.9029541015625
+				],
+				"distance_mm": 24.0,
+				"domain": "C11_R1_IN02_fixed_collar",
+				"focused_node": "T_01",
+				"pitch": 0.0,
+				"region_partition_approved": false,
+				"s": 0,
+				"schema": "N1_REVIEW_SESSION_V1",
+				"section_enabled": true,
+				"section_normal": [
+					0.0,
+					0.0,
+					1.0
+				],
+				"section_offset_display_mm": -10.7970458984375,
+				"station_id": "B_32:7",
+				"yaw": 0.0
+			},
+			"tag": "T_01_node"
+		},
+		{
+			"state": {
+				"D2_approved": true,
+				"V_max": null,
+				"V_min": null,
+				"approval_sha256": "b94e4cd3f9f8d0aade3926e51402bb2549b73e4a51d6f4e64ebcc0a21dfee68d",
+				"camera_position_display_mm": [
+					-14.382303237915,
+					-16.0440921783447,
+					61.1563034057617
+				],
+				"distance_mm": 24.0,
+				"domain": "C11_R1_IN02_fixed_collar",
+				"focused_node": "T_22",
+				"pitch": 0.0,
+				"region_partition_approved": false,
+				"s": 0,
+				"schema": "N1_REVIEW_SESSION_V1",
+				"section_enabled": true,
+				"section_normal": [
+					0.0,
+					0.0,
+					1.0
+				],
+				"section_offset_display_mm": 37.4563034057617,
+				"station_id": "B_32:7",
+				"yaw": 0.0
+			},
+			"tag": "T_22_node"
+		},
+		{
+			"state": {
+				"D2_approved": true,
+				"V_max": null,
+				"V_min": null,
+				"approval_sha256": "b94e4cd3f9f8d0aade3926e51402bb2549b73e4a51d6f4e64ebcc0a21dfee68d",
+				"camera_position_display_mm": [
+					81.5298461914063,
+					69.658073425293,
+					133.460144042969
+				],
+				"distance_mm": 160.976975250244,
+				"domain": "C11_R1_IN02_fixed_collar",
+				"focused_node": "T_22",
+				"pitch": 0.45,
+				"region_partition_approved": false,
+				"s": 0,
+				"schema": "N1_REVIEW_SESSION_V1",
+				"section_enabled": false,
+				"section_normal": [
+					0.0,
+					0.0,
+					1.0
+				],
+				"section_offset_display_mm": 37.4563034057617,
+				"station_id": "B_32:7",
+				"yaw": 0.6
+			},
+			"tag": "candidate_region_overlay"
+		},
+		{
+			"state": {
+				"D2_approved": true,
+				"V_max": null,
+				"V_min": null,
+				"approval_sha256": "b94e4cd3f9f8d0aade3926e51402bb2549b73e4a51d6f4e64ebcc0a21dfee68d",
+				"camera_position_display_mm": [
+					-29.7071552276611,
+					12.6392345428467,
+					88.1872024536133
+				],
+				"distance_mm": 50.7053741455078,
+				"domain": "C11_R1_IN02_fixed_collar",
+				"focused_node": "",
+				"pitch": 0.201316724357627,
+				"region_partition_approved": false,
+				"s": 0,
+				"schema": "N1_REVIEW_SESSION_V1",
+				"section_enabled": true,
+				"section_normal": [
+					-0.387193143367767,
+					0.199959635734558,
+					0.900054275989532
+				],
+				"section_offset_display_mm": 42.9976356506348,
+				"station_id": "B_32:7",
+				"yaw": -0.406257268027709
+			},
+			"tag": "Reference_tissue_section"
+		}
+	],
+	"checks": [
+		{
+			"name": "N1 ready",
+			"passed": true
+		},
+		{
+			"name": "approved D2 displayed",
+			"passed": true
+		},
+		{
+			"name": "reference only",
+			"passed": true
+		},
+		{
+			"name": "virtual cap separate",
+			"passed": true
+		},
+		{
+			"name": "overview clipping really disabled",
+			"passed": true
+		},
+		{
+			"name": "capture D2_reference_overview",
+			"passed": true
+		},
+		{
+			"name": "MAIN station selected",
+			"passed": true
+		},
+		{
+			"name": "MAIN clip uses station normal",
+			"passed": true
+		},
+		{
+			"name": "MAIN geometry unchanged",
+			"passed": true
+		},
+		{
+			"name": "capture MAIN_section",
+			"passed": true
+		},
+		{
+			"name": "B_12 station selected",
+			"passed": true
+		},
+		{
+			"name": "B_12 clip uses station normal",
+			"passed": true
+		},
+		{
+			"name": "B_12 geometry unchanged",
+			"passed": true
+		},
+		{
+			"name": "capture B_12_section",
+			"passed": true
+		},
+		{
+			"name": "B_31 station selected",
+			"passed": true
+		},
+		{
+			"name": "B_31 clip uses station normal",
+			"passed": true
+		},
+		{
+			"name": "B_31 geometry unchanged",
+			"passed": true
+		},
+		{
+			"name": "capture B_31_section",
+			"passed": true
+		},
+		{
+			"name": "B_32 station selected",
+			"passed": true
+		},
+		{
+			"name": "B_32 clip uses station normal",
+			"passed": true
+		},
+		{
+			"name": "B_32 geometry unchanged",
+			"passed": true
+		},
+		{
+			"name": "capture B_32_section",
+			"passed": true
+		},
+		{
+			"name": "J_05 node displayed",
+			"passed": true
+		},
+		{
+			"name": "capture J_05_node",
+			"passed": true
+		},
+		{
+			"name": "J_09 node displayed",
+			"passed": true
+		},
+		{
+			"name": "capture J_09_node",
+			"passed": true
+		},
+		{
+			"name": "T_01 node displayed",
+			"passed": true
+		},
+		{
+			"name": "capture T_01_node",
+			"passed": true
+		},
+		{
+			"name": "T_22 node displayed",
+			"passed": true
+		},
+		{
+			"name": "capture T_22_node",
+			"passed": true
+		},
+		{
+			"name": "colors do not alter coordinates",
+			"passed": true
+		},
+		{
+			"name": "colors do not alter indices",
+			"passed": true
+		},
+		{
+			"name": "colors do not re-quantize normals",
+			"passed": true
+		},
+		{
+			"name": "repeat color toggles preserve normals",
+			"passed": true
+		},
+		{
+			"name": "capture candidate_region_overlay",
+			"passed": true
+		},
+		{
+			"name": "opaque reference tissue visible",
+			"passed": true
+		},
+		{
+			"name": "capture Reference_tissue_section",
+			"passed": true
+		}
+	],
+	"failures": 0,
+	"renderer": "forward_plus"
+}

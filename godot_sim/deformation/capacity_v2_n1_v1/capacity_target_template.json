@@ -1,0 +1,634 @@
+{
+  "D2_approval_sha256": "b94e4cd3f9f8d0aade3926e51402bb2549b73e4a51d6f4e64ebcc0a21dfee68d",
+  "V_max_mL": null,
+  "V_min_mL": null,
+  "V_reference_D2_mL": 16.805962087430178,
+  "compliance": null,
+  "domain": "C11_R1_IN02_fixed_collar",
+  "endpoint_origin": null,
+  "endpoint_uncertainty": null,
+  "future_gates": {
+    "continuous_intermediate_checks_required": true,
+    "max_edge_displacement_gradient": 0.2,
+    "new_confirmed_finite_crossings": 0,
+    "new_degenerate_or_flipped_faces": 0,
+    "triangle_area_ratio": [
+      0.8,
+      1.35
+    ],
+    "unchanged_fixed_vertices": 3675
+  },
+  "future_selection_rule": "V_min < V_reference_D2 < V_max; select physiological or explicitly user-approved uncalibrated-demo route; no values supplied in N1.",
+  "future_volume_constraint": "Integrate unique oriented material-mapped D2 wall and measurement-only closures, V_D2(q)=V_target. Never sum overlapping section integrals.",
+  "new_geometry_generated": false,
+  "parameter_s": {
+    "Contracted": -1,
+    "Expanded": 1,
+    "Reference": 0,
+    "is_capacity_fraction": false,
+    "is_time_progress": false,
+    "symmetric_endpoints_assumed": false
+  },
+  "pressure": null,
+  "real_flow_mL_s": null,
+  "regional_parameters": [
+    {
+      "contracted_value": null,
+      "expanded_value": null,
+      "id": "q_MAIN",
+      "limits": "Section metrics set scale only. Ambiguous/shared sections cannot independently determine response.",
+      "reference_value": 0.0,
+      "response_weight": null,
+      "scope_path_id": "MAIN",
+      "type": "TRANSVERSE_LOG_RADIUS_CANDIDATE"
+    },
+    {
+      "contracted_value": null,
+      "expanded_value": null,
+      "id": "q_BLADDER_TRANSITION",
+      "limits": "Section metrics set scale only. Ambiguous/shared sections cannot independently determine response.",
+      "reference_value": 0.0,
+      "response_weight": null,
+      "scope_path_id": "BLADDER_TRANSITION",
+      "type": "TRANSVERSE_LOG_RADIUS_CANDIDATE"
+    },
+    {
+      "contracted_value": null,
+      "expanded_value": null,
+      "id": "q_B_01",
+      "limits": "Section metrics set scale only. Ambiguous/shared sections cannot independently determine response.",
+      "reference_value": 0.0,
+      "response_weight": null,
+      "scope_path_id": "B_01",
+      "type": "TRANSVERSE_LOG_RADIUS_CANDIDATE"
+    },
+    {
+      "contracted_value": null,
+      "expanded_value": null,
+      "id": "q_B_02",
+      "limits": "Section metrics set scale only. Ambiguous/shared sections cannot independently determine response.",
+      "reference_value": 0.0,
+      "response_weight": null,
+      "scope_path_id": "B_02",
+      "type": "TRANSVERSE_LOG_RADIUS_CANDIDATE"
+    },
+    {
+      "contracted_value": null,
+      "expanded_value": null,
+      "id": "q_B_03",
+      "limits": "Section metrics set scale only. Ambiguous/shared sections cannot independently determine response.",
+      "reference_value": 0.0,
+      "response_weight": null,
+      "scope_path_id": "B_03",
+      "type": "TRANSVERSE_LOG_RADIUS_CANDIDATE"
+    },
+    {
+      "contracted_value": null,
+      "expanded_value": null,
+      "id": "q_B_04",
+      "limits": "Section metrics set scale only. Ambiguous/shared sections cannot independently determine response.",
+      "reference_value": 0.0,
+      "response_weight": null,
+      "scope_path_id": "B_04",
+      "type": "TRANSVERSE_LOG_RADIUS_CANDIDATE"
+    },
+    {
+      "contracted_value": null,
+      "expanded_value": null,
+      "id": "q_B_05",
+      "limits": "Section metrics set scale only. Ambiguous/shared sections cannot independently determine response.",
+      "reference_value": 0.0,
+      "response_weight": null,
+      "scope_path_id": "B_05",
+      "type": "TRANSVERSE_LOG_RADIUS_CANDIDATE"
+    },
+    {
+      "contracted_value": null,
+      "expanded_value": null,
+      "id": "q_B_06",
+      "limits": "Section metrics set scale only. Ambiguous/shared sections cannot independently determine response.",
+      "reference_value": 0.0,
+      "response_weight": null,
+      "scope_path_id": "B_06",
+      "type": "TRANSVERSE_LOG_RADIUS_CANDIDATE"
+    },
+    {
+      "contracted_value": null,
+      "expanded_value": null,
+      "id": "q_B_07",
+      "limits": "Section metrics set scale only. Ambiguous/shared sections cannot independently determine response.",
+      "reference_value": 0.0,
+      "response_weight": null,
+      "scope_path_id": "B_07",
+      "type": "TRANSVERSE_LOG_RADIUS_CANDIDATE"
+    },
+    {
+      "contracted_value": null,
+      "expanded_value": null,
+      "id": "q_B_08",
+      "limits": "Section metrics set scale only. Ambiguous/shared sections cannot independently determine response.",
+      "reference_value": 0.0,
+      "response_weight": null,
+      "scope_path_id": "B_08",
+      "type": "TRANSVERSE_LOG_RADIUS_CANDIDATE"
+    },
+    {
+      "contracted_value": null,
+      "expanded_value": null,
+      "id": "q_B_09",
+      "limits": "Section metrics set scale only. Ambiguous/shared sections cannot independently determine response.",
+      "reference_value": 0.0,
+      "response_weight": null,
+      "scope_path_id": "B_09",
+      "type": "TRANSVERSE_LOG_RADIUS_CANDIDATE"
+    },
+    {
+      "contracted_value": null,
+      "expanded_value": null,
+      "id": "q_B_10",
+      "limits": "Section metrics set scale only. Ambiguous/shared sections cannot independently determine response.",
+      "reference_value": 0.0,
+      "response_weight": null,
+      "scope_path_id": "B_10",
+      "type": "TRANSVERSE_LOG_RADIUS_CANDIDATE"
+    },
+    {
+      "contracted_value": null,
+      "expanded_value": null,
+      "id": "q_B_11",
+      "limits": "Section metrics set scale only. Ambiguous/shared sections cannot independently determine response.",
+      "reference_value": 0.0,
+      "response_weight": null,
+      "scope_path_id": "B_11",
+      "type": "TRANSVERSE_LOG_RADIUS_CANDIDATE"
+    },
+    {
+      "contracted_value": null,
+      "expanded_value": null,
+      "id": "q_B_12",
+      "limits": "Section metrics set scale only. Ambiguous/shared sections cannot independently determine response.",
+      "reference_value": 0.0,
+      "response_weight": null,
+      "scope_path_id": "B_12",
+      "type": "TRANSVERSE_LOG_RADIUS_CANDIDATE"
+    },
+    {
+      "contracted_value": null,
+      "expanded_value": null,
+      "id": "q_B_13",
+      "limits": "Section metrics set scale only. Ambiguous/shared sections cannot independently determine response.",
+      "reference_value": 0.0,
+      "response_weight": null,
+      "scope_path_id": "B_13",
+      "type": "TRANSVERSE_LOG_RADIUS_CANDIDATE"
+    },
+    {
+      "contracted_value": null,
+      "expanded_value": null,
+      "id": "q_B_14",
+      "limits": "Section metrics set scale only. Ambiguous/shared sections cannot independently determine response.",
+      "reference_value": 0.0,
+      "response_weight": null,
+      "scope_path_id": "B_14",
+      "type": "TRANSVERSE_LOG_RADIUS_CANDIDATE"
+    },
+    {
+      "contracted_value": null,
+      "expanded_value": null,
+      "id": "q_B_15",
+      "limits": "Section metrics set scale only. Ambiguous/shared sections cannot independently determine response.",
+      "reference_value": 0.0,
+      "response_weight": null,
+      "scope_path_id": "B_15",
+      "type": "TRANSVERSE_LOG_RADIUS_CANDIDATE"
+    },
+    {
+      "contracted_value": null,
+      "expanded_value": null,
+      "id": "q_B_16",
+      "limits": "Section metrics set scale only. Ambiguous/shared sections cannot independently determine response.",
+      "reference_value": 0.0,
+      "response_weight": null,
+      "scope_path_id": "B_16",
+      "type": "TRANSVERSE_LOG_RADIUS_CANDIDATE"
+    },
+    {
+      "contracted_value": null,
+      "expanded_value": null,
+      "id": "q_B_17",
+      "limits": "Section metrics set scale only. Ambiguous/shared sections cannot independently determine response.",
+      "reference_value": 0.0,
+      "response_weight": null,
+      "scope_path_id": "B_17",
+      "type": "TRANSVERSE_LOG_RADIUS_CANDIDATE"
+    },
+    {
+      "contracted_value": null,
+      "expanded_value": null,
+      "id": "q_B_18",
+      "limits": "Section metrics set scale only. Ambiguous/shared sections cannot independently determine response.",
+      "reference_value": 0.0,
+      "response_weight": null,
+      "scope_path_id": "B_18",
+      "type": "TRANSVERSE_LOG_RADIUS_CANDIDATE"
+    },
+    {
+      "contracted_value": null,
+      "expanded_value": null,
+      "id": "q_B_19",
+      "limits": "Section metrics set scale only. Ambiguous/shared sections cannot independently determine response.",
+      "reference_value": 0.0,
+      "response_weight": null,
+      "scope_path_id": "B_19",
+      "type": "TRANSVERSE_LOG_RADIUS_CANDIDATE"
+    },
+    {
+      "contracted_value": null,
+      "expanded_value": null,
+      "id": "q_B_20",
+      "limits": "Section metrics set scale only. Ambiguous/shared sections cannot independently determine response.",
+      "reference_value": 0.0,
+      "response_weight": null,
+      "scope_path_id": "B_20",
+      "type": "TRANSVERSE_LOG_RADIUS_CANDIDATE"
+    },
+    {
+      "contracted_value": null,
+      "expanded_value": null,
+      "id": "q_B_21",
+      "limits": "Section metrics set scale only. Ambiguous/shared sections cannot independently determine response.",
+      "reference_value": 0.0,
+      "response_weight": null,
+      "scope_path_id": "B_21",
+      "type": "TRANSVERSE_LOG_RADIUS_CANDIDATE"
+    },
+    {
+      "contracted_value": null,
+      "expanded_value": null,
+      "id": "q_B_22",
+      "limits": "Section metrics set scale only. Ambiguous/shared sections cannot independently determine response.",
+      "reference_value": 0.0,
+      "response_weight": null,
+      "scope_path_id": "B_22",
+      "type": "TRANSVERSE_LOG_RADIUS_CANDIDATE"
+    },
+    {
+      "contracted_value": null,
+      "expanded_value": null,
+      "id": "q_B_23",
+      "limits": "Section metrics set scale only. Ambiguous/shared sections cannot independently determine response.",
+      "reference_value": 0.0,
+      "response_weight": null,
+      "scope_path_id": "B_23",
+      "type": "TRANSVERSE_LOG_RADIUS_CANDIDATE"
+    },
+    {
+      "contracted_value": null,
+      "expanded_value": null,
+      "id": "q_B_24",
+      "limits": "Section metrics set scale only. Ambiguous/shared sections cannot independently determine response.",
+      "reference_value": 0.0,
+      "response_weight": null,
+      "scope_path_id": "B_24",
+      "type": "TRANSVERSE_LOG_RADIUS_CANDIDATE"
+    },
+    {
+      "contracted_value": null,
+      "expanded_value": null,
+      "id": "q_B_25",
+      "limits": "Section metrics set scale only. Ambiguous/shared sections cannot independently determine response.",
+      "reference_value": 0.0,
+      "response_weight": null,
+      "scope_path_id": "B_25",
+      "type": "TRANSVERSE_LOG_RADIUS_CANDIDATE"
+    },
+    {
+      "contracted_value": null,
+      "expanded_value": null,
+      "id": "q_B_26",
+      "limits": "Section metrics set scale only. Ambiguous/shared sections cannot independently determine response.",
+      "reference_value": 0.0,
+      "response_weight": null,
+      "scope_path_id": "B_26",
+      "type": "TRANSVERSE_LOG_RADIUS_CANDIDATE"
+    },
+    {
+      "contracted_value": null,
+      "expanded_value": null,
+      "id": "q_B_27",
+      "limits": "Section metrics set scale only. Ambiguous/shared sections cannot independently determine response.",
+      "reference_value": 0.0,
+      "response_weight": null,
+      "scope_path_id": "B_27",
+      "type": "TRANSVERSE_LOG_RADIUS_CANDIDATE"
+    },
+    {
+      "contracted_value": null,
+      "expanded_value": null,
+      "id": "q_B_28",
+      "limits": "Section metrics set scale only. Ambiguous/shared sections cannot independently determine response.",
+      "reference_value": 0.0,
+      "response_weight": null,
+      "scope_path_id": "B_28",
+      "type": "TRANSVERSE_LOG_RADIUS_CANDIDATE"
+    },
+    {
+      "contracted_value": null,
+      "expanded_value": null,
+      "id": "q_B_29",
+      "limits": "Section metrics set scale only. Ambiguous/shared sections cannot independently determine response.",
+      "reference_value": 0.0,
+      "response_weight": null,
+      "scope_path_id": "B_29",
+      "type": "TRANSVERSE_LOG_RADIUS_CANDIDATE"
+    },
+    {
+      "contracted_value": null,
+      "expanded_value": null,
+      "id": "q_B_30",
+      "limits": "Section metrics set scale only. Ambiguous/shared sections cannot independently determine response.",
+      "reference_value": 0.0,
+      "response_weight": null,
+      "scope_path_id": "B_30",
+      "type": "TRANSVERSE_LOG_RADIUS_CANDIDATE"
+    },
+    {
+      "contracted_value": null,
+      "expanded_value": null,
+      "id": "q_B_31",
+      "limits": "Section metrics set scale only. Ambiguous/shared sections cannot independently determine response.",
+      "reference_value": 0.0,
+      "response_weight": null,
+      "scope_path_id": "B_31",
+      "type": "TRANSVERSE_LOG_RADIUS_CANDIDATE"
+    },
+    {
+      "contracted_value": null,
+      "expanded_value": null,
+      "id": "q_B_32",
+      "limits": "Section metrics set scale only. Ambiguous/shared sections cannot independently determine response.",
+      "reference_value": 0.0,
+      "response_weight": null,
+      "scope_path_id": "B_32",
+      "type": "TRANSVERSE_LOG_RADIUS_CANDIDATE"
+    },
+    {
+      "contracted_value": null,
+      "expanded_value": null,
+      "id": "q_J_01",
+      "reference_value": 0.0,
+      "response_weight": null,
+      "type": "SHARED_JUNCTION_BLEND"
+    },
+    {
+      "contracted_value": null,
+      "expanded_value": null,
+      "id": "q_J_02",
+      "reference_value": 0.0,
+      "response_weight": null,
+      "type": "SHARED_JUNCTION_BLEND"
+    },
+    {
+      "contracted_value": null,
+      "expanded_value": null,
+      "id": "q_J_03",
+      "reference_value": 0.0,
+      "response_weight": null,
+      "type": "SHARED_JUNCTION_BLEND"
+    },
+    {
+      "contracted_value": null,
+      "expanded_value": null,
+      "id": "q_J_04",
+      "reference_value": 0.0,
+      "response_weight": null,
+      "type": "SHARED_JUNCTION_BLEND"
+    },
+    {
+      "contracted_value": null,
+      "expanded_value": null,
+      "id": "q_J_05",
+      "reference_value": 0.0,
+      "response_weight": null,
+      "type": "SHARED_JUNCTION_BLEND"
+    },
+    {
+      "contracted_value": null,
+      "expanded_value": null,
+      "id": "q_J_06",
+      "reference_value": 0.0,
+      "response_weight": null,
+      "type": "SHARED_JUNCTION_BLEND"
+    },
+    {
+      "contracted_value": null,
+      "expanded_value": null,
+      "id": "q_J_07",
+      "reference_value": 0.0,
+      "response_weight": null,
+      "type": "SHARED_JUNCTION_BLEND"
+    },
+    {
+      "contracted_value": null,
+      "expanded_value": null,
+      "id": "q_J_08",
+      "reference_value": 0.0,
+      "response_weight": null,
+      "type": "SHARED_JUNCTION_BLEND"
+    },
+    {
+      "contracted_value": null,
+      "expanded_value": null,
+      "id": "q_J_09",
+      "reference_value": 0.0,
+      "response_weight": null,
+      "type": "SHARED_JUNCTION_BLEND"
+    },
+    {
+      "contracted_value": null,
+      "expanded_value": null,
+      "id": "q_T_01",
+      "reference_value": 0.0,
+      "response_weight": null,
+      "type": "TERMINAL_SHAPE_PRESERVING_RESPONSE"
+    },
+    {
+      "contracted_value": null,
+      "expanded_value": null,
+      "id": "q_T_02",
+      "reference_value": 0.0,
+      "response_weight": null,
+      "type": "TERMINAL_SHAPE_PRESERVING_RESPONSE"
+    },
+    {
+      "contracted_value": null,
+      "expanded_value": null,
+      "id": "q_T_03",
+      "reference_value": 0.0,
+      "response_weight": null,
+      "type": "TERMINAL_SHAPE_PRESERVING_RESPONSE"
+    },
+    {
+      "contracted_value": null,
+      "expanded_value": null,
+      "id": "q_T_04",
+      "reference_value": 0.0,
+      "response_weight": null,
+      "type": "TERMINAL_SHAPE_PRESERVING_RESPONSE"
+    },
+    {
+      "contracted_value": null,
+      "expanded_value": null,
+      "id": "q_T_05",
+      "reference_value": 0.0,
+      "response_weight": null,
+      "type": "TERMINAL_SHAPE_PRESERVING_RESPONSE"
+    },
+    {
+      "contracted_value": null,
+      "expanded_value": null,
+      "id": "q_T_06",
+      "reference_value": 0.0,
+      "response_weight": null,
+      "type": "TERMINAL_SHAPE_PRESERVING_RESPONSE"
+    },
+    {
+      "contracted_value": null,
+      "expanded_value": null,
+      "id": "q_T_07",
+      "reference_value": 0.0,
+      "response_weight": null,
+      "type": "TERMINAL_SHAPE_PRESERVING_RESPONSE"
+    },
+    {
+      "contracted_value": null,
+      "expanded_value": null,
+      "id": "q_T_08",
+      "reference_value": 0.0,
+      "response_weight": null,
+      "type": "TERMINAL_SHAPE_PRESERVING_RESPONSE"
+    },
+    {
+      "contracted_value": null,
+      "expanded_value": null,
+      "id": "q_T_09",
+      "reference_value": 0.0,
+      "response_weight": null,
+      "type": "TERMINAL_SHAPE_PRESERVING_RESPONSE"
+    },
+    {
+      "contracted_value": null,
+      "expanded_value": null,
+      "id": "q_T_10",
+      "reference_value": 0.0,
+      "response_weight": null,
+      "type": "TERMINAL_SHAPE_PRESERVING_RESPONSE"
+    },
+    {
+      "contracted_value": null,
+      "expanded_value": null,
+      "id": "q_T_11",
+      "reference_value": 0.0,
+      "response_weight": null,
+      "type": "TERMINAL_SHAPE_PRESERVING_RESPONSE"
+    },
+    {
+      "contracted_value": null,
+      "expanded_value": null,
+      "id": "q_T_12",
+      "reference_value": 0.0,
+      "response_weight": null,
+      "type": "TERMINAL_SHAPE_PRESERVING_RESPONSE"
+    },
+    {
+      "contracted_value": null,
+      "expanded_value": null,
+      "id": "q_T_13",
+      "reference_value": 0.0,
+      "response_weight": null,
+      "type": "TERMINAL_SHAPE_PRESERVING_RESPONSE"
+    },
+    {
+      "contracted_value": null,
+      "expanded_value": null,
+      "id": "q_T_14",
+      "reference_value": 0.0,
+      "response_weight": null,
+      "type": "TERMINAL_SHAPE_PRESERVING_RESPONSE"
+    },
+    {
+      "contracted_value": null,
+      "expanded_value": null,
+      "id": "q_T_15",
+      "reference_value": 0.0,
+      "response_weight": null,
+      "type": "TERMINAL_SHAPE_PRESERVING_RESPONSE"
+    },
+    {
+      "contracted_value": null,
+      "expanded_value": null,
+      "id": "q_T_16",
+      "reference_value": 0.0,
+      "response_weight": null,
+      "type": "TERMINAL_SHAPE_PRESERVING_RESPONSE"
+    },
+    {
+      "contracted_value": null,
+      "expanded_value": null,
+      "id": "q_T_17",
+      "reference_value": 0.0,
+      "response_weight": null,
+      "type": "TERMINAL_SHAPE_PRESERVING_RESPONSE"
+    },
+    {
+      "contracted_value": null,
+      "expanded_value": null,
+      "id": "q_T_18",
+      "reference_value": 0.0,
+      "response_weight": null,
+      "type": "TERMINAL_SHAPE_PRESERVING_RESPONSE"
+    },
+    {
+      "contracted_value": null,
+      "expanded_value": null,
+      "id": "q_T_19",
+      "reference_value": 0.0,
+      "response_weight": null,
+      "type": "TERMINAL_SHAPE_PRESERVING_RESPONSE"
+    },
+    {
+      "contracted_value": null,
+      "expanded_value": null,
+      "id": "q_T_20",
+      "reference_value": 0.0,
+      "response_weight": null,
+      "type": "TERMINAL_SHAPE_PRESERVING_RESPONSE"
+    },
+    {
+      "contracted_value": null,
+      "expanded_value": null,
+      "id": "q_T_21",
+      "reference_value": 0.0,
+      "response_weight": null,
+      "type": "TERMINAL_SHAPE_PRESERVING_RESPONSE"
+    },
+    {
+      "contracted_value": null,
+      "expanded_value": null,
+      "id": "q_T_22",
+      "reference_value": 0.0,
+      "response_weight": null,
+      "type": "TERMINAL_SHAPE_PRESERVING_RESPONSE"
+    }
+  ],
+  "required_approvals": [
+    "Local/shared region classification and sensitivity",
+    "Route A physiology or Route B uncalibrated demo",
+    "Independent asymmetric endpoint targets and uncertainty",
+    "Regional response priors and safety/infeasibility handling",
+    "Separate N2 implementation authorization"
+  ],
+  "response_model_approved": false,
+  "schema": "CAPACITY_V2_N1_TARGET_PREPARATION_V1",
+  "status": "DESIGN_ONLY_PENDING_USER_PARAMETER_APPROVAL"
+}

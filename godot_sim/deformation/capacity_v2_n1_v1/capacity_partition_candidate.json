@@ -1,0 +1,676 @@
+{
+  "D2_total_mL": 16.805962087430178,
+  "boundary_remainder_mL": 3.7612120874301764,
+  "boundary_sensitivity": [
+    {
+      "junction_terminal_radius_factor": 0.75,
+      "region_volume_mL": {
+        "AMBIGUOUS_SHARED": 0.0,
+        "BLADDER_TRANSITION": 0.15375,
+        "B_01": 0.40675,
+        "B_02": 0.37675,
+        "B_03": 0.281875,
+        "B_04": 0.227875,
+        "B_05": 0.237375,
+        "B_06": 0.2405,
+        "B_07": 0.210375,
+        "B_08": 0.2235,
+        "B_09": 0.336125,
+        "B_10": 0.6675,
+        "B_11": 0.103125,
+        "B_12": 0.317625,
+        "B_13": 0.294375,
+        "B_14": 0.33975,
+        "B_15": 0.376625,
+        "B_16": 0.35925,
+        "B_17": 0.360875,
+        "B_18": 0.272,
+        "B_19": 0.329375,
+        "B_20": 0.386125,
+        "B_21": 0.36775,
+        "B_22": 0.134625,
+        "B_23": 0.498125,
+        "B_24": 0.286,
+        "B_25": 0.594625,
+        "B_26": 0.5535,
+        "B_27": 0.247125,
+        "B_28": 0.52175,
+        "B_29": 0.36425,
+        "B_30": 0.599125,
+        "B_31": 0.1515,
+        "B_32": 0.022,
+        "FIXED_PORT_RETAINED": 0.00425,
+        "J_01": 0.026875,
+        "J_02": 0.027625,
+        "J_03": 0.026375,
+        "J_04": 0.0275,
+        "J_05": 0.025375,
+        "J_06": 0.027375,
+        "J_07": 0.02725,
+        "J_08": 0.027625,
+        "J_09": 0.027625,
+        "MAIN": 1.77875,
+        "T_01": 0.008875,
+        "T_02": 0.013375,
+        "T_03": 0.009,
+        "T_04": 0.005125,
+        "T_05": 0.00425,
+        "T_06": 0.006,
+        "T_07": 0.006375,
+        "T_08": 0.005125,
+        "T_09": 0.004875,
+        "T_10": 0.00825,
+        "T_11": 0.006375,
+        "T_12": 0.009875,
+        "T_13": 0.007625,
+        "T_14": 0.006875,
+        "T_15": 0.007625,
+        "T_16": 0.0085,
+        "T_17": 0.0065,
+        "T_18": 0.012125,
+        "T_19": 0.00925,
+        "T_20": 0.014125,
+        "T_21": 0.006625,
+        "T_22": 0.0095,
+        "UNASSIGNED_BOUNDARY_REMAINDER": 3.7612120874301764,
+        "UNSEEDED_INTERIOR": 0.0
+      }
+    },
+    {
+      "junction_terminal_radius_factor": 1.0,
+      "region_volume_mL": {
+        "AMBIGUOUS_SHARED": 0.0,
+        "BLADDER_TRANSITION": 0.15375,
+        "B_01": 0.3935,
+        "B_02": 0.36125,
+        "B_03": 0.25875,
+        "B_04": 0.21175,
+        "B_05": 0.223875,
+        "B_06": 0.22175,
+        "B_07": 0.19525,
+        "B_08": 0.20725,
+        "B_09": 0.32275,
+        "B_10": 0.647125,
+        "B_11": 0.089,
+        "B_12": 0.307375,
+        "B_13": 0.28525,
+        "B_14": 0.325625,
+        "B_15": 0.366875,
+        "B_16": 0.349,
+        "B_17": 0.351125,
+        "B_18": 0.26,
+        "B_19": 0.30275,
+        "B_20": 0.36975,
+        "B_21": 0.341125,
+        "B_22": 0.115,
+        "B_23": 0.47875,
+        "B_24": 0.27075,
+        "B_25": 0.5685,
+        "B_26": 0.533375,
+        "B_27": 0.2305,
+        "B_28": 0.495375,
+        "B_29": 0.35125,
+        "B_30": 0.585125,
+        "B_31": 0.149,
+        "B_32": 0.013,
+        "FIXED_PORT_RETAINED": 0.00425,
+        "J_01": 0.0595,
+        "J_02": 0.065875,
+        "J_03": 0.059625,
+        "J_04": 0.065,
+        "J_05": 0.05525,
+        "J_06": 0.0655,
+        "J_07": 0.065125,
+        "J_08": 0.0655,
+        "J_09": 0.066,
+        "MAIN": 1.7695,
+        "T_01": 0.0175,
+        "T_02": 0.0295,
+        "T_03": 0.017625,
+        "T_04": 0.010375,
+        "T_05": 0.009875,
+        "T_06": 0.01225,
+        "T_07": 0.0125,
+        "T_08": 0.0115,
+        "T_09": 0.010875,
+        "T_10": 0.0175,
+        "T_11": 0.01325,
+        "T_12": 0.018625,
+        "T_13": 0.01475,
+        "T_14": 0.014,
+        "T_15": 0.014875,
+        "T_16": 0.018625,
+        "T_17": 0.01425,
+        "T_18": 0.026,
+        "T_19": 0.022125,
+        "T_20": 0.03075,
+        "T_21": 0.01375,
+        "T_22": 0.017625,
+        "UNASSIGNED_BOUNDARY_REMAINDER": 3.7612120874301764,
+        "UNSEEDED_INTERIOR": 0.0
+      }
+    },
+    {
+      "junction_terminal_radius_factor": 1.25,
+      "region_volume_mL": {
+        "AMBIGUOUS_SHARED": 0.0,
+        "BLADDER_TRANSITION": 0.15375,
+        "B_01": 0.3725,
+        "B_02": 0.33775,
+        "B_03": 0.22625,
+        "B_04": 0.188,
+        "B_05": 0.204125,
+        "B_06": 0.196375,
+        "B_07": 0.173125,
+        "B_08": 0.18575,
+        "B_09": 0.30525,
+        "B_10": 0.6135,
+        "B_11": 0.0675,
+        "B_12": 0.291,
+        "B_13": 0.2715,
+        "B_14": 0.304625,
+        "B_15": 0.350125,
+        "B_16": 0.333375,
+        "B_17": 0.337375,
+        "B_18": 0.243625,
+        "B_19": 0.25575,
+        "B_20": 0.3465,
+        "B_21": 0.296375,
+        "B_22": 0.085,
+        "B_23": 0.451,
+        "B_24": 0.248375,
+        "B_25": 0.531,
+        "B_26": 0.503625,
+        "B_27": 0.2025,
+        "B_28": 0.457125,
+        "B_29": 0.334625,
+        "B_30": 0.5655,
+        "B_31": 0.14475,
+        "B_32": 0.004375,
+        "FIXED_PORT_RETAINED": 0.00425,
+        "J_01": 0.1045,
+        "J_02": 0.127,
+        "J_03": 0.105875,
+        "J_04": 0.12675,
+        "J_05": 0.10075,
+        "J_06": 0.12825,
+        "J_07": 0.127125,
+        "J_08": 0.12325,
+        "J_09": 0.12125,
+        "MAIN": 1.75675,
+        "T_01": 0.03025,
+        "T_02": 0.0505,
+        "T_03": 0.029,
+        "T_04": 0.0175,
+        "T_05": 0.01825,
+        "T_06": 0.01975,
+        "T_07": 0.02175,
+        "T_08": 0.021125,
+        "T_09": 0.019375,
+        "T_10": 0.031625,
+        "T_11": 0.0255,
+        "T_12": 0.031,
+        "T_13": 0.025,
+        "T_14": 0.025125,
+        "T_15": 0.024875,
+        "T_16": 0.0335,
+        "T_17": 0.02425,
+        "T_18": 0.04475,
+        "T_19": 0.04,
+        "T_20": 0.05375,
+        "T_21": 0.021625,
+        "T_22": 0.0285,
+        "UNASSIGNED_BOUNDARY_REMAINDER": 3.7612120874301764,
+        "UNSEEDED_INTERIOR": 0.0
+      }
+    }
+  ],
+  "cube_interior_volume_mL": 13.04475,
+  "grid_dimensions": [
+    121,
+    97,
+    173
+  ],
+  "grid_mm": 0.5,
+  "grid_origin_mm": [
+    -14.5,
+    -8.5,
+    -110.5
+  ],
+  "interior_cubes": 104358,
+  "interior_graph_components": 1,
+  "junction_radius_mm": 2.5,
+  "limits": [
+    "Grid erosion may disconnect thin isthmuses; unseeded cubes stay unassigned.",
+    "Voxel ray queries use centered float32 and inherited reference surface; no claim of formal exact interior predicate.",
+    "Remainder is a set complement accounting term, not independently segmented clinical volume.",
+    "Region radii and path seed boundaries are engineering candidates pending manual review.",
+    "No section-area integration or signed per-face cone volumes are labelled branch capacity."
+  ],
+  "method": "Disjoint axis-aligned cubes, centers inside by distance > circumscribed radius+0.0002mm; two odd-ray parity checks. Six-neighbor interior geodesic multi-source path seeds; no Euclidean owner propagation across walls. Explicit J/T candidate shared regions. Exact D2 minus cube volume remains unassigned, never distributed by normalization.",
+  "parity_rejected_cubes": 0,
+  "partition_sum_mL": 16.805962087430178,
+  "regions": [
+    {
+      "candidate_volume_mL": 1.7695,
+      "fraction_D2": 0.10529001498363946,
+      "id": "MAIN",
+      "status": "CANDIDATE_GRID_ACCOUNTING_NOT_ANATOMICAL_BRANCH_VOLUME"
+    },
+    {
+      "candidate_volume_mL": 0.15375,
+      "fraction_D2": 0.009148539024433211,
+      "id": "BLADDER_TRANSITION",
+      "status": "CANDIDATE_GRID_ACCOUNTING_NOT_ANATOMICAL_BRANCH_VOLUME"
+    },
+    {
+      "candidate_volume_mL": 0.3935,
+      "fraction_D2": 0.023414309633264838,
+      "id": "B_01",
+      "status": "CANDIDATE_GRID_ACCOUNTING_NOT_ANATOMICAL_BRANCH_VOLUME"
+    },
+    {
+      "candidate_volume_mL": 0.36125,
+      "fraction_D2": 0.02149534778911543,
+      "id": "B_02",
+      "status": "CANDIDATE_GRID_ACCOUNTING_NOT_ANATOMICAL_BRANCH_VOLUME"
+    },
+    {
+      "candidate_volume_mL": 0.25875,
+      "fraction_D2": 0.015396321772826623,
+      "id": "B_03",
+      "status": "CANDIDATE_GRID_ACCOUNTING_NOT_ANATOMICAL_BRANCH_VOLUME"
+    },
+    {
+      "candidate_volume_mL": 0.21175,
+      "fraction_D2": 0.012599695209260048,
+      "id": "B_04",
+      "status": "CANDIDATE_GRID_ACCOUNTING_NOT_ANATOMICAL_BRANCH_VOLUME"
+    },
+    {
+      "candidate_volume_mL": 0.223875,
+      "fraction_D2": 0.013321165359967383,
+      "id": "B_05",
+      "status": "CANDIDATE_GRID_ACCOUNTING_NOT_ANATOMICAL_BRANCH_VOLUME"
+    },
+    {
+      "candidate_volume_mL": 0.22175,
+      "fraction_D2": 0.013194722137678468,
+      "id": "B_06",
+      "status": "CANDIDATE_GRID_ACCOUNTING_NOT_ANATOMICAL_BRANCH_VOLUME"
+    },
+    {
+      "candidate_volume_mL": 0.19525,
+      "fraction_D2": 0.011617900777369655,
+      "id": "B_07",
+      "status": "CANDIDATE_GRID_ACCOUNTING_NOT_ANATOMICAL_BRANCH_VOLUME"
+    },
+    {
+      "candidate_volume_mL": 0.20725,
+      "fraction_D2": 0.012331933091471759,
+      "id": "B_08",
+      "status": "CANDIDATE_GRID_ACCOUNTING_NOT_ANATOMICAL_BRANCH_VOLUME"
+    },
+    {
+      "candidate_volume_mL": 0.32275,
+      "fraction_D2": 0.019204494114704512,
+      "id": "B_09",
+      "status": "CANDIDATE_GRID_ACCOUNTING_NOT_ANATOMICAL_BRANCH_VOLUME"
+    },
+    {
+      "candidate_volume_mL": 0.647125,
+      "fraction_D2": 0.03850568010527702,
+      "id": "B_10",
+      "status": "CANDIDATE_GRID_ACCOUNTING_NOT_ANATOMICAL_BRANCH_VOLUME"
+    },
+    {
+      "candidate_volume_mL": 0.089,
+      "fraction_D2": 0.00529573966292394,
+      "id": "B_11",
+      "status": "CANDIDATE_GRID_ACCOUNTING_NOT_ANATOMICAL_BRANCH_VOLUME"
+    },
+    {
+      "candidate_volume_mL": 0.307375,
+      "fraction_D2": 0.01828964021226119,
+      "id": "B_12",
+      "status": "CANDIDATE_GRID_ACCOUNTING_NOT_ANATOMICAL_BRANCH_VOLUME"
+    },
+    {
+      "candidate_volume_mL": 0.28525,
+      "fraction_D2": 0.016973143133135436,
+      "id": "B_13",
+      "status": "CANDIDATE_GRID_ACCOUNTING_NOT_ANATOMICAL_BRANCH_VOLUME"
+    },
+    {
+      "candidate_volume_mL": 0.325625,
+      "fraction_D2": 0.01937556435662481,
+      "id": "B_14",
+      "status": "CANDIDATE_GRID_ACCOUNTING_NOT_ANATOMICAL_BRANCH_VOLUME"
+    },
+    {
+      "candidate_volume_mL": 0.366875,
+      "fraction_D2": 0.021830050436350792,
+      "id": "B_15",
+      "status": "CANDIDATE_GRID_ACCOUNTING_NOT_ANATOMICAL_BRANCH_VOLUME"
+    },
+    {
+      "candidate_volume_mL": 0.349,
+      "fraction_D2": 0.020766439801802865,
+      "id": "B_16",
+      "status": "CANDIDATE_GRID_ACCOUNTING_NOT_ANATOMICAL_BRANCH_VOLUME"
+    },
+    {
+      "candidate_volume_mL": 0.351125,
+      "fraction_D2": 0.02089288302409178,
+      "id": "B_17",
+      "status": "CANDIDATE_GRID_ACCOUNTING_NOT_ANATOMICAL_BRANCH_VOLUME"
+    },
+    {
+      "candidate_volume_mL": 0.26,
+      "fraction_D2": 0.015470700138878926,
+      "id": "B_18",
+      "status": "CANDIDATE_GRID_ACCOUNTING_NOT_ANATOMICAL_BRANCH_VOLUME"
+    },
+    {
+      "candidate_volume_mL": 0.30275,
+      "fraction_D2": 0.01801444025786767,
+      "id": "B_19",
+      "status": "CANDIDATE_GRID_ACCOUNTING_NOT_ANATOMICAL_BRANCH_VOLUME"
+    },
+    {
+      "candidate_volume_mL": 0.36975,
+      "fraction_D2": 0.022001120678271088,
+      "id": "B_20",
+      "status": "CANDIDATE_GRID_ACCOUNTING_NOT_ANATOMICAL_BRANCH_VOLUME"
+    },
+    {
+      "candidate_volume_mL": 0.341125,
+      "fraction_D2": 0.02029785609567336,
+      "id": "B_21",
+      "status": "CANDIDATE_GRID_ACCOUNTING_NOT_ANATOMICAL_BRANCH_VOLUME"
+    },
+    {
+      "candidate_volume_mL": 0.115,
+      "fraction_D2": 0.006842809676811833,
+      "id": "B_22",
+      "status": "CANDIDATE_GRID_ACCOUNTING_NOT_ANATOMICAL_BRANCH_VOLUME"
+    },
+    {
+      "candidate_volume_mL": 0.47875,
+      "fraction_D2": 0.02848691419803187,
+      "id": "B_23",
+      "status": "CANDIDATE_GRID_ACCOUNTING_NOT_ANATOMICAL_BRANCH_VOLUME"
+    },
+    {
+      "candidate_volume_mL": 0.27075,
+      "fraction_D2": 0.01611035408692873,
+      "id": "B_24",
+      "status": "CANDIDATE_GRID_ACCOUNTING_NOT_ANATOMICAL_BRANCH_VOLUME"
+    },
+    {
+      "candidate_volume_mL": 0.5685,
+      "fraction_D2": 0.03382728088058719,
+      "id": "B_25",
+      "status": "CANDIDATE_GRID_ACCOUNTING_NOT_ANATOMICAL_BRANCH_VOLUME"
+    },
+    {
+      "candidate_volume_mL": 0.533375,
+      "fraction_D2": 0.03173724879451749,
+      "id": "B_26",
+      "status": "CANDIDATE_GRID_ACCOUNTING_NOT_ANATOMICAL_BRANCH_VOLUME"
+    },
+    {
+      "candidate_volume_mL": 0.2305,
+      "fraction_D2": 0.013715370700044586,
+      "id": "B_27",
+      "status": "CANDIDATE_GRID_ACCOUNTING_NOT_ANATOMICAL_BRANCH_VOLUME"
+    },
+    {
+      "candidate_volume_mL": 0.495375,
+      "fraction_D2": 0.029476146466527492,
+      "id": "B_28",
+      "status": "CANDIDATE_GRID_ACCOUNTING_NOT_ANATOMICAL_BRANCH_VOLUME"
+    },
+    {
+      "candidate_volume_mL": 0.35125,
+      "fraction_D2": 0.02090032086069701,
+      "id": "B_29",
+      "status": "CANDIDATE_GRID_ACCOUNTING_NOT_ANATOMICAL_BRANCH_VOLUME"
+    },
+    {
+      "candidate_volume_mL": 0.585125,
+      "fraction_D2": 0.034816513149082816,
+      "id": "B_30",
+      "status": "CANDIDATE_GRID_ACCOUNTING_NOT_ANATOMICAL_BRANCH_VOLUME"
+    },
+    {
+      "candidate_volume_mL": 0.149,
+      "fraction_D2": 0.008865901233434462,
+      "id": "B_31",
+      "status": "CANDIDATE_GRID_ACCOUNTING_NOT_ANATOMICAL_BRANCH_VOLUME"
+    },
+    {
+      "candidate_volume_mL": 0.013,
+      "fraction_D2": 0.0007735350069439463,
+      "id": "B_32",
+      "status": "CANDIDATE_GRID_ACCOUNTING_NOT_ANATOMICAL_BRANCH_VOLUME"
+    },
+    {
+      "candidate_volume_mL": 0.0595,
+      "fraction_D2": 0.0035404102240896005,
+      "id": "J_01",
+      "status": "CANDIDATE_GRID_ACCOUNTING_NOT_ANATOMICAL_BRANCH_VOLUME"
+    },
+    {
+      "candidate_volume_mL": 0.065875,
+      "fraction_D2": 0.003919739890956344,
+      "id": "J_02",
+      "status": "CANDIDATE_GRID_ACCOUNTING_NOT_ANATOMICAL_BRANCH_VOLUME"
+    },
+    {
+      "candidate_volume_mL": 0.059625,
+      "fraction_D2": 0.003547848060694831,
+      "id": "J_03",
+      "status": "CANDIDATE_GRID_ACCOUNTING_NOT_ANATOMICAL_BRANCH_VOLUME"
+    },
+    {
+      "candidate_volume_mL": 0.065,
+      "fraction_D2": 0.0038676750347197315,
+      "id": "J_04",
+      "status": "CANDIDATE_GRID_ACCOUNTING_NOT_ANATOMICAL_BRANCH_VOLUME"
+    },
+    {
+      "candidate_volume_mL": 0.05525,
+      "fraction_D2": 0.003287523779511772,
+      "id": "J_05",
+      "status": "CANDIDATE_GRID_ACCOUNTING_NOT_ANATOMICAL_BRANCH_VOLUME"
+    },
+    {
+      "candidate_volume_mL": 0.0655,
+      "fraction_D2": 0.0038974263811406527,
+      "id": "J_06",
+      "status": "CANDIDATE_GRID_ACCOUNTING_NOT_ANATOMICAL_BRANCH_VOLUME"
+    },
+    {
+      "candidate_volume_mL": 0.065125,
+      "fraction_D2": 0.003875112871324962,
+      "id": "J_07",
+      "status": "CANDIDATE_GRID_ACCOUNTING_NOT_ANATOMICAL_BRANCH_VOLUME"
+    },
+    {
+      "candidate_volume_mL": 0.0655,
+      "fraction_D2": 0.0038974263811406527,
+      "id": "J_08",
+      "status": "CANDIDATE_GRID_ACCOUNTING_NOT_ANATOMICAL_BRANCH_VOLUME"
+    },
+    {
+      "candidate_volume_mL": 0.066,
+      "fraction_D2": 0.003927177727561574,
+      "id": "J_09",
+      "status": "CANDIDATE_GRID_ACCOUNTING_NOT_ANATOMICAL_BRANCH_VOLUME"
+    },
+    {
+      "candidate_volume_mL": 0.0175,
+      "fraction_D2": 0.0010412971247322354,
+      "id": "T_01",
+      "status": "CANDIDATE_GRID_ACCOUNTING_NOT_ANATOMICAL_BRANCH_VOLUME"
+    },
+    {
+      "candidate_volume_mL": 0.0295,
+      "fraction_D2": 0.0017553294388343397,
+      "id": "T_02",
+      "status": "CANDIDATE_GRID_ACCOUNTING_NOT_ANATOMICAL_BRANCH_VOLUME"
+    },
+    {
+      "candidate_volume_mL": 0.017625,
+      "fraction_D2": 0.0010487349613374657,
+      "id": "T_03",
+      "status": "CANDIDATE_GRID_ACCOUNTING_NOT_ANATOMICAL_BRANCH_VOLUME"
+    },
+    {
+      "candidate_volume_mL": 0.010375,
+      "fraction_D2": 0.000617340438234111,
+      "id": "T_04",
+      "status": "CANDIDATE_GRID_ACCOUNTING_NOT_ANATOMICAL_BRANCH_VOLUME"
+    },
+    {
+      "candidate_volume_mL": 0.009875,
+      "fraction_D2": 0.00058758909181319,
+      "id": "T_05",
+      "status": "CANDIDATE_GRID_ACCOUNTING_NOT_ANATOMICAL_BRANCH_VOLUME"
+    },
+    {
+      "candidate_volume_mL": 0.01225,
+      "fraction_D2": 0.0007289079873125648,
+      "id": "T_06",
+      "status": "CANDIDATE_GRID_ACCOUNTING_NOT_ANATOMICAL_BRANCH_VOLUME"
+    },
+    {
+      "candidate_volume_mL": 0.0125,
+      "fraction_D2": 0.0007437836605230253,
+      "id": "T_07",
+      "status": "CANDIDATE_GRID_ACCOUNTING_NOT_ANATOMICAL_BRANCH_VOLUME"
+    },
+    {
+      "candidate_volume_mL": 0.0115,
+      "fraction_D2": 0.0006842809676811832,
+      "id": "T_08",
+      "status": "CANDIDATE_GRID_ACCOUNTING_NOT_ANATOMICAL_BRANCH_VOLUME"
+    },
+    {
+      "candidate_volume_mL": 0.010875,
+      "fraction_D2": 0.0006470917846550321,
+      "id": "T_09",
+      "status": "CANDIDATE_GRID_ACCOUNTING_NOT_ANATOMICAL_BRANCH_VOLUME"
+    },
+    {
+      "candidate_volume_mL": 0.0175,
+      "fraction_D2": 0.0010412971247322354,
+      "id": "T_10",
+      "status": "CANDIDATE_GRID_ACCOUNTING_NOT_ANATOMICAL_BRANCH_VOLUME"
+    },
+    {
+      "candidate_volume_mL": 0.01325,
+      "fraction_D2": 0.0007884106801544068,
+      "id": "T_11",
+      "status": "CANDIDATE_GRID_ACCOUNTING_NOT_ANATOMICAL_BRANCH_VOLUME"
+    },
+    {
+      "candidate_volume_mL": 0.018625,
+      "fraction_D2": 0.0011082376541793077,
+      "id": "T_12",
+      "status": "CANDIDATE_GRID_ACCOUNTING_NOT_ANATOMICAL_BRANCH_VOLUME"
+    },
+    {
+      "candidate_volume_mL": 0.01475,
+      "fraction_D2": 0.0008776647194171698,
+      "id": "T_13",
+      "status": "CANDIDATE_GRID_ACCOUNTING_NOT_ANATOMICAL_BRANCH_VOLUME"
+    },
+    {
+      "candidate_volume_mL": 0.014,
+      "fraction_D2": 0.0008330376997857884,
+      "id": "T_14",
+      "status": "CANDIDATE_GRID_ACCOUNTING_NOT_ANATOMICAL_BRANCH_VOLUME"
+    },
+    {
+      "candidate_volume_mL": 0.014875,
+      "fraction_D2": 0.0008851025560224001,
+      "id": "T_15",
+      "status": "CANDIDATE_GRID_ACCOUNTING_NOT_ANATOMICAL_BRANCH_VOLUME"
+    },
+    {
+      "candidate_volume_mL": 0.018625,
+      "fraction_D2": 0.0011082376541793077,
+      "id": "T_16",
+      "status": "CANDIDATE_GRID_ACCOUNTING_NOT_ANATOMICAL_BRANCH_VOLUME"
+    },
+    {
+      "candidate_volume_mL": 0.01425,
+      "fraction_D2": 0.0008479133729962488,
+      "id": "T_17",
+      "status": "CANDIDATE_GRID_ACCOUNTING_NOT_ANATOMICAL_BRANCH_VOLUME"
+    },
+    {
+      "candidate_volume_mL": 0.026,
+      "fraction_D2": 0.0015470700138878926,
+      "id": "T_18",
+      "status": "CANDIDATE_GRID_ACCOUNTING_NOT_ANATOMICAL_BRANCH_VOLUME"
+    },
+    {
+      "candidate_volume_mL": 0.022125,
+      "fraction_D2": 0.0013164970791257548,
+      "id": "T_19",
+      "status": "CANDIDATE_GRID_ACCOUNTING_NOT_ANATOMICAL_BRANCH_VOLUME"
+    },
+    {
+      "candidate_volume_mL": 0.03075,
+      "fraction_D2": 0.0018297078048866422,
+      "id": "T_20",
+      "status": "CANDIDATE_GRID_ACCOUNTING_NOT_ANATOMICAL_BRANCH_VOLUME"
+    },
+    {
+      "candidate_volume_mL": 0.01375,
+      "fraction_D2": 0.0008181620265753279,
+      "id": "T_21",
+      "status": "CANDIDATE_GRID_ACCOUNTING_NOT_ANATOMICAL_BRANCH_VOLUME"
+    },
+    {
+      "candidate_volume_mL": 0.017625,
+      "fraction_D2": 0.0010487349613374657,
+      "id": "T_22",
+      "status": "CANDIDATE_GRID_ACCOUNTING_NOT_ANATOMICAL_BRANCH_VOLUME"
+    },
+    {
+      "candidate_volume_mL": 0.00425,
+      "fraction_D2": 0.0002528864445778286,
+      "id": "FIXED_PORT_RETAINED",
+      "status": "CANDIDATE_GRID_ACCOUNTING_NOT_ANATOMICAL_BRANCH_VOLUME"
+    },
+    {
+      "candidate_volume_mL": 0.0,
+      "fraction_D2": 0.0,
+      "id": "AMBIGUOUS_SHARED",
+      "status": "CANDIDATE_GRID_ACCOUNTING_NOT_ANATOMICAL_BRANCH_VOLUME"
+    },
+    {
+      "candidate_volume_mL": 0.0,
+      "fraction_D2": 0.0,
+      "id": "UNSEEDED_INTERIOR",
+      "status": "CANDIDATE_GRID_ACCOUNTING_NOT_ANATOMICAL_BRANCH_VOLUME"
+    },
+    {
+      "candidate_volume_mL": 3.7612120874301764,
+      "fraction_D2": 0.22380224755138126,
+      "id": "UNASSIGNED_BOUNDARY_REMAINDER",
+      "status": "UNASSIGNED_BOUNDARY_VOLUME"
+    }
+  ],
+  "residual_mm3": 0.0,
+  "schema": "N1_NONOVERLAPPING_CANDIDATE_ACCOUNTING_V1",
+  "seed_collisions_not_used": 14,
+  "status": "CANDIDATE_NOT_FORMAL_BRANCH_CAPACITY",
+  "terminal_radius_mm": 2.0,
+  "tested_centers": 2030501,
+  "unseeded_cubes": 0
+}

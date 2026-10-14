@@ -1,0 +1,53 @@
+{
+  "D2_candidate_sha256": "5dda2756b0194dbe49c63e20556e27b96320efc4148c47b34964b516444531ad",
+  "N2_started": false,
+  "V_max_mL": null,
+  "V_min_mL": null,
+  "analysis_input_sha256": {
+    "irrigation_markers.json": "658ae10df115929495aca5838a79436776121bf6922911eb472c5258b0b7e662",
+    "path_owner.npy": "7b92ab9e4686764022f0e084a2d78da1eb789a564cad20fa3e903c5d4029ce5b"
+  },
+  "products": {
+    "D2_approval_2026_10_14_v1.json": "b94e4cd3f9f8d0aade3926e51402bb2549b73e4a51d6f4e64ebcc0a21dfee68d",
+    "D2_independent_volume.json": "f55b26907f77868498cea0ea197c89e9f74148843455254031f59ab4f6d31f00",
+    "candidate_capacity_accounting.png": "bf52e1d8308273c1a08341b29d9da90ce380fceaa4ab5c160a61f9467af583d9",
+    "capacity_partition_candidate.json": "e5d2531496c182b87b4636498c4ec363752f8cae2d061774de7eca1b0508febe",
+    "capacity_target_template.json": "c152a4ae43a30f2b4f02634088308af0a5e9c74419331a40e6df7d654588d0f5",
+    "d2/excluded_structure.bin": "d204ab3663ecdc72f8e080dd2a85feba4b81510c0b05c1c99ece3a6015119725",
+    "d2/faces.npy": "160ac63fa39176cd680111278d1fd873a4528fb4cfae7d88b6d7eb01eae160a7",
+    "d2/original_wall.bin": "50c72b98a187048f9486962aa6705081456b70108aefc0369eeaedea4948370b",
+    "d2/reference_vertices.npy": "374b0153a21222388021671ac38ea343e94fd61f7b21dfc95ef7a7d4c88025b9",
+    "d2/source_face_ids.npy": "2c8c49fbadf8289b5ced03b645afaedd4e3fce1ffcb6f689832bf9bf5ee2cb96",
+    "d2/source_vertex_ids.npy": "b10c20c0a16f5fe67e05b73950ce43362d0998c54bf891345ddf3dcd352b9134",
+    "d2/source_vertex_weights.npy": "532a95fab535fcc6a7d015ba83f1c57836facd189bb447efa9839c0a3a9dfe42",
+    "d2/virtual_caps.bin": "1299349d3908ce5b71bebff640612817ea9ae9ec9a0be0d1e6377c5cadd8213c",
+    "d2/virtual_port_labels.npy": "aec23717d4dc41c75605d7abe661679c4de6651416b61c70e465d7465fe58ebe",
+    "partition_cube_centers_mm.npy": "96f3e55464fb992ea04827fcac75035eaf5cbaf52f53e6f8c3dea33fcb17edcf",
+    "partition_cube_grid_indices.npy": "04512e1574b15a4696ee4220bb67d97bab7ecd159a9188912fbdfa4bf63158fa",
+    "partition_cube_path_owner.npy": "8cc3fe7da27d4e4e196a5fac922c2289fa5c8d764e10215125988aa2e3334c6e",
+    "partition_cube_regions.npy": "7254212d4b2ee30f65ee4e88007ed2cc9976cd559131bcb158624956589ef84a",
+    "partition_geodesic_predecessor.npy": "6090441419f25687508dbe1140e83fb285d86ace2c2fb18cbdcb3bc2530971f6",
+    "partition_nearest_D2_face_ids.npy": "6270a54f44a04d8292c2700bee8f73a808533297616d586d80476c19b66fc82d",
+    "partition_nearest_face_uv.npy": "be2d1a3ba0c9984ecfe0254ad640920d493dc5fc82a99aff6c1cf7253e7f814e",
+    "partition_nearest_source_face_ids.npy": "769d3b7ec116fd1f2c5c450d6a486f5239ed8e1c421502b925fc5cb5e65bbab9",
+    "partition_resolution_sensitivity.json": "e16ffdd16aae2748088c463971cd45e452abd2310a496177d9dfb3161b168205",
+    "partition_seed_cube_ids.npy": "fe739c9d598a235e8c2908972478818c3475a8e716738cb90b181f222f426dc5",
+    "path_statistics.json": "c12e7e990d9826fdc42590a6ba8fe142c810ad2200a34aa8dcb5b5b7a3b83de0",
+    "review_preview.json": "d14fe353658bea5fafa64c379c812c114faf51e83edadbcc6f041eb248842911",
+    "section_anomalies.json": "e13a1ea1d8724008e34926f6ad9c64ab4d27651516c61bcd0f1f4a9be5b773da",
+    "section_area_profiles.png": "51356b4177d9258059cf2e18813f5db6fd633a26c4b7512df94017c829220df8",
+    "sections.csv": "96a9d088405587963c66ba5eac3e502d418943b45b4866c6b47f629e2d547676",
+    "sections.json.gz": "160b704138a74c83d3628c976a8b342e8673963664f31480f87700845c99a7ce"
+  },
+  "schema": "CAPACITY_V2_N1_BUILD_V1",
+  "script_sha256": "235e0fca86bb299e56dd15f8a0544e080c5724ee2b3260ef67bd863dafde104a",
+  "source_sha256": {
+    "cavity_displacement": "fbe95cfeaf8b77d80c5aa850618ad8ce8439c8ef770719b1f9a1f1789b050573",
+    "cavity_faces": "dbf4771365f42398f329100e695dc8580f8c038c557c671c02724bff45b29c3d",
+    "cavity_reference_vertices": "f137add4c401fe63851565f913a93968c9b11e18e630722ed42a21b4d0842fa1",
+    "tissue_displacement": "bcef3bda21aa3621547a80f8d7902c7506fc638cd8c18fe6a8c8c5516491eaec",
+    "tissue_faces": "532034f649eac73d2c28ecba5f0097ba04b79164fea3e385de5518c098cc3a05",
+    "tissue_reference_vertices": "63ce22d71be21c2a1266933aac2112ab7c66bcd887312f81e1d7d87c4f9ecb20"
+  },
+  "topology_sha256": "71e862f96b39a3270c432a4ebf7b5292ccc04a4df4f860578e23700dbd488443"
+}

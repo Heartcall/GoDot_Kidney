@@ -1,0 +1,5369 @@
+{
+  "nodes": [
+    {
+      "id": "J_01",
+      "incident_paths": [
+        "MAIN",
+        "B_01",
+        "B_06",
+        "B_09",
+        "B_10"
+      ],
+      "limits": "No unique junction/terminal planar section or anatomical calyx label inferred.",
+      "position_mm": [
+        20.6455535888672,
+        12.6209392547607,
+        -76.0362701416016
+      ],
+      "probe_metric_min_median_max": {
+        "area_mm2": [
+          98.40635724194672,
+          107.30078106780098,
+          114.09884174271214
+        ],
+        "equivalent_radius_mm": [
+          5.596759452883919,
+          5.844219315624934,
+          6.026507224655509
+        ],
+        "flattening_1_minus_minor_major": [
+          0.7472146489749336,
+          0.7479582372848077,
+          0.7606875017513751
+        ],
+        "major_axis_mm": [
+          23.172454694906396,
+          24.02428692845234,
+          25.389920797084727
+        ],
+        "minor_axis_mm": [
+          5.840426327742142,
+          6.072987804335741,
+          6.076125376285064
+        ],
+        "perimeter_mm": [
+          50.6828813439974,
+          52.97898502600661,
+          57.27058767466863
+        ]
+      },
+      "probe_station_ids": [
+        "MAIN:38",
+        "MAIN:39",
+        "MAIN:40",
+        "MAIN:41",
+        "MAIN:42",
+        "MAIN:43",
+        "MAIN:44",
+        "B_01:0",
+        "B_01:1",
+        "B_01:2",
+        "B_01:3",
+        "B_01:4",
+        "B_01:5",
+        "B_06:0",
+        "B_06:1",
+        "B_06:2",
+        "B_06:3",
+        "B_06:4",
+        "B_06:5",
+        "B_09:0",
+        "B_09:1",
+        "B_09:2",
+        "B_09:3",
+        "B_09:4",
+        "B_09:5",
+        "B_10:0",
+        "B_10:1",
+        "B_10:2",
+        "B_10:3",
+        "B_10:4",
+        "B_10:5"
+      ],
+      "probe_status_counts": {
+        "AMBIGUOUS_TOPOLOGY": 28,
+        "SHARED_JUNCTION_OR_INTERFACE_SECTION": 3
+      },
+      "status": "SHARED_CONNECTION_PROBES"
+    },
+    {
+      "id": "J_02",
+      "incident_paths": [
+        "B_01",
+        "B_02",
+        "B_03",
+        "B_04",
+        "B_05"
+      ],
+      "limits": "No unique junction/terminal planar section or anatomical calyx label inferred.",
+      "position_mm": [
+        22.9304218292236,
+        22.6206150054932,
+        -90.9267883300781
+      ],
+      "probe_metric_min_median_max": {
+        "area_mm2": [
+          76.17781141373186,
+          76.63116596474461,
+          77.08452051575736
+        ],
+        "equivalent_radius_mm": [
+          4.924241107098155,
+          4.938850502085192,
+          4.953459897072228
+        ],
+        "flattening_1_minus_minor_major": [
+          0.6616077102349619,
+          0.6624713807745175,
+          0.6633350513140731
+        ],
+        "major_axis_mm": [
+          18.87593552153768,
+          18.935521478503688,
+          18.995107435469695
+        ],
+        "minor_axis_mm": [
+          6.387471042590354,
+          6.391228956318214,
+          6.394986870046074
+        ],
+        "perimeter_mm": [
+          43.78137324671599,
+          43.83359871676993,
+          43.885824186823875
+        ]
+      },
+      "probe_station_ids": [
+        "B_01:20",
+        "B_01:21",
+        "B_01:22",
+        "B_01:23",
+        "B_01:24",
+        "B_01:25",
+        "B_01:26",
+        "B_02:0",
+        "B_02:1",
+        "B_02:2",
+        "B_02:3",
+        "B_02:4",
+        "B_02:5",
+        "B_03:0",
+        "B_03:1",
+        "B_03:2",
+        "B_03:3",
+        "B_03:4",
+        "B_03:5",
+        "B_04:0",
+        "B_04:1",
+        "B_04:2",
+        "B_04:3",
+        "B_04:4",
+        "B_04:5",
+        "B_05:0",
+        "B_05:1",
+        "B_05:2",
+        "B_05:3",
+        "B_05:4",
+        "B_05:5"
+      ],
+      "probe_status_counts": {
+        "AMBIGUOUS_TOPOLOGY": 29,
+        "SHARED_JUNCTION_OR_INTERFACE_SECTION": 2
+      },
+      "status": "SHARED_CONNECTION_PROBES"
+    },
+    {
+      "id": "J_03",
+      "incident_paths": [
+        "B_06",
+        "B_07",
+        "B_08"
+      ],
+      "limits": "No unique junction/terminal planar section or anatomical calyx label inferred.",
+      "position_mm": [
+        33.8654479980469,
+        15.74294090271,
+        -78.0878295898438
+      ],
+      "probe_metric_min_median_max": {
+        "area_mm2": [
+          38.136333380480664,
+          42.30546857227264,
+          78.85163549302105
+        ],
+        "equivalent_radius_mm": [
+          3.4841314466891027,
+          3.669634844864325,
+          5.009915679848243
+        ],
+        "flattening_1_minus_minor_major": [
+          0.22008928932887561,
+          0.44613215723591665,
+          0.6222579060063396
+        ],
+        "major_axis_mm": [
+          7.898363944057791,
+          9.919486220626641,
+          16.48035606038986
+        ],
+        "minor_axis_mm": [
+          5.100541575045827,
+          5.906113478631813,
+          6.225324208012776
+        ],
+        "perimeter_mm": [
+          22.392953310142637,
+          25.143342585461845,
+          37.35054892318894
+        ]
+      },
+      "probe_station_ids": [
+        "B_06:16",
+        "B_06:17",
+        "B_06:18",
+        "B_06:19",
+        "B_06:20",
+        "B_06:21",
+        "B_06:22",
+        "B_07:0",
+        "B_07:1",
+        "B_07:2",
+        "B_07:3",
+        "B_07:4",
+        "B_07:5",
+        "B_08:0",
+        "B_08:1",
+        "B_08:2",
+        "B_08:3",
+        "B_08:4",
+        "B_08:5"
+      ],
+      "probe_status_counts": {
+        "AMBIGUOUS_TOPOLOGY": 7,
+        "PATH_LOCAL_SECTION": 1,
+        "SHARED_JUNCTION_OR_INTERFACE_SECTION": 11
+      },
+      "status": "SHARED_CONNECTION_PROBES"
+    },
+    {
+      "id": "J_04",
+      "incident_paths": [
+        "B_10",
+        "B_11",
+        "B_19"
+      ],
+      "limits": "No unique junction/terminal planar section or anatomical calyx label inferred.",
+      "position_mm": [
+        21.7355175018311,
+        13.3084325790405,
+        -58.5521774291992
+      ],
+      "probe_metric_min_median_max": {
+        "area_mm2": [
+          116.02036221598877,
+          116.02036221598877,
+          116.02036221598877
+        ],
+        "equivalent_radius_mm": [
+          6.0770410803263095,
+          6.0770410803263095,
+          6.0770410803263095
+        ],
+        "flattening_1_minus_minor_major": [
+          0.34747931207930116,
+          0.34747931207930116,
+          0.34747931207930116
+        ],
+        "major_axis_mm": [
+          17.012657776427417,
+          17.012657776427417,
+          17.012657776427417
+        ],
+        "minor_axis_mm": [
+          11.101111155633845,
+          11.101111155633845,
+          11.101111155633845
+        ],
+        "perimeter_mm": [
+          48.86144981360269,
+          48.86144981360269,
+          48.86144981360269
+        ]
+      },
+      "probe_station_ids": [
+        "B_10:20",
+        "B_10:21",
+        "B_10:22",
+        "B_10:23",
+        "B_10:24",
+        "B_10:25",
+        "B_10:26",
+        "B_11:0",
+        "B_11:1",
+        "B_11:2",
+        "B_11:3",
+        "B_11:4",
+        "B_11:5",
+        "B_11:6",
+        "B_11:7",
+        "B_19:0",
+        "B_19:1",
+        "B_19:2",
+        "B_19:3",
+        "B_19:4",
+        "B_19:5"
+      ],
+      "probe_status_counts": {
+        "AMBIGUOUS_TOPOLOGY": 20,
+        "SHARED_JUNCTION_OR_INTERFACE_SECTION": 1
+      },
+      "status": "SHARED_CONNECTION_PROBES"
+    },
+    {
+      "id": "J_05",
+      "incident_paths": [
+        "B_11",
+        "B_12",
+        "B_13",
+        "B_14",
+        "B_15",
+        "B_16",
+        "B_17",
+        "B_18",
+        "B_31"
+      ],
+      "limits": "No unique junction/terminal planar section or anatomical calyx label inferred.",
+      "position_mm": [
+        28.2168655395508,
+        17.6801357269287,
+        -57.6315078735352
+      ],
+      "probe_metric_min_median_max": {
+        "area_mm2": [
+          127.07060923005588,
+          127.07060923005588,
+          127.07060923005588
+        ],
+        "equivalent_radius_mm": [
+          6.3598609388353795,
+          6.3598609388353795,
+          6.3598609388353795
+        ],
+        "flattening_1_minus_minor_major": [
+          0.12352628686337974,
+          0.12352628686337974,
+          0.12352628686337974
+        ],
+        "major_axis_mm": [
+          14.190806321862869,
+          14.190806321862869,
+          14.190806321862869
+        ],
+        "minor_axis_mm": [
+          12.437868709325773,
+          12.437868709325773,
+          12.437868709325773
+        ],
+        "perimeter_mm": [
+          44.832903812415026,
+          44.832903812415026,
+          44.832903812415026
+        ]
+      },
+      "probe_station_ids": [
+        "B_11:16",
+        "B_11:17",
+        "B_11:18",
+        "B_11:19",
+        "B_11:20",
+        "B_11:21",
+        "B_11:22",
+        "B_11:23",
+        "B_11:24",
+        "B_12:0",
+        "B_12:1",
+        "B_12:2",
+        "B_12:3",
+        "B_12:4",
+        "B_12:5",
+        "B_12:6",
+        "B_12:7",
+        "B_13:0",
+        "B_13:1",
+        "B_13:2",
+        "B_13:3",
+        "B_13:4",
+        "B_13:5",
+        "B_13:6",
+        "B_13:7",
+        "B_14:0",
+        "B_14:1",
+        "B_14:2",
+        "B_14:3",
+        "B_14:4",
+        "B_14:5",
+        "B_14:6",
+        "B_14:7",
+        "B_15:0",
+        "B_15:1",
+        "B_15:2",
+        "B_15:3",
+        "B_15:4",
+        "B_15:5",
+        "B_15:6",
+        "B_15:7",
+        "B_16:0",
+        "B_16:1",
+        "B_16:2",
+        "B_16:3",
+        "B_16:4",
+        "B_16:5",
+        "B_16:6",
+        "B_16:7",
+        "B_17:0",
+        "B_17:1",
+        "B_17:2",
+        "B_17:3",
+        "B_17:4",
+        "B_17:5",
+        "B_17:6",
+        "B_17:7",
+        "B_18:0",
+        "B_18:1",
+        "B_18:2",
+        "B_18:3",
+        "B_18:4",
+        "B_18:5",
+        "B_18:6",
+        "B_18:7",
+        "B_31:0",
+        "B_31:1",
+        "B_31:2",
+        "B_31:3",
+        "B_31:4",
+        "B_31:5",
+        "B_31:6",
+        "B_31:7"
+      ],
+      "probe_status_counts": {
+        "AMBIGUOUS_TOPOLOGY": 72,
+        "SHARED_JUNCTION_OR_INTERFACE_SECTION": 1
+      },
+      "status": "SHARED_CONNECTION_PROBES"
+    },
+    {
+      "id": "J_06",
+      "incident_paths": [
+        "B_19",
+        "B_20",
+        "B_21"
+      ],
+      "limits": "No unique junction/terminal planar section or anatomical calyx label inferred.",
+      "position_mm": [
+        18.2151660919189,
+        10.3820304870605,
+        -50.1413536071777
+      ],
+      "probe_metric_min_median_max": {
+        "area_mm2": [
+          64.96532567804722,
+          69.2452875880797,
+          140.85819157770106
+        ],
+        "equivalent_radius_mm": [
+          4.547428440610375,
+          4.694833288938543,
+          6.696010374032631
+        ],
+        "flattening_1_minus_minor_major": [
+          0.1482793134891488,
+          0.23989574303308425,
+          0.6864992292502297
+        ],
+        "major_axis_mm": [
+          9.871391378176778,
+          10.807886328268664,
+          25.554019564318835
+        ],
+        "minor_axis_mm": [
+          7.9289670554145815,
+          8.255792429177074,
+          8.407668241438023
+        ],
+        "perimeter_mm": [
+          28.97084801194003,
+          30.340871440915578,
+          55.93921131783377
+        ]
+      },
+      "probe_station_ids": [
+        "B_19:12",
+        "B_19:13",
+        "B_19:14",
+        "B_19:15",
+        "B_19:16",
+        "B_19:17",
+        "B_19:18",
+        "B_20:0",
+        "B_20:1",
+        "B_20:2",
+        "B_20:3",
+        "B_20:4",
+        "B_20:5",
+        "B_21:0",
+        "B_21:1",
+        "B_21:2",
+        "B_21:3",
+        "B_21:4",
+        "B_21:5"
+      ],
+      "probe_status_counts": {
+        "AMBIGUOUS_TOPOLOGY": 8,
+        "SHARED_JUNCTION_OR_INTERFACE_SECTION": 11
+      },
+      "status": "SHARED_CONNECTION_PROBES"
+    },
+    {
+      "id": "J_07",
+      "incident_paths": [
+        "B_21",
+        "B_22",
+        "B_26",
+        "B_27"
+      ],
+      "limits": "No unique junction/terminal planar section or anatomical calyx label inferred.",
+      "position_mm": [
+        13.1468448638916,
+        10.1255760192871,
+        -42.2978172302246
+      ],
+      "probe_metric_min_median_max": {
+        "area_mm2": null,
+        "equivalent_radius_mm": null,
+        "flattening_1_minus_minor_major": null,
+        "major_axis_mm": null,
+        "minor_axis_mm": null,
+        "perimeter_mm": null
+      },
+      "probe_station_ids": [
+        "B_21:12",
+        "B_21:13",
+        "B_21:14",
+        "B_21:15",
+        "B_21:16",
+        "B_21:17",
+        "B_21:18",
+        "B_22:0",
+        "B_22:1",
+        "B_22:2",
+        "B_22:3",
+        "B_22:4",
+        "B_22:5",
+        "B_26:0",
+        "B_26:1",
+        "B_26:2",
+        "B_26:3",
+        "B_26:4",
+        "B_26:5",
+        "B_27:0",
+        "B_27:1",
+        "B_27:2",
+        "B_27:3",
+        "B_27:4",
+        "B_27:5",
+        "B_27:6",
+        "B_27:7"
+      ],
+      "probe_status_counts": {
+        "AMBIGUOUS_TOPOLOGY": 27
+      },
+      "status": "SHARED_CONNECTION_PROBES"
+    },
+    {
+      "id": "J_08",
+      "incident_paths": [
+        "B_22",
+        "B_23",
+        "B_24",
+        "B_25"
+      ],
+      "limits": "No unique junction/terminal planar section or anatomical calyx label inferred.",
+      "position_mm": [
+        18.3014545440674,
+        7.47692108154297,
+        -39.8363227844238
+      ],
+      "probe_metric_min_median_max": {
+        "area_mm2": null,
+        "equivalent_radius_mm": null,
+        "flattening_1_minus_minor_major": null,
+        "major_axis_mm": null,
+        "minor_axis_mm": null,
+        "perimeter_mm": null
+      },
+      "probe_station_ids": [
+        "B_22:9",
+        "B_22:10",
+        "B_22:11",
+        "B_22:12",
+        "B_22:13",
+        "B_22:14",
+        "B_22:15",
+        "B_23:0",
+        "B_23:1",
+        "B_23:2",
+        "B_23:3",
+        "B_23:4",
+        "B_23:5",
+        "B_24:0",
+        "B_24:1",
+        "B_24:2",
+        "B_24:3",
+        "B_24:4",
+        "B_24:5",
+        "B_25:0",
+        "B_25:1",
+        "B_25:2",
+        "B_25:3",
+        "B_25:4",
+        "B_25:5"
+      ],
+      "probe_status_counts": {
+        "AMBIGUOUS_TOPOLOGY": 25
+      },
+      "status": "SHARED_CONNECTION_PROBES"
+    },
+    {
+      "id": "J_09",
+      "incident_paths": [
+        "B_27",
+        "B_28",
+        "B_29",
+        "B_30",
+        "B_32"
+      ],
+      "limits": "No unique junction/terminal planar section or anatomical calyx label inferred.",
+      "position_mm": [
+        6.54512739181519,
+        18.1802711486816,
+        -39.8904724121094
+      ],
+      "probe_metric_min_median_max": {
+        "area_mm2": [
+          130.34213632698123,
+          136.15180496003634,
+          141.96147359309145
+        ],
+        "equivalent_radius_mm": [
+          6.4412103349598455,
+          6.581696526767116,
+          6.722182718574388
+        ],
+        "flattening_1_minus_minor_major": [
+          0.45272630754432863,
+          0.48022413841656186,
+          0.5077219692887951
+        ],
+        "major_axis_mm": [
+          18.21091133530194,
+          19.269289593791108,
+          20.327667852280275
+        ],
+        "minor_axis_mm": [
+          9.966352689453533,
+          9.986608494362766,
+          10.006864299272001
+        ],
+        "perimeter_mm": [
+          49.5856515067752,
+          51.30789343143361,
+          53.03013535609202
+        ]
+      },
+      "probe_station_ids": [
+        "B_27:22",
+        "B_27:23",
+        "B_27:24",
+        "B_27:25",
+        "B_27:26",
+        "B_27:27",
+        "B_27:28",
+        "B_27:29",
+        "B_27:30",
+        "B_28:0",
+        "B_28:1",
+        "B_28:2",
+        "B_28:3",
+        "B_28:4",
+        "B_28:5",
+        "B_28:6",
+        "B_28:7",
+        "B_29:0",
+        "B_29:1",
+        "B_29:2",
+        "B_29:3",
+        "B_29:4",
+        "B_29:5",
+        "B_29:6",
+        "B_29:7",
+        "B_30:0",
+        "B_30:1",
+        "B_30:2",
+        "B_30:3",
+        "B_30:4",
+        "B_30:5",
+        "B_30:6",
+        "B_30:7",
+        "B_32:0",
+        "B_32:1",
+        "B_32:2",
+        "B_32:3",
+        "B_32:4",
+        "B_32:5",
+        "B_32:6",
+        "B_32:7",
+        "B_32:8",
+        "B_32:9"
+      ],
+      "probe_status_counts": {
+        "AMBIGUOUS_TOPOLOGY": 39,
+        "MULTIRING_WITH_HOLE_UNRESOLVED": 2,
+        "SHARED_JUNCTION_OR_INTERFACE_SECTION": 2
+      },
+      "status": "SHARED_CONNECTION_PROBES"
+    },
+    {
+      "id": "T_01",
+      "incident_paths": [
+        "B_02"
+      ],
+      "limits": "No unique junction/terminal planar section or anatomical calyx label inferred.",
+      "position_mm": [
+        16.9272270202637,
+        38.1623992919922,
+        -92.0970458984375
+      ],
+      "probe_metric_min_median_max": {
+        "area_mm2": [
+          21.071715331657543,
+          28.590199755745864,
+          42.18193366488235
+        ],
+        "equivalent_radius_mm": [
+          2.5898523720314928,
+          3.0167106639887273,
+          3.664277077935143
+        ],
+        "flattening_1_minus_minor_major": [
+          0.1007252692742201,
+          0.11744457846340794,
+          0.13206095094330772
+        ],
+        "major_axis_mm": [
+          5.530949708685248,
+          6.369589576644154,
+          7.875916711792486
+        ],
+        "minor_axis_mm": [
+          4.861007399154237,
+          5.728010951370406,
+          6.835815661282881
+        ],
+        "perimeter_mm": [
+          16.50962296272127,
+          19.143370381984194,
+          23.281970280896715
+        ]
+      },
+      "probe_station_ids": [
+        "B_02:19",
+        "B_02:20",
+        "B_02:21",
+        "B_02:22",
+        "B_02:23",
+        "B_02:24",
+        "B_02:25"
+      ],
+      "probe_status_counts": {
+        "PATH_LOCAL_SECTION": 7
+      },
+      "status": "TERMINAL_NEAR_CAP_PROBES"
+    },
+    {
+      "id": "T_02",
+      "incident_paths": [
+        "B_03"
+      ],
+      "limits": "No unique junction/terminal planar section or anatomical calyx label inferred.",
+      "position_mm": [
+        30.1549530029297,
+        33.7061233520508,
+        -84.8305740356445
+      ],
+      "probe_metric_min_median_max": {
+        "area_mm2": [
+          29.60268724094432,
+          33.633850289195635,
+          37.22502416148975
+        ],
+        "equivalent_radius_mm": [
+          3.069662523209895,
+          3.2720004672182608,
+          3.4422511825886066
+        ],
+        "flattening_1_minus_minor_major": [
+          0.286017605778228,
+          0.2965853801220548,
+          0.31827445558729417
+        ],
+        "major_axis_mm": [
+          7.282156160622645,
+          7.822982418948674,
+          8.350204739700205
+        ],
+        "minor_axis_mm": [
+          5.199331290658183,
+          5.502800204536629,
+          5.692547872129679
+        ],
+        "perimeter_mm": [
+          19.965345675981588,
+          21.323048695016887,
+          22.409839708240906
+        ]
+      },
+      "probe_station_ids": [
+        "B_03:17",
+        "B_03:18",
+        "B_03:19",
+        "B_03:20",
+        "B_03:21",
+        "B_03:22",
+        "B_03:23"
+      ],
+      "probe_status_counts": {
+        "PATH_LOCAL_SECTION": 7
+      },
+      "status": "TERMINAL_NEAR_CAP_PROBES"
+    },
+    {
+      "id": "T_03",
+      "incident_paths": [
+        "B_04"
+      ],
+      "limits": "No unique junction/terminal planar section or anatomical calyx label inferred.",
+      "position_mm": [
+        19.5902328491211,
+        25.6950531005859,
+        -108.563987731934
+      ],
+      "probe_metric_min_median_max": {
+        "area_mm2": [
+          16.602896807693494,
+          21.322134911610966,
+          28.879353776322137
+        ],
+        "equivalent_radius_mm": [
+          2.298883684134136,
+          2.605196026580402,
+          3.031927409025903
+        ],
+        "flattening_1_minus_minor_major": [
+          0.027956996654626365,
+          0.06572584430845829,
+          0.07444931673209831
+        ],
+        "major_axis_mm": [
+          4.790971911505765,
+          5.350008602563655,
+          6.319608134373735
+        ],
+        "minor_axis_mm": [
+          4.44452109078936,
+          5.119750448062567,
+          5.849117626755
+        ],
+        "perimeter_mm": [
+          14.69778869074987,
+          16.66196048234199,
+          19.308346782897555
+        ]
+      },
+      "probe_station_ids": [
+        "B_04:21",
+        "B_04:22",
+        "B_04:23",
+        "B_04:24",
+        "B_04:25",
+        "B_04:26",
+        "B_04:27"
+      ],
+      "probe_status_counts": {
+        "PATH_LOCAL_SECTION": 7
+      },
+      "status": "TERMINAL_NEAR_CAP_PROBES"
+    },
+    {
+      "id": "T_04",
+      "incident_paths": [
+        "B_05"
+      ],
+      "limits": "No unique junction/terminal planar section or anatomical calyx label inferred.",
+      "position_mm": [
+        31.3630523681641,
+        11.1308088302612,
+        -98.1752014160156
+      ],
+      "probe_metric_min_median_max": {
+        "area_mm2": [
+          8.439559746803353,
+          16.545625029964942,
+          21.936354534472798
+        ],
+        "equivalent_radius_mm": [
+          1.639022666849448,
+          2.2949152533651036,
+          2.642453124495365
+        ],
+        "flattening_1_minus_minor_major": [
+          0.3985791245869239,
+          0.39989711958871,
+          0.4357862034368595
+        ],
+        "major_axis_mm": [
+          4.3806350116570165,
+          5.9288390578614845,
+          6.824925829233041
+        ],
+        "minor_axis_mm": [
+          2.4716147112844227,
+          3.5593600739788815,
+          4.09565764871616
+        ],
+        "perimeter_mm": [
+          11.163103593595356,
+          15.277370118175382,
+          17.501916402542335
+        ]
+      },
+      "probe_station_ids": [
+        "B_05:18",
+        "B_05:19",
+        "B_05:20",
+        "B_05:21",
+        "B_05:22",
+        "B_05:23",
+        "B_05:24"
+      ],
+      "probe_status_counts": {
+        "PATH_LOCAL_SECTION": 7
+      },
+      "status": "TERMINAL_NEAR_CAP_PROBES"
+    },
+    {
+      "id": "T_05",
+      "incident_paths": [
+        "B_07"
+      ],
+      "limits": "No unique junction/terminal planar section or anatomical calyx label inferred.",
+      "position_mm": [
+        40.2217864990234,
+        26.8241710662842,
+        -78.4639129638672
+      ],
+      "probe_metric_min_median_max": {
+        "area_mm2": [
+          8.49871390839493,
+          18.156886828143243,
+          27.575839658154557
+        ],
+        "equivalent_radius_mm": [
+          1.6447567166270485,
+          2.4040625157674755,
+          2.9627119979859056
+        ],
+        "flattening_1_minus_minor_major": [
+          0.09654711001979999,
+          0.10226513899437806,
+          0.1705559055601793
+        ],
+        "major_axis_mm": [
+          3.6198276015885056,
+          5.0812729213899255,
+          6.238579097314973
+        ],
+        "minor_axis_mm": [
+          3.002444627027846,
+          4.561635839815615,
+          5.636262314839279
+        ],
+        "perimeter_mm": [
+          10.617814153274775,
+          15.301293421695421,
+          18.786141351058156
+        ]
+      },
+      "probe_station_ids": [
+        "B_07:15",
+        "B_07:16",
+        "B_07:17",
+        "B_07:18",
+        "B_07:19",
+        "B_07:20",
+        "B_07:21"
+      ],
+      "probe_status_counts": {
+        "PATH_LOCAL_SECTION": 7
+      },
+      "status": "TERMINAL_NEAR_CAP_PROBES"
+    },
+    {
+      "id": "T_06",
+      "incident_paths": [
+        "B_08"
+      ],
+      "limits": "No unique junction/terminal planar section or anatomical calyx label inferred.",
+      "position_mm": [
+        42.6512908935547,
+        6.03333759307861,
+        -80.2824859619141
+      ],
+      "probe_metric_min_median_max": {
+        "area_mm2": [
+          9.21705517507959,
+          12.717873911565942,
+          22.46667673080592
+        ],
+        "equivalent_radius_mm": [
+          1.7128571988724872,
+          2.0120201284505965,
+          2.674203678314509
+        ],
+        "flattening_1_minus_minor_major": [
+          0.16369179988013438,
+          0.1672692799639528,
+          0.1858121561972833
+        ],
+        "major_axis_mm": [
+          3.7962494999521446,
+          4.4133893129468555,
+          5.931983939630184
+        ],
+        "minor_axis_mm": [
+          3.1164076610828673,
+          3.677351622983278,
+          4.829749213279844
+        ],
+        "perimeter_mm": [
+          11.027328261090371,
+          12.872202683799781,
+          17.0835277710706
+        ]
+      },
+      "probe_station_ids": [
+        "B_08:16",
+        "B_08:17",
+        "B_08:18",
+        "B_08:19",
+        "B_08:20",
+        "B_08:21",
+        "B_08:22"
+      ],
+      "probe_status_counts": {
+        "PATH_LOCAL_SECTION": 7
+      },
+      "status": "TERMINAL_NEAR_CAP_PROBES"
+    },
+    {
+      "id": "T_07",
+      "incident_paths": [
+        "B_09"
+      ],
+      "limits": "No unique junction/terminal planar section or anatomical calyx label inferred.",
+      "position_mm": [
+        30.7731990814209,
+        -5.6568808555603,
+        -71.7501983642578
+      ],
+      "probe_metric_min_median_max": {
+        "area_mm2": [
+          11.279803862644764,
+          15.982052715379812,
+          25.57856475642748
+        ],
+        "equivalent_radius_mm": [
+          1.8948543700490381,
+          2.255492270174272,
+          2.853403237602977
+        ],
+        "flattening_1_minus_minor_major": [
+          0.30286180774331384,
+          0.31798793245078816,
+          0.33687073426945724
+        ],
+        "major_axis_mm": [
+          4.546254223903768,
+          5.484408195355813,
+          6.929537912889292
+        ],
+        "minor_axis_mm": [
+          3.1693674511915964,
+          3.7251667980714975,
+          4.726028479130276
+        ],
+        "perimeter_mm": [
+          12.358256725447903,
+          14.736018816924032,
+          18.617832152683143
+        ]
+      },
+      "probe_station_ids": [
+        "B_09:25",
+        "B_09:26",
+        "B_09:27",
+        "B_09:28",
+        "B_09:29",
+        "B_09:30",
+        "B_09:31"
+      ],
+      "probe_status_counts": {
+        "PATH_LOCAL_SECTION": 7
+      },
+      "status": "TERMINAL_NEAR_CAP_PROBES"
+    },
+    {
+      "id": "T_08",
+      "incident_paths": [
+        "B_12"
+      ],
+      "limits": "No unique junction/terminal planar section or anatomical calyx label inferred.",
+      "position_mm": [
+        25.1080627441406,
+        27.5972995758057,
+        -71.5262908935547
+      ],
+      "probe_metric_min_median_max": {
+        "area_mm2": [
+          10.019599117406258,
+          18.989866447452652,
+          36.12242346919273
+        ],
+        "equivalent_radius_mm": [
+          1.785871623232979,
+          2.458589479261237,
+          3.390888453364609
+        ],
+        "flattening_1_minus_minor_major": [
+          0.020946552707927335,
+          0.04462803562357043,
+          0.1056439675883949
+        ],
+        "major_axis_mm": [
+          3.6329753524908215,
+          5.046333120332629,
+          7.183918361577575
+        ],
+        "minor_axis_mm": [
+          3.5361924828079387,
+          4.821125186070021,
+          6.424980723029399
+        ],
+        "perimeter_mm": [
+          11.46463543344488,
+          15.672696782609625,
+          21.533776334724113
+        ]
+      },
+      "probe_station_ids": [
+        "B_12:37",
+        "B_12:38",
+        "B_12:39",
+        "B_12:40",
+        "B_12:41",
+        "B_12:42",
+        "B_12:43",
+        "B_12:44",
+        "B_12:45"
+      ],
+      "probe_status_counts": {
+        "PATH_LOCAL_SECTION": 9
+      },
+      "status": "TERMINAL_NEAR_CAP_PROBES"
+    },
+    {
+      "id": "T_09",
+      "incident_paths": [
+        "B_13"
+      ],
+      "limits": "No unique junction/terminal planar section or anatomical calyx label inferred.",
+      "position_mm": [
+        35.5310592651367,
+        34.6983261108398,
+        -63.2201118469238
+      ],
+      "probe_metric_min_median_max": {
+        "area_mm2": [
+          7.455388354822145,
+          16.764438331121955,
+          26.74853970473616
+        ],
+        "equivalent_radius_mm": [
+          1.5404946668779465,
+          2.3100403583302622,
+          2.9179315668804113
+        ],
+        "flattening_1_minus_minor_major": [
+          0.020272985713245872,
+          0.04051266031585876,
+          0.1345650042102461
+        ],
+        "major_axis_mm": [
+          3.3180192173635534,
+          4.7223132855144145,
+          5.949080605346552
+        ],
+        "minor_axis_mm": [
+          2.8715299474093494,
+          4.530999811473302,
+          5.734851273320432
+        ],
+        "perimeter_mm": [
+          9.88679911841227,
+          14.700810682457288,
+          18.49527389636484
+        ]
+      },
+      "probe_station_ids": [
+        "B_13:39",
+        "B_13:40",
+        "B_13:41",
+        "B_13:42",
+        "B_13:43",
+        "B_13:44",
+        "B_13:45",
+        "B_13:46",
+        "B_13:47"
+      ],
+      "probe_status_counts": {
+        "PATH_LOCAL_SECTION": 9
+      },
+      "status": "TERMINAL_NEAR_CAP_PROBES"
+    },
+    {
+      "id": "T_10",
+      "incident_paths": [
+        "B_14"
+      ],
+      "limits": "No unique junction/terminal planar section or anatomical calyx label inferred.",
+      "position_mm": [
+        43.815357208252,
+        15.3792753219604,
+        -62.9953422546387
+      ],
+      "probe_metric_min_median_max": {
+        "area_mm2": [
+          23.96215257937708,
+          37.2028759472499,
+          46.9415530908075
+        ],
+        "equivalent_radius_mm": [
+          2.7617729921664713,
+          3.441226991710776,
+          3.865483206744702
+        ],
+        "flattening_1_minus_minor_major": [
+          0.25492661643892245,
+          0.2987571399451525,
+          0.33648156932866835
+        ],
+        "major_axis_mm": [
+          6.42618677172521,
+          8.254818185584925,
+          9.52756543089245
+        ],
+        "minor_axis_mm": [
+          4.7879807214047405,
+          5.788632313692339,
+          6.321715262824188
+        ],
+        "perimeter_mm": [
+          17.896961237465632,
+          22.45024415635186,
+          25.336502741603926
+        ]
+      },
+      "probe_station_ids": [
+        "B_14:34",
+        "B_14:35",
+        "B_14:36",
+        "B_14:37",
+        "B_14:38",
+        "B_14:39",
+        "B_14:40",
+        "B_14:41",
+        "B_14:42"
+      ],
+      "probe_status_counts": {
+        "PATH_LOCAL_SECTION": 9
+      },
+      "status": "TERMINAL_NEAR_CAP_PROBES"
+    },
+    {
+      "id": "T_11",
+      "incident_paths": [
+        "B_15"
+      ],
+      "limits": "No unique junction/terminal planar section or anatomical calyx label inferred.",
+      "position_mm": [
+        7.6993293762207,
+        22.9976997375488,
+        -58.0009002685547
+      ],
+      "probe_metric_min_median_max": {
+        "area_mm2": [
+          16.788376492647934,
+          26.62503586918488,
+          35.677818377663094
+        ],
+        "equivalent_radius_mm": [
+          2.311689038470657,
+          2.911187410174684,
+          3.3699558316215206
+        ],
+        "flattening_1_minus_minor_major": [
+          0.04847529773871073,
+          0.05307667290661022,
+          0.13104619539329965
+        ],
+        "major_axis_mm": [
+          4.979641368474023,
+          5.99183884883485,
+          6.936681101346489
+        ],
+        "minor_axis_mm": [
+          4.327078312712418,
+          5.673811978146123,
+          6.576891550207116
+        ],
+        "perimeter_mm": [
+          14.874157508927803,
+          18.501085700395517,
+          21.523272473156084
+        ]
+      },
+      "probe_station_ids": [
+        "B_15:43",
+        "B_15:44",
+        "B_15:45",
+        "B_15:46",
+        "B_15:47",
+        "B_15:48",
+        "B_15:49",
+        "B_15:50",
+        "B_15:51"
+      ],
+      "probe_status_counts": {
+        "PATH_LOCAL_SECTION": 9
+      },
+      "status": "TERMINAL_NEAR_CAP_PROBES"
+    },
+    {
+      "id": "T_12",
+      "incident_paths": [
+        "B_16"
+      ],
+      "limits": "No unique junction/terminal planar section or anatomical calyx label inferred.",
+      "position_mm": [
+        18.6763114929199,
+        36.185474395752,
+        -59.7005500793457
+      ],
+      "probe_metric_min_median_max": {
+        "area_mm2": [
+          18.18238938625661,
+          23.33263885999167,
+          29.93312061844084
+        ],
+        "equivalent_radius_mm": [
+          2.4057502563833815,
+          2.7252540468535114,
+          3.086747190357769
+        ],
+        "flattening_1_minus_minor_major": [
+          0.009235851121924044,
+          0.047113812187188575,
+          0.09648916206172775
+        ],
+        "major_axis_mm": [
+          4.968576108854573,
+          5.4802908269354536,
+          6.508655828746668
+        ],
+        "minor_axis_mm": [
+          4.667942943014657,
+          5.429675676753032,
+          5.880641081682722
+        ],
+        "perimeter_mm": [
+          15.271628548196869,
+          17.24687048530624,
+          19.68438470058088
+        ]
+      },
+      "probe_station_ids": [
+        "B_16:46",
+        "B_16:47",
+        "B_16:48",
+        "B_16:49",
+        "B_16:50",
+        "B_16:51",
+        "B_16:52",
+        "B_16:53",
+        "B_16:54"
+      ],
+      "probe_status_counts": {
+        "PATH_LOCAL_SECTION": 9
+      },
+      "status": "TERMINAL_NEAR_CAP_PROBES"
+    },
+    {
+      "id": "T_13",
+      "incident_paths": [
+        "B_17"
+      ],
+      "limits": "No unique junction/terminal planar section or anatomical calyx label inferred.",
+      "position_mm": [
+        26.2970104217529,
+        35.2337455749512,
+        -49.7916984558105
+      ],
+      "probe_metric_min_median_max": {
+        "area_mm2": [
+          14.317430327981107,
+          21.662876178612116,
+          31.065184679593717
+        ],
+        "equivalent_radius_mm": [
+          2.134802009120288,
+          2.625929864034372,
+          3.1445755515871956
+        ],
+        "flattening_1_minus_minor_major": [
+          0.107778438508641,
+          0.11926126397648795,
+          0.13748884435084874
+        ],
+        "major_axis_mm": [
+          4.599532209209954,
+          5.56809229317216,
+          6.776689467272478
+        ],
+        "minor_axis_mm": [
+          3.9821226619441727,
+          4.961447958836844,
+          5.844970263892616
+        ],
+        "perimeter_mm": [
+          13.667364868855712,
+          16.718221986425924,
+          20.00822221767693
+        ]
+      },
+      "probe_station_ids": [
+        "B_17:39",
+        "B_17:40",
+        "B_17:41",
+        "B_17:42",
+        "B_17:43",
+        "B_17:44",
+        "B_17:45",
+        "B_17:46",
+        "B_17:47"
+      ],
+      "probe_status_counts": {
+        "PATH_LOCAL_SECTION": 9
+      },
+      "status": "TERMINAL_NEAR_CAP_PROBES"
+    },
+    {
+      "id": "T_14",
+      "incident_paths": [
+        "B_18"
+      ],
+      "limits": "No unique junction/terminal planar section or anatomical calyx label inferred.",
+      "position_mm": [
+        31.6922988891602,
+        19.4579257965088,
+        -42.6238136291504
+      ],
+      "probe_metric_min_median_max": {
+        "area_mm2": [
+          14.96153226534561,
+          24.916181179170135,
+          38.28859310363074
+        ],
+        "equivalent_radius_mm": [
+          2.1822932049835266,
+          2.81621497675095,
+          3.491079734545485
+        ],
+        "flattening_1_minus_minor_major": [
+          0.009404705873095387,
+          0.04294217055440008,
+          0.09380674882185147
+        ],
+        "major_axis_mm": [
+          4.390437741819726,
+          5.7597236805500565,
+          7.344256706203576
+        ],
+        "minor_axis_mm": [
+          4.3463788176546005,
+          5.512388643913659,
+          6.655315862081539
+        ],
+        "perimeter_mm": [
+          13.886573897584606,
+          17.825867143795435,
+          22.157304823655277
+        ]
+      },
+      "probe_station_ids": [
+        "B_18:32",
+        "B_18:33",
+        "B_18:34",
+        "B_18:35",
+        "B_18:36",
+        "B_18:37",
+        "B_18:38",
+        "B_18:39",
+        "B_18:40"
+      ],
+      "probe_status_counts": {
+        "PATH_LOCAL_SECTION": 9
+      },
+      "status": "TERMINAL_NEAR_CAP_PROBES"
+    },
+    {
+      "id": "T_15",
+      "incident_paths": [
+        "B_20"
+      ],
+      "limits": "No unique junction/terminal planar section or anatomical calyx label inferred.",
+      "position_mm": [
+        27.3555183410645,
+        -4.15636491775513,
+        -50.4313545227051
+      ],
+      "probe_metric_min_median_max": {
+        "area_mm2": [
+          13.81955989564362,
+          19.67116574386354,
+          35.48093252644953
+        ],
+        "equivalent_radius_mm": [
+          2.097356082665125,
+          2.5023042438983487,
+          3.3606445206520887
+        ],
+        "flattening_1_minus_minor_major": [
+          0.14734087803177942,
+          0.169920447510169,
+          0.1738462553704978
+        ],
+        "major_axis_mm": [
+          4.5628221015309975,
+          5.479441741759236,
+          7.397451426293769
+        ],
+        "minor_axis_mm": [
+          3.8905318867886116,
+          4.57999906170719,
+          6.111432196547449
+        ],
+        "perimeter_mm": [
+          13.480868816412789,
+          15.969727584283804,
+          21.465622664522957
+        ]
+      },
+      "probe_station_ids": [
+        "B_20:21",
+        "B_20:22",
+        "B_20:23",
+        "B_20:24",
+        "B_20:25",
+        "B_20:26",
+        "B_20:27"
+      ],
+      "probe_status_counts": {
+        "PATH_LOCAL_SECTION": 7
+      },
+      "status": "TERMINAL_NEAR_CAP_PROBES"
+    },
+    {
+      "id": "T_16",
+      "incident_paths": [
+        "B_23"
+      ],
+      "limits": "No unique junction/terminal planar section or anatomical calyx label inferred.",
+      "position_mm": [
+        23.0199337005615,
+        18.398099899292,
+        -32.7420959472656
+      ],
+      "probe_metric_min_median_max": {
+        "area_mm2": [
+          27.296644575352023,
+          31.68899932920402,
+          39.35856157806855
+        ],
+        "equivalent_radius_mm": [
+          2.947675665330175,
+          3.1759914624817793,
+          3.53952246161438
+        ],
+        "flattening_1_minus_minor_major": [
+          0.06520918748569637,
+          0.07971776304666567,
+          0.10596279507703954
+        ],
+        "major_axis_mm": [
+          6.252704617584066,
+          6.643801554276604,
+          7.360914044833458
+        ],
+        "minor_axis_mm": [
+          5.590150559513747,
+          6.114172556243712,
+          6.838219456516054
+        ],
+        "perimeter_mm": [
+          18.879260911963854,
+          20.332575543329583,
+          22.487728087500578
+        ]
+      },
+      "probe_station_ids": [
+        "B_23:17",
+        "B_23:18",
+        "B_23:19",
+        "B_23:20",
+        "B_23:21",
+        "B_23:22",
+        "B_23:23"
+      ],
+      "probe_status_counts": {
+        "PATH_LOCAL_SECTION": 7
+      },
+      "status": "TERMINAL_NEAR_CAP_PROBES"
+    },
+    {
+      "id": "T_17",
+      "incident_paths": [
+        "B_24"
+      ],
+      "limits": "No unique junction/terminal planar section or anatomical calyx label inferred.",
+      "position_mm": [
+        22.4022369384766,
+        7.35899972915649,
+        -27.1259460449219
+      ],
+      "probe_metric_min_median_max": {
+        "area_mm2": [
+          13.686353572688233,
+          19.023731940235624,
+          29.754915981455774
+        ],
+        "equivalent_radius_mm": [
+          2.08722343030005,
+          2.4607807599799183,
+          3.077545112498831
+        ],
+        "flattening_1_minus_minor_major": [
+          0.18063519113065885,
+          0.18996485312153888,
+          0.2648751945465505
+        ],
+        "major_axis_mm": [
+          4.644546685758084,
+          5.443113615425052,
+          7.204786947967937
+        ],
+        "minor_axis_mm": [
+          3.7622460567819194,
+          4.459895747156856,
+          5.296417603458482
+        ],
+        "perimeter_mm": [
+          13.377590831554329,
+          15.748853697981767,
+          20.01949797546318
+        ]
+      },
+      "probe_station_ids": [
+        "B_24:16",
+        "B_24:17",
+        "B_24:18",
+        "B_24:19",
+        "B_24:20",
+        "B_24:21",
+        "B_24:22"
+      ],
+      "probe_status_counts": {
+        "PATH_LOCAL_SECTION": 7
+      },
+      "status": "TERMINAL_NEAR_CAP_PROBES"
+    },
+    {
+      "id": "T_18",
+      "incident_paths": [
+        "B_25"
+      ],
+      "limits": "No unique junction/terminal planar section or anatomical calyx label inferred.",
+      "position_mm": [
+        12.3844146728516,
+        -6.10848808288574,
+        -37.896915435791
+      ],
+      "probe_metric_min_median_max": {
+        "area_mm2": [
+          49.12288542668076,
+          61.4159109783203,
+          70.06713559117073
+        ],
+        "equivalent_radius_mm": [
+          3.954276175128154,
+          4.4214580890677855,
+          4.722611772658196
+        ],
+        "flattening_1_minus_minor_major": [
+          0.021951281773948894,
+          0.08228638600132332,
+          0.11052512324267216
+        ],
+        "major_axis_mm": [
+          8.423581099624425,
+          8.984937066419247,
+          9.904238844249425
+        ],
+        "minor_axis_mm": [
+          7.492563760443791,
+          8.74339288946874,
+          9.028614557964426
+        ],
+        "perimeter_mm": [
+          25.57728283226058,
+          28.36843308174437,
+          29.97675653750789
+        ]
+      },
+      "probe_station_ids": [
+        "B_25:17",
+        "B_25:18",
+        "B_25:19",
+        "B_25:20",
+        "B_25:21",
+        "B_25:22",
+        "B_25:23"
+      ],
+      "probe_status_counts": {
+        "PATH_LOCAL_SECTION": 7
+      },
+      "status": "TERMINAL_NEAR_CAP_PROBES"
+    },
+    {
+      "id": "T_19",
+      "incident_paths": [
+        "B_26"
+      ],
+      "limits": "No unique junction/terminal planar section or anatomical calyx label inferred.",
+      "position_mm": [
+        5.73029565811157,
+        5.58725643157959,
+        -28.7386856079102
+      ],
+      "probe_metric_min_median_max": {
+        "area_mm2": [
+          45.77679137091747,
+          51.39289951520232,
+          56.66895964468115
+        ],
+        "equivalent_radius_mm": [
+          3.8172248101383643,
+          4.044609745740502,
+          4.247150820803552
+        ],
+        "flattening_1_minus_minor_major": [
+          0.09120686128321043,
+          0.13316909695431556,
+          0.16976757133442122
+        ],
+        "major_axis_mm": [
+          8.382603532463518,
+          8.693746590243633,
+          8.919320132405856
+        ],
+        "minor_axis_mm": [
+          6.959509289297847,
+          7.536008207671228,
+          8.105816938348969
+        ],
+        "perimeter_mm": [
+          24.366057716556895,
+          25.73222076932355,
+          26.956970365350024
+        ]
+      },
+      "probe_station_ids": [
+        "B_26:19",
+        "B_26:20",
+        "B_26:21",
+        "B_26:22",
+        "B_26:23",
+        "B_26:24",
+        "B_26:25"
+      ],
+      "probe_status_counts": {
+        "PATH_LOCAL_SECTION": 7
+      },
+      "status": "TERMINAL_NEAR_CAP_PROBES"
+    },
+    {
+      "id": "T_20",
+      "incident_paths": [
+        "B_28"
+      ],
+      "limits": "No unique junction/terminal planar section or anatomical calyx label inferred.",
+      "position_mm": [
+        6.59510850906372,
+        31.2638626098633,
+        -41.0546722412109
+      ],
+      "probe_metric_min_median_max": {
+        "area_mm2": [
+          50.99405791115933,
+          56.82684054056134,
+          63.14155916518288
+        ],
+        "equivalent_radius_mm": [
+          4.0288848047258385,
+          4.253063030881449,
+          4.483144266174851
+        ],
+        "flattening_1_minus_minor_major": [
+          0.371733781578352,
+          0.43519526103368567,
+          0.4473587533765362
+        ],
+        "major_axis_mm": [
+          11.010917591788031,
+          11.440517850650744,
+          11.498954007278963
+        ],
+        "minor_axis_mm": [
+          6.085087224393965,
+          6.467842423544359,
+          7.133900571460883
+        ],
+        "perimeter_mm": [
+          27.924546510936537,
+          29.123881293393715,
+          29.85652522345324
+        ]
+      },
+      "probe_station_ids": [
+        "B_28:27",
+        "B_28:28",
+        "B_28:29",
+        "B_28:30",
+        "B_28:31",
+        "B_28:32",
+        "B_28:33",
+        "B_28:34",
+        "B_28:35"
+      ],
+      "probe_status_counts": {
+        "PATH_LOCAL_SECTION": 9
+      },
+      "status": "TERMINAL_NEAR_CAP_PROBES"
+    },
+    {
+      "id": "T_21",
+      "incident_paths": [
+        "B_29"
+      ],
+      "limits": "No unique junction/terminal planar section or anatomical calyx label inferred.",
+      "position_mm": [
+        -3.84280967712402,
+        15.6382999420166,
+        -54.1789054870605
+      ],
+      "probe_metric_min_median_max": {
+        "area_mm2": [
+          10.95641945932963,
+          19.313360000323357,
+          24.613330258940465
+        ],
+        "equivalent_radius_mm": [
+          1.8674947472700116,
+          2.479442159746725,
+          2.79904740105047
+        ],
+        "flattening_1_minus_minor_major": [
+          0.019599153617491205,
+          0.11803991971466399,
+          0.1513452203733302
+        ],
+        "major_axis_mm": [
+          3.7831596068057562,
+          5.372585117145204,
+          5.968151526258702
+        ],
+        "minor_axis_mm": [
+          3.7090128805124825,
+          4.597238970947514,
+          5.263671399254176
+        ],
+        "perimeter_mm": [
+          12.084633461050899,
+          15.863074204990179,
+          17.863629461507973
+        ]
+      },
+      "probe_station_ids": [
+        "B_29:36",
+        "B_29:37",
+        "B_29:38",
+        "B_29:39",
+        "B_29:40",
+        "B_29:41",
+        "B_29:42",
+        "B_29:43",
+        "B_29:44"
+      ],
+      "probe_status_counts": {
+        "PATH_LOCAL_SECTION": 9
+      },
+      "status": "TERMINAL_NEAR_CAP_PROBES"
+    },
+    {
+      "id": "T_22",
+      "incident_paths": [
+        "B_30"
+      ],
+      "limits": "No unique junction/terminal planar section or anatomical calyx label inferred.",
+      "position_mm": [
+        1.61769676208496,
+        -0.0440918207168579,
+        -43.8436965942383
+      ],
+      "probe_metric_min_median_max": {
+        "area_mm2": [
+          15.794496292880845,
+          22.52200290383518,
+          35.44219946493772
+        ],
+        "equivalent_radius_mm": [
+          2.2422186149698264,
+          2.6774943848588704,
+          3.358809681685989
+        ],
+        "flattening_1_minus_minor_major": [
+          0.2372442159410153,
+          0.31027282201864126,
+          0.3317958560664286
+        ],
+        "major_axis_mm": [
+          5.508329432552842,
+          6.488468017745261,
+          7.746500731676601
+        ],
+        "minor_axis_mm": [
+          3.680688552983067,
+          4.47527273530174,
+          5.908688239303484
+        ],
+        "perimeter_mm": [
+          14.831313043340003,
+          17.711385063649214,
+          21.970416374907174
+        ]
+      },
+      "probe_station_ids": [
+        "B_30:40",
+        "B_30:41",
+        "B_30:42",
+        "B_30:43",
+        "B_30:44",
+        "B_30:45",
+        "B_30:46",
+        "B_30:47",
+        "B_30:48"
+      ],
+      "probe_status_counts": {
+        "PATH_LOCAL_SECTION": 9
+      },
+      "status": "TERMINAL_NEAR_CAP_PROBES"
+    }
+  ],
+  "paths": [
+    {
+      "anatomical_classification": "UNCONFIRMED; geometric wide/narrow/terminal/shared labels only",
+      "candidate_ring_metric_min_median_max_TOPOLOGY_NOT_CONFIRMED": {
+        "area_mm2": [
+          53.195089531753304,
+          70.54242099900236,
+          244.49593031303255
+        ],
+        "equivalent_radius_mm": [
+          4.114914688591848,
+          4.738602114476535,
+          8.821874616562027
+        ],
+        "flattening_1_minus_minor_major": [
+          0.12192889194772649,
+          0.23097993368370684,
+          0.7606875017513751
+        ],
+        "major_axis_mm": [
+          9.139480632965249,
+          10.28473234130586,
+          37.07932780526969
+        ],
+        "minor_axis_mm": [
+          5.802917897853722,
+          8.108317226654473,
+          22.060743653128256
+        ],
+        "perimeter_mm": [
+          26.417861653672684,
+          30.211020606871863,
+          112.82195452261097
+        ]
+      },
+      "chord_length_mm": 35.55305652495622,
+      "fixed_port_retained_subset_only": false,
+      "id": "MAIN",
+      "length_mm": 35.86910125159467,
+      "local_area_min_median_max_mm2": [
+        53.195089531753304,
+        61.75029161053973,
+        93.77307710077048
+      ],
+      "local_metric_min_median_max": {
+        "area_mm2": [
+          53.195089531753304,
+          61.75029161053973,
+          93.77307710077048
+        ],
+        "equivalent_radius_mm": [
+          4.114914688591848,
+          4.433267252037798,
+          5.4634144542630185
+        ],
+        "flattening_1_minus_minor_major": [
+          0.12192889194772649,
+          0.18418393701940416,
+          0.4207996493693009
+        ],
+        "major_axis_mm": [
+          9.139480632965249,
+          9.727249077612923,
+          14.472913904814678
+        ],
+        "minor_axis_mm": [
+          7.170142320294171,
+          8.171421646328216,
+          9.055580113591812
+        ],
+        "perimeter_mm": [
+          26.417861653672684,
+          28.229871563257664,
+          37.25674030213197
+        ]
+      },
+      "narrowest_valid_local_position_mm": [
+        -4.907838307742676,
+        16.48525238872687,
+        -94.02954577745771
+      ],
+      "narrowest_valid_local_station_arc_mm": 4.1,
+      "narrowest_valid_local_station_id": "MAIN:8",
+      "sampling_step_mm": 1.0,
+      "source_marker_names": [
+        "A_Start",
+        "A_Middle",
+        "A_End",
+        "J_01"
+      ],
+      "stations": 45,
+      "status_counts": {
+        "AMBIGUOUS_TOPOLOGY": 9,
+        "PATH_LOCAL_SECTION": 30,
+        "SHARED_JUNCTION_OR_INTERFACE_SECTION": 6
+      },
+      "sum_control_turn_angle_deg": 20.623560601232334,
+      "tortuosity_length_over_chord": 1.008889382729066
+    },
+    {
+      "anatomical_classification": "UNCONFIRMED; geometric wide/narrow/terminal/shared labels only",
+      "candidate_ring_metric_min_median_max_TOPOLOGY_NOT_CONFIRMED": {
+        "area_mm2": [
+          59.06291059275,
+          59.669902395536575,
+          61.584743997085965
+        ],
+        "equivalent_radius_mm": [
+          4.335932235224814,
+          4.3581555548329325,
+          4.427531236746988
+        ],
+        "flattening_1_minus_minor_major": [
+          0.27062602031058225,
+          0.28248341768687957,
+          0.2869606141471378
+        ],
+        "major_axis_mm": [
+          10.202149787352965,
+          10.274770267209892,
+          10.434246801749113
+        ],
+        "minor_axis_mm": [
+          7.330977078674314,
+          7.432590297681287,
+          7.567597282843557
+        ],
+        "perimeter_mm": [
+          27.95121584949789,
+          28.068149718486133,
+          28.488210629064138
+        ]
+      },
+      "chord_length_mm": 7.158330007303268,
+      "fixed_port_retained_subset_only": false,
+      "id": "BLADDER_TRANSITION",
+      "length_mm": 7.158330007303268,
+      "local_area_min_median_max_mm2": [
+        59.669902395536575,
+        61.189922706362694,
+        61.584743997085965
+      ],
+      "local_metric_min_median_max": {
+        "area_mm2": [
+          59.669902395536575,
+          61.189922706362694,
+          61.584743997085965
+        ],
+        "equivalent_radius_mm": [
+          4.3581555548329325,
+          4.413315911223358,
+          4.427531236746988
+        ],
+        "flattening_1_minus_minor_major": [
+          0.27062602031058225,
+          0.2748664929374054,
+          0.28333755240899217
+        ],
+        "major_axis_mm": [
+          10.237503126382267,
+          10.37546922919569,
+          10.434246801749113
+        ],
+        "minor_axis_mm": [
+          7.432590297681287,
+          7.477706328537574,
+          7.567597282843557
+        ],
+        "perimeter_mm": [
+          28.068149718486133,
+          28.454972081097452,
+          28.488210629064138
+        ]
+      },
+      "narrowest_valid_local_position_mm": [
+        -8.348575492712499,
+        16.593805100888094,
+        -97.63076508232669
+      ],
+      "narrowest_valid_local_station_arc_mm": 6.158330007303268,
+      "narrowest_valid_local_station_id": "BLADDER_TRANSITION:12",
+      "sampling_step_mm": 1.0,
+      "source_marker_names": [
+        "P_BLADDER_BASE",
+        "A_Start"
+      ],
+      "stations": 17,
+      "status_counts": {
+        "OUTSIDE_APPROVED_D2_CUTOFF": 8,
+        "PATH_LOCAL_SECTION": 5,
+        "SHARED_JUNCTION_OR_INTERFACE_SECTION": 4
+      },
+      "sum_control_turn_angle_deg": 0.0,
+      "tortuosity_length_over_chord": 1.0
+    },
+    {
+      "anatomical_classification": "UNCONFIRMED; geometric wide/narrow/terminal/shared labels only",
+      "candidate_ring_metric_min_median_max_TOPOLOGY_NOT_CONFIRMED": {
+        "area_mm2": [
+          25.042640773173254,
+          167.53430456683068,
+          297.56173046239724
+        ],
+        "equivalent_radius_mm": [
+          2.8233526407890204,
+          7.302590322519017,
+          9.732257731695018
+        ],
+        "flattening_1_minus_minor_major": [
+          0.1572300331067561,
+          0.6819480387034658,
+          0.812119284656007
+        ],
+        "major_axis_mm": [
+          6.39992123137258,
+          28.88639634983147,
+          49.77321653867731
+        ],
+        "minor_axis_mm": [
+          4.785624112944635,
+          8.04246703086901,
+          13.15526627702616
+        ],
+        "perimeter_mm": [
+          18.153319016966776,
+          66.10571173968299,
+          105.82603937227611
+        ]
+      },
+      "chord_length_mm": 18.08152841761244,
+      "fixed_port_retained_subset_only": false,
+      "id": "B_01",
+      "length_mm": 18.08152841761254,
+      "local_area_min_median_max_mm2": [
+        25.042640773173254,
+        26.695383548618498,
+        33.636999855908954
+      ],
+      "local_metric_min_median_max": {
+        "area_mm2": [
+          25.042640773173254,
+          26.695383548618498,
+          33.636999855908954
+        ],
+        "equivalent_radius_mm": [
+          2.8233526407890204,
+          2.915030788687041,
+          3.2721536632161032
+        ],
+        "flattening_1_minus_minor_major": [
+          0.1572300331067561,
+          0.16772542678675784,
+          0.3041199663879721
+        ],
+        "major_axis_mm": [
+          6.39992123137258,
+          6.676944705849896,
+          7.137371742951259
+        ],
+        "minor_axis_mm": [
+          4.785624112944635,
+          5.326491711438981,
+          6.015162547511807
+        ],
+        "perimeter_mm": [
+          18.153319016966776,
+          18.616077257358587,
+          20.866166433838092
+        ]
+      },
+      "narrowest_valid_local_position_mm": [
+        22.048201848384775,
+        18.759601827975583,
+        -85.17735321048805
+      ],
+      "narrowest_valid_local_station_arc_mm": 11.1,
+      "narrowest_valid_local_station_id": "B_01:15",
+      "sampling_step_mm": 1.0,
+      "source_marker_names": [
+        "J_01",
+        "B_01_P01",
+        "J_02"
+      ],
+      "stations": 27,
+      "status_counts": {
+        "AMBIGUOUS_TOPOLOGY": 15,
+        "PATH_LOCAL_SECTION": 5,
+        "SHARED_JUNCTION_OR_INTERFACE_SECTION": 7
+      },
+      "sum_control_turn_angle_deg": 1.198328416961092e-05,
+      "tortuosity_length_over_chord": 1.0000000000000056
+    },
+    {
+      "anatomical_classification": "UNCONFIRMED; geometric wide/narrow/terminal/shared labels only",
+      "candidate_ring_metric_min_median_max_TOPOLOGY_NOT_CONFIRMED": {
+        "area_mm2": [
+          21.071715331657543,
+          43.530974244751704,
+          143.30000022535032
+        ],
+        "equivalent_radius_mm": [
+          2.5898523720314928,
+          3.7222754638051767,
+          6.753799431569496
+        ],
+        "flattening_1_minus_minor_major": [
+          0.06071356152745322,
+          0.21275423130135473,
+          0.7132622331061362
+        ],
+        "major_axis_mm": [
+          5.530949708685248,
+          7.84469415849656,
+          33.21556590165695
+        ],
+        "minor_axis_mm": [
+          4.861007399154237,
+          6.834520262292749,
+          9.524157192757082
+        ],
+        "perimeter_mm": [
+          16.50962296272127,
+          23.618091715714456,
+          71.11917244750772
+        ]
+      },
+      "chord_length_mm": 16.701943285099876,
+      "fixed_port_retained_subset_only": false,
+      "id": "B_02",
+      "length_mm": 16.712130513987354,
+      "local_area_min_median_max_mm2": [
+        21.071715331657543,
+        33.042288320324566,
+        44.90461355897219
+      ],
+      "local_metric_min_median_max": {
+        "area_mm2": [
+          21.071715331657543,
+          33.042288320324566,
+          44.90461355897219
+        ],
+        "equivalent_radius_mm": [
+          2.5898523720314928,
+          3.2430983695371483,
+          3.7806854446096865
+        ],
+        "flattening_1_minus_minor_major": [
+          0.06071356152745322,
+          0.11744457846340794,
+          0.2782305037894066
+        ],
+        "major_axis_mm": [
+          5.530949708685248,
+          7.179266512780185,
+          7.991147383785917
+        ],
+        "minor_axis_mm": [
+          4.861007399154237,
+          5.875409152312564,
+          7.339087916155278
+        ],
+        "perimeter_mm": [
+          16.50962296272127,
+          20.71674224235477,
+          23.96103794163976
+        ]
+      },
+      "narrowest_valid_local_position_mm": [
+        16.95994155290869,
+        38.068072964018334,
+        -92.09136230760194
+      ],
+      "narrowest_valid_local_station_arc_mm": 16.612130513987353,
+      "narrowest_valid_local_station_id": "B_02:25",
+      "sampling_step_mm": 1.0,
+      "source_marker_names": [
+        "J_02",
+        "B_02_P01",
+        "T_01"
+      ],
+      "stations": 26,
+      "status_counts": {
+        "AMBIGUOUS_TOPOLOGY": 7,
+        "PATH_LOCAL_SECTION": 15,
+        "SHARED_JUNCTION_OR_INTERFACE_SECTION": 4
+      },
+      "sum_control_turn_angle_deg": 4.008933784816466,
+      "tortuosity_length_over_chord": 1.000609942730231
+    },
+    {
+      "anatomical_classification": "UNCONFIRMED; geometric wide/narrow/terminal/shared labels only",
+      "candidate_ring_metric_min_median_max_TOPOLOGY_NOT_CONFIRMED": {
+        "area_mm2": [
+          23.017894473998663,
+          37.077167910891774,
+          354.72921880693167
+        ],
+        "equivalent_radius_mm": [
+          2.7068105530696123,
+          3.4354013123667517,
+          10.626091344633707
+        ],
+        "flattening_1_minus_minor_major": [
+          0.25579433086346814,
+          0.316772522973366,
+          0.6943715914573254
+        ],
+        "major_axis_mm": [
+          6.451356006054051,
+          8.314441726060142,
+          49.657329378075644
+        ],
+        "minor_axis_mm": [
+          4.548090896176031,
+          5.687759320754639,
+          18.543006921525784
+        ],
+        "perimeter_mm": [
+          17.639484562900474,
+          22.34999006575868,
+          133.29830199888102
+        ]
+      },
+      "chord_length_mm": 14.568670999961046,
+      "fixed_port_retained_subset_only": false,
+      "id": "B_03",
+      "length_mm": 14.831100676360851,
+      "local_area_min_median_max_mm2": [
+        23.017894473998663,
+        32.222577383904536,
+        37.26530680429266
+      ],
+      "local_metric_min_median_max": {
+        "area_mm2": [
+          23.017894473998663,
+          32.222577383904536,
+          37.26530680429266
+        ],
+        "equivalent_radius_mm": [
+          2.7068105530696123,
+          3.2026184505212356,
+          3.444113175765053
+        ],
+        "flattening_1_minus_minor_major": [
+          0.25579433086346814,
+          0.29641244187070537,
+          0.31827445558729417
+        ],
+        "major_axis_mm": [
+          6.451356006054051,
+          7.651223078035139,
+          8.350204739700205
+        ],
+        "minor_axis_mm": [
+          4.548090896176031,
+          5.502800204536629,
+          5.714125690737706
+        ],
+        "perimeter_mm": [
+          17.639484562900474,
+          20.860274501284156,
+          22.409839708240906
+        ]
+      },
+      "narrowest_valid_local_position_mm": [
+        26.893464511643614,
+        27.187691135109482,
+        -87.2057524093154
+      ],
+      "narrowest_valid_local_station_arc_mm": 7.1,
+      "narrowest_valid_local_station_id": "B_03:11",
+      "sampling_step_mm": 1.0,
+      "source_marker_names": [
+        "J_02",
+        "B_03_P01",
+        "T_02"
+      ],
+      "stations": 24,
+      "status_counts": {
+        "AMBIGUOUS_TOPOLOGY": 7,
+        "PATH_LOCAL_SECTION": 13,
+        "SHARED_JUNCTION_OR_INTERFACE_SECTION": 4
+      },
+      "sum_control_turn_angle_deg": 21.699424890219014,
+      "tortuosity_length_over_chord": 1.018013288679558
+    },
+    {
+      "anatomical_classification": "UNCONFIRMED; geometric wide/narrow/terminal/shared labels only",
+      "candidate_ring_metric_min_median_max_TOPOLOGY_NOT_CONFIRMED": {
+        "area_mm2": [
+          10.461290405966363,
+          25.573152836980285,
+          175.2000530482922
+        ],
+        "equivalent_radius_mm": [
+          1.824810170526988,
+          2.8530628297027674,
+          7.467791436910647
+        ],
+        "flattening_1_minus_minor_major": [
+          0.022873117722921887,
+          0.1121256411097486,
+          0.8079583202402365
+        ],
+        "major_axis_mm": [
+          3.8460588492433327,
+          5.9054521604105386,
+          37.20319826852859
+        ],
+        "minor_axis_mm": [
+          3.4146308947322495,
+          5.600888290876094,
+          8.291778592425862
+        ],
+        "perimeter_mm": [
+          11.624462205951188,
+          18.197650464178064,
+          74.76146097659905
+        ]
+      },
+      "chord_length_mm": 18.212079364097384,
+      "fixed_port_retained_subset_only": false,
+      "id": "B_04",
+      "length_mm": 18.240110287131866,
+      "local_area_min_median_max_mm2": [
+        10.461290405966363,
+        19.735983372824812,
+        31.1954768641299
+      ],
+      "local_metric_min_median_max": {
+        "area_mm2": [
+          10.461290405966363,
+          19.735983372824812,
+          31.1954768641299
+        ],
+        "equivalent_radius_mm": [
+          1.824810170526988,
+          2.5053227611717075,
+          3.1511630694190145
+        ],
+        "flattening_1_minus_minor_major": [
+          0.022873117722921887,
+          0.0733061047569909,
+          0.2977955506314819
+        ],
+        "major_axis_mm": [
+          3.8460588492433327,
+          5.284841625091123,
+          6.612474038711698
+        ],
+        "minor_axis_mm": [
+          3.4146308947322495,
+          4.679877583532177,
+          6.208967796850832
+        ],
+        "perimeter_mm": [
+          11.624462205951188,
+          15.951823228606187,
+          20.041041963614404
+        ]
+      },
+      "narrowest_valid_local_position_mm": [
+        21.554465669648078,
+        23.57482304396113,
+        -98.85182660545881
+      ],
+      "narrowest_valid_local_station_arc_mm": 8.1,
+      "narrowest_valid_local_station_id": "B_04:12",
+      "sampling_step_mm": 1.0,
+      "source_marker_names": [
+        "J_02",
+        "B_04_P01",
+        "T_03"
+      ],
+      "stations": 28,
+      "status_counts": {
+        "AMBIGUOUS_TOPOLOGY": 7,
+        "PATH_LOCAL_SECTION": 20,
+        "SHARED_JUNCTION_OR_INTERFACE_SECTION": 1
+      },
+      "sum_control_turn_angle_deg": 6.35692236580052,
+      "tortuosity_length_over_chord": 1.0015391390776465
+    },
+    {
+      "anatomical_classification": "UNCONFIRMED; geometric wide/narrow/terminal/shared labels only",
+      "candidate_ring_metric_min_median_max_TOPOLOGY_NOT_CONFIRMED": {
+        "area_mm2": [
+          8.439559746803353,
+          25.01710188047892,
+          316.2398221987172
+        ],
+        "equivalent_radius_mm": [
+          1.639022666849448,
+          2.8219126230667633,
+          10.033058447495254
+        ],
+        "flattening_1_minus_minor_major": [
+          0.014591848089018922,
+          0.3996531126512426,
+          0.8072978979696135
+        ],
+        "major_axis_mm": [
+          4.3806350116570165,
+          6.769476051931402,
+          49.3360092936086
+        ],
+        "minor_axis_mm": [
+          2.4716147112844227,
+          5.2098258980497025,
+          12.07778964063296
+        ],
+        "perimeter_mm": [
+          11.163103593595356,
+          18.41189124569587,
+          113.54851319816117
+        ]
+      },
+      "chord_length_mm": 15.989508936019934,
+      "fixed_port_retained_subset_only": false,
+      "id": "B_05",
+      "length_mm": 16.020071224829515,
+      "local_area_min_median_max_mm2": [
+        8.439559746803353,
+        22.398229855221583,
+        26.739239466131103
+      ],
+      "local_metric_min_median_max": {
+        "area_mm2": [
+          8.439559746803353,
+          22.398229855221583,
+          26.739239466131103
+        ],
+        "equivalent_radius_mm": [
+          1.639022666849448,
+          2.670126962512076,
+          2.917424252847932
+        ],
+        "flattening_1_minus_minor_major": [
+          0.014591848089018922,
+          0.3677289446546731,
+          0.4357862034368595
+        ],
+        "major_axis_mm": [
+          4.3806350116570165,
+          6.019801929979485,
+          7.281582963377899
+        ],
+        "minor_axis_mm": [
+          2.4716147112844227,
+          4.597821836301622,
+          5.324793579912524
+        ],
+        "perimeter_mm": [
+          11.163103593595356,
+          17.252723555613443,
+          18.984702739776484
+        ]
+      },
+      "narrowest_valid_local_position_mm": [
+        31.311898003133134,
+        11.200106001570969,
+        -98.12439656401558
+      ],
+      "narrowest_valid_local_station_arc_mm": 15.920071224829515,
+      "narrowest_valid_local_station_id": "B_05:24",
+      "sampling_step_mm": 1.0,
+      "source_marker_names": [
+        "J_02",
+        "B_05_P01",
+        "T_04"
+      ],
+      "stations": 25,
+      "status_counts": {
+        "AMBIGUOUS_TOPOLOGY": 7,
+        "PATH_LOCAL_SECTION": 17,
+        "SHARED_JUNCTION_OR_INTERFACE_SECTION": 1
+      },
+      "sum_control_turn_angle_deg": 7.079858284015534,
+      "tortuosity_length_over_chord": 1.0019113963369277
+    },
+    {
+      "anatomical_classification": "UNCONFIRMED; geometric wide/narrow/terminal/shared labels only",
+      "candidate_ring_metric_min_median_max_TOPOLOGY_NOT_CONFIRMED": {
+        "area_mm2": [
+          29.176872803877107,
+          43.898866021637204,
+          358.7720386635067
+        ],
+        "equivalent_radius_mm": [
+          3.047505055188762,
+          3.7381068800858026,
+          10.686472139715116
+        ],
+        "flattening_1_minus_minor_major": [
+          0.1930100892929707,
+          0.38228593256463983,
+          0.8079659576875509
+        ],
+        "major_axis_mm": [
+          7.167241865137555,
+          9.827844261796551,
+          60.18645352653195
+        ],
+        "minor_axis_mm": [
+          4.45857271846753,
+          6.160018636749297,
+          24.5933553744254
+        ],
+        "perimeter_mm": [
+          19.76065887780985,
+          24.558006146660365,
+          150.47233606295362
+        ]
+      },
+      "chord_length_mm": 13.737590714871757,
+      "fixed_port_retained_subset_only": false,
+      "id": "B_06",
+      "length_mm": 13.737590714871757,
+      "local_area_min_median_max_mm2": [
+        29.176872803877107,
+        32.984974584641506,
+        38.136333380480664
+      ],
+      "local_metric_min_median_max": {
+        "area_mm2": [
+          29.176872803877107,
+          32.984974584641506,
+          38.136333380480664
+        ],
+        "equivalent_radius_mm": [
+          3.047505055188762,
+          3.2397851089266774,
+          3.4841314466891027
+        ],
+        "flattening_1_minus_minor_major": [
+          0.1930100892929707,
+          0.2471177218911671,
+          0.5463325832503074
+        ],
+        "major_axis_mm": [
+          7.167241865137555,
+          7.649873623042335,
+          9.827844261796551
+        ],
+        "minor_axis_mm": [
+          4.45857271846753,
+          5.451108488398697,
+          6.160018636749297
+        ],
+        "perimeter_mm": [
+          19.76065887780985,
+          21.048267281301737,
+          23.817322311484673
+        ]
+      },
+      "narrowest_valid_local_position_mm": [
+        29.402623268727595,
+        14.689003123164017,
+        -77.395255961349
+      ],
+      "narrowest_valid_local_station_arc_mm": 9.1,
+      "narrowest_valid_local_station_id": "B_06:13",
+      "sampling_step_mm": 1.0,
+      "source_marker_names": [
+        "J_01",
+        "B_06_P01",
+        "J_03"
+      ],
+      "stations": 23,
+      "status_counts": {
+        "AMBIGUOUS_TOPOLOGY": 13,
+        "PATH_LOCAL_SECTION": 6,
+        "SHARED_JUNCTION_OR_INTERFACE_SECTION": 4
+      },
+      "sum_control_turn_angle_deg": 0.0,
+      "tortuosity_length_over_chord": 1.0
+    },
+    {
+      "anatomical_classification": "UNCONFIRMED; geometric wide/narrow/terminal/shared labels only",
+      "candidate_ring_metric_min_median_max_TOPOLOGY_NOT_CONFIRMED": {
+        "area_mm2": [
+          8.49871390839493,
+          28.012318946312888,
+          86.03243923548243
+        ],
+        "equivalent_radius_mm": [
+          1.6447567166270485,
+          2.9859766927294302,
+          5.233065635090037
+        ],
+        "flattening_1_minus_minor_major": [
+          0.03197227563371141,
+          0.1402819099500479,
+          0.6239749215599775
+        ],
+        "major_axis_mm": [
+          3.6198276015885056,
+          6.4570131876968855,
+          17.282764920989585
+        ],
+        "minor_axis_mm": [
+          3.002444627027846,
+          5.498105633665741,
+          6.4987530350755796
+        ],
+        "perimeter_mm": [
+          10.617814153274775,
+          19.00457598305527,
+          39.11877647729667
+        ]
+      },
+      "chord_length_mm": 12.780381049926474,
+      "fixed_port_retained_subset_only": false,
+      "id": "B_07",
+      "length_mm": 12.896684430500137,
+      "local_area_min_median_max_mm2": [
+        8.49871390839493,
+        26.3483509899601,
+        30.571932409234602
+      ],
+      "local_metric_min_median_max": {
+        "area_mm2": [
+          8.49871390839493,
+          26.3483509899601,
+          30.571932409234602
+        ],
+        "equivalent_radius_mm": [
+          1.6447567166270485,
+          2.8960215131702265,
+          3.119510911281127
+        ],
+        "flattening_1_minus_minor_major": [
+          0.03197227563371141,
+          0.11138037304897286,
+          0.20314052811772254
+        ],
+        "major_axis_mm": [
+          3.6198276015885056,
+          6.126164621963096,
+          6.636303180841587
+        ],
+        "minor_axis_mm": [
+          3.002444627027846,
+          5.345783716259245,
+          5.879397345471381
+        ],
+        "perimeter_mm": [
+          10.617814153274775,
+          18.398393602255513,
+          19.769830236689046
+        ]
+      },
+      "narrowest_valid_local_position_mm": [
+        40.18425040661373,
+        26.73149841384615,
+        -78.462233304167
+      ],
+      "narrowest_valid_local_station_arc_mm": 12.796684430500138,
+      "narrowest_valid_local_station_id": "B_07:21",
+      "sampling_step_mm": 1.0,
+      "source_marker_names": [
+        "J_03",
+        "B_07_P01",
+        "T_05"
+      ],
+      "stations": 22,
+      "status_counts": {
+        "AMBIGUOUS_TOPOLOGY": 2,
+        "PATH_LOCAL_SECTION": 15,
+        "SHARED_JUNCTION_OR_INTERFACE_SECTION": 5
+      },
+      "sum_control_turn_angle_deg": 15.402932138419521,
+      "tortuosity_length_over_chord": 1.0091001496840606
+    },
+    {
+      "anatomical_classification": "UNCONFIRMED; geometric wide/narrow/terminal/shared labels only",
+      "candidate_ring_metric_min_median_max_TOPOLOGY_NOT_CONFIRMED": {
+        "area_mm2": [
+          9.21705517507959,
+          28.291736573046716,
+          119.1490127410238
+        ],
+        "equivalent_radius_mm": [
+          1.7128571988724872,
+          3.000923099399298,
+          6.158433947401426
+        ],
+        "flattening_1_minus_minor_major": [
+          0.028735763434304396,
+          0.19174459398337662,
+          0.7836567139403254
+        ],
+        "major_axis_mm": [
+          3.7962494999521446,
+          6.5854303152143405,
+          27.59258490221856
+        ],
+        "minor_axis_mm": [
+          3.1164076610828673,
+          5.401222509864272,
+          6.011473278840297
+        ],
+        "perimeter_mm": [
+          11.027328261090371,
+          19.1877720979746,
+          58.08473338124275
+        ]
+      },
+      "chord_length_mm": 13.27719655674414,
+      "fixed_port_retained_subset_only": false,
+      "id": "B_08",
+      "length_mm": 13.27771061407669,
+      "local_area_min_median_max_mm2": [
+        9.21705517507959,
+        25.171724143158386,
+        33.30793046487315
+      ],
+      "local_metric_min_median_max": {
+        "area_mm2": [
+          9.21705517507959,
+          25.171724143158386,
+          33.30793046487315
+        ],
+        "equivalent_radius_mm": [
+          1.7128571988724872,
+          2.8288828488921607,
+          3.2561086522552327
+        ],
+        "flattening_1_minus_minor_major": [
+          0.028735763434304396,
+          0.17470377370893442,
+          0.2477698564762234
+        ],
+        "major_axis_mm": [
+          3.7962494999521446,
+          6.053727819331099,
+          7.516991731235521
+        ],
+        "minor_axis_mm": [
+          3.1164076610828673,
+          5.091219395533205,
+          5.870279533070713
+        ],
+        "perimeter_mm": [
+          11.027328261090371,
+          18.068205733499482,
+          20.97670465239431
+        ]
+      },
+      "narrowest_valid_local_position_mm": [
+        42.584768907512476,
+        6.106336979670123,
+        -80.26680428693149
+      ],
+      "narrowest_valid_local_station_arc_mm": 13.177710614076691,
+      "narrowest_valid_local_station_id": "B_08:22",
+      "sampling_step_mm": 1.0,
+      "source_marker_names": [
+        "J_03",
+        "B_08_P01",
+        "T_06"
+      ],
+      "stations": 23,
+      "status_counts": {
+        "AMBIGUOUS_TOPOLOGY": 3,
+        "PATH_LOCAL_SECTION": 16,
+        "SHARED_JUNCTION_OR_INTERFACE_SECTION": 4
+      },
+      "sum_control_turn_angle_deg": 1.0096841784963766,
+      "tortuosity_length_over_chord": 1.0000387173098142
+    },
+    {
+      "anatomical_classification": "UNCONFIRMED; geometric wide/narrow/terminal/shared labels only",
+      "candidate_ring_metric_min_median_max_TOPOLOGY_NOT_CONFIRMED": {
+        "area_mm2": [
+          11.279803862644764,
+          25.99166697203576,
+          675.9650267619488
+        ],
+        "equivalent_radius_mm": [
+          1.8948543700490381,
+          2.8763526361169847,
+          14.668549714706597
+        ],
+        "flattening_1_minus_minor_major": [
+          0.13325234586163348,
+          0.3189743798158606,
+          0.7480515900846789
+        ],
+        "major_axis_mm": [
+          4.546254223903768,
+          6.961271739444289,
+          67.30831691926913
+        ],
+        "minor_axis_mm": [
+          3.1693674511915964,
+          4.975807854364918,
+          26.623080249477553
+        ],
+        "perimeter_mm": [
+          12.358256725447903,
+          18.8415942586498,
+          207.8570353874664
+        ]
+      },
+      "chord_length_mm": 21.33115848913605,
+      "fixed_port_retained_subset_only": false,
+      "id": "B_09",
+      "length_mm": 22.210762899717913,
+      "local_area_min_median_max_mm2": [
+        11.279803862644764,
+        20.882967167222862,
+        29.64028321626346
+      ],
+      "local_metric_min_median_max": {
+        "area_mm2": [
+          11.279803862644764,
+          20.882967167222862,
+          29.64028321626346
+        ],
+        "equivalent_radius_mm": [
+          1.8948543700490381,
+          2.5782265280572645,
+          3.071611169569505
+        ],
+        "flattening_1_minus_minor_major": [
+          0.13325234586163348,
+          0.28868165746071517,
+          0.3805512905238112
+        ],
+        "major_axis_mm": [
+          4.546254223903768,
+          6.110920690031725,
+          7.26276426581612
+        ],
+        "minor_axis_mm": [
+          3.1693674511915964,
+          4.659068074289086,
+          5.208389991703171
+        ],
+        "perimeter_mm": [
+          12.358256725447903,
+          16.774511881985966,
+          19.854343317393756
+        ]
+      },
+      "narrowest_valid_local_position_mm": [
+        30.746539013316813,
+        -5.560831722961672,
+        -71.75818616093379
+      ],
+      "narrowest_valid_local_station_arc_mm": 22.110762899717912,
+      "narrowest_valid_local_station_id": "B_09:31",
+      "sampling_step_mm": 1.0,
+      "source_marker_names": [
+        "J_01",
+        "B_09_P01",
+        "T_07"
+      ],
+      "stations": 32,
+      "status_counts": {
+        "AMBIGUOUS_TOPOLOGY": 12,
+        "PATH_LOCAL_SECTION": 20
+      },
+      "sum_control_turn_angle_deg": 32.43742415452002,
+      "tortuosity_length_over_chord": 1.0412356605493247
+    },
+    {
+      "anatomical_classification": "UNCONFIRMED; geometric wide/narrow/terminal/shared labels only",
+      "candidate_ring_metric_min_median_max_TOPOLOGY_NOT_CONFIRMED": {
+        "area_mm2": [
+          52.07230140040612,
+          213.28931923470822,
+          347.0746203080872
+        ],
+        "equivalent_radius_mm": [
+          4.071256357943002,
+          8.239666190436248,
+          10.510817422424843
+        ],
+        "flattening_1_minus_minor_major": [
+          0.25562538763458664,
+          0.44613233609636727,
+          0.6896594790586189
+        ],
+        "major_axis_mm": [
+          9.636708342629989,
+          31.320609830609797,
+          39.674607656454874
+        ],
+        "minor_axis_mm": [
+          6.161959904105649,
+          13.843352697746901,
+          23.133950208201014
+        ],
+        "perimeter_mm": [
+          26.552274530327704,
+          78.17141099121275,
+          131.5465206246509
+        ]
+      },
+      "chord_length_mm": 17.53151922619303,
+      "fixed_port_retained_subset_only": false,
+      "id": "B_10",
+      "length_mm": 17.531519226193133,
+      "local_area_min_median_max_mm2": [
+        52.07230140040612,
+        54.882152105777905,
+        62.328580922811284
+      ],
+      "local_metric_min_median_max": {
+        "area_mm2": [
+          52.07230140040612,
+          54.882152105777905,
+          62.328580922811284
+        ],
+        "equivalent_radius_mm": [
+          4.071256357943002,
+          4.17949190721215,
+          4.4541894323813
+        ],
+        "flattening_1_minus_minor_major": [
+          0.27134336225367084,
+          0.302061432423048,
+          0.44613233609636727
+        ],
+        "major_axis_mm": [
+          9.636708342629989,
+          10.054521301374951,
+          12.237039371972843
+        ],
+        "minor_axis_mm": [
+          6.777700410051375,
+          6.9275136852151125,
+          7.138655436970502
+        ],
+        "perimeter_mm": [
+          26.552274530327704,
+          27.710788475852528,
+          31.376627651459966
+        ]
+      },
+      "narrowest_valid_local_position_mm": [
+        21.33565970403428,
+        13.05622200053929,
+        -64.96629803318889
+      ],
+      "narrowest_valid_local_station_arc_mm": 11.1,
+      "narrowest_valid_local_station_id": "B_10:15",
+      "sampling_step_mm": 1.0,
+      "source_marker_names": [
+        "J_01",
+        "B_10_P01",
+        "J_04"
+      ],
+      "stations": 27,
+      "status_counts": {
+        "AMBIGUOUS_TOPOLOGY": 18,
+        "PATH_LOCAL_SECTION": 6,
+        "SHARED_JUNCTION_OR_INTERFACE_SECTION": 3
+      },
+      "sum_control_turn_angle_deg": 1.2372355563799738e-05,
+      "tortuosity_length_over_chord": 1.0000000000000058
+    },
+    {
+      "anatomical_classification": "UNCONFIRMED; geometric wide/narrow/terminal/shared labels only",
+      "candidate_ring_metric_min_median_max_TOPOLOGY_NOT_CONFIRMED": {
+        "area_mm2": [
+          105.18204616752271,
+          201.42865488262913,
+          284.99653828547434
+        ],
+        "equivalent_radius_mm": [
+          5.78623237903235,
+          8.00729243938572,
+          9.524558554832012
+        ],
+        "flattening_1_minus_minor_major": [
+          0.10678748748274236,
+          0.34747931207930116,
+          0.6818291917492152
+        ],
+        "major_axis_mm": [
+          15.723605537302086,
+          24.54671576051598,
+          45.232724242307945
+        ],
+        "minor_axis_mm": [
+          9.428110001190994,
+          15.86535316245104,
+          20.503528553523083
+        ],
+        "perimeter_mm": [
+          41.909177805023305,
+          84.73113359700403,
+          123.71590989647211
+        ]
+      },
+      "chord_length_mm": 7.871930718066256,
+      "fixed_port_retained_subset_only": false,
+      "id": "B_11",
+      "length_mm": 7.949113981741135,
+      "local_area_min_median_max_mm2": null,
+      "local_metric_min_median_max": {
+        "area_mm2": null,
+        "equivalent_radius_mm": null,
+        "flattening_1_minus_minor_major": null,
+        "major_axis_mm": null,
+        "minor_axis_mm": null,
+        "perimeter_mm": null
+      },
+      "narrowest_valid_local_position_mm": null,
+      "narrowest_valid_local_station_arc_mm": null,
+      "narrowest_valid_local_station_id": null,
+      "sampling_step_mm": 0.5,
+      "source_marker_names": [
+        "J_04",
+        "B_11_P01",
+        "J_05"
+      ],
+      "stations": 25,
+      "status_counts": {
+        "AMBIGUOUS_TOPOLOGY": 17,
+        "SHARED_JUNCTION_OR_INTERFACE_SECTION": 8
+      },
+      "sum_control_turn_angle_deg": 15.986275724008658,
+      "tortuosity_length_over_chord": 1.0098048708047878
+    },
+    {
+      "anatomical_classification": "UNCONFIRMED; geometric wide/narrow/terminal/shared labels only",
+      "candidate_ring_metric_min_median_max_TOPOLOGY_NOT_CONFIRMED": {
+        "area_mm2": [
+          10.019599117406258,
+          37.8468160511713,
+          355.1710762619233
+        ],
+        "equivalent_radius_mm": [
+          1.785871623232979,
+          3.4707160303373565,
+          10.632707315670231
+        ],
+        "flattening_1_minus_minor_major": [
+          0.020946552707927335,
+          0.20349886005084133,
+          0.5967027378307193
+        ],
+        "major_axis_mm": [
+          3.6329753524908215,
+          7.705253226105038,
+          29.805943299354997
+        ],
+        "minor_axis_mm": [
+          3.5361924828079387,
+          6.428146214891406,
+          26.74995245898363
+        ],
+        "perimeter_mm": [
+          11.46463543344488,
+          22.14990545063778,
+          105.22439094175006
+        ]
+      },
+      "chord_length_mm": 17.35165089550978,
+      "fixed_port_retained_subset_only": false,
+      "id": "B_12",
+      "length_mm": 18.194525314051454,
+      "local_area_min_median_max_mm2": [
+        10.019599117406258,
+        23.84268129527929,
+        39.12584166088018
+      ],
+      "local_metric_min_median_max": {
+        "area_mm2": [
+          10.019599117406258,
+          23.84268129527929,
+          39.12584166088018
+        ],
+        "equivalent_radius_mm": [
+          1.785871623232979,
+          2.7534671503666255,
+          3.5290426755594475
+        ],
+        "flattening_1_minus_minor_major": [
+          0.020946552707927335,
+          0.18711922749192167,
+          0.3703011950412567
+        ],
+        "major_axis_mm": [
+          3.6329753524908215,
+          5.994983355056796,
+          7.80758224879029
+        ],
+        "minor_axis_mm": [
+          3.5361924828079387,
+          5.0146925844493335,
+          6.463064240535077
+        ],
+        "perimeter_mm": [
+          11.46463543344488,
+          17.588035714484164,
+          22.472203615506647
+        ]
+      },
+      "narrowest_valid_local_position_mm": [
+        25.09350680269644,
+        27.5321795934242,
+        -71.459339064156
+      ],
+      "narrowest_valid_local_station_arc_mm": 18.1,
+      "narrowest_valid_local_station_id": "B_12:45",
+      "sampling_step_mm": 0.5,
+      "source_marker_names": [
+        "J_05",
+        "B_12_P01",
+        "T_08"
+      ],
+      "stations": 46,
+      "status_counts": {
+        "AMBIGUOUS_TOPOLOGY": 20,
+        "PATH_LOCAL_SECTION": 26
+      },
+      "sum_control_turn_angle_deg": 35.59303221370303,
+      "tortuosity_length_over_chord": 1.0485760359989602
+    },
+    {
+      "anatomical_classification": "UNCONFIRMED; geometric wide/narrow/terminal/shared labels only",
+      "candidate_ring_metric_min_median_max_TOPOLOGY_NOT_CONFIRMED": {
+        "area_mm2": [
+          7.455388354822145,
+          27.55003211940764,
+          285.24291863234714
+        ],
+        "equivalent_radius_mm": [
+          1.5404946668779465,
+          2.9612849353835804,
+          9.528674669889547
+        ],
+        "flattening_1_minus_minor_major": [
+          0.006288939638317448,
+          0.1028824427595057,
+          0.6970446743967282
+        ],
+        "major_axis_mm": [
+          3.3180192173635534,
+          6.120688222114769,
+          31.35951281390608
+        ],
+        "minor_axis_mm": [
+          2.8715299474093494,
+          5.825292794867185,
+          20.979617718100435
+        ],
+        "perimeter_mm": [
+          9.88679911841227,
+          18.800256547574687,
+          109.64034702431371
+        ]
+      },
+      "chord_length_mm": 19.348093657252626,
+      "fixed_port_retained_subset_only": false,
+      "id": "B_13",
+      "length_mm": 19.350674804342763,
+      "local_area_min_median_max_mm2": [
+        7.455388354822145,
+        19.03258910052915,
+        28.678405010393472
+      ],
+      "local_metric_min_median_max": {
+        "area_mm2": [
+          7.455388354822145,
+          19.03258910052915,
+          28.678405010393472
+        ],
+        "equivalent_radius_mm": [
+          1.5404946668779465,
+          2.4613535443678725,
+          3.021360593307426
+        ],
+        "flattening_1_minus_minor_major": [
+          0.006288939638317448,
+          0.046491169354265116,
+          0.1345650042102461
+        ],
+        "major_axis_mm": [
+          3.3180192173635534,
+          5.028522387826643,
+          6.178966043144488
+        ],
+        "minor_axis_mm": [
+          2.8715299474093494,
+          4.789093896942134,
+          5.921656364402901
+        ],
+        "perimeter_mm": [
+          9.88679911841227,
+          15.615114465216475,
+          19.141724848791476
+        ]
+      },
+      "narrowest_valid_local_position_mm": [
+        35.49286092491005,
+        34.61003413066422,
+        -63.1928095935259
+      ],
+      "narrowest_valid_local_station_arc_mm": 19.25067480434276,
+      "narrowest_valid_local_station_id": "B_13:47",
+      "sampling_step_mm": 0.5,
+      "source_marker_names": [
+        "J_05",
+        "B_13_P01",
+        "T_09"
+      ],
+      "stations": 48,
+      "status_counts": {
+        "AMBIGUOUS_TOPOLOGY": 17,
+        "PATH_LOCAL_SECTION": 27,
+        "SHARED_JUNCTION_OR_INTERFACE_SECTION": 4
+      },
+      "sum_control_turn_angle_deg": 1.8720155628599775,
+      "tortuosity_length_over_chord": 1.0001334057574798
+    },
+    {
+      "anatomical_classification": "UNCONFIRMED; geometric wide/narrow/terminal/shared labels only",
+      "candidate_ring_metric_min_median_max_TOPOLOGY_NOT_CONFIRMED": {
+        "area_mm2": [
+          21.91758221410679,
+          46.064564505726786,
+          410.93358783583363
+        ],
+        "equivalent_radius_mm": [
+          2.6413222257036737,
+          3.82920439320282,
+          11.436967411561552
+        ],
+        "flattening_1_minus_minor_major": [
+          0.07723566888571942,
+          0.33648156932866835,
+          0.6452457907312656
+        ],
+        "major_axis_mm": [
+          5.8490929347269836,
+          9.52756543089245,
+          48.43889763194911
+        ],
+        "minor_axis_mm": [
+          4.633321064243903,
+          6.098882689993331,
+          17.2197981936759
+        ],
+        "perimeter_mm": [
+          16.886488440228952,
+          25.253695902932552,
+          135.28941083894912
+        ]
+      },
+      "chord_length_mm": 16.654657613100298,
+      "fixed_port_retained_subset_only": false,
+      "id": "B_14",
+      "length_mm": 17.04181993072456,
+      "local_area_min_median_max_mm2": [
+        21.91758221410679,
+        30.689150724305442,
+        49.3330509651171
+      ],
+      "local_metric_min_median_max": {
+        "area_mm2": [
+          21.91758221410679,
+          30.689150724305442,
+          49.3330509651171
+        ],
+        "equivalent_radius_mm": [
+          2.6413222257036737,
+          3.1254851579759535,
+          3.9627260614134774
+        ],
+        "flattening_1_minus_minor_major": [
+          0.18208868577903192,
+          0.300290508467712,
+          0.36052716270861573
+        ],
+        "major_axis_mm": [
+          5.8490929347269836,
+          7.535915761841689,
+          9.82874628523896
+        ],
+        "minor_axis_mm": [
+          4.633321064243903,
+          5.285838792418257,
+          6.422787325458417
+        ],
+        "perimeter_mm": [
+          16.886488440228952,
+          20.345612486929166,
+          25.999153769360195
+        ]
+      },
+      "narrowest_valid_local_position_mm": [
+        35.17356540582181,
+        16.76106359612869,
+        -61.67744823258791
+      ],
+      "narrowest_valid_local_station_arc_mm": 8.1,
+      "narrowest_valid_local_station_id": "B_14:20",
+      "sampling_step_mm": 0.5,
+      "source_marker_names": [
+        "J_05",
+        "B_14_P01",
+        "T_10"
+      ],
+      "stations": 43,
+      "status_counts": {
+        "AMBIGUOUS_TOPOLOGY": 9,
+        "PATH_LOCAL_SECTION": 26,
+        "SHARED_JUNCTION_OR_INTERFACE_SECTION": 8
+      },
+      "sum_control_turn_angle_deg": 24.565712744218498,
+      "tortuosity_length_over_chord": 1.023246489157467
+    },
+    {
+      "anatomical_classification": "UNCONFIRMED; geometric wide/narrow/terminal/shared labels only",
+      "candidate_ring_metric_min_median_max_TOPOLOGY_NOT_CONFIRMED": {
+        "area_mm2": [
+          16.722105322355315,
+          61.01032661692862,
+          931.3701352844071
+        ],
+        "equivalent_radius_mm": [
+          2.3071218957636983,
+          4.403974713947908,
+          17.218139323322987
+        ],
+        "flattening_1_minus_minor_major": [
+          0.04847529773871073,
+          0.4051153240528092,
+          0.6519831526535509
+        ],
+        "major_axis_mm": [
+          4.979641368474023,
+          13.575982365265105,
+          80.22803602469286
+        ],
+        "minor_axis_mm": [
+          4.0023820499281735,
+          6.58762298213815,
+          32.1360503502414
+        ],
+        "perimeter_mm": [
+          14.727996942316063,
+          33.115432891744305,
+          286.00761409889606
+        ]
+      },
+      "chord_length_mm": 21.198637408147224,
+      "fixed_port_retained_subset_only": false,
+      "id": "B_15",
+      "length_mm": 21.344795319115416,
+      "local_area_min_median_max_mm2": [
+        16.722105322355315,
+        24.727328134756537,
+        36.165706665051125
+      ],
+      "local_metric_min_median_max": {
+        "area_mm2": [
+          16.722105322355315,
+          24.727328134756537,
+          36.165706665051125
+        ],
+        "equivalent_radius_mm": [
+          2.3071218957636983,
+          2.8045551562221758,
+          3.392919387829423
+        ],
+        "flattening_1_minus_minor_major": [
+          0.04847529773871073,
+          0.08014219390506921,
+          0.34089475386538837
+        ],
+        "major_axis_mm": [
+          4.979641368474023,
+          6.013238222106599,
+          7.0092019091666575
+        ],
+        "minor_axis_mm": [
+          4.0023820499281735,
+          5.420716043018555,
+          6.598354414069185
+        ],
+        "perimeter_mm": [
+          14.727996942316063,
+          17.858698392011057,
+          21.672783549860647
+        ]
+      },
+      "narrowest_valid_local_position_mm": [
+        14.881208405334158,
+        22.05413736734912,
+        -57.869131984813386
+      ],
+      "narrowest_valid_local_station_arc_mm": 14.1,
+      "narrowest_valid_local_station_id": "B_15:32",
+      "sampling_step_mm": 0.5,
+      "source_marker_names": [
+        "J_05",
+        "B_15_P01",
+        "T_11"
+      ],
+      "stations": 52,
+      "status_counts": {
+        "AMBIGUOUS_TOPOLOGY": 22,
+        "PATH_LOCAL_SECTION": 22,
+        "SHARED_JUNCTION_OR_INTERFACE_SECTION": 8
+      },
+      "sum_control_turn_angle_deg": 13.4336661156504,
+      "tortuosity_length_over_chord": 1.0068946842268276
+    },
+    {
+      "anatomical_classification": "UNCONFIRMED; geometric wide/narrow/terminal/shared labels only",
+      "candidate_ring_metric_min_median_max_TOPOLOGY_NOT_CONFIRMED": {
+        "area_mm2": [
+          18.18238938625661,
+          62.22651414035941,
+          778.5899108078868
+        ],
+        "equivalent_radius_mm": [
+          2.4057502563833815,
+          4.450540937193123,
+          15.74270834047008
+        ],
+        "flattening_1_minus_minor_major": [
+          0.009235851121924044,
+          0.5313813317222456,
+          0.7784355594364203
+        ],
+        "major_axis_mm": [
+          4.968576108854573,
+          16.4115806541624,
+          68.2044827291204
+        ],
+        "minor_axis_mm": [
+          4.667942943014657,
+          5.780217765386728,
+          29.705574120353276
+        ],
+        "perimeter_mm": [
+          15.271628548196869,
+          36.205851611300474,
+          227.0244822942148
+        ]
+      },
+      "chord_length_mm": 20.92249187869259,
+      "fixed_port_retained_subset_only": false,
+      "id": "B_16",
+      "length_mm": 22.66862690255269,
+      "local_area_min_median_max_mm2": [
+        18.18238938625661,
+        24.63496962479611,
+        30.229660914704713
+      ],
+      "local_metric_min_median_max": {
+        "area_mm2": [
+          18.18238938625661,
+          24.63496962479611,
+          30.229660914704713
+        ],
+        "equivalent_radius_mm": [
+          2.4057502563833815,
+          2.8002775536382085,
+          3.101999343187268
+        ],
+        "flattening_1_minus_minor_major": [
+          0.009235851121924044,
+          0.05647568560144256,
+          0.12671420706623282
+        ],
+        "major_axis_mm": [
+          4.968576108854573,
+          5.737742916223577,
+          6.542128347944308
+        ],
+        "minor_axis_mm": [
+          4.667942943014657,
+          5.43829505983481,
+          5.904586144069074
+        ],
+        "perimeter_mm": [
+          15.271628548196869,
+          17.832871668714564,
+          19.809081387550414
+        ]
+      },
+      "narrowest_valid_local_position_mm": [
+        18.68245428460452,
+        36.122000153628406,
+        -59.675193848333784
+      ],
+      "narrowest_valid_local_station_arc_mm": 22.6,
+      "narrowest_valid_local_station_id": "B_16:54",
+      "sampling_step_mm": 0.5,
+      "source_marker_names": [
+        "J_05",
+        "B_16_P01",
+        "T_12"
+      ],
+      "stations": 55,
+      "status_counts": {
+        "AMBIGUOUS_TOPOLOGY": 17,
+        "PATH_LOCAL_SECTION": 25,
+        "SHARED_JUNCTION_OR_INTERFACE_SECTION": 13
+      },
+      "sum_control_turn_angle_deg": 45.79310002031394,
+      "tortuosity_length_over_chord": 1.0834573163648045
+    },
+    {
+      "anatomical_classification": "UNCONFIRMED; geometric wide/narrow/terminal/shared labels only",
+      "candidate_ring_metric_min_median_max_TOPOLOGY_NOT_CONFIRMED": {
+        "area_mm2": [
+          14.317430327981107,
+          61.53699779934762,
+          540.3389409989242
+        ],
+        "equivalent_radius_mm": [
+          2.134802009120288,
+          4.425223689394672,
+          13.114695071180174
+        ],
+        "flattening_1_minus_minor_major": [
+          0.107778438508641,
+          0.40570325947606195,
+          0.7851644981659912
+        ],
+        "major_axis_mm": [
+          4.599532209209954,
+          15.533525881595475,
+          54.198426851487135
+        ],
+        "minor_axis_mm": [
+          3.9821226619441727,
+          5.964900629768046,
+          27.368186957932828
+        ],
+        "perimeter_mm": [
+          13.667364868855712,
+          35.13477139588291,
+          174.029382463762
+        ]
+      },
+      "chord_length_mm": 19.320395287782603,
+      "fixed_port_retained_subset_only": false,
+      "id": "B_17",
+      "length_mm": 19.369495507392543,
+      "local_area_min_median_max_mm2": [
+        14.317430327981107,
+        25.877408349011677,
+        34.55631027432008
+      ],
+      "local_metric_min_median_max": {
+        "area_mm2": [
+          14.317430327981107,
+          25.877408349011677,
+          34.55631027432008
+        ],
+        "equivalent_radius_mm": [
+          2.134802009120288,
+          2.8698554275797465,
+          3.3165667776106336
+        ],
+        "flattening_1_minus_minor_major": [
+          0.107778438508641,
+          0.17762152539959575,
+          0.35715326183515106
+        ],
+        "major_axis_mm": [
+          4.599532209209954,
+          6.592052188723093,
+          7.388623985013074
+        ],
+        "minor_axis_mm": [
+          3.9821226619441727,
+          5.24915261533643,
+          5.993132753920299
+        ],
+        "perimeter_mm": [
+          13.667364868855712,
+          18.660960643816388,
+          21.25236734037306
+        ]
+      },
+      "narrowest_valid_local_position_mm": [
+        26.299550065825947,
+        35.14264214783157,
+        -49.83285323408765
+      ],
+      "narrowest_valid_local_station_arc_mm": 19.26949550739254,
+      "narrowest_valid_local_station_id": "B_17:47",
+      "sampling_step_mm": 0.5,
+      "source_marker_names": [
+        "J_05",
+        "B_17_P01",
+        "T_13"
+      ],
+      "stations": 48,
+      "status_counts": {
+        "AMBIGUOUS_TOPOLOGY": 18,
+        "PATH_LOCAL_SECTION": 22,
+        "SHARED_JUNCTION_OR_INTERFACE_SECTION": 8
+      },
+      "sum_control_turn_angle_deg": 8.168083966199855,
+      "tortuosity_length_over_chord": 1.0025413672380186
+    },
+    {
+      "anatomical_classification": "UNCONFIRMED; geometric wide/narrow/terminal/shared labels only",
+      "candidate_ring_metric_min_median_max_TOPOLOGY_NOT_CONFIRMED": {
+        "area_mm2": [
+          14.96153226534561,
+          40.92232460590342,
+          611.5612504517189
+        ],
+        "equivalent_radius_mm": [
+          2.1822932049835266,
+          3.609152322593389,
+          13.95227551425585
+        ],
+        "flattening_1_minus_minor_major": [
+          0.009404705873095387,
+          0.17970079368289527,
+          0.6383209258855915
+        ],
+        "major_axis_mm": [
+          4.390437741819726,
+          10.597919091877543,
+          57.82883948749951
+        ],
+        "minor_axis_mm": [
+          4.3463788176546005,
+          6.642968211378709,
+          31.487634009742916
+        ],
+        "perimeter_mm": [
+          13.886573897584606,
+          28.68191345007718,
+          234.87575738219422
+        ]
+      },
+      "chord_length_mm": 15.507097118159011,
+      "fixed_port_retained_subset_only": false,
+      "id": "B_18",
+      "length_mm": 15.746489778243264,
+      "local_area_min_median_max_mm2": [
+        14.96153226534561,
+        29.196634144196615,
+        38.68727609684186
+      ],
+      "local_metric_min_median_max": {
+        "area_mm2": [
+          14.96153226534561,
+          29.196634144196615,
+          38.68727609684186
+        ],
+        "equivalent_radius_mm": [
+          2.1822932049835266,
+          3.048163773440951,
+          3.5092082370738016
+        ],
+        "flattening_1_minus_minor_major": [
+          0.009404705873095387,
+          0.09875993834999902,
+          0.12308781991020423
+        ],
+        "major_axis_mm": [
+          4.390437741819726,
+          6.409275831810471,
+          7.431340750687634
+        ],
+        "minor_axis_mm": [
+          4.3463788176546005,
+          5.743719713148202,
+          6.662460810086723
+        ],
+        "perimeter_mm": [
+          13.886573897584606,
+          19.349969928027043,
+          22.28494839727772
+        ]
+      },
+      "narrowest_valid_local_position_mm": [
+        31.686845300774234,
+        19.4541138275647,
+        -42.72359201992959
+      ],
+      "narrowest_valid_local_station_arc_mm": 15.646489778243264,
+      "narrowest_valid_local_station_id": "B_18:40",
+      "sampling_step_mm": 0.5,
+      "source_marker_names": [
+        "J_05",
+        "B_18_P01",
+        "T_14"
+      ],
+      "stations": 41,
+      "status_counts": {
+        "AMBIGUOUS_TOPOLOGY": 14,
+        "PATH_LOCAL_SECTION": 20,
+        "SHARED_JUNCTION_OR_INTERFACE_SECTION": 7
+      },
+      "sum_control_turn_angle_deg": 20.06713675548756,
+      "tortuosity_length_over_chord": 1.0154376191920487
+    },
+    {
+      "anatomical_classification": "UNCONFIRMED; geometric wide/narrow/terminal/shared labels only",
+      "candidate_ring_metric_min_median_max_TOPOLOGY_NOT_CONFIRMED": {
+        "area_mm2": [
+          51.609583333272,
+          139.9393927654703,
+          332.5462174293565
+        ],
+        "equivalent_radius_mm": [
+          4.053127261363338,
+          6.674136062727942,
+          10.288476496585321
+        ],
+        "flattening_1_minus_minor_major": [
+          0.1436987868765155,
+          0.42381673144890564,
+          0.6983026295590269
+        ],
+        "major_axis_mm": [
+          8.982223677479931,
+          25.33218299426922,
+          26.816638577403832
+        ],
+        "minor_axis_mm": [
+          6.828134340266964,
+          8.243830856196444,
+          22.581912201593333
+        ],
+        "perimeter_mm": [
+          25.906617936530136,
+          55.6199054567857,
+          111.93052764259858
+        ]
+      },
+      "chord_length_mm": 9.575941761430052,
+      "fixed_port_retained_subset_only": false,
+      "id": "B_19",
+      "length_mm": 9.575941761430371,
+      "local_area_min_median_max_mm2": [
+        51.609583333272,
+        52.609405640056664,
+        54.103100761072255
+      ],
+      "local_metric_min_median_max": {
+        "area_mm2": [
+          51.609583333272,
+          52.609405640056664,
+          54.103100761072255
+        ],
+        "equivalent_radius_mm": [
+          4.053127261363338,
+          4.092199154670177,
+          4.149885762939394
+        ],
+        "flattening_1_minus_minor_major": [
+          0.1436987868765155,
+          0.21318590345409982,
+          0.304572537119951
+        ],
+        "major_axis_mm": [
+          8.982223677479931,
+          9.144101614029005,
+          9.818614743784885
+        ],
+        "minor_axis_mm": [
+          6.828134340266964,
+          7.194708050166139,
+          7.6914890315725515
+        ],
+        "perimeter_mm": [
+          25.906617936530136,
+          26.491201058905727,
+          26.507408677565483
+        ]
+      },
+      "narrowest_valid_local_position_mm": [
+        19.86063275376452,
+        11.749876502997843,
+        -54.072700881733255
+      ],
+      "narrowest_valid_local_station_arc_mm": 5.1,
+      "narrowest_valid_local_station_id": "B_19:9",
+      "sampling_step_mm": 1.0,
+      "source_marker_names": [
+        "J_04",
+        "B_19_P01",
+        "J_06"
+      ],
+      "stations": 19,
+      "status_counts": {
+        "AMBIGUOUS_TOPOLOGY": 10,
+        "PATH_LOCAL_SECTION": 3,
+        "SHARED_JUNCTION_OR_INTERFACE_SECTION": 6
+      },
+      "sum_control_turn_angle_deg": 2.955093006933017e-05,
+      "tortuosity_length_over_chord": 1.0000000000000333
+    },
+    {
+      "anatomical_classification": "UNCONFIRMED; geometric wide/narrow/terminal/shared labels only",
+      "candidate_ring_metric_min_median_max_TOPOLOGY_NOT_CONFIRMED": {
+        "area_mm2": [
+          13.81955989564362,
+          36.30061709983818,
+          762.2686854901018
+        ],
+        "equivalent_radius_mm": [
+          2.097356082665125,
+          3.399025187005987,
+          15.576830824009807
+        ],
+        "flattening_1_minus_minor_major": [
+          0.0010174615763824946,
+          0.16580265333147026,
+          0.5276915078581512
+        ],
+        "major_axis_mm": [
+          4.5628221015309975,
+          7.17761556397766,
+          65.85011956511859
+        ],
+        "minor_axis_mm": [
+          3.8905318867886116,
+          6.370127818106752,
+          31.649715087152703
+        ],
+        "perimeter_mm": [
+          13.480868816412789,
+          21.678777833218646,
+          226.73048960862246
+        ]
+      },
+      "chord_length_mm": 17.17542083083358,
+      "fixed_port_retained_subset_only": false,
+      "id": "B_20",
+      "length_mm": 18.322956089535673,
+      "local_area_min_median_max_mm2": [
+        13.81955989564362,
+        26.010876216647006,
+        43.26134947868243
+      ],
+      "local_metric_min_median_max": {
+        "area_mm2": [
+          13.81955989564362,
+          26.010876216647006,
+          43.26134947868243
+        ],
+        "equivalent_radius_mm": [
+          2.097356082665125,
+          2.8774153415976595,
+          3.7108644853614092
+        ],
+        "flattening_1_minus_minor_major": [
+          0.0010174615763824946,
+          0.10037387724380387,
+          0.1738462553704978
+        ],
+        "major_axis_mm": [
+          4.5628221015309975,
+          6.276745796504181,
+          7.7362918041412545
+        ],
+        "minor_axis_mm": [
+          3.8905318867886116,
+          5.281183240575708,
+          7.243467381796051
+        ],
+        "perimeter_mm": [
+          13.480868816412789,
+          18.296861193701353,
+          23.681602068699092
+        ]
+      },
+      "narrowest_valid_local_position_mm": [
+        27.33635844399846,
+        -4.058217595864736,
+        -50.43131515060203
+      ],
+      "narrowest_valid_local_station_arc_mm": 18.22295608953567,
+      "narrowest_valid_local_station_id": "B_20:27",
+      "sampling_step_mm": 1.0,
+      "source_marker_names": [
+        "J_06",
+        "B_20_P01",
+        "T_15"
+      ],
+      "stations": 28,
+      "status_counts": {
+        "AMBIGUOUS_TOPOLOGY": 9,
+        "PATH_LOCAL_SECTION": 19
+      },
+      "sum_control_turn_angle_deg": 40.795777717507576,
+      "tortuosity_length_over_chord": 1.066812642904331
+    },
+    {
+      "anatomical_classification": "UNCONFIRMED; geometric wide/narrow/terminal/shared labels only",
+      "candidate_ring_metric_min_median_max_TOPOLOGY_NOT_CONFIRMED": {
+        "area_mm2": [
+          64.96532567804722,
+          81.41078473016509,
+          299.7611562171353
+        ],
+        "equivalent_radius_mm": [
+          4.547428440610375,
+          5.09056555026963,
+          9.768159474424946
+        ],
+        "flattening_1_minus_minor_major": [
+          0.1338010052593973,
+          0.20681883606918938,
+          0.24990881002121434
+        ],
+        "major_axis_mm": [
+          9.871391378176778,
+          11.227178254916524,
+          25.577072528492657
+        ],
+        "minor_axis_mm": [
+          8.21512040693154,
+          9.487770872606902,
+          19.761260897983107
+        ],
+        "perimeter_mm": [
+          28.97084801194003,
+          33.57913415325288,
+          87.73156014965065
+        ]
+      },
+      "chord_length_mm": 9.342093548081158,
+      "fixed_port_retained_subset_only": false,
+      "id": "B_21",
+      "length_mm": 9.342093548081158,
+      "local_area_min_median_max_mm2": [
+        67.44528807214404,
+        69.04120465766225,
+        70.63712124318046
+      ],
+      "local_metric_min_median_max": {
+        "area_mm2": [
+          67.44528807214404,
+          69.04120465766225,
+          70.63712124318046
+        ],
+        "equivalent_radius_mm": [
+          4.633411482900817,
+          4.6875966089972145,
+          4.741781735093613
+        ],
+        "flattening_1_minus_minor_major": [
+          0.1338010052593973,
+          0.13453054721433855,
+          0.13526008916927978
+        ],
+        "major_axis_mm": [
+          9.988742746109823,
+          10.108951454281033,
+          10.229160162452244
+        ],
+        "minor_axis_mm": [
+          8.637664511582011,
+          8.749076380669383,
+          8.860488249756754
+        ],
+        "perimeter_mm": [
+          29.55270158013256,
+          29.982905026042335,
+          30.41310847195211
+        ]
+      },
+      "narrowest_valid_local_position_mm": [
+        16.533337952859885,
+        10.296930841461164,
+        -47.53862193430242
+      ],
+      "narrowest_valid_local_station_arc_mm": 3.1,
+      "narrowest_valid_local_station_id": "B_21:7",
+      "sampling_step_mm": 1.0,
+      "source_marker_names": [
+        "J_06",
+        "B_21_P01",
+        "J_07"
+      ],
+      "stations": 19,
+      "status_counts": {
+        "AMBIGUOUS_TOPOLOGY": 10,
+        "PATH_LOCAL_SECTION": 2,
+        "SHARED_JUNCTION_OR_INTERFACE_SECTION": 7
+      },
+      "sum_control_turn_angle_deg": 0.0,
+      "tortuosity_length_over_chord": 1.0
+    },
+    {
+      "anatomical_classification": "UNCONFIRMED; geometric wide/narrow/terminal/shared labels only",
+      "candidate_ring_metric_min_median_max_TOPOLOGY_NOT_CONFIRMED": {
+        "area_mm2": [
+          232.76534487536412,
+          286.06357283031923,
+          573.5728401490455
+        ],
+        "equivalent_radius_mm": [
+          8.607642559656385,
+          9.542371995669711,
+          13.511991173248902
+        ],
+        "flattening_1_minus_minor_major": [
+          0.27316752668432287,
+          0.5888841119349226,
+          0.6872240224974823
+        ],
+        "major_axis_mm": [
+          24.112480611697283,
+          34.31704947936062,
+          57.69394291737966
+        ],
+        "minor_axis_mm": [
+          10.751214864189985,
+          19.52964736770356,
+          23.87159077783186
+        ],
+        "perimeter_mm": [
+          69.87618889444879,
+          96.2066003410676,
+          166.62901652790836
+        ]
+      },
+      "chord_length_mm": 6.296374261502142,
+      "fixed_port_retained_subset_only": false,
+      "id": "B_22",
+      "length_mm": 6.296374261502142,
+      "local_area_min_median_max_mm2": null,
+      "local_metric_min_median_max": {
+        "area_mm2": null,
+        "equivalent_radius_mm": null,
+        "flattening_1_minus_minor_major": null,
+        "major_axis_mm": null,
+        "minor_axis_mm": null,
+        "perimeter_mm": null
+      },
+      "narrowest_valid_local_position_mm": null,
+      "narrowest_valid_local_station_arc_mm": null,
+      "narrowest_valid_local_station_id": null,
+      "sampling_step_mm": 1.0,
+      "source_marker_names": [
+        "J_07",
+        "B_22_P01",
+        "J_08"
+      ],
+      "stations": 16,
+      "status_counts": {
+        "AMBIGUOUS_TOPOLOGY": 16
+      },
+      "sum_control_turn_angle_deg": 0.0,
+      "tortuosity_length_over_chord": 1.0
+    },
+    {
+      "anatomical_classification": "UNCONFIRMED; geometric wide/narrow/terminal/shared labels only",
+      "candidate_ring_metric_min_median_max_TOPOLOGY_NOT_CONFIRMED": {
+        "area_mm2": [
+          27.296644575352023,
+          55.361648468389106,
+          584.24258100256
+        ],
+        "equivalent_radius_mm": [
+          2.947675665330175,
+          4.197619458328575,
+          13.637088745866874
+        ],
+        "flattening_1_minus_minor_major": [
+          0.04062111563419546,
+          0.0996454427762577,
+          0.6412202023601454
+        ],
+        "major_axis_mm": [
+          6.252704617584066,
+          8.607549147102297,
+          56.62210257959488
+        ],
+        "minor_axis_mm": [
+          5.590150559513747,
+          8.236695439873806,
+          28.263265946031748
+        ],
+        "perimeter_mm": [
+          18.879260911963854,
+          26.733317158781606,
+          184.79304528271555
+        ]
+      },
+      "chord_length_mm": 13.851507020413882,
+      "fixed_port_retained_subset_only": false,
+      "id": "B_23",
+      "length_mm": 14.530889852841412,
+      "local_area_min_median_max_mm2": [
+        27.296644575352023,
+        38.551274704223346,
+        54.13845924441293
+      ],
+      "local_metric_min_median_max": {
+        "area_mm2": [
+          27.296644575352023,
+          38.551274704223346,
+          54.13845924441293
+        ],
+        "equivalent_radius_mm": [
+          2.947675665330175,
+          3.502842624626451,
+          4.1512415974326125
+        ],
+        "flattening_1_minus_minor_major": [
+          0.04062111563419546,
+          0.08079244166479566,
+          0.10596279507703954
+        ],
+        "major_axis_mm": [
+          6.252704617584066,
+          7.277319498140757,
+          8.491189721876509
+        ],
+        "minor_axis_mm": [
+          5.590150559513747,
+          6.781423724442301,
+          8.146268122312271
+        ],
+        "perimeter_mm": [
+          18.879260911963854,
+          22.28053915479039,
+          26.3386465617317
+        ]
+      },
+      "narrowest_valid_local_position_mm": [
+        22.965672058051133,
+        18.346751298266145,
+        -32.808571471519
+      ],
+      "narrowest_valid_local_station_arc_mm": 14.430889852841412,
+      "narrowest_valid_local_station_id": "B_23:23",
+      "sampling_step_mm": 1.0,
+      "source_marker_names": [
+        "J_08",
+        "B_23_P01",
+        "T_16"
+      ],
+      "stations": 24,
+      "status_counts": {
+        "AMBIGUOUS_TOPOLOGY": 12,
+        "PATH_LOCAL_SECTION": 12
+      },
+      "sum_control_turn_angle_deg": 35.88473276625346,
+      "tortuosity_length_over_chord": 1.0490475752151935
+    },
+    {
+      "anatomical_classification": "UNCONFIRMED; geometric wide/narrow/terminal/shared labels only",
+      "candidate_ring_metric_min_median_max_TOPOLOGY_NOT_CONFIRMED": {
+        "area_mm2": [
+          13.686353572688233,
+          33.91835088125934,
+          292.48773007596935
+        ],
+        "equivalent_radius_mm": [
+          2.08722343030005,
+          3.2858098558126483,
+          9.648924088759177
+        ],
+        "flattening_1_minus_minor_major": [
+          0.18063519113065885,
+          0.22277782958074577,
+          0.6494075627924347
+        ],
+        "major_axis_mm": [
+          4.644546685758084,
+          7.625264842007956,
+          27.198829474605464
+        ],
+        "minor_axis_mm": [
+          3.7622460567819194,
+          5.645471965709091,
+          21.709202335670923
+        ],
+        "perimeter_mm": [
+          13.377590831554329,
+          21.154094613569043,
+          101.27178526617044
+        ]
+      },
+      "chord_length_mm": 13.356047265254643,
+      "fixed_port_retained_subset_only": false,
+      "id": "B_24",
+      "length_mm": 13.547979399494414,
+      "local_area_min_median_max_mm2": [
+        13.686353572688233,
+        29.754915981455774,
+        34.89676892224276
+      ],
+      "local_metric_min_median_max": {
+        "area_mm2": [
+          13.686353572688233,
+          29.754915981455774,
+          34.89676892224276
+        ],
+        "equivalent_radius_mm": [
+          2.08722343030005,
+          3.077545112498831,
+          3.3328646152853456
+        ],
+        "flattening_1_minus_minor_major": [
+          0.18063519113065885,
+          0.25545682948538806,
+          0.29319423319190663
+        ],
+        "major_axis_mm": [
+          4.644546685758084,
+          7.204786947967937,
+          7.889750229027868
+        ],
+        "minor_axis_mm": [
+          3.7622460567819194,
+          5.296417603458482,
+          5.677338861482205
+        ],
+        "perimeter_mm": [
+          13.377590831554329,
+          20.01949797546318,
+          21.555098453895013
+        ]
+      },
+      "narrowest_valid_local_position_mm": [
+        22.387864774935384,
+        7.3629389464675095,
+        -27.224829428167624
+      ],
+      "narrowest_valid_local_station_arc_mm": 13.447979399494415,
+      "narrowest_valid_local_station_id": "B_24:22",
+      "sampling_step_mm": 1.0,
+      "source_marker_names": [
+        "J_08",
+        "B_24_P01",
+        "T_17"
+      ],
+      "stations": 23,
+      "status_counts": {
+        "AMBIGUOUS_TOPOLOGY": 7,
+        "PATH_LOCAL_SECTION": 13,
+        "SHARED_JUNCTION_OR_INTERFACE_SECTION": 3
+      },
+      "sum_control_turn_angle_deg": 19.312851334955944,
+      "tortuosity_length_over_chord": 1.0143704293963587
+    },
+    {
+      "anatomical_classification": "UNCONFIRMED; geometric wide/narrow/terminal/shared labels only",
+      "candidate_ring_metric_min_median_max_TOPOLOGY_NOT_CONFIRMED": {
+        "area_mm2": [
+          41.79324143146981,
+          63.57351361567619,
+          404.0575186854332
+        ],
+        "equivalent_radius_mm": [
+          3.647355469830551,
+          4.498446456667736,
+          11.340877513863957
+        ],
+        "flattening_1_minus_minor_major": [
+          0.021951281773948894,
+          0.13901277331027845,
+          0.5426226634906288
+        ],
+        "major_axis_mm": [
+          7.8607421388216085,
+          9.351213382264962,
+          37.297034880756996
+        ],
+        "minor_axis_mm": [
+          6.776595536433058,
+          8.623892594718821,
+          17.73422288594556
+        ],
+        "perimeter_mm": [
+          23.145782930633246,
+          28.65254038885108,
+          110.92381161494149
+        ]
+      },
+      "chord_length_mm": 14.944430530014586,
+      "fixed_port_retained_subset_only": false,
+      "id": "B_25",
+      "length_mm": 14.944430530014584,
+      "local_area_min_median_max_mm2": [
+        41.79324143146981,
+        54.3957034286305,
+        70.06713559117073
+      ],
+      "local_metric_min_median_max": {
+        "area_mm2": [
+          41.79324143146981,
+          54.3957034286305,
+          70.06713559117073
+        ],
+        "equivalent_radius_mm": [
+          3.647355469830551,
+          4.160915995130445,
+          4.722611772658196
+        ],
+        "flattening_1_minus_minor_major": [
+          0.021951281773948894,
+          0.11062120032810191,
+          0.18238556206857404
+        ],
+        "major_axis_mm": [
+          7.8607421388216085,
+          8.883142768461667,
+          9.929624393647183
+        ],
+        "minor_axis_mm": [
+          6.776595536433058,
+          7.821931759582435,
+          9.028614557964426
+        ],
+        "perimeter_mm": [
+          23.145782930633246,
+          26.575356766458064,
+          29.97675653750789
+        ]
+      },
+      "narrowest_valid_local_position_mm": [
+        15.49030807707712,
+        1.022583134458297,
+        -38.91492319361053
+      ],
+      "narrowest_valid_local_station_arc_mm": 7.1,
+      "narrowest_valid_local_station_id": "B_25:11",
+      "sampling_step_mm": 1.0,
+      "source_marker_names": [
+        "J_08",
+        "B_25_P01",
+        "T_18"
+      ],
+      "stations": 24,
+      "status_counts": {
+        "AMBIGUOUS_TOPOLOGY": 8,
+        "PATH_LOCAL_SECTION": 16
+      },
+      "sum_control_turn_angle_deg": 0.0,
+      "tortuosity_length_over_chord": 0.9999999999999999
+    },
+    {
+      "anatomical_classification": "UNCONFIRMED; geometric wide/narrow/terminal/shared labels only",
+      "candidate_ring_metric_min_median_max_TOPOLOGY_NOT_CONFIRMED": {
+        "area_mm2": [
+          40.479731973397115,
+          56.48155554454346,
+          611.84366681346
+        ],
+        "equivalent_radius_mm": [
+          3.5895819919877003,
+          4.240116512003743,
+          13.955496692904399
+        ],
+        "flattening_1_minus_minor_major": [
+          0.09120686128321043,
+          0.22621059451530506,
+          0.565386398671638
+        ],
+        "major_axis_mm": [
+          8.382603532463518,
+          8.917924907157165,
+          39.775770012092224
+        ],
+        "minor_axis_mm": [
+          6.13340095327553,
+          8.080105158428253,
+          28.879903575537238
+        ],
+        "perimeter_mm": [
+          23.180040194616584,
+          27.530490766321034,
+          169.2429584460683
+        ]
+      },
+      "chord_length_mm": 16.107501269693337,
+      "fixed_port_retained_subset_only": false,
+      "id": "B_26",
+      "length_mm": 16.632395919004175,
+      "local_area_min_median_max_mm2": [
+        40.479731973397115,
+        51.07012327321503,
+        56.66895964468115
+      ],
+      "local_metric_min_median_max": {
+        "area_mm2": [
+          40.479731973397115,
+          51.07012327321503,
+          56.66895964468115
+        ],
+        "equivalent_radius_mm": [
+          3.5895819919877003,
+          4.031888531009908,
+          4.247150820803552
+        ],
+        "flattening_1_minus_minor_major": [
+          0.09120686128321043,
+          0.15317554471814354,
+          0.27333475466170454
+        ],
+        "major_axis_mm": [
+          8.382603532463518,
+          8.693746590243633,
+          8.919320132405856
+        ],
+        "minor_axis_mm": [
+          6.13340095327553,
+          7.419939063585804,
+          8.105816938348969
+        ],
+        "perimeter_mm": [
+          23.180040194616584,
+          25.654256584693602,
+          26.956970365350024
+        ]
+      },
+      "narrowest_valid_local_position_mm": [
+        8.228705434598574,
+        9.23961853620365,
+        -34.83419115922348
+      ],
+      "narrowest_valid_local_station_arc_mm": 9.1,
+      "narrowest_valid_local_station_id": "B_26:13",
+      "sampling_step_mm": 1.0,
+      "source_marker_names": [
+        "J_07",
+        "B_26_P01",
+        "T_19"
+      ],
+      "stations": 26,
+      "status_counts": {
+        "AMBIGUOUS_TOPOLOGY": 13,
+        "PATH_LOCAL_SECTION": 13
+      },
+      "sum_control_turn_angle_deg": 28.88228023669222,
+      "tortuosity_length_over_chord": 1.0325869692960037
+    },
+    {
+      "anatomical_classification": "UNCONFIRMED; geometric wide/narrow/terminal/shared labels only",
+      "candidate_ring_metric_min_median_max_TOPOLOGY_NOT_CONFIRMED": {
+        "area_mm2": [
+          115.60574240640766,
+          214.98251227396764,
+          326.51060436127193
+        ],
+        "equivalent_radius_mm": [
+          6.066172657250719,
+          8.272306752861141,
+          10.194682599867305
+        ],
+        "flattening_1_minus_minor_major": [
+          0.3019539168227098,
+          0.4865812268424956,
+          0.6576614601506292
+        ],
+        "major_axis_mm": [
+          15.717850818829529,
+          25.2784793415565,
+          34.19099298349243
+        ],
+        "minor_axis_mm": [
+          9.911398472861704,
+          11.872106845016171,
+          20.786065850444956
+        ],
+        "perimeter_mm": [
+          43.016515025065665,
+          70.75086627753048,
+          102.67072308304208
+        ]
+      },
+      "chord_length_mm": 10.689064331451867,
+      "fixed_port_retained_subset_only": false,
+      "id": "B_27",
+      "length_mm": 10.689064331452496,
+      "local_area_min_median_max_mm2": null,
+      "local_metric_min_median_max": {
+        "area_mm2": null,
+        "equivalent_radius_mm": null,
+        "flattening_1_minus_minor_major": null,
+        "major_axis_mm": null,
+        "minor_axis_mm": null,
+        "perimeter_mm": null
+      },
+      "narrowest_valid_local_position_mm": null,
+      "narrowest_valid_local_station_arc_mm": null,
+      "narrowest_valid_local_station_id": null,
+      "sampling_step_mm": 0.5,
+      "source_marker_names": [
+        "J_07",
+        "B_27_P01",
+        "J_09"
+      ],
+      "stations": 31,
+      "status_counts": {
+        "AMBIGUOUS_TOPOLOGY": 20,
+        "MULTIRING_WITH_HOLE_UNRESOLVED": 1,
+        "SHARED_JUNCTION_OR_INTERFACE_SECTION": 10
+      },
+      "sum_control_turn_angle_deg": 3.931069079463744e-05,
+      "tortuosity_length_over_chord": 1.0000000000000588
+    },
+    {
+      "anatomical_classification": "UNCONFIRMED; geometric wide/narrow/terminal/shared labels only",
+      "candidate_ring_metric_min_median_max_TOPOLOGY_NOT_CONFIRMED": {
+        "area_mm2": [
+          48.27889201787931,
+          56.71737791341123,
+          119.87143356965723
+        ],
+        "equivalent_radius_mm": [
+          3.9201592599396626,
+          4.248964770621032,
+          6.177075552091411
+        ],
+        "flattening_1_minus_minor_major": [
+          0.19731455834628764,
+          0.3353512024106435,
+          0.6976811840939758
+        ],
+        "major_axis_mm": [
+          9.17484170895792,
+          10.732527467005756,
+          23.951771529791362
+        ],
+        "minor_axis_mm": [
+          6.085087224393965,
+          7.030284722233432,
+          7.903725505355682
+        ],
+        "perimeter_mm": [
+          25.35570470882893,
+          28.479550735162857,
+          53.85689085684517
+        ]
+      },
+      "chord_length_mm": 13.1353806521649,
+      "fixed_port_retained_subset_only": false,
+      "id": "B_28",
+      "length_mm": 13.135380652164901,
+      "local_area_min_median_max_mm2": [
+        48.27889201787931,
+        54.08607655412348,
+        63.14155916518288
+      ],
+      "local_metric_min_median_max": {
+        "area_mm2": [
+          48.27889201787931,
+          54.08607655412348,
+          63.14155916518288
+        ],
+        "equivalent_radius_mm": [
+          3.9201592599396626,
+          4.149208655176777,
+          4.483144266174851
+        ],
+        "flattening_1_minus_minor_major": [
+          0.26311685710538435,
+          0.3353512024106435,
+          0.4473587533765362
+        ],
+        "major_axis_mm": [
+          9.17484170895792,
+          10.732527467005756,
+          11.498954007278963
+        ],
+        "minor_axis_mm": [
+          6.085087224393965,
+          6.776060255292286,
+          7.186660919762144
+        ],
+        "perimeter_mm": [
+          25.35570470882893,
+          28.01567743323628,
+          29.85652522345324
+        ]
+      },
+      "narrowest_valid_local_position_mm": [
+        6.5702408911933645,
+        24.75424916503754,
+        -40.475435960219755
+      ],
+      "narrowest_valid_local_station_arc_mm": 6.6,
+      "narrowest_valid_local_station_id": "B_28:17",
+      "sampling_step_mm": 0.5,
+      "source_marker_names": [
+        "J_09",
+        "B_28_P01",
+        "T_20"
+      ],
+      "stations": 36,
+      "status_counts": {
+        "AMBIGUOUS_TOPOLOGY": 12,
+        "PATH_LOCAL_SECTION": 24
+      },
+      "sum_control_turn_angle_deg": 0.0,
+      "tortuosity_length_over_chord": 1.0000000000000002
+    },
+    {
+      "anatomical_classification": "UNCONFIRMED; geometric wide/narrow/terminal/shared labels only",
+      "candidate_ring_metric_min_median_max_TOPOLOGY_NOT_CONFIRMED": {
+        "area_mm2": [
+          10.95641945932963,
+          105.91464449656327,
+          594.2093635713477
+        ],
+        "equivalent_radius_mm": [
+          1.8674947472700116,
+          5.806348115200957,
+          13.752916595680292
+        ],
+        "flattening_1_minus_minor_major": [
+          0.019599153617491205,
+          0.1513452203733302,
+          0.7321993242310654
+        ],
+        "major_axis_mm": [
+          3.7831596068057562,
+          18.35630118061849,
+          43.83123755028828
+        ],
+        "minor_axis_mm": [
+          3.7090128805124825,
+          7.425078641919327,
+          37.71024891236929
+        ],
+        "perimeter_mm": [
+          12.084633461050899,
+          45.932105617295164,
+          198.2808305940754
+        ]
+      },
+      "chord_length_mm": 17.847413647391928,
+      "fixed_port_retained_subset_only": false,
+      "id": "B_29",
+      "length_mm": 18.095546576174648,
+      "local_area_min_median_max_mm2": [
+        10.95641945932963,
+        26.61642059616201,
+        31.98364767806777
+      ],
+      "local_metric_min_median_max": {
+        "area_mm2": [
+          10.95641945932963,
+          26.61642059616201,
+          31.98364767806777
+        ],
+        "equivalent_radius_mm": [
+          1.8674947472700116,
+          2.9107163741223965,
+          3.1907226849333385
+        ],
+        "flattening_1_minus_minor_major": [
+          0.019599153617491205,
+          0.08525523649883648,
+          0.1695927186677244
+        ],
+        "major_axis_mm": [
+          3.7831596068057562,
+          5.977086896158857,
+          7.009632238600967
+        ],
+        "minor_axis_mm": [
+          3.7090128805124825,
+          5.693518985566356,
+          5.937631450284315
+        ],
+        "perimeter_mm": [
+          12.084633461050899,
+          18.59167205012921,
+          20.441012394272057
+        ]
+      },
+      "narrowest_valid_local_position_mm": [
+        -3.7840271999088237,
+        15.635615747750734,
+        -54.09805120162312
+      ],
+      "narrowest_valid_local_station_arc_mm": 17.995546576174647,
+      "narrowest_valid_local_station_id": "B_29:44",
+      "sampling_step_mm": 0.5,
+      "source_marker_names": [
+        "J_09",
+        "B_29_P01",
+        "T_21"
+      ],
+      "stations": 45,
+      "status_counts": {
+        "AMBIGUOUS_TOPOLOGY": 18,
+        "PATH_LOCAL_SECTION": 21,
+        "SHARED_JUNCTION_OR_INTERFACE_SECTION": 6
+      },
+      "sum_control_turn_angle_deg": 19.003854240215425,
+      "tortuosity_length_over_chord": 1.0139030188734925
+    },
+    {
+      "anatomical_classification": "UNCONFIRMED; geometric wide/narrow/terminal/shared labels only",
+      "candidate_ring_metric_min_median_max_TOPOLOGY_NOT_CONFIRMED": {
+        "area_mm2": [
+          15.794496292880845,
+          68.7908691833955,
+          533.9342095698589
+        ],
+        "equivalent_radius_mm": [
+          2.2422186149698264,
+          4.679403139317092,
+          13.036737992220832
+        ],
+        "flattening_1_minus_minor_major": [
+          0.07203934856235905,
+          0.31027282201864126,
+          0.6606831928535963
+        ],
+        "major_axis_mm": [
+          5.508329432552842,
+          11.879348190930973,
+          56.5370126635507
+        ],
+        "minor_axis_mm": [
+          3.680688552983067,
+          7.631205718453794,
+          29.161348787399486
+        ],
+        "perimeter_mm": [
+          14.831313043340003,
+          33.852814352297244,
+          176.1908442631892
+        ]
+      },
+      "chord_length_mm": 19.288207788318598,
+      "fixed_port_retained_subset_only": false,
+      "id": "B_30",
+      "length_mm": 19.71945554835549,
+      "local_area_min_median_max_mm2": [
+        15.794496292880845,
+        40.621457111555,
+        55.86915185531828
+      ],
+      "local_metric_min_median_max": {
+        "area_mm2": [
+          15.794496292880845,
+          40.621457111555,
+          55.86915185531828
+        ],
+        "equivalent_radius_mm": [
+          2.2422186149698264,
+          3.5957539969312355,
+          4.217072843602691
+        ],
+        "flattening_1_minus_minor_major": [
+          0.07203934856235905,
+          0.21619572432591294,
+          0.3317958560664286
+        ],
+        "major_axis_mm": [
+          5.508329432552842,
+          7.796927051168629,
+          9.752977300190414
+        ],
+        "minor_axis_mm": [
+          3.680688552983067,
+          6.751862924864561,
+          7.358713476331382
+        ],
+        "perimeter_mm": [
+          14.831313043340003,
+          24.034900756853474,
+          27.7197338652405
+        ]
+      },
+      "narrowest_valid_local_position_mm": [
+        1.6414455268677832,
+        0.05304481724816412,
+        -43.84438196723356
+      ],
+      "narrowest_valid_local_station_arc_mm": 19.61945554835549,
+      "narrowest_valid_local_station_id": "B_30:48",
+      "sampling_step_mm": 0.5,
+      "source_marker_names": [
+        "J_09",
+        "B_30_P01",
+        "T_22"
+      ],
+      "stations": 49,
+      "status_counts": {
+        "AMBIGUOUS_TOPOLOGY": 24,
+        "MULTIRING_WITH_HOLE_UNRESOLVED": 1,
+        "PATH_LOCAL_SECTION": 24
+      },
+      "sum_control_turn_angle_deg": 24.016103115917183,
+      "tortuosity_length_over_chord": 1.0223581042245962
+    },
+    {
+      "anatomical_classification": "UNCONFIRMED; geometric wide/narrow/terminal/shared labels only",
+      "candidate_ring_metric_min_median_max_TOPOLOGY_NOT_CONFIRMED": {
+        "area_mm2": [
+          11.26041370479217,
+          127.88824665112234,
+          232.0955691988056
+        ],
+        "equivalent_radius_mm": [
+          1.8932250275006381,
+          6.380289431974329,
+          8.595249514437258
+        ],
+        "flattening_1_minus_minor_major": [
+          0.023792685573819305,
+          0.504938865277129,
+          0.6796719595062989
+        ],
+        "major_axis_mm": [
+          3.9810579331700904,
+          19.44617236114522,
+          31.743961089482415
+        ],
+        "minor_axis_mm": [
+          3.625818124898179,
+          9.038339853190072,
+          19.920039654771134
+        ],
+        "perimeter_mm": [
+          12.128469082310433,
+          50.000174829751444,
+          99.42400688181452
+        ]
+      },
+      "chord_length_mm": 9.88207428515858,
+      "fixed_port_retained_subset_only": false,
+      "id": "B_31",
+      "length_mm": 9.88207428515873,
+      "local_area_min_median_max_mm2": [
+        12.40178907312201,
+        17.464642110283513,
+        28.485513204114103
+      ],
+      "local_metric_min_median_max": {
+        "area_mm2": [
+          12.40178907312201,
+          17.464642110283513,
+          28.485513204114103
+        ],
+        "equivalent_radius_mm": [
+          1.9868598512076403,
+          2.3577888460091128,
+          3.0111825693385694
+        ],
+        "flattening_1_minus_minor_major": [
+          0.023792685573819305,
+          0.12332300382323746,
+          0.14257457582188426
+        ],
+        "major_axis_mm": [
+          4.22614974982526,
+          5.090052835927127,
+          6.450077387891296
+        ],
+        "minor_axis_mm": [
+          3.763693715578899,
+          4.391154311989868,
+          5.654634469524201
+        ],
+        "perimeter_mm": [
+          12.730975410400845,
+          15.141390773231207,
+          19.321430383056722
+        ]
+      },
+      "narrowest_valid_local_position_mm": [
+        36.748326666558036,
+        20.27809223709368,
+        -54.078369400346595
+      ],
+      "narrowest_valid_local_station_arc_mm": 9.6,
+      "narrowest_valid_local_station_id": "B_31:26",
+      "sampling_step_mm": 0.5,
+      "source_marker_names": [
+        "J_05",
+        "B_31_P01",
+        "P_IN_01_BASE"
+      ],
+      "stations": 29,
+      "status_counts": {
+        "AMBIGUOUS_TOPOLOGY": 17,
+        "PATH_LOCAL_SECTION": 5,
+        "SHARED_JUNCTION_OR_INTERFACE_SECTION": 7
+      },
+      "sum_control_turn_angle_deg": 1.983990668017933e-05,
+      "tortuosity_length_over_chord": 1.000000000000015
+    },
+    {
+      "anatomical_classification": "UNCONFIRMED; geometric wide/narrow/terminal/shared labels only",
+      "candidate_ring_metric_min_median_max_TOPOLOGY_NOT_CONFIRMED": {
+        "area_mm2": [
+          95.80307822387158,
+          208.71500542954806,
+          231.91074383973574
+        ],
+        "equivalent_radius_mm": [
+          5.522233870952711,
+          8.15083122283419,
+          8.591826492453425
+        ],
+        "flattening_1_minus_minor_major": [
+          0.5988182101386392,
+          0.6523498776409054,
+          0.7527518896887591
+        ],
+        "major_axis_mm": [
+          18.373703860379056,
+          30.967863784979258,
+          34.70662506853359
+        ],
+        "minor_axis_mm": [
+          6.932154330784758,
+          9.850771823260022,
+          11.957931513140196
+        ],
+        "perimeter_mm": [
+          43.5696747589346,
+          71.71225029115904,
+          84.17239330100945
+        ]
+      },
+      "chord_length_mm": 2.8435287822419433,
+      "fixed_port_retained_subset_only": false,
+      "id": "B_32",
+      "length_mm": 2.8435287822423687,
+      "local_area_min_median_max_mm2": null,
+      "local_metric_min_median_max": {
+        "area_mm2": null,
+        "equivalent_radius_mm": null,
+        "flattening_1_minus_minor_major": null,
+        "major_axis_mm": null,
+        "minor_axis_mm": null,
+        "perimeter_mm": null
+      },
+      "narrowest_valid_local_position_mm": null,
+      "narrowest_valid_local_station_arc_mm": null,
+      "narrowest_valid_local_station_id": null,
+      "sampling_step_mm": 0.5,
+      "source_marker_names": [
+        "J_09",
+        "B_32_P01",
+        "P_IN_02_BASE"
+      ],
+      "stations": 15,
+      "status_counts": {
+        "AMBIGUOUS_TOPOLOGY": 12,
+        "SHARED_JUNCTION_OR_INTERFACE_SECTION": 3
+      },
+      "sum_control_turn_angle_deg": 6.271605259442324e-05,
+      "tortuosity_length_over_chord": 1.0000000000001497
+    },
+    {
+      "anatomical_classification": "UNCONFIRMED; geometric wide/narrow/terminal/shared labels only",
+      "candidate_ring_metric_min_median_max_TOPOLOGY_NOT_CONFIRMED": {
+        "area_mm2": [
+          9.515397215341993,
+          9.673355137718104,
+          10.326335977627195
+        ],
+        "equivalent_radius_mm": [
+          1.7403577231733334,
+          1.7547434493117324,
+          1.8130016077582765
+        ],
+        "flattening_1_minus_minor_major": [
+          0.01577261407875885,
+          0.041226214215659085,
+          0.062411577630234194
+        ],
+        "major_axis_mm": [
+          3.548001754580635,
+          3.5801231322942697,
+          3.7618211133119686
+        ],
+        "minor_axis_mm": [
+          3.401930264831155,
+          3.4920404921548753,
+          3.5270399228674445
+        ],
+        "perimeter_mm": [
+          11.093815304807343,
+          11.225164065673036,
+          11.639532375086436
+        ]
+      },
+      "chord_length_mm": 1.0000000000000016,
+      "fixed_port_retained_subset_only": true,
+      "id": "IN_01",
+      "length_mm": 1.0,
+      "local_area_min_median_max_mm2": [
+        9.515397215341993,
+        9.5983504386015,
+        10.054744287746798
+      ],
+      "local_metric_min_median_max": {
+        "area_mm2": [
+          9.515397215341993,
+          9.5983504386015,
+          10.054744287746798
+        ],
+        "equivalent_radius_mm": [
+          1.7403577231733334,
+          1.7479139548814202,
+          1.7890009809499274
+        ],
+        "flattening_1_minus_minor_major": [
+          0.01577261407875885,
+          0.03733164614158985,
+          0.04977283207265626
+        ],
+        "major_axis_mm": [
+          3.548001754580635,
+          3.5656499189713484,
+          3.6687628869317246
+        ],
+        "minor_axis_mm": [
+          3.401930264831155,
+          3.462238112532488,
+          3.5175136822486173
+        ],
+        "perimeter_mm": [
+          11.093815304807343,
+          11.1642910852021,
+          11.470950131290524
+        ]
+      },
+      "narrowest_valid_local_position_mm": [
+        37.81615972009666,
+        20.501989549844406,
+        -53.62686258894614
+      ],
+      "narrowest_valid_local_station_arc_mm": 0.9,
+      "narrowest_valid_local_station_id": "IN_01:4",
+      "sampling_step_mm": 1.0,
+      "source_centerline_length_mm": 14.8158206069045,
+      "source_marker_names": [
+        "P_IN_01_BASE",
+        "P_IN_01_END"
+      ],
+      "stations": 5,
+      "status_counts": {
+        "PATH_LOCAL_SECTION": 4,
+        "SHARED_JUNCTION_OR_INTERFACE_SECTION": 1
+      },
+      "sum_control_turn_angle_deg": 0.0,
+      "tortuosity_length_over_chord": 0.9999999999999984
+    },
+    {
+      "anatomical_classification": "UNCONFIRMED; geometric wide/narrow/terminal/shared labels only",
+      "candidate_ring_metric_min_median_max_TOPOLOGY_NOT_CONFIRMED": {
+        "area_mm2": [
+          9.24948093240205,
+          9.845127971899664,
+          11.070433761878563
+        ],
+        "equivalent_radius_mm": [
+          1.7158674840593138,
+          1.7701966705996228,
+          1.877186328191413
+        ],
+        "flattening_1_minus_minor_major": [
+          0.06932180799084386,
+          0.12526658305769878,
+          0.17804894587216058
+        ],
+        "major_axis_mm": [
+          3.5758922069669534,
+          3.8147523883743393,
+          4.170196277920625
+        ],
+        "minor_axis_mm": [
+          3.324622102934439,
+          3.3367141164879826,
+          3.42769722655685
+        ],
+        "perimeter_mm": [
+          11.15072108562896,
+          11.625582063338847,
+          12.415058288678267
+        ]
+      },
+      "chord_length_mm": 0.8574169157387336,
+      "fixed_port_retained_subset_only": true,
+      "id": "IN_02",
+      "length_mm": 0.8574169157387342,
+      "local_area_min_median_max_mm2": [
+        9.24948093240205,
+        9.845127971899664,
+        11.070433761878563
+      ],
+      "local_metric_min_median_max": {
+        "area_mm2": [
+          9.24948093240205,
+          9.845127971899664,
+          11.070433761878563
+        ],
+        "equivalent_radius_mm": [
+          1.7158674840593138,
+          1.7701966705996228,
+          1.877186328191413
+        ],
+        "flattening_1_minus_minor_major": [
+          0.06932180799084386,
+          0.12526658305769878,
+          0.17804894587216058
+        ],
+        "major_axis_mm": [
+          3.5758922069669534,
+          3.8147523883743393,
+          4.170196277920625
+        ],
+        "minor_axis_mm": [
+          3.324622102934439,
+          3.3367141164879826,
+          3.42769722655685
+        ],
+        "perimeter_mm": [
+          11.15072108562896,
+          11.625582063338847,
+          12.415058288678267
+        ]
+      },
+      "narrowest_valid_local_position_mm": [
+        5.041907069372369,
+        18.70629628929409,
+        -36.69076454654519
+      ],
+      "narrowest_valid_local_station_arc_mm": 0.7574169157387343,
+      "narrowest_valid_local_station_id": "IN_02:5",
+      "sampling_step_mm": 1.0,
+      "source_centerline_length_mm": 16.731992894556203,
+      "source_marker_names": [
+        "P_IN_02_BASE",
+        "P_IN_02_END"
+      ],
+      "stations": 6,
+      "status_counts": {
+        "PATH_LOCAL_SECTION": 6
+      },
+      "sum_control_turn_angle_deg": 0.0,
+      "tortuosity_length_over_chord": 1.0000000000000007
+    }
+  ],
+  "station_status_counts": {
+    "AMBIGUOUS_TOPOLOGY": 422,
+    "MULTIRING_WITH_HOLE_UNRESOLVED": 2,
+    "OUTSIDE_APPROVED_D2_CUTOFF": 8,
+    "PATH_LOCAL_SECTION": 498,
+    "SHARED_JUNCTION_OR_INTERFACE_SECTION": 142
+  }
+}

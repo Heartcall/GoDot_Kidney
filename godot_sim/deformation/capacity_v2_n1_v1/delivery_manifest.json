@@ -1,0 +1,33 @@
+{
+  "D2_project_approved": true,
+  "N1_waiting_user_review": true,
+  "N2_started": false,
+  "V_max_mL": null,
+  "V_min_mL": null,
+  "V_reference_D2_mL": 16.805962087430178,
+  "approval_sha256": "b94e4cd3f9f8d0aade3926e51402bb2549b73e4a51d6f4e64ebcc0a21dfee68d",
+  "design_sha256": "2248e07b0aa66eb87e7599eb632f10633f64079c15a47255a3e5f55c212d4789",
+  "formal_anatomical_branch_volumes": false,
+  "implementation_sha256": {
+    "godot_sim/capacity_v2_n1_preview.tscn": "0a295cc0e5f2fa8212e74a874703a8329cb0b41b0359496698d55f9b90833482",
+    "godot_sim/scripts/capacity_v2_n1_preview.gd": "02ebb935b0c4e76250c4201f7a7eeda6a257ad56caefc91a419c4d2f967dc2b0",
+    "godot_sim/tools/capacity_v2/n1_analysis.py": "235e0fca86bb299e56dd15f8a0544e080c5724ee2b3260ef67bd863dafde104a",
+    "godot_sim/tools/capacity_v2/n1_design.py": "e845f69b55583434107dd1563bf3835b0c853215932f340b700a96e109bd6478",
+    "godot_sim/tools/capacity_v2/n1_report.py": "21a49d577642bc81c064f960b697927852b57507629b06f7bbc912ccccc1e268",
+    "godot_sim/tools/capacity_v2/n1_verify_outputs.py": "ddc5782e09abcc7c834cda34c310925377753a799f6461e12be592f5112109db",
+    "godot_sim/tools/capacity_v2/test_n1.py": "c34dafd8e04830c94548566265ecb4d7402e541a2cfbb00665ab39e25c6e2c48",
+    "godot_sim/tools/capacity_v2/verify_n1.gd": "b72b37f4a11c688beadae262b84c498face2c5aa1264293bf0954383847f1e8e"
+  },
+  "independent_checks_sha256": "02323355d81a743cfb5407c9596dfb04235972b533d2061da32d22f5b83aec02",
+  "report_sha256": "be18064ca8c7d95a4bc6db650520ab46af983a6752297b7b71f8d3b942a59fc2",
+  "schema": "N1_DELIVERY_V1",
+  "source_arrays_sha256": {
+    "cavity_displacement": "fbe95cfeaf8b77d80c5aa850618ad8ce8439c8ef770719b1f9a1f1789b050573",
+    "cavity_faces": "dbf4771365f42398f329100e695dc8580f8c038c557c671c02724bff45b29c3d",
+    "cavity_reference_vertices": "f137add4c401fe63851565f913a93968c9b11e18e630722ed42a21b4d0842fa1",
+    "tissue_displacement": "bcef3bda21aa3621547a80f8d7902c7506fc638cd8c18fe6a8c8c5516491eaec",
+    "tissue_faces": "532034f649eac73d2c28ecba5f0097ba04b79164fea3e385de5518c098cc3a05",
+    "tissue_reference_vertices": "63ce22d71be21c2a1266933aac2112ab7c66bcd887312f81e1d7d87c4f9ecb20"
+  },
+  "test_result_sha256": "2e36156fe5e8e4e174d3e59154c6164e378f8f1c793495b902750a40bea9a59a"
+}
