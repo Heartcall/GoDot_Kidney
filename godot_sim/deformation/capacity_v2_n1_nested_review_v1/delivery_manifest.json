@@ -1,0 +1,24 @@
+{
+  "D2_volume_mL": 16.805962087430178,
+  "N2_started": false,
+  "data_sha256": "e2a531a1dc33b7da588f2e6f824202deb4f66aa453c8c6b7c3dad88a87e6b485",
+  "date": "2026-10-15",
+  "effective_branch_areas_mm2": {
+    "B_27:25": null,
+    "B_30:4": null
+  },
+  "graphics_checks_sha256": "9e831ce9df7a4e7e391d2ffb1455c389bc356be65a06c12532127bef61c19d52",
+  "protected_unchanged_files": 2335,
+  "python_tests_sha256": "92b779daacbc6b4f54141cffe6f25133028e0c08cfe34ac99855e748a2cbb519",
+  "report_sha256": "d4cfca3e79a097a17d93c14ae2d2408b343121dd8104f7e1025afea922225723",
+  "schema": "N1_NESTED_REVIEW_DELIVERY_V1",
+  "source_N1_database_sha256": "160b704138a74c83d3628c976a8b342e8673963664f31480f87700845c99a7ce",
+  "source_arrays_sha256": {
+    "cavity_displacement": "fbe95cfeaf8b77d80c5aa850618ad8ce8439c8ef770719b1f9a1f1789b050573",
+    "cavity_faces": "dbf4771365f42398f329100e695dc8580f8c038c557c671c02724bff45b29c3d",
+    "cavity_reference_vertices": "f137add4c401fe63851565f913a93968c9b11e18e630722ed42a21b4d0842fa1",
+    "tissue_displacement": "bcef3bda21aa3621547a80f8d7902c7506fc638cd8c18fe6a8c8c5516491eaec",
+    "tissue_faces": "532034f649eac73d2c28ecba5f0097ba04b79164fea3e385de5518c098cc3a05",
+    "tissue_reference_vertices": "63ce22d71be21c2a1266933aac2112ab7c66bcd887312f81e1d7d87c4f9ecb20"
+  }
+}

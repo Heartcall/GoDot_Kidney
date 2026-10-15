@@ -1,0 +1,16 @@
+{
+  "compatibility_checked": {
+    "accepted_Reference_whole_arrays_byte_exact": true,
+    "checks": 18,
+    "failures": 0,
+    "patch_positions_float32_byte_exact": true,
+    "screenshots": 10
+  },
+  "forward_checked": {
+    "accepted_Reference_whole_arrays_byte_exact": true,
+    "checks": 18,
+    "failures": 0,
+    "patch_positions_float32_byte_exact": true,
+    "screenshots": 10
+  }
+}

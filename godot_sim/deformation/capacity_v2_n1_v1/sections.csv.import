@@ -1,0 +1,19 @@
+[remap]
+
+importer="csv_translation"
+type="Translation"
+uid="uid://r82fq6g7e8b5"
+
+[deps]
+
+files=["res://deformation/capacity_v2_n1_v1/sections.path.translation", "res://deformation/capacity_v2_n1_v1/sections.station.translation", "res://deformation/capacity_v2_n1_v1/sections.status.translation", "res://deformation/capacity_v2_n1_v1/sections.area.translation", "res://deformation/capacity_v2_n1_v1/sections.perimeter.translation", "res://deformation/capacity_v2_n1_v1/sections.equivalent.translation", "res://deformation/capacity_v2_n1_v1/sections.major.translation", "res://deformation/capacity_v2_n1_v1/sections.minor.translation", "res://deformation/capacity_v2_n1_v1/sections.flattening.translation"]
+
+source_file="res://deformation/capacity_v2_n1_v1/sections.csv"
+dest_files=["res://deformation/capacity_v2_n1_v1/sections.path.translation", "res://deformation/capacity_v2_n1_v1/sections.station.translation", "res://deformation/capacity_v2_n1_v1/sections.status.translation", "res://deformation/capacity_v2_n1_v1/sections.area.translation", "res://deformation/capacity_v2_n1_v1/sections.perimeter.translation", "res://deformation/capacity_v2_n1_v1/sections.equivalent.translation", "res://deformation/capacity_v2_n1_v1/sections.major.translation", "res://deformation/capacity_v2_n1_v1/sections.minor.translation", "res://deformation/capacity_v2_n1_v1/sections.flattening.translation"]
+
+[params]
+
+compress=1
+delimiter=0
+unescape_keys=false
+unescape_translations=true

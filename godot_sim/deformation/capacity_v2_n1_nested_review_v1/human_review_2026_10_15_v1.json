@@ -1,0 +1,23 @@
+{
+  "D2_approval_sha256": "b94e4cd3f9f8d0aade3926e51402bb2549b73e4a51d6f4e64ebcc0a21dfee68d",
+  "N1_engineering_tools_and_existing_data_accepted": true,
+  "authority": "Direct user review feedback in current conversation",
+  "candidate_regional_volumes_approved_as_final_anatomical_partition": false,
+  "date": "2026-10-15",
+  "limits": "Engineering delivery accepted; no final anatomical partition or new morphology authorization.",
+  "nested_closed_contours_visually_confirmed": [
+    "B_27:25",
+    "B_30:4"
+  ],
+  "new_true_wall_crossing_confirmed_by_user": false,
+  "outer_area_approved_as_effective_net_area": false,
+  "reviewed_regions": [
+    "J_05",
+    "J_09",
+    "B_31",
+    "B_32"
+  ],
+  "schema": "N1_HUMAN_REVIEW_V1",
+  "source_N1_database_sha256": "160b704138a74c83d3628c976a8b342e8673963664f31480f87700845c99a7ce",
+  "source_N1_report_sha256": "be18064ca8c7d95a4bc6db650520ab46af983a6752297b7b71f8d3b942a59fc2"
+}

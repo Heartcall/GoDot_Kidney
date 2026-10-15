@@ -1,0 +1,19 @@
+[remap]
+
+importer="csv_translation"
+type="Translation"
+uid="uid://qh482vaer6dg"
+
+[deps]
+
+files=["res://deformation/capacity_v2_n1_v1/candidate_capacity_accounting.candidate.translation", "res://deformation/capacity_v2_n1_v1/candidate_capacity_accounting.fraction.translation", "res://deformation/capacity_v2_n1_v1/candidate_capacity_accounting.status.translation"]
+
+source_file="res://deformation/capacity_v2_n1_v1/candidate_capacity_accounting.csv"
+dest_files=["res://deformation/capacity_v2_n1_v1/candidate_capacity_accounting.candidate.translation", "res://deformation/capacity_v2_n1_v1/candidate_capacity_accounting.fraction.translation", "res://deformation/capacity_v2_n1_v1/candidate_capacity_accounting.status.translation"]
+
+[params]
+
+compress=1
+delimiter=0
+unescape_keys=false
+unescape_translations=true
