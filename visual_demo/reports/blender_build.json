@@ -1,0 +1,14 @@
+{
+  "Blender_version": "5.2.2 LTS",
+  "cavity_faces": 50044,
+  "cavity_vertices": 25024,
+  "draft_max_displacement_mm": 0.05146583250142811,
+  "final_approved": false,
+  "keys": [
+    "Basis",
+    "Contracted",
+    "Expanded"
+  ],
+  "manual_file": "E:\\Study\\双翌老师组\\Simulator\\FURS-NAV-main\\visual_demo\\blender\\kidney_manual_v1.blend",
+  "manual_keys_initially_identical": true
+}

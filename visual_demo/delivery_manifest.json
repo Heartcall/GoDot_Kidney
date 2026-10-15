@@ -1,0 +1,188 @@
+{
+  "files": {
+    "godot_sim/visual_demo/assets/kidney_visual_DRAFT.glb": {
+      "bytes": 10313052,
+      "sha256": "3869f7097a317a6e13e029e5dab783bfbd606756e63316ac4abdbfc039c52650"
+    },
+    "godot_sim/visual_demo/assets/kidney_visual_DRAFT.glb.import": {
+      "bytes": 1192,
+      "sha256": "2b2e9fe383cdf38a8d21a6be8e2a56eb98f7faba510b46803d496d3eab0a7deb"
+    },
+    "godot_sim/visual_demo/scripts/visual_demo.gd": {
+      "bytes": 9290,
+      "sha256": "893ac5ab8e34ac2506d603b68c161326868ae74b4f246d8d0d155078ff1801aa"
+    },
+    "godot_sim/visual_demo/scripts/visual_demo.gd.uid": {
+      "bytes": 19,
+      "sha256": "ca0f74a783c54eac9ac64ce0b747ebbaf4f4496f238bee68a040715e3efbff94"
+    },
+    "godot_sim/visual_demo_kidney.tscn": {
+      "bytes": 190,
+      "sha256": "2d7069e6406fcd512e29f03b34f2536151739c6818d90a397ef7bee02f15d74e"
+    },
+    "visual_demo/.gitignore": {
+      "bytes": 34,
+      "sha256": "e72182fce8cabec8bc546fef7631a33e8e43474fe45504b01098ef77bab4d594"
+    },
+    "visual_demo/blender/kidney_manual_v1.blend": {
+      "bytes": 10280657,
+      "sha256": "8bd38e21c9d036c08545add7974561e3fa7eaf2396efef5250aff4d3028ce634"
+    },
+    "visual_demo/blender/kidney_pipeline_DRAFT_TEST_ONLY.blend": {
+      "bytes": 10747184,
+      "sha256": "3dbcb8d54cd1326a0cb80fdad379bcd67a1a53723db36dbb38b6bf6d65483858"
+    },
+    "visual_demo/data/edit_inputs.npz": {
+      "bytes": 13755016,
+      "sha256": "7987dcc32f54a462d6210522e3c2bdf0a41adc54d1f79c5c9455adb92165a701"
+    },
+    "visual_demo/data/shape_keys_source_RAS_mm.npz": {
+      "bytes": 3003790,
+      "sha256": "a377a4727c92ed2171d7246bd0ebe6c79245f87df02781bb937ff697500dd5a9"
+    },
+    "visual_demo/data/source_manifest.json": {
+      "bytes": 2966,
+      "sha256": "935218f36ff2b6f737a8e88903752cda190bb95f8ce9dadca6e07bee25327144"
+    },
+    "visual_demo/data/topology.json": {
+      "bytes": 403890,
+      "sha256": "6f1062cf781f3f0c5245d857d761b5091bf323475c90f389d31371e7c5ca72f3"
+    },
+    "visual_demo/docs/Blender手工塑形指南.md": {
+      "bytes": 7391,
+      "sha256": "b51d98893059e9b87826cceffb118ef2d3869d478b641a0ef32bb2203571c8ad"
+    },
+    "visual_demo/docs/V-Demo.1交付记录.md": {
+      "bytes": 6692,
+      "sha256": "c5e51576b549382cfca0fc090a3ad5e64c47ead12a2ec21633192612bbb8f3a7"
+    },
+    "visual_demo/docs/工作流示意.svg": {
+      "bytes": 1318,
+      "sha256": "de04755d7fbebc139d2e4eff6a9cd22d07e945ff31aee29a9773a7697eaf1444"
+    },
+    "visual_demo/reports/attempt_normal_draft_REJECTED.json": {
+      "bytes": 1632,
+      "sha256": "eb3869c4025425fe8aaa9fa815ca5c8cc4482ffbf4b084ae5a5ae607ce0746d7"
+    },
+    "visual_demo/reports/blender_build.json": {
+      "bytes": 406,
+      "sha256": "4b8c250d05d365c57b40d05e1e15ee12022b4b8864ee86845b03e26127623019"
+    },
+    "visual_demo/reports/export_api.json": {
+      "bytes": 939,
+      "sha256": "cdff0ab4c2a368465993a17c11abdd95745fe7a19163e33a156751697b5a06d3"
+    },
+    "visual_demo/reports/export_validation.json": {
+      "bytes": 678,
+      "sha256": "f7001fb59abe8bde59456f651a773c148759435bb1c71897996adeb16e665903"
+    },
+    "visual_demo/reports/godot_draft.png": {
+      "bytes": 162386,
+      "sha256": "611e2ca2551b37f91b9cb31501f917506ebf1118d8e3f6355cdc29a6a85dcbcc"
+    },
+    "visual_demo/reports/godot_log_forward_plus.txt": {
+      "bytes": 1197,
+      "sha256": "5e52d953b547de3b72ff85d386ad6022fb33c23c7576c5e438429d72eecf63df"
+    },
+    "visual_demo/reports/godot_log_gl_compatibility.txt": {
+      "bytes": 1231,
+      "sha256": "550d934549ea8e88ff79918e0a1386d43479c0db4fdcee7c3a8f13fe91ffe44d"
+    },
+    "visual_demo/reports/godot_runtime.json": {
+      "bytes": 1462,
+      "sha256": "89edbfc6e85b17bfea90e6d24861eb54b52f680f1bcf99e999bbdafe459a9d1a"
+    },
+    "visual_demo/reports/godot_runtime_forward_plus.json": {
+      "bytes": 1446,
+      "sha256": "ee88bc9ff154d3e9a703250a4abda7f563752af39031bb24729645a6e49e8bb3"
+    },
+    "visual_demo/reports/godot_runtime_gl_compatibility.json": {
+      "bytes": 1462,
+      "sha256": "89edbfc6e85b17bfea90e6d24861eb54b52f680f1bcf99e999bbdafe459a9d1a"
+    },
+    "visual_demo/reports/godot_state_-0.5.bin": {
+      "bytes": 300288,
+      "sha256": "e3de28b1099324e86ed3255387eeab1652fcc963fc847368ee7e613fe7787676"
+    },
+    "visual_demo/reports/godot_state_-1.0.bin": {
+      "bytes": 300288,
+      "sha256": "e87d45d8adbce78e8393f488f6d60f103e98676bcfc07a6419ac4a0be81ece34"
+    },
+    "visual_demo/reports/godot_state_0.0.bin": {
+      "bytes": 300288,
+      "sha256": "1a243c576f9a2dced444ea463d67299cea284b8980d79c61147d4cb2d4678de6"
+    },
+    "visual_demo/reports/godot_state_0.5.bin": {
+      "bytes": 300288,
+      "sha256": "721610ee2117b21ff31314e9b6184d62d4748bfb510b29e529299313f1751c11"
+    },
+    "visual_demo/reports/godot_state_1.0.bin": {
+      "bytes": 300288,
+      "sha256": "14cdab3f6a624984377d5f1143b67a76762525629dcb247b474ab470af3be6be"
+    },
+    "visual_demo/reports/godot_tissue.png": {
+      "bytes": 267159,
+      "sha256": "d1b40c633b3122b1dddebf088a44580be52e809450df167132be68d0f6c4a34a"
+    },
+    "visual_demo/reports/manual_blend_audit.json": {
+      "bytes": 577,
+      "sha256": "21ae0cd88dfeedd2d139aa31483abb355c5d9273e3d352308bf3a0c90c9299c1"
+    },
+    "visual_demo/reports/pipeline_validation.json": {
+      "bytes": 1642,
+      "sha256": "8b95d4c61cc5ae219c599b15b8bfcd5c1f03ae52ed6ef626aad9b42e293e41d6"
+    },
+    "visual_demo/reports/protected_after.json": {
+      "bytes": 119,
+      "sha256": "128b6f28ee727c171062859ae64b63348c7bf834ba4b726937f23ffd7c43bd6f"
+    },
+    "visual_demo/reports/protected_before.json": {
+      "bytes": 418515,
+      "sha256": "de7993b9308e6ee8cf915afecf3588403fdafe01bf5d9b0b132144d698198d85"
+    },
+    "visual_demo/reports/python_tests.json": {
+      "bytes": 129,
+      "sha256": "3f3d3b9c352b120404e29eeabc9c5e4ed49df56c74393a23a8b9918fa0ffd1db"
+    },
+    "visual_demo/tools/audit_blender.py": {
+      "bytes": 1569,
+      "sha256": "065d12640dcfc3f1b328413c9785798709a7791c770f460d37e0941303a069ed"
+    },
+    "visual_demo/tools/build_blender.py": {
+      "bytes": 5702,
+      "sha256": "c2668529f746c011df4b853e03701e081c504ef3f5d8edbf14aa691c4e8a1828"
+    },
+    "visual_demo/tools/common.py": {
+      "bytes": 2254,
+      "sha256": "19af4fc7bff66aa0b9294110f7618b2c81f541f0d22d3aa2c3f2a5f80186ba0c"
+    },
+    "visual_demo/tools/delivery.py": {
+      "bytes": 794,
+      "sha256": "9319bae502edc0e07608e75ada9017349468d2a72e0d5c21499499f690693e2c"
+    },
+    "visual_demo/tools/export_blender.py": {
+      "bytes": 4569,
+      "sha256": "c41a9f71363364448dc8c84527ec2275135272843581880c219687d49c1902ee"
+    },
+    "visual_demo/tools/prepare.py": {
+      "bytes": 2120,
+      "sha256": "45406be8b79d95057dc76f0c22c9a5c35e93b6504e631a6bc8d6ed2d4e73b0a1"
+    },
+    "visual_demo/tools/test_demo.py": {
+      "bytes": 3969,
+      "sha256": "ff6848ae305eebefb6ac30dbd51ab48fc20e8fe8d469e9f2b4b443a79b9a2f00"
+    },
+    "visual_demo/tools/validate_pipeline.py": {
+      "bytes": 4088,
+      "sha256": "b96bd8da5e49c86f2cb98d6957ef67ec3a8a7b25787dad6adc97a858e8f74aed"
+    }
+  },
+  "final_visual_approved": false,
+  "protected": {
+    "changed": [],
+    "checked": 2708,
+    "excludes": "Godot generated import/translation caches and Python caches"
+  },
+  "stage": "V-Demo.1",
+  "status": "READY_FOR_USER_MANUAL_SCULPT"
+}

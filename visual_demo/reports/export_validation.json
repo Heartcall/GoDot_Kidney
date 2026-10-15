@@ -1,0 +1,25 @@
+{
+  "fixed_violations": {},
+  "quality": {
+    "Basis": {
+      "degenerate_faces": [],
+      "max_displacement_mm": 0.0,
+      "minimum_area_ratio": 1.0,
+      "reversed_vs_reference": []
+    },
+    "Contracted": {
+      "degenerate_faces": [],
+      "max_displacement_mm": 0.05146650860622684,
+      "minimum_area_ratio": 0.9921443392452394,
+      "reversed_vs_reference": []
+    },
+    "Expanded": {
+      "degenerate_faces": [],
+      "max_displacement_mm": 0.05146650860622684,
+      "minimum_area_ratio": 0.9900100646161223,
+      "reversed_vs_reference": []
+    }
+  },
+  "status": "DRAFT_TEST_ONLY",
+  "strict_continuous_safety_certified": false
+}

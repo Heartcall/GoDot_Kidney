@@ -1,0 +1,70 @@
+{
+  "GLB_bounds_m": [
+    [
+      -0.03440288454294205,
+      -0.059812501072883606,
+      -0.023096652701497078
+    ],
+    [
+      0.03539000451564789,
+      0.05903000012040138,
+      0.023819368332624435
+    ]
+  ],
+  "GLB_reference_max_error_m": 1.852685393988196e-09,
+  "GLB_vertices": 25024,
+  "Godot_actual_five_states": [
+    {
+      "Godot_vertices": 25024,
+      "s": -1.0,
+      "symmetric_vertex_position_error_m": 0.0
+    },
+    {
+      "Godot_vertices": 25024,
+      "s": -0.5,
+      "symmetric_vertex_position_error_m": 0.0
+    },
+    {
+      "Godot_vertices": 25024,
+      "s": 0.0,
+      "symmetric_vertex_position_error_m": 0.0
+    },
+    {
+      "Godot_vertices": 25024,
+      "s": 0.5,
+      "symmetric_vertex_position_error_m": 0.0
+    },
+    {
+      "Godot_vertices": 25024,
+      "s": 1.0,
+      "symmetric_vertex_position_error_m": 0.0
+    }
+  ],
+  "actual_GLTF_source_face_mapping_exact": true,
+  "basis_bounds_RAS_mm": [
+    [
+      -18.40288353,
+      -7.81936884,
+      -140.8125
+    ],
+    [
+      51.3900032,
+      39.09665298,
+      -21.96999931
+    ]
+  ],
+  "final_visual_approved": false,
+  "normals_finite": true,
+  "source_faces": 50044,
+  "source_index_attribute": "_SOURCE_ID; GLB provenance only, Godot ordering not assumed",
+  "source_vertices": 25024,
+  "static_tissue": {
+    "GLB_source_mapping_exact": true,
+    "reference_max_error_m": 3.700434264564123e-09,
+    "triangles": 311844,
+    "vertices": 155904
+  },
+  "status": "DRAFT_TEST_ONLY",
+  "strict_collision_or_physiology_certification": false,
+  "transform_determinant": 1
+}

@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="260" viewBox="0 0 1000 260">
+<rect width="1000" height="260" fill="#f0f4f8"/><g font-family="Microsoft YaHei, sans-serif" fill="#142e42">
+<text x="30" y="38" font-size="23">同一份网格，三个形态；你塑形，Godot 播放</text>
+<g fill="white" stroke="#4487a8" stroke-width="2"><rect x="30" y="65" width="270" height="140" rx="12"/><rect x="365" y="65" width="270" height="140" rx="12"/><rect x="700" y="65" width="270" height="140" rx="12"/></g>
+<g font-size="21"><text x="55" y="100">Contracted · 手工收缩</text><text x="390" y="100">Basis · 原始参考态</text><text x="725" y="100">Expanded · 手工扩张</text></g>
+<g font-size="17"><text x="55" y="137">收缩键 = 1，扩张键 = 0</text><text x="390" y="137">两个键都为 0；不要编辑</text><text x="725" y="137">收缩键 = 0，扩张键 = 1</text><text x="55" y="173">局部调整，不删除顶点</text><text x="390" y="173">25,024 点 / 50,044 面</text><text x="725" y="173">主腔室与肾盏末端饱满</text></g>
+<g font-size="34"><text x="315" y="145">↔</text><text x="650" y="145">↔</text></g>
+<text x="30" y="239" font-size="17">固定入口保持原位 · 参考组织可隐藏 · 视觉演示 / 非生理标定 · 本图为操作示意</text></g></svg>

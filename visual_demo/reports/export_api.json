@@ -1,0 +1,24 @@
+{
+  "exported_source_coordinates": "original Reference + (Blender key-Blender Basis)*1000; preserves authoritative Reference exactly",
+  "final_approved": false,
+  "source_basis_quantization_error_mm": 1.8526853935441068e-06,
+  "source_blend_sha256": "3dbcb8d54cd1326a0cb80fdad379bcd67a1a53723db36dbb38b6bf6d65483858",
+  "status": "DRAFT_TEST_ONLY",
+  "verified_options": {
+    "export_animations": false,
+    "export_apply": false,
+    "export_attributes": true,
+    "export_extras": true,
+    "export_format": "GLB",
+    "export_materials": "EXPORT",
+    "export_morph": true,
+    "export_morph_normal": true,
+    "export_normals": true,
+    "export_texcoords": false,
+    "export_try_sparse_sk": false,
+    "export_yup": true,
+    "filepath": "E:\\Study\\双翌老师组\\Simulator\\FURS-NAV-main\\godot_sim\\visual_demo\\assets\\kidney_visual_DRAFT.glb",
+    "use_selection": true
+  },
+  "version": "5.2.2 LTS"
+}

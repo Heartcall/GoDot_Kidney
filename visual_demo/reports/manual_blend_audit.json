@@ -1,0 +1,19 @@
+{
+  "blend_sha256": "8bd38e21c9d036c08545add7974561e3fa7eaf2396efef5250aff4d3028ce634",
+  "group_counts": {
+    "Branches": 13919,
+    "FixedPorts": 3675,
+    "InterfaceTransition": 810,
+    "J_01": 67,
+    "MainCavity": 2299,
+    "OtherJunctions": 595,
+    "Terminals": 3659
+  },
+  "initial_keys_identical": true,
+  "saved_Basis_matches_accepted_float32_edit_coordinates": true,
+  "source_triangle_order_exact": true,
+  "static_marker_count": 72,
+  "static_paths": 37,
+  "status": "READY_FOR_USER_SCULPT_NOT_FINAL_VISUAL_APPROVAL",
+  "version": "5.2.2 LTS"
+}

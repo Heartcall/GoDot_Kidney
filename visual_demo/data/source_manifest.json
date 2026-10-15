@@ -1,0 +1,88 @@
+{
+  "Blender": "(RAS_mm-origin)*0.001, x=R,y=A,z=S; unit=m",
+  "accepted_arrays": {
+    "cavity_displacement": {
+      "dtype": "float64",
+      "runtime": "runtime/cavity_displacement.npy",
+      "sha256": "fbe95cfeaf8b77d80c5aa850618ad8ce8439c8ef770719b1f9a1f1789b050573",
+      "shape": [
+        25024,
+        3
+      ],
+      "source": "godot_sim/deformation/full_cavity/field/displacement.npy"
+    },
+    "cavity_faces": {
+      "dtype": "int64",
+      "runtime": "runtime/cavity_faces.npy",
+      "sha256": "dbf4771365f42398f329100e695dc8580f8c038c557c671c02724bff45b29c3d",
+      "shape": [
+        50044,
+        3
+      ],
+      "source": "godot_sim/deformation/full_cavity/field/faces.npy"
+    },
+    "cavity_reference_vertices": {
+      "dtype": "float64",
+      "runtime": "runtime/cavity_reference_vertices.npy",
+      "sha256": "f137add4c401fe63851565f913a93968c9b11e18e630722ed42a21b4d0842fa1",
+      "shape": [
+        25024,
+        3
+      ],
+      "source": "godot_sim/deformation/full_cavity/field/reference_vertices.npy"
+    },
+    "tissue_displacement": {
+      "dtype": "float64",
+      "runtime": "runtime/tissue_displacement.npy",
+      "sha256": "bcef3bda21aa3621547a80f8d7902c7506fc638cd8c18fe6a8c8c5516491eaec",
+      "shape": [
+        155904,
+        3
+      ],
+      "source": "godot_sim/analysis/irrigation_baseline/p15_r2/candidate/displacement.npy"
+    },
+    "tissue_faces": {
+      "dtype": "int64",
+      "runtime": "runtime/tissue_faces.npy",
+      "sha256": "532034f649eac73d2c28ecba5f0097ba04b79164fea3e385de5518c098cc3a05",
+      "shape": [
+        311844,
+        3
+      ],
+      "source": "godot_sim/analysis/irrigation_baseline/p15_r2/candidate/faces.npy"
+    },
+    "tissue_reference_vertices": {
+      "dtype": "float64",
+      "runtime": "runtime/tissue_reference_vertices.npy",
+      "sha256": "63ce22d71be21c2a1266933aac2112ab7c66bcd887312f81e1d7d87c4f9ecb20",
+      "shape": [
+        155904,
+        3
+      ],
+      "source": "godot_sim/analysis/irrigation_baseline/p15_r2/candidate/reference_vertices.npy"
+    }
+  },
+  "accepted_input_manifest_sha256": "fee5d371309553c032db1deb753c498e3ee75b735ce61ff0ad7a706e6514f8d1",
+  "edit_package_sha256": "7987dcc32f54a462d6210522e3c2bdf0a41adc54d1f79c5c9455adb92165a701",
+  "final_visual_approved": false,
+  "fixed_vertices": 3675,
+  "glTF_Godot": "(Blender_x,Blender_z,-Blender_y); right handed, determinant +1",
+  "group_counts": {
+    "Branches": 13919,
+    "FixedPorts": 3675,
+    "InterfaceTransition": 810,
+    "J_01": 67,
+    "MainCavity": 2299,
+    "OtherJunctions": 595,
+    "Terminals": 3659
+  },
+  "group_source_sha256": "2328b3c2c8203901e24d296b51e6ecae9a12cdf38402837ad3cf5ee56a458a2a",
+  "origin_RAS_mm": [
+    16.0,
+    16.0,
+    -81.0
+  ],
+  "reference_D2_mL": 16.805962087430178,
+  "schema": "V_DEMO_EDIT_V1",
+  "status": "DRAFT_TEST_ONLY_AWAITING_MANUAL_SCULPT"
+}
