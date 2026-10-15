@@ -1,0 +1,138 @@
+{
+  "Reference_mL": 16.805962087430178,
+  "continuous_fully_certified_nonzero_range": null,
+  "continuous_trivially_unchanged_reference_mL": 16.805962087430178,
+  "exact_shared_vertices": 139,
+  "fixed_cavity_vertices": 3675,
+  "formal_N2_resources_created": false,
+  "goals_unchanged": true,
+  "physiological_endpoints_remain_null": true,
+  "protected_files": 2658,
+  "results": {
+    "contract": {
+      "accepted_steps": 13,
+      "actual_Godot_runtime_test_performed": false,
+      "all_solver_checkpoint_tissue_transverse_checked": true,
+      "all_solver_checkpoint_tissue_transverse_passed": true,
+      "cavity": {
+        "area_max": 1.0698647749702506,
+        "area_min": 0.8000149868662895,
+        "max_gradient": 0.18518242227407575,
+        "max_mm": 0.5526274058722139,
+        "mean_mm": 0.12851315623913767
+      },
+      "continuous_contact_event_crossings": 0,
+      "continuous_safety_certified": false,
+      "continuous_unresolved_pairs": 4529,
+      "endoscope_clearance_certified": false,
+      "exact139_relative_maximum_mm": 0.0,
+      "five_level_gate_passed": true,
+      "fixed_maximum_mm": 0.0,
+      "gap_to_target_mL": 3.7603340170624406,
+      "global_extreme_proved": false,
+      "independent_volume_max_method_spread_mL": 1.0658141036401503e-14,
+      "max_cap_alternative_spread_mL": 3.552713678800501e-15,
+      "offline_float32_quality_passed": false,
+      "production_eligible": false,
+      "rejected_attempts": 18,
+      "relative_change": -0.07625000000000359,
+      "remote_tissue_maximum_mm": 0.0,
+      "sampled_endpoint_mL": 15.524507478263565,
+      "target_mL": 11.764173461201125,
+      "tissue": {
+        "area_max": 1.045712573320614,
+        "area_min": 0.8458103558891464,
+        "max_gradient": 0.1112075901917996,
+        "max_mm": 0.5045847147742147,
+        "mean_mm": 0.01786253954018761
+      },
+      "verified_fixed_cavity_vertices": 3675
+    },
+    "expand": {
+      "accepted_steps": 5,
+      "actual_Godot_runtime_test_performed": false,
+      "all_solver_checkpoint_tissue_transverse_checked": true,
+      "all_solver_checkpoint_tissue_transverse_passed": true,
+      "cavity": {
+        "area_max": 1.3248987675099424,
+        "area_min": 0.9583184722774327,
+        "max_gradient": 0.15700694063533419,
+        "max_mm": 0.3753441687555279,
+        "mean_mm": 0.07307442702275571
+      },
+      "continuous_contact_event_crossings": 0,
+      "continuous_safety_certified": false,
+      "continuous_unresolved_pairs": 4528,
+      "endoscope_clearance_certified": false,
+      "exact139_relative_maximum_mm": 0.0,
+      "five_level_gate_passed": true,
+      "fixed_maximum_mm": 0.0,
+      "gap_to_target_mL": 4.285520332294695,
+      "global_extreme_proved": false,
+      "independent_volume_max_method_spread_mL": 2.1316282072803006e-14,
+      "max_cap_alternative_spread_mL": 3.552713678800501e-15,
+      "offline_float32_quality_passed": true,
+      "production_eligible": false,
+      "rejected_attempts": 6,
+      "relative_change": 0.04499999999999993,
+      "remote_tissue_maximum_mm": 0.0,
+      "sampled_endpoint_mL": 17.562230381364536,
+      "target_mL": 21.84775071365923,
+      "tissue": {
+        "area_max": 1.1040091605686109,
+        "area_min": 0.9672492187702918,
+        "max_gradient": 0.08591056818332019,
+        "max_mm": 0.34246947047864745,
+        "mean_mm": 0.010563481428382574
+      },
+      "verified_fixed_cavity_vertices": 3675
+    }
+  },
+  "source_cavity_faces": 50044,
+  "source_tissue_faces": 311844,
+  "stage": "N2.0",
+  "status": "RESEARCH_COMPLETE_TARGETS_NOT_REACHED_CONTINUOUS_GATE_OPEN",
+  "tangential_repair_not_in_verified_endpoint": {
+    "after": {
+      "bad_edges": [],
+      "bad_faces": [],
+      "maximum_area_ratio": 1.0709481066169637,
+      "maximum_edge_gradient": 0.18521668125081164,
+      "maximum_face": 11690,
+      "minimum_area_ratio": 0.8000100000002076,
+      "minimum_face": 7680,
+      "pass": true
+    },
+    "approved_fixed_unchanged": true,
+    "before": {
+      "bad_edges": [],
+      "bad_faces": [
+        7680
+      ],
+      "maximum_area_ratio": 1.0709481066169637,
+      "maximum_edge_gradient": 0.18521668125081164,
+      "maximum_face": 11690,
+      "minimum_area_ratio": 0.799899994139357,
+      "minimum_face": 7680,
+      "pass": false
+    },
+    "capacity_after_mL": 15.514003751958919,
+    "capacity_before_mL": 15.514003751958919,
+    "contact_and_tissue_and_continuous_collision_verified": false,
+    "diagnosed_source_face_ids": [
+      7680
+    ],
+    "iterations": 11,
+    "maximum_correction_mm": 9.61343503611403e-07,
+    "message": "Optimization terminated successfully",
+    "method": "Two tangent DOFs per free patch vertex; SQP minimum correction and edge regularization; constraints on all patch-incident faces and edges; outside patch fixed",
+    "minimum_constraint_residual": 2.0761170560490427e-13,
+    "optimizer_success": true,
+    "patch_vertices": 11,
+    "source_reference_unchanged": true,
+    "source_topology_unchanged": true,
+    "status": "LOCAL_QUALITY_EXPERIMENT_NOT_FULL_GEOMETRIC_VALIDATION",
+    "true_topological_simplification_performed": false,
+    "used_to_raise_reported_verified_capacity": false
+  }
+}

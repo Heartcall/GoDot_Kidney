@@ -1,0 +1,27 @@
+{
+  "all_protected_files_unchanged": true,
+  "resolved": [
+    {
+      "fix": "Explicit rejection reason; restart from stored checkpoint",
+      "issue": "Missing reason on early quality rejection caused KeyError"
+    },
+    {
+      "fix": "Map conflict cavity faces back to response supports; keep original attempt and separate redistributed retry",
+      "issue": "QP strict-point conflict omitted from redistribution diagnostics"
+    },
+    {
+      "fix": "New Decimal40 independent integral; no geometry threshold relaxed",
+      "issue": "Float64 far-origin cancellation tripped old independent integration threshold"
+    },
+    {
+      "fix": "Full row evidence retained losslessly in gzip; summaries reference hashes",
+      "issue": "Bulky duplicated full finite rows in summary"
+    }
+  ],
+  "unresolved": [
+    "Contract cavity float32 face7680 area ratio <0.8",
+    "Permanent contacts lack continuous CCD certificate",
+    "Conservative contact plane conflicts with true shared point",
+    "Targets -30/+30 not reached"
+  ]
+}

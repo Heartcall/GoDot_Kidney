@@ -1,0 +1,87 @@
+{
+  "best_iteration": 1,
+  "best_new_confirmed_transverse_pairs": 0,
+  "cavity_quality": true,
+  "fixture": "S2_expand",
+  "fixture_cavity_sha256": "fe7d18e20233ac3e798244c33453ac7dc522b9164b0ca1573b159049857cb23b",
+  "fixture_tissue_sha256": "1139909cbadfe2f1ddf5e73ad9bd6eb32e8f544137dfc091c042f146d04db12c",
+  "frozen_cavity_actual_integral_mL": 19.326856400544713,
+  "full_self_and_continuous_collision_verified": false,
+  "is_new_capacity_solver_candidate": false,
+  "iterations": [
+    {
+      "confirmed_crossings": 20,
+      "fixed_conflicts": [
+        [
+          6967,
+          67107,
+          36555,
+          -0.001437847906709977
+        ],
+        [
+          8882,
+          67108,
+          36555,
+          -0.005674553760611822
+        ],
+        [
+          34852,
+          181160,
+          93578,
+          -0.004753691465673948
+        ]
+      ],
+      "iteration": 0,
+      "qp_converged": false,
+      "tissue_quality": {
+        "bad_edges": [],
+        "bad_faces": [],
+        "maximum_area_ratio": 1.187516083553094,
+        "maximum_edge_gradient": 0.14666095446394684,
+        "maximum_face": 181408,
+        "minimum_area_ratio": 0.9335782596801151,
+        "minimum_face": 199318,
+        "pass": true
+      },
+      "unresolved_original_straddles": 82
+    },
+    {
+      "confirmed_crossings": 0,
+      "fixed_conflicts": [
+        [
+          6967,
+          67107,
+          36555,
+          -0.001437847906709977
+        ],
+        [
+          8882,
+          67108,
+          36555,
+          -0.005674553760611822
+        ],
+        [
+          34852,
+          181160,
+          93578,
+          -0.004753691465673948
+        ]
+      ],
+      "iteration": 1,
+      "qp_converged": false,
+      "tissue_quality": {
+        "bad_edges": [],
+        "bad_faces": [],
+        "maximum_area_ratio": 1.1875160836322936,
+        "maximum_edge_gradient": 0.14666214824707993,
+        "maximum_face": 181408,
+        "minimum_area_ratio": 0.9335782596799701,
+        "minimum_face": 199318,
+        "pass": true
+      },
+      "unresolved_original_straddles": 85
+    }
+  ],
+  "old_confirmed_transverse_pairs": 753,
+  "runtime_eligible": false
+}

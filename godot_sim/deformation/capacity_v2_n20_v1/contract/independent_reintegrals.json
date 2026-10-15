@@ -1,0 +1,107 @@
+[
+  {
+    "axis_flux_mL": [
+      16.80596208743017,
+      16.80596208743017,
+      16.80596208743017
+    ],
+    "boundary_edges": 0,
+    "far_origin_decimal40_mL": 16.805962087430167,
+    "far_origin_float64_mL": 16.80596209030907,
+    "method_spread_mL": 3.552713678800501e-15,
+    "minimum_area_mm2": 8.983364800138763e-06,
+    "nonmanifold_edges": 0,
+    "numerically_valid": true,
+    "source_face_indices_unchanged": true,
+    "trimesh_mL": 16.805962087430167,
+    "u": 0,
+    "units": "mm, mm2, mL; 1000 mm3 = 1 mL",
+    "volume_mL": 16.805962087430167,
+    "watertight": true,
+    "winding_consistent": true
+  },
+  {
+    "axis_flux_mL": [
+      16.478525045598865,
+      16.478525045598865,
+      16.478525045598865
+    ],
+    "boundary_edges": 0,
+    "far_origin_decimal40_mL": 16.478525045598865,
+    "far_origin_float64_mL": 16.478525046738298,
+    "method_spread_mL": 7.105427357601002e-15,
+    "minimum_area_mm2": 8.983364800138763e-06,
+    "nonmanifold_edges": 0,
+    "numerically_valid": true,
+    "source_face_indices_unchanged": true,
+    "trimesh_mL": 16.47852504559886,
+    "u": 0.25,
+    "units": "mm, mm2, mL; 1000 mm3 = 1 mL",
+    "volume_mL": 16.478525045598868,
+    "watertight": true,
+    "winding_consistent": true
+  },
+  {
+    "axis_flux_mL": [
+      16.155809868066683,
+      16.155809868066683,
+      16.155809868066683
+    ],
+    "boundary_edges": 0,
+    "far_origin_decimal40_mL": 16.155809868066683,
+    "far_origin_float64_mL": 16.15580987173864,
+    "method_spread_mL": 3.552713678800501e-15,
+    "minimum_area_mm2": 8.983364800138763e-06,
+    "nonmanifold_edges": 0,
+    "numerically_valid": true,
+    "source_face_indices_unchanged": true,
+    "trimesh_mL": 16.155809868066683,
+    "u": 0.5,
+    "units": "mm, mm2, mL; 1000 mm3 = 1 mL",
+    "volume_mL": 16.15580986806668,
+    "watertight": true,
+    "winding_consistent": true
+  },
+  {
+    "axis_flux_mL": [
+      15.837807147924595,
+      15.837807147924595,
+      15.837807147924595
+    ],
+    "boundary_edges": 0,
+    "far_origin_decimal40_mL": 15.837807147924595,
+    "far_origin_float64_mL": 15.83780714842531,
+    "method_spread_mL": 3.552713678800501e-15,
+    "minimum_area_mm2": 8.983364800138763e-06,
+    "nonmanifold_edges": 0,
+    "numerically_valid": true,
+    "source_face_indices_unchanged": true,
+    "trimesh_mL": 15.837807147924593,
+    "u": 0.75,
+    "units": "mm, mm2, mL; 1000 mm3 = 1 mL",
+    "volume_mL": 15.837807147924591,
+    "watertight": true,
+    "winding_consistent": true
+  },
+  {
+    "axis_flux_mL": [
+      15.524507478263574,
+      15.524507478263574,
+      15.524507478263574
+    ],
+    "boundary_edges": 0,
+    "far_origin_decimal40_mL": 15.524507478263574,
+    "far_origin_float64_mL": 15.524507479354986,
+    "method_spread_mL": 1.0658141036401503e-14,
+    "minimum_area_mm2": 8.983364800138763e-06,
+    "nonmanifold_edges": 0,
+    "numerically_valid": true,
+    "source_face_indices_unchanged": true,
+    "trimesh_mL": 15.524507478263576,
+    "u": 1.0,
+    "units": "mm, mm2, mL; 1000 mm3 = 1 mL",
+    "volume_mL": 15.524507478263565,
+    "watertight": true,
+    "winding_consistent": true
+  }
+]

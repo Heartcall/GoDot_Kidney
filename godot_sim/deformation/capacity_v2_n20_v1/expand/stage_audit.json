@@ -1,0 +1,157 @@
+{
+  "all_checkpoint_transverse_passed": true,
+  "no_continuous_collision_certificate": true,
+  "shared_feature_coplanar_overlap_not_exhaustively_certified": true,
+  "states": [
+    {
+      "continuous_collision_certified": false,
+      "index": 1,
+      "nonadjacent": {
+        "broad_candidates": 0,
+        "confirmed_transverse_crossings": 0,
+        "coplanar_overlap_pairs": 0,
+        "coplanar_pair_area_sum_mm2": 0.0,
+        "finite_separating_axis_disjoint": 394536,
+        "original_broad_candidates": 394536
+      },
+      "offset_sha256": "06b47b5cd6db7b4b0d34d20b640dae197b036204468cf274af42d521e836eb81",
+      "seconds": 58.64335656166077,
+      "shared_one_vertex_transverse": {
+        "broad_candidates": 106760,
+        "class_counts_verified_subset": {
+          "EDGE_CONTACT": 1,
+          "FINITE_SEGMENT_ALGORITHM_FALSE_POSITIVE": 20,
+          "POINT_CONTACT_OR_TANGENCY": 106739
+        },
+        "confirmed_transverse_crossings": 0,
+        "coplanar_overlap_pairs": 0,
+        "coplanar_pair_area_sum_mm2": 0,
+        "maximum_confirmed_segment_length_mm": 0.0,
+        "other_candidates_note": "Not labelled true contact by this accelerated scan; point/edge/tangency candidates remain distinct from transverse crossings",
+        "segment_length_is_not_penetration_depth": true,
+        "strict_nontransverse_other_candidates": 0,
+        "two_plane_straddle_candidates": 106760
+      }
+    },
+    {
+      "continuous_collision_certified": false,
+      "index": 2,
+      "nonadjacent": {
+        "broad_candidates": 0,
+        "confirmed_transverse_crossings": 0,
+        "coplanar_overlap_pairs": 0,
+        "coplanar_pair_area_sum_mm2": 0.0,
+        "finite_separating_axis_disjoint": 394525,
+        "original_broad_candidates": 394525
+      },
+      "offset_sha256": "554ce98328d6dca72323b2ee51bf21a2015177287eb92013ea89c9d8d8b2e70d",
+      "seconds": 59.42079424858093,
+      "shared_one_vertex_transverse": {
+        "broad_candidates": 106767,
+        "class_counts_verified_subset": {
+          "EDGE_CONTACT": 1,
+          "FINITE_SEGMENT_ALGORITHM_FALSE_POSITIVE": 20,
+          "POINT_CONTACT_OR_TANGENCY": 106746
+        },
+        "confirmed_transverse_crossings": 0,
+        "coplanar_overlap_pairs": 0,
+        "coplanar_pair_area_sum_mm2": 0,
+        "maximum_confirmed_segment_length_mm": 0.0,
+        "other_candidates_note": "Not labelled true contact by this accelerated scan; point/edge/tangency candidates remain distinct from transverse crossings",
+        "segment_length_is_not_penetration_depth": true,
+        "strict_nontransverse_other_candidates": 0,
+        "two_plane_straddle_candidates": 106767
+      }
+    },
+    {
+      "continuous_collision_certified": false,
+      "index": 3,
+      "nonadjacent": {
+        "broad_candidates": 0,
+        "confirmed_transverse_crossings": 0,
+        "coplanar_overlap_pairs": 0,
+        "coplanar_pair_area_sum_mm2": 0.0,
+        "finite_separating_axis_disjoint": 394525,
+        "original_broad_candidates": 394525
+      },
+      "offset_sha256": "bda4e164164d8729e4dde3065799077d6664cc3603e70d2dc82c63281e26675a",
+      "seconds": 59.219056129455566,
+      "shared_one_vertex_transverse": {
+        "broad_candidates": 106786,
+        "class_counts_verified_subset": {
+          "EDGE_CONTACT": 1,
+          "FINITE_SEGMENT_ALGORITHM_FALSE_POSITIVE": 20,
+          "POINT_CONTACT_OR_TANGENCY": 106765
+        },
+        "confirmed_transverse_crossings": 0,
+        "coplanar_overlap_pairs": 0,
+        "coplanar_pair_area_sum_mm2": 0,
+        "maximum_confirmed_segment_length_mm": 0.0,
+        "other_candidates_note": "Not labelled true contact by this accelerated scan; point/edge/tangency candidates remain distinct from transverse crossings",
+        "segment_length_is_not_penetration_depth": true,
+        "strict_nontransverse_other_candidates": 0,
+        "two_plane_straddle_candidates": 106786
+      }
+    },
+    {
+      "continuous_collision_certified": false,
+      "index": 4,
+      "nonadjacent": {
+        "broad_candidates": 0,
+        "confirmed_transverse_crossings": 0,
+        "coplanar_overlap_pairs": 0,
+        "coplanar_pair_area_sum_mm2": 0.0,
+        "finite_separating_axis_disjoint": 394522,
+        "original_broad_candidates": 394522
+      },
+      "offset_sha256": "98af655abab372457aad45866aafe987b32694661ce92010b68f58522b199c7d",
+      "seconds": 57.706419944763184,
+      "shared_one_vertex_transverse": {
+        "broad_candidates": 106797,
+        "class_counts_verified_subset": {
+          "EDGE_CONTACT": 1,
+          "FINITE_SEGMENT_ALGORITHM_FALSE_POSITIVE": 20,
+          "POINT_CONTACT_OR_TANGENCY": 106776
+        },
+        "confirmed_transverse_crossings": 0,
+        "coplanar_overlap_pairs": 0,
+        "coplanar_pair_area_sum_mm2": 0,
+        "maximum_confirmed_segment_length_mm": 0.0,
+        "other_candidates_note": "Not labelled true contact by this accelerated scan; point/edge/tangency candidates remain distinct from transverse crossings",
+        "segment_length_is_not_penetration_depth": true,
+        "strict_nontransverse_other_candidates": 0,
+        "two_plane_straddle_candidates": 106797
+      }
+    },
+    {
+      "continuous_collision_certified": false,
+      "index": 5,
+      "nonadjacent": {
+        "broad_candidates": 0,
+        "confirmed_transverse_crossings": 0,
+        "coplanar_overlap_pairs": 0,
+        "coplanar_pair_area_sum_mm2": 0.0,
+        "finite_separating_axis_disjoint": 394544,
+        "original_broad_candidates": 394544
+      },
+      "offset_sha256": "884474f80bd027a0211ac1c725502565c1fdb3648cb6515b7420655142c02e79",
+      "seconds": 58.27271819114685,
+      "shared_one_vertex_transverse": {
+        "broad_candidates": 106802,
+        "class_counts_verified_subset": {
+          "EDGE_CONTACT": 1,
+          "FINITE_SEGMENT_ALGORITHM_FALSE_POSITIVE": 20,
+          "POINT_CONTACT_OR_TANGENCY": 106781
+        },
+        "confirmed_transverse_crossings": 0,
+        "coplanar_overlap_pairs": 0,
+        "coplanar_pair_area_sum_mm2": 0,
+        "maximum_confirmed_segment_length_mm": 0.0,
+        "other_candidates_note": "Not labelled true contact by this accelerated scan; point/edge/tangency candidates remain distinct from transverse crossings",
+        "segment_length_is_not_penetration_depth": true,
+        "strict_nontransverse_other_candidates": 0,
+        "two_plane_straddle_candidates": 106802
+      }
+    }
+  ]
+}

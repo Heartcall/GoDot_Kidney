@@ -1,0 +1,384 @@
+[
+  {
+    "D2_validity": "NOT_ESTABLISHED",
+    "algebraic_integral_mL": 11.764173461201109,
+    "cavity": {
+      "continuous_area": {
+        "critical_candidate_faces": 1064,
+        "maximum_area_ratio": 1.6458379894685338,
+        "maximum_face": 33024,
+        "method": "Exact quartic squared-area extrema; derivative Bernstein sign screen, then real cubic roots on [0,1]",
+        "minimum_area_ratio": 0.0010262643444219983,
+        "minimum_face": 1571,
+        "minimum_oriented_area_ratio": -0.44423590103731914
+      },
+      "endpoint_displacement_mm": {
+        "maximum": 3.693501778139041,
+        "mean": 0.6027036497564144,
+        "median": 0.35715162216563734,
+        "p95": 2.900891027795903
+      },
+      "five_levels": [
+        {
+          "area_fail_faces": 0,
+          "degenerate_faces": 0,
+          "finite": true,
+          "maximum_area_ratio": 1.0,
+          "maximum_edge_gradient": 0.0,
+          "maximum_normal_rotation_deg": 1.9090959104164224e-06,
+          "minimum_area_ratio": 1.0,
+          "reversed_faces": 0,
+          "u": 0,
+          "volume_mL": 19.723077362519593
+        },
+        {
+          "area_fail_faces": 483,
+          "degenerate_faces": 0,
+          "finite": true,
+          "maximum_area_ratio": 1.1000673788339366,
+          "maximum_edge_gradient": 0.3130716476834219,
+          "maximum_normal_rotation_deg": 18.726265330510888,
+          "minimum_area_ratio": 0.5416373550042846,
+          "reversed_faces": 0,
+          "u": 0.25,
+          "volume_mL": 18.24869721946545
+        },
+        {
+          "area_fail_faces": 5524,
+          "degenerate_faces": 0,
+          "finite": true,
+          "maximum_area_ratio": 1.220803602122683,
+          "maximum_edge_gradient": 0.6261432953668438,
+          "maximum_normal_rotation_deg": 33.605281639374226,
+          "minimum_area_ratio": 0.16920172932910219,
+          "reversed_faces": 0,
+          "u": 0.5,
+          "volume_mL": 16.917556647095484
+        },
+        {
+          "area_fail_faces": 9041,
+          "degenerate_faces": 0,
+          "finite": true,
+          "maximum_area_ratio": 1.421623917748902,
+          "maximum_edge_gradient": 0.9392149430502656,
+          "maximum_normal_rotation_deg": 147.27918203631776,
+          "minimum_area_ratio": 0.10659544178177649,
+          "reversed_faces": 2,
+          "u": 0.75,
+          "volume_mL": 15.728519027535127
+        },
+        {
+          "area_fail_faces": 13213,
+          "degenerate_faces": 0,
+          "finite": true,
+          "maximum_area_ratio": 1.6458379894685218,
+          "maximum_edge_gradient": 1.2522865907336875,
+          "maximum_normal_rotation_deg": 165.7811463806114,
+          "minimum_area_ratio": 0.015377147764008696,
+          "reversed_faces": 43,
+          "u": 1,
+          "volume_mL": 14.680447742909758
+        }
+      ],
+      "gradient_fail_edges": 10539,
+      "maximum_edge_gradient": 1.2522865907336875,
+      "quality_gate_passed": false,
+      "worst_edge": [
+        17371,
+        17372
+      ]
+    },
+    "not_a_verified_capacity": true,
+    "prediction": {
+      "actual_integral_q": 0.7969575700131633,
+      "coefficients_mL": [
+        16.805962087430167,
+        -7.760353593186004,
+        1.8185051345829961,
+        -0.02395176913627899
+      ],
+      "derivative_mL_per_q": -7.760353593185998,
+      "linear_prediction_q": 0.6496854255012308,
+      "target_step_mL": 11.764173461201118
+    },
+    "purpose": "Show why solving the scalar volume equation alone is insufficient. New regional basis only, no old displacement amplification.",
+    "side": "contract",
+    "tissue": {
+      "continuous_area": {
+        "critical_candidate_faces": 540,
+        "maximum_area_ratio": 1.2723210488473655,
+        "maximum_face": 199326,
+        "method": "Exact quartic squared-area extrema; derivative Bernstein sign screen, then real cubic roots on [0,1]",
+        "minimum_area_ratio": 0.12331868833730344,
+        "minimum_face": 178588,
+        "minimum_oriented_area_ratio": -0.02920255303779684
+      },
+      "endpoint_displacement_mm": {
+        "maximum": 3.3736038975818716,
+        "mean": 0.08578213630299199,
+        "median": 0.0,
+        "p95": 0.4290334677651948
+      },
+      "five_levels": [
+        {
+          "area_fail_faces": 0,
+          "degenerate_faces": 0,
+          "finite": true,
+          "maximum_area_ratio": 1.0,
+          "maximum_edge_gradient": 0.0,
+          "maximum_normal_rotation_deg": 1.9090959104164224e-06,
+          "minimum_area_ratio": 1.0,
+          "reversed_faces": 0,
+          "u": 0,
+          "volume_mL": 300.22443238551654
+        },
+        {
+          "area_fail_faces": 16,
+          "degenerate_faces": 0,
+          "finite": true,
+          "maximum_area_ratio": 1.0761769320324788,
+          "maximum_edge_gradient": 0.18516965130052968,
+          "maximum_normal_rotation_deg": 11.935465291914035,
+          "minimum_area_ratio": 0.7438463609893156,
+          "reversed_faces": 0,
+          "u": 0.25,
+          "volume_mL": 301.5238824248086
+        },
+        {
+          "area_fail_faces": 2532,
+          "degenerate_faces": 0,
+          "finite": true,
+          "maximum_area_ratio": 1.1455048167094328,
+          "maximum_edge_gradient": 0.37033930260105935,
+          "maximum_normal_rotation_deg": 24.55564759770644,
+          "minimum_area_ratio": 0.49124933659972686,
+          "reversed_faces": 0,
+          "u": 0.5,
+          "volume_mL": 302.73147885593056
+        },
+        {
+          "area_fail_faces": 5082,
+          "degenerate_faces": 0,
+          "finite": true,
+          "maximum_area_ratio": 1.208908539073329,
+          "maximum_edge_gradient": 0.555508953901589,
+          "maximum_normal_rotation_deg": 37.27232879237964,
+          "minimum_area_ratio": 0.25300922212533467,
+          "reversed_faces": 0,
+          "u": 0.75,
+          "volume_mL": 303.8475909652303
+        },
+        {
+          "area_fail_faces": 7116,
+          "degenerate_faces": 0,
+          "finite": true,
+          "maximum_area_ratio": 1.272321048847367,
+          "maximum_edge_gradient": 0.7406786052021187,
+          "maximum_normal_rotation_deg": 101.41168378473022,
+          "minimum_area_ratio": 0.123318688337267,
+          "reversed_faces": 1,
+          "u": 1,
+          "volume_mL": 304.8725880390556
+        }
+      ],
+      "gradient_fail_edges": 6198,
+      "maximum_edge_gradient": 0.7406786052021187,
+      "quality_gate_passed": false,
+      "worst_edge": [
+        94809,
+        94810
+      ]
+    }
+  },
+  {
+    "D2_validity": "NOT_ESTABLISHED",
+    "algebraic_integral_mL": 21.847750713659227,
+    "cavity": {
+      "continuous_area": {
+        "critical_candidate_faces": 424,
+        "maximum_area_ratio": 3.5852339690677684,
+        "maximum_face": 535,
+        "method": "Exact quartic squared-area extrema; derivative Bernstein sign screen, then real cubic roots on [0,1]",
+        "minimum_area_ratio": 0.7332396367510107,
+        "minimum_face": 36693,
+        "minimum_oriented_area_ratio": 0.7150854907509198
+      },
+      "endpoint_displacement_mm": {
+        "maximum": 2.239452913277592,
+        "mean": 0.43731820518581815,
+        "median": 0.2515977326018961,
+        "p95": 1.7954253919231895
+      },
+      "five_levels": [
+        {
+          "area_fail_faces": 0,
+          "degenerate_faces": 0,
+          "finite": true,
+          "maximum_area_ratio": 1.0,
+          "maximum_edge_gradient": 0.0,
+          "maximum_normal_rotation_deg": 1.9090959104164224e-06,
+          "minimum_area_ratio": 1.0,
+          "reversed_faces": 0,
+          "u": 0,
+          "volume_mL": 19.723077362519593
+        },
+        {
+          "area_fail_faces": 5,
+          "degenerate_faces": 0,
+          "finite": true,
+          "maximum_area_ratio": 1.54213191508338,
+          "maximum_edge_gradient": 0.255326450461097,
+          "maximum_normal_rotation_deg": 15.301846402294904,
+          "minimum_area_ratio": 0.9372460869639209,
+          "reversed_faces": 0,
+          "u": 0.25,
+          "volume_mL": 20.867246070317595
+        },
+        {
+          "area_fail_faces": 293,
+          "degenerate_faces": 0,
+          "finite": true,
+          "maximum_area_ratio": 2.1538731871504915,
+          "maximum_edge_gradient": 0.510652900922194,
+          "maximum_normal_rotation_deg": 27.19662967771134,
+          "minimum_area_ratio": 0.8712513518760356,
+          "reversed_faces": 0,
+          "u": 0.5,
+          "volume_mL": 22.088148051202463
+        },
+        {
+          "area_fail_faces": 2869,
+          "degenerate_faces": 0,
+          "finite": true,
+          "maximum_area_ratio": 2.8349394876544953,
+          "maximum_edge_gradient": 0.7659793513832909,
+          "maximum_normal_rotation_deg": 36.0116645678689,
+          "minimum_area_ratio": 0.8028400242531205,
+          "reversed_faces": 0,
+          "u": 0.75,
+          "volume_mL": 23.387130610722405
+        },
+        {
+          "area_fail_faces": 7599,
+          "degenerate_faces": 0,
+          "finite": true,
+          "maximum_area_ratio": 3.5852339690677772,
+          "maximum_edge_gradient": 1.021305801844388,
+          "maximum_normal_rotation_deg": 44.341796130771336,
+          "minimum_area_ratio": 0.7332396367510255,
+          "reversed_faces": 0,
+          "u": 1,
+          "volume_mL": 24.765541054425533
+        }
+      ],
+      "gradient_fail_edges": 10284,
+      "maximum_edge_gradient": 1.021305801844388,
+      "quality_gate_passed": false,
+      "worst_edge": [
+        495,
+        499
+      ]
+    },
+    "not_a_verified_capacity": true,
+    "prediction": {
+      "actual_integral_q": 0.48473810896065633,
+      "coefficients_mL": [
+        16.805962087430167,
+        9.127259848341918,
+        2.566642693250113,
+        0.1261750037732267
+      ],
+      "derivative_mL_per_q": 9.12725984834192,
+      "linear_prediction_q": 0.5523879795254163,
+      "target_step_mL": 21.847750713659217
+    },
+    "purpose": "Show why solving the scalar volume equation alone is insufficient. New regional basis only, no old displacement amplification.",
+    "side": "expand",
+    "tissue": {
+      "continuous_area": {
+        "critical_candidate_faces": 246,
+        "maximum_area_ratio": 1.6459650895544786,
+        "maximum_face": 55413,
+        "method": "Exact quartic squared-area extrema; derivative Bernstein sign screen, then real cubic roots on [0,1]",
+        "minimum_area_ratio": 0.7877969684105457,
+        "minimum_face": 199318,
+        "minimum_oriented_area_ratio": 0.785797472979115
+      },
+      "endpoint_displacement_mm": {
+        "maximum": 2.0433093603528807,
+        "mean": 0.06305557759704614,
+        "median": 0.0,
+        "p95": 0.36531608814624006
+      },
+      "five_levels": [
+        {
+          "area_fail_faces": 0,
+          "degenerate_faces": 0,
+          "finite": true,
+          "maximum_area_ratio": 1.0,
+          "maximum_edge_gradient": 0.0,
+          "maximum_normal_rotation_deg": 1.9090959104164224e-06,
+          "minimum_area_ratio": 1.0,
+          "reversed_faces": 0,
+          "u": 0,
+          "volume_mL": 300.22443238551654
+        },
+        {
+          "area_fail_faces": 0,
+          "degenerate_faces": 0,
+          "finite": true,
+          "maximum_area_ratio": 1.155195717494635,
+          "maximum_edge_gradient": 0.11007070134564997,
+          "maximum_normal_rotation_deg": 6.601533911687714,
+          "minimum_area_ratio": 0.9507200452279073,
+          "reversed_faces": 0,
+          "u": 0.25,
+          "volume_mL": 299.2376057473833
+        },
+        {
+          "area_fail_faces": 0,
+          "degenerate_faces": 0,
+          "finite": true,
+          "maximum_area_ratio": 1.3108625700275283,
+          "maximum_edge_gradient": 0.22014140269129995,
+          "maximum_normal_rotation_deg": 12.996470178222832,
+          "minimum_area_ratio": 0.8988782449673723,
+          "reversed_faces": 0,
+          "u": 0.5,
+          "volume_mL": 298.20635495422954
+        },
+        {
+          "area_fail_faces": 47,
+          "degenerate_faces": 0,
+          "finite": true,
+          "maximum_area_ratio": 1.469638350130222,
+          "maximum_edge_gradient": 0.3302121040369499,
+          "maximum_normal_rotation_deg": 19.12374066599234,
+          "minimum_area_ratio": 0.8445404518242313,
+          "reversed_faces": 0,
+          "u": 0.75,
+          "volume_mL": 297.13034235289905
+        },
+        {
+          "area_fail_faces": 1142,
+          "degenerate_faces": 0,
+          "finite": true,
+          "maximum_area_ratio": 1.6459650895544788,
+          "maximum_edge_gradient": 0.4402828053825999,
+          "maximum_normal_rotation_deg": 24.881734174118584,
+          "minimum_area_ratio": 0.7877969684105763,
+          "reversed_faces": 0,
+          "u": 1,
+          "volume_mL": 296.00923029023596
+        }
+      ],
+      "gradient_fail_edges": 3023,
+      "maximum_edge_gradient": 0.4402828053825999,
+      "quality_gate_passed": false,
+      "worst_edge": [
+        94809,
+        94810
+      ]
+    }
+  }
+]

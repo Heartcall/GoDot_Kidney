@@ -1,0 +1,32 @@
+{
+  "best_iteration": 0,
+  "best_new_confirmed_transverse_pairs": 0,
+  "cavity_quality": true,
+  "fixture": "S1_expand",
+  "fixture_cavity_sha256": "cb8cf4c6c01311c7d43157b4e7c215e169643899f5e19cf2b42305252bc46958",
+  "fixture_tissue_sha256": "36907c8bbf61f3f44ed25dbfa28dc10c213ca2de9eb9275a4a11ab0fd285e2ed",
+  "frozen_cavity_actual_integral_mL": 18.150439054424535,
+  "full_self_and_continuous_collision_verified": false,
+  "is_new_capacity_solver_candidate": false,
+  "iterations": [
+    {
+      "confirmed_crossings": 0,
+      "fixed_conflicts": [],
+      "iteration": 0,
+      "qp_converged": true,
+      "tissue_quality": {
+        "bad_edges": [],
+        "bad_faces": [],
+        "maximum_area_ratio": 1.1017294669768714,
+        "maximum_edge_gradient": 0.08203881634789088,
+        "maximum_face": 181408,
+        "minimum_area_ratio": 0.9696894868840507,
+        "minimum_face": 199318,
+        "pass": true
+      },
+      "unresolved_original_straddles": 13
+    }
+  ],
+  "old_confirmed_transverse_pairs": 173,
+  "runtime_eligible": false
+}

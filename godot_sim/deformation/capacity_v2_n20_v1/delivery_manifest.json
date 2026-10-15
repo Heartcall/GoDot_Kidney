@@ -1,0 +1,999 @@
+{
+  "continuous_safety_certified": false,
+  "files": {
+    "docs/kidney_irrigation_capacity_v2_n20_design.md": {
+      "bytes": 10738,
+      "sha256": "69c262083e1be955fde4f91eb63547e78215650d6cbaa65dc89c1ded642560dd"
+    },
+    "docs/kidney_irrigation_capacity_v2_n20_next_plan.md": {
+      "bytes": 2940,
+      "sha256": "18c56003e7b5b253a5ee427b5bf127c6225440dd487b5483a624c5a828865091"
+    },
+    "docs/kidney_irrigation_capacity_v2_n20_result.md": {
+      "bytes": 11965,
+      "sha256": "76dbd3f33a970ef516f0e9207c578053bfd8266070a99afe9b30683c71ff562d"
+    },
+    "godot_sim/deformation/capacity_v2_n20_v1/.gitignore": {
+      "bytes": 21,
+      "sha256": "c360fa8e9519cb411b1126d2d4254805b5046b847a9399e401aff1b26cadca69"
+    },
+    "godot_sim/deformation/capacity_v2_n20_v1/authorization_and_targets.json": {
+      "bytes": 2394,
+      "sha256": "73171634c47fcaf5f91c8c8570b6d744b731913d0b6581ba891506989fee2481"
+    },
+    "godot_sim/deformation/capacity_v2_n20_v1/blocking_regions.json": {
+      "bytes": 7160,
+      "sha256": "9c1f2955f7db6edcbc646cad79d426934fc14869871af01d80009efb98b261fc"
+    },
+    "godot_sim/deformation/capacity_v2_n20_v1/capacity_contact_curves.png": {
+      "bytes": 220614,
+      "sha256": "eeef62d7507b03e1e88cf152d3498fa97e71bca8808b85cb68169dac5d23c59f"
+    },
+    "godot_sim/deformation/capacity_v2_n20_v1/capacity_region_contributions.csv": {
+      "bytes": 1200,
+      "sha256": "647f29faa6e824bfc9aa220686dffc4456c2c39d4f8eaec02c3b6f1301c7dc63"
+    },
+    "godot_sim/deformation/capacity_v2_n20_v1/contract/attempt_000_00/attempt.json.gz": {
+      "bytes": 501318,
+      "sha256": "7c631aaf1e7062b7e5f85fd1052b63001d24d9357e0348405dd252f424f8f781"
+    },
+    "godot_sim/deformation/capacity_v2_n20_v1/contract/attempt_001_00/attempt.json.gz": {
+      "bytes": 502893,
+      "sha256": "3b2c1aa8689297ce41619fbe4acb88f9c70d28712b803d1afd8a2d856047f638"
+    },
+    "godot_sim/deformation/capacity_v2_n20_v1/contract/attempt_002_00/attempt.json.gz": {
+      "bytes": 504014,
+      "sha256": "a10dee98fa3545024f03bdbb319a5402c641e7027639fa6e00467b6ec6d5c42d"
+    },
+    "godot_sim/deformation/capacity_v2_n20_v1/contract/attempt_003_00/attempt.json.gz": {
+      "bytes": 457,
+      "sha256": "0043ebb057df9374da3d69fdf6185b38317223152bd6aebca4a52ca1cd66126f"
+    },
+    "godot_sim/deformation/capacity_v2_n20_v1/contract/attempt_003_01/attempt.json.gz": {
+      "bytes": 504776,
+      "sha256": "ab7aa5d943726482e854c2199127d06719e1af506cda5fc3a933bfa59eb68815"
+    },
+    "godot_sim/deformation/capacity_v2_n20_v1/contract/attempt_004_00/attempt.json.gz": {
+      "bytes": 505258,
+      "sha256": "2dd5d9c1cc5fc35573100a862d0f282dff6f7dd5c439a5973e0922bbaf40a6e1"
+    },
+    "godot_sim/deformation/capacity_v2_n20_v1/contract/attempt_005_00/attempt.json.gz": {
+      "bytes": 463,
+      "sha256": "75b8dc2f3314b3a69388e724c59b4609a2d9fb893c9e3e4f17bcde0e833d263c"
+    },
+    "godot_sim/deformation/capacity_v2_n20_v1/contract/attempt_005_01/attempt.json.gz": {
+      "bytes": 507107,
+      "sha256": "ac59ee7904511bbb1776e307bd7480fe985c4dd61b3ba98bd53bb97401e1ba4a"
+    },
+    "godot_sim/deformation/capacity_v2_n20_v1/contract/attempt_006_00/attempt.json.gz": {
+      "bytes": 459,
+      "sha256": "cd2b14a5ee762165f2d9f65cb5afb635323a44f9b1bcc7f9d6a1b3ad78bc8495"
+    },
+    "godot_sim/deformation/capacity_v2_n20_v1/contract/attempt_006_01/attempt.json.gz": {
+      "bytes": 508993,
+      "sha256": "000d8ae78ee39d8876394a24747f14458269b12e141e7ac70653d87dd1c7caaf"
+    },
+    "godot_sim/deformation/capacity_v2_n20_v1/contract/attempt_007_00/attempt.json.gz": {
+      "bytes": 471,
+      "sha256": "ff0745edcd2c4d3b7d96ea1c95bb95bad8740492a56f2d0feec8cbcc092c8514"
+    },
+    "godot_sim/deformation/capacity_v2_n20_v1/contract/attempt_007_01/attempt.json.gz": {
+      "bytes": 510410,
+      "sha256": "a0065abafaabaeb2198c78a3abe172971f4692642962efcd7374b94b27808bdb"
+    },
+    "godot_sim/deformation/capacity_v2_n20_v1/contract/attempt_008_00/attempt.json.gz": {
+      "bytes": 460,
+      "sha256": "36cca05eaffa6c0f3781d6fae45b4f416ba61be5df553016b38ca120452baf56"
+    },
+    "godot_sim/deformation/capacity_v2_n20_v1/contract/attempt_008_01/attempt.json.gz": {
+      "bytes": 511089,
+      "sha256": "dbe6d20c467fcce846b23d95606ecab4282ad1e51b6e959d742dc3928ab1630e"
+    },
+    "godot_sim/deformation/capacity_v2_n20_v1/contract/attempt_009_00/attempt.json.gz": {
+      "bytes": 464,
+      "sha256": "3d22880f70d367cc652ea70806b9bfc168c4dd560d8ac394288f8e629e8406d7"
+    },
+    "godot_sim/deformation/capacity_v2_n20_v1/contract/attempt_009_01/attempt.json.gz": {
+      "bytes": 512523,
+      "sha256": "bba1fa12bb02f4e1f822b8830df73d715fd7419cdff5d21bcac33b45522f816f"
+    },
+    "godot_sim/deformation/capacity_v2_n20_v1/contract/attempt_010_00/attempt.json.gz": {
+      "bytes": 485,
+      "sha256": "384e761962de3a1f2c3a0e818217fbd0c799e86de2917ae1112d419aaec1b3da"
+    },
+    "godot_sim/deformation/capacity_v2_n20_v1/contract/attempt_010_01/attempt.json.gz": {
+      "bytes": 459,
+      "sha256": "7f4f54e887735018d0dc539b21ff67f6105978df0838f1c20ad3be9c80a7f6e6"
+    },
+    "godot_sim/deformation/capacity_v2_n20_v1/contract/attempt_010_02/attempt.json.gz": {
+      "bytes": 512877,
+      "sha256": "1c477e7fb8c48e0f682b3448a2e6ed1c7a01cfbe331f0d21b6e7cf5491546a22"
+    },
+    "godot_sim/deformation/capacity_v2_n20_v1/contract/attempt_011_00/attempt.json.gz": {
+      "bytes": 472,
+      "sha256": "7da22321c64dd37895445c643762596edbbae351549cdf1c3a417d0011b6fca8"
+    },
+    "godot_sim/deformation/capacity_v2_n20_v1/contract/attempt_011_01/attempt.json.gz": {
+      "bytes": 463,
+      "sha256": "94af6bcafc95f93d772b46bb218dc819b9c76d8a7cdeca88c982713c163df553"
+    },
+    "godot_sim/deformation/capacity_v2_n20_v1/contract/attempt_011_02/attempt.json.gz": {
+      "bytes": 512587,
+      "sha256": "75cf1264f9dd9f0becf06893ecf2d3b5ce4f68a87727a931df3daab14c8530ff"
+    },
+    "godot_sim/deformation/capacity_v2_n20_v1/contract/attempt_012_00/attempt.json.gz": {
+      "bytes": 476,
+      "sha256": "c0dd40d6e074e26dcb322de0f2b2e9f513aef455621542c4d7de296bc96a7844"
+    },
+    "godot_sim/deformation/capacity_v2_n20_v1/contract/attempt_012_01/attempt.json.gz": {
+      "bytes": 461,
+      "sha256": "6725d2e3ed1973e5cbeb18e834edcc40aaaa5d62247997ec60845d1712465ff3"
+    },
+    "godot_sim/deformation/capacity_v2_n20_v1/contract/attempt_012_02/attempt.json.gz": {
+      "bytes": 461,
+      "sha256": "8a73e2f13900bc50028fae0f5b01a68f71ec87403716677d5f8a3c4db7d9415b"
+    },
+    "godot_sim/deformation/capacity_v2_n20_v1/contract/attempt_012_03/attempt.json.gz": {
+      "bytes": 513235,
+      "sha256": "90008346a09e22f4834da533cf7fe0740ef6e85cf51968502f6ec18ef00a6302"
+    },
+    "godot_sim/deformation/capacity_v2_n20_v1/contract/attempt_013_00/attempt.json.gz": {
+      "bytes": 478,
+      "sha256": "e1710566e7bd0ae198b9b6562e0d19f86f2c23654d1e874d16219e086b5a27c6"
+    },
+    "godot_sim/deformation/capacity_v2_n20_v1/contract/attempt_013_01/attempt.json.gz": {
+      "bytes": 460,
+      "sha256": "6e8b22eab1e77160f2c7f544bfaf46cbf73aa90f820e52d429ee7c34deb2d2fe"
+    },
+    "godot_sim/deformation/capacity_v2_n20_v1/contract/attempt_013_02/attempt.json.gz": {
+      "bytes": 460,
+      "sha256": "6a0c5425fa2ac3900cad4392780983a401b19c297ce448bef354531a79d0dd4a"
+    },
+    "godot_sim/deformation/capacity_v2_n20_v1/contract/attempt_013_03/attempt.json.gz": {
+      "bytes": 461,
+      "sha256": "85b3ac69e8c09242ff9e3cd1780881eb0f3e26a79e34f577154db7793b8e140d"
+    },
+    "godot_sim/deformation/capacity_v2_n20_v1/contract/attempt_013_04/attempt.json.gz": {
+      "bytes": 459,
+      "sha256": "8bc152ab6785708c6a6791581da5ff79551c0ef3fdb67340c7762b42e2c7d72a"
+    },
+    "godot_sim/deformation/capacity_v2_n20_v1/contract/cavity_000.npy": {
+      "bytes": 600704,
+      "sha256": "8237fafaa6cc4ef34f238d2e015e8dfe8afa7f83608e13aefcfd9b733a8d192c"
+    },
+    "godot_sim/deformation/capacity_v2_n20_v1/contract/cavity_001.npy": {
+      "bytes": 600704,
+      "sha256": "d3471428fcea0685f07748b6c5ec7ed0d94dccf6d9efdeeb2c19dfc9b7884324"
+    },
+    "godot_sim/deformation/capacity_v2_n20_v1/contract/cavity_002.npy": {
+      "bytes": 600704,
+      "sha256": "c1ca19db46becae7524febe9be1bdba1f089e3bc8c4e801ae74881bc784c9916"
+    },
+    "godot_sim/deformation/capacity_v2_n20_v1/contract/cavity_003.npy": {
+      "bytes": 600704,
+      "sha256": "415061470b30eade2a3a8ca2dcb9307ab743f44bda410a611d33c8f469b19ae6"
+    },
+    "godot_sim/deformation/capacity_v2_n20_v1/contract/cavity_004.npy": {
+      "bytes": 600704,
+      "sha256": "57e13e3a52619a41feb9e07a5edb54fadb2a1f5ea9db317b718504fdc37f4e0e"
+    },
+    "godot_sim/deformation/capacity_v2_n20_v1/contract/cavity_005.npy": {
+      "bytes": 600704,
+      "sha256": "f833cacd96933972ccd3fbcdfd5a81d3d18de49e76c0dfd67671fee19faa334e"
+    },
+    "godot_sim/deformation/capacity_v2_n20_v1/contract/cavity_006.npy": {
+      "bytes": 600704,
+      "sha256": "c073c00c1f593595d3526e9d289b1bdedd748f0460c3374e8b06094ed934a6cb"
+    },
+    "godot_sim/deformation/capacity_v2_n20_v1/contract/cavity_007.npy": {
+      "bytes": 600704,
+      "sha256": "6c8a716de78866f2ae3bb0ade4f5372abe8415acacf97d8484d7580b505287fb"
+    },
+    "godot_sim/deformation/capacity_v2_n20_v1/contract/cavity_008.npy": {
+      "bytes": 600704,
+      "sha256": "3d9905b90c5ca9a0480ba5e7fa4d55d1205c4d09f28d20ceb1e156ce9418521e"
+    },
+    "godot_sim/deformation/capacity_v2_n20_v1/contract/cavity_009.npy": {
+      "bytes": 600704,
+      "sha256": "f585f42a65344da3215cdbf175b43f4c4fd3b2e0f8ed2389fee9c397c4ea1274"
+    },
+    "godot_sim/deformation/capacity_v2_n20_v1/contract/cavity_010.npy": {
+      "bytes": 600704,
+      "sha256": "2495fc6ba3261a0416ecceaa7c772968a487b9dacfb77c90d8ba24a902d82cae"
+    },
+    "godot_sim/deformation/capacity_v2_n20_v1/contract/cavity_011.npy": {
+      "bytes": 600704,
+      "sha256": "c477f44c131d36a32abf77c84e2a1aac24e88a90f83e79e103e7649fbe0b03a2"
+    },
+    "godot_sim/deformation/capacity_v2_n20_v1/contract/cavity_012.npy": {
+      "bytes": 600704,
+      "sha256": "af6d34f50ed74c0d1e7496a4d0f8598e24698c0a363b7179bdf3a89423c08f5a"
+    },
+    "godot_sim/deformation/capacity_v2_n20_v1/contract/cavity_013.npy": {
+      "bytes": 600704,
+      "sha256": "c17e7cd7af9f0744c00f42066807cbe332cd387e7ff99d30e8595b30521f439a"
+    },
+    "godot_sim/deformation/capacity_v2_n20_v1/contract/ccd_reference_chord.json.gz": {
+      "bytes": 21951,
+      "sha256": "795573fefe45e5c375e6a0c49ed0b3ba70a95ae081b55f2e3263bac62c662d6d"
+    },
+    "godot_sim/deformation/capacity_v2_n20_v1/contract/channel_probes.json": {
+      "bytes": 15717,
+      "sha256": "beeeb220cd82ca3e2a44300e98bea248eb436cc8cdf8ca0b7a9d0407c2461121"
+    },
+    "godot_sim/deformation/capacity_v2_n20_v1/contract/independent_reintegrals.json": {
+      "bytes": 3228,
+      "sha256": "be7dac9974c2a8b9274d11ec86e455a5c76323f7c3661a4b2357f6e042bd4788"
+    },
+    "godot_sim/deformation/capacity_v2_n20_v1/contract/local_regions.json": {
+      "bytes": 24909,
+      "sha256": "eae2238582bc21697df1e7fce3f9447051cba2d080117dd9561870be92b96953"
+    },
+    "godot_sim/deformation/capacity_v2_n20_v1/contract/reference_contact_changes.json": {
+      "bytes": 1104,
+      "sha256": "6c0ea75fd815fea9d21bf5c24984efaac390cb22a30a76a7ccb55335a2179fcc"
+    },
+    "godot_sim/deformation/capacity_v2_n20_v1/contract/stage_001_tissue_self.json.gz": {
+      "bytes": 1742947,
+      "sha256": "23e7c969bf17318392b70dc63d3873ac63d515275854c5035483cb5cb38b5e25"
+    },
+    "godot_sim/deformation/capacity_v2_n20_v1/contract/stage_002_tissue_self.json.gz": {
+      "bytes": 1747476,
+      "sha256": "bbdcdd74ba3b8f0b2fbdf26a586e2690c6297f669ed4d5d812ae42c7fafe7ef1"
+    },
+    "godot_sim/deformation/capacity_v2_n20_v1/contract/stage_003_tissue_self.json.gz": {
+      "bytes": 1749341,
+      "sha256": "b1018f9e1099cd8cd3981dfe8690222b9a700e2fe5895f676e2cc64f61be91d2"
+    },
+    "godot_sim/deformation/capacity_v2_n20_v1/contract/stage_004_tissue_self.json.gz": {
+      "bytes": 1749619,
+      "sha256": "fa8cdea2729e7294423e423436f3965f5ef852b8e710c8a3717100204190fa09"
+    },
+    "godot_sim/deformation/capacity_v2_n20_v1/contract/stage_005_tissue_self.json.gz": {
+      "bytes": 1751607,
+      "sha256": "311c3b7fab7022042ea1709dfed01e42a568b4bfaa1674d6e815cb6e9ab98a3f"
+    },
+    "godot_sim/deformation/capacity_v2_n20_v1/contract/stage_006_tissue_self.json.gz": {
+      "bytes": 1751789,
+      "sha256": "8373d6c8f324c66fde5b7dae9a120a742f09bed0f3ed7d6bbd7e270f25152034"
+    },
+    "godot_sim/deformation/capacity_v2_n20_v1/contract/stage_007_tissue_self.json.gz": {
+      "bytes": 1752594,
+      "sha256": "2c5ec2d65b936a48b5ab7f60c6ef7908ad3afb514dae33a7de10acded916e945"
+    },
+    "godot_sim/deformation/capacity_v2_n20_v1/contract/stage_008_tissue_self.json.gz": {
+      "bytes": 1753246,
+      "sha256": "d7fcdb300d73f7f849a27ab6f61c183812644d814d6c423cf2474998f90ae4e6"
+    },
+    "godot_sim/deformation/capacity_v2_n20_v1/contract/stage_009_tissue_self.json.gz": {
+      "bytes": 1754124,
+      "sha256": "d96faa118f64a3d65a6919a66e37d88203d493050323f0ca926a5ada878fca5e"
+    },
+    "godot_sim/deformation/capacity_v2_n20_v1/contract/stage_010_tissue_self.json.gz": {
+      "bytes": 1754705,
+      "sha256": "fa7aec2f22cbc010cd15b3fe420c77019c4a969a16677dfdaa5f652cb81e4a91"
+    },
+    "godot_sim/deformation/capacity_v2_n20_v1/contract/stage_011_tissue_self.json.gz": {
+      "bytes": 1754925,
+      "sha256": "7477c3ad3f2e0957ee329ee5c75b31d55040a5d882c04451fd8d7ece6b216583"
+    },
+    "godot_sim/deformation/capacity_v2_n20_v1/contract/stage_012_tissue_self.json.gz": {
+      "bytes": 1755477,
+      "sha256": "5e7d1fc4bd83418bd0855a637a09fc62b580ffa950ee134f67f84120ea2f1b17"
+    },
+    "godot_sim/deformation/capacity_v2_n20_v1/contract/stage_013_tissue_self.json.gz": {
+      "bytes": 1755601,
+      "sha256": "7a3a0d6dd3c3980fda07bad1f34a51b78377aae25c053b8e15d6a1fa5786ef2d"
+    },
+    "godot_sim/deformation/capacity_v2_n20_v1/contract/stage_audit.json": {
+      "bytes": 16833,
+      "sha256": "9bd688ffa575697aaed4ea3a42a8ca7ac3c0c8938ad3b6cf831b6192b871bece"
+    },
+    "godot_sim/deformation/capacity_v2_n20_v1/contract/swept_cavity_tissue_pairs.npy": {
+      "bytes": 5209792,
+      "sha256": "8002303f56abe08dc5bec7513a1f9883c167ce4e98d0cd4f2ad41bfb37ceeac1"
+    },
+    "godot_sim/deformation/capacity_v2_n20_v1/contract/tissue_000.npy": {
+      "bytes": 3741824,
+      "sha256": "f91608cda7df4c3bbcb2b0c6c10bf9b3c2eddd94365d0c6b0fb4c39fb5c2b186"
+    },
+    "godot_sim/deformation/capacity_v2_n20_v1/contract/tissue_001.npy": {
+      "bytes": 3741824,
+      "sha256": "0747250edef6045e93e076b5eb62fb8a85f47bfe540fa31fb5f3044698c60d4d"
+    },
+    "godot_sim/deformation/capacity_v2_n20_v1/contract/tissue_002.npy": {
+      "bytes": 3741824,
+      "sha256": "2e5395ca8137fa4d9c411920c05101dc214eb873f55801426cfc76c3f33f6d63"
+    },
+    "godot_sim/deformation/capacity_v2_n20_v1/contract/tissue_003.npy": {
+      "bytes": 3741824,
+      "sha256": "de0cf96388581bf804507c5b5b5003f6ed2da77eecd7260709a38fb6a5141ba3"
+    },
+    "godot_sim/deformation/capacity_v2_n20_v1/contract/tissue_004.npy": {
+      "bytes": 3741824,
+      "sha256": "b87a11369dc4a071ffbe1e90984470f25425e4ee0a66db225af76c4a2bf316f1"
+    },
+    "godot_sim/deformation/capacity_v2_n20_v1/contract/tissue_005.npy": {
+      "bytes": 3741824,
+      "sha256": "777faa3c6d401d798a36607df9fbfb1e37664d4000e4c5a66967c960faf129a7"
+    },
+    "godot_sim/deformation/capacity_v2_n20_v1/contract/tissue_006.npy": {
+      "bytes": 3741824,
+      "sha256": "f637042a272ac33ed4dd687bd155987d928800a9d1bb42fe7b01b073c28259c8"
+    },
+    "godot_sim/deformation/capacity_v2_n20_v1/contract/tissue_007.npy": {
+      "bytes": 3741824,
+      "sha256": "62448c15a98b515622d5323e601736825a886df1ab3d20cef2cbae48a634b2e1"
+    },
+    "godot_sim/deformation/capacity_v2_n20_v1/contract/tissue_008.npy": {
+      "bytes": 3741824,
+      "sha256": "8c1c2a6120182e35b304ef6b10cb9d086ab5bda6d020705ec641cf021b1554ba"
+    },
+    "godot_sim/deformation/capacity_v2_n20_v1/contract/tissue_009.npy": {
+      "bytes": 3741824,
+      "sha256": "940d0a37e8c349bb5a738e3d8245c27cb7c42781dc5417bf7823ed44f23ef81b"
+    },
+    "godot_sim/deformation/capacity_v2_n20_v1/contract/tissue_010.npy": {
+      "bytes": 3741824,
+      "sha256": "78254f2a27fd13be9911346100db6764f849ca3cd24dec24011a0c6437c5b5fb"
+    },
+    "godot_sim/deformation/capacity_v2_n20_v1/contract/tissue_011.npy": {
+      "bytes": 3741824,
+      "sha256": "9928cb7c30e394ef66a49c97d5df434e6d1fe7a16c5f08c0f4d9dfb0f1b5f902"
+    },
+    "godot_sim/deformation/capacity_v2_n20_v1/contract/tissue_012.npy": {
+      "bytes": 3741824,
+      "sha256": "267f17ed24e46db266b1fa2e4b603fdfc1177db6073ac7d72c2203cb8f6855a7"
+    },
+    "godot_sim/deformation/capacity_v2_n20_v1/contract/tissue_013.npy": {
+      "bytes": 3741824,
+      "sha256": "1ea7dfd865df947cdcfb6ecf3caab6de887702bc5f716f9891f364216707ef55"
+    },
+    "godot_sim/deformation/capacity_v2_n20_v1/contract/trajectory.json": {
+      "bytes": 49761,
+      "sha256": "6949aab30722286a649a5da8684f25bc02c3910ec30e8aa7b0a8399bb98656c8"
+    },
+    "godot_sim/deformation/capacity_v2_n20_v1/contract/verification.json": {
+      "bytes": 437882,
+      "sha256": "563dd95ec67760dcc5b000e268b0a67f6cd91e8b20b4e66e1d6d26df7b7b0de6"
+    },
+    "godot_sim/deformation/capacity_v2_n20_v1/contract/verify_u000.json.gz": {
+      "bytes": 384384,
+      "sha256": "9c0cdb30a52749d1cd40877856b204aaf7749fd6a0d3843edcce3dcd26688453"
+    },
+    "godot_sim/deformation/capacity_v2_n20_v1/contract/verify_u025.json.gz": {
+      "bytes": 5637723,
+      "sha256": "7a4f5e69b1abbf112d592adc5adde72bcb2984926ee2b48a5b41bdb35c1e4d76"
+    },
+    "godot_sim/deformation/capacity_v2_n20_v1/contract/verify_u050.json.gz": {
+      "bytes": 5645473,
+      "sha256": "6540b3b300d1b4a01f8095c657a5e21c140030a45a98c543b91dd438d8807b9a"
+    },
+    "godot_sim/deformation/capacity_v2_n20_v1/contract/verify_u075.json.gz": {
+      "bytes": 5652781,
+      "sha256": "3fafe663b693d736f57957c8813e123eb8f1244562cf6b59d57106fdae330a98"
+    },
+    "godot_sim/deformation/capacity_v2_n20_v1/contract/verify_u100.json.gz": {
+      "bytes": 5659038,
+      "sha256": "69f85690c13001a6b1c17641a751443a7d06b48cf74b382c2263726d26f656c1"
+    },
+    "godot_sim/deformation/capacity_v2_n20_v1/environment.json": {
+      "bytes": 333,
+      "sha256": "2001c9846263a835cf012e74c94203a7c507727508c2699b8aeff09f7b331733"
+    },
+    "godot_sim/deformation/capacity_v2_n20_v1/expand/attempt_000_00/attempt.json.gz": {
+      "bytes": 365164,
+      "sha256": "44317cd65049d931dac6dac916acd0d86c13f40218298e0935b6c7f52850e8a7"
+    },
+    "godot_sim/deformation/capacity_v2_n20_v1/expand/attempt_001_00/attempt.json.gz": {
+      "bytes": 365087,
+      "sha256": "bdeec4462e7099b5e4f0d9e4f8a0f363f241da1eb72aebd84036352ccdbd07cb"
+    },
+    "godot_sim/deformation/capacity_v2_n20_v1/expand/attempt_002_00/attempt.json.gz": {
+      "bytes": 365229,
+      "sha256": "e8c3a1590151f327b27a08b182d5c209d0831870899ef4e854c1b92cb7fad3fa"
+    },
+    "godot_sim/deformation/capacity_v2_n20_v1/expand/attempt_003_00/attempt.json.gz": {
+      "bytes": 364382,
+      "sha256": "9c29c3280fdf83daa426abac6280112608fc9414cb785cea4e016525d7063563"
+    },
+    "godot_sim/deformation/capacity_v2_n20_v1/expand/attempt_004_00/attempt.json.gz": {
+      "bytes": 460,
+      "sha256": "2ee37ab52ee38dd43e229e74672ccc1dc942ad23418462aa65a29b2c40a3d733"
+    },
+    "godot_sim/deformation/capacity_v2_n20_v1/expand/attempt_004_01/attempt.json.gz": {
+      "bytes": 364204,
+      "sha256": "c1990311d5ca9646e27cd261ffbb5428c798351c622308fd579419dfc9bd4365"
+    },
+    "godot_sim/deformation/capacity_v2_n20_v1/expand/attempt_005_00/attempt.json.gz": {
+      "bytes": 6581,
+      "sha256": "cc6f872efa91e15e3bc65a4d38ef9ab5352b5a79594bf68ac010d05c51e54884"
+    },
+    "godot_sim/deformation/capacity_v2_n20_v1/expand/attempt_005_01/attempt.json.gz": {
+      "bytes": 5951,
+      "sha256": "5cfb261c646c2e08e98eee646cb907c1e6b37a2216dc316b0ddcb14db744e22f"
+    },
+    "godot_sim/deformation/capacity_v2_n20_v1/expand/attempt_005_02/attempt.json.gz": {
+      "bytes": 6426,
+      "sha256": "766698f78e1ebc3c5195a78daa32fc44defb6044f0b303df13e9bfc070d9bee6"
+    },
+    "godot_sim/deformation/capacity_v2_n20_v1/expand/attempt_005_03/attempt.json.gz": {
+      "bytes": 6427,
+      "sha256": "6eceff1da9b09581cfe41bf300a77465e260f8eb42e28ce30105d0a4a0ae3054"
+    },
+    "godot_sim/deformation/capacity_v2_n20_v1/expand/attempt_005_04/attempt.json.gz": {
+      "bytes": 6323,
+      "sha256": "b0bcf06f97756962e86a47d5d3ee341dd304e609cfd1e54029aa766c1228cf12"
+    },
+    "godot_sim/deformation/capacity_v2_n20_v1/expand/cavity_000.npy": {
+      "bytes": 600704,
+      "sha256": "8237fafaa6cc4ef34f238d2e015e8dfe8afa7f83608e13aefcfd9b733a8d192c"
+    },
+    "godot_sim/deformation/capacity_v2_n20_v1/expand/cavity_001.npy": {
+      "bytes": 600704,
+      "sha256": "d68d5bedf80c458800049193ea76c86576fd9bc0fd22dda2ad2275104ed6e45d"
+    },
+    "godot_sim/deformation/capacity_v2_n20_v1/expand/cavity_002.npy": {
+      "bytes": 600704,
+      "sha256": "8ed5956870a5ea55ca13de9511e3c255128483f4e6e4aba5931043976aeb203f"
+    },
+    "godot_sim/deformation/capacity_v2_n20_v1/expand/cavity_003.npy": {
+      "bytes": 600704,
+      "sha256": "c8ce7386b99e6f64c391d1d3d359eb0b5a3f34dc2945e0fcd90195b66155803f"
+    },
+    "godot_sim/deformation/capacity_v2_n20_v1/expand/cavity_004.npy": {
+      "bytes": 600704,
+      "sha256": "c00c90fed96cea02b3896ead78b486b70139ab0465ce5da0c791b84b6c65f85a"
+    },
+    "godot_sim/deformation/capacity_v2_n20_v1/expand/cavity_005.npy": {
+      "bytes": 600704,
+      "sha256": "6927c56e42ef3ce67617c975d66c1faa7940a1e32e51d5036b5da74b96217ab0"
+    },
+    "godot_sim/deformation/capacity_v2_n20_v1/expand/ccd_before_interval_axis_acceleration.json.gz": {
+      "bytes": 12265,
+      "sha256": "876db5b49f02768f467e624fe37f41bcc44bb31ff63f339e0473ca6506767617"
+    },
+    "godot_sim/deformation/capacity_v2_n20_v1/expand/ccd_reference_chord.json.gz": {
+      "bytes": 20054,
+      "sha256": "c1e4638e16fb47a7953570a9cabe485c094517cb01ec6892d59e303bd8eb4587"
+    },
+    "godot_sim/deformation/capacity_v2_n20_v1/expand/channel_probes.json": {
+      "bytes": 15715,
+      "sha256": "7dbaea041ddcb62b3e4d2c68ec6f59a56e9208f241c172066a3fff735f9936ca"
+    },
+    "godot_sim/deformation/capacity_v2_n20_v1/expand/independent_reintegrals.json": {
+      "bytes": 3224,
+      "sha256": "ee635e4c90c7a87c55c20974e11e18a779979486544fc13254c18d27176bc541"
+    },
+    "godot_sim/deformation/capacity_v2_n20_v1/expand/local_regions.json": {
+      "bytes": 24964,
+      "sha256": "4578449c335b9c1a7c03e662ba2b14c3cd4429912c7fc92d9fd1a07f4739beec"
+    },
+    "godot_sim/deformation/capacity_v2_n20_v1/expand/reference_contact_changes.json": {
+      "bytes": 1105,
+      "sha256": "0361faa1f011ba043303c000697d9338ec14dcc16403e8edcdd3e1075c0b81f7"
+    },
+    "godot_sim/deformation/capacity_v2_n20_v1/expand/stage_001_tissue_self.json.gz": {
+      "bytes": 1722817,
+      "sha256": "8d20646169a0aa85eccb6644a5140221c43a23384d8f0560bfd72fd5b17cedfa"
+    },
+    "godot_sim/deformation/capacity_v2_n20_v1/expand/stage_002_tissue_self.json.gz": {
+      "bytes": 1726825,
+      "sha256": "2e3806f0a5cbabe35d7b4167f8b6ce143f96c148bca22ca3977267e18e54e2e8"
+    },
+    "godot_sim/deformation/capacity_v2_n20_v1/expand/stage_003_tissue_self.json.gz": {
+      "bytes": 1729358,
+      "sha256": "e0547094aec06ebc7354b83f24712527b1f6c3c632c0fc9290182690ba74a55f"
+    },
+    "godot_sim/deformation/capacity_v2_n20_v1/expand/stage_004_tissue_self.json.gz": {
+      "bytes": 1730665,
+      "sha256": "bd2d3d85e9500ff52c7d2c0d478187640978c8ac5740c3d6b9d971179c184285"
+    },
+    "godot_sim/deformation/capacity_v2_n20_v1/expand/stage_005_tissue_self.json.gz": {
+      "bytes": 1731576,
+      "sha256": "60c5d78167b8660170866a69b092826cc1689e245a0292e91ad34ec4cce00c75"
+    },
+    "godot_sim/deformation/capacity_v2_n20_v1/expand/stage_audit.json": {
+      "bytes": 6591,
+      "sha256": "d2843a527a554905206cf1cde0e3c563753106e8d3b7ace8dab7f9b3a333baba"
+    },
+    "godot_sim/deformation/capacity_v2_n20_v1/expand/swept_cavity_tissue_pairs.npy": {
+      "bytes": 5019856,
+      "sha256": "cddbb9b5ab391f28961e64a2a103e86b2e4f478971a5e675db0a61917207aae0"
+    },
+    "godot_sim/deformation/capacity_v2_n20_v1/expand/tissue_000.npy": {
+      "bytes": 3741824,
+      "sha256": "f91608cda7df4c3bbcb2b0c6c10bf9b3c2eddd94365d0c6b0fb4c39fb5c2b186"
+    },
+    "godot_sim/deformation/capacity_v2_n20_v1/expand/tissue_001.npy": {
+      "bytes": 3741824,
+      "sha256": "06b47b5cd6db7b4b0d34d20b640dae197b036204468cf274af42d521e836eb81"
+    },
+    "godot_sim/deformation/capacity_v2_n20_v1/expand/tissue_002.npy": {
+      "bytes": 3741824,
+      "sha256": "554ce98328d6dca72323b2ee51bf21a2015177287eb92013ea89c9d8d8b2e70d"
+    },
+    "godot_sim/deformation/capacity_v2_n20_v1/expand/tissue_003.npy": {
+      "bytes": 3741824,
+      "sha256": "bda4e164164d8729e4dde3065799077d6664cc3603e70d2dc82c63281e26675a"
+    },
+    "godot_sim/deformation/capacity_v2_n20_v1/expand/tissue_004.npy": {
+      "bytes": 3741824,
+      "sha256": "98af655abab372457aad45866aafe987b32694661ce92010b68f58522b199c7d"
+    },
+    "godot_sim/deformation/capacity_v2_n20_v1/expand/tissue_005.npy": {
+      "bytes": 3741824,
+      "sha256": "884474f80bd027a0211ac1c725502565c1fdb3648cb6515b7420655142c02e79"
+    },
+    "godot_sim/deformation/capacity_v2_n20_v1/expand/trajectory.json": {
+      "bytes": 19190,
+      "sha256": "98b1c8e89564467d1b568cae9353da3df8dfcf3741826b12c9be25037f1a9652"
+    },
+    "godot_sim/deformation/capacity_v2_n20_v1/expand/verification.json": {
+      "bytes": 429666,
+      "sha256": "99ec92953c8fb0beb6850a865f491d7481ad2bc8239bf9a7b77c4a383cd4d491"
+    },
+    "godot_sim/deformation/capacity_v2_n20_v1/expand/verify_u000.json.gz": {
+      "bytes": 384376,
+      "sha256": "05baf23e282f5ee21f69ee72efb97fff2b46733de78912c6e9fa73a21171dae3"
+    },
+    "godot_sim/deformation/capacity_v2_n20_v1/expand/verify_u025.json.gz": {
+      "bytes": 5360976,
+      "sha256": "076470faffa2ed3edec0ca81fd443506de9f112d00362ebfa189913403219698"
+    },
+    "godot_sim/deformation/capacity_v2_n20_v1/expand/verify_u050.json.gz": {
+      "bytes": 5366581,
+      "sha256": "55254c73a2cf4077bade93bb6f5221f28ab2b251ac728e1a4a2aef7234b30524"
+    },
+    "godot_sim/deformation/capacity_v2_n20_v1/expand/verify_u075.json.gz": {
+      "bytes": 5370006,
+      "sha256": "6b07b0303c25f7e8b2f65792c8c361964b09475efa46d18e80bb3ca11b60ee82"
+    },
+    "godot_sim/deformation/capacity_v2_n20_v1/expand/verify_u100.json.gz": {
+      "bytes": 5371340,
+      "sha256": "7a41113932a69a28782edd0d506dc1e8b495f311e8adf97ca4181e475cfaaf23"
+    },
+    "godot_sim/deformation/capacity_v2_n20_v1/expand_redistributed/attempt_005_00/attempt.json.gz": {
+      "bytes": 6581,
+      "sha256": "cc6f872efa91e15e3bc65a4d38ef9ab5352b5a79594bf68ac010d05c51e54884"
+    },
+    "godot_sim/deformation/capacity_v2_n20_v1/expand_redistributed/attempt_005_01/attempt.json.gz": {
+      "bytes": 6095,
+      "sha256": "0a125ecaadaf6db885ec88e19497ae589ef4629e00f84171bc76526f4608a674"
+    },
+    "godot_sim/deformation/capacity_v2_n20_v1/expand_redistributed/attempt_005_02/attempt.json.gz": {
+      "bytes": 6244,
+      "sha256": "26bcf9a41617901f963dc87752fd8e0f1de8138473429a97c2ed03d41927841f"
+    },
+    "godot_sim/deformation/capacity_v2_n20_v1/expand_redistributed/attempt_005_03/attempt.json.gz": {
+      "bytes": 6254,
+      "sha256": "66bb89fd070e2dc6ee82922a5209499e95ffaa432ed52eb044bc5f28c7c10712"
+    },
+    "godot_sim/deformation/capacity_v2_n20_v1/expand_redistributed/attempt_005_04/attempt.json.gz": {
+      "bytes": 6233,
+      "sha256": "02023fb1b48117313566f11d01e5ce79b0dff7d3baacd32e453053eafac9fe71"
+    },
+    "godot_sim/deformation/capacity_v2_n20_v1/expand_redistributed/cavity_000.npy": {
+      "bytes": 600704,
+      "sha256": "8237fafaa6cc4ef34f238d2e015e8dfe8afa7f83608e13aefcfd9b733a8d192c"
+    },
+    "godot_sim/deformation/capacity_v2_n20_v1/expand_redistributed/cavity_001.npy": {
+      "bytes": 600704,
+      "sha256": "d68d5bedf80c458800049193ea76c86576fd9bc0fd22dda2ad2275104ed6e45d"
+    },
+    "godot_sim/deformation/capacity_v2_n20_v1/expand_redistributed/cavity_002.npy": {
+      "bytes": 600704,
+      "sha256": "8ed5956870a5ea55ca13de9511e3c255128483f4e6e4aba5931043976aeb203f"
+    },
+    "godot_sim/deformation/capacity_v2_n20_v1/expand_redistributed/cavity_003.npy": {
+      "bytes": 600704,
+      "sha256": "c8ce7386b99e6f64c391d1d3d359eb0b5a3f34dc2945e0fcd90195b66155803f"
+    },
+    "godot_sim/deformation/capacity_v2_n20_v1/expand_redistributed/cavity_004.npy": {
+      "bytes": 600704,
+      "sha256": "c00c90fed96cea02b3896ead78b486b70139ab0465ce5da0c791b84b6c65f85a"
+    },
+    "godot_sim/deformation/capacity_v2_n20_v1/expand_redistributed/cavity_005.npy": {
+      "bytes": 600704,
+      "sha256": "6927c56e42ef3ce67617c975d66c1faa7940a1e32e51d5036b5da74b96217ab0"
+    },
+    "godot_sim/deformation/capacity_v2_n20_v1/expand_redistributed/tissue_000.npy": {
+      "bytes": 3741824,
+      "sha256": "f91608cda7df4c3bbcb2b0c6c10bf9b3c2eddd94365d0c6b0fb4c39fb5c2b186"
+    },
+    "godot_sim/deformation/capacity_v2_n20_v1/expand_redistributed/tissue_001.npy": {
+      "bytes": 3741824,
+      "sha256": "06b47b5cd6db7b4b0d34d20b640dae197b036204468cf274af42d521e836eb81"
+    },
+    "godot_sim/deformation/capacity_v2_n20_v1/expand_redistributed/tissue_002.npy": {
+      "bytes": 3741824,
+      "sha256": "554ce98328d6dca72323b2ee51bf21a2015177287eb92013ea89c9d8d8b2e70d"
+    },
+    "godot_sim/deformation/capacity_v2_n20_v1/expand_redistributed/tissue_003.npy": {
+      "bytes": 3741824,
+      "sha256": "bda4e164164d8729e4dde3065799077d6664cc3603e70d2dc82c63281e26675a"
+    },
+    "godot_sim/deformation/capacity_v2_n20_v1/expand_redistributed/tissue_004.npy": {
+      "bytes": 3741824,
+      "sha256": "98af655abab372457aad45866aafe987b32694661ce92010b68f58522b199c7d"
+    },
+    "godot_sim/deformation/capacity_v2_n20_v1/expand_redistributed/tissue_005.npy": {
+      "bytes": 3741824,
+      "sha256": "884474f80bd027a0211ac1c725502565c1fdb3648cb6515b7420655142c02e79"
+    },
+    "godot_sim/deformation/capacity_v2_n20_v1/expand_redistributed/trajectory.json": {
+      "bytes": 20765,
+      "sha256": "d56cb58fb865e82c914883d975cabf250ccbfab36a5cd273ccb88be648c565b8"
+    },
+    "godot_sim/deformation/capacity_v2_n20_v1/float32_quality_precheck.json": {
+      "bytes": 8574,
+      "sha256": "5bf2965505b213efaf539b5f84215ec4a9437b7e35f41010665b29340957f174"
+    },
+    "godot_sim/deformation/capacity_v2_n20_v1/implementation_snapshot/kidney_irrigation_capacity_v2_n20_design.md": {
+      "bytes": 10738,
+      "sha256": "69c262083e1be955fde4f91eb63547e78215650d6cbaa65dc89c1ded642560dd"
+    },
+    "godot_sim/deformation/capacity_v2_n20_v1/implementation_snapshot/kidney_irrigation_capacity_v2_n20_next_plan.md": {
+      "bytes": 2940,
+      "sha256": "18c56003e7b5b253a5ee427b5bf127c6225440dd487b5483a624c5a828865091"
+    },
+    "godot_sim/deformation/capacity_v2_n20_v1/implementation_snapshot/kidney_irrigation_capacity_v2_n20_result.md": {
+      "bytes": 11965,
+      "sha256": "76dbd3f33a970ef516f0e9207c578053bfd8266070a99afe9b30683c71ff562d"
+    },
+    "godot_sim/deformation/capacity_v2_n20_v1/implementation_snapshot/n20_ccd.py": {
+      "bytes": 7504,
+      "sha256": "6044c03386674fa348242a5bf2e3ae09ae38b2f522099423e2cef34fc763a17d"
+    },
+    "godot_sim/deformation/capacity_v2_n20_v1/implementation_snapshot/n20_finalize.py": {
+      "bytes": 3387,
+      "sha256": "56a842f292a77839b9d74211896810c66ffac5543e6e30a1ed3f8a58848ef2f9"
+    },
+    "godot_sim/deformation/capacity_v2_n20_v1/implementation_snapshot/n20_local_limits.py": {
+      "bytes": 2926,
+      "sha256": "5987c0d0a268a0fb691b91b84c395ef1e9cd8b5ad91ccaea3701c523a66b92c0"
+    },
+    "godot_sim/deformation/capacity_v2_n20_v1/implementation_snapshot/n20_model.py": {
+      "bytes": 18901,
+      "sha256": "b066f950061eba8a52ea358d0d7e574e7bf73588ebfc490ba2b2a0104cf37070"
+    },
+    "godot_sim/deformation/capacity_v2_n20_v1/implementation_snapshot/n20_precision.py": {
+      "bytes": 1387,
+      "sha256": "f3832629f254fb68ecc1bdd96ba2ef22b56136a0083a8a17998308cd2091061d"
+    },
+    "godot_sim/deformation/capacity_v2_n20_v1/implementation_snapshot/n20_predictions.py": {
+      "bytes": 1148,
+      "sha256": "de1279a5e9455ba06b4905fe558e776e73887f607773ae3e5105a5a1b9cb6535"
+    },
+    "godot_sim/deformation/capacity_v2_n20_v1/implementation_snapshot/n20_regression.py": {
+      "bytes": 2945,
+      "sha256": "7d336a16be4eeec524a246e780cdd4481cf3ffc2b9c71dc41f2096f76d79d3a5"
+    },
+    "godot_sim/deformation/capacity_v2_n20_v1/implementation_snapshot/n20_replay.py": {
+      "bytes": 2617,
+      "sha256": "586f6f65c4b5c3a4d190561102b8b895f8655d35b8cd9bbb2fea810082bda834"
+    },
+    "godot_sim/deformation/capacity_v2_n20_v1/implementation_snapshot/n20_report.py": {
+      "bytes": 10259,
+      "sha256": "763a835060381830a072c445966548f3d359b4989fe55deecd714652ceb2bbaf"
+    },
+    "godot_sim/deformation/capacity_v2_n20_v1/implementation_snapshot/n20_solve.py": {
+      "bytes": 10635,
+      "sha256": "ab0f6834ea9d80aec96fce3c855af0b4277db36aa95a5d5689e36c072c7f6c4d"
+    },
+    "godot_sim/deformation/capacity_v2_n20_v1/implementation_snapshot/n20_stage_audit.py": {
+      "bytes": 3606,
+      "sha256": "6f1c708ce1b8231620f5ac140dbe563bea38f2412138605f5860d3205f903799"
+    },
+    "godot_sim/deformation/capacity_v2_n20_v1/implementation_snapshot/n20_tangential.py": {
+      "bytes": 3891,
+      "sha256": "6ec6d52ce839eb2e95160cbf832df2d384548015b6eae7fb7e1c3763b5ac73ee"
+    },
+    "godot_sim/deformation/capacity_v2_n20_v1/implementation_snapshot/n20_verify.py": {
+      "bytes": 10039,
+      "sha256": "323ad73c1c499439c8df209b838be7f662c8edab84d23a9aedd0da36f891514b"
+    },
+    "godot_sim/deformation/capacity_v2_n20_v1/implementation_snapshot/test_n20.py": {
+      "bytes": 12793,
+      "sha256": "06bf64e81a08a1ef393ce6fb95d527067998abde2930504a6af4217ef68209ab"
+    },
+    "godot_sim/deformation/capacity_v2_n20_v1/local_limit_diagnostics/contract/closest_finite_points_RAS_mm.npy": {
+      "bytes": 600704,
+      "sha256": "512b08e0ed45d523a3bf449918c8ad9480c63cfe0511c52689bcbb2c1f58420c"
+    },
+    "godot_sim/deformation/capacity_v2_n20_v1/local_limit_diagnostics/contract/finite_tissue_face_distance_mm.npy": {
+      "bytes": 200320,
+      "sha256": "fcbe31776e73d4e535b90d5fa572525c6dea6133ce45d300261155dfc9cbb939"
+    },
+    "godot_sim/deformation/capacity_v2_n20_v1/local_limit_diagnostics/contract/nearest_tissue_source_face_ids.npy": {
+      "bytes": 200320,
+      "sha256": "7373b4eca6492c55f46337573f0c3535d9c2d32ce4d4a35624d92f68a668dd5c"
+    },
+    "godot_sim/deformation/capacity_v2_n20_v1/local_limit_diagnostics/contract/normal_variation_proxy_per_mm.npy": {
+      "bytes": 200320,
+      "sha256": "74a18d81ab73e7dd7da0f17c606dcdd9866cb7c6a8b37c8f6e600676f7be558b"
+    },
+    "godot_sim/deformation/capacity_v2_n20_v1/local_limit_diagnostics/expand/closest_finite_points_RAS_mm.npy": {
+      "bytes": 600704,
+      "sha256": "ee4aa417936a2c0510ddb6243f8f098b65472c113715073d19ece202b29ed88a"
+    },
+    "godot_sim/deformation/capacity_v2_n20_v1/local_limit_diagnostics/expand/finite_tissue_face_distance_mm.npy": {
+      "bytes": 200320,
+      "sha256": "1476293ec6bd5e90312d921728adce82b75a20f77910f6ca8f124fced8df27c5"
+    },
+    "godot_sim/deformation/capacity_v2_n20_v1/local_limit_diagnostics/expand/nearest_tissue_source_face_ids.npy": {
+      "bytes": 200320,
+      "sha256": "be8cadfe1cb7347df067f13d57f9891c7b1ee8fc0001eb67f6af9de12a80f331"
+    },
+    "godot_sim/deformation/capacity_v2_n20_v1/local_limit_diagnostics/expand/normal_variation_proxy_per_mm.npy": {
+      "bytes": 200320,
+      "sha256": "9f0008fb05f753bd197dd7ceedcc9093a6003d7fb90ad48c05c4c5297e909202"
+    },
+    "godot_sim/deformation/capacity_v2_n20_v1/local_limit_diagnostics/reference/closest_finite_points_RAS_mm.npy": {
+      "bytes": 600704,
+      "sha256": "9b494e7b9d5c7e5af7528ac961e54e4e4f7dba219bd07828da29c2405a9bd852"
+    },
+    "godot_sim/deformation/capacity_v2_n20_v1/local_limit_diagnostics/reference/finite_tissue_face_distance_mm.npy": {
+      "bytes": 200320,
+      "sha256": "a9f6f8197ee0f993abf9e32f1fd7f7e2e5b782f3301a0fa2cee30cb6e7ace79f"
+    },
+    "godot_sim/deformation/capacity_v2_n20_v1/local_limit_diagnostics/reference/nearest_tissue_source_face_ids.npy": {
+      "bytes": 200320,
+      "sha256": "4fc8497113f5430b563710fd54610a097a08577ac27bf85b1a835870c4e4a147"
+    },
+    "godot_sim/deformation/capacity_v2_n20_v1/local_limit_diagnostics/reference/normal_variation_proxy_per_mm.npy": {
+      "bytes": 200320,
+      "sha256": "5645be0a480e8a57762438179dd79ab94156e0a2a6e902ea70d5820150f33d58"
+    },
+    "godot_sim/deformation/capacity_v2_n20_v1/local_limit_diagnostics/summary.json": {
+      "bytes": 2354,
+      "sha256": "71399662e98a0a2195d2c58ff55022655ea6ccc0b4dcd72c96515cd1725fd305"
+    },
+    "godot_sim/deformation/capacity_v2_n20_v1/local_quality_by_region.csv": {
+      "bytes": 15732,
+      "sha256": "16c12a088a63187ddf60b264ce66c401b2e4d49b15497ab2f3881df1232ab6d2"
+    },
+    "godot_sim/deformation/capacity_v2_n20_v1/local_radius_mm.npy": {
+      "bytes": 200320,
+      "sha256": "c1762fd36b120fc7d45bba2dcf9e9e418007aaec1cf2d26304a30f37a6bb26c1"
+    },
+    "godot_sim/deformation/capacity_v2_n20_v1/local_region_ids.npy": {
+      "bytes": 100224,
+      "sha256": "39d0ffd3ed89401cba9916343b1b0dc79111e7a4d4a675151108d621683c2256"
+    },
+    "godot_sim/deformation/capacity_v2_n20_v1/measurement_collar_source_anchors.npy": {
+      "bytes": 25152,
+      "sha256": "9c6eb48ba5ef4bd63af44a9cb21de157622ca25a309d974e82f36afcc1820858"
+    },
+    "godot_sim/deformation/capacity_v2_n20_v1/protected_after.json": {
+      "bytes": 49,
+      "sha256": "162ee07a431eb4225cf10cd840df796974743ef71d0390ae01f41e0eee040c27"
+    },
+    "godot_sim/deformation/capacity_v2_n20_v1/protected_before.json": {
+      "bytes": 419359,
+      "sha256": "361f42721983e27326d67b92503de3b283e8937c95c3054ef0ea08198d705ea4"
+    },
+    "godot_sim/deformation/capacity_v2_n20_v1/python_tests.json": {
+      "bytes": 324,
+      "sha256": "02d20bd147ed7fbcf958fc8364f253dc56e6333b02ce0977f9ae29ecb1e83369"
+    },
+    "godot_sim/deformation/capacity_v2_n20_v1/region_ids.npy": {
+      "bytes": 100224,
+      "sha256": "2328b3c2c8203901e24d296b51e6ecae9a12cdf38402837ad3cf5ee56a458a2a"
+    },
+    "godot_sim/deformation/capacity_v2_n20_v1/regression/S1_expand/best_tissue_offset_RESEARCH_ONLY.npy": {
+      "bytes": 3741824,
+      "sha256": "28139d01f02d6832098eeb5d243439aafe25ccad1050483b88c555ab1fce5008"
+    },
+    "godot_sim/deformation/capacity_v2_n20_v1/regression/S1_expand/comparison.json": {
+      "bytes": 1085,
+      "sha256": "681cca057ca935f43d59633309da9b1a71de8f7eb730c7b10ab063a81bd98112"
+    },
+    "godot_sim/deformation/capacity_v2_n20_v1/regression/S1_expand/iteration_00.json.gz": {
+      "bytes": 4949,
+      "sha256": "f70eec5dc6e7ba54d3039463c8ee78d1580b2663317ee0710c073035f4658b77"
+    },
+    "godot_sim/deformation/capacity_v2_n20_v1/regression/S2_expand/best_tissue_offset_RESEARCH_ONLY.npy": {
+      "bytes": 3741824,
+      "sha256": "f743131831da78ef505580f7f56bf5c6b23a085ac9b1794922896ac153051931"
+    },
+    "godot_sim/deformation/capacity_v2_n20_v1/regression/S2_expand/comparison.json": {
+      "bytes": 2266,
+      "sha256": "ca118c004e5e8a60bf193a1870a11e262c6a0e6ef797ea00de2ee03d1dd6e77d"
+    },
+    "godot_sim/deformation/capacity_v2_n20_v1/regression/S2_expand/iteration_00.json.gz": {
+      "bytes": 7517,
+      "sha256": "2868e3754133aa56c4a53ec1eef16929f2e5d1773a48ebea6b5134ec4a75b408"
+    },
+    "godot_sim/deformation/capacity_v2_n20_v1/regression/S2_expand/iteration_01.json.gz": {
+      "bytes": 6361,
+      "sha256": "6b052b46c5e1eb6cec5b1f658af9092b56280199f5409af48d2a24e6f53f899e"
+    },
+    "godot_sim/deformation/capacity_v2_n20_v1/regression/S3_expand/best_tissue_offset_RESEARCH_ONLY.npy": {
+      "bytes": 3741824,
+      "sha256": "aba6c65c81e399faf3fe635d74828a9ef7a576cfae3e1f30cdf6cf4af1451f9d"
+    },
+    "godot_sim/deformation/capacity_v2_n20_v1/regression/S3_expand/comparison.json": {
+      "bytes": 11235,
+      "sha256": "5d821e6027a5dfa160c4d177dabe0a9f1cadf74d86ca58a9c8d048ccb84971cb"
+    },
+    "godot_sim/deformation/capacity_v2_n20_v1/regression/S3_expand/iteration_00.json.gz": {
+      "bytes": 9916,
+      "sha256": "ed87f90710708cd96afd830510822aede9fc73640b7d3ff1ef0e6fb5093f7215"
+    },
+    "godot_sim/deformation/capacity_v2_n20_v1/regression/S3_expand/iteration_01.json.gz": {
+      "bytes": 8747,
+      "sha256": "1ec37f7bfc839355bfcacb0c1914b26db2644bac22f713065cf512178a386fc6"
+    },
+    "godot_sim/deformation/capacity_v2_n20_v1/regression/S3_expand/iteration_02.json.gz": {
+      "bytes": 8753,
+      "sha256": "b77083880824529564457576d4c0073508d51db9fc56835fa9657130d59517bb"
+    },
+    "godot_sim/deformation/capacity_v2_n20_v1/regression/comparison.json": {
+      "bytes": 17648,
+      "sha256": "516d44e878cbdf2187543003281657c2c85dcbea23b59becd90356f337deccde"
+    },
+    "godot_sim/deformation/capacity_v2_n20_v1/regression_S1_expand/cavity_000.npy": {
+      "bytes": 600704,
+      "sha256": "8237fafaa6cc4ef34f238d2e015e8dfe8afa7f83608e13aefcfd9b733a8d192c"
+    },
+    "godot_sim/deformation/capacity_v2_n20_v1/regression_S1_expand/cavity_001.npy": {
+      "bytes": 600704,
+      "sha256": "cb8cf4c6c01311c7d43157b4e7c215e169643899f5e19cf2b42305252bc46958"
+    },
+    "godot_sim/deformation/capacity_v2_n20_v1/regression_S1_expand/channel_probes.json": {
+      "bytes": 15713,
+      "sha256": "974c54d8ee7ff0f12d374f72f9a580a61007ce515e423d0a225d21d5a811f8ab"
+    },
+    "godot_sim/deformation/capacity_v2_n20_v1/regression_S1_expand/local_regions.json": {
+      "bytes": 24914,
+      "sha256": "e4d0b226107d00352c5cab1b7c252d397a7077b670546324c139c5057cfd0a30"
+    },
+    "godot_sim/deformation/capacity_v2_n20_v1/regression_S1_expand/tissue_000.npy": {
+      "bytes": 3741824,
+      "sha256": "f91608cda7df4c3bbcb2b0c6c10bf9b3c2eddd94365d0c6b0fb4c39fb5c2b186"
+    },
+    "godot_sim/deformation/capacity_v2_n20_v1/regression_S1_expand/tissue_001.npy": {
+      "bytes": 3741824,
+      "sha256": "28139d01f02d6832098eeb5d243439aafe25ccad1050483b88c555ab1fce5008"
+    },
+    "godot_sim/deformation/capacity_v2_n20_v1/regression_S1_expand/trajectory.json": {
+      "bytes": 102,
+      "sha256": "044c15b36cdf1fa5bad8e65dd2645ed87bf74a76e98840a3587c83beb34349e5"
+    },
+    "godot_sim/deformation/capacity_v2_n20_v1/regression_S1_expand/verification.json": {
+      "bytes": 425598,
+      "sha256": "9eda2a15e36601b03c7e1db4d52554a425f76d3835584864c7c40bd142802dd6"
+    },
+    "godot_sim/deformation/capacity_v2_n20_v1/regression_S1_expand/verify_u000.json.gz": {
+      "bytes": 384376,
+      "sha256": "7eb12362d251e498369ad0604de10706d5f1045d084657a2f1ed3934ffae0666"
+    },
+    "godot_sim/deformation/capacity_v2_n20_v1/regression_S1_expand/verify_u025.json.gz": {
+      "bytes": 5382252,
+      "sha256": "533f2f710834797ad55b64f066a88bb6ec17b3a89ac8b15b27c01913abbcc165"
+    },
+    "godot_sim/deformation/capacity_v2_n20_v1/regression_S1_expand/verify_u050.json.gz": {
+      "bytes": 5388965,
+      "sha256": "09199a143d7f7801d6c19ce485ebfa81d0209785f3eb4f1e237957548c389f7b"
+    },
+    "godot_sim/deformation/capacity_v2_n20_v1/regression_S1_expand/verify_u075.json.gz": {
+      "bytes": 5390940,
+      "sha256": "ac058db883b38c71b6aa319c019b438a2e4f3d43264eb9169b5dff3149521814"
+    },
+    "godot_sim/deformation/capacity_v2_n20_v1/regression_S1_expand/verify_u100.json.gz": {
+      "bytes": 5390965,
+      "sha256": "776012c684e33bb02fbb2a74606dcef9f927d857f9fce2534129255b6a09a2b1"
+    },
+    "godot_sim/deformation/capacity_v2_n20_v1/repeat_build.json": {
+      "bytes": 5083,
+      "sha256": "f3e8e8ee2803cf7aed0bef7a68e102bd3696efff59fe3f3160d053e3b4a4f71c"
+    },
+    "godot_sim/deformation/capacity_v2_n20_v1/source_faces.npy": {
+      "bytes": 1201184,
+      "sha256": "dbf4771365f42398f329100e695dc8580f8c038c557c671c02724bff45b29c3d"
+    },
+    "godot_sim/deformation/capacity_v2_n20_v1/source_owner_ids.npy": {
+      "bytes": 100224,
+      "sha256": "7b92ab9e4686764022f0e084a2d78da1eb789a564cad20fa3e903c5d4029ce5b"
+    },
+    "godot_sim/deformation/capacity_v2_n20_v1/summary.json": {
+      "bytes": 5329,
+      "sha256": "db38edd6380cdbd70943dcc6e255e9ae4df7b8ba52d77f6b9bcedcb2dbcac7c6"
+    },
+    "godot_sim/deformation/capacity_v2_n20_v1/support_mapping.json": {
+      "bytes": 35110,
+      "sha256": "d18829f7f797f20a9c7a860b9d1643c4bf1c68bbd3340c3e9a7345b9bf75244c"
+    },
+    "godot_sim/deformation/capacity_v2_n20_v1/tangential_repair/experiment.json": {
+      "bytes": 1500,
+      "sha256": "67615530a9b59e1dddd2064a84a85bc2e40bc941933e1f42ac7b0cd386e4b5c3"
+    },
+    "godot_sim/deformation/capacity_v2_n20_v1/tangential_repair/patch_source_vertex_ids.npy": {
+      "bytes": 216,
+      "sha256": "917447a462ce2d9412efe6b281487f8081cec57d157467f0f6203406ab86dbfb"
+    },
+    "godot_sim/deformation/capacity_v2_n20_v1/tangential_repair/rejected_cavity_offset.npy": {
+      "bytes": 600704,
+      "sha256": "98d4a37e147faf48654e420bc67a75a11dfb564fb7ff70ebd30356cdafca50f8"
+    },
+    "godot_sim/deformation/capacity_v2_n20_v1/tangential_repair/tangential_cavity_offset_RESEARCH_ONLY.npy": {
+      "bytes": 600704,
+      "sha256": "dac45dfbf0469e1e5d9715a555065599f038dac4c971ff495438b4c3aab64d12"
+    },
+    "godot_sim/deformation/capacity_v2_n20_v1/trajectory_replay.json": {
+      "bytes": 4426,
+      "sha256": "940902ad2eafd94483191a2f2683ed334f07b0a5ddd35e16ff12c1d6ef9d463d"
+    },
+    "godot_sim/deformation/capacity_v2_n20_v1/unconstrained_predictions.json": {
+      "bytes": 13418,
+      "sha256": "7afdc12051cbefe7d89dcb78b9315a334d3bc293682f9a490cde721f2e1499e1"
+    },
+    "godot_sim/deformation/capacity_v2_n20_v1/validation_incidents.json": {
+      "bytes": 1065,
+      "sha256": "94bcadfb032d308b22d32681e3e326a6ca1d46b0e0267d09c6ca82bb262caf6a"
+    },
+    "godot_sim/tools/capacity_v2/n20_ccd.py": {
+      "bytes": 7504,
+      "sha256": "6044c03386674fa348242a5bf2e3ae09ae38b2f522099423e2cef34fc763a17d"
+    },
+    "godot_sim/tools/capacity_v2/n20_finalize.py": {
+      "bytes": 3387,
+      "sha256": "56a842f292a77839b9d74211896810c66ffac5543e6e30a1ed3f8a58848ef2f9"
+    },
+    "godot_sim/tools/capacity_v2/n20_local_limits.py": {
+      "bytes": 2926,
+      "sha256": "5987c0d0a268a0fb691b91b84c395ef1e9cd8b5ad91ccaea3701c523a66b92c0"
+    },
+    "godot_sim/tools/capacity_v2/n20_model.py": {
+      "bytes": 18901,
+      "sha256": "b066f950061eba8a52ea358d0d7e574e7bf73588ebfc490ba2b2a0104cf37070"
+    },
+    "godot_sim/tools/capacity_v2/n20_precision.py": {
+      "bytes": 1387,
+      "sha256": "f3832629f254fb68ecc1bdd96ba2ef22b56136a0083a8a17998308cd2091061d"
+    },
+    "godot_sim/tools/capacity_v2/n20_predictions.py": {
+      "bytes": 1148,
+      "sha256": "de1279a5e9455ba06b4905fe558e776e73887f607773ae3e5105a5a1b9cb6535"
+    },
+    "godot_sim/tools/capacity_v2/n20_regression.py": {
+      "bytes": 2945,
+      "sha256": "7d336a16be4eeec524a246e780cdd4481cf3ffc2b9c71dc41f2096f76d79d3a5"
+    },
+    "godot_sim/tools/capacity_v2/n20_replay.py": {
+      "bytes": 2617,
+      "sha256": "586f6f65c4b5c3a4d190561102b8b895f8655d35b8cd9bbb2fea810082bda834"
+    },
+    "godot_sim/tools/capacity_v2/n20_report.py": {
+      "bytes": 10259,
+      "sha256": "763a835060381830a072c445966548f3d359b4989fe55deecd714652ceb2bbaf"
+    },
+    "godot_sim/tools/capacity_v2/n20_solve.py": {
+      "bytes": 10635,
+      "sha256": "ab0f6834ea9d80aec96fce3c855af0b4277db36aa95a5d5689e36c072c7f6c4d"
+    },
+    "godot_sim/tools/capacity_v2/n20_stage_audit.py": {
+      "bytes": 3606,
+      "sha256": "6f1c708ce1b8231620f5ac140dbe563bea38f2412138605f5860d3205f903799"
+    },
+    "godot_sim/tools/capacity_v2/n20_tangential.py": {
+      "bytes": 3891,
+      "sha256": "6ec6d52ce839eb2e95160cbf832df2d384548015b6eae7fb7e1c3763b5ac73ee"
+    },
+    "godot_sim/tools/capacity_v2/n20_verify.py": {
+      "bytes": 10039,
+      "sha256": "323ad73c1c499439c8df209b838be7f662c8edab84d23a9aedd0da36f891514b"
+    },
+    "godot_sim/tools/capacity_v2/test_n20.py": {
+      "bytes": 12793,
+      "sha256": "06bf64e81a08a1ef393ce6fb95d527067998abde2930504a6af4217ef68209ab"
+    }
+  },
+  "formal_N2_resources_created": false,
+  "protected_checked_files": 2658,
+  "runtime_eligible": false,
+  "stage": "N2.0",
+  "target_reached": false,
+  "total_bytes": 258916941
+}

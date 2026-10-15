@@ -1,0 +1,294 @@
+[
+  {
+    "attempt": "contract/attempt_013_00",
+    "cavity_source_faces": [
+      3226,
+      7680,
+      14703,
+      14747,
+      33399
+    ],
+    "face_centers_RAS_mm": [
+      [
+        2.23404765,
+        30.387610113333334,
+        -45.52052943
+      ],
+      [
+        11.460364656666668,
+        -5.5159215900000005,
+        -41.74807103333333
+      ],
+      [
+        27.992134089999997,
+        33.567830403333325,
+        -47.991938273333325
+      ],
+      [
+        24.33760452333333,
+        32.202548979999996,
+        -48.00162633333334
+      ],
+      [
+        4.55150286,
+        12.776583033333333,
+        -81.27402496333333
+      ]
+    ],
+    "reason": "CAVITY_REFERENCE_QUALITY",
+    "response_regions": [
+      "MAIN",
+      "T_13",
+      "T_18",
+      "T_20"
+    ],
+    "side": "contract",
+    "trial_algebraic_integral_mL": 15.356447857389263
+  },
+  {
+    "attempt": "contract/attempt_013_01",
+    "cavity_source_faces": [
+      7680
+    ],
+    "face_centers_RAS_mm": [
+      [
+        11.460364656666668,
+        -5.5159215900000005,
+        -41.74807103333333
+      ]
+    ],
+    "reason": "CAVITY_REFERENCE_QUALITY",
+    "response_regions": [
+      "T_18"
+    ],
+    "side": "contract",
+    "trial_algebraic_integral_mL": 15.44047766782641
+  },
+  {
+    "attempt": "contract/attempt_013_02",
+    "cavity_source_faces": [
+      7680
+    ],
+    "face_centers_RAS_mm": [
+      [
+        11.460364656666668,
+        -5.5159215900000005,
+        -41.74807103333333
+      ]
+    ],
+    "reason": "CAVITY_REFERENCE_QUALITY",
+    "response_regions": [
+      "T_18"
+    ],
+    "side": "contract",
+    "trial_algebraic_integral_mL": 15.482492573044995
+  },
+  {
+    "attempt": "contract/attempt_013_03",
+    "cavity_source_faces": [
+      7680
+    ],
+    "face_centers_RAS_mm": [
+      [
+        11.460364656666668,
+        -5.5159215900000005,
+        -41.74807103333333
+      ]
+    ],
+    "reason": "CAVITY_REFERENCE_QUALITY",
+    "response_regions": [
+      "T_18"
+    ],
+    "side": "contract",
+    "trial_algebraic_integral_mL": 15.50350002565428
+  },
+  {
+    "attempt": "contract/attempt_013_04",
+    "cavity_source_faces": [
+      7680
+    ],
+    "face_centers_RAS_mm": [
+      [
+        11.460364656666668,
+        -5.5159215900000005,
+        -41.74807103333333
+      ]
+    ],
+    "reason": "CAVITY_REFERENCE_QUALITY",
+    "response_regions": [
+      "T_18"
+    ],
+    "side": "contract",
+    "trial_algebraic_integral_mL": 15.514003751958919
+  },
+  {
+    "attempt": "expand/attempt_005_00",
+    "cavity_source_faces": [],
+    "constraint_locations": [
+      {
+        "cavity_face": 34852,
+        "halfspace_residual_mm": -0.006787991787422953,
+        "position_RAS_mm": [
+          14.21481991,
+          20.69821358,
+          -81.125
+        ],
+        "source_paths": [
+          "MAIN"
+        ],
+        "tissue_face": 181160,
+        "tissue_vertex": 93578
+      }
+    ],
+    "face_centers_RAS_mm": [],
+    "interpretation": "Conservative halfspace/exact-correspondence conflict is NOT automatically a finite physical penetration.",
+    "plane_fixed_conflicts": [
+      [
+        34852,
+        181160,
+        93578,
+        -0.006787991787422953
+      ]
+    ],
+    "reason": "TISSUE_QUALITY_OR_ACTIVE_QP",
+    "response_regions": [],
+    "side": "expand",
+    "trial_algebraic_integral_mL": 17.730290002238803
+  },
+  {
+    "attempt": "expand/attempt_005_01",
+    "cavity_source_faces": [],
+    "constraint_locations": [
+      {
+        "cavity_face": 34852,
+        "halfspace_residual_mm": -0.006168891527691622,
+        "position_RAS_mm": [
+          14.21481991,
+          20.69821358,
+          -81.125
+        ],
+        "source_paths": [
+          "MAIN"
+        ],
+        "tissue_face": 181160,
+        "tissue_vertex": 93578
+      }
+    ],
+    "face_centers_RAS_mm": [],
+    "interpretation": "Conservative halfspace/exact-correspondence conflict is NOT automatically a finite physical penetration.",
+    "plane_fixed_conflicts": [
+      [
+        34852,
+        181160,
+        93578,
+        -0.006168891527691622
+      ]
+    ],
+    "reason": "TISSUE_QUALITY_OR_ACTIVE_QP",
+    "response_regions": [],
+    "side": "expand",
+    "trial_algebraic_integral_mL": 17.646260191801634
+  },
+  {
+    "attempt": "expand/attempt_005_02",
+    "cavity_source_faces": [],
+    "constraint_locations": [
+      {
+        "cavity_face": 34852,
+        "halfspace_residual_mm": -0.005858601929442153,
+        "position_RAS_mm": [
+          14.21481991,
+          20.69821358,
+          -81.125
+        ],
+        "source_paths": [
+          "MAIN"
+        ],
+        "tissue_face": 181160,
+        "tissue_vertex": 93578
+      }
+    ],
+    "face_centers_RAS_mm": [],
+    "interpretation": "Conservative halfspace/exact-correspondence conflict is NOT automatically a finite physical penetration.",
+    "plane_fixed_conflicts": [
+      [
+        34852,
+        181160,
+        93578,
+        -0.005858601929442153
+      ]
+    ],
+    "reason": "TISSUE_QUALITY_OR_ACTIVE_QP",
+    "response_regions": [],
+    "side": "expand",
+    "trial_algebraic_integral_mL": 17.604245286583094
+  },
+  {
+    "attempt": "expand/attempt_005_03",
+    "cavity_source_faces": [],
+    "constraint_locations": [
+      {
+        "cavity_face": 34852,
+        "halfspace_residual_mm": -0.005703271768936369,
+        "position_RAS_mm": [
+          14.21481991,
+          20.69821358,
+          -81.125
+        ],
+        "source_paths": [
+          "MAIN"
+        ],
+        "tissue_face": 181160,
+        "tissue_vertex": 93578
+      }
+    ],
+    "face_centers_RAS_mm": [],
+    "interpretation": "Conservative halfspace/exact-correspondence conflict is NOT automatically a finite physical penetration.",
+    "plane_fixed_conflicts": [
+      [
+        34852,
+        181160,
+        93578,
+        -0.005703271768936369
+      ]
+    ],
+    "reason": "TISSUE_QUALITY_OR_ACTIVE_QP",
+    "response_regions": [],
+    "side": "expand",
+    "trial_algebraic_integral_mL": 17.58323783397381
+  },
+  {
+    "attempt": "expand/attempt_005_04",
+    "cavity_source_faces": [],
+    "constraint_locations": [
+      {
+        "cavity_face": 34852,
+        "halfspace_residual_mm": -0.005625560287973064,
+        "position_RAS_mm": [
+          14.21481991,
+          20.69821358,
+          -81.125
+        ],
+        "source_paths": [
+          "MAIN"
+        ],
+        "tissue_face": 181160,
+        "tissue_vertex": 93578
+      }
+    ],
+    "face_centers_RAS_mm": [],
+    "interpretation": "Conservative halfspace/exact-correspondence conflict is NOT automatically a finite physical penetration.",
+    "plane_fixed_conflicts": [
+      [
+        34852,
+        181160,
+        93578,
+        -0.005625560287973064
+      ]
+    ],
+    "reason": "TISSUE_QUALITY_OR_ACTIVE_QP",
+    "response_regions": [],
+    "side": "expand",
+    "trial_algebraic_integral_mL": 17.572734107669163
+  }
+]

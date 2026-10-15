@@ -1,0 +1,10 @@
+{
+  "P23_runtime_performance_issue_resolved": false,
+  "numpy": "2.2.6",
+  "offline_only": true,
+  "platform": "Windows-10-10.0.26200-SP0",
+  "python": "3.10.21 | packaged by Anaconda, Inc. | (main, Aug 27 2026, 14:35:39) [MSC v.1942 64 bit (AMD64)]",
+  "scipy": "1.15.3",
+  "threads": "OMP/BLAS/MKL=1",
+  "vtk": "9.6.2"
+}

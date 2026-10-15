@@ -1,0 +1,642 @@
+{
+  "continuous_collision_certificate": false,
+  "direction": "expand",
+  "mobility": {
+    "BLADDER_TRANSITION": 1.0,
+    "B_01": 1.0,
+    "B_02": 1.0,
+    "B_03": 1.0,
+    "B_04": 1.0,
+    "B_05": 1.0,
+    "B_06": 1.0,
+    "B_07": 1.0,
+    "B_08": 1.0,
+    "B_09": 1.0,
+    "B_10": 1.0,
+    "B_11": 1.0,
+    "B_12": 1.0,
+    "B_13": 1.0,
+    "B_14": 1.0,
+    "B_15": 1.0,
+    "B_16": 1.0,
+    "B_17": 1.0,
+    "B_18": 1.0,
+    "B_19": 1.0,
+    "B_20": 1.0,
+    "B_21": 1.0,
+    "B_22": 1.0,
+    "B_23": 1.0,
+    "B_24": 1.0,
+    "B_25": 1.0,
+    "B_26": 1.0,
+    "B_27": 1.0,
+    "B_28": 1.0,
+    "B_29": 1.0,
+    "B_30": 1.0,
+    "B_31": 1.0,
+    "B_32": 1.0,
+    "FIXED": 1.0,
+    "IN_01": 1.0,
+    "IN_02": 1.0,
+    "J_01": 1.0,
+    "J_02": 1.0,
+    "J_03": 1.0,
+    "J_04": 1.0,
+    "J_05": 1.0,
+    "J_06": 1.0,
+    "J_07": 1.0,
+    "J_08": 1.0,
+    "J_09": 1.0,
+    "MAIN": 0.0009765625,
+    "T_01": 1.0,
+    "T_02": 1.0,
+    "T_03": 1.0,
+    "T_04": 1.0,
+    "T_05": 1.0,
+    "T_06": 1.0,
+    "T_07": 1.0,
+    "T_08": 1.0,
+    "T_09": 1.0,
+    "T_10": 1.0,
+    "T_11": 1.0,
+    "T_12": 1.0,
+    "T_13": 1.0,
+    "T_14": 1.0,
+    "T_15": 1.0,
+    "T_16": 1.0,
+    "T_17": 1.0,
+    "T_18": 1.0,
+    "T_19": 0.25,
+    "T_20": 1.0,
+    "T_21": 1.0,
+    "T_22": 1.0
+  },
+  "reference_mL": 16.805962087430167,
+  "rejections": [
+    {
+      "attempt": "expand/attempt_004_00",
+      "blocked_regions": [
+        "T_19"
+      ],
+      "iteration": 4,
+      "mobility_after": {
+        "T_19": 0.25
+      },
+      "reason": "CAVITY_REFERENCE_QUALITY",
+      "retry": 0,
+      "trial_integral_mL": 17.646260191801684
+    },
+    {
+      "attempt": "expand/attempt_005_00",
+      "blocked_regions": [],
+      "iteration": 5,
+      "mobility_after": {},
+      "reason": "TISSUE_QUALITY_OR_ACTIVE_QP",
+      "retry": 0,
+      "trial_integral_mL": 17.730290002238803
+    },
+    {
+      "attempt": "expand/attempt_005_01",
+      "blocked_regions": [],
+      "iteration": 5,
+      "mobility_after": {},
+      "reason": "TISSUE_QUALITY_OR_ACTIVE_QP",
+      "retry": 1,
+      "trial_integral_mL": 17.646260191801634
+    },
+    {
+      "attempt": "expand/attempt_005_02",
+      "blocked_regions": [],
+      "iteration": 5,
+      "mobility_after": {},
+      "reason": "TISSUE_QUALITY_OR_ACTIVE_QP",
+      "retry": 2,
+      "trial_integral_mL": 17.604245286583094
+    },
+    {
+      "attempt": "expand/attempt_005_03",
+      "blocked_regions": [],
+      "iteration": 5,
+      "mobility_after": {},
+      "reason": "TISSUE_QUALITY_OR_ACTIVE_QP",
+      "retry": 3,
+      "trial_integral_mL": 17.58323783397381
+    },
+    {
+      "attempt": "expand/attempt_005_04",
+      "blocked_regions": [],
+      "iteration": 5,
+      "mobility_after": {},
+      "reason": "TISSUE_QUALITY_OR_ACTIVE_QP",
+      "retry": 4,
+      "trial_integral_mL": 17.572734107669163
+    },
+    {
+      "attempt": "expand_redistributed/attempt_005_00",
+      "blocked_regions": [
+        "MAIN"
+      ],
+      "iteration": 5,
+      "mobility_after": {
+        "MAIN": 0.25
+      },
+      "reason": "TISSUE_QUALITY_OR_ACTIVE_QP",
+      "retry": 0,
+      "trial_integral_mL": 17.730290002238803
+    },
+    {
+      "attempt": "expand_redistributed/attempt_005_01",
+      "blocked_regions": [
+        "MAIN"
+      ],
+      "iteration": 5,
+      "mobility_after": {
+        "MAIN": 0.0625
+      },
+      "reason": "TISSUE_QUALITY_OR_ACTIVE_QP",
+      "retry": 1,
+      "trial_integral_mL": 17.646260191801666
+    },
+    {
+      "attempt": "expand_redistributed/attempt_005_02",
+      "blocked_regions": [
+        "MAIN"
+      ],
+      "iteration": 5,
+      "mobility_after": {
+        "MAIN": 0.015625
+      },
+      "reason": "TISSUE_QUALITY_OR_ACTIVE_QP",
+      "retry": 2,
+      "trial_integral_mL": 17.604245286583094
+    },
+    {
+      "attempt": "expand_redistributed/attempt_005_03",
+      "blocked_regions": [
+        "MAIN"
+      ],
+      "iteration": 5,
+      "mobility_after": {
+        "MAIN": 0.00390625
+      },
+      "reason": "TISSUE_QUALITY_OR_ACTIVE_QP",
+      "retry": 3,
+      "trial_integral_mL": 17.583237833973808
+    },
+    {
+      "attempt": "expand_redistributed/attempt_005_04",
+      "blocked_regions": [
+        "MAIN"
+      ],
+      "iteration": 5,
+      "mobility_after": {
+        "MAIN": 0.0009765625
+      },
+      "reason": "TISSUE_QUALITY_OR_ACTIVE_QP",
+      "retry": 4,
+      "trial_integral_mL": 17.57273410766916
+    }
+  ],
+  "runtime_eligible": false,
+  "states": [
+    {
+      "active_pairs": 0,
+      "attempt": "expand/attempt_000_00",
+      "capacity_attribution": {
+        "D2_actual_delta_mL": 0.16805962087429194,
+        "interpretation": "Nonoverlapping source-vertex response supports integrated along this trial trajectory, NOT baseline anatomical region capacities",
+        "regions": [
+          {
+            "delta_volume_mL": 0.0,
+            "fraction_of_signed_total": 0.0,
+            "max_displacement_mm": 0.0,
+            "region": "FIXED",
+            "vertices": 3675
+          },
+          {
+            "delta_volume_mL": 0.042442734919669954,
+            "fraction_of_signed_total": 0.25254570192929915,
+            "max_displacement_mm": 0.06468784587393615,
+            "region": "Terminals",
+            "vertices": 3659
+          },
+          {
+            "delta_volume_mL": 0.0633986354333158,
+            "fraction_of_signed_total": 0.37723895307807326,
+            "max_displacement_mm": 0.08462999293682905,
+            "region": "MainCavity",
+            "vertices": 2299
+          },
+          {
+            "delta_volume_mL": 0.0005586807359649604,
+            "fraction_of_signed_total": 0.0033243008228779226,
+            "max_displacement_mm": 0.0307347450217411,
+            "region": "J_01",
+            "vertices": 67
+          },
+          {
+            "delta_volume_mL": 0.05857601379792183,
+            "fraction_of_signed_total": 0.34854305569174465,
+            "max_displacement_mm": 0.046379743261415966,
+            "region": "Branches",
+            "vertices": 13919
+          },
+          {
+            "delta_volume_mL": 0.0018880258112942531,
+            "fraction_of_signed_total": 0.011234261992691811,
+            "max_displacement_mm": 0.012399307391616297,
+            "region": "OtherJunctions",
+            "vertices": 595
+          },
+          {
+            "delta_volume_mL": 0.0011955301761352795,
+            "fraction_of_signed_total": 0.007113726485373499,
+            "max_displacement_mm": 0.0367076099115208,
+            "region": "InterfaceTransition",
+            "vertices": 810
+          }
+        ],
+        "residual_mL": 1.0103029524088925e-14,
+        "sum_delta_mL": 0.16805962087430204
+      },
+      "capacity_mL": 16.97402170830446,
+      "cavity_quality": {
+        "bad_edges": [],
+        "bad_faces": [],
+        "maximum_area_ratio": 1.0774589987113306,
+        "maximum_edge_gradient": 0.03859563301553516,
+        "maximum_face": 535,
+        "minimum_area_ratio": 0.9907465843513418,
+        "minimum_face": 36693,
+        "pass": true
+      },
+      "index": 1,
+      "maximum_cavity_mm": 0.08462999293682905,
+      "maximum_tissue_mm": 0.07721763458796418,
+      "ratio": 1.0099999999999993,
+      "tissue_quality": {
+        "bad_edges": [],
+        "bad_faces": [],
+        "maximum_area_ratio": 1.0234254354849126,
+        "maximum_edge_gradient": 0.01663849705828486,
+        "maximum_face": 181408,
+        "minimum_area_ratio": 0.9927171993239337,
+        "minimum_face": 199318,
+        "pass": true
+      },
+      "wall_clock_seconds": 21.918848514556885
+    },
+    {
+      "active_pairs": 0,
+      "attempt": "expand/attempt_001_00",
+      "capacity_attribution": {
+        "D2_actual_delta_mL": 0.3361192417486265,
+        "interpretation": "Nonoverlapping source-vertex response supports integrated along this trial trajectory, NOT baseline anatomical region capacities",
+        "regions": [
+          {
+            "delta_volume_mL": 0.0,
+            "fraction_of_signed_total": 0.0,
+            "max_displacement_mm": 0.0,
+            "region": "FIXED",
+            "vertices": 3675
+          },
+          {
+            "delta_volume_mL": 0.08505573744482971,
+            "fraction_of_signed_total": 0.25305227098078587,
+            "max_displacement_mm": 0.1287209352634284,
+            "region": "Terminals",
+            "vertices": 3659
+          },
+          {
+            "delta_volume_mL": 0.12704413009560545,
+            "fraction_of_signed_total": 0.3779733925218656,
+            "max_displacement_mm": 0.168403379259151,
+            "region": "MainCavity",
+            "vertices": 2299
+          },
+          {
+            "delta_volume_mL": 0.0011127943251905783,
+            "fraction_of_signed_total": 0.003310712946397766,
+            "max_displacement_mm": 0.06115839955455277,
+            "region": "J_01",
+            "vertices": 67
+          },
+          {
+            "delta_volume_mL": 0.11676417805424898,
+            "fraction_of_signed_total": 0.3473891510845827,
+            "max_displacement_mm": 0.09229004072142999,
+            "region": "Branches",
+            "vertices": 13919
+          },
+          {
+            "delta_volume_mL": 0.003758987467837181,
+            "fraction_of_signed_total": 0.011183493834751701,
+            "max_displacement_mm": 0.02467311165652321,
+            "region": "OtherJunctions",
+            "vertices": 595
+          },
+          {
+            "delta_volume_mL": 0.002383414360892154,
+            "fraction_of_signed_total": 0.007090978631549568,
+            "max_displacement_mm": 0.07304367327834997,
+            "region": "InterfaceTransition",
+            "vertices": 810
+          }
+        ],
+        "residual_mL": -2.2426505097428162e-14,
+        "sum_delta_mL": 0.3361192417486041
+      },
+      "capacity_mL": 17.142081329178794,
+      "cavity_quality": {
+        "bad_edges": [],
+        "bad_faces": [],
+        "maximum_area_ratio": 1.1557146660429036,
+        "maximum_edge_gradient": 0.07680060932196656,
+        "maximum_face": 535,
+        "minimum_area_ratio": 0.9815024610269693,
+        "minimum_face": 36693,
+        "pass": true
+      },
+      "index": 2,
+      "maximum_cavity_mm": 0.168403379259151,
+      "maximum_tissue_mm": 0.15365368886085007,
+      "ratio": 1.0200000000000014,
+      "tissue_quality": {
+        "bad_edges": [],
+        "bad_faces": [],
+        "maximum_area_ratio": 1.0466264957060591,
+        "maximum_edge_gradient": 0.033108582822405676,
+        "maximum_face": 181408,
+        "minimum_area_ratio": 0.9854494822699477,
+        "minimum_face": 199318,
+        "pass": true
+      },
+      "wall_clock_seconds": 21.73277235031128
+    },
+    {
+      "active_pairs": 44,
+      "attempt": "expand/attempt_002_00",
+      "capacity_attribution": {
+        "D2_actual_delta_mL": 0.5041788626229184,
+        "interpretation": "Nonoverlapping source-vertex response supports integrated along this trial trajectory, NOT baseline anatomical region capacities",
+        "regions": [
+          {
+            "delta_volume_mL": 0.0,
+            "fraction_of_signed_total": 0.0,
+            "max_displacement_mm": 0.0,
+            "region": "FIXED",
+            "vertices": 3675
+          },
+          {
+            "delta_volume_mL": 0.12783700749614268,
+            "fraction_of_signed_total": 0.2535548730287679,
+            "max_displacement_mm": 0.19211708720710066,
+            "region": "Terminals",
+            "vertices": 3659
+          },
+          {
+            "delta_volume_mL": 0.19092745170343328,
+            "fraction_of_signed_total": 0.3786899171261574,
+            "max_displacement_mm": 0.2513434713078316,
+            "region": "MainCavity",
+            "vertices": 2299
+          },
+          {
+            "delta_volume_mL": 0.0016624610197217978,
+            "fraction_of_signed_total": 0.003297363580601301,
+            "max_displacement_mm": 0.09127942985049889,
+            "region": "J_01",
+            "vertices": 67
+          },
+          {
+            "delta_volume_mL": 0.1745747513957845,
+            "fraction_of_signed_total": 0.34625559367480085,
+            "max_displacement_mm": 0.1377436682334559,
+            "region": "Branches",
+            "vertices": 13919
+          },
+          {
+            "delta_volume_mL": 0.005613341038828094,
+            "fraction_of_signed_total": 0.011133630254996193,
+            "max_displacement_mm": 0.03682482833181794,
+            "region": "OtherJunctions",
+            "vertices": 595
+          },
+          {
+            "delta_volume_mL": 0.0035638499689961186,
+            "fraction_of_signed_total": 0.007068622334652624,
+            "max_displacement_mm": 0.10901830164941868,
+            "region": "InterfaceTransition",
+            "vertices": 810
+          }
+        ],
+        "residual_mL": -1.199040866595169e-14,
+        "sum_delta_mL": 0.5041788626229065
+      },
+      "capacity_mL": 17.310140950053086,
+      "cavity_quality": {
+        "bad_edges": [],
+        "bad_faces": [],
+        "maximum_area_ratio": 1.2347370464329188,
+        "maximum_edge_gradient": 0.11462556054670572,
+        "maximum_face": 535,
+        "minimum_area_ratio": 0.9722692631644194,
+        "minimum_face": 36693,
+        "pass": true
+      },
+      "index": 3,
+      "maximum_cavity_mm": 0.2513434713078316,
+      "maximum_tissue_mm": 0.22932943333701514,
+      "ratio": 1.0300000000000007,
+      "tissue_quality": {
+        "bad_edges": [],
+        "bad_faces": [],
+        "maximum_area_ratio": 1.0696094405314411,
+        "maximum_edge_gradient": 0.057774264919219644,
+        "maximum_face": 181408,
+        "minimum_area_ratio": 0.9781968697405917,
+        "minimum_face": 199318,
+        "pass": true
+      },
+      "wall_clock_seconds": 26.631165266036987
+    },
+    {
+      "active_pairs": 81,
+      "attempt": "expand/attempt_003_00",
+      "capacity_attribution": {
+        "D2_actual_delta_mL": 0.672238483497221,
+        "interpretation": "Nonoverlapping source-vertex response supports integrated along this trial trajectory, NOT baseline anatomical region capacities",
+        "regions": [
+          {
+            "delta_volume_mL": 0.0,
+            "fraction_of_signed_total": 0.0,
+            "max_displacement_mm": 0.0,
+            "region": "FIXED",
+            "vertices": 3675
+          },
+          {
+            "delta_volume_mL": 0.17078459518901418,
+            "fraction_of_signed_total": 0.2540535827412508,
+            "max_displacement_mm": 0.2548933339907502,
+            "region": "Terminals",
+            "vertices": 3659
+          },
+          {
+            "delta_volume_mL": 0.2550400002579273,
+            "fraction_of_signed_total": 0.37938916994326105,
+            "max_displacement_mm": 0.33347255212858423,
+            "region": "MainCavity",
+            "vertices": 2299
+          },
+          {
+            "delta_volume_mL": 0.002207795820680202,
+            "fraction_of_signed_total": 0.0032842449143858465,
+            "max_displacement_mm": 0.12110592835653054,
+            "region": "J_01",
+            "vertices": 67
+          },
+          {
+            "delta_volume_mL": 0.2320175437989045,
+            "fraction_of_signed_total": 0.34514171606461386,
+            "max_displacement_mm": 0.18275283756667166,
+            "region": "Branches",
+            "vertices": 13919
+          },
+          {
+            "delta_volume_mL": 0.007451522577441642,
+            "fraction_of_signed_total": 0.011084641478238795,
+            "max_displacement_mm": 0.048857722150532315,
+            "region": "OtherJunctions",
+            "vertices": 595
+          },
+          {
+            "delta_volume_mL": 0.004737025853240605,
+            "fraction_of_signed_total": 0.007046644858230862,
+            "max_displacement_mm": 0.1446411601247855,
+            "region": "InterfaceTransition",
+            "vertices": 810
+          }
+        ],
+        "residual_mL": -1.2656542480726785e-14,
+        "sum_delta_mL": 0.6722384834972084
+      },
+      "capacity_mL": 17.478200570927388,
+      "cavity_quality": {
+        "bad_edges": [],
+        "bad_faces": [],
+        "maximum_area_ratio": 1.3144984554508894,
+        "maximum_edge_gradient": 0.15208064890559345,
+        "maximum_face": 535,
+        "minimum_area_ratio": 0.9630486121902262,
+        "minimum_face": 36693,
+        "pass": true
+      },
+      "index": 4,
+      "maximum_cavity_mm": 0.33347255212858423,
+      "maximum_tissue_mm": 0.3042651993909722,
+      "ratio": 1.040000000000001,
+      "tissue_quality": {
+        "bad_edges": [],
+        "bad_faces": [],
+        "maximum_area_ratio": 1.0923945864197904,
+        "maximum_edge_gradient": 0.07631181967781413,
+        "maximum_face": 181408,
+        "minimum_area_ratio": 0.9709605047782391,
+        "minimum_face": 199318,
+        "pass": true
+      },
+      "wall_clock_seconds": 27.36914086341858
+    },
+    {
+      "active_pairs": 9,
+      "attempt": "expand/attempt_004_01",
+      "capacity_attribution": {
+        "D2_actual_delta_mL": 0.7562682939343688,
+        "interpretation": "Nonoverlapping source-vertex response supports integrated along this trial trajectory, NOT baseline anatomical region capacities",
+        "regions": [
+          {
+            "delta_volume_mL": 0.0,
+            "fraction_of_signed_total": 0.0,
+            "max_displacement_mm": 0.0,
+            "region": "FIXED",
+            "vertices": 3675
+          },
+          {
+            "delta_volume_mL": 0.1909704474392049,
+            "fraction_of_signed_total": 0.2525167972409774,
+            "max_displacement_mm": 0.28689835491214294,
+            "region": "Terminals",
+            "vertices": 3659
+          },
+          {
+            "delta_volume_mL": 0.2880533350519042,
+            "fraction_of_signed_total": 0.3808877581702537,
+            "max_displacement_mm": 0.3753441687555279,
+            "region": "MainCavity",
+            "vertices": 2299
+          },
+          {
+            "delta_volume_mL": 0.0024862212284599786,
+            "fraction_of_signed_total": 0.0032874857354204252,
+            "max_displacement_mm": 0.136312280336706,
+            "region": "J_01",
+            "vertices": 67
+          },
+          {
+            "delta_volume_mL": 0.26103232347667843,
+            "fraction_of_signed_total": 0.3451583592361094,
+            "max_displacement_mm": 0.20569972390929087,
+            "region": "Branches",
+            "vertices": 13919
+          },
+          {
+            "delta_volume_mL": 0.008389397429547349,
+            "fraction_of_signed_total": 0.011093149741744173,
+            "max_displacement_mm": 0.05499241362518589,
+            "region": "OtherJunctions",
+            "vertices": 595
+          },
+          {
+            "delta_volume_mL": 0.005336569308553697,
+            "fraction_of_signed_total": 0.007056449875468163,
+            "max_displacement_mm": 0.1628026524771939,
+            "region": "InterfaceTransition",
+            "vertices": 810
+          }
+        ],
+        "residual_mL": -2.020605904817785e-14,
+        "sum_delta_mL": 0.7562682939343486
+      },
+      "capacity_mL": 17.562230381364536,
+      "cavity_quality": {
+        "bad_edges": [],
+        "bad_faces": [],
+        "maximum_area_ratio": 1.3248987675098622,
+        "maximum_edge_gradient": 0.15700694063533419,
+        "maximum_face": 535,
+        "minimum_area_ratio": 0.9583184722774454,
+        "minimum_face": 36693,
+        "pass": true
+      },
+      "index": 5,
+      "maximum_cavity_mm": 0.3753441687555279,
+      "maximum_tissue_mm": 0.34246947047864745,
+      "ratio": 1.0450000000000006,
+      "tissue_quality": {
+        "bad_edges": [],
+        "bad_faces": [],
+        "maximum_area_ratio": 1.104009160568606,
+        "maximum_edge_gradient": 0.08591056818332019,
+        "maximum_face": 181408,
+        "minimum_area_ratio": 0.9672492187702884,
+        "minimum_face": 199318,
+        "pass": true
+      },
+      "wall_clock_seconds": 22.370105981826782
+    }
+  ],
+  "stop_is_global_feasibility_limit": false,
+  "stop_reason": "LOCAL_CONSTRAINT_LINESEARCH_STALLED",
+  "target_mL": 21.847750713659217,
+  "target_reached_by_discrete_predictors": false
+}

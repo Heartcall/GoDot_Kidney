@@ -1,0 +1,45 @@
+{
+  "N16_A1_superseded_as_final_target": true,
+  "N16_failure_evidence_preserved": true,
+  "actual_physiological_parameters": {
+    "V_max_mL": null,
+    "V_min_mL": null,
+    "compliance": null,
+    "pressure": null,
+    "real_flow_mL_s": null
+  },
+  "authority": "Explicit user authorization in current conversation",
+  "contract_target_mL": 11.764173461201125,
+  "date": "2026-10-15",
+  "domain": "C11_R1_IN02_fixed_collar",
+  "engineering_targets_not_physiological": true,
+  "expand_target_mL": 21.84775071365923,
+  "frozen_D2_hashes": {
+    "excluded_structure.bin": "d204ab3663ecdc72f8e080dd2a85feba4b81510c0b05c1c99ece3a6015119725",
+    "faces.npy": "160ac63fa39176cd680111278d1fd873a4528fb4cfae7d88b6d7eb01eae160a7",
+    "original_wall.bin": "50c72b98a187048f9486962aa6705081456b70108aefc0369eeaedea4948370b",
+    "reference_vertices.npy": "374b0153a21222388021671ac38ea343e94fd61f7b21dfc95ef7a7d4c88025b9",
+    "source_face_ids.npy": "2c8c49fbadf8289b5ced03b645afaedd4e3fce1ffcb6f689832bf9bf5ee2cb96",
+    "source_vertex_ids.npy": "b10c20c0a16f5fe67e05b73950ce43362d0998c54bf891345ddf3dcd352b9134",
+    "source_vertex_weights.npy": "532a95fab535fcc6a7d015ba83f1c57836facd189bb447efa9839c0a3a9dfe42",
+    "virtual_caps.bin": "1299349d3908ce5b71bebff640612817ea9ae9ec9a0be0d1e6377c5cadd8213c",
+    "virtual_port_labels.npy": "aec23717d4dc41c75605d7abe661679c4de6651416b61c70e465d7465fe58ebe"
+  },
+  "independently_recomputed_float64_reference_mL": 16.805962087430167,
+  "label": "MORPHOLOGY_GUIDED_UNCALIBRATED_CAPACITY_ESTIMATE",
+  "production_N2_authorized": false,
+  "protected_source_hashes": {
+    "cavity_displacement": "fbe95cfeaf8b77d80c5aa850618ad8ce8439c8ef770719b1f9a1f1789b050573",
+    "cavity_faces": "dbf4771365f42398f329100e695dc8580f8c038c557c671c02724bff45b29c3d",
+    "cavity_reference_vertices": "f137add4c401fe63851565f913a93968c9b11e18e630722ed42a21b4d0842fa1",
+    "tissue_displacement": "bcef3bda21aa3621547a80f8d7902c7506fc638cd8c18fe6a8c8c5516491eaec",
+    "tissue_faces": "532034f649eac73d2c28ecba5f0097ba04b79164fea3e385de5518c098cc3a05",
+    "tissue_reference_vertices": "63ce22d71be21c2a1266933aac2112ab7c66bcd887312f81e1d7d87c4f9ecb20"
+  },
+  "reference_mL": 16.805962087430178,
+  "stage": "N2.0",
+  "user_target_decimal_strings": {
+    "contract": "11.764173461201125",
+    "expand": "21.847750713659231"
+  }
+}

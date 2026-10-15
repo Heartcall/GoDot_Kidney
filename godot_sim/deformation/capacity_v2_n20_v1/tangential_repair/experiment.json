@@ -1,0 +1,43 @@
+{
+  "after": {
+    "bad_edges": [],
+    "bad_faces": [],
+    "maximum_area_ratio": 1.0709481066169637,
+    "maximum_edge_gradient": 0.18521668125081164,
+    "maximum_face": 11690,
+    "minimum_area_ratio": 0.8000100000002076,
+    "minimum_face": 7680,
+    "pass": true
+  },
+  "approved_fixed_unchanged": true,
+  "before": {
+    "bad_edges": [],
+    "bad_faces": [
+      7680
+    ],
+    "maximum_area_ratio": 1.0709481066169637,
+    "maximum_edge_gradient": 0.18521668125081164,
+    "maximum_face": 11690,
+    "minimum_area_ratio": 0.799899994139357,
+    "minimum_face": 7680,
+    "pass": false
+  },
+  "capacity_after_mL": 15.514003751958919,
+  "capacity_before_mL": 15.514003751958919,
+  "contact_and_tissue_and_continuous_collision_verified": false,
+  "diagnosed_source_face_ids": [
+    7680
+  ],
+  "iterations": 11,
+  "maximum_correction_mm": 9.61343503611403e-07,
+  "message": "Optimization terminated successfully",
+  "method": "Two tangent DOFs per free patch vertex; SQP minimum correction and edge regularization; constraints on all patch-incident faces and edges; outside patch fixed",
+  "minimum_constraint_residual": 2.0761170560490427e-13,
+  "optimizer_success": true,
+  "patch_vertices": 11,
+  "source_reference_unchanged": true,
+  "source_topology_unchanged": true,
+  "status": "LOCAL_QUALITY_EXPERIMENT_NOT_FULL_GEOMETRIC_VALIDATION",
+  "true_topological_simplification_performed": false,
+  "used_to_raise_reported_verified_capacity": false
+}

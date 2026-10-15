@@ -1,0 +1,131 @@
+{
+  "complete_adaptive_search_repeated": false,
+  "limits": "Resume restores binding source pairs rather than every previous conservative plane; uninterrupted and resumed search may follow different local paths. Formal solver needs frozen persistence semantics.",
+  "original_run_restart_schedule": {
+    "contract": "3 accepted checkpoints, then --resume",
+    "expand": "4 accepted checkpoints, then --resume"
+  },
+  "records": [
+    {
+      "all_replayed_within_1e_10_mm": true,
+      "side": "contract",
+      "states": [
+        {
+          "cavity_maximum_abs_replay_error_mm": 5.134781488891349e-16,
+          "index": 1,
+          "qp_converged": true,
+          "tissue_maximum_abs_replay_error_mm": 0.0
+        },
+        {
+          "cavity_maximum_abs_replay_error_mm": 4.996003610813204e-16,
+          "index": 2,
+          "qp_converged": true,
+          "tissue_maximum_abs_replay_error_mm": 0.0
+        },
+        {
+          "cavity_maximum_abs_replay_error_mm": 5.551115123125783e-16,
+          "index": 3,
+          "qp_converged": true,
+          "tissue_maximum_abs_replay_error_mm": 0.0
+        },
+        {
+          "cavity_maximum_abs_replay_error_mm": 1.27675647831893e-15,
+          "index": 4,
+          "qp_converged": true,
+          "tissue_maximum_abs_replay_error_mm": 0.0
+        },
+        {
+          "cavity_maximum_abs_replay_error_mm": 5.551115123125783e-17,
+          "index": 5,
+          "qp_converged": true,
+          "tissue_maximum_abs_replay_error_mm": 0.0
+        },
+        {
+          "cavity_maximum_abs_replay_error_mm": 1.3877787807814457e-16,
+          "index": 6,
+          "qp_converged": true,
+          "tissue_maximum_abs_replay_error_mm": 0.0
+        },
+        {
+          "cavity_maximum_abs_replay_error_mm": 4.440892098500626e-16,
+          "index": 7,
+          "qp_converged": true,
+          "tissue_maximum_abs_replay_error_mm": 0.0
+        },
+        {
+          "cavity_maximum_abs_replay_error_mm": 3.885780586188048e-16,
+          "index": 8,
+          "qp_converged": true,
+          "tissue_maximum_abs_replay_error_mm": 0.0
+        },
+        {
+          "cavity_maximum_abs_replay_error_mm": 1.6653345369377348e-16,
+          "index": 9,
+          "qp_converged": true,
+          "tissue_maximum_abs_replay_error_mm": 0.0
+        },
+        {
+          "cavity_maximum_abs_replay_error_mm": 1.3877787807814457e-16,
+          "index": 10,
+          "qp_converged": true,
+          "tissue_maximum_abs_replay_error_mm": 0.0
+        },
+        {
+          "cavity_maximum_abs_replay_error_mm": 8.326672684688674e-17,
+          "index": 11,
+          "qp_converged": true,
+          "tissue_maximum_abs_replay_error_mm": 0.0
+        },
+        {
+          "cavity_maximum_abs_replay_error_mm": 8.326672684688674e-17,
+          "index": 12,
+          "qp_converged": true,
+          "tissue_maximum_abs_replay_error_mm": 0.0
+        },
+        {
+          "cavity_maximum_abs_replay_error_mm": 5.551115123125783e-17,
+          "index": 13,
+          "qp_converged": true,
+          "tissue_maximum_abs_replay_error_mm": 0.0
+        }
+      ]
+    },
+    {
+      "all_replayed_within_1e_10_mm": true,
+      "side": "expand",
+      "states": [
+        {
+          "cavity_maximum_abs_replay_error_mm": 4.3021142204224816e-16,
+          "index": 1,
+          "qp_converged": true,
+          "tissue_maximum_abs_replay_error_mm": 0.0
+        },
+        {
+          "cavity_maximum_abs_replay_error_mm": 4.440892098500626e-16,
+          "index": 2,
+          "qp_converged": true,
+          "tissue_maximum_abs_replay_error_mm": 0.0
+        },
+        {
+          "cavity_maximum_abs_replay_error_mm": 3.885780586188048e-16,
+          "index": 3,
+          "qp_converged": true,
+          "tissue_maximum_abs_replay_error_mm": 0.0
+        },
+        {
+          "cavity_maximum_abs_replay_error_mm": 4.440892098500626e-16,
+          "index": 4,
+          "qp_converged": true,
+          "tissue_maximum_abs_replay_error_mm": 0.0
+        },
+        {
+          "cavity_maximum_abs_replay_error_mm": 2.220446049250313e-16,
+          "index": 5,
+          "qp_converged": true,
+          "tissue_maximum_abs_replay_error_mm": 0.0
+        }
+      ]
+    }
+  ],
+  "replay_uses_recorded_mobility_and_binding_constraint_schedule": true
+}

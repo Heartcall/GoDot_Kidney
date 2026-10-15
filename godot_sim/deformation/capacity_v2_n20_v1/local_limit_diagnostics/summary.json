@@ -1,0 +1,70 @@
+{
+  "local_limit_strategy": "Moving relative halfspaces + actual local area/edge quality + finite pair rejection; not a universal maximum displacement.",
+  "missing": "Certified curvature-aware trust limits and persistent finite contact-manifold constraints; individual principal curvatures not fitted.",
+  "new_material_model_or_wall_thickness_claim": false,
+  "states": [
+    {
+      "curvature_specific_inequality_implemented": false,
+      "distance_is_tissue_thickness": false,
+      "distance_quantiles_mm": [
+        0.0,
+        0.03952407999999963,
+        0.4628120965967534,
+        2.692219294264885,
+        6.232654204612093
+      ],
+      "nearest_face_is_material_homology": false,
+      "normal_variation_proxy_quantiles_per_mm": [
+        0.0,
+        0.28842807250850344,
+        1.317676305830498,
+        15.08184765137256
+      ],
+      "proxy_is_principal_curvature": false,
+      "state": "reference",
+      "static_distance_is_absolute_displacement_ceiling": false
+    },
+    {
+      "curvature_specific_inequality_implemented": false,
+      "distance_is_tissue_thickness": false,
+      "distance_quantiles_mm": [
+        0.0,
+        0.07268718915183933,
+        0.5016283874568896,
+        2.6709449289085736,
+        6.232654204604294
+      ],
+      "nearest_face_is_material_homology": false,
+      "normal_variation_proxy_quantiles_per_mm": [
+        0.001190502525967871,
+        0.28939212408166803,
+        1.3077216428899296,
+        15.08184765137256
+      ],
+      "proxy_is_principal_curvature": false,
+      "state": "contract",
+      "static_distance_is_absolute_displacement_ceiling": false
+    },
+    {
+      "curvature_specific_inequality_implemented": false,
+      "distance_is_tissue_thickness": false,
+      "distance_quantiles_mm": [
+        0.0,
+        0.038301167838955985,
+        0.44568429585678687,
+        2.6948316592443717,
+        6.2326542046189575
+      ],
+      "nearest_face_is_material_homology": false,
+      "normal_variation_proxy_quantiles_per_mm": [
+        0.001190502525967871,
+        0.2877682905601634,
+        1.3275480179632133,
+        15.08184765137256
+      ],
+      "proxy_is_principal_curvature": false,
+      "state": "expand",
+      "static_distance_is_absolute_displacement_ceiling": false
+    }
+  ]
+}

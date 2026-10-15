@@ -1,0 +1,280 @@
+[
+  {
+    "actual_Godot_ArrayMesh_test_performed": false,
+    "all_float32_quality_passed": false,
+    "float32_finite_contacts_validated": false,
+    "levels": [
+      {
+        "bad_edges": [],
+        "bad_faces": [],
+        "maximum_area_ratio": 1.0,
+        "maximum_display_error_mm": 2.1310223906290686e-06,
+        "maximum_edge_gradient": 0.0,
+        "maximum_face": 0,
+        "minimum_area_ratio": 1.0,
+        "minimum_face": 0,
+        "pass": true,
+        "u": 0
+      },
+      {
+        "bad_edges": [],
+        "bad_faces": [],
+        "maximum_area_ratio": 1.0177147138700895,
+        "maximum_display_error_mm": 3.789635573361456e-06,
+        "maximum_edge_gradient": 0.04629543996017258,
+        "maximum_face": 11690,
+        "minimum_area_ratio": 0.9479436438865678,
+        "minimum_face": 7680,
+        "pass": true,
+        "u": 0.25
+      },
+      {
+        "bad_edges": [],
+        "bad_faces": [],
+        "maximum_area_ratio": 1.0352700756364526,
+        "maximum_display_error_mm": 3.827236847140188e-06,
+        "maximum_edge_gradient": 0.09259166535900674,
+        "maximum_face": 11690,
+        "minimum_area_ratio": 0.897171670757755,
+        "minimum_face": 7680,
+        "pass": true,
+        "u": 0.5
+      },
+      {
+        "bad_edges": [],
+        "bad_faces": [],
+        "maximum_area_ratio": 1.052649160706615,
+        "maximum_display_error_mm": 3.7545377291605663e-06,
+        "maximum_edge_gradient": 0.13888682171762678,
+        "maximum_face": 11690,
+        "minimum_area_ratio": 0.8478056946219769,
+        "minimum_face": 7680,
+        "pass": true,
+        "u": 0.75
+      },
+      {
+        "bad_edges": [],
+        "bad_faces": [
+          7680
+        ],
+        "maximum_area_ratio": 1.0698737166661385,
+        "maximum_display_error_mm": 3.461122058995863e-06,
+        "maximum_edge_gradient": 0.1851822562115562,
+        "maximum_face": 11690,
+        "minimum_area_ratio": 0.7999960479488436,
+        "minimum_face": 7680,
+        "pass": false,
+        "u": 1.0
+      }
+    ],
+    "mesh": "cavity",
+    "side": "contract"
+  },
+  {
+    "actual_Godot_ArrayMesh_test_performed": false,
+    "all_float32_quality_passed": true,
+    "float32_finite_contacts_validated": false,
+    "levels": [
+      {
+        "bad_edges": [],
+        "bad_faces": [],
+        "maximum_area_ratio": 1.0,
+        "maximum_display_error_mm": 3.951345236420787e-06,
+        "maximum_edge_gradient": 0.0,
+        "maximum_face": 0,
+        "minimum_area_ratio": 1.0,
+        "minimum_face": 0,
+        "pass": true,
+        "u": 0
+      },
+      {
+        "bad_edges": [],
+        "bad_faces": [],
+        "maximum_area_ratio": 1.0117721086782103,
+        "maximum_display_error_mm": 3.951345236420787e-06,
+        "maximum_edge_gradient": 0.027801988669477813,
+        "maximum_face": 199318,
+        "minimum_area_ratio": 0.9614140571282761,
+        "minimum_face": 181408,
+        "pass": true,
+        "u": 0.25
+      },
+      {
+        "bad_edges": [],
+        "bad_faces": [],
+        "maximum_area_ratio": 1.0233140792000002,
+        "maximum_display_error_mm": 3.951345236420787e-06,
+        "maximum_edge_gradient": 0.05560342880817676,
+        "maximum_face": 199318,
+        "minimum_area_ratio": 0.9228571757943238,
+        "minimum_face": 181408,
+        "pass": true,
+        "u": 0.5
+      },
+      {
+        "bad_edges": [],
+        "bad_faces": [],
+        "maximum_area_ratio": 1.0346280880448584,
+        "maximum_display_error_mm": 3.951345236420787e-06,
+        "maximum_edge_gradient": 0.08340569707351947,
+        "maximum_face": 199318,
+        "minimum_area_ratio": 0.88431758318848,
+        "minimum_face": 181408,
+        "pass": true,
+        "u": 0.75
+      },
+      {
+        "bad_edges": [],
+        "bad_faces": [],
+        "maximum_area_ratio": 1.045712558852044,
+        "maximum_display_error_mm": 4.009001894356009e-06,
+        "maximum_edge_gradient": 0.11120768574290643,
+        "maximum_face": 199318,
+        "minimum_area_ratio": 0.8458080413741005,
+        "minimum_face": 181408,
+        "pass": true,
+        "u": 1.0
+      }
+    ],
+    "mesh": "tissue",
+    "side": "contract"
+  },
+  {
+    "actual_Godot_ArrayMesh_test_performed": false,
+    "all_float32_quality_passed": true,
+    "float32_finite_contacts_validated": false,
+    "levels": [
+      {
+        "bad_edges": [],
+        "bad_faces": [],
+        "maximum_area_ratio": 1.0,
+        "maximum_display_error_mm": 2.1310223906290686e-06,
+        "maximum_edge_gradient": 0.0,
+        "maximum_face": 0,
+        "minimum_area_ratio": 1.0,
+        "minimum_face": 0,
+        "pass": true,
+        "u": 0
+      },
+      {
+        "bad_edges": [],
+        "bad_faces": [],
+        "maximum_area_ratio": 1.0787051559852177,
+        "maximum_display_error_mm": 3.828185743194873e-06,
+        "maximum_edge_gradient": 0.03928668988092768,
+        "maximum_face": 535,
+        "minimum_area_ratio": 0.9897359872522212,
+        "minimum_face": 36693,
+        "pass": true,
+        "u": 0.25
+      },
+      {
+        "bad_edges": [],
+        "bad_faces": [],
+        "maximum_area_ratio": 1.1591793230324399,
+        "maximum_display_error_mm": 3.7849722712291945e-06,
+        "maximum_edge_gradient": 0.07848617126465034,
+        "maximum_face": 535,
+        "minimum_area_ratio": 0.9793646401499493,
+        "minimum_face": 36693,
+        "pass": true,
+        "u": 0.5
+      },
+      {
+        "bad_edges": [],
+        "bad_faces": [],
+        "maximum_area_ratio": 1.2411780862760695,
+        "maximum_display_error_mm": 3.799167651940819e-06,
+        "maximum_edge_gradient": 0.1177452661228913,
+        "maximum_face": 535,
+        "minimum_area_ratio": 0.9688911531663761,
+        "minimum_face": 36693,
+        "pass": true,
+        "u": 0.75
+      },
+      {
+        "bad_edges": [],
+        "bad_faces": [],
+        "maximum_area_ratio": 1.3248376783539952,
+        "maximum_display_error_mm": 3.839101002627779e-06,
+        "maximum_edge_gradient": 0.15700443325237268,
+        "maximum_face": 535,
+        "minimum_area_ratio": 0.958318050703713,
+        "minimum_face": 36693,
+        "pass": true,
+        "u": 1.0
+      }
+    ],
+    "mesh": "cavity",
+    "side": "expand"
+  },
+  {
+    "actual_Godot_ArrayMesh_test_performed": false,
+    "all_float32_quality_passed": true,
+    "float32_finite_contacts_validated": false,
+    "levels": [
+      {
+        "bad_edges": [],
+        "bad_faces": [],
+        "maximum_area_ratio": 1.0,
+        "maximum_display_error_mm": 3.951345236420787e-06,
+        "maximum_edge_gradient": 0.0,
+        "maximum_face": 0,
+        "minimum_area_ratio": 1.0,
+        "minimum_face": 0,
+        "pass": true,
+        "u": 0
+      },
+      {
+        "bad_edges": [],
+        "bad_faces": [],
+        "maximum_area_ratio": 1.025982537308829,
+        "maximum_display_error_mm": 3.951345236420787e-06,
+        "maximum_edge_gradient": 0.021478326336161067,
+        "maximum_face": 181408,
+        "minimum_area_ratio": 0.9919223905443025,
+        "minimum_face": 199318,
+        "pass": true,
+        "u": 0.25
+      },
+      {
+        "bad_edges": [],
+        "bad_faces": [],
+        "maximum_area_ratio": 1.0519739086166904,
+        "maximum_display_error_mm": 4.022143690252766e-06,
+        "maximum_edge_gradient": 0.04295509457517688,
+        "maximum_face": 181408,
+        "minimum_area_ratio": 0.9837710255036003,
+        "minimum_face": 199318,
+        "pass": true,
+        "u": 0.5
+      },
+      {
+        "bad_edges": [],
+        "bad_faces": [],
+        "maximum_area_ratio": 1.0779874855328608,
+        "maximum_display_error_mm": 3.951345236420787e-06,
+        "maximum_edge_gradient": 0.06443342088405754,
+        "maximum_face": 181408,
+        "minimum_area_ratio": 0.9755472849775606,
+        "minimum_face": 199318,
+        "pass": true,
+        "u": 0.75
+      },
+      {
+        "bad_edges": [],
+        "bad_faces": [],
+        "maximum_area_ratio": 1.1040064676100938,
+        "maximum_display_error_mm": 3.951345236420787e-06,
+        "maximum_edge_gradient": 0.08591018915035376,
+        "maximum_face": 181408,
+        "minimum_area_ratio": 0.9672497350463689,
+        "minimum_face": 199318,
+        "pass": true,
+        "u": 1.0
+      }
+    ],
+    "mesh": "tissue",
+    "side": "expand"
+  }
+]
