@@ -1,0 +1,64 @@
+[
+  {
+    "bytes": 2134445,
+    "file": "source_cache/Leuschke2026.pdf",
+    "redistributed": false,
+    "retrieved_date": "2026-10-15",
+    "sha256": "7962df4fd1235bb24e972efa2a06d0eeebbcd315d330fd79ddcacb9f31da3877",
+    "status": "FETCHED_NOT_AUTOMATICALLY_READ",
+    "url": "https://e-century.us/files/ajceu/14/2/ajceu0170543.pdf"
+  },
+  {
+    "bytes": 504228,
+    "file": "source_cache/Croghan2023.pdf",
+    "redistributed": false,
+    "retrieved_date": "2026-10-15",
+    "sha256": "fb24ef4ce335a639466301643915f9569ee7991257a1ce7472641c2c2020561d",
+    "status": "FETCHED_NOT_AUTOMATICALLY_READ",
+    "url": "https://www.bostonscientific.com/content/dam/bostonscientific/eu/urology/stonesmart/bju-international-2023-croghan-in-vivo-ureteroscopic-intrarenal-pressures-and-clinical-outcomes.pdf"
+  },
+  {
+    "bytes": 1089422,
+    "file": "source_cache/Delphi2025.pdf",
+    "redistributed": false,
+    "retrieved_date": "2026-10-15",
+    "sha256": "0b285a193062d532023bd0ce8f4003a39f818a80ee64acd69039e5a56f7e0036",
+    "status": "FETCHED_NOT_AUTOMATICALLY_READ",
+    "url": "https://www.bostonscientific.com/content/dam/bostonscientific/eu/urology/stone-manangement/european-urology-open-science-2025-intrarenal-pressure-monitoring-during-ureteroscopy-a-delphi-panel-consensus.pdf"
+  },
+  {
+    "bytes": 148031,
+    "file": "source_cache/Rousan2025.html",
+    "redistributed": false,
+    "retrieved_date": "2026-10-15",
+    "sha256": "b0c08fd02108944422990f1cc4e5e5b99d0529e79fa0b2f5bf32bf43e03894de",
+    "status": "FETCHED_NOT_AUTOMATICALLY_READ",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12381993/"
+  },
+  {
+    "bytes": 177068,
+    "file": "source_cache/Oratis2018.html",
+    "redistributed": false,
+    "retrieved_date": "2026-10-15",
+    "sha256": "1e602d890263cf60affd01eba2ec0c977511ddcf4d0b5375e93c0975cfd147e7",
+    "status": "FETCHED_NOT_AUTOMATICALLY_READ",
+    "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0208209"
+  },
+  {
+    "bytes": 1149989,
+    "file": "source_cache/Wolf2024.html",
+    "redistributed": false,
+    "retrieved_date": "2026-10-15",
+    "sha256": "8f72e5dfda1c4a379500f28e55c2fbc0c32f5367f439afc4e7f6ac3af00c1e8a",
+    "status": "FETCHED_NOT_AUTOMATICALLY_READ",
+    "url": "https://www.frontiersin.org/journals/physiology/articles/10.3389/fphys.2024.1327407/full"
+  },
+  {
+    "error": "HTTP Error 404: Not Found",
+    "file": "source_cache/Mann1990_crossref.json",
+    "redistributed": false,
+    "retrieved_date": "2026-10-15",
+    "status": "FETCH_FAILED",
+    "url": "https://api.crossref.org/works/10.1177%2F875617939000600204"
+  }
+]

@@ -1,0 +1,60 @@
+{
+  "CT_phase_available": false,
+  "date": "2026-10-15",
+  "documented_imaging_lead": {
+    "exists_in_current_checkout": false,
+    "path_as_documented": "CT-MI NIAO WAI KE-20260720/",
+    "source": "README.md lines10,45",
+    "source_sha256": "abe16413c1fb2b31009b3bf18782dc4389e10937075595c1116a96bdc43d5805",
+    "status": "README describes ignored original DICOM with patient information; directory not available here; no external-disk search, metadata or identity inferred."
+  },
+  "imaging_or_segmentation_candidates": [],
+  "known_user_context": {
+    "CT_excretory_phase": "UNKNOWN",
+    "adult": true,
+    "no_reported_stone_obstruction_or_hydronephrosis": true
+  },
+  "limits": "No values inferred from mesh shape, ignored-folder name, or unrelated historical documents.",
+  "obj_headers": {
+    "cavity": [
+      "# https://github.com/mikedh/trimesh",
+      "",
+      "o ITK-SNAP coord sys for 3D Slicer: SPACE=RAS",
+      "v -3.26369810 18.39840889 -21.96999931",
+      "v -2.35342288 18.39840889 -22.37500000",
+      "v -3.26369810 18.83758736 -22.37500000",
+      "v -2.34377599 18.39840889 -22.38181877",
+      "v -2.34377599 18.92794609 -23.00000000",
+      "v -1.89930117 18.39840889 -23.00000000",
+      "v -2.34377599 19.31833076 -23.38953781"
+    ],
+    "tissue": [
+      "# https://github.com/mikedh/trimesh",
+      "",
+      "o ITK-SNAP coord sys for 3D Slicer: SPACE=RAS",
+      "v 38.13279343 -0.00003200 -14.85081673",
+      "v 38.20766830 -0.00003200 -14.87500000",
+      "v 38.13279343 0.03556206 -14.87500000",
+      "v 39.05271530 -0.00003200 -15.25641727",
+      "v 39.05271530 0.21331829 -15.50000000",
+      "v 39.51267624 -0.00003200 -15.50000000",
+      "v 39.97263718 -0.00003200 -15.81250000"
+    ]
+  },
+  "paired_states_available": false,
+  "pressure_flow_data_available": false,
+  "raw_imaging_found": false,
+  "scope": "Current repository, including ignored files; no unrelated disk search or external patient retrieval.",
+  "source_scale_independently_DICOM_verified": false,
+  "unknowns": [
+    "sex",
+    "age_exact",
+    "side",
+    "body_size",
+    "hydration",
+    "diuresis",
+    "bladder_status",
+    "pressure",
+    "baseline_physiological_volume"
+  ]
+}

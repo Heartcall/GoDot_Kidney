@@ -1,0 +1,22 @@
+{
+  "schema": "N15M_DOMAIN_MAPPING_V1",
+  "date": "2026-10-15",
+  "approved_project_domain": "C11_R1_IN02_fixed_collar",
+  "V_reference_D2_mL": 16.805962087430178,
+  "D2_boundary_reopened": false,
+  "definition": "b_domain(c)=V_medical(c)-V_D2(c); only computable with both audited same-state domains or independently supported bounds",
+  "rows": [
+    {"medical_measurement": "PELVIS_ONLY", "study_ids": ["M09", "M27"], "difference": "D2 includes calyces, connections, preserved artificial roots and reconstructed terminal closures", "current_mapping": "UNRESOLVED", "correction_mL": null, "required": "Clinical lumen mask, pelvis boundary definition, UPJ cutoff and state-corresponding D2 mapping"},
+    {"medical_measurement": "3D_PELVICALYCEAL_LUMEN", "study_ids": ["M03", "M08"], "difference": "UPJ/ureter and terminal cutoff, contrast/diuresis and preserved engineered spaces differ or unreported", "current_mapping": "UNRESOLVED", "correction_mL": null, "required": "Full methods, masks/source boundaries, acquisition state and domain bias uncertainty"},
+    {"medical_measurement": "2D_DIAMETER_OR_GRADE", "study_ids": ["M02", "M11", "M12"], "difference": "Diameter/ordinal grade does not uniquely identify lumen volume", "current_mapping": "NOT_DIRECTLY_IDENTIFIABLE", "correction_mL": null, "required": "Independent validated 3D relationship and same-state/domain data; no arbitrary coefficient"},
+    {"medical_measurement": "IVP_FORMULA_VOLUME", "study_ids": ["M13", "M14", "M15"], "difference": "Projection-derived formula, magnification, contrast state and boundaries; not direct 3D integral", "current_mapping": "UNRESOLVED", "correction_mL": null, "required": "Original formula, full acquisition and independent domain/method bias validation"},
+    {"medical_measurement": "INFUSED_VOLUME_OR_MASS", "study_ids": ["M01", "M06", "M18"], "difference": "Fluid change is not initial absolute lumen; leak/outflow/deadspace/occupancy and sealed boundary", "current_mapping": "UNRESOLVED", "correction_mL": null, "required": "Initial absolute volume, full mass balance, occupancy, control-volume boundary and living/adult transfer evidence"},
+    {"medical_measurement": "IRP_ONLY", "study_ids": ["M04", "M07", "M20", "M21", "M22", "M23", "M25"], "difference": "Pressure does not uniquely identify volume; instruments and outflow conditions differ", "current_mapping": "NOT_DIRECTLY_IDENTIFIABLE", "correction_mL": null, "required": "Joint same-condition absolute volume and pressure/flow data; no threshold conversion"},
+    {"medical_measurement": "RENAL_SINUS_COMPOSITE", "study_ids": ["M10"], "difference": "Sinus includes fat and slow-flow vessels as well as collecting space", "current_mapping": "WRONG_COMPARTMENT", "correction_mL": null, "required": "Isolated urinary lumen segmentation, not sinus voxel count or shear modulus"},
+    {"medical_measurement": "WHOLE_KIDNEY_OR_PARENCHYMA", "study_ids": ["M24", "M28"], "difference": "Solid organ / parenchyma rather than collecting fluid space", "current_mapping": "WRONG_COMPARTMENT", "correction_mL": null, "required": "Independent collecting lumen data"}
+  ],
+  "unknown_retained_artificial_volume_mL": null,
+  "state_invariant_domain_bias_proven": false,
+  "anatomic_region_partition_final": false,
+  "nested_branch_net_area_recomputed": false
+}

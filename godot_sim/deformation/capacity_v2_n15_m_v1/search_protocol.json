@@ -1,0 +1,22 @@
+{
+  "date": "2026-10-15",
+  "publication_time_range": "1800-01-01 through 2026-10-15 for four main searches; supplementary named sources separately traced and publication metadata reviewed",
+  "databases": ["PubMed via NCBI E-utilities (MEDLINE plus other PubMed records)", "Primary journal/PMC/author manuscript pages", "Crossref metadata", "Official EAU guideline chapter"],
+  "language_restriction": null,
+  "main_queries": "literature/pubmed_search_log.json",
+  "supplementary_queries": ["literature/supplement_log.json", "literature/citation_followup_log.json"],
+  "deduplication": "Exact PMID main/supplement unions; DOI metadata checked for focused extraction. No pooled clinical samples; possible cohort overlap unresolved.",
+  "main_records": 231,
+  "main_unique_PMIDs": 220,
+  "main_duplicate_occurrences": 11,
+  "after_first_supplement_unique_PMIDs": 234,
+  "after_citation_followup_unique_PMIDs": 236,
+  "included_matrix_rows": 28,
+  "journal_metadata_records": 232,
+  "book_chapters_title_excluded": 4,
+  "inclusion": ["Adult healthy/state-specific collecting lumen imaging or capacity research", "Original pressure-volume, irrigation and outflow mechanism studies kept by population", "Guideline/consensus/review for scope only", "Wrong-population/compartment sources retained explicitly as exclusion comparators"],
+  "exclusion_from_patient_endpoint_calibration": ["Unknown/incompatible domain or state", "Animal, child, obstructed or ex-vivo endpoints without transfer evidence", "Diameter/grade, whole organ volume, drinking or input volume substituted for D2 capacity", "No verifiable data or endpoint coverage"],
+  "review_method": "Single Codex-assisted structured focused review; all titles triaged, selected sources extracted with access scope. No claim of exhaustive dual-screened systematic review, PRISMA eligibility study or meta-analysis.",
+  "limits": ["Title/abstract synonyms may miss methods papers; citation chasing partly addresses this", "Paywalls and recaptcha restrict full-text access; missing tables never reconstructed", "Current retrieval is a dated snapshot, not a guarantee that all global studies were identified", "PubMed ID deduplication is not proof of independent participants", "No Embase/Cochrane database search claimed"],
+  "copyright": "Primary full texts are ignored local reading caches; metadata/provenance and our extraction retained. No paper figures digitized or adapted, no raw participant dataset obtained."
+}

@@ -1,0 +1,82 @@
+{
+  "all_unique": 234,
+  "new_PMIDs": [
+    "8128211",
+    "10424912",
+    "15947682",
+    "16406924",
+    "16750255",
+    "16813671",
+    "17632155",
+    "26890695",
+    "30496287",
+    "35764436",
+    "38337463",
+    "38384795",
+    "38598136",
+    "40866865"
+  ],
+  "new_unique": 14,
+  "searches": [
+    {
+      "PMIDs": [
+        "40866865",
+        "38384795",
+        "38337463",
+        "35764436"
+      ],
+      "count": 4,
+      "database": "PubMed supplementary citation/synonym search",
+      "date": "2026-10-15",
+      "query": "35764436[PMID] OR 40866865[PMID] OR 38384795[PMID] OR 38337463[PMID]",
+      "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&term=35764436%5BPMID%5D+OR+40866865%5BPMID%5D+OR+38384795%5BPMID%5D+OR+38337463%5BPMID%5D&retmode=json&retmax=1000"
+    },
+    {
+      "PMIDs": [
+        "41779198",
+        "38598136",
+        "26890695",
+        "17632155",
+        "16813671",
+        "16750255",
+        "16406924",
+        "15947682",
+        "14717234",
+        "8128211"
+      ],
+      "count": 10,
+      "database": "PubMed supplementary citation/synonym search",
+      "date": "2026-10-15",
+      "query": "(\"renal calyces and pelvis\"[Title/Abstract] OR \"renal collecting system\"[Title/Abstract] OR pelvicaliceal[Title/Abstract]) AND (volume[Title/Abstract] OR volumetry[Title/Abstract]) AND (normal[Title/Abstract] OR healthy[Title/Abstract])",
+      "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&term=%28%22renal+calyces+and+pelvis%22%5BTitle%2FAbstract%5D+OR+%22renal+collecting+system%22%5BTitle%2FAbstract%5D+OR+pelvicaliceal%5BTitle%2FAbstract%5D%29+AND+%28volume%5BTitle%2FAbstract%5D+OR+volumetry%5BTitle%2FAbstract%5D%29+AND+%28normal%5BTitle%2FAbstract%5D+OR+healthy%5BTitle%2FAbstract%5D%29&retmode=json&retmax=1000"
+    },
+    {
+      "PMIDs": [
+        "30496287"
+      ],
+      "count": 1,
+      "database": "PubMed supplementary citation/synonym search",
+      "date": "2026-10-15",
+      "query": "10.1371/journal.pone.0208209[DOI] OR 10.1093/imamat/hxaa020[DOI]",
+      "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&term=10.1371%2Fjournal.pone.0208209%5BDOI%5D+OR+10.1093%2Fimamat%2Fhxaa020%5BDOI%5D&retmode=json&retmax=1000"
+    },
+    {
+      "PMIDs": [],
+      "count": 0,
+      "database": "PubMed supplementary citation/synonym search",
+      "date": "2026-10-15",
+      "query": "Mann[Author] AND hydronephrosis AND 1990[Date - Publication]",
+      "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&term=Mann%5BAuthor%5D+AND+hydronephrosis+AND+1990%5BDate+-+Publication%5D&retmode=json&retmax=1000"
+    },
+    {
+      "PMIDs": [
+        "10424912"
+      ],
+      "count": 1,
+      "database": "PubMed supplementary citation/synonym search",
+      "date": "2026-10-15",
+      "query": "Morse[Author] AND hydration AND 1999[Date - Publication]",
+      "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&term=Morse%5BAuthor%5D+AND+hydration+AND+1999%5BDate+-+Publication%5D&retmode=json&retmax=1000"
+    }
+  ]
+}

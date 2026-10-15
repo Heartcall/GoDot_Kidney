@@ -1,0 +1,2126 @@
+[
+  {
+    "DOI": "10.1002/jcu.1870070306",
+    "PMID": "110840",
+    "decision": "FOCUSED_EXTRACTION_OR_EXCLUSION_COMPARATOR",
+    "reason": "Prioritized for domain/state/volume/mechanism review; applicability in matrix",
+    "reviewer": "Single Codex-assisted review; no independent dual screening",
+    "screening_level": "Title triage; extracted sources have separately recorded reading level",
+    "title": "The influence of hydration and bladder distension on the sonographic diagnosis of hydronephrosis."
+  },
+  {
+    "DOI": "10.2214/ajr.133.3.441",
+    "PMID": "111502",
+    "decision": "NOT_SELECTED_IN_FOCUSED_TITLE_TRIAGE",
+    "reason": "Title not prioritized for adult same-domain paired capacity or key pressure-volume context; not a full-text eligibility decision",
+    "reviewer": "Single Codex-assisted review; no independent dual screening",
+    "screening_level": "Title triage; extracted sources have separately recorded reading level",
+    "title": "Ultrasound of renal sinus: new observations."
+  },
+  {
+    "DOI": "10.1007/BF02926618",
+    "PMID": "554366",
+    "decision": "NOT_SELECTED_IN_FOCUSED_TITLE_TRIAGE",
+    "reason": "Title not prioritized for adult same-domain paired capacity or key pressure-volume context; not a full-text eligibility decision",
+    "reviewer": "Single Codex-assisted review; no independent dual screening",
+    "screening_level": "Title triage; extracted sources have separately recorded reading level",
+    "title": "Diuresis urography in equivocal pelvi-ureteric obstruction."
+  },
+  {
+    "DOI": "10.1007/BF01063455",
+    "PMID": "558599",
+    "decision": "NOT_SELECTED_IN_FOCUSED_TITLE_TRIAGE",
+    "reason": "Title not prioritized for adult same-domain paired capacity or key pressure-volume context; not a full-text eligibility decision",
+    "reviewer": "Single Codex-assisted review; no independent dual screening",
+    "screening_level": "Title triage; extracted sources have separately recorded reading level",
+    "title": "Effect of adrenalectomy on medullary collecting-duct function in rats before and during blood volume expansion."
+  },
+  {
+    "DOI": "10.1620/tjem.127.9",
+    "PMID": "760254",
+    "decision": "NOT_SELECTED_IN_FOCUSED_TITLE_TRIAGE",
+    "reason": "Title not prioritized for adult same-domain paired capacity or key pressure-volume context; not a full-text eligibility decision",
+    "reviewer": "Single Codex-assisted review; no independent dual screening",
+    "screening_level": "Title triage; extracted sources have separately recorded reading level",
+    "title": "Dynamics of upper urinary tract during pacemaker blockade induced by pentobarbital."
+  },
+  {
+    "DOI": "10.1161/01.res.39.2.282",
+    "PMID": "939014",
+    "decision": "NOT_SELECTED_IN_FOCUSED_TITLE_TRIAGE",
+    "reason": "Title not prioritized for adult same-domain paired capacity or key pressure-volume context; not a full-text eligibility decision",
+    "reviewer": "Single Codex-assisted review; no independent dual screening",
+    "screening_level": "Title triage; extracted sources have separately recorded reading level",
+    "title": "Collecting duct function in deoxycorticosterone acetate-escaped, normal, and salt-deprived rats. Response to hypervolemia."
+  },
+  {
+    "DOI": null,
+    "PMID": "992977",
+    "decision": "NOT_SELECTED_IN_FOCUSED_TITLE_TRIAGE",
+    "reason": "Title not prioritized for adult same-domain paired capacity or key pressure-volume context; not a full-text eligibility decision",
+    "reviewer": "Single Codex-assisted review; no independent dual screening",
+    "screening_level": "Title triage; extracted sources have separately recorded reading level",
+    "title": "Urodynamics of the upper urinary tract."
+  },
+  {
+    "DOI": null,
+    "PMID": "1436895",
+    "decision": "NOT_SELECTED_IN_FOCUSED_TITLE_TRIAGE",
+    "reason": "Title not prioritized for adult same-domain paired capacity or key pressure-volume context; not a full-text eligibility decision",
+    "reviewer": "Single Codex-assisted review; no independent dual screening",
+    "screening_level": "Title triage; extracted sources have separately recorded reading level",
+    "title": "The single compartment model applied to the large renal pelvis: a preliminary study."
+  },
+  {
+    "DOI": "10.1016/s0001-2998(05)80083-2",
+    "PMID": "1534185",
+    "decision": "NOT_SELECTED_IN_FOCUSED_TITLE_TRIAGE",
+    "reason": "Title not prioritized for adult same-domain paired capacity or key pressure-volume context; not a full-text eligibility decision",
+    "reviewer": "Single Codex-assisted review; no independent dual screening",
+    "screening_level": "Title triage; extracted sources have separately recorded reading level",
+    "title": "\"Well-tempered\" diuresis renography: its historical development, physiological and technical pitfalls, and standardized technique protocol."
+  },
+  {
+    "DOI": "10.1016/s0022-5347(17)37866-7",
+    "PMID": "1861309",
+    "decision": "NOT_SELECTED_IN_FOCUSED_TITLE_TRIAGE",
+    "reason": "Title not prioritized for adult same-domain paired capacity or key pressure-volume context; not a full-text eligibility decision",
+    "reviewer": "Single Codex-assisted review; no independent dual screening",
+    "screening_level": "Title triage; extracted sources have separately recorded reading level",
+    "title": "Radionuclide diuresis pyelography."
+  },
+  {
+    "DOI": "10.1016/s0090-4295(91)80361-a",
+    "PMID": "1909474",
+    "decision": "NOT_SELECTED_IN_FOCUSED_TITLE_TRIAGE",
+    "reason": "Title not prioritized for adult same-domain paired capacity or key pressure-volume context; not a full-text eligibility decision",
+    "reviewer": "Single Codex-assisted review; no independent dual screening",
+    "screening_level": "Title triage; extracted sources have separately recorded reading level",
+    "title": "Mannitol-induced diuretic renal ultrasonography: a new technique."
+  },
+  {
+    "DOI": null,
+    "PMID": "1944660",
+    "decision": "NOT_SELECTED_IN_FOCUSED_TITLE_TRIAGE",
+    "reason": "Title not prioritized for adult same-domain paired capacity or key pressure-volume context; not a full-text eligibility decision",
+    "reviewer": "Single Codex-assisted review; no independent dual screening",
+    "screening_level": "Title triage; extracted sources have separately recorded reading level",
+    "title": "[Diagnosis and treatment of mega-ureters in children]."
+  },
+  {
+    "DOI": "10.1016/0002-9378(91)90482-7",
+    "PMID": "1951525",
+    "decision": "NOT_SELECTED_IN_FOCUSED_TITLE_TRIAGE",
+    "reason": "Title not prioritized for adult same-domain paired capacity or key pressure-volume context; not a full-text eligibility decision",
+    "reviewer": "Single Codex-assisted review; no independent dual screening",
+    "screening_level": "Title triage; extracted sources have separately recorded reading level",
+    "title": "Renal pelvicalyceal dilation in antepartum pyelonephritis: ultrasonographic findings."
+  },
+  {
+    "DOI": "10.2170/jjphysiol.40.139",
+    "PMID": "2362381",
+    "decision": "NOT_SELECTED_IN_FOCUSED_TITLE_TRIAGE",
+    "reason": "Title not prioritized for adult same-domain paired capacity or key pressure-volume context; not a full-text eligibility decision",
+    "reviewer": "Single Codex-assisted review; no independent dual screening",
+    "screening_level": "Title triage; extracted sources have separately recorded reading level",
+    "title": "Pressure responses and conduction of peristaltic wave in guinea-pig ureter."
+  },
+  {
+    "DOI": "10.1111/j.1440-1673.1989.tb03236.x",
+    "PMID": "2712790",
+    "decision": "NOT_SELECTED_IN_FOCUSED_TITLE_TRIAGE",
+    "reason": "Title not prioritized for adult same-domain paired capacity or key pressure-volume context; not a full-text eligibility decision",
+    "reviewer": "Single Codex-assisted review; no independent dual screening",
+    "screening_level": "Title triage; extracted sources have separately recorded reading level",
+    "title": "Volume related configurational changes in the aetiology of pelvi-ureteric junction obstruction."
+  },
+  {
+    "DOI": "10.1016/s0022-5347(17)38840-7",
+    "PMID": "2746791",
+    "decision": "NOT_SELECTED_IN_FOCUSED_TITLE_TRIAGE",
+    "reason": "Title not prioritized for adult same-domain paired capacity or key pressure-volume context; not a full-text eligibility decision",
+    "reviewer": "Single Codex-assisted review; no independent dual screening",
+    "screening_level": "Title triage; extracted sources have separately recorded reading level",
+    "title": "Constant pressure perfusion: a method to determine obstruction in the upper urinary tract."
+  },
+  {
+    "DOI": "10.1172/JCI111707",
+    "PMID": "2857730",
+    "decision": "NOT_SELECTED_IN_FOCUSED_TITLE_TRIAGE",
+    "reason": "Title not prioritized for adult same-domain paired capacity or key pressure-volume context; not a full-text eligibility decision",
+    "reviewer": "Single Codex-assisted review; no independent dual screening",
+    "screening_level": "Title triage; extracted sources have separately recorded reading level",
+    "title": "Molecular basis of Escherichia coli colonization of the upper urinary tract in BALB/c mice. Gal-Gal pili immunization prevents Escherichia coli pyelonephritis in the BALB/c mouse model of human pyelonephritis."
+  },
+  {
+    "DOI": "10.1055/s-2008-1048461",
+    "PMID": "3029827",
+    "decision": "NOT_SELECTED_IN_FOCUSED_TITLE_TRIAGE",
+    "reason": "Title not prioritized for adult same-domain paired capacity or key pressure-volume context; not a full-text eligibility decision",
+    "reviewer": "Single Codex-assisted review; no independent dual screening",
+    "screening_level": "Title triage; extracted sources have separately recorded reading level",
+    "title": "[Improvement in the informativeness of diuretic kidney function scintigraphy by calculation of a washout index]."
+  },
+  {
+    "DOI": "10.1016/s0090-4295(98)90042-5",
+    "PMID": "3059661",
+    "decision": "NOT_SELECTED_IN_FOCUSED_TITLE_TRIAGE",
+    "reason": "Title not prioritized for adult same-domain paired capacity or key pressure-volume context; not a full-text eligibility decision",
+    "reviewer": "Single Codex-assisted review; no independent dual screening",
+    "screening_level": "Title triage; extracted sources have separately recorded reading level",
+    "title": "Diuretic ultrasound: technique for assessment of obstructed renal unit."
+  },
+  {
+    "DOI": "10.1016/s0001-2998(88)80040-0",
+    "PMID": "3062783",
+    "decision": "NOT_SELECTED_IN_FOCUSED_TITLE_TRIAGE",
+    "reason": "Title not prioritized for adult same-domain paired capacity or key pressure-volume context; not a full-text eligibility decision",
+    "reviewer": "Single Codex-assisted review; no independent dual screening",
+    "screening_level": "Title triage; extracted sources have separately recorded reading level",
+    "title": "The role of scintigraphy in urinary tract infection."
+  },
+  {
+    "DOI": null,
+    "PMID": "3251040",
+    "decision": "NOT_SELECTED_IN_FOCUSED_TITLE_TRIAGE",
+    "reason": "Title not prioritized for adult same-domain paired capacity or key pressure-volume context; not a full-text eligibility decision",
+    "reviewer": "Single Codex-assisted review; no independent dual screening",
+    "screening_level": "Title triage; extracted sources have separately recorded reading level",
+    "title": "[Kidney retention of urea in sheep on a hypoprotein diet: study by retrograde perfusion of urea in the kidney pelvis]."
+  },
+  {
+    "DOI": "10.1016/s0022-5347(17)45037-3",
+    "PMID": "3735561",
+    "decision": "NOT_SELECTED_IN_FOCUSED_TITLE_TRIAGE",
+    "reason": "Title not prioritized for adult same-domain paired capacity or key pressure-volume context; not a full-text eligibility decision",
+    "reviewer": "Single Codex-assisted review; no independent dual screening",
+    "screening_level": "Title triage; extracted sources have separately recorded reading level",
+    "title": "125I-hippuran absorption from the human renal pelvis."
+  },
+  {
+    "DOI": null,
+    "PMID": "3883619",
+    "decision": "NOT_SELECTED_IN_FOCUSED_TITLE_TRIAGE",
+    "reason": "Title not prioritized for adult same-domain paired capacity or key pressure-volume context; not a full-text eligibility decision",
+    "reviewer": "Single Codex-assisted review; no independent dual screening",
+    "screening_level": "Title triage; extracted sources have separately recorded reading level",
+    "title": "Evaluation and management of upper urinary tract obstruction in infancy and childhood."
+  },
+  {
+    "DOI": "10.1007/BF02926838",
+    "PMID": "3885536",
+    "decision": "NOT_SELECTED_IN_FOCUSED_TITLE_TRIAGE",
+    "reason": "Title not prioritized for adult same-domain paired capacity or key pressure-volume context; not a full-text eligibility decision",
+    "reviewer": "Single Codex-assisted review; no independent dual screening",
+    "screening_level": "Title triage; extracted sources have separately recorded reading level",
+    "title": "Sonographic biometry in obstructive uropathy of children: preoperative diagnosis and postoperative monitoring."
+  },
+  {
+    "DOI": "10.1159/000281038",
+    "PMID": "3887715",
+    "decision": "NOT_SELECTED_IN_FOCUSED_TITLE_TRIAGE",
+    "reason": "Title not prioritized for adult same-domain paired capacity or key pressure-volume context; not a full-text eligibility decision",
+    "reviewer": "Single Codex-assisted review; no independent dual screening",
+    "screening_level": "Title triage; extracted sources have separately recorded reading level",
+    "title": "Urodynamic consequences of a direct pyelocystostomy at autotransplantation of the kidney."
+  },
+  {
+    "DOI": "10.1016/s0022-5347(17)45769-7",
+    "PMID": "3944923",
+    "decision": "FOCUSED_EXTRACTION_OR_EXCLUSION_COMPARATOR",
+    "reason": "Prioritized for domain/state/volume/mechanism review; applicability in matrix",
+    "reviewer": "Single Codex-assisted review; no independent dual screening",
+    "screening_level": "Title triage; extracted sources have separately recorded reading level",
+    "title": "The pressure-volume relationship of the pig renal pelvis."
+  },
+  {
+    "DOI": "10.1016/0090-4295(85)90323-1",
+    "PMID": "3976115",
+    "decision": "FOCUSED_EXTRACTION_OR_EXCLUSION_COMPARATOR",
+    "reason": "Prioritized for domain/state/volume/mechanism review; applicability in matrix",
+    "reviewer": "Single Codex-assisted review; no independent dual screening",
+    "screening_level": "Title triage; extracted sources have separately recorded reading level",
+    "title": "Pressure volume relationships in human hydronephrosis."
+  },
+  {
+    "DOI": "10.1007/BF00571747",
+    "PMID": "3992762",
+    "decision": "NOT_SELECTED_IN_FOCUSED_TITLE_TRIAGE",
+    "reason": "Title not prioritized for adult same-domain paired capacity or key pressure-volume context; not a full-text eligibility decision",
+    "reviewer": "Single Codex-assisted review; no independent dual screening",
+    "screening_level": "Title triage; extracted sources have separately recorded reading level",
+    "title": "Experimental study of the pressure-volume and pressure-time relations in the completely obstructed pelvis of the porcine kidney. Part 1: Introduction and theory."
+  },
+  {
+    "DOI": "10.1007/BF00571748",
+    "PMID": "3992766",
+    "decision": "NOT_SELECTED_IN_FOCUSED_TITLE_TRIAGE",
+    "reason": "Title not prioritized for adult same-domain paired capacity or key pressure-volume context; not a full-text eligibility decision",
+    "reviewer": "Single Codex-assisted review; no independent dual screening",
+    "screening_level": "Title triage; extracted sources have separately recorded reading level",
+    "title": "Experimental study of the pressure-volume and pressure-time relations in the completely obstructed pelvis of the porcine kidney. Part 2: The relation between actual hydrostatic pressure, intrapelvic volume and time."
+  },
+  {
+    "DOI": "10.1007/BF00571749",
+    "PMID": "3992767",
+    "decision": "NOT_SELECTED_IN_FOCUSED_TITLE_TRIAGE",
+    "reason": "Title not prioritized for adult same-domain paired capacity or key pressure-volume context; not a full-text eligibility decision",
+    "reviewer": "Single Codex-assisted review; no independent dual screening",
+    "screening_level": "Title triage; extracted sources have separately recorded reading level",
+    "title": "Experimental study of the pressure-volume and pressure-time relations in the completely obstructed pelvis of the porcine kidney. Part 3: Stability of the pelvicalyceal system."
+  },
+  {
+    "DOI": "10.1016/0378-1135(85)90054-9",
+    "PMID": "4002609",
+    "decision": "NOT_SELECTED_IN_FOCUSED_TITLE_TRIAGE",
+    "reason": "Title not prioritized for adult same-domain paired capacity or key pressure-volume context; not a full-text eligibility decision",
+    "reviewer": "Single Codex-assisted review; no independent dual screening",
+    "screening_level": "Title triage; extracted sources have separately recorded reading level",
+    "title": "Adhesion of Corynebacterium renale and Corynebacterium pilosum to the epithelial cells of various parts of the bovine urinary tract from the renal pelvis to vulva."
+  },
+  {
+    "DOI": "10.1007/BF00261588",
+    "PMID": "4060371",
+    "decision": "NOT_SELECTED_IN_FOCUSED_TITLE_TRIAGE",
+    "reason": "Title not prioritized for adult same-domain paired capacity or key pressure-volume context; not a full-text eligibility decision",
+    "reviewer": "Single Codex-assisted review; no independent dual screening",
+    "screening_level": "Title triage; extracted sources have separately recorded reading level",
+    "title": "Experimental study of the pressure-volume and pressure-time relations in the completely obstructed pelvis of the porcine kidney. Part 4: Instability and blow out."
+  },
+  {
+    "DOI": null,
+    "PMID": "4946881",
+    "decision": "NOT_SELECTED_IN_FOCUSED_TITLE_TRIAGE",
+    "reason": "Title not prioritized for adult same-domain paired capacity or key pressure-volume context; not a full-text eligibility decision",
+    "reviewer": "Single Codex-assisted review; no independent dual screening",
+    "screening_level": "Title triage; extracted sources have separately recorded reading level",
+    "title": "Bacteremia in the pathogenesis of retrograde E. coli pyelonephritis in the rat."
+  },
+  {
+    "DOI": "10.1007/BF00256888",
+    "PMID": "6272463",
+    "decision": "NOT_SELECTED_IN_FOCUSED_TITLE_TRIAGE",
+    "reason": "Title not prioritized for adult same-domain paired capacity or key pressure-volume context; not a full-text eligibility decision",
+    "reviewer": "Single Codex-assisted review; no independent dual screening",
+    "screening_level": "Title triage; extracted sources have separately recorded reading level",
+    "title": "The effect of autonomic drugs on ureteric peristalsis: a canine in vivo study."
+  },
+  {
+    "DOI": "10.1055/s-2008-1055732",
+    "PMID": "6403426",
+    "decision": "NOT_SELECTED_IN_FOCUSED_TITLE_TRIAGE",
+    "reason": "Title not prioritized for adult same-domain paired capacity or key pressure-volume context; not a full-text eligibility decision",
+    "reviewer": "Single Codex-assisted review; no independent dual screening",
+    "screening_level": "Title triage; extracted sources have separately recorded reading level",
+    "title": "[Pharmacokinetic aspects of excretory urography in children]."
+  },
+  {
+    "DOI": "10.1055/s-2007-1013061",
+    "PMID": "6648494",
+    "decision": "NOT_SELECTED_IN_FOCUSED_TITLE_TRIAGE",
+    "reason": "Title not prioritized for adult same-domain paired capacity or key pressure-volume context; not a full-text eligibility decision",
+    "reviewer": "Single Codex-assisted review; no independent dual screening",
+    "screening_level": "Title triage; extracted sources have separately recorded reading level",
+    "title": "[Sonographic diagnosis of urine flow disorders in childhood]."
+  },
+  {
+    "DOI": "10.1007/BF00256340",
+    "PMID": "6659220",
+    "decision": "NOT_SELECTED_IN_FOCUSED_TITLE_TRIAGE",
+    "reason": "Title not prioritized for adult same-domain paired capacity or key pressure-volume context; not a full-text eligibility decision",
+    "reviewer": "Single Codex-assisted review; no independent dual screening",
+    "screening_level": "Title triage; extracted sources have separately recorded reading level",
+    "title": "The pressure volume relationship of the renal pelvis in total obstruction in pigs."
+  },
+  {
+    "DOI": null,
+    "PMID": "6702328",
+    "decision": "NOT_SELECTED_IN_FOCUSED_TITLE_TRIAGE",
+    "reason": "Title not prioritized for adult same-domain paired capacity or key pressure-volume context; not a full-text eligibility decision",
+    "reviewer": "Single Codex-assisted review; no independent dual screening",
+    "screening_level": "Title triage; extracted sources have separately recorded reading level",
+    "title": "[Excretory behavior in transureteral ureterostomy with unilateral definitive nephrostomy (TUUS II)]."
+  },
+  {
+    "DOI": "10.1016/0090-4295(83)90049-3",
+    "PMID": "6857890",
+    "decision": "NOT_SELECTED_IN_FOCUSED_TITLE_TRIAGE",
+    "reason": "Title not prioritized for adult same-domain paired capacity or key pressure-volume context; not a full-text eligibility decision",
+    "reviewer": "Single Codex-assisted review; no independent dual screening",
+    "screening_level": "Title triage; extracted sources have separately recorded reading level",
+    "title": "Determinants of progression and equilibrium in hydronephrosis."
+  },
+  {
+    "DOI": "10.1007/BF00255872",
+    "PMID": "7157560",
+    "decision": "NOT_SELECTED_IN_FOCUSED_TITLE_TRIAGE",
+    "reason": "Title not prioritized for adult same-domain paired capacity or key pressure-volume context; not a full-text eligibility decision",
+    "reviewer": "Single Codex-assisted review; no independent dual screening",
+    "screening_level": "Title triage; extracted sources have separately recorded reading level",
+    "title": "Chronic ureteric obstruction and its impact on the coordinating mechanisms of peristalsis (pyeloureteric pacemaker system)."
+  },
+  {
+    "DOI": "10.1016/0165-1838(81)90066-7",
+    "PMID": "7276433",
+    "decision": "NOT_SELECTED_IN_FOCUSED_TITLE_TRIAGE",
+    "reason": "Title not prioritized for adult same-domain paired capacity or key pressure-volume context; not a full-text eligibility decision",
+    "reviewer": "Single Codex-assisted review; no independent dual screening",
+    "screening_level": "Title triage; extracted sources have separately recorded reading level",
+    "title": "Renal chemoreceptors."
+  },
+  {
+    "DOI": null,
+    "PMID": "7372440",
+    "decision": "FOCUSED_EXTRACTION_OR_EXCLUSION_COMPARATOR",
+    "reason": "Prioritized for domain/state/volume/mechanism review; applicability in matrix",
+    "reviewer": "Single Codex-assisted review; no independent dual screening",
+    "screening_level": "Title triage; extracted sources have separately recorded reading level",
+    "title": "Estimation of renal pelvic volume in free urinary flow and in ureteral stasis. An experimental study in the rabbit."
+  },
+  {
+    "DOI": "10.1016/s0022-5347(17)55717-1",
+    "PMID": "7441843",
+    "decision": "NOT_SELECTED_IN_FOCUSED_TITLE_TRIAGE",
+    "reason": "Title not prioritized for adult same-domain paired capacity or key pressure-volume context; not a full-text eligibility decision",
+    "reviewer": "Single Codex-assisted review; no independent dual screening",
+    "screening_level": "Title triage; extracted sources have separately recorded reading level",
+    "title": "Dissolution of cystine calculi by pelviocaliceal irrigation with D-penicillamine."
+  },
+  {
+    "DOI": "10.1097/00005392-199508000-00092",
+    "PMID": "7609155",
+    "decision": "NOT_SELECTED_IN_FOCUSED_TITLE_TRIAGE",
+    "reason": "Title not prioritized for adult same-domain paired capacity or key pressure-volume context; not a full-text eligibility decision",
+    "reviewer": "Single Codex-assisted review; no independent dual screening",
+    "screening_level": "Title triage; extracted sources have separately recorded reading level",
+    "title": "The effect of pregnancy on rat urinary tract dynamics."
+  },
+  {
+    "DOI": "10.1055/s-2007-1005262",
+    "PMID": "8128211",
+    "decision": "NOT_SELECTED_IN_FOCUSED_TITLE_TRIAGE",
+    "reason": "Title not prioritized for adult same-domain paired capacity or key pressure-volume context; not a full-text eligibility decision",
+    "reviewer": "Single Codex-assisted review; no independent dual screening",
+    "screening_level": "Title triage; extracted sources have separately recorded reading level",
+    "title": "[Arteriovenous fistula and kidney pelvis thrombus after percutaneous kidney puncture]."
+  },
+  {
+    "DOI": "10.1258/002367793780810388",
+    "PMID": "8501893",
+    "decision": "NOT_SELECTED_IN_FOCUSED_TITLE_TRIAGE",
+    "reason": "Title not prioritized for adult same-domain paired capacity or key pressure-volume context; not a full-text eligibility decision",
+    "reviewer": "Single Codex-assisted review; no independent dual screening",
+    "screening_level": "Title triage; extracted sources have separately recorded reading level",
+    "title": "Influence of chronic oestrogen treatment on severity of hydronephrosis in inbred DDD mice."
+  },
+  {
+    "DOI": "10.1159/000188702",
+    "PMID": "8569944",
+    "decision": "NOT_SELECTED_IN_FOCUSED_TITLE_TRIAGE",
+    "reason": "Title not prioritized for adult same-domain paired capacity or key pressure-volume context; not a full-text eligibility decision",
+    "reviewer": "Single Codex-assisted review; no independent dual screening",
+    "screening_level": "Title triage; extracted sources have separately recorded reading level",
+    "title": "Ultrasound diagnosis of suspected urinary tract obstruction using a stimulated diuresis test."
+  },
+  {
+    "DOI": null,
+    "PMID": "8702322",
+    "decision": "NOT_SELECTED_IN_FOCUSED_TITLE_TRIAGE",
+    "reason": "Title not prioritized for adult same-domain paired capacity or key pressure-volume context; not a full-text eligibility decision",
+    "reviewer": "Single Codex-assisted review; no independent dual screening",
+    "screening_level": "Title triage; extracted sources have separately recorded reading level",
+    "title": "[Clinical and neuro-urodynamic assessment of radical prostatectomy]."
+  },
+  {
+    "DOI": "10.5980/jpnjurol1989.86.1735",
+    "PMID": "8717214",
+    "decision": "NOT_SELECTED_IN_FOCUSED_TITLE_TRIAGE",
+    "reason": "Title not prioritized for adult same-domain paired capacity or key pressure-volume context; not a full-text eligibility decision",
+    "reviewer": "Single Codex-assisted review; no independent dual screening",
+    "screening_level": "Title triage; extracted sources have separately recorded reading level",
+    "title": "[Pelvioureteral function after ureterotomy--experimental study simulating endopyeloureterotomy]."
+  },
+  {
+    "DOI": "10.1016/s0022-3468(96)90425-x",
+    "PMID": "8811571",
+    "decision": "NOT_SELECTED_IN_FOCUSED_TITLE_TRIAGE",
+    "reason": "Title not prioritized for adult same-domain paired capacity or key pressure-volume context; not a full-text eligibility decision",
+    "reviewer": "Single Codex-assisted review; no independent dual screening",
+    "screening_level": "Title triage; extracted sources have separately recorded reading level",
+    "title": "Ureterocystoplasty with preservation of ipsilateral renal function."
+  },
+  {
+    "DOI": null,
+    "PMID": "9064670",
+    "decision": "NOT_SELECTED_IN_FOCUSED_TITLE_TRIAGE",
+    "reason": "Title not prioritized for adult same-domain paired capacity or key pressure-volume context; not a full-text eligibility decision",
+    "reviewer": "Single Codex-assisted review; no independent dual screening",
+    "screening_level": "Title triage; extracted sources have separately recorded reading level",
+    "title": "[Non-comparative open study of the efficacy and tolerance of cefaclor in the prevention of urinary tract infections in children]."
+  },
+  {
+    "DOI": "10.1016/s0899-7071(96)00043-5",
+    "PMID": "9215476",
+    "decision": "NOT_SELECTED_IN_FOCUSED_TITLE_TRIAGE",
+    "reason": "Title not prioritized for adult same-domain paired capacity or key pressure-volume context; not a full-text eligibility decision",
+    "reviewer": "Single Codex-assisted review; no independent dual screening",
+    "screening_level": "Title triage; extracted sources have separately recorded reading level",
+    "title": "Improved sonographic visualization by fluid challenge method of renal lithiasis in the nondilated collecting system. Experience in seven cases."
+  },
+  {
+    "DOI": "10.1159/000283010",
+    "PMID": "9313318",
+    "decision": "NOT_SELECTED_IN_FOCUSED_TITLE_TRIAGE",
+    "reason": "Title not prioritized for adult same-domain paired capacity or key pressure-volume context; not a full-text eligibility decision",
+    "reviewer": "Single Codex-assisted review; no independent dual screening",
+    "screening_level": "Title triage; extracted sources have separately recorded reading level",
+    "title": "Experimental partial ureteric obstruction in newborn rats. IX. Renal morphology and function after 1 year of obstruction."
+  },
+  {
+    "DOI": "10.1016/s0029-7844(98)00136-7",
+    "PMID": "9649109",
+    "decision": "NOT_SELECTED_IN_FOCUSED_TITLE_TRIAGE",
+    "reason": "Title not prioritized for adult same-domain paired capacity or key pressure-volume context; not a full-text eligibility decision",
+    "reviewer": "Single Codex-assisted review; no independent dual screening",
+    "screening_level": "Title triage; extracted sources have separately recorded reading level",
+    "title": "Effect of maternal hydration on fetal renal pyelectasis."
+  },
+  {
+    "DOI": null,
+    "PMID": "9857380",
+    "decision": "NOT_SELECTED_IN_FOCUSED_TITLE_TRIAGE",
+    "reason": "Title not prioritized for adult same-domain paired capacity or key pressure-volume context; not a full-text eligibility decision",
+    "reviewer": "Single Codex-assisted review; no independent dual screening",
+    "screening_level": "Title triage; extracted sources have separately recorded reading level",
+    "title": "Role of angiotensin in the development of the kidney and urinary tract."
+  },
+  {
+    "DOI": "10.1089/end.1999.13.107",
+    "PMID": "10213104",
+    "decision": "NOT_SELECTED_IN_FOCUSED_TITLE_TRIAGE",
+    "reason": "Title not prioritized for adult same-domain paired capacity or key pressure-volume context; not a full-text eligibility decision",
+    "reviewer": "Single Codex-assisted review; no independent dual screening",
+    "screening_level": "Title triage; extracted sources have separately recorded reading level",
+    "title": "New bioabsorbable polylactide ureteral stent in the treatment of ureteral lesions: an experimental study."
+  },
+  {
+    "DOI": null,
+    "PMID": "10218274",
+    "decision": "NOT_SELECTED_IN_FOCUSED_TITLE_TRIAGE",
+    "reason": "Title not prioritized for adult same-domain paired capacity or key pressure-volume context; not a full-text eligibility decision",
+    "reviewer": "Single Codex-assisted review; no independent dual screening",
+    "screening_level": "Title triage; extracted sources have separately recorded reading level",
+    "title": "[Cystitis glandularis]."
+  },
+  {
+    "DOI": "10.1016/s0001-2998(99)80003-8",
+    "PMID": "10321824",
+    "decision": "NOT_SELECTED_IN_FOCUSED_TITLE_TRIAGE",
+    "reason": "Title not prioritized for adult same-domain paired capacity or key pressure-volume context; not a full-text eligibility decision",
+    "reviewer": "Single Codex-assisted review; no independent dual screening",
+    "screening_level": "Title triage; extracted sources have separately recorded reading level",
+    "title": "Radionuclide renography: a personal approach."
+  },
+  {
+    "DOI": "10.1007/s004670050596",
+    "PMID": "10353409",
+    "decision": "NOT_SELECTED_IN_FOCUSED_TITLE_TRIAGE",
+    "reason": "Title not prioritized for adult same-domain paired capacity or key pressure-volume context; not a full-text eligibility decision",
+    "reviewer": "Single Codex-assisted review; no independent dual screening",
+    "screening_level": "Title triage; extracted sources have separately recorded reading level",
+    "title": "Comparison of ultrasound and dimercaptosuccinic acid scintigraphy changes in acute pyelonephritis."
+  },
+  {
+    "DOI": "10.1016/s0196-0644(99)70221-0",
+    "PMID": "10424912",
+    "decision": "FOCUSED_EXTRACTION_OR_EXCLUSION_COMPARATOR",
+    "reason": "Prioritized for domain/state/volume/mechanism review; applicability in matrix",
+    "reviewer": "Single Codex-assisted review; no independent dual screening",
+    "screening_level": "Title triage; extracted sources have separately recorded reading level",
+    "title": "Rapid oral hydration results in hydronephrosis as demonstrated by bedside ultrasound."
+  },
+  {
+    "DOI": "10.1046/j.1523-1755.2000.00826.x",
+    "PMID": "10620201",
+    "decision": "NOT_SELECTED_IN_FOCUSED_TITLE_TRIAGE",
+    "reason": "Title not prioritized for adult same-domain paired capacity or key pressure-volume context; not a full-text eligibility decision",
+    "reviewer": "Single Codex-assisted review; no independent dual screening",
+    "screening_level": "Title triage; extracted sources have separately recorded reading level",
+    "title": "Renal afferent signaling diuretic response is impaired in streptozotocin-induced diabetic rats."
+  },
+  {
+    "DOI": null,
+    "PMID": "10811403",
+    "decision": "NOT_SELECTED_IN_FOCUSED_TITLE_TRIAGE",
+    "reason": "Title not prioritized for adult same-domain paired capacity or key pressure-volume context; not a full-text eligibility decision",
+    "reviewer": "Single Codex-assisted review; no independent dual screening",
+    "screening_level": "Title triage; extracted sources have separately recorded reading level",
+    "title": "Understanding the Doppler RI: impact of renal arterial distensibility on the RI in a hydronephrotic ex vivo rabbit kidney model."
+  },
+  {
+    "DOI": null,
+    "PMID": "11333475",
+    "decision": "NOT_SELECTED_IN_FOCUSED_TITLE_TRIAGE",
+    "reason": "Title not prioritized for adult same-domain paired capacity or key pressure-volume context; not a full-text eligibility decision",
+    "reviewer": "Single Codex-assisted review; no independent dual screening",
+    "screening_level": "Title triage; extracted sources have separately recorded reading level",
+    "title": "[Study of renal function in infants diagnosed with renal pyelectasis in the first year of life]."
+  },
+  {
+    "DOI": "10.1159/000050980",
+    "PMID": "11490218",
+    "decision": "NOT_SELECTED_IN_FOCUSED_TITLE_TRIAGE",
+    "reason": "Title not prioritized for adult same-domain paired capacity or key pressure-volume context; not a full-text eligibility decision",
+    "reviewer": "Single Codex-assisted review; no independent dual screening",
+    "screening_level": "Title triage; extracted sources have separately recorded reading level",
+    "title": "Rapidly relapsing squamous cell carcinoma of the renal pelvis associated with paraneoplastic syndromes of leukocytosis, thrombocytosis and hypercalcemia."
+  },
+  {
+    "DOI": "10.2214/ajr.178.4.1780921",
+    "PMID": "11906873",
+    "decision": "NOT_SELECTED_IN_FOCUSED_TITLE_TRIAGE",
+    "reason": "Title not prioritized for adult same-domain paired capacity or key pressure-volume context; not a full-text eligibility decision",
+    "reviewer": "Single Codex-assisted review; no independent dual screening",
+    "screening_level": "Title triage; extracted sources have separately recorded reading level",
+    "title": "Renal vein Doppler sonography of obstructive uropathy."
+  },
+  {
+    "DOI": "10.1080/003655902320248191",
+    "PMID": "12201915",
+    "decision": "NOT_SELECTED_IN_FOCUSED_TITLE_TRIAGE",
+    "reason": "Title not prioritized for adult same-domain paired capacity or key pressure-volume context; not a full-text eligibility decision",
+    "reviewer": "Single Codex-assisted review; no independent dual screening",
+    "screening_level": "Title triage; extracted sources have separately recorded reading level",
+    "title": "Antenatally detected, unilateral dilatation of the renal pelvis: a critical review. 1. Postnatal non-operative treatment 20 years on--is it safe?"
+  },
+  {
+    "DOI": "10.1097/01.ju.0000027177.45171.e9",
+    "PMID": "12352363",
+    "decision": "NOT_SELECTED_IN_FOCUSED_TITLE_TRIAGE",
+    "reason": "Title not prioritized for adult same-domain paired capacity or key pressure-volume context; not a full-text eligibility decision",
+    "reviewer": "Single Codex-assisted review; no independent dual screening",
+    "screening_level": "Title triage; extracted sources have separately recorded reading level",
+    "title": "Nitric oxide in obstructive uropathy: role of endothelial nitric oxide synthase."
+  },
+  {
+    "DOI": "10.1016/S0022-5347(05)64124-9",
+    "PMID": "12478187",
+    "decision": "NOT_SELECTED_IN_FOCUSED_TITLE_TRIAGE",
+    "reason": "Title not prioritized for adult same-domain paired capacity or key pressure-volume context; not a full-text eligibility decision",
+    "reviewer": "Single Codex-assisted review; no independent dual screening",
+    "screening_level": "Title triage; extracted sources have separately recorded reading level",
+    "title": "Laparoscopic partial kidney ablation with high intensity focused ultrasound."
+  },
+  {
+    "DOI": "10.1002/nau.10080",
+    "PMID": "12579635",
+    "decision": "NOT_SELECTED_IN_FOCUSED_TITLE_TRIAGE",
+    "reason": "Title not prioritized for adult same-domain paired capacity or key pressure-volume context; not a full-text eligibility decision",
+    "reviewer": "Single Codex-assisted review; no independent dual screening",
+    "screening_level": "Title triage; extracted sources have separately recorded reading level",
+    "title": "Supraspinal N-methyl-D-aspartate receptor inhibition influences the micturition reflex and function of the upper urinary tract of anesthetized and conscious rats."
+  },
+  {
+    "DOI": "10.1024/0040-5930.60.2.89",
+    "PMID": "12649987",
+    "decision": "NOT_SELECTED_IN_FOCUSED_TITLE_TRIAGE",
+    "reason": "Title not prioritized for adult same-domain paired capacity or key pressure-volume context; not a full-text eligibility decision",
+    "reviewer": "Single Codex-assisted review; no independent dual screening",
+    "screening_level": "Title triage; extracted sources have separately recorded reading level",
+    "title": "[Pathophysiology, diagnosis and conservative therapy of non-calcium kidney calculi]."
+  },
+  {
+    "DOI": "10.1111/j.1740-8261.2003.tb01264.x",
+    "PMID": "12718349",
+    "decision": "NOT_SELECTED_IN_FOCUSED_TITLE_TRIAGE",
+    "reason": "Title not prioritized for adult same-domain paired capacity or key pressure-volume context; not a full-text eligibility decision",
+    "reviewer": "Single Codex-assisted review; no independent dual screening",
+    "screening_level": "Title triage; extracted sources have separately recorded reading level",
+    "title": "Evaluation of the ureter and ureterovesicular junction using helical computed tomographic excretory urography in healthy dogs."
+  },
+  {
+    "DOI": "10.1007/s00120-003-0316-5",
+    "PMID": "12898040",
+    "decision": "NOT_SELECTED_IN_FOCUSED_TITLE_TRIAGE",
+    "reason": "Title not prioritized for adult same-domain paired capacity or key pressure-volume context; not a full-text eligibility decision",
+    "reviewer": "Single Codex-assisted review; no independent dual screening",
+    "screening_level": "Title triage; extracted sources have separately recorded reading level",
+    "title": "[Ureterocystoplasty: functional results and possible problem areas]."
+  },
+  {
+    "DOI": "10.1055/s-2002-19982",
+    "PMID": "14562239",
+    "decision": "NOT_SELECTED_IN_FOCUSED_TITLE_TRIAGE",
+    "reason": "Title not prioritized for adult same-domain paired capacity or key pressure-volume context; not a full-text eligibility decision",
+    "reviewer": "Single Codex-assisted review; no independent dual screening",
+    "screening_level": "Title triage; extracted sources have separately recorded reading level",
+    "title": "[Consensus on diagnostic strategies in connatal dilatations of the urinary tract]."
+  },
+  {
+    "DOI": "10.1002/pd.693",
+    "PMID": "14634973",
+    "decision": "NOT_SELECTED_IN_FOCUSED_TITLE_TRIAGE",
+    "reason": "Title not prioritized for adult same-domain paired capacity or key pressure-volume context; not a full-text eligibility decision",
+    "reviewer": "Single Codex-assisted review; no independent dual screening",
+    "screening_level": "Title triage; extracted sources have separately recorded reading level",
+    "title": "Charts of fetal size: kidney and renal pelvis measurements."
+  },
+  {
+    "DOI": "10.1097/01.ju.0000100800.69333.4d",
+    "PMID": "14665935",
+    "decision": "NOT_SELECTED_IN_FOCUSED_TITLE_TRIAGE",
+    "reason": "Title not prioritized for adult same-domain paired capacity or key pressure-volume context; not a full-text eligibility decision",
+    "reviewer": "Single Codex-assisted review; no independent dual screening",
+    "screening_level": "Title triage; extracted sources have separately recorded reading level",
+    "title": "Ureterocystoplasty: indications for a successful augmentation."
+  },
+  {
+    "DOI": "10.3904/kjim.2003.18.4.241",
+    "PMID": "14717234",
+    "decision": "NOT_SELECTED_IN_FOCUSED_TITLE_TRIAGE",
+    "reason": "Title not prioritized for adult same-domain paired capacity or key pressure-volume context; not a full-text eligibility decision",
+    "reviewer": "Single Codex-assisted review; no independent dual screening",
+    "screening_level": "Title triage; extracted sources have separately recorded reading level",
+    "title": "Minimally dilated obstructive nephropathy initially suspected as pre-renal azotemia in a kidney donor with volume depletion."
+  },
+  {
+    "DOI": "10.1089/089277904322959798",
+    "PMID": "15072623",
+    "decision": "NOT_SELECTED_IN_FOCUSED_TITLE_TRIAGE",
+    "reason": "Title not prioritized for adult same-domain paired capacity or key pressure-volume context; not a full-text eligibility decision",
+    "reviewer": "Single Codex-assisted review; no independent dual screening",
+    "screening_level": "Title triage; extracted sources have separately recorded reading level",
+    "title": "Metabolic abnormalities associated with renal calculi in patients with horseshoe kidneys."
+  },
+  {
+    "DOI": "10.1159/000078796",
+    "PMID": "15263785",
+    "decision": "NOT_SELECTED_IN_FOCUSED_TITLE_TRIAGE",
+    "reason": "Title not prioritized for adult same-domain paired capacity or key pressure-volume context; not a full-text eligibility decision",
+    "reviewer": "Single Codex-assisted review; no independent dual screening",
+    "screening_level": "Title triage; extracted sources have separately recorded reading level",
+    "title": "Long-term results of Anderson-Hynes pyeloplasty in 180 adults in the era of endourologic procedures."
+  },
+  {
+    "DOI": "10.7863/jum.2004.23.7.929",
+    "PMID": "15292561",
+    "decision": "NOT_SELECTED_IN_FOCUSED_TITLE_TRIAGE",
+    "reason": "Title not prioritized for adult same-domain paired capacity or key pressure-volume context; not a full-text eligibility decision",
+    "reviewer": "Single Codex-assisted review; no independent dual screening",
+    "screening_level": "Title triage; extracted sources have separately recorded reading level",
+    "title": "Doppler sonography of renal obstruction: value of venous impedance index measurements."
+  },
+  {
+    "DOI": "10.1002/uog.1782",
+    "PMID": "15586380",
+    "decision": "NOT_SELECTED_IN_FOCUSED_TITLE_TRIAGE",
+    "reason": "Title not prioritized for adult same-domain paired capacity or key pressure-volume context; not a full-text eligibility decision",
+    "reviewer": "Single Codex-assisted review; no independent dual screening",
+    "screening_level": "Title triage; extracted sources have separately recorded reading level",
+    "title": "Variability in dilatation of the fetal renal pelvis during a bladder filling cycle."
+  },
+  {
+    "DOI": "10.1097/01.ju.0000157003.04760.c3",
+    "PMID": "15711350",
+    "decision": "NOT_SELECTED_IN_FOCUSED_TITLE_TRIAGE",
+    "reason": "Title not prioritized for adult same-domain paired capacity or key pressure-volume context; not a full-text eligibility decision",
+    "reviewer": "Single Codex-assisted review; no independent dual screening",
+    "screening_level": "Title triage; extracted sources have separately recorded reading level",
+    "title": "Elastin content of the renal pelvis and ureter determines post-pyeloplasty recovery."
+  },
+  {
+    "DOI": "10.1148/radiol.2351031085",
+    "PMID": "15716388",
+    "decision": "NOT_SELECTED_IN_FOCUSED_TITLE_TRIAGE",
+    "reason": "Title not prioritized for adult same-domain paired capacity or key pressure-volume context; not a full-text eligibility decision",
+    "reviewer": "Single Codex-assisted review; no independent dual screening",
+    "screening_level": "Title triage; extracted sources have separately recorded reading level",
+    "title": "Optimization of multi-detector row CT urography: effect of compression, saline administration, and prolongation of acquisition delay."
+  },
+  {
+    "DOI": "10.1055/s-2004-830277",
+    "PMID": "15902574",
+    "decision": "NOT_SELECTED_IN_FOCUSED_TITLE_TRIAGE",
+    "reason": "Title not prioritized for adult same-domain paired capacity or key pressure-volume context; not a full-text eligibility decision",
+    "reviewer": "Single Codex-assisted review; no independent dual screening",
+    "screening_level": "Title triage; extracted sources have separately recorded reading level",
+    "title": "[Are there indications for organ-preserving tumor resection in urothelial cancers of the upper urinary tract?]."
+  },
+  {
+    "DOI": "10.1097/01.ju.0000161217.47446.0b",
+    "PMID": "15947672",
+    "decision": "FOCUSED_EXTRACTION_OR_EXCLUSION_COMPARATOR",
+    "reason": "Prioritized for domain/state/volume/mechanism review; applicability in matrix",
+    "reviewer": "Single Codex-assisted review; no independent dual screening",
+    "screening_level": "Title triage; extracted sources have separately recorded reading level",
+    "title": "Renal pelvis volume during diuresis in children with hydronephrosis: implications for diagnosing obstruction with diuretic renography."
+  },
+  {
+    "DOI": "10.1097/01.ju.0000161587.95033.c9",
+    "PMID": "15947682",
+    "decision": "NOT_SELECTED_IN_FOCUSED_TITLE_TRIAGE",
+    "reason": "Title not prioritized for adult same-domain paired capacity or key pressure-volume context; not a full-text eligibility decision",
+    "reviewer": "Single Codex-assisted review; no independent dual screening",
+    "screening_level": "Title triage; extracted sources have separately recorded reading level",
+    "title": "Water jet assisted laparoscopic partial nephrectomy without hilar clamping in the calf model."
+  },
+  {
+    "DOI": "10.2460/ajvr.2005.66.1400",
+    "PMID": "16173484",
+    "decision": "NOT_SELECTED_IN_FOCUSED_TITLE_TRIAGE",
+    "reason": "Title not prioritized for adult same-domain paired capacity or key pressure-volume context; not a full-text eligibility decision",
+    "reviewer": "Single Codex-assisted review; no independent dual screening",
+    "screening_level": "Title triage; extracted sources have separately recorded reading level",
+    "title": "Evaluation of the effects of nephrotomy on renal function in clinically normal cats."
+  },
+  {
+    "DOI": "10.1016/S0022-5347(05)00010-8",
+    "PMID": "16406924",
+    "decision": "FOCUSED_EXTRACTION_OR_EXCLUSION_COMPARATOR",
+    "reason": "Prioritized for domain/state/volume/mechanism review; applicability in matrix",
+    "reviewer": "Single Codex-assisted review; no independent dual screening",
+    "screening_level": "Title triage; extracted sources have separately recorded reading level",
+    "title": "Pelvicaliceal anatomical variation between stone bearing and normal contralateral kidneys--does it have an impact on stone formation in pediatric patients with a solitary lower caliceal stone?"
+  },
+  {
+    "DOI": "10.1016/j.urology.2005.12.025",
+    "PMID": "16750255",
+    "decision": "FOCUSED_EXTRACTION_OR_EXCLUSION_COMPARATOR",
+    "reason": "Prioritized for domain/state/volume/mechanism review; applicability in matrix",
+    "reviewer": "Single Codex-assisted review; no independent dual screening",
+    "screening_level": "Title triage; extracted sources have separately recorded reading level",
+    "title": "Is pelvicaliceal anatomy a risk factor for stone formation in patients with solitary upper caliceal stone?"
+  },
+  {
+    "DOI": "10.1590/s1677-55382006000300005",
+    "PMID": "16813671",
+    "decision": "FOCUSED_EXTRACTION_OR_EXCLUSION_COMPARATOR",
+    "reason": "Prioritized for domain/state/volume/mechanism review; applicability in matrix",
+    "reviewer": "Single Codex-assisted review; no independent dual screening",
+    "screening_level": "Title triage; extracted sources have separately recorded reading level",
+    "title": "The impact of pelvicaliceal anatomical variation between the stone-bearing and normal contralateral kidney on stone formation in adult patients with lower caliceal stones."
+  },
+  {
+    "DOI": null,
+    "PMID": "17069044",
+    "decision": "NOT_SELECTED_IN_FOCUSED_TITLE_TRIAGE",
+    "reason": "Title not prioritized for adult same-domain paired capacity or key pressure-volume context; not a full-text eligibility decision",
+    "reviewer": "Single Codex-assisted review; no independent dual screening",
+    "screening_level": "Title triage; extracted sources have separately recorded reading level",
+    "title": "[Congenital giant hydronephrosis: long-term results of primary neonatal nephroplication]."
+  },
+  {
+    "DOI": "10.1089/end.2007.9997",
+    "PMID": "17338606",
+    "decision": "NOT_SELECTED_IN_FOCUSED_TITLE_TRIAGE",
+    "reason": "Title not prioritized for adult same-domain paired capacity or key pressure-volume context; not a full-text eligibility decision",
+    "reviewer": "Single Codex-assisted review; no independent dual screening",
+    "screening_level": "Title triage; extracted sources have separately recorded reading level",
+    "title": "Safety and efficacy of ureteral access sheaths."
+  },
+  {
+    "DOI": "10.1093/tropej/fmm019",
+    "PMID": "17496326",
+    "decision": "NOT_SELECTED_IN_FOCUSED_TITLE_TRIAGE",
+    "reason": "Title not prioritized for adult same-domain paired capacity or key pressure-volume context; not a full-text eligibility decision",
+    "reviewer": "Single Codex-assisted review; no independent dual screening",
+    "screening_level": "Title triage; extracted sources have separately recorded reading level",
+    "title": "Urodynamic evaluation in primary enuresis: an investigative and treatment outcome correlation."
+  },
+  {
+    "DOI": "10.1016/j.juro.2007.05.021",
+    "PMID": "17632155",
+    "decision": "NOT_SELECTED_IN_FOCUSED_TITLE_TRIAGE",
+    "reason": "Title not prioritized for adult same-domain paired capacity or key pressure-volume context; not a full-text eligibility decision",
+    "reviewer": "Single Codex-assisted review; no independent dual screening",
+    "screening_level": "Title triage; extracted sources have separately recorded reading level",
+    "title": "Tubeless percutaneous nephrolithotomy--should a stent be an integral part?"
+  },
+  {
+    "DOI": "10.1007/s00120-007-1589-x",
+    "PMID": "18071774",
+    "decision": "NOT_SELECTED_IN_FOCUSED_TITLE_TRIAGE",
+    "reason": "Title not prioritized for adult same-domain paired capacity or key pressure-volume context; not a full-text eligibility decision",
+    "reviewer": "Single Codex-assisted review; no independent dual screening",
+    "screening_level": "Title triage; extracted sources have separately recorded reading level",
+    "title": "[Ureterocystoplasty in the treatment of \"low-compliance\" bladder in children]."
+  },
+  {
+    "DOI": "10.1016/j.taap.2007.11.024",
+    "PMID": "18191429",
+    "decision": "NOT_SELECTED_IN_FOCUSED_TITLE_TRIAGE",
+    "reason": "Title not prioritized for adult same-domain paired capacity or key pressure-volume context; not a full-text eligibility decision",
+    "reviewer": "Single Codex-assisted review; no independent dual screening",
+    "screening_level": "Title triage; extracted sources have separately recorded reading level",
+    "title": "Dosimetry considerations in the enhanced sensitivity of male Wistar rats to chronic ethylene glycol-induced nephrotoxicity."
+  },
+  {
+    "DOI": "10.1055/s-2008-1061505",
+    "PMID": "18297615",
+    "decision": "NOT_SELECTED_IN_FOCUSED_TITLE_TRIAGE",
+    "reason": "Title not prioritized for adult same-domain paired capacity or key pressure-volume context; not a full-text eligibility decision",
+    "reviewer": "Single Codex-assisted review; no independent dual screening",
+    "screening_level": "Title triage; extracted sources have separately recorded reading level",
+    "title": "Maternal hydration status affects renal pelvic-calyceal diameter in pregnancy."
+  },
+  {
+    "DOI": null,
+    "PMID": "18333543",
+    "decision": "NOT_SELECTED_IN_FOCUSED_TITLE_TRIAGE",
+    "reason": "Title not prioritized for adult same-domain paired capacity or key pressure-volume context; not a full-text eligibility decision",
+    "reviewer": "Single Codex-assisted review; no independent dual screening",
+    "screening_level": "Title triage; extracted sources have separately recorded reading level",
+    "title": "[A boy with cyclic vomiting and an alleged furosemide allergy on the basis of a subpelvic stenosis]."
+  },
+  {
+    "DOI": "10.1016/j.urology.2008.02.007",
+    "PMID": "18400271",
+    "decision": "NOT_SELECTED_IN_FOCUSED_TITLE_TRIAGE",
+    "reason": "Title not prioritized for adult same-domain paired capacity or key pressure-volume context; not a full-text eligibility decision",
+    "reviewer": "Single Codex-assisted review; no independent dual screening",
+    "screening_level": "Title triage; extracted sources have separately recorded reading level",
+    "title": "Hydronephrosis index: a new method to track patients with hydronephrosis quantitatively."
+  },
+  {
+    "DOI": null,
+    "PMID": "18924501",
+    "decision": "NOT_SELECTED_IN_FOCUSED_TITLE_TRIAGE",
+    "reason": "Title not prioritized for adult same-domain paired capacity or key pressure-volume context; not a full-text eligibility decision",
+    "reviewer": "Single Codex-assisted review; no independent dual screening",
+    "screening_level": "Title triage; extracted sources have separately recorded reading level",
+    "title": "[Importance of different imaging methods in diagnosis of significant urodynamically uretropelvic junction obstruction in children with congenital hydronephrosis]."
+  },
+  {
+    "DOI": "10.1080/00365590802580208",
+    "PMID": "19037828",
+    "decision": "NOT_SELECTED_IN_FOCUSED_TITLE_TRIAGE",
+    "reason": "Title not prioritized for adult same-domain paired capacity or key pressure-volume context; not a full-text eligibility decision",
+    "reviewer": "Single Codex-assisted review; no independent dual screening",
+    "screening_level": "Title triage; extracted sources have separately recorded reading level",
+    "title": "Nephrogenic diabetes insipidus with dilatation of bilateral renal pelvis, ureter and bladder."
+  },
+  {
+    "DOI": "10.1007/s00383-008-2294-6",
+    "PMID": "19043723",
+    "decision": "NOT_SELECTED_IN_FOCUSED_TITLE_TRIAGE",
+    "reason": "Title not prioritized for adult same-domain paired capacity or key pressure-volume context; not a full-text eligibility decision",
+    "reviewer": "Single Codex-assisted review; no independent dual screening",
+    "screening_level": "Title triage; extracted sources have separately recorded reading level",
+    "title": "Results of a practical protocol for management of prenatally detected hydronephrosis due to ureteropelvic junction obstruction."
+  },
+  {
+    "DOI": "10.2967/jnmt.108.058115",
+    "PMID": "19447856",
+    "decision": "NOT_SELECTED_IN_FOCUSED_TITLE_TRIAGE",
+    "reason": "Title not prioritized for adult same-domain paired capacity or key pressure-volume context; not a full-text eligibility decision",
+    "reviewer": "Single Codex-assisted review; no independent dual screening",
+    "screening_level": "Title triage; extracted sources have separately recorded reading level",
+    "title": "New quantitative parameters for evaluating radionuclide cystography and their value in understanding the physiology of reflux."
+  },
+  {
+    "DOI": "10.1007/s00240-009-0239-8",
+    "PMID": "19997724",
+    "decision": "NOT_SELECTED_IN_FOCUSED_TITLE_TRIAGE",
+    "reason": "Title not prioritized for adult same-domain paired capacity or key pressure-volume context; not a full-text eligibility decision",
+    "reviewer": "Single Codex-assisted review; no independent dual screening",
+    "screening_level": "Title triage; extracted sources have separately recorded reading level",
+    "title": "Crystal sedimentation and stone formation."
+  },
+  {
+    "DOI": "10.1186/1471-2490-9-19",
+    "PMID": "20030823",
+    "decision": "NOT_SELECTED_IN_FOCUSED_TITLE_TRIAGE",
+    "reason": "Title not prioritized for adult same-domain paired capacity or key pressure-volume context; not a full-text eligibility decision",
+    "reviewer": "Single Codex-assisted review; no independent dual screening",
+    "screening_level": "Title triage; extracted sources have separately recorded reading level",
+    "title": "Normal kidney size and its influencing factors - a 64-slice MDCT study of 1.040 asymptomatic patients."
+  },
+  {
+    "DOI": "10.1203/PDR.0b013e3181d22b91",
+    "PMID": "20057338",
+    "decision": "NOT_SELECTED_IN_FOCUSED_TITLE_TRIAGE",
+    "reason": "Title not prioritized for adult same-domain paired capacity or key pressure-volume context; not a full-text eligibility decision",
+    "reviewer": "Single Codex-assisted review; no independent dual screening",
+    "screening_level": "Title triage; extracted sources have separately recorded reading level",
+    "title": "Dynamic ultrasound study on urinary bladder in infants with antenatally detected fetal hydronephrosis."
+  },
+  {
+    "DOI": "10.1055/s-0029-1224654",
+    "PMID": "20094955",
+    "decision": "NOT_SELECTED_IN_FOCUSED_TITLE_TRIAGE",
+    "reason": "Title not prioritized for adult same-domain paired capacity or key pressure-volume context; not a full-text eligibility decision",
+    "reviewer": "Single Codex-assisted review; no independent dual screening",
+    "screening_level": "Title triage; extracted sources have separately recorded reading level",
+    "title": "Ureterocystoplasty: an ideal method for vesical augmentation in children."
+  },
+  {
+    "DOI": "10.1016/j.juro.2009.12.040",
+    "PMID": "20172562",
+    "decision": "NOT_SELECTED_IN_FOCUSED_TITLE_TRIAGE",
+    "reason": "Title not prioritized for adult same-domain paired capacity or key pressure-volume context; not a full-text eligibility decision",
+    "reviewer": "Single Codex-assisted review; no independent dual screening",
+    "screening_level": "Title triage; extracted sources have separately recorded reading level",
+    "title": "Melamine related bilateral renal calculi in 50 children: single center experience in clinical diagnosis and treatment."
+  },
+  {
+    "DOI": null,
+    "PMID": "20301460",
+    "decision": "EXCLUDED_BOOK_CHAPTER",
+    "reason": "Title not prioritized for adult same-domain paired capacity or key pressure-volume context; not a full-text eligibility decision",
+    "reviewer": "Single Codex-assisted review; no independent dual screening",
+    "screening_level": "Title triage; extracted sources have separately recorded reading level",
+    "title": "Primary Hyperoxaluria Type 1"
+  },
+  {
+    "DOI": null,
+    "PMID": "20411163",
+    "decision": "NOT_SELECTED_IN_FOCUSED_TITLE_TRIAGE",
+    "reason": "Title not prioritized for adult same-domain paired capacity or key pressure-volume context; not a full-text eligibility decision",
+    "reviewer": "Single Codex-assisted review; no independent dual screening",
+    "screening_level": "Title triage; extracted sources have separately recorded reading level",
+    "title": "Furosemide for the diagnosis of complete or partial ureteropelvic junction obstruction."
+  },
+  {
+    "DOI": "10.4103/0970-1591.65382",
+    "PMID": "20877592",
+    "decision": "NOT_SELECTED_IN_FOCUSED_TITLE_TRIAGE",
+    "reason": "Title not prioritized for adult same-domain paired capacity or key pressure-volume context; not a full-text eligibility decision",
+    "reviewer": "Single Codex-assisted review; no independent dual screening",
+    "screening_level": "Title triage; extracted sources have separately recorded reading level",
+    "title": "Endoscopic management of upper tract transitional cell carcinoma."
+  },
+  {
+    "DOI": "10.1053/j.semnuclmed.2010.07.008",
+    "PMID": "21111856",
+    "decision": "NOT_SELECTED_IN_FOCUSED_TITLE_TRIAGE",
+    "reason": "Title not prioritized for adult same-domain paired capacity or key pressure-volume context; not a full-text eligibility decision",
+    "reviewer": "Single Codex-assisted review; no independent dual screening",
+    "screening_level": "Title triage; extracted sources have separately recorded reading level",
+    "title": "Antenatal detection of pelviureteric junction stenosis: main controversies."
+  },
+  {
+    "DOI": null,
+    "PMID": "21211336",
+    "decision": "NOT_SELECTED_IN_FOCUSED_TITLE_TRIAGE",
+    "reason": "Title not prioritized for adult same-domain paired capacity or key pressure-volume context; not a full-text eligibility decision",
+    "reviewer": "Single Codex-assisted review; no independent dual screening",
+    "screening_level": "Title triage; extracted sources have separately recorded reading level",
+    "title": "[Orthotopic T pouch ileal neobladder: evaluations of urodynamics and upper urinary tract functions]."
+  },
+  {
+    "DOI": "10.1111/j.1447-0756.2011.01595.x",
+    "PMID": "21790889",
+    "decision": "NOT_SELECTED_IN_FOCUSED_TITLE_TRIAGE",
+    "reason": "Title not prioritized for adult same-domain paired capacity or key pressure-volume context; not a full-text eligibility decision",
+    "reviewer": "Single Codex-assisted review; no independent dual screening",
+    "screening_level": "Title triage; extracted sources have separately recorded reading level",
+    "title": "Three-dimensional volume-rendered imaging of normal and abnormal fetal fluid-filled structures using inversion mode."
+  },
+  {
+    "DOI": "10.1097/TA.0b013e31827d5d5a",
+    "PMID": "23354250",
+    "decision": "NOT_SELECTED_IN_FOCUSED_TITLE_TRIAGE",
+    "reason": "Title not prioritized for adult same-domain paired capacity or key pressure-volume context; not a full-text eligibility decision",
+    "reviewer": "Single Codex-assisted review; no independent dual screening",
+    "screening_level": "Title triage; extracted sources have separately recorded reading level",
+    "title": "Process improvement in trauma: compliance with recommended imaging evaluation in the diagnosis of high-grade renal injuries."
+  },
+  {
+    "DOI": "10.1089/end.2012.0521",
+    "PMID": "23442142",
+    "decision": "NOT_SELECTED_IN_FOCUSED_TITLE_TRIAGE",
+    "reason": "Title not prioritized for adult same-domain paired capacity or key pressure-volume context; not a full-text eligibility decision",
+    "reviewer": "Single Codex-assisted review; no independent dual screening",
+    "screening_level": "Title triage; extracted sources have separately recorded reading level",
+    "title": "\"Extreme\" renal preservation: neoadjuvant chemotherapy and percutaneous resection for upper-tract urothelial carcinoma in a patient with solitary kidney--a case report."
+  },
+  {
+    "DOI": "10.1007/s00270-013-0666-3",
+    "PMID": "23765128",
+    "decision": "NOT_SELECTED_IN_FOCUSED_TITLE_TRIAGE",
+    "reason": "Title not prioritized for adult same-domain paired capacity or key pressure-volume context; not a full-text eligibility decision",
+    "reviewer": "Single Codex-assisted review; no independent dual screening",
+    "screening_level": "Title triage; extracted sources have separately recorded reading level",
+    "title": "Nephrostomy in early posttransplantation period in patients with nonfunctional graft and nondilated collecting system."
+  },
+  {
+    "DOI": "10.1007/s00120-013-3346-7",
+    "PMID": "24258353",
+    "decision": "NOT_SELECTED_IN_FOCUSED_TITLE_TRIAGE",
+    "reason": "Title not prioritized for adult same-domain paired capacity or key pressure-volume context; not a full-text eligibility decision",
+    "reviewer": "Single Codex-assisted review; no independent dual screening",
+    "screening_level": "Title triage; extracted sources have separately recorded reading level",
+    "title": "[Childhood ureteropelvic junction obstruction in a regional treatment center: spectrum and therapy]."
+  },
+  {
+    "DOI": "10.1007/s10334-014-0429-4",
+    "PMID": "24477602",
+    "decision": "FOCUSED_EXTRACTION_OR_EXCLUSION_COMPARATOR",
+    "reason": "Prioritized for domain/state/volume/mechanism review; applicability in matrix",
+    "reviewer": "Single Codex-assisted review; no independent dual screening",
+    "screening_level": "Title triage; extracted sources have separately recorded reading level",
+    "title": "Automated segmentation and volumetric analysis of renal cortex, medulla, and pelvis based on non-contrast-enhanced T1- and T2-weighted MR images."
+  },
+  {
+    "DOI": "10.1016/j.juro.2013.09.008",
+    "PMID": "24679888",
+    "decision": "NOT_SELECTED_IN_FOCUSED_TITLE_TRIAGE",
+    "reason": "Title not prioritized for adult same-domain paired capacity or key pressure-volume context; not a full-text eligibility decision",
+    "reviewer": "Single Codex-assisted review; no independent dual screening",
+    "screening_level": "Title triage; extracted sources have separately recorded reading level",
+    "title": "Mitrofanoff for valve bladder syndrome: effect on urinary tract and renal function."
+  },
+  {
+    "DOI": "10.1186/s40635-014-0026-x",
+    "PMID": "26266923",
+    "decision": "NOT_SELECTED_IN_FOCUSED_TITLE_TRIAGE",
+    "reason": "Title not prioritized for adult same-domain paired capacity or key pressure-volume context; not a full-text eligibility decision",
+    "reviewer": "Single Codex-assisted review; no independent dual screening",
+    "screening_level": "Title triage; extracted sources have separately recorded reading level",
+    "title": "The renal compartment: a hydraulic view."
+  },
+  {
+    "DOI": "10.1186/s12957-015-0739-7",
+    "PMID": "26612470",
+    "decision": "NOT_SELECTED_IN_FOCUSED_TITLE_TRIAGE",
+    "reason": "Title not prioritized for adult same-domain paired capacity or key pressure-volume context; not a full-text eligibility decision",
+    "reviewer": "Single Codex-assisted review; no independent dual screening",
+    "screening_level": "Title triage; extracted sources have separately recorded reading level",
+    "title": "Primary mucinous cystadenocarcinoma of the renal pelvis misdiagnosed as ureteropelvic junction stenosis with renal pelvis stone: a case report and literature review."
+  },
+  {
+    "DOI": "10.1159/000443993",
+    "PMID": "26890695",
+    "decision": "NOT_SELECTED_IN_FOCUSED_TITLE_TRIAGE",
+    "reason": "Title not prioritized for adult same-domain paired capacity or key pressure-volume context; not a full-text eligibility decision",
+    "reviewer": "Single Codex-assisted review; no independent dual screening",
+    "screening_level": "Title triage; extracted sources have separately recorded reading level",
+    "title": "How Protective Mechanisms Interact to Prevent Overnight Calcium Phosphate Precipitation - An Observational Study to Determine Factors Against Calcium Phosphate Lithogenesis in a Healthy Cohort."
+  },
+  {
+    "DOI": "10.1097/MNM.0000000000000534",
+    "PMID": "27119455",
+    "decision": "NOT_SELECTED_IN_FOCUSED_TITLE_TRIAGE",
+    "reason": "Title not prioritized for adult same-domain paired capacity or key pressure-volume context; not a full-text eligibility decision",
+    "reviewer": "Single Codex-assisted review; no independent dual screening",
+    "screening_level": "Title triage; extracted sources have separately recorded reading level",
+    "title": "Quantitative means for differentiating renal obstruction by analysing renography by compartmental modelling of renal fluid flow rate."
+  },
+  {
+    "DOI": "10.1016/j.jpurol.2016.02.019",
+    "PMID": "27140003",
+    "decision": "NOT_SELECTED_IN_FOCUSED_TITLE_TRIAGE",
+    "reason": "Title not prioritized for adult same-domain paired capacity or key pressure-volume context; not a full-text eligibility decision",
+    "reviewer": "Single Codex-assisted review; no independent dual screening",
+    "screening_level": "Title triage; extracted sources have separately recorded reading level",
+    "title": "Postural therapy for renal stones in children: A Rolling Stones procedure."
+  },
+  {
+    "DOI": "10.1159/000445838",
+    "PMID": "27160209",
+    "decision": "NOT_SELECTED_IN_FOCUSED_TITLE_TRIAGE",
+    "reason": "Title not prioritized for adult same-domain paired capacity or key pressure-volume context; not a full-text eligibility decision",
+    "reviewer": "Single Codex-assisted review; no independent dual screening",
+    "screening_level": "Title triage; extracted sources have separately recorded reading level",
+    "title": "Use of Volume Rendered, Maximum Intensity Projection Images to Assess Whether the Medial Calyx Synonymous with the Posterior Calyx."
+  },
+  {
+    "DOI": "10.3892/ol.2016.4541",
+    "PMID": "27313720",
+    "decision": "NOT_SELECTED_IN_FOCUSED_TITLE_TRIAGE",
+    "reason": "Title not prioritized for adult same-domain paired capacity or key pressure-volume context; not a full-text eligibility decision",
+    "reviewer": "Single Codex-assisted review; no independent dual screening",
+    "screening_level": "Title triage; extracted sources have separately recorded reading level",
+    "title": "Port-site metastasis as a primary complication following retroperitoneal laparoscopic radical resection of renal pelvis carcinoma or nephron-sparing surgery: A report of three cases and review of the literature."
+  },
+  {
+    "DOI": "10.5489/cuaj.3196",
+    "PMID": "27695587",
+    "decision": "NOT_SELECTED_IN_FOCUSED_TITLE_TRIAGE",
+    "reason": "Title not prioritized for adult same-domain paired capacity or key pressure-volume context; not a full-text eligibility decision",
+    "reviewer": "Single Codex-assisted review; no independent dual screening",
+    "screening_level": "Title triage; extracted sources have separately recorded reading level",
+    "title": "Concurrent use of endourological and radiologic methods in the management of high-grade renal trauma."
+  },
+  {
+    "DOI": "10.4081/aiua.2016.4.337",
+    "PMID": "28073208",
+    "decision": "NOT_SELECTED_IN_FOCUSED_TITLE_TRIAGE",
+    "reason": "Title not prioritized for adult same-domain paired capacity or key pressure-volume context; not a full-text eligibility decision",
+    "reviewer": "Single Codex-assisted review; no independent dual screening",
+    "screening_level": "Title triage; extracted sources have separately recorded reading level",
+    "title": "Experience of percutaneous access under ultrasound guidance in renal transplant patients with allograft lithiasis."
+  },
+  {
+    "DOI": null,
+    "PMID": "28221156",
+    "decision": "NOT_SELECTED_IN_FOCUSED_TITLE_TRIAGE",
+    "reason": "Title not prioritized for adult same-domain paired capacity or key pressure-volume context; not a full-text eligibility decision",
+    "reviewer": "Single Codex-assisted review; no independent dual screening",
+    "screening_level": "Title triage; extracted sources have separately recorded reading level",
+    "title": "[MicroPerc: Fashion or reality.]."
+  },
+  {
+    "DOI": null,
+    "PMID": "29324912",
+    "decision": "NOT_SELECTED_IN_FOCUSED_TITLE_TRIAGE",
+    "reason": "Title not prioritized for adult same-domain paired capacity or key pressure-volume context; not a full-text eligibility decision",
+    "reviewer": "Single Codex-assisted review; no independent dual screening",
+    "screening_level": "Title triage; extracted sources have separately recorded reading level",
+    "title": "Diuresis renography and ultrasonography in children with antenatally detected hydronephrosis can support diagnoses and suggest related surgery treatment."
+  },
+  {
+    "DOI": "10.1117/1.JMI.5.1.017001",
+    "PMID": "29487884",
+    "decision": "NOT_SELECTED_IN_FOCUSED_TITLE_TRIAGE",
+    "reason": "Title not prioritized for adult same-domain paired capacity or key pressure-volume context; not a full-text eligibility decision",
+    "reviewer": "Single Codex-assisted review; no independent dual screening",
+    "screening_level": "Title triage; extracted sources have separately recorded reading level",
+    "title": "Ex-vivo study in nephroureterectomy specimens defining the role of 3-D upper urinary tract visualization using optical coherence tomography and endoluminal ultrasound."
+  },
+  {
+    "DOI": "10.1111/bju.14389",
+    "PMID": "29752769",
+    "decision": "NOT_SELECTED_IN_FOCUSED_TITLE_TRIAGE",
+    "reason": "Title not prioritized for adult same-domain paired capacity or key pressure-volume context; not a full-text eligibility decision",
+    "reviewer": "Single Codex-assisted review; no independent dual screening",
+    "screening_level": "Title triage; extracted sources have separately recorded reading level",
+    "title": "Systematic review of ureteral access sheaths: facts and myths."
+  },
+  {
+    "DOI": "10.1007/s00345-018-2379-3",
+    "PMID": "29915944",
+    "decision": "NOT_SELECTED_IN_FOCUSED_TITLE_TRIAGE",
+    "reason": "Title not prioritized for adult same-domain paired capacity or key pressure-volume context; not a full-text eligibility decision",
+    "reviewer": "Single Codex-assisted review; no independent dual screening",
+    "screening_level": "Title triage; extracted sources have separately recorded reading level",
+    "title": "Pressure matters 2: intrarenal pressure ranges during upper-tract endourological procedures."
+  },
+  {
+    "DOI": "10.1007/s00345-018-2378-4",
+    "PMID": "29915945",
+    "decision": "NOT_SELECTED_IN_FOCUSED_TITLE_TRIAGE",
+    "reason": "Title not prioritized for adult same-domain paired capacity or key pressure-volume context; not a full-text eligibility decision",
+    "reviewer": "Single Codex-assisted review; no independent dual screening",
+    "screening_level": "Title triage; extracted sources have separately recorded reading level",
+    "title": "Pressure matters: intrarenal pressures during normal and pathological conditions, and impact of increased values to renal physiology."
+  },
+  {
+    "DOI": "10.1371/journal.pone.0208209",
+    "PMID": "30496287",
+    "decision": "FOCUSED_EXTRACTION_OR_EXCLUSION_COMPARATOR",
+    "reason": "Prioritized for domain/state/volume/mechanism review; applicability in matrix",
+    "reviewer": "Single Codex-assisted review; no independent dual screening",
+    "screening_level": "Title triage; extracted sources have separately recorded reading level",
+    "title": "A simple fluid dynamic model of renal pelvis pressures during ureteroscopic kidney stone treatment."
+  },
+  {
+    "DOI": "10.1007/s00345-019-02675-0",
+    "PMID": "30770944",
+    "decision": "NOT_SELECTED_IN_FOCUSED_TITLE_TRIAGE",
+    "reason": "Title not prioritized for adult same-domain paired capacity or key pressure-volume context; not a full-text eligibility decision",
+    "reviewer": "Single Codex-assisted review; no independent dual screening",
+    "screening_level": "Title triage; extracted sources have separately recorded reading level",
+    "title": "Which flexible ureteroscope is the best for upper tract urothelial carcinoma treatment?"
+  },
+  {
+    "DOI": "10.1016/j.biopha.2019.108981",
+    "PMID": "31136948",
+    "decision": "NOT_SELECTED_IN_FOCUSED_TITLE_TRIAGE",
+    "reason": "Title not prioritized for adult same-domain paired capacity or key pressure-volume context; not a full-text eligibility decision",
+    "reviewer": "Single Codex-assisted review; no independent dual screening",
+    "screening_level": "Title triage; extracted sources have separately recorded reading level",
+    "title": "Diuresis renography in equivocal urinary tract obstruction. A historical perspective."
+  },
+  {
+    "DOI": "10.1055/a-1001-1948",
+    "PMID": "31698468",
+    "decision": "NOT_SELECTED_IN_FOCUSED_TITLE_TRIAGE",
+    "reason": "Title not prioritized for adult same-domain paired capacity or key pressure-volume context; not a full-text eligibility decision",
+    "reviewer": "Single Codex-assisted review; no independent dual screening",
+    "screening_level": "Title triage; extracted sources have separately recorded reading level",
+    "title": "[Pelviureteric junction obstruction and crossing vessels: pro \"vascular hitch\"]."
+  },
+  {
+    "DOI": "10.1089/end.2019.0719",
+    "PMID": "31984761",
+    "decision": "FOCUSED_EXTRACTION_OR_EXCLUSION_COMPARATOR",
+    "reason": "Prioritized for domain/state/volume/mechanism review; applicability in matrix",
+    "reviewer": "Single Codex-assisted review; no independent dual screening",
+    "screening_level": "Title triage; extracted sources have separately recorded reading level",
+    "title": "Evaluation of a Diuresis Enhanced Non-Contrast Computed Tomography for Kidney Stones Protocol to Maximize Collecting System Distention."
+  },
+  {
+    "DOI": null,
+    "PMID": "32657096",
+    "decision": "NOT_SELECTED_IN_FOCUSED_TITLE_TRIAGE",
+    "reason": "Title not prioritized for adult same-domain paired capacity or key pressure-volume context; not a full-text eligibility decision",
+    "reviewer": "Single Codex-assisted review; no independent dual screening",
+    "screening_level": "Title triage; extracted sources have separately recorded reading level",
+    "title": "Usefulness of basic renal function tests in the management of hydronephrosis."
+  },
+  {
+    "DOI": "10.1186/s13063-020-04598-3",
+    "PMID": "32709249",
+    "decision": "NOT_SELECTED_IN_FOCUSED_TITLE_TRIAGE",
+    "reason": "Title not prioritized for adult same-domain paired capacity or key pressure-volume context; not a full-text eligibility decision",
+    "reviewer": "Single Codex-assisted review; no independent dual screening",
+    "screening_level": "Title triage; extracted sources have separately recorded reading level",
+    "title": "Rationale and design of individualized quality improvement based on the Computer Analysing system to improve Stroke management quality Evaluation (CASE): a multicenter historically controlled study."
+  },
+  {
+    "DOI": null,
+    "PMID": "32809509",
+    "decision": "EXCLUDED_BOOK_CHAPTER",
+    "reason": "Title not prioritized for adult same-domain paired capacity or key pressure-volume context; not a full-text eligibility decision",
+    "reviewer": "Single Codex-assisted review; no independent dual screening",
+    "screening_level": "Title triage; extracted sources have separately recorded reading level",
+    "title": "Ureterolithiasis"
+  },
+  {
+    "DOI": "10.4111/icu.20200278",
+    "PMID": "32869562",
+    "decision": "NOT_SELECTED_IN_FOCUSED_TITLE_TRIAGE",
+    "reason": "Title not prioritized for adult same-domain paired capacity or key pressure-volume context; not a full-text eligibility decision",
+    "reviewer": "Single Codex-assisted review; no independent dual screening",
+    "screening_level": "Title triage; extracted sources have separately recorded reading level",
+    "title": "Controversies associated with ureteral access sheath placement during ureteroscopy."
+  },
+  {
+    "DOI": "10.1007/s11934-020-00998-9",
+    "PMID": "32915324",
+    "decision": "NOT_SELECTED_IN_FOCUSED_TITLE_TRIAGE",
+    "reason": "Title not prioritized for adult same-domain paired capacity or key pressure-volume context; not a full-text eligibility decision",
+    "reviewer": "Single Codex-assisted review; no independent dual screening",
+    "screening_level": "Title triage; extracted sources have separately recorded reading level",
+    "title": "Suction Use During Endourological Procedures."
+  },
+  {
+    "DOI": "10.4103/iju.IJU_109_20",
+    "PMID": "33082636",
+    "decision": "NOT_SELECTED_IN_FOCUSED_TITLE_TRIAGE",
+    "reason": "Title not prioritized for adult same-domain paired capacity or key pressure-volume context; not a full-text eligibility decision",
+    "reviewer": "Single Codex-assisted review; no independent dual screening",
+    "screening_level": "Title triage; extracted sources have separately recorded reading level",
+    "title": "Supranormal differential renal function in adults with ureteropelvic junction obstruction: Does it really exist?"
+  },
+  {
+    "DOI": null,
+    "PMID": "33085409",
+    "decision": "EXCLUDED_BOOK_CHAPTER",
+    "reason": "Title not prioritized for adult same-domain paired capacity or key pressure-volume context; not a full-text eligibility decision",
+    "reviewer": "Single Codex-assisted review; no independent dual screening",
+    "screening_level": "Title triage; extracted sources have separately recorded reading level",
+    "title": "Vesicoureteral Reflux"
+  },
+  {
+    "DOI": "10.1016/j.urology.2021.05.015",
+    "PMID": "34033825",
+    "decision": "NOT_SELECTED_IN_FOCUSED_TITLE_TRIAGE",
+    "reason": "Title not prioritized for adult same-domain paired capacity or key pressure-volume context; not a full-text eligibility decision",
+    "reviewer": "Single Codex-assisted review; no independent dual screening",
+    "screening_level": "Title triage; extracted sources have separately recorded reading level",
+    "title": "Prospective Evaluation of Ipsilateral and Contralateral Renal Blood Flow During Retrograde Intrarenal Surgery."
+  },
+  {
+    "DOI": "10.1007/s11934-021-01067-5",
+    "PMID": "34622341",
+    "decision": "NOT_SELECTED_IN_FOCUSED_TITLE_TRIAGE",
+    "reason": "Title not prioritized for adult same-domain paired capacity or key pressure-volume context; not a full-text eligibility decision",
+    "reviewer": "Single Codex-assisted review; no independent dual screening",
+    "screening_level": "Title triage; extracted sources have separately recorded reading level",
+    "title": "Role of Intrarenal Pressure in Modern Day Endourology (Mini-PCNL and Flexible URS): a Systematic Review of Literature."
+  },
+  {
+    "DOI": "10.1158/0008-5472.CAN-21-2897",
+    "PMID": "35039320",
+    "decision": "NOT_SELECTED_IN_FOCUSED_TITLE_TRIAGE",
+    "reason": "Title not prioritized for adult same-domain paired capacity or key pressure-volume context; not a full-text eligibility decision",
+    "reviewer": "Single Codex-assisted review; no independent dual screening",
+    "screening_level": "Title triage; extracted sources have separately recorded reading level",
+    "title": "A Urinary Drug-Disposing Approach as an Alternative to Intravesical Chemotherapy for Treating Nonmuscle Invasive Bladder Cancer."
+  },
+  {
+    "DOI": "10.1016/j.euf.2022.01.019",
+    "PMID": "35181283",
+    "decision": "NOT_SELECTED_IN_FOCUSED_TITLE_TRIAGE",
+    "reason": "Title not prioritized for adult same-domain paired capacity or key pressure-volume context; not a full-text eligibility decision",
+    "reviewer": "Single Codex-assisted review; no independent dual screening",
+    "screening_level": "Title triage; extracted sources have separately recorded reading level",
+    "title": "The Delayed Nephrogram: Point-of-care Quantitative Measurement, Validation as an Indicator of Obstruction, and Novel Use as a Predictor of Renal Functional Impairment."
+  },
+  {
+    "DOI": "10.1016/j.acuroe.2021.12.006",
+    "PMID": "35260371",
+    "decision": "NOT_SELECTED_IN_FOCUSED_TITLE_TRIAGE",
+    "reason": "Title not prioritized for adult same-domain paired capacity or key pressure-volume context; not a full-text eligibility decision",
+    "reviewer": "Single Codex-assisted review; no independent dual screening",
+    "screening_level": "Title triage; extracted sources have separately recorded reading level",
+    "title": "Flexible ureteroscopy without ureteral access sheath."
+  },
+  {
+    "DOI": "10.1111/bju.15764",
+    "PMID": "35485243",
+    "decision": "FOCUSED_EXTRACTION_OR_EXCLUSION_COMPARATOR",
+    "reason": "Prioritized for domain/state/volume/mechanism review; applicability in matrix",
+    "reviewer": "Single Codex-assisted review; no independent dual screening",
+    "screening_level": "Title triage; extracted sources have separately recorded reading level",
+    "title": "Upper urinary tract pressures in endourology: a systematic review of range, variables and implications."
+  },
+  {
+    "DOI": "10.1016/j.jpurol.2022.04.011",
+    "PMID": "35527206",
+    "decision": "NOT_SELECTED_IN_FOCUSED_TITLE_TRIAGE",
+    "reason": "Title not prioritized for adult same-domain paired capacity or key pressure-volume context; not a full-text eligibility decision",
+    "reviewer": "Single Codex-assisted review; no independent dual screening",
+    "screening_level": "Title triage; extracted sources have separately recorded reading level",
+    "title": "Value of sufficient clean intermittent catheterization in urinary tract infection and upper urinary tract protection in children with neurogenic bladder."
+  },
+  {
+    "DOI": "10.1016/j.crad.2022.03.019",
+    "PMID": "35570156",
+    "decision": "NOT_SELECTED_IN_FOCUSED_TITLE_TRIAGE",
+    "reason": "Title not prioritized for adult same-domain paired capacity or key pressure-volume context; not a full-text eligibility decision",
+    "reviewer": "Single Codex-assisted review; no independent dual screening",
+    "screening_level": "Title triage; extracted sources have separately recorded reading level",
+    "title": "Kidney morphology in pregnancy using T2-weighted MRI."
+  },
+  {
+    "DOI": "10.1007/s00424-022-02712-9",
+    "PMID": "35678906",
+    "decision": "NOT_SELECTED_IN_FOCUSED_TITLE_TRIAGE",
+    "reason": "Title not prioritized for adult same-domain paired capacity or key pressure-volume context; not a full-text eligibility decision",
+    "reviewer": "Single Codex-assisted review; no independent dual screening",
+    "screening_level": "Title triage; extracted sources have separately recorded reading level",
+    "title": "Renal water transport in health and disease."
+  },
+  {
+    "DOI": "10.3390/jcm11123429",
+    "PMID": "35743499",
+    "decision": "NOT_SELECTED_IN_FOCUSED_TITLE_TRIAGE",
+    "reason": "Title not prioritized for adult same-domain paired capacity or key pressure-volume context; not a full-text eligibility decision",
+    "reviewer": "Single Codex-assisted review; no independent dual screening",
+    "screening_level": "Title triage; extracted sources have separately recorded reading level",
+    "title": "A Practical Guide for Intra-Renal Temperature and Pressure Management during Rirs: What Is the Evidence Telling Us."
+  },
+  {
+    "DOI": "10.1016/j.crad.2022.05.023",
+    "PMID": "35764436",
+    "decision": "FOCUSED_EXTRACTION_OR_EXCLUSION_COMPARATOR",
+    "reason": "Prioritized for domain/state/volume/mechanism review; applicability in matrix",
+    "reviewer": "Single Codex-assisted review; no independent dual screening",
+    "screening_level": "Title triage; extracted sources have separately recorded reading level",
+    "title": "Use of CT-based renal volumetry for the measurement of split renal function: a split glomerular filtration rate prediction model based on unilateral renal volume parameters."
+  },
+  {
+    "DOI": "10.3389/fsurg.2022.896548",
+    "PMID": "36034371",
+    "decision": "NOT_SELECTED_IN_FOCUSED_TITLE_TRIAGE",
+    "reason": "Title not prioritized for adult same-domain paired capacity or key pressure-volume context; not a full-text eligibility decision",
+    "reviewer": "Single Codex-assisted review; no independent dual screening",
+    "screening_level": "Title triage; extracted sources have separately recorded reading level",
+    "title": "Renal Pseudoaneurysms after Flexible Ureteroscopy and Holmium Laser Lithotripsy: A Case Report."
+  },
+  {
+    "DOI": "10.3390/jcm11175128",
+    "PMID": "36079058",
+    "decision": "NOT_SELECTED_IN_FOCUSED_TITLE_TRIAGE",
+    "reason": "Title not prioritized for adult same-domain paired capacity or key pressure-volume context; not a full-text eligibility decision",
+    "reviewer": "Single Codex-assisted review; no independent dual screening",
+    "screening_level": "Title triage; extracted sources have separately recorded reading level",
+    "title": "Ureteral Access Sheaths and Its Use in the Future: A Comprehensive Update Based on a Literature Review."
+  },
+  {
+    "DOI": "10.1089/end.2022.0630",
+    "PMID": "36266997",
+    "decision": "NOT_SELECTED_IN_FOCUSED_TITLE_TRIAGE",
+    "reason": "Title not prioritized for adult same-domain paired capacity or key pressure-volume context; not a full-text eligibility decision",
+    "reviewer": "Single Codex-assisted review; no independent dual screening",
+    "screening_level": "Title triage; extracted sources have separately recorded reading level",
+    "title": "Endourologic Procedures of the Upper Urinary Tract and the Effects on Intrarenal Pressure and Temperature."
+  },
+  {
+    "DOI": "10.1016/j.jpurol.2022.11.018",
+    "PMID": "36464563",
+    "decision": "NOT_SELECTED_IN_FOCUSED_TITLE_TRIAGE",
+    "reason": "Title not prioritized for adult same-domain paired capacity or key pressure-volume context; not a full-text eligibility decision",
+    "reviewer": "Single Codex-assisted review; no independent dual screening",
+    "screening_level": "Title triage; extracted sources have separately recorded reading level",
+    "title": "Clues for the early loss of renal function in congenital hydronephrosis: Analysis of renal pelvis collagen ratio, diuresis renography and upper urinary tract morphology."
+  },
+  {
+    "DOI": "10.1371/journal.pone.0281676",
+    "PMID": "36795705",
+    "decision": "NOT_SELECTED_IN_FOCUSED_TITLE_TRIAGE",
+    "reason": "Title not prioritized for adult same-domain paired capacity or key pressure-volume context; not a full-text eligibility decision",
+    "reviewer": "Single Codex-assisted review; no independent dual screening",
+    "screening_level": "Title triage; extracted sources have separately recorded reading level",
+    "title": "Gadolinium-enhanced MRI visualizing backflow at increasing intra-renal pressure in a porcine model."
+  },
+  {
+    "DOI": "10.3390/jcm12083030",
+    "PMID": "37109366",
+    "decision": "NOT_SELECTED_IN_FOCUSED_TITLE_TRIAGE",
+    "reason": "Title not prioritized for adult same-domain paired capacity or key pressure-volume context; not a full-text eligibility decision",
+    "reviewer": "Single Codex-assisted review; no independent dual screening",
+    "screening_level": "Title triage; extracted sources have separately recorded reading level",
+    "title": "A Prospective Study of Renal Blood Flow during Retrograde Intrarenal Surgery."
+  },
+  {
+    "DOI": "10.1016/j.acuroe.2023.06.001",
+    "PMID": "37302691",
+    "decision": "NOT_SELECTED_IN_FOCUSED_TITLE_TRIAGE",
+    "reason": "Title not prioritized for adult same-domain paired capacity or key pressure-volume context; not a full-text eligibility decision",
+    "reviewer": "Single Codex-assisted review; no independent dual screening",
+    "screening_level": "Title triage; extracted sources have separately recorded reading level",
+    "title": "Experimental and clinical applications and outcomes of using different forms of suction in retrograde intrarenal surgery. Results from a systematic review."
+  },
+  {
+    "DOI": "10.1007/s00240-023-01470-2",
+    "PMID": "37515665",
+    "decision": "FOCUSED_EXTRACTION_OR_EXCLUSION_COMPARATOR",
+    "reason": "Prioritized for domain/state/volume/mechanism review; applicability in matrix",
+    "reviewer": "Single Codex-assisted review; no independent dual screening",
+    "screening_level": "Title triage; extracted sources have separately recorded reading level",
+    "title": "Effect of outflow resistance on intrarenal pressure at different irrigation rates during ureteroscopy: in vivo evaluation."
+  },
+  {
+    "DOI": "10.1590/S1677-5538.IBJU.2023.0346",
+    "PMID": "37624662",
+    "decision": "NOT_SELECTED_IN_FOCUSED_TITLE_TRIAGE",
+    "reason": "Title not prioritized for adult same-domain paired capacity or key pressure-volume context; not a full-text eligibility decision",
+    "reviewer": "Single Codex-assisted review; no independent dual screening",
+    "screening_level": "Title triage; extracted sources have separately recorded reading level",
+    "title": "Modified biplanar (0-90°) endoscopic-guided puncture technique for percutaneous nephrolithtomy: refinement with endoscopic combined intrarrenal surgery to reduce fluoroscopy and operative time."
+  },
+  {
+    "DOI": "10.1111/bju.16169",
+    "PMID": "37656050",
+    "decision": "FOCUSED_EXTRACTION_OR_EXCLUSION_COMPARATOR",
+    "reason": "Prioritized for domain/state/volume/mechanism review; applicability in matrix",
+    "reviewer": "Single Codex-assisted review; no independent dual screening",
+    "screening_level": "Title triage; extracted sources have separately recorded reading level",
+    "title": "In vivo ureteroscopic intrarenal pressures and clinical outcomes: a multi-institutional analysis of 120 consecutive patients."
+  },
+  {
+    "DOI": "10.13703/j.0255-2930.20221027-k0005",
+    "PMID": "37697879",
+    "decision": "NOT_SELECTED_IN_FOCUSED_TITLE_TRIAGE",
+    "reason": "Title not prioritized for adult same-domain paired capacity or key pressure-volume context; not a full-text eligibility decision",
+    "reviewer": "Single Codex-assisted review; no independent dual screening",
+    "screening_level": "Title triage; extracted sources have separately recorded reading level",
+    "title": "[Efficacy differences between electroacupuncture and moxibustion for neurogenic bladder after spinal cord injury: a randomized controlled trial]."
+  },
+  {
+    "DOI": "10.1089/end.2023.0346",
+    "PMID": "37725588",
+    "decision": "NOT_SELECTED_IN_FOCUSED_TITLE_TRIAGE",
+    "reason": "Title not prioritized for adult same-domain paired capacity or key pressure-volume context; not a full-text eligibility decision",
+    "reviewer": "Single Codex-assisted review; no independent dual screening",
+    "screening_level": "Title triage; extracted sources have separately recorded reading level",
+    "title": "Perceptions and Practice Patterns of Urologists Relating to Intrarenal Pressure During Ureteroscopy: Findings from a Global Cross-Sectional Analysis."
+  },
+  {
+    "DOI": "10.1016/j.urology.2023.11.003",
+    "PMID": "38006955",
+    "decision": "NOT_SELECTED_IN_FOCUSED_TITLE_TRIAGE",
+    "reason": "Title not prioritized for adult same-domain paired capacity or key pressure-volume context; not a full-text eligibility decision",
+    "reviewer": "Single Codex-assisted review; no independent dual screening",
+    "screening_level": "Title triage; extracted sources have separately recorded reading level",
+    "title": "Left Ureterocalycostomy With Ileal Interposition for Retroperitoneal Fibrosis in Patient With Erdheim-Chester Disease."
+  },
+  {
+    "DOI": "10.1007/s00345-023-04652-0",
+    "PMID": "38010538",
+    "decision": "NOT_SELECTED_IN_FOCUSED_TITLE_TRIAGE",
+    "reason": "Title not prioritized for adult same-domain paired capacity or key pressure-volume context; not a full-text eligibility decision",
+    "reviewer": "Single Codex-assisted review; no independent dual screening",
+    "screening_level": "Title triage; extracted sources have separately recorded reading level",
+    "title": "The heat is on: the impact of excessive temperature increments on complications of laser treatment for ureteral and renal stones."
+  },
+  {
+    "DOI": "10.1016/j.heliyon.2024.e25522",
+    "PMID": "38327418",
+    "decision": "NOT_SELECTED_IN_FOCUSED_TITLE_TRIAGE",
+    "reason": "Title not prioritized for adult same-domain paired capacity or key pressure-volume context; not a full-text eligibility decision",
+    "reviewer": "Single Codex-assisted review; no independent dual screening",
+    "screening_level": "Title triage; extracted sources have separately recorded reading level",
+    "title": "A novel model of urosepsis in mice developed by ureteral ligation and injection of Escherichia coli into the renal pelvis."
+  },
+  {
+    "DOI": "10.3390/jcm13030769",
+    "PMID": "38337463",
+    "decision": "FOCUSED_EXTRACTION_OR_EXCLUSION_COMPARATOR",
+    "reason": "Prioritized for domain/state/volume/mechanism review; applicability in matrix",
+    "reviewer": "Single Codex-assisted review; no independent dual screening",
+    "screening_level": "Title triage; extracted sources have separately recorded reading level",
+    "title": "Age- and Sex-Specific Reference Values for Renal Volume and Association with Risk Factors for Chronic Kidney Disease in a General Population-An MRI-Based Study."
+  },
+  {
+    "DOI": "10.3389/fphys.2024.1327407",
+    "PMID": "38384795",
+    "decision": "FOCUSED_EXTRACTION_OR_EXCLUSION_COMPARATOR",
+    "reason": "Prioritized for domain/state/volume/mechanism review; applicability in matrix",
+    "reviewer": "Single Codex-assisted review; no independent dual screening",
+    "screening_level": "Title triage; extracted sources have separately recorded reading level",
+    "title": "Magnetic resonance elastography resolving all gross anatomical segments of the kidney during controlled hydration."
+  },
+  {
+    "DOI": "10.1007/s00345-024-04832-6",
+    "PMID": "38478085",
+    "decision": "NOT_SELECTED_IN_FOCUSED_TITLE_TRIAGE",
+    "reason": "Title not prioritized for adult same-domain paired capacity or key pressure-volume context; not a full-text eligibility decision",
+    "reviewer": "Single Codex-assisted review; no independent dual screening",
+    "screening_level": "Title triage; extracted sources have separately recorded reading level",
+    "title": "Transient ureteral obstruction after mini-percutaneous nephrolithotomy is associated with stone volume and location: results from a single-center, real-life study."
+  },
+  {
+    "DOI": "10.1007/s00345-024-04903-8",
+    "PMID": "38598136",
+    "decision": "NOT_SELECTED_IN_FOCUSED_TITLE_TRIAGE",
+    "reason": "Title not prioritized for adult same-domain paired capacity or key pressure-volume context; not a full-text eligibility decision",
+    "reviewer": "Single Codex-assisted review; no independent dual screening",
+    "screening_level": "Title triage; extracted sources have separately recorded reading level",
+    "title": "A new protocol for renal collecting system sterilization with antibiotic irrigation during lithotripsy in retrograde intrarenal surgery: a prospective, comparative study."
+  },
+  {
+    "DOI": "10.1177/03915603241244935",
+    "PMID": "38666713",
+    "decision": "NOT_SELECTED_IN_FOCUSED_TITLE_TRIAGE",
+    "reason": "Title not prioritized for adult same-domain paired capacity or key pressure-volume context; not a full-text eligibility decision",
+    "reviewer": "Single Codex-assisted review; no independent dual screening",
+    "screening_level": "Title triage; extracted sources have separately recorded reading level",
+    "title": "Kidney computed tomography perfusion in patients with ureteral obstruction."
+  },
+  {
+    "DOI": "10.3390/diagnostics14101034",
+    "PMID": "38786332",
+    "decision": "NOT_SELECTED_IN_FOCUSED_TITLE_TRIAGE",
+    "reason": "Title not prioritized for adult same-domain paired capacity or key pressure-volume context; not a full-text eligibility decision",
+    "reviewer": "Single Codex-assisted review; no independent dual screening",
+    "screening_level": "Title triage; extracted sources have separately recorded reading level",
+    "title": "Scoping Review of Experimental and Clinical Evidence and Its Influence on Development of the Suction Ureteral Access Sheath."
+  },
+  {
+    "DOI": "10.1590/0102-6720202400015e1808",
+    "PMID": "38896703",
+    "decision": "NOT_SELECTED_IN_FOCUSED_TITLE_TRIAGE",
+    "reason": "Title not prioritized for adult same-domain paired capacity or key pressure-volume context; not a full-text eligibility decision",
+    "reviewer": "Single Codex-assisted review; no independent dual screening",
+    "screening_level": "Title triage; extracted sources have separately recorded reading level",
+    "title": "BLADDER TRANSPLANTATION: THE NEW FRONTIER IN ABDOMINAL ORGAN TRANSPLANTATION."
+  },
+  {
+    "DOI": "10.1111/bju.16497",
+    "PMID": "39107937",
+    "decision": "FOCUSED_EXTRACTION_OR_EXCLUSION_COMPARATOR",
+    "reason": "Prioritized for domain/state/volume/mechanism review; applicability in matrix",
+    "reviewer": "Single Codex-assisted review; no independent dual screening",
+    "screening_level": "Title triage; extracted sources have separately recorded reading level",
+    "title": "Human in vivo baseline intrarenal pressure, peristaltic activity and response to ureteric stenting."
+  },
+  {
+    "DOI": "10.1007/s00240-024-01662-4",
+    "PMID": "39545972",
+    "decision": "NOT_SELECTED_IN_FOCUSED_TITLE_TRIAGE",
+    "reason": "Title not prioritized for adult same-domain paired capacity or key pressure-volume context; not a full-text eligibility decision",
+    "reviewer": "Single Codex-assisted review; no independent dual screening",
+    "screening_level": "Title triage; extracted sources have separately recorded reading level",
+    "title": "Multicenter outcome analysis of different sheath sizes for Flexible and Navigable Suction ureteral access sheath (FANS) ureteroscopy: an EAU Endourology collaboration with the global FANS study group."
+  },
+  {
+    "DOI": "10.1038/s41598-024-80934-w",
+    "PMID": "39580558",
+    "decision": "NOT_SELECTED_IN_FOCUSED_TITLE_TRIAGE",
+    "reason": "Title not prioritized for adult same-domain paired capacity or key pressure-volume context; not a full-text eligibility decision",
+    "reviewer": "Single Codex-assisted review; no independent dual screening",
+    "screening_level": "Title triage; extracted sources have separately recorded reading level",
+    "title": "Comparison of two negative pressure ureteral access sheaths combined with day-case flexible ureteroscopy for renal stones randomized trial."
+  },
+  {
+    "DOI": "10.1016/j.urology.2025.01.029",
+    "PMID": "39826806",
+    "decision": "NOT_SELECTED_IN_FOCUSED_TITLE_TRIAGE",
+    "reason": "Title not prioritized for adult same-domain paired capacity or key pressure-volume context; not a full-text eligibility decision",
+    "reviewer": "Single Codex-assisted review; no independent dual screening",
+    "screening_level": "Title triage; extracted sources have separately recorded reading level",
+    "title": "Assessment of Outcomes and Anatomical Changes in the Upper Urinary Tract Following Flexible Ureteroscopy With a Flexible and Navigable Suction Ureteral Access Sheath: 3-Month Results From a Multicenter Study."
+  },
+  {
+    "DOI": "10.1177/17562872251314809",
+    "PMID": "39896048",
+    "decision": "FOCUSED_EXTRACTION_OR_EXCLUSION_COMPARATOR",
+    "reason": "Prioritized for domain/state/volume/mechanism review; applicability in matrix",
+    "reviewer": "Single Codex-assisted review; no independent dual screening",
+    "screening_level": "Title triage; extracted sources have separately recorded reading level",
+    "title": "Current utility, instruments, and future directions for intra-renal pressure management during ureteroscopy: scoping review by global research in intra-renal pressure collaborative group initiative."
+  },
+  {
+    "DOI": "10.1016/j.euros.2025.01.005",
+    "PMID": "39944399",
+    "decision": "FOCUSED_EXTRACTION_OR_EXCLUSION_COMPARATOR",
+    "reason": "Prioritized for domain/state/volume/mechanism review; applicability in matrix",
+    "reviewer": "Single Codex-assisted review; no independent dual screening",
+    "screening_level": "Title triage; extracted sources have separately recorded reading level",
+    "title": "Intrarenal Pressure Monitoring During Ureteroscopy: A Delphi Panel Consensus."
+  },
+  {
+    "DOI": "10.1148/rg.240151",
+    "PMID": "40080439",
+    "decision": "NOT_SELECTED_IN_FOCUSED_TITLE_TRIAGE",
+    "reason": "Title not prioritized for adult same-domain paired capacity or key pressure-volume context; not a full-text eligibility decision",
+    "reviewer": "Single Codex-assisted review; no independent dual screening",
+    "screening_level": "Title triage; extracted sources have separately recorded reading level",
+    "title": "Multiparametric MR Urography: State of the Art."
+  },
+  {
+    "DOI": "10.1007/s11250-025-04375-x",
+    "PMID": "40085310",
+    "decision": "NOT_SELECTED_IN_FOCUSED_TITLE_TRIAGE",
+    "reason": "Title not prioritized for adult same-domain paired capacity or key pressure-volume context; not a full-text eligibility decision",
+    "reviewer": "Single Codex-assisted review; no independent dual screening",
+    "screening_level": "Title triage; extracted sources have separately recorded reading level",
+    "title": "Ultrasound imaging of the spleen, liver, and kidneys in healthy hair sheep: a pilot study."
+  },
+  {
+    "DOI": "10.1089/end.2024.0669",
+    "PMID": "40100828",
+    "decision": "NOT_SELECTED_IN_FOCUSED_TITLE_TRIAGE",
+    "reason": "Title not prioritized for adult same-domain paired capacity or key pressure-volume context; not a full-text eligibility decision",
+    "reviewer": "Single Codex-assisted review; no independent dual screening",
+    "screening_level": "Title triage; extracted sources have separately recorded reading level",
+    "title": "New Techniques and Technologies in Flexible Ureteroscopy."
+  },
+  {
+    "DOI": "10.1097/MOU.0000000000001283",
+    "PMID": "40181747",
+    "decision": "NOT_SELECTED_IN_FOCUSED_TITLE_TRIAGE",
+    "reason": "Title not prioritized for adult same-domain paired capacity or key pressure-volume context; not a full-text eligibility decision",
+    "reviewer": "Single Codex-assisted review; no independent dual screening",
+    "screening_level": "Title triage; extracted sources have separately recorded reading level",
+    "title": "Small tools, big impact and redefining endourology: the paradigm shift of ureteroscopy for large stones and percutaneous nephrolithotomy for small stones - a literature review."
+  },
+  {
+    "DOI": "10.1155/carm/8955098",
+    "PMID": "40225317",
+    "decision": "NOT_SELECTED_IN_FOCUSED_TITLE_TRIAGE",
+    "reason": "Title not prioritized for adult same-domain paired capacity or key pressure-volume context; not a full-text eligibility decision",
+    "reviewer": "Single Codex-assisted review; no independent dual screening",
+    "screening_level": "Title triage; extracted sources have separately recorded reading level",
+    "title": "Knotted and Encrusted Double J Stent: A Rare Complication Managed With Advanced Endoscopic Techniques."
+  },
+  {
+    "DOI": "10.23736/S2724-6051.25.06274-3",
+    "PMID": "40232164",
+    "decision": "NOT_SELECTED_IN_FOCUSED_TITLE_TRIAGE",
+    "reason": "Title not prioritized for adult same-domain paired capacity or key pressure-volume context; not a full-text eligibility decision",
+    "reviewer": "Single Codex-assisted review; no independent dual screening",
+    "screening_level": "Title triage; extracted sources have separately recorded reading level",
+    "title": "Acute kidney injury following retrograde intrarenal surgery (RIRS) with flexible and navigable suction ureteral access sheath (FANS): results from a prospective multicenter study."
+  },
+  {
+    "DOI": "10.1007/s00240-025-01769-2",
+    "PMID": "40411582",
+    "decision": "NOT_SELECTED_IN_FOCUSED_TITLE_TRIAGE",
+    "reason": "Title not prioritized for adult same-domain paired capacity or key pressure-volume context; not a full-text eligibility decision",
+    "reviewer": "Single Codex-assisted review; no independent dual screening",
+    "screening_level": "Title triage; extracted sources have separately recorded reading level",
+    "title": "UreteroPyeloVisClear catheter: a new frontier in ureteroscopic lithotripsy for ureteral stones."
+  },
+  {
+    "DOI": "10.1007/s00345-025-05790-3",
+    "PMID": "40650737",
+    "decision": "NOT_SELECTED_IN_FOCUSED_TITLE_TRIAGE",
+    "reason": "Title not prioritized for adult same-domain paired capacity or key pressure-volume context; not a full-text eligibility decision",
+    "reviewer": "Single Codex-assisted review; no independent dual screening",
+    "screening_level": "Title triage; extracted sources have separately recorded reading level",
+    "title": "Mortality from ureteroscopy for kidney stone disease: systematic review of literature from the section of EAU endourology."
+  },
+  {
+    "DOI": "10.1111/bju.16871",
+    "PMID": "40763000",
+    "decision": "NOT_SELECTED_IN_FOCUSED_TITLE_TRIAGE",
+    "reason": "Title not prioritized for adult same-domain paired capacity or key pressure-volume context; not a full-text eligibility decision",
+    "reviewer": "Single Codex-assisted review; no independent dual screening",
+    "screening_level": "Title triage; extracted sources have separately recorded reading level",
+    "title": "Direct in-scope suction (DISS) ureteroscopy: techniques, outcomes and future directions."
+  },
+  {
+    "DOI": "10.1159/000547874",
+    "PMID": "40784344",
+    "decision": "NOT_SELECTED_IN_FOCUSED_TITLE_TRIAGE",
+    "reason": "Title not prioritized for adult same-domain paired capacity or key pressure-volume context; not a full-text eligibility decision",
+    "reviewer": "Single Codex-assisted review; no independent dual screening",
+    "screening_level": "Title triage; extracted sources have separately recorded reading level",
+    "title": "Continuous Intrarenal Pressure Monitoring during Endourological Procedures for Stone Disease: A Canary in the Coalmine for Optimizing Patient Safety."
+  },
+  {
+    "DOI": "10.1007/s12194-025-00952-9",
+    "PMID": "40824463",
+    "decision": "FOCUSED_EXTRACTION_OR_EXCLUSION_COMPARATOR",
+    "reason": "Prioritized for domain/state/volume/mechanism review; applicability in matrix",
+    "reviewer": "Single Codex-assisted review; no independent dual screening",
+    "screening_level": "Title triage; extracted sources have separately recorded reading level",
+    "title": "Effect of posture on renal volume: evaluation using multi-posture MRI."
+  },
+  {
+    "DOI": "10.1186/s12880-025-01900-0",
+    "PMID": "40866865",
+    "decision": "FOCUSED_EXTRACTION_OR_EXCLUSION_COMPARATOR",
+    "reason": "Prioritized for domain/state/volume/mechanism review; applicability in matrix",
+    "reviewer": "Single Codex-assisted review; no independent dual screening",
+    "screening_level": "Title triage; extracted sources have separately recorded reading level",
+    "title": "Hydration-induced hydronephrosis in healthy adults: a diagnostic pitfall in renal ultrasound imaging."
+  },
+  {
+    "DOI": "10.1097/MS9.0000000000003673",
+    "PMID": "40904636",
+    "decision": "NOT_SELECTED_IN_FOCUSED_TITLE_TRIAGE",
+    "reason": "Title not prioritized for adult same-domain paired capacity or key pressure-volume context; not a full-text eligibility decision",
+    "reviewer": "Single Codex-assisted review; no independent dual screening",
+    "screening_level": "Title triage; extracted sources have separately recorded reading level",
+    "title": "Recurrent renal calculi in a bilateral partial duplex collecting system: a rare case managed with suction RIRS."
+  },
+  {
+    "DOI": "10.1097/MOU.0000000000001333",
+    "PMID": "40923118",
+    "decision": "NOT_SELECTED_IN_FOCUSED_TITLE_TRIAGE",
+    "reason": "Title not prioritized for adult same-domain paired capacity or key pressure-volume context; not a full-text eligibility decision",
+    "reviewer": "Single Codex-assisted review; no independent dual screening",
+    "screening_level": "Title triage; extracted sources have separately recorded reading level",
+    "title": "Does the existing evidence on flexible and navigable suction ureteral access sheath indicate a potential paradigm shift in the management of kidney and ureteral stones with flexible ureteroscopy? An overview from EAU endourology."
+  },
+  {
+    "DOI": "10.1111/bju.16893",
+    "PMID": "41001943",
+    "decision": "NOT_SELECTED_IN_FOCUSED_TITLE_TRIAGE",
+    "reason": "Title not prioritized for adult same-domain paired capacity or key pressure-volume context; not a full-text eligibility decision",
+    "reviewer": "Single Codex-assisted review; no independent dual screening",
+    "screening_level": "Title triage; extracted sources have separately recorded reading level",
+    "title": "The 'suction concept': everything a flexible ureteroscope should have."
+  },
+  {
+    "DOI": "10.1007/s00247-025-06439-4",
+    "PMID": "41196337",
+    "decision": "NOT_SELECTED_IN_FOCUSED_TITLE_TRIAGE",
+    "reason": "Title not prioritized for adult same-domain paired capacity or key pressure-volume context; not a full-text eligibility decision",
+    "reviewer": "Single Codex-assisted review; no independent dual screening",
+    "screening_level": "Title triage; extracted sources have separately recorded reading level",
+    "title": "Dynamic ultrasound evaluation of morphological and functional urinary tract characteristics in newborns and young infants with myelomeningocele."
+  },
+  {
+    "DOI": "10.1080/0886022X.2025.2570071",
+    "PMID": "41208250",
+    "decision": "NOT_SELECTED_IN_FOCUSED_TITLE_TRIAGE",
+    "reason": "Title not prioritized for adult same-domain paired capacity or key pressure-volume context; not a full-text eligibility decision",
+    "reviewer": "Single Codex-assisted review; no independent dual screening",
+    "screening_level": "Title triage; extracted sources have separately recorded reading level",
+    "title": "Kidney stones and autosomal dominant polycystic kidney disease: a state-of-the-art review."
+  },
+  {
+    "DOI": "10.7759/cureus.98074",
+    "PMID": "41323007",
+    "decision": "NOT_SELECTED_IN_FOCUSED_TITLE_TRIAGE",
+    "reason": "Title not prioritized for adult same-domain paired capacity or key pressure-volume context; not a full-text eligibility decision",
+    "reviewer": "Single Codex-assisted review; no independent dual screening",
+    "screening_level": "Title triage; extracted sources have separately recorded reading level",
+    "title": "The Role of Suction in Ureteroscopy: A Narrative Review."
+  },
+  {
+    "DOI": "10.7759/cureus.98616",
+    "PMID": "41362382",
+    "decision": "NOT_SELECTED_IN_FOCUSED_TITLE_TRIAGE",
+    "reason": "Title not prioritized for adult same-domain paired capacity or key pressure-volume context; not a full-text eligibility decision",
+    "reviewer": "Single Codex-assisted review; no independent dual screening",
+    "screening_level": "Title triage; extracted sources have separately recorded reading level",
+    "title": "Suction Ureteral Access Sheaths During Flexible Ureteroscopy for Renal Stones: A Prospective Study and Cost Analysis."
+  },
+  {
+    "DOI": "10.7759/cureus.98734",
+    "PMID": "41378267",
+    "decision": "NOT_SELECTED_IN_FOCUSED_TITLE_TRIAGE",
+    "reason": "Title not prioritized for adult same-domain paired capacity or key pressure-volume context; not a full-text eligibility decision",
+    "reviewer": "Single Codex-assisted review; no independent dual screening",
+    "screening_level": "Title triage; extracted sources have separately recorded reading level",
+    "title": "Comparative Safety, Effectiveness, and Outcomes of 10/12 Fr Versus 12/14 Fr Ureteral Access Sheaths and the Impact of Suction-Enabled Sheaths in Ureteroscopy."
+  },
+  {
+    "DOI": "10.1007/s00345-025-06127-w",
+    "PMID": "41396486",
+    "decision": "NOT_SELECTED_IN_FOCUSED_TITLE_TRIAGE",
+    "reason": "Title not prioritized for adult same-domain paired capacity or key pressure-volume context; not a full-text eligibility decision",
+    "reviewer": "Single Codex-assisted review; no independent dual screening",
+    "screening_level": "Title triage; extracted sources have separately recorded reading level",
+    "title": "Automated intrarenal pressure control in flexible ureteroscopy using an integrated ureteroscope pressure measurement and fluid management system: first-in-human use."
+  },
+  {
+    "DOI": "10.1097/UPJ.0000000000000951",
+    "PMID": "41397097",
+    "decision": "NOT_SELECTED_IN_FOCUSED_TITLE_TRIAGE",
+    "reason": "Title not prioritized for adult same-domain paired capacity or key pressure-volume context; not a full-text eligibility decision",
+    "reviewer": "Single Codex-assisted review; no independent dual screening",
+    "screening_level": "Title triage; extracted sources have separately recorded reading level",
+    "title": "Ureteral Access Sheath Use and Infection-Related Hospitalizations: Practice Patterns and Outcomes."
+  },
+  {
+    "DOI": "10.1007/s00240-025-01913-y",
+    "PMID": "41432776",
+    "decision": "NOT_SELECTED_IN_FOCUSED_TITLE_TRIAGE",
+    "reason": "Title not prioritized for adult same-domain paired capacity or key pressure-volume context; not a full-text eligibility decision",
+    "reviewer": "Single Codex-assisted review; no independent dual screening",
+    "screening_level": "Title triage; extracted sources have separately recorded reading level",
+    "title": "When should we stop operating? Multicenter analysis of operative time, outcomes, and complications in ureteroscopy with flexible navigable suction access sheath (FANS) by EAU Endourology."
+  },
+  {
+    "DOI": "10.7759/cureus.100167",
+    "PMID": "41608002",
+    "decision": "NOT_SELECTED_IN_FOCUSED_TITLE_TRIAGE",
+    "reason": "Title not prioritized for adult same-domain paired capacity or key pressure-volume context; not a full-text eligibility decision",
+    "reviewer": "Single Codex-assisted review; no independent dual screening",
+    "screening_level": "Title triage; extracted sources have separately recorded reading level",
+    "title": "Renal Pelvis Urine Sampling for Microbiology in Patients Undergoing Ureteric Stent Insertion for Infected Obstructed Kidneys: A Departmental Practice Review for Compliance With Standard Care."
+  },
+  {
+    "DOI": "10.1002/mrm.70288",
+    "PMID": "41639936",
+    "decision": "FOCUSED_EXTRACTION_OR_EXCLUSION_COMPARATOR",
+    "reason": "Prioritized for domain/state/volume/mechanism review; applicability in matrix",
+    "reviewer": "Single Codex-assisted review; no independent dual screening",
+    "screening_level": "Title triage; extracted sources have separately recorded reading level",
+    "title": "Automated Coregistered Segmentation for Volumetric Analysis of Multiparametric Renal MRI."
+  },
+  {
+    "DOI": "10.1007/s11259-026-11109-3",
+    "PMID": "41774263",
+    "decision": "NOT_SELECTED_IN_FOCUSED_TITLE_TRIAGE",
+    "reason": "Title not prioritized for adult same-domain paired capacity or key pressure-volume context; not a full-text eligibility decision",
+    "reviewer": "Single Codex-assisted review; no independent dual screening",
+    "screening_level": "Title triage; extracted sources have separately recorded reading level",
+    "title": "Renal ultrasonography in healthy Saanen goats: topographic, biometric and echotextural assessment."
+  },
+  {
+    "DOI": "10.1007/s00240-025-01899-7",
+    "PMID": "41779198",
+    "decision": "NOT_SELECTED_IN_FOCUSED_TITLE_TRIAGE",
+    "reason": "Title not prioritized for adult same-domain paired capacity or key pressure-volume context; not a full-text eligibility decision",
+    "reviewer": "Single Codex-assisted review; no independent dual screening",
+    "screening_level": "Title triage; extracted sources have separately recorded reading level",
+    "title": "Development and validation of a novel in vitro porcine model for impacted ureteral stones based on objective pressure gradient assessment."
+  },
+  {
+    "DOI": null,
+    "PMID": "41802038",
+    "decision": "EXCLUDED_BOOK_CHAPTER",
+    "reason": "Title not prioritized for adult same-domain paired capacity or key pressure-volume context; not a full-text eligibility decision",
+    "reviewer": "Single Codex-assisted review; no independent dual screening",
+    "screening_level": "Title triage; extracted sources have separately recorded reading level",
+    "title": "Renal Denervation Therapy for Drug-Resistant Hypertension"
+  },
+  {
+    "DOI": "10.1016/j.jpurol.2026.105845",
+    "PMID": "41880674",
+    "decision": "NOT_SELECTED_IN_FOCUSED_TITLE_TRIAGE",
+    "reason": "Title not prioritized for adult same-domain paired capacity or key pressure-volume context; not a full-text eligibility decision",
+    "reviewer": "Single Codex-assisted review; no independent dual screening",
+    "screening_level": "Title triage; extracted sources have separately recorded reading level",
+    "title": "Utility and challenges of flexible and navigable suction ureteral access sheath (FANS) vs. suction mini-PCNL in children: A comparative analysis."
+  },
+  {
+    "DOI": "10.1097/MOU.0000000000001395",
+    "PMID": "41935838",
+    "decision": "NOT_SELECTED_IN_FOCUSED_TITLE_TRIAGE",
+    "reason": "Title not prioritized for adult same-domain paired capacity or key pressure-volume context; not a full-text eligibility decision",
+    "reviewer": "Single Codex-assisted review; no independent dual screening",
+    "screening_level": "Title triage; extracted sources have separately recorded reading level",
+    "title": "Advances in fragment removal devices in ureteroscopy: up-to-date review."
+  },
+  {
+    "DOI": "10.1097/MOU.0000000000001396",
+    "PMID": "41936127",
+    "decision": "NOT_SELECTED_IN_FOCUSED_TITLE_TRIAGE",
+    "reason": "Title not prioritized for adult same-domain paired capacity or key pressure-volume context; not a full-text eligibility decision",
+    "reviewer": "Single Codex-assisted review; no independent dual screening",
+    "screening_level": "Title triage; extracted sources have separately recorded reading level",
+    "title": "Flexible ureteroscopy with integrated suction, a useful innovation: a systematic review by the YAU and EAU endourology sections."
+  },
+  {
+    "DOI": "10.1177/08927790261415937",
+    "PMID": "42051167",
+    "decision": "NOT_SELECTED_IN_FOCUSED_TITLE_TRIAGE",
+    "reason": "Title not prioritized for adult same-domain paired capacity or key pressure-volume context; not a full-text eligibility decision",
+    "reviewer": "Single Codex-assisted review; no independent dual screening",
+    "screening_level": "Title triage; extracted sources have separately recorded reading level",
+    "title": "Renal Hematoma after Ureteroscopy and Retrograde Intrarenal Surgery: Incidence, Risk Factors, and Management Strategies-Application of the REVEAL Framework from EAU Endourology."
+  },
+  {
+    "DOI": "10.4111/icu.20260089",
+    "PMID": "42065657",
+    "decision": "NOT_SELECTED_IN_FOCUSED_TITLE_TRIAGE",
+    "reason": "Title not prioritized for adult same-domain paired capacity or key pressure-volume context; not a full-text eligibility decision",
+    "reviewer": "Single Codex-assisted review; no independent dual screening",
+    "screening_level": "Title triage; extracted sources have separately recorded reading level",
+    "title": "Endoscopic combined intrarenal surgery: From percutaneous nephrolithotomy to the future of stone management."
+  },
+  {
+    "DOI": "10.1002/bco2.70213",
+    "PMID": "42095197",
+    "decision": "NOT_SELECTED_IN_FOCUSED_TITLE_TRIAGE",
+    "reason": "Title not prioritized for adult same-domain paired capacity or key pressure-volume context; not a full-text eligibility decision",
+    "reviewer": "Single Codex-assisted review; no independent dual screening",
+    "screening_level": "Title triage; extracted sources have separately recorded reading level",
+    "title": "Assessment of anatomical outcomes in the upper urinary tract following flexible ureteroscopy with flexible and navigable suction ureteral access sheath: 1-year results from a multicentre study."
+  },
+  {
+    "DOI": "10.1097/MOU.0000000000001411",
+    "PMID": "42138616",
+    "decision": "NOT_SELECTED_IN_FOCUSED_TITLE_TRIAGE",
+    "reason": "Title not prioritized for adult same-domain paired capacity or key pressure-volume context; not a full-text eligibility decision",
+    "reviewer": "Single Codex-assisted review; no independent dual screening",
+    "screening_level": "Title triage; extracted sources have separately recorded reading level",
+    "title": "Paradigm shifts in fluid management using suction irrigation pressure autoregulating systems in modern flexible ureteroscopy with flexible and navigable suction access sheath: an evidence-based narrative from EAU Endourology."
+  },
+  {
+    "DOI": "10.62347/YZCG3056",
+    "PMID": "42180432",
+    "decision": "FOCUSED_EXTRACTION_OR_EXCLUSION_COMPARATOR",
+    "reason": "Prioritized for domain/state/volume/mechanism review; applicability in matrix",
+    "reviewer": "Single Codex-assisted review; no independent dual screening",
+    "screening_level": "Title triage; extracted sources have separately recorded reading level",
+    "title": "Characterization of renal pelvis compliance and outflow resistance during ureteroscopy of the ex-vivo human kidney."
+  },
+  {
+    "DOI": "10.34133/research.1257",
+    "PMID": "42182957",
+    "decision": "NOT_SELECTED_IN_FOCUSED_TITLE_TRIAGE",
+    "reason": "Title not prioritized for adult same-domain paired capacity or key pressure-volume context; not a full-text eligibility decision",
+    "reviewer": "Single Codex-assisted review; no independent dual screening",
+    "screening_level": "Title triage; extracted sources have separately recorded reading level",
+    "title": "An Ex Vivo Patient-Derived Tumor-Bearing Human Kidney Model Recapitulates Drug Toxicity and Metabolic Distribution."
+  },
+  {
+    "DOI": "10.3389/fsurg.2026.1840426",
+    "PMID": "42222233",
+    "decision": "NOT_SELECTED_IN_FOCUSED_TITLE_TRIAGE",
+    "reason": "Title not prioritized for adult same-domain paired capacity or key pressure-volume context; not a full-text eligibility decision",
+    "reviewer": "Single Codex-assisted review; no independent dual screening",
+    "screening_level": "Title triage; extracted sources have separately recorded reading level",
+    "title": "Research progress on treating urinary system stones using ureteroscopy combined With a negative-pressure suction sheath."
+  },
+  {
+    "DOI": "10.1097/MOU.0000000000001417",
+    "PMID": "42290135",
+    "decision": "NOT_SELECTED_IN_FOCUSED_TITLE_TRIAGE",
+    "reason": "Title not prioritized for adult same-domain paired capacity or key pressure-volume context; not a full-text eligibility decision",
+    "reviewer": "Single Codex-assisted review; no independent dual screening",
+    "screening_level": "Title triage; extracted sources have separately recorded reading level",
+    "title": "Novel devices for intrarenal pressure monitoring: are they the future?"
+  },
+  {
+    "DOI": "10.32604/cju.2025.070417",
+    "PMID": "42415589",
+    "decision": "NOT_SELECTED_IN_FOCUSED_TITLE_TRIAGE",
+    "reason": "Title not prioritized for adult same-domain paired capacity or key pressure-volume context; not a full-text eligibility decision",
+    "reviewer": "Single Codex-assisted review; no independent dual screening",
+    "screening_level": "Title triage; extracted sources have separately recorded reading level",
+    "title": "Clinical evaluation and related factor analysis of intrarenal pressure using a Chinese-made disposable pressure-measuring flexible ureteroscope."
+  },
+  {
+    "DOI": "10.1007/s00345-026-06607-7",
+    "PMID": "42474796",
+    "decision": "NOT_SELECTED_IN_FOCUSED_TITLE_TRIAGE",
+    "reason": "Title not prioritized for adult same-domain paired capacity or key pressure-volume context; not a full-text eligibility decision",
+    "reviewer": "Single Codex-assisted review; no independent dual screening",
+    "screening_level": "Title triage; extracted sources have separately recorded reading level",
+    "title": "Real-world DISS practice combined with and without access sheath: insights from the global DISS dataset: a EAU endourology study."
+  },
+  {
+    "DOI": "10.19723/j.issn.1671-167X.2026.04.010",
+    "PMID": "42493441",
+    "decision": "NOT_SELECTED_IN_FOCUSED_TITLE_TRIAGE",
+    "reason": "Title not prioritized for adult same-domain paired capacity or key pressure-volume context; not a full-text eligibility decision",
+    "reviewer": "Single Codex-assisted review; no independent dual screening",
+    "screening_level": "Title triage; extracted sources have separately recorded reading level",
+    "title": "[Effect of leg-split-free lateral decubitus position and lithotomy position on renal pelvic pressure and clinical outcomes during flexible ureteroscopic lithotripsy]."
+  },
+  {
+    "DOI": "10.1155/aiu/3521554",
+    "PMID": "42500363",
+    "decision": "NOT_SELECTED_IN_FOCUSED_TITLE_TRIAGE",
+    "reason": "Title not prioritized for adult same-domain paired capacity or key pressure-volume context; not a full-text eligibility decision",
+    "reviewer": "Single Codex-assisted review; no independent dual screening",
+    "screening_level": "Title triage; extracted sources have separately recorded reading level",
+    "title": "Monitoring Intrarenal Pressure vs. Irrigation Fluid Absorption for Infection Prevention in Ureteroscopy."
+  },
+  {
+    "DOI": "10.62347/PQOF9513",
+    "PMID": "42630592",
+    "decision": "NOT_SELECTED_IN_FOCUSED_TITLE_TRIAGE",
+    "reason": "Title not prioritized for adult same-domain paired capacity or key pressure-volume context; not a full-text eligibility decision",
+    "reviewer": "Single Codex-assisted review; no independent dual screening",
+    "screening_level": "Title triage; extracted sources have separately recorded reading level",
+    "title": "Network meta-analysis of clinical efficacy and safety of flexible ureteroscopic holmium laser lithotripsy combined with tip-flexible suction ureteral access sheath for kidney stones."
+  },
+  {
+    "DOI": "10.1007/s00345-026-06712-7",
+    "PMID": "42632827",
+    "decision": "NOT_SELECTED_IN_FOCUSED_TITLE_TRIAGE",
+    "reason": "Title not prioritized for adult same-domain paired capacity or key pressure-volume context; not a full-text eligibility decision",
+    "reviewer": "Single Codex-assisted review; no independent dual screening",
+    "screening_level": "Title triage; extracted sources have separately recorded reading level",
+    "title": "Intrarenal antimicrobial irrigation as an adjunct to systemic prophylaxis in upper tract endourology: a PRISMA-ScR scoping review of a limited and heterogeneous evidence base."
+  },
+  {
+    "DOI": "10.1111/bju.70434",
+    "PMID": "42637569",
+    "decision": "NOT_SELECTED_IN_FOCUSED_TITLE_TRIAGE",
+    "reason": "Title not prioritized for adult same-domain paired capacity or key pressure-volume context; not a full-text eligibility decision",
+    "reviewer": "Single Codex-assisted review; no independent dual screening",
+    "screening_level": "Title triage; extracted sources have separately recorded reading level",
+    "title": "The physiology of the upper urinary tract in endourological times - a narrative review."
+  },
+  {
+    "DOI": "10.1007/s00345-026-06751-0",
+    "PMID": "42700239",
+    "decision": "NOT_SELECTED_IN_FOCUSED_TITLE_TRIAGE",
+    "reason": "Title not prioritized for adult same-domain paired capacity or key pressure-volume context; not a full-text eligibility decision",
+    "reviewer": "Single Codex-assisted review; no independent dual screening",
+    "screening_level": "Title triage; extracted sources have separately recorded reading level",
+    "title": "Endoluminal anatomy in retrograde ureteroscopy: surgical landmarks and clinical implications."
+  },
+  {
+    "DOI": "10.1007/s00345-026-06778-3",
+    "PMID": "42754720",
+    "decision": "NOT_SELECTED_IN_FOCUSED_TITLE_TRIAGE",
+    "reason": "Title not prioritized for adult same-domain paired capacity or key pressure-volume context; not a full-text eligibility decision",
+    "reviewer": "Single Codex-assisted review; no independent dual screening",
+    "screening_level": "Title triage; extracted sources have separately recorded reading level",
+    "title": "In vitro performance of the Vortex Intelligent Stone Optimized Removal (VISOR) system versus the flexible and navigable suction ureteral access sheath (FANS) on stone clearance efficiency and intrarenal pressure control."
+  },
+  {
+    "DOI": "10.1007/s00240-026-02067-1",
+    "PMID": "42803944",
+    "decision": "NOT_SELECTED_IN_FOCUSED_TITLE_TRIAGE",
+    "reason": "Title not prioritized for adult same-domain paired capacity or key pressure-volume context; not a full-text eligibility decision",
+    "reviewer": "Single Codex-assisted review; no independent dual screening",
+    "screening_level": "Title triage; extracted sources have separately recorded reading level",
+    "title": "Changes in renal function in patients with chronic kidney disease after ureteroscopy: a systematic review and meta-analysis from EAU endourology."
+  },
+  {
+    "DOI": "10.1016/j.jpurol.2026.106282",
+    "PMID": "42816304",
+    "decision": "NOT_SELECTED_IN_FOCUSED_TITLE_TRIAGE",
+    "reason": "Title not prioritized for adult same-domain paired capacity or key pressure-volume context; not a full-text eligibility decision",
+    "reviewer": "Single Codex-assisted review; no independent dual screening",
+    "screening_level": "Title triage; extracted sources have separately recorded reading level",
+    "title": "Reduced-order, computational fluid dynamics-informed pressure-flow simulation of endoscopic injection therapy in pediatric vesicoureteral reflux: An in-silico evaluation of technique-dependent outcomes."
+  },
+  {
+    "DOI": "10.1007/s11255-026-05427-3",
+    "PMID": "42848300",
+    "decision": "NOT_SELECTED_IN_FOCUSED_TITLE_TRIAGE",
+    "reason": "Title not prioritized for adult same-domain paired capacity or key pressure-volume context; not a full-text eligibility decision",
+    "reviewer": "Single Codex-assisted review; no independent dual screening",
+    "screening_level": "Title triage; extracted sources have separately recorded reading level",
+    "title": "Efficacy and safety of flexible ureteroscopy with intelligent pressure-controlled ureteral access sheath: a systematic review and meta-analysis."
+  }
+]

@@ -1,0 +1,19 @@
+{
+  "access_counts": {
+    "ABSTRACT_ONLY": 19,
+    "CITATION_METADATA_ONLY": 1,
+    "FULL_TEXT_READ": 5,
+    "FULL_TEXT_RELEVANT_SECTIONS_READ": 2,
+    "RELEVANT_GUIDELINE_SECTIONS_READ": 1
+  },
+  "grade_counts": {
+    "E2": 5,
+    "E3": 14,
+    "E4": 9
+  },
+  "matrix_rows": 28,
+  "non_pubmed_added": 3,
+  "not_full_systematic_review": "Focused reproducible evidence review; no exhaustive eligibility assessment or meta-analysis claimed",
+  "pubmed_focused_extraction": 25,
+  "pubmed_unique_retrieved": 236
+}

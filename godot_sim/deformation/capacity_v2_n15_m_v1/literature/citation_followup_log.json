@@ -1,0 +1,13 @@
+{
+  "PMIDs": [
+    "41639936",
+    "24477602"
+  ],
+  "database": "PubMed",
+  "date": "2026-10-15",
+  "discovery": "Nakagawa2025 reference34 (Will2014); targeted renal pelvis MRI search found Ghoul2026 explicitly excluding pelvis",
+  "efetch_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&id=41639936%2C24477602&retmode=xml",
+  "query": "24477602[PMID] OR 10.1002/mrm.70288[DOI]",
+  "scope": "New citation trail, not part of original four-query deduplication totals",
+  "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&term=24477602%5BPMID%5D+OR+10.1002%2Fmrm.70288%5BDOI%5D&retmode=json&retmax=100"
+}

@@ -1,0 +1,560 @@
+{
+  "date": "2026-10-15",
+  "full_text_sha_logs": [
+    "literature/fulltext_access_log.json",
+    "literature/supplement_access.json"
+  ],
+  "literature_file_hashes": [
+    {
+      "bytes": 231,
+      "file": "literature/citation_esearch.json",
+      "kind": "RAW_PUBLIC_RESPONSE",
+      "sha256": "5d79baabf0cd66c7b1c7f549022f3dcf8ace165f7a5bdc079de97bc953c4c11e"
+    },
+    {
+      "bytes": 670,
+      "file": "literature/citation_followup_log.json",
+      "kind": "REVIEW_LOG_OR_DERIVED",
+      "sha256": "5b4760c82b761810662b5c9f8727e6e61f7666974e5f5cf579ff79fd9ff4eb56"
+    },
+    {
+      "bytes": 13792,
+      "file": "literature/crossref_10.1016_j.crad.2022.05.023.json",
+      "kind": "RAW_PUBLIC_RESPONSE",
+      "sha256": "0d1f2b767f8ef93f6b8146e2172353ae0fcb4eacc40391eabf001124b58ed336"
+    },
+    {
+      "bytes": 12755,
+      "file": "literature/crossref_10.1093_imamat_hxaa020.json",
+      "kind": "RAW_PUBLIC_RESPONSE",
+      "sha256": "4aa6bed0c9a52b4de5d208992e1aff63280ab40018472f1c5a5c9e3a827b959b"
+    },
+    {
+      "bytes": 1599,
+      "file": "literature/crossref_10.62347_YZCG3056.json",
+      "kind": "RAW_PUBLIC_RESPONSE",
+      "sha256": "beef0c470f1aa1881630ea4d61572256307539f71ffff2671ed98eb6006a36c0"
+    },
+    {
+      "bytes": 3906,
+      "file": "literature/deduplication.json",
+      "kind": "REVIEW_LOG_OR_DERIVED",
+      "sha256": "1fba6609e7bdac415b353fc387897b9255fd71258766d10626f7e307982de24f"
+    },
+    {
+      "bytes": 2682,
+      "file": "literature/fulltext_access_log.json",
+      "kind": "REVIEW_LOG_OR_DERIVED",
+      "sha256": "67e900eba5175583a3c9bc69220f64ab23fde17143a7bb11b16f5439561c6075"
+    },
+    {
+      "bytes": 1183,
+      "file": "literature/PM1_HEALTHY_VOLUME_esearch.json",
+      "kind": "RAW_PUBLIC_RESPONSE",
+      "sha256": "2d89e6f94774518e80971efa170a5d1edb89ec3eb92f71d166ae48dd8e26282d"
+    },
+    {
+      "bytes": 941,
+      "file": "literature/PM2_STATE_IMAGING_esearch.json",
+      "kind": "RAW_PUBLIC_RESPONSE",
+      "sha256": "ce29178305ac70fe2bcaa555019e7c6e283e87888957b78d5c62cc860fa7c659"
+    },
+    {
+      "bytes": 991,
+      "file": "literature/PM3_PRESSURE_VOLUME_esearch.json",
+      "kind": "RAW_PUBLIC_RESPONSE",
+      "sha256": "f63934c1f40434308be58fe57f8bba65ff0824a3753d27638b5a77b1d8343dad"
+    },
+    {
+      "bytes": 1099,
+      "file": "literature/PM4_URS_PRESSURE_esearch.json",
+      "kind": "RAW_PUBLIC_RESPONSE",
+      "sha256": "b72bdcdaafabda6c65c3305a1c7dcbcbe3d7a72eae65a1d8db9622e8f0acb757"
+    },
+    {
+      "bytes": 45799,
+      "file": "literature/pubmed_citation_followup.xml",
+      "kind": "RAW_PUBLIC_RESPONSE",
+      "sha256": "5a4c56e2ac35490ad9c93cc9811cbf1491963897b8f2d3408a9d6aa084f0485e"
+    },
+    {
+      "bytes": 628496,
+      "file": "literature/pubmed_records_0000.xml",
+      "kind": "RAW_PUBLIC_RESPONSE",
+      "sha256": "9706f99320b627b3707cce9a8db27b9facceffb7ddadfa9c970bea576e9d2da1"
+    },
+    {
+      "bytes": 1809636,
+      "file": "literature/pubmed_records_0100.xml",
+      "kind": "RAW_PUBLIC_RESPONSE",
+      "sha256": "bf208ae911052042e8b3049c5d8d0c9e8cda479f344320c88a7cc4228901a94b"
+    },
+    {
+      "bytes": 454117,
+      "file": "literature/pubmed_records_0200.xml",
+      "kind": "RAW_PUBLIC_RESPONSE",
+      "sha256": "49d394cb453e123efc93fddda0ae272580b49f60d8f34bd26c66d1b2da0203ef"
+    },
+    {
+      "bytes": 10203,
+      "file": "literature/pubmed_search_log.json",
+      "kind": "REVIEW_LOG_OR_DERIVED",
+      "sha256": "c1a9a510b91647bd82c858355991f7d8bec4e5361498a6d199c6e64407dc77e7"
+    },
+    {
+      "bytes": 167995,
+      "file": "literature/pubmed_supplement.xml",
+      "kind": "RAW_PUBLIC_RESPONSE",
+      "sha256": "4ef0ded4db55cd44b4c1ab8141e4145f014a8239535e4b0ec854d521a8a2511e"
+    },
+    {
+      "bytes": 530,
+      "file": "literature/review_counts.json",
+      "kind": "REVIEW_LOG_OR_DERIVED",
+      "sha256": "3fba1bbec55f98d43647a1f247bd66596707adcbce9209d31cbbd6fb51e17d93"
+    },
+    {
+      "bytes": 136161,
+      "file": "literature/screening_log.json",
+      "kind": "REVIEW_LOG_OR_DERIVED",
+      "sha256": "d9c64446cb1fb890b66c31e865368acda8694f5acf871055c306c4929d4ea5d2"
+    },
+    {
+      "bytes": 265,
+      "file": "literature/supplement_0_esearch.json",
+      "kind": "RAW_PUBLIC_RESPONSE",
+      "sha256": "616359b013e047635e799e6e686c46a78d320bd97ca9e735f224556ebf41dc41"
+    },
+    {
+      "bytes": 609,
+      "file": "literature/supplement_1_esearch.json",
+      "kind": "RAW_PUBLIC_RESPONSE",
+      "sha256": "32c3e75bff3510980089f90c395ef8a1061732e3243ce7fc7e6bae5236f71777"
+    },
+    {
+      "bytes": 278,
+      "file": "literature/supplement_2_esearch.json",
+      "kind": "RAW_PUBLIC_RESPONSE",
+      "sha256": "e06856ee8786ab7949b53033034299761677025149f707dad7420d65e702612c"
+    },
+    {
+      "bytes": 552,
+      "file": "literature/supplement_3_esearch.json",
+      "kind": "RAW_PUBLIC_RESPONSE",
+      "sha256": "46249a4afe46f4327f70d856dfef8e6ff61e252b8183e1d2131570256ac3fb47"
+    },
+    {
+      "bytes": 720,
+      "file": "literature/supplement_4_esearch.json",
+      "kind": "RAW_PUBLIC_RESPONSE",
+      "sha256": "184fe36c2b91b6bc1618c9b113157ab2b6a894c2767280dddbc2041a96e81433"
+    },
+    {
+      "bytes": 3135,
+      "file": "literature/supplement_access.json",
+      "kind": "REVIEW_LOG_OR_DERIVED",
+      "sha256": "09730bb6d668ebc239d70b1982c1ca18c98d4b9732216868b7975c58ce641e7c"
+    },
+    {
+      "bytes": 3204,
+      "file": "literature/supplement_log.json",
+      "kind": "REVIEW_LOG_OR_DERIVED",
+      "sha256": "be6a319fb7dc550471c031eb776e634b3da151c047b79069f7b547ad90485870"
+    }
+  ],
+  "note": "Cached response hash establishes retrieved version, not clinical validity. Source cache ignored, access does not imply reading or data license.",
+  "records": [
+    {
+      "DOI": "10.62347/YZCG3056",
+      "PMID": "42180432",
+      "access": "FULL_TEXT_READ",
+      "id": "M01",
+      "license": "Metadata/abstract for audit; full-text redistribution permission not assumed",
+      "locator": "pp46–48 Methods; pp49–52 Figures4–6 and Discussion",
+      "metadata_file": "literature/pubmed_records_0200.xml",
+      "metadata_sha256": "49d394cb453e123efc93fddda0ae272580b49f60d8f34bd26c66d1b2da0203ef",
+      "read_scope": "Publisher PDF pp45–54, methods/results/discussion; no raw individual time series acquired",
+      "supplement_status": "NOT_OBTAINED_OR_NOT_ESTABLISHED",
+      "title": "Characterization of renal pelvis compliance and outflow resistance during ureteroscopy of the ex-vivo human kidney.",
+      "url": "https://e-century.us/files/ajceu/14/2/ajceu0170543.pdf"
+    },
+    {
+      "DOI": "10.1186/s12880-025-01900-0",
+      "PMID": "40866865",
+      "access": "FULL_TEXT_READ",
+      "id": "M02",
+      "license": "CC BY-NC-ND 4.0; no adapted paper figures redistributed",
+      "locator": "Original abstract",
+      "metadata_file": "literature/pubmed_supplement.xml",
+      "metadata_sha256": "4ef0ded4db55cd44b4c1ab8141e4145f014a8239535e4b0ec854d521a8a2511e",
+      "read_scope": "PMC complete article, Tables1–5 and data availability",
+      "supplement_status": "Individual data available on reasonable request; not acquired",
+      "title": "Hydration-induced hydronephrosis in healthy adults: a diagnostic pitfall in renal ultrasound imaging.",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12381993/"
+    },
+    {
+      "DOI": "10.1016/j.crad.2022.05.023",
+      "PMID": "35764436",
+      "access": "ABSTRACT_ONLY",
+      "id": "M03",
+      "license": "Metadata/abstract for audit; full-text redistribution permission not assumed",
+      "locator": "Original PubMed abstract Methods; publisher abstract/partial preview",
+      "metadata_file": "literature/pubmed_supplement.xml",
+      "metadata_sha256": "4ef0ded4db55cd44b4c1ab8141e4145f014a8239535e4b0ec854d521a8a2511e",
+      "read_scope": "PubMed original abstract; full methods/tables not obtained",
+      "supplement_status": "NOT_OBTAINED_OR_NOT_ESTABLISHED",
+      "title": "Use of CT-based renal volumetry for the measurement of split renal function: a split glomerular filtration rate prediction model based on unilateral renal volume parameters.",
+      "url": "https://doi.org/10.1016/j.crad.2022.05.023"
+    },
+    {
+      "DOI": "10.1111/bju.16169",
+      "PMID": "37656050",
+      "access": "FULL_TEXT_READ",
+      "id": "M04",
+      "license": "Metadata/abstract for audit; full-text redistribution permission not assumed",
+      "locator": "p533 Methods, p534 Tables1–2; discussion pp536–538",
+      "metadata_file": "literature/pubmed_records_0100.xml",
+      "metadata_sha256": "bf208ae911052042e8b3049c5d8d0c9e8cda479f344320c88a7cc4228901a94b",
+      "read_scope": "Original paper PDF pp531–540; supplementary S4 not obtained",
+      "supplement_status": "NOT_OBTAINED_OR_NOT_ESTABLISHED",
+      "title": "In vivo ureteroscopic intrarenal pressures and clinical outcomes: a multi-institutional analysis of 120 consecutive patients.",
+      "url": "https://doi.org/10.1111/bju.16169"
+    },
+    {
+      "DOI": "10.1371/journal.pone.0208209",
+      "PMID": "30496287",
+      "access": "FULL_TEXT_READ",
+      "id": "M05",
+      "license": "CC BY; original figures not reused",
+      "locator": "Methods Eqs1–7, representative parameter section, Results/Discussion",
+      "metadata_file": "literature/pubmed_supplement.xml",
+      "metadata_sha256": "4ef0ded4db55cd44b4c1ab8141e4145f014a8239535e4b0ec854d521a8a2511e",
+      "read_scope": "PLOS main text, equations and figures; no patient-level reanalysis",
+      "supplement_status": "NOT_OBTAINED_OR_NOT_ESTABLISHED",
+      "title": "A simple fluid dynamic model of renal pelvis pressures during ureteroscopic kidney stone treatment.",
+      "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0208209"
+    },
+    {
+      "DOI": "10.1093/imamat/hxaa020",
+      "PMID": null,
+      "access": "FULL_TEXT_RELEVANT_SECTIONS_READ",
+      "id": "M06",
+      "license": "Metadata/abstract for audit; full-text redistribution permission not assumed",
+      "locator": "Author manuscript pp4–6 Table1/Eqs3.1–3.5, pp8–14, pp16–18 AppendixA",
+      "metadata_file": "literature/crossref_10.1093_imamat_hxaa020.json",
+      "metadata_sha256": "4aa6bed0c9a52b4de5d208992e1aff63280ab40018472f1c5a5c9e3a827b959b",
+      "read_scope": "Author manuscript 21 pages obtained; main methods/results/discussion and Appendix A reviewed; Appendix B optimization not a clinical dataset",
+      "supplement_status": "Raw numerical time series not acquired",
+      "title": "A lumped-parameter model for kidney pressure during stone removal",
+      "url": "https://people.maths.ox.ac.uk/moulton/Papers/FullSystemPaperFinal.pdf"
+    },
+    {
+      "DOI": "10.1111/bju.16497",
+      "PMID": "39107937",
+      "access": "ABSTRACT_ONLY",
+      "id": "M07",
+      "license": "Metadata/abstract for audit; full-text redistribution permission not assumed",
+      "locator": "Abstract Methods/Results",
+      "metadata_file": "literature/pubmed_records_0100.xml",
+      "metadata_sha256": "bf208ae911052042e8b3049c5d8d0c9e8cda479f344320c88a7cc4228901a94b",
+      "read_scope": "PubMed original abstract; full methods/tables not obtained",
+      "supplement_status": "NOT_OBTAINED_OR_NOT_ESTABLISHED",
+      "title": "Human in vivo baseline intrarenal pressure, peristaltic activity and response to ureteric stenting.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/39107937/"
+    },
+    {
+      "DOI": "10.1089/end.2019.0719",
+      "PMID": "31984761",
+      "access": "ABSTRACT_ONLY",
+      "id": "M08",
+      "license": "Metadata/abstract for audit; full-text redistribution permission not assumed",
+      "locator": "Original abstract",
+      "metadata_file": "literature/pubmed_records_0100.xml",
+      "metadata_sha256": "bf208ae911052042e8b3049c5d8d0c9e8cda479f344320c88a7cc4228901a94b",
+      "read_scope": "PubMed original abstract; full methods/tables not obtained",
+      "supplement_status": "NOT_OBTAINED_OR_NOT_ESTABLISHED",
+      "title": "Evaluation of a Diuresis Enhanced Non-Contrast Computed Tomography for Kidney Stones Protocol to Maximize Collecting System Distention.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/31984761/"
+    },
+    {
+      "DOI": "10.1007/s12194-025-00952-9",
+      "PMID": "40824463",
+      "access": "ABSTRACT_ONLY",
+      "id": "M09",
+      "license": "Metadata/abstract for audit; full-text redistribution permission not assumed",
+      "locator": "Original abstract",
+      "metadata_file": "literature/pubmed_records_0100.xml",
+      "metadata_sha256": "bf208ae911052042e8b3049c5d8d0c9e8cda479f344320c88a7cc4228901a94b",
+      "read_scope": "PubMed original abstract; full methods/tables not obtained",
+      "supplement_status": "NOT_OBTAINED_OR_NOT_ESTABLISHED",
+      "title": "Effect of posture on renal volume: evaluation using multi-posture MRI.",
+      "url": "https://link.springer.com/article/10.1007/s12194-025-00952-9"
+    },
+    {
+      "DOI": "10.3389/fphys.2024.1327407",
+      "PMID": "38384795",
+      "access": "FULL_TEXT_RELEVANT_SECTIONS_READ",
+      "id": "M10",
+      "license": "CC BY; no source figures adapted",
+      "locator": "Materials and methods: MR setup/segmentation; Supplementary TableS1 cited but not acquired",
+      "metadata_file": "literature/pubmed_supplement.xml",
+      "metadata_sha256": "4ef0ded4db55cd44b4c1ab8141e4145f014a8239535e4b0ec854d521a8a2511e",
+      "read_scope": "Publisher Methods, segmentation definition, Results and data availability; supplement not acquired",
+      "supplement_status": "NOT_OBTAINED_OR_NOT_ESTABLISHED",
+      "title": "Magnetic resonance elastography resolving all gross anatomical segments of the kidney during controlled hydration.",
+      "url": "https://www.frontiersin.org/journals/physiology/articles/10.3389/fphys.2024.1327407/full"
+    },
+    {
+      "DOI": "10.1002/jcu.1870070306",
+      "PMID": "110840",
+      "access": "ABSTRACT_ONLY",
+      "id": "M11",
+      "license": "Metadata/abstract for audit; full-text redistribution permission not assumed",
+      "locator": "Original abstract",
+      "metadata_file": "literature/pubmed_records_0000.xml",
+      "metadata_sha256": "9706f99320b627b3707cce9a8db27b9facceffb7ddadfa9c970bea576e9d2da1",
+      "read_scope": "PubMed original abstract; full methods/tables not obtained",
+      "supplement_status": "NOT_OBTAINED_OR_NOT_ESTABLISHED",
+      "title": "The influence of hydration and bladder distension on the sonographic diagnosis of hydronephrosis.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/110840/"
+    },
+    {
+      "DOI": "10.1016/s0196-0644(99)70221-0",
+      "PMID": "10424912",
+      "access": "ABSTRACT_ONLY",
+      "id": "M12",
+      "license": "Metadata/abstract for audit; full-text redistribution permission not assumed",
+      "locator": "Original abstract",
+      "metadata_file": "literature/pubmed_supplement.xml",
+      "metadata_sha256": "4ef0ded4db55cd44b4c1ab8141e4145f014a8239535e4b0ec854d521a8a2511e",
+      "read_scope": "PubMed original abstract; full methods/tables not obtained",
+      "supplement_status": "NOT_OBTAINED_OR_NOT_ESTABLISHED",
+      "title": "Rapid oral hydration results in hydronephrosis as demonstrated by bedside ultrasound.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/10424912/"
+    },
+    {
+      "DOI": "10.1016/j.urology.2005.12.025",
+      "PMID": "16750255",
+      "access": "ABSTRACT_ONLY",
+      "id": "M13",
+      "license": "Metadata/abstract for audit; full-text redistribution permission not assumed",
+      "locator": "Original abstract",
+      "metadata_file": "literature/pubmed_supplement.xml",
+      "metadata_sha256": "4ef0ded4db55cd44b4c1ab8141e4145f014a8239535e4b0ec854d521a8a2511e",
+      "read_scope": "PubMed original abstract; full methods/tables not obtained",
+      "supplement_status": "NOT_OBTAINED_OR_NOT_ESTABLISHED",
+      "title": "Is pelvicaliceal anatomy a risk factor for stone formation in patients with solitary upper caliceal stone?",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/16750255/"
+    },
+    {
+      "DOI": "10.1590/s1677-55382006000300005",
+      "PMID": "16813671",
+      "access": "ABSTRACT_ONLY",
+      "id": "M14",
+      "license": "Metadata/abstract for audit; full-text redistribution permission not assumed",
+      "locator": "Original abstract",
+      "metadata_file": "literature/pubmed_supplement.xml",
+      "metadata_sha256": "4ef0ded4db55cd44b4c1ab8141e4145f014a8239535e4b0ec854d521a8a2511e",
+      "read_scope": "PubMed original abstract; full methods/tables not obtained",
+      "supplement_status": "NOT_OBTAINED_OR_NOT_ESTABLISHED",
+      "title": "The impact of pelvicaliceal anatomical variation between the stone-bearing and normal contralateral kidney on stone formation in adult patients with lower caliceal stones.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/16813671/"
+    },
+    {
+      "DOI": "10.1016/S0022-5347(05)00010-8",
+      "PMID": "16406924",
+      "access": "ABSTRACT_ONLY",
+      "id": "M15",
+      "license": "Metadata/abstract for audit; full-text redistribution permission not assumed",
+      "locator": "Original abstract",
+      "metadata_file": "literature/pubmed_supplement.xml",
+      "metadata_sha256": "4ef0ded4db55cd44b4c1ab8141e4145f014a8239535e4b0ec854d521a8a2511e",
+      "read_scope": "PubMed original abstract; full methods/tables not obtained",
+      "supplement_status": "NOT_OBTAINED_OR_NOT_ESTABLISHED",
+      "title": "Pelvicaliceal anatomical variation between stone bearing and normal contralateral kidneys--does it have an impact on stone formation in pediatric patients with a solitary lower caliceal stone?",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/16406924/"
+    },
+    {
+      "DOI": "10.1016/0090-4295(85)90323-1",
+      "PMID": "3976115",
+      "access": "ABSTRACT_ONLY",
+      "id": "M16",
+      "license": "Metadata/abstract for audit; full-text redistribution permission not assumed",
+      "locator": "Original abstract",
+      "metadata_file": "literature/pubmed_records_0000.xml",
+      "metadata_sha256": "9706f99320b627b3707cce9a8db27b9facceffb7ddadfa9c970bea576e9d2da1",
+      "read_scope": "PubMed original abstract; full methods/tables not obtained",
+      "supplement_status": "NOT_OBTAINED_OR_NOT_ESTABLISHED",
+      "title": "Pressure volume relationships in human hydronephrosis.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/3976115/"
+    },
+    {
+      "DOI": "10.1097/01.ju.0000161217.47446.0b",
+      "PMID": "15947672",
+      "access": "ABSTRACT_ONLY",
+      "id": "M17",
+      "license": "Metadata/abstract for audit; full-text redistribution permission not assumed",
+      "locator": "Original abstract",
+      "metadata_file": "literature/pubmed_records_0000.xml",
+      "metadata_sha256": "9706f99320b627b3707cce9a8db27b9facceffb7ddadfa9c970bea576e9d2da1",
+      "read_scope": "PubMed original abstract; full methods/tables not obtained",
+      "supplement_status": "NOT_OBTAINED_OR_NOT_ESTABLISHED",
+      "title": "Renal pelvis volume during diuresis in children with hydronephrosis: implications for diagnosing obstruction with diuretic renography.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/15947672/"
+    },
+    {
+      "DOI": "10.1016/s0022-5347(17)45769-7",
+      "PMID": "3944923",
+      "access": "ABSTRACT_ONLY",
+      "id": "M18",
+      "license": "Metadata/abstract for audit; full-text redistribution permission not assumed",
+      "locator": "Original abstract",
+      "metadata_file": "literature/pubmed_records_0000.xml",
+      "metadata_sha256": "9706f99320b627b3707cce9a8db27b9facceffb7ddadfa9c970bea576e9d2da1",
+      "read_scope": "PubMed original abstract; full methods/tables not obtained",
+      "supplement_status": "NOT_OBTAINED_OR_NOT_ESTABLISHED",
+      "title": "The pressure-volume relationship of the pig renal pelvis.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/3944923/"
+    },
+    {
+      "DOI": null,
+      "PMID": "7372440",
+      "access": "ABSTRACT_ONLY",
+      "id": "M19",
+      "license": "Metadata/abstract for audit; full-text redistribution permission not assumed",
+      "locator": "Original abstract",
+      "metadata_file": "literature/pubmed_records_0000.xml",
+      "metadata_sha256": "9706f99320b627b3707cce9a8db27b9facceffb7ddadfa9c970bea576e9d2da1",
+      "read_scope": "PubMed original abstract; full methods/tables not obtained",
+      "supplement_status": "NOT_OBTAINED_OR_NOT_ESTABLISHED",
+      "title": "Estimation of renal pelvic volume in free urinary flow and in ureteral stasis. An experimental study in the rabbit.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/7372440/"
+    },
+    {
+      "DOI": "10.1007/s00240-023-01470-2",
+      "PMID": "37515665",
+      "access": "ABSTRACT_ONLY",
+      "id": "M20",
+      "license": "Metadata/abstract for audit; full-text redistribution permission not assumed",
+      "locator": "Original abstract",
+      "metadata_file": "literature/pubmed_records_0100.xml",
+      "metadata_sha256": "bf208ae911052042e8b3049c5d8d0c9e8cda479f344320c88a7cc4228901a94b",
+      "read_scope": "PubMed original abstract; full methods/tables not obtained",
+      "supplement_status": "NOT_OBTAINED_OR_NOT_ESTABLISHED",
+      "title": "Effect of outflow resistance on intrarenal pressure at different irrigation rates during ureteroscopy: in vivo evaluation.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/37515665/"
+    },
+    {
+      "DOI": "10.1016/j.euros.2025.01.005",
+      "PMID": "39944399",
+      "access": "FULL_TEXT_READ",
+      "id": "M21",
+      "license": "CC BY",
+      "locator": "Methods, Table1 and section3.2",
+      "metadata_file": "literature/pubmed_records_0100.xml",
+      "metadata_sha256": "bf208ae911052042e8b3049c5d8d0c9e8cda479f344320c88a7cc4228901a94b",
+      "read_scope": "PMC main text including Methods/Table1/Discussion; supplement not obtained",
+      "supplement_status": "NOT_OBTAINED_OR_NOT_ESTABLISHED",
+      "title": "Intrarenal Pressure Monitoring During Ureteroscopy: A Delphi Panel Consensus.",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11815979/"
+    },
+    {
+      "DOI": "10.1177/17562872251314809",
+      "PMID": "39896048",
+      "access": "ABSTRACT_ONLY",
+      "id": "M22",
+      "license": "Metadata/abstract for audit; full-text redistribution permission not assumed",
+      "locator": "Original abstract",
+      "metadata_file": "literature/pubmed_records_0100.xml",
+      "metadata_sha256": "bf208ae911052042e8b3049c5d8d0c9e8cda479f344320c88a7cc4228901a94b",
+      "read_scope": "PubMed original abstract; full methods/tables not obtained",
+      "supplement_status": "NOT_OBTAINED_OR_NOT_ESTABLISHED",
+      "title": "Current utility, instruments, and future directions for intra-renal pressure management during ureteroscopy: scoping review by global research in intra-renal pressure collaborative group initiative.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/39896048/"
+    },
+    {
+      "DOI": "10.1111/bju.15764",
+      "PMID": "35485243",
+      "access": "ABSTRACT_ONLY",
+      "id": "M23",
+      "license": "Metadata/abstract for audit; full-text redistribution permission not assumed",
+      "locator": "Original abstract",
+      "metadata_file": "literature/pubmed_records_0100.xml",
+      "metadata_sha256": "bf208ae911052042e8b3049c5d8d0c9e8cda479f344320c88a7cc4228901a94b",
+      "read_scope": "PubMed original abstract; full methods/tables not obtained",
+      "supplement_status": "NOT_OBTAINED_OR_NOT_ESTABLISHED",
+      "title": "Upper urinary tract pressures in endourology: a systematic review of range, variables and implications.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/35485243/"
+    },
+    {
+      "DOI": "10.3390/jcm13030769",
+      "PMID": "38337463",
+      "access": "ABSTRACT_ONLY",
+      "id": "M24",
+      "license": "Metadata/abstract for audit; full-text redistribution permission not assumed",
+      "locator": "Original abstract",
+      "metadata_file": "literature/pubmed_supplement.xml",
+      "metadata_sha256": "4ef0ded4db55cd44b4c1ab8141e4145f014a8239535e4b0ec854d521a8a2511e",
+      "read_scope": "PubMed original abstract; full methods/tables not obtained",
+      "supplement_status": "NOT_OBTAINED_OR_NOT_ESTABLISHED",
+      "title": "Age- and Sex-Specific Reference Values for Renal Volume and Association with Risk Factors for Chronic Kidney Disease in a General Population-An MRI-Based Study.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/38337463/"
+    },
+    {
+      "DOI": null,
+      "PMID": null,
+      "access": "RELEVANT_GUIDELINE_SECTIONS_READ",
+      "id": "M25",
+      "license": "Metadata/abstract for audit; full-text redistribution permission not assumed",
+      "locator": "3.4.6 ureteroscopy/IRP and access sheaths",
+      "metadata_file": null,
+      "metadata_sha256": null,
+      "read_scope": "Sections on URS/IRP/access sheaths; not a claim to have read all chapters",
+      "supplement_status": "NOT_OBTAINED_OR_NOT_ESTABLISHED",
+      "title": "EAU Guidelines on Urolithiasis — Guidelines chapter",
+      "url": "https://uroweb.org/guidelines/urolithiasis/chapter/guidelines"
+    },
+    {
+      "DOI": "10.1177/875617939000600204",
+      "PMID": null,
+      "access": "CITATION_METADATA_ONLY",
+      "id": "M26",
+      "license": "Metadata/abstract for audit; full-text redistribution permission not assumed",
+      "locator": "Rousan original article reference2",
+      "metadata_file": null,
+      "metadata_sha256": null,
+      "read_scope": "Rousan reference2 only; Crossref DOI request returned 404 and publisher access failed; original outcomes not verified",
+      "supplement_status": "NOT_OBTAINED_OR_NOT_ESTABLISHED",
+      "title": "Hydronephrosis secondary to bladder distention: myth or reality?",
+      "url": "https://doi.org/10.1177/875617939000600204"
+    },
+    {
+      "DOI": "10.1007/s10334-014-0429-4",
+      "PMID": "24477602",
+      "access": "ABSTRACT_ONLY",
+      "id": "M27",
+      "license": "Metadata/abstract for audit; full-text redistribution permission not assumed",
+      "locator": "Original abstract",
+      "metadata_file": "literature/pubmed_citation_followup.xml",
+      "metadata_sha256": "5a4c56e2ac35490ad9c93cc9811cbf1491963897b8f2d3408a9d6aa084f0485e",
+      "read_scope": "PubMed original abstract; full methods/tables not obtained",
+      "supplement_status": "NOT_OBTAINED_OR_NOT_ESTABLISHED",
+      "title": "Automated segmentation and volumetric analysis of renal cortex, medulla, and pelvis based on non-contrast-enhanced T1- and T2-weighted MR images.",
+      "url": "https://link.springer.com/article/10.1007/s10334-014-0429-4"
+    },
+    {
+      "DOI": "10.1002/mrm.70288",
+      "PMID": "41639936",
+      "access": "ABSTRACT_ONLY",
+      "id": "M28",
+      "license": "Metadata/abstract for audit; full-text redistribution permission not assumed",
+      "locator": "Original abstract; primary section2 Methods exclusion of renal pelvis",
+      "metadata_file": "literature/pubmed_citation_followup.xml",
+      "metadata_sha256": "5a4c56e2ac35490ad9c93cc9811cbf1491963897b8f2d3408a9d6aa084f0485e",
+      "read_scope": "PubMed original abstract plus indexed primary Methods fragment, not full article read",
+      "supplement_status": "NOT_OBTAINED_OR_NOT_ESTABLISHED",
+      "title": "Automated Coregistered Segmentation for Volumetric Analysis of Multiparametric Renal MRI.",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13049282/"
+    }
+  ]
+}

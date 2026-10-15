@@ -1,0 +1,27 @@
+{
+  "after": {
+    "evidence_matrix.json": "ecf6876d053fbdcfa97d0516fe6356545dd9372ebbb4476502ec109a6cced3e7",
+    "evidence_matrix.md": "63324e1c705cec3377ecd72d2254ef8d2c0c62de9b9f955e9e2ec59f01a61a82",
+    "literature/review_counts.json": "3fba1bbec55f98d43647a1f247bd66596707adcbce9209d31cbbd6fb51e17d93",
+    "literature/screening_log.json": "d9c64446cb1fb890b66c31e865368acda8694f5acf871055c306c4929d4ea5d2",
+    "real_parameter_status.json": "8bd479964a4ae32900aa77d5be2baca0d3afc2a1969f35fe3856e7cfe2111ca6",
+    "stage_authorization.json": "aa790469f1a8af4d900a03ea799fd65de13b510de109ce0aff1794d6734d8ae5",
+    "synthetic/fixture.json": "cbbf6f850680a5ef325ef6b136a834daea5347bd7c8ac614e3498001cf1142d0",
+    "synthetic/method_validation.png": "e0fcd0a507b97dd2aa169c3d665560413d7a076172d50802205789611cd74ce3",
+    "synthetic/result.json": "e653e9a27dac3794c9d2970c87f3092eb95ce42eb312e1febb1b5b2ddbf3fe50"
+  },
+  "before": {
+    "evidence_matrix.json": "ecf6876d053fbdcfa97d0516fe6356545dd9372ebbb4476502ec109a6cced3e7",
+    "evidence_matrix.md": "63324e1c705cec3377ecd72d2254ef8d2c0c62de9b9f955e9e2ec59f01a61a82",
+    "literature/review_counts.json": "3fba1bbec55f98d43647a1f247bd66596707adcbce9209d31cbbd6fb51e17d93",
+    "literature/screening_log.json": "d9c64446cb1fb890b66c31e865368acda8694f5acf871055c306c4929d4ea5d2",
+    "real_parameter_status.json": "8bd479964a4ae32900aa77d5be2baca0d3afc2a1969f35fe3856e7cfe2111ca6",
+    "stage_authorization.json": "aa790469f1a8af4d900a03ea799fd65de13b510de109ce0aff1794d6734d8ae5",
+    "synthetic/fixture.json": "cbbf6f850680a5ef325ef6b136a834daea5347bd7c8ac614e3498001cf1142d0",
+    "synthetic/method_validation.png": "e0fcd0a507b97dd2aa169c3d665560413d7a076172d50802205789611cd74ce3",
+    "synthetic/result.json": "e653e9a27dac3794c9d2970c87f3092eb95ce42eb312e1febb1b5b2ddbf3fe50"
+  },
+  "byte_identical": true,
+  "changed": [],
+  "outputs": 9
+}

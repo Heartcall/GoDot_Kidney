@@ -1,0 +1,198 @@
+{
+  "current_real_patient_estimates": {
+    "V_max_mL": null,
+    "V_min_mL": null,
+    "patient_interval": null
+  },
+  "fixture_count": 1,
+  "imaging_fit": {
+    "coefficients": [
+      100.00000000000004,
+      12.0,
+      3.000000000000016
+    ],
+    "label": "SYNTHETIC_TEST_ONLY",
+    "model": "Quadratic illustrative observation model; not physiological law",
+    "rank": {
+      "identifiable": true,
+      "nullity": 0,
+      "parameters": 3,
+      "rank": 3,
+      "singular_values": [
+        14.658692527831203,
+        9.128709291752768,
+        4.756336129260169
+      ]
+    },
+    "reference_bracketed": true,
+    "residual_mL": [
+      -0.300000000000054,
+      -5.684341886080802e-14,
+      0.2999999999999403,
+      -0.3000000000000398,
+      -4.263256414560601e-14,
+      0.2999999999999545,
+      -0.3000000000000398,
+      -4.263256414560601e-14,
+      0.2999999999999545,
+      -0.3000000000000398,
+      -4.263256414560601e-14,
+      0.2999999999999545,
+      -0.300000000000054,
+      -5.684341886080802e-14,
+      0.2999999999999403
+    ],
+    "test_endpoint_values_mL": [
+      91.00000000000006,
+      100.00000000000004,
+      115.00000000000006
+    ]
+  },
+  "label": "SYNTHETIC_TEST_ONLY",
+  "mass_balance": {
+    "absolute_volume_mL": [
+      100.0,
+      100.24,
+      100.8,
+      102.0,
+      103.2
+    ],
+    "delta_volume_mL": [
+      0.0,
+      0.24000000000000005,
+      0.8,
+      2.0,
+      3.2
+    ],
+    "identified": true,
+    "label": "SYNTHETIC_TEST_ONLY",
+    "reason": null
+  },
+  "missing_initial_volume": {
+    "absolute_volume_mL": null,
+    "delta_volume_mL": [
+      0.0,
+      0.24000000000000005,
+      0.8,
+      2.0,
+      3.2
+    ],
+    "identified": false,
+    "label": "SYNTHETIC_TEST_ONLY",
+    "reason": "Absolute initial fluid volume missing"
+  },
+  "missing_leak": {
+    "absolute_volume_mL": null,
+    "delta_volume_mL": null,
+    "identified": false,
+    "label": "SYNTHETIC_TEST_ONLY",
+    "reason": "Unmeasured flow component cannot be assumed zero"
+  },
+  "not_patient_data": true,
+  "pressure_history": {
+    "extrapolation_allowed": false,
+    "loading_volume_mL": [
+      100.0,
+      101.3862943611199,
+      102.19722457733621,
+      102.77258872223977,
+      103.2188758248682
+    ],
+    "not_physiological_coefficients": true,
+    "pressure_arbitrary_test_units": [
+      0.0,
+      1.0,
+      2.0,
+      3.0,
+      4.0
+    ],
+    "unloading_volume_mL": [
+      100.0,
+      101.81055842983183,
+      102.79722457733621,
+      103.19685279095171,
+      103.2188758248682
+    ]
+  },
+  "rank_cases": {
+    "single_known_reference_quadratic": {
+      "identifiable": false,
+      "nullity": 2,
+      "parameters": 3,
+      "rank": 1,
+      "singular_values": [
+        1.0
+      ]
+    },
+    "three_known_states_quadratic": {
+      "identifiable": true,
+      "nullity": 0,
+      "parameters": 3,
+      "rank": 3,
+      "singular_values": [
+        2.135779205069857,
+        1.414213562373095,
+        0.6621534468619563
+      ]
+    },
+    "two_known_states_quadratic": {
+      "identifiable": false,
+      "nullity": 1,
+      "parameters": 3,
+      "rank": 2,
+      "singular_values": [
+        2.0,
+        1.414213562373095
+      ]
+    },
+    "unknown_initial_volume_and_offset": {
+      "identifiable": false,
+      "nullity": 1,
+      "parameters": 2,
+      "rank": 1,
+      "singular_values": [
+        2.4494897427831783,
+        0.0
+      ]
+    },
+    "unknown_shared_domain_bias": {
+      "identifiable": false,
+      "nullity": 1,
+      "parameters": 4,
+      "rank": 3,
+      "singular_values": [
+        2.732050807568877,
+        1.4142135623730951,
+        0.7320508075688771
+      ]
+    }
+  },
+  "seed": 1515,
+  "uncertainty": {
+    "absolute_sd_mL": [
+      2.008047153325095,
+      2.0074199904069223,
+      2.0076187080265115
+    ],
+    "draws": 10000,
+    "method": "Synthetic shared mapping bias + independent error Monte Carlo",
+    "not_a_patient_interval": true,
+    "paired_change_sd_mL": 0.4279639360822856,
+    "test_absolute_intervals_95_mL": [
+      [
+        87.02655168052547,
+        96.05024871579435,
+        111.07530657945186
+      ],
+      [
+        94.87457804032324,
+        103.9039064091462,
+        118.88868742074447
+      ]
+    ],
+    "test_paired_change_interval_95_mL": [
+      23.157651399337855,
+      24.820011110808437
+    ]
+  }
+}

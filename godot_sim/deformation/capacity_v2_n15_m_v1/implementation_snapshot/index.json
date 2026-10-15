@@ -1,0 +1,37 @@
+{
+  "files": {
+    "docs/kidney_irrigation_capacity_v2_n15_m_calibration_design.md": {
+      "sha256": "85381429b76918aff84c074a869330c51daa244e362f616087443d2ceb7a5331",
+      "snapshot": "implementation_snapshot/docs/kidney_irrigation_capacity_v2_n15_m_calibration_design.md"
+    },
+    "docs/kidney_irrigation_capacity_v2_n15_m_data_requirements.md": {
+      "sha256": "cf99db4aa1a232fe2930abd4546ca8f7e9eed612bac5616d8d4c6c1f1189126a",
+      "snapshot": "implementation_snapshot/docs/kidney_irrigation_capacity_v2_n15_m_data_requirements.md"
+    },
+    "docs/kidney_irrigation_capacity_v2_n15_m_result.md": {
+      "sha256": "51659cc35cb7d4f78e0bd5c8328e14fe66c19015ccc2dc72e0b4b6c7881c8a4f",
+      "snapshot": "implementation_snapshot/docs/kidney_irrigation_capacity_v2_n15_m_result.md"
+    },
+    "godot_sim/tools/capacity_v2/build_n15m_evidence.py": {
+      "sha256": "7fda6204c3c904bf6a4c9cb51bd4594aa07e0b3270054f963f9854018330f933",
+      "snapshot": "implementation_snapshot/godot_sim/tools/capacity_v2/build_n15m_evidence.py"
+    },
+    "godot_sim/tools/capacity_v2/finalize_n15m.py": {
+      "sha256": "eb270094fa92d5ec59078e5f3d7ed906caf13753622a8ae5b5980f8d2fb3509c",
+      "snapshot": "implementation_snapshot/godot_sim/tools/capacity_v2/finalize_n15m.py"
+    },
+    "godot_sim/tools/capacity_v2/n15m_calibration.py": {
+      "sha256": "8ada8c571f942e3cf5481a89b6973b28ff26f3df493ddfb12b2592a92b642cee",
+      "snapshot": "implementation_snapshot/godot_sim/tools/capacity_v2/n15m_calibration.py"
+    },
+    "godot_sim/tools/capacity_v2/n15m_sources.py": {
+      "sha256": "37ffcec2f99eeea892f3c3f6db752186536d78948ad828117e0c3c02071c69aa",
+      "snapshot": "implementation_snapshot/godot_sim/tools/capacity_v2/n15m_sources.py"
+    },
+    "godot_sim/tools/capacity_v2/test_n15m.py": {
+      "sha256": "dbaad3ed3ad33dd83cb4b5cf89caf923240a62bfa6c69f025634626c4c3da619",
+      "snapshot": "implementation_snapshot/godot_sim/tools/capacity_v2/test_n15m.py"
+    }
+  },
+  "role": "Byte-identical audit snapshots of NEW N1.5-M code/tests/design only; execute canonical repository commands, not relocated copies."
+}

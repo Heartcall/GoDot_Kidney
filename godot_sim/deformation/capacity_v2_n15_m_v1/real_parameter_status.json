@@ -1,0 +1,19 @@
+{
+  "D2_approval_path": "godot_sim/deformation/capacity_v2_n1_v1/D2_approval_2026_10_14_v1.json",
+  "D2_approval_sha256": "b94e4cd3f9f8d0aade3926e51402bb2549b73e4a51d6f4e64ebcc0a21dfee68d",
+  "V_max_mL": null,
+  "V_min_mL": null,
+  "V_reference_D2_mL": 16.805962087430178,
+  "compliance": null,
+  "domain_id": "C11_R1_IN02_fixed_collar",
+  "endpoint_condition_A": null,
+  "endpoint_condition_B": null,
+  "model_version": "n15m-v1",
+  "patient_interval": null,
+  "pressure": null,
+  "real_flow_mL_s": null,
+  "schema": "N15M_REAL_UNCALIBRATED_V1",
+  "source": "Approved geometric reference only; no physiological fitting to project mesh",
+  "status": "NOT_IDENTIFIABLE_WITH_AVAILABLE_EVIDENCE",
+  "warning": "No synthetic result is eligible for import into real configuration; no runtime import implemented."
+}

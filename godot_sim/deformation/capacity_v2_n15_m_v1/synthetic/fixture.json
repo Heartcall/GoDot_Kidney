@@ -1,0 +1,112 @@
+{
+  "label": "SYNTHETIC_TEST_ONLY",
+  "not_patient_data": true,
+  "observations": [
+    {
+      "domain_bias_mL": 2.0,
+      "independent_sd_mL": 0.3,
+      "observed_volume": 92.7,
+      "state": -1.0,
+      "unit": "mL"
+    },
+    {
+      "domain_bias_mL": 2.0,
+      "independent_sd_mL": 0.3,
+      "observed_volume": 93.0,
+      "state": -1.0,
+      "unit": "mL"
+    },
+    {
+      "domain_bias_mL": 2.0,
+      "independent_sd_mL": 0.3,
+      "observed_volume": 93.3,
+      "state": -1.0,
+      "unit": "mL"
+    },
+    {
+      "domain_bias_mL": 2.0,
+      "independent_sd_mL": 0.3,
+      "observed_volume": 96.45,
+      "state": -0.5,
+      "unit": "mL"
+    },
+    {
+      "domain_bias_mL": 2.0,
+      "independent_sd_mL": 0.3,
+      "observed_volume": 96.75,
+      "state": -0.5,
+      "unit": "mL"
+    },
+    {
+      "domain_bias_mL": 2.0,
+      "independent_sd_mL": 0.3,
+      "observed_volume": 97.05,
+      "state": -0.5,
+      "unit": "mL"
+    },
+    {
+      "domain_bias_mL": 2.0,
+      "independent_sd_mL": 0.3,
+      "observed_volume": 101.7,
+      "state": 0.0,
+      "unit": "mL"
+    },
+    {
+      "domain_bias_mL": 2.0,
+      "independent_sd_mL": 0.3,
+      "observed_volume": 102.0,
+      "state": 0.0,
+      "unit": "mL"
+    },
+    {
+      "domain_bias_mL": 2.0,
+      "independent_sd_mL": 0.3,
+      "observed_volume": 102.3,
+      "state": 0.0,
+      "unit": "mL"
+    },
+    {
+      "domain_bias_mL": 2.0,
+      "independent_sd_mL": 0.3,
+      "observed_volume": 108.45,
+      "state": 0.5,
+      "unit": "mL"
+    },
+    {
+      "domain_bias_mL": 2.0,
+      "independent_sd_mL": 0.3,
+      "observed_volume": 108.75,
+      "state": 0.5,
+      "unit": "mL"
+    },
+    {
+      "domain_bias_mL": 2.0,
+      "independent_sd_mL": 0.3,
+      "observed_volume": 109.05,
+      "state": 0.5,
+      "unit": "mL"
+    },
+    {
+      "domain_bias_mL": 2.0,
+      "independent_sd_mL": 0.3,
+      "observed_volume": 116.7,
+      "state": 1.0,
+      "unit": "mL"
+    },
+    {
+      "domain_bias_mL": 2.0,
+      "independent_sd_mL": 0.3,
+      "observed_volume": 117.0,
+      "state": 1.0,
+      "unit": "mL"
+    },
+    {
+      "domain_bias_mL": 2.0,
+      "independent_sd_mL": 0.3,
+      "observed_volume": 117.3,
+      "state": 1.0,
+      "unit": "mL"
+    }
+  ],
+  "seed": 1515
+}
