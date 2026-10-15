@@ -1,0 +1,724 @@
+{
+  "capacity_accounting_uses_separate_disjoint_supports": true,
+  "cavity_regions": {
+    "BLADDER": {
+      "area_failure_source_faces": [],
+      "maximum_area_ratio": 1.000281309434389,
+      "maximum_edge_gradient": 0.0017486725207671277,
+      "maximum_mm": 0.0,
+      "median_mm": 0.0,
+      "minimum_area_ratio": 0.9988110508616563,
+      "moved_vertices": 0,
+      "vertices": 2783
+    },
+    "BLADDER_TRANSITION": {
+      "area_failure_source_faces": [],
+      "maximum_area_ratio": 1.0078685129694454,
+      "maximum_edge_gradient": 0.05441227334508008,
+      "maximum_mm": 0.18824674458935084,
+      "median_mm": 0.07221152304850785,
+      "minimum_area_ratio": 0.9301117581429025,
+      "moved_vertices": 475,
+      "vertices": 485
+    },
+    "B_01": {
+      "area_failure_source_faces": [],
+      "maximum_area_ratio": 1.0299295129094515,
+      "maximum_edge_gradient": 0.061616228598362896,
+      "maximum_mm": 0.16664222975671603,
+      "median_mm": 0.06752321269292486,
+      "minimum_area_ratio": 0.9535280659626951,
+      "moved_vertices": 626,
+      "vertices": 626
+    },
+    "B_02": {
+      "area_failure_source_faces": [],
+      "maximum_area_ratio": 1.0033513631363882,
+      "maximum_edge_gradient": 0.047515354397550495,
+      "maximum_mm": 0.14801648488448818,
+      "median_mm": 0.0864588203518569,
+      "minimum_area_ratio": 0.9348780009765427,
+      "moved_vertices": 718,
+      "vertices": 718
+    },
+    "B_03": {
+      "area_failure_source_faces": [],
+      "maximum_area_ratio": 1.0147100046090445,
+      "maximum_edge_gradient": 0.03475180402509393,
+      "maximum_mm": 0.11995848381245987,
+      "median_mm": 0.0665593706528599,
+      "minimum_area_ratio": 0.9375686649770778,
+      "moved_vertices": 675,
+      "vertices": 675
+    },
+    "B_04": {
+      "area_failure_source_faces": [],
+      "maximum_area_ratio": 1.0052217454510812,
+      "maximum_edge_gradient": 0.029325795584542222,
+      "maximum_mm": 0.09073848712121264,
+      "median_mm": 0.04792947993086766,
+      "minimum_area_ratio": 0.9484839783160472,
+      "moved_vertices": 688,
+      "vertices": 688
+    },
+    "B_05": {
+      "area_failure_source_faces": [],
+      "maximum_area_ratio": 1.0116804390556398,
+      "maximum_edge_gradient": 0.03342148374940641,
+      "maximum_mm": 0.07294675344864425,
+      "median_mm": 0.048443611686856465,
+      "minimum_area_ratio": 0.9641337220881309,
+      "moved_vertices": 618,
+      "vertices": 618
+    },
+    "B_06": {
+      "area_failure_source_faces": [],
+      "maximum_area_ratio": 1.0127988047217749,
+      "maximum_edge_gradient": 0.04057367216015838,
+      "maximum_mm": 0.08779770197334606,
+      "median_mm": 0.07217586558114343,
+      "minimum_area_ratio": 0.958244803572231,
+      "moved_vertices": 395,
+      "vertices": 395
+    },
+    "B_07": {
+      "area_failure_source_faces": [],
+      "maximum_area_ratio": 1.0046172520770207,
+      "maximum_edge_gradient": 0.034504584929490004,
+      "maximum_mm": 0.08476779845650124,
+      "median_mm": 0.06852764857244383,
+      "minimum_area_ratio": 0.9518309789654439,
+      "moved_vertices": 520,
+      "vertices": 520
+    },
+    "B_08": {
+      "area_failure_source_faces": [],
+      "maximum_area_ratio": 1.003124393572295,
+      "maximum_edge_gradient": 0.035082694600983684,
+      "maximum_mm": 0.08423086999927917,
+      "median_mm": 0.06014957503655681,
+      "minimum_area_ratio": 0.9613569173870187,
+      "moved_vertices": 539,
+      "vertices": 539
+    },
+    "B_09": {
+      "area_failure_source_faces": [],
+      "maximum_area_ratio": 1.0171335857442336,
+      "maximum_edge_gradient": 0.04211602620068634,
+      "maximum_mm": 0.11644170841845529,
+      "median_mm": 0.04912717290237431,
+      "minimum_area_ratio": 0.9497433424237081,
+      "moved_vertices": 773,
+      "vertices": 773
+    },
+    "B_10": {
+      "area_failure_source_faces": [],
+      "maximum_area_ratio": 1.0198399755125724,
+      "maximum_edge_gradient": 0.06004032030716413,
+      "maximum_mm": 0.2274570856569598,
+      "median_mm": 0.12970154865380396,
+      "minimum_area_ratio": 0.9349234288166828,
+      "moved_vertices": 862,
+      "vertices": 862
+    },
+    "B_11": {
+      "area_failure_source_faces": [],
+      "maximum_area_ratio": 1.0160051412562012,
+      "maximum_edge_gradient": 0.03756916000193559,
+      "maximum_mm": 0.08893276413351858,
+      "median_mm": 0.055949517197920226,
+      "minimum_area_ratio": 0.9780990161869391,
+      "moved_vertices": 118,
+      "vertices": 118
+    },
+    "B_12": {
+      "area_failure_source_faces": [],
+      "maximum_area_ratio": 1.0129275411193732,
+      "maximum_edge_gradient": 0.039115351380296044,
+      "maximum_mm": 0.08777520476403752,
+      "median_mm": 0.057081640786184114,
+      "minimum_area_ratio": 0.9427424209147521,
+      "moved_vertices": 651,
+      "vertices": 651
+    },
+    "B_13": {
+      "area_failure_source_faces": [],
+      "maximum_area_ratio": 1.0119805233600596,
+      "maximum_edge_gradient": 0.034686921871795576,
+      "maximum_mm": 0.07936794192423961,
+      "median_mm": 0.048559015103803796,
+      "minimum_area_ratio": 0.9587145432940841,
+      "moved_vertices": 568,
+      "vertices": 568
+    },
+    "B_14": {
+      "area_failure_source_faces": [],
+      "maximum_area_ratio": 1.009702576194741,
+      "maximum_edge_gradient": 0.045340248943375176,
+      "maximum_mm": 0.13792309308543826,
+      "median_mm": 0.07299831051287503,
+      "minimum_area_ratio": 0.942252311987242,
+      "moved_vertices": 705,
+      "vertices": 705
+    },
+    "B_15": {
+      "area_failure_source_faces": [],
+      "maximum_area_ratio": 1.0171981519259727,
+      "maximum_edge_gradient": 0.056870722520580674,
+      "maximum_mm": 0.1223036463203899,
+      "median_mm": 0.05798625244064473,
+      "minimum_area_ratio": 0.9470929176720503,
+      "moved_vertices": 628,
+      "vertices": 628
+    },
+    "B_16": {
+      "area_failure_source_faces": [],
+      "maximum_area_ratio": 1.0165357214245325,
+      "maximum_edge_gradient": 0.03249622036899966,
+      "maximum_mm": 0.08506939111422797,
+      "median_mm": 0.05706558991236303,
+      "minimum_area_ratio": 0.9505555208669829,
+      "moved_vertices": 650,
+      "vertices": 650
+    },
+    "B_17": {
+      "area_failure_source_faces": [],
+      "maximum_area_ratio": 1.0100455797992811,
+      "maximum_edge_gradient": 0.03579773935926237,
+      "maximum_mm": 0.10169975771941495,
+      "median_mm": 0.056567370027764546,
+      "minimum_area_ratio": 0.9518828573488257,
+      "moved_vertices": 606,
+      "vertices": 606
+    },
+    "B_18": {
+      "area_failure_source_faces": [],
+      "maximum_area_ratio": 1.0134892097744732,
+      "maximum_edge_gradient": 0.05108882847060486,
+      "maximum_mm": 0.12031003993129478,
+      "median_mm": 0.06335241179561003,
+      "minimum_area_ratio": 0.9369351567151519,
+      "moved_vertices": 565,
+      "vertices": 565
+    },
+    "B_19": {
+      "area_failure_source_faces": [],
+      "maximum_area_ratio": 1.0149342240735564,
+      "maximum_edge_gradient": 0.05098500653729066,
+      "maximum_mm": 0.16769226183117436,
+      "median_mm": 0.12857258674858468,
+      "minimum_area_ratio": 0.9485442940177143,
+      "moved_vertices": 402,
+      "vertices": 402
+    },
+    "B_20": {
+      "area_failure_source_faces": [],
+      "maximum_area_ratio": 1.0112544174403761,
+      "maximum_edge_gradient": 0.046869336547088934,
+      "maximum_mm": 0.15304204494204368,
+      "median_mm": 0.08239921593184045,
+      "minimum_area_ratio": 0.9416703366196983,
+      "moved_vertices": 848,
+      "vertices": 848
+    },
+    "B_21": {
+      "area_failure_source_faces": [],
+      "maximum_area_ratio": 1.0255012752000687,
+      "maximum_edge_gradient": 0.06578518927070202,
+      "maximum_mm": 0.21264183474262824,
+      "median_mm": 0.15742113779308742,
+      "minimum_area_ratio": 0.9413220031340845,
+      "moved_vertices": 372,
+      "vertices": 372
+    },
+    "B_22": {
+      "area_failure_source_faces": [],
+      "maximum_area_ratio": 1.0310772795655814,
+      "maximum_edge_gradient": 0.043396752837998195,
+      "maximum_mm": 0.14816761533477646,
+      "median_mm": 0.09831595535012667,
+      "minimum_area_ratio": 0.9713370703998755,
+      "moved_vertices": 47,
+      "vertices": 47
+    },
+    "B_23": {
+      "area_failure_source_faces": [],
+      "maximum_area_ratio": 1.0386137565331457,
+      "maximum_edge_gradient": 0.05431672807365875,
+      "maximum_mm": 0.1860161993271577,
+      "median_mm": 0.11673919664517185,
+      "minimum_area_ratio": 0.9295533590074685,
+      "moved_vertices": 735,
+      "vertices": 735
+    },
+    "B_24": {
+      "area_failure_source_faces": [],
+      "maximum_area_ratio": 1.0145749678555924,
+      "maximum_edge_gradient": 0.0548933417513353,
+      "maximum_mm": 0.12141939294295284,
+      "median_mm": 0.07062769633333921,
+      "minimum_area_ratio": 0.9591091510716951,
+      "moved_vertices": 569,
+      "vertices": 569
+    },
+    "B_25": {
+      "area_failure_source_faces": [],
+      "maximum_area_ratio": 1.0364513129002335,
+      "maximum_edge_gradient": 0.06890066990413164,
+      "maximum_mm": 0.26301086293248077,
+      "median_mm": 0.16086561883422493,
+      "minimum_area_ratio": 0.9024914617779122,
+      "moved_vertices": 923,
+      "vertices": 923
+    },
+    "B_26": {
+      "area_failure_source_faces": [],
+      "maximum_area_ratio": 1.0412231079265564,
+      "maximum_edge_gradient": 0.062343709336521544,
+      "maximum_mm": 0.18664354446166292,
+      "median_mm": 0.1267719068493759,
+      "minimum_area_ratio": 0.9048712586479742,
+      "moved_vertices": 912,
+      "vertices": 912
+    },
+    "B_27": {
+      "area_failure_source_faces": [],
+      "maximum_area_ratio": 1.0193098957199578,
+      "maximum_edge_gradient": 0.034371151195460324,
+      "maximum_mm": 0.1420818525653958,
+      "median_mm": 0.08660172837921856,
+      "minimum_area_ratio": 0.9665711181276988,
+      "moved_vertices": 208,
+      "vertices": 208
+    },
+    "B_28": {
+      "area_failure_source_faces": [],
+      "maximum_area_ratio": 1.0280041283106733,
+      "maximum_edge_gradient": 0.06822102002846273,
+      "maximum_mm": 0.18655539998886417,
+      "median_mm": 0.13983494009965586,
+      "minimum_area_ratio": 0.9147895870038981,
+      "moved_vertices": 817,
+      "vertices": 817
+    },
+    "B_29": {
+      "area_failure_source_faces": [],
+      "maximum_area_ratio": 1.0204308884040203,
+      "maximum_edge_gradient": 0.04365875071414127,
+      "maximum_mm": 0.12056566083174372,
+      "median_mm": 0.07882454137527023,
+      "minimum_area_ratio": 0.9454340224651733,
+      "moved_vertices": 715,
+      "vertices": 715
+    },
+    "B_30": {
+      "area_failure_source_faces": [],
+      "maximum_area_ratio": 1.0240049778090146,
+      "maximum_edge_gradient": 0.057431096466502456,
+      "maximum_mm": 0.16906130987097331,
+      "median_mm": 0.10845994307059223,
+      "minimum_area_ratio": 0.9153627228226231,
+      "moved_vertices": 766,
+      "vertices": 766
+    },
+    "B_31": {
+      "area_failure_source_faces": [],
+      "maximum_area_ratio": 1.0119842916393906,
+      "maximum_edge_gradient": 0.05108882847060486,
+      "maximum_mm": 0.055885157778702226,
+      "median_mm": 0.022561823382276823,
+      "minimum_area_ratio": 0.974958644474035,
+      "moved_vertices": 194,
+      "vertices": 195
+    },
+    "B_32": {
+      "area_failure_source_faces": [],
+      "maximum_area_ratio": 1.0098885908620376,
+      "maximum_edge_gradient": 0.049041454880148314,
+      "maximum_mm": 0.07391843460867345,
+      "median_mm": 0.019991317312102012,
+      "minimum_area_ratio": 0.951047616105167,
+      "moved_vertices": 66,
+      "vertices": 68
+    },
+    "IN_01": {
+      "area_failure_source_faces": [],
+      "maximum_area_ratio": 1.004353747386668,
+      "maximum_edge_gradient": 0.008159134003009046,
+      "maximum_mm": 0.0002036720379819048,
+      "median_mm": 0.0,
+      "minimum_area_ratio": 0.9991368231603829,
+      "moved_vertices": 3,
+      "vertices": 399
+    },
+    "IN_02": {
+      "area_failure_source_faces": [],
+      "maximum_area_ratio": 1.0145939323370228,
+      "maximum_edge_gradient": 0.06491404678939348,
+      "maximum_mm": 0.07278546027916383,
+      "median_mm": 0.0,
+      "minimum_area_ratio": 0.9308350875956339,
+      "moved_vertices": 72,
+      "vertices": 555
+    },
+    "J_01": {
+      "area_failure_source_faces": [],
+      "maximum_area_ratio": 1.0141273593533058,
+      "maximum_edge_gradient": 0.041279494657417766,
+      "maximum_mm": 0.1646273977132592,
+      "median_mm": 0.09755677439057532,
+      "minimum_area_ratio": 0.9572814633634416,
+      "moved_vertices": 249,
+      "vertices": 249
+    },
+    "J_02": {
+      "area_failure_source_faces": [],
+      "maximum_area_ratio": 1.0057772452288123,
+      "maximum_edge_gradient": 0.027627430675526924,
+      "maximum_mm": 0.08152409696452541,
+      "median_mm": 0.05752051318072644,
+      "minimum_area_ratio": 0.9714692502253127,
+      "moved_vertices": 323,
+      "vertices": 323
+    },
+    "J_03": {
+      "area_failure_source_faces": [],
+      "maximum_area_ratio": 1.003759492872659,
+      "maximum_edge_gradient": 0.03944658067511371,
+      "maximum_mm": 0.08779770197334606,
+      "median_mm": 0.07350169372585508,
+      "minimum_area_ratio": 0.9518309789654439,
+      "moved_vertices": 302,
+      "vertices": 302
+    },
+    "J_04": {
+      "area_failure_source_faces": [],
+      "maximum_area_ratio": 1.0087401156128966,
+      "maximum_edge_gradient": 0.03266247339691389,
+      "maximum_mm": 0.13855040109921504,
+      "median_mm": 0.09077908002779947,
+      "minimum_area_ratio": 0.9696938288478918,
+      "moved_vertices": 208,
+      "vertices": 208
+    },
+    "J_05": {
+      "area_failure_source_faces": [],
+      "maximum_area_ratio": 1.0134892097744732,
+      "maximum_edge_gradient": 0.018140718237644144,
+      "maximum_mm": 0.06151168668388543,
+      "median_mm": 0.03954091121305553,
+      "minimum_area_ratio": 0.9847178370311926,
+      "moved_vertices": 174,
+      "vertices": 174
+    },
+    "J_06": {
+      "area_failure_source_faces": [],
+      "maximum_area_ratio": 0.9987788636896631,
+      "maximum_edge_gradient": 0.052026679784172476,
+      "maximum_mm": 0.19008651460754708,
+      "median_mm": 0.1449185774414894,
+      "minimum_area_ratio": 0.9468916745241708,
+      "moved_vertices": 263,
+      "vertices": 263
+    },
+    "J_07": {
+      "area_failure_source_faces": [],
+      "maximum_area_ratio": 1.0191479040228373,
+      "maximum_edge_gradient": 0.046584236629294805,
+      "maximum_mm": 0.1547956142438075,
+      "median_mm": 0.10734758599442673,
+      "minimum_area_ratio": 0.973571091798344,
+      "moved_vertices": 113,
+      "vertices": 113
+    },
+    "J_08": {
+      "area_failure_source_faces": [],
+      "maximum_area_ratio": 1.0191589066273399,
+      "maximum_edge_gradient": 0.03750396291740768,
+      "maximum_mm": 0.15275823967132468,
+      "median_mm": 0.10635950074078915,
+      "minimum_area_ratio": 0.9487514179059032,
+      "moved_vertices": 149,
+      "vertices": 149
+    },
+    "J_09": {
+      "area_failure_source_faces": [],
+      "maximum_area_ratio": 1.0184963760681975,
+      "maximum_edge_gradient": 0.06822102002846273,
+      "maximum_mm": 0.11172721518887967,
+      "median_mm": 0.0582958168159976,
+      "minimum_area_ratio": 0.9308350875956339,
+      "moved_vertices": 170,
+      "vertices": 172
+    },
+    "MAIN": {
+      "area_failure_source_faces": [],
+      "maximum_area_ratio": 1.0363834841139201,
+      "maximum_edge_gradient": 0.07106487321092925,
+      "maximum_mm": 0.2935618228780249,
+      "median_mm": 0.22422130060183199,
+      "minimum_area_ratio": 0.9053664465308887,
+      "moved_vertices": 2320,
+      "vertices": 2320
+    },
+    "T_01": {
+      "area_failure_source_faces": [],
+      "maximum_area_ratio": 1.0020197606616894,
+      "maximum_edge_gradient": 0.04552429504607435,
+      "maximum_mm": 0.1360223080124336,
+      "median_mm": 0.09702111229901053,
+      "minimum_area_ratio": 0.9348780009765427,
+      "moved_vertices": 228,
+      "vertices": 228
+    },
+    "T_02": {
+      "area_failure_source_faces": [],
+      "maximum_area_ratio": 1.0147100046090445,
+      "maximum_edge_gradient": 0.03441604466023111,
+      "maximum_mm": 0.11987640518781051,
+      "median_mm": 0.07451581698722609,
+      "minimum_area_ratio": 0.9375686649770778,
+      "moved_vertices": 313,
+      "vertices": 313
+    },
+    "T_03": {
+      "area_failure_source_faces": [],
+      "maximum_area_ratio": 1.0052217454510812,
+      "maximum_edge_gradient": 0.029325795584542222,
+      "maximum_mm": 0.08049370506245469,
+      "median_mm": 0.057776120371836916,
+      "minimum_area_ratio": 0.9484839783160472,
+      "moved_vertices": 239,
+      "vertices": 239
+    },
+    "T_04": {
+      "area_failure_source_faces": [],
+      "maximum_area_ratio": 0.9987382919173373,
+      "maximum_edge_gradient": 0.025805811647556742,
+      "maximum_mm": 0.05988587486399915,
+      "median_mm": 0.03472966137520042,
+      "minimum_area_ratio": 0.9680054146229902,
+      "moved_vertices": 197,
+      "vertices": 197
+    },
+    "T_05": {
+      "area_failure_source_faces": [],
+      "maximum_area_ratio": 0.9971262430190182,
+      "maximum_edge_gradient": 0.033864831175821175,
+      "maximum_mm": 0.07708760427328624,
+      "median_mm": 0.058142689053389464,
+      "minimum_area_ratio": 0.9589514652570238,
+      "moved_vertices": 194,
+      "vertices": 194
+    },
+    "T_06": {
+      "area_failure_source_faces": [],
+      "maximum_area_ratio": 0.9993304732836868,
+      "maximum_edge_gradient": 0.025917858345600824,
+      "maximum_mm": 0.06413304853696568,
+      "median_mm": 0.04714455946290931,
+      "minimum_area_ratio": 0.9619831450137049,
+      "moved_vertices": 196,
+      "vertices": 196
+    },
+    "T_07": {
+      "area_failure_source_faces": [],
+      "maximum_area_ratio": 1.000389565917454,
+      "maximum_edge_gradient": 0.023911673183958062,
+      "maximum_mm": 0.05693685574928133,
+      "median_mm": 0.044697406392874575,
+      "minimum_area_ratio": 0.9603455740272314,
+      "moved_vertices": 190,
+      "vertices": 190
+    },
+    "T_08": {
+      "area_failure_source_faces": [],
+      "maximum_area_ratio": 0.9969629259298195,
+      "maximum_edge_gradient": 0.039115351380296044,
+      "maximum_mm": 0.08777520476403752,
+      "median_mm": 0.0726005608703483,
+      "minimum_area_ratio": 0.9427424209147521,
+      "moved_vertices": 215,
+      "vertices": 215
+    },
+    "T_09": {
+      "area_failure_source_faces": [],
+      "maximum_area_ratio": 1.0119805233600596,
+      "maximum_edge_gradient": 0.033881633683445544,
+      "maximum_mm": 0.07604161176439339,
+      "median_mm": 0.05492822856173576,
+      "minimum_area_ratio": 0.9587145432940841,
+      "moved_vertices": 203,
+      "vertices": 203
+    },
+    "T_10": {
+      "area_failure_source_faces": [],
+      "maximum_area_ratio": 1.008285737611112,
+      "maximum_edge_gradient": 0.03882942833883251,
+      "maximum_mm": 0.13792309308543826,
+      "median_mm": 0.08618775773827271,
+      "minimum_area_ratio": 0.942252311987242,
+      "moved_vertices": 235,
+      "vertices": 235
+    },
+    "T_11": {
+      "area_failure_source_faces": [],
+      "maximum_area_ratio": 1.0035053433282881,
+      "maximum_edge_gradient": 0.056870722520580674,
+      "maximum_mm": 0.1223036463203899,
+      "median_mm": 0.07165341126045582,
+      "minimum_area_ratio": 0.9470929176720503,
+      "moved_vertices": 232,
+      "vertices": 232
+    },
+    "T_12": {
+      "area_failure_source_faces": [],
+      "maximum_area_ratio": 0.9998403030197395,
+      "maximum_edge_gradient": 0.03229629772465078,
+      "maximum_mm": 0.07982211109202443,
+      "median_mm": 0.06064099563464727,
+      "minimum_area_ratio": 0.9505555208669829,
+      "moved_vertices": 233,
+      "vertices": 233
+    },
+    "T_13": {
+      "area_failure_source_faces": [],
+      "maximum_area_ratio": 0.998607979484555,
+      "maximum_edge_gradient": 0.03579773935926237,
+      "maximum_mm": 0.10169975771941495,
+      "median_mm": 0.06590856507493592,
+      "minimum_area_ratio": 0.9518828573488257,
+      "moved_vertices": 228,
+      "vertices": 228
+    },
+    "T_14": {
+      "area_failure_source_faces": [],
+      "maximum_area_ratio": 1.0005752081994048,
+      "maximum_edge_gradient": 0.04560237943733724,
+      "maximum_mm": 0.12031003993129478,
+      "median_mm": 0.07487678599810423,
+      "minimum_area_ratio": 0.9369351567151519,
+      "moved_vertices": 227,
+      "vertices": 227
+    },
+    "T_15": {
+      "area_failure_source_faces": [],
+      "maximum_area_ratio": 0.996225885664029,
+      "maximum_edge_gradient": 0.03750225876894557,
+      "maximum_mm": 0.10647011772470381,
+      "median_mm": 0.07710644443933985,
+      "minimum_area_ratio": 0.9424330147587937,
+      "moved_vertices": 223,
+      "vertices": 223
+    },
+    "T_16": {
+      "area_failure_source_faces": [],
+      "maximum_area_ratio": 0.9955150839768793,
+      "maximum_edge_gradient": 0.051100692284862054,
+      "maximum_mm": 0.13698706849675985,
+      "median_mm": 0.09901560847583953,
+      "minimum_area_ratio": 0.9295533590074685,
+      "moved_vertices": 257,
+      "vertices": 257
+    },
+    "T_17": {
+      "area_failure_source_faces": [],
+      "maximum_area_ratio": 1.000901276749817,
+      "maximum_edge_gradient": 0.02529354658459714,
+      "maximum_mm": 0.07156646563886242,
+      "median_mm": 0.05720844607678809,
+      "minimum_area_ratio": 0.9591091510716951,
+      "moved_vertices": 219,
+      "vertices": 219
+    },
+    "T_18": {
+      "area_failure_source_faces": [],
+      "maximum_area_ratio": 0.9927444146956157,
+      "maximum_edge_gradient": 0.06890066990413164,
+      "maximum_mm": 0.26301086293248077,
+      "median_mm": 0.1627170764956885,
+      "minimum_area_ratio": 0.9024914617779122,
+      "moved_vertices": 258,
+      "vertices": 258
+    },
+    "T_19": {
+      "area_failure_source_faces": [],
+      "maximum_area_ratio": 1.0038840337354071,
+      "maximum_edge_gradient": 0.062343709336521544,
+      "maximum_mm": 0.18664354446166292,
+      "median_mm": 0.14582944594198213,
+      "minimum_area_ratio": 0.9048712586479742,
+      "moved_vertices": 294,
+      "vertices": 294
+    },
+    "T_20": {
+      "area_failure_source_faces": [],
+      "maximum_area_ratio": 1.005229762661971,
+      "maximum_edge_gradient": 0.047814438818464325,
+      "maximum_mm": 0.18655539998886417,
+      "median_mm": 0.13548045328012648,
+      "minimum_area_ratio": 0.9280394564499723,
+      "moved_vertices": 322,
+      "vertices": 322
+    },
+    "T_21": {
+      "area_failure_source_faces": [],
+      "maximum_area_ratio": 0.999912357566086,
+      "maximum_edge_gradient": 0.03911790330727194,
+      "maximum_mm": 0.08428187979911429,
+      "median_mm": 0.05840134949910496,
+      "minimum_area_ratio": 0.9454340224651733,
+      "moved_vertices": 220,
+      "vertices": 220
+    },
+    "T_22": {
+      "area_failure_source_faces": [],
+      "maximum_area_ratio": 1.0020987449358763,
+      "maximum_edge_gradient": 0.04335835677259528,
+      "maximum_mm": 0.1353319655764218,
+      "median_mm": 0.08233633250043654,
+      "minimum_area_ratio": 0.924986218310588,
+      "moved_vertices": 238,
+      "vertices": 238
+    }
+  },
+  "diagnostic_regions_may_overlap": true,
+  "tissue_focus": {
+    "F01": {
+      "anatomical_donor_assignment": "No new anatomical claim",
+      "area_ratio_range": [
+        0.9874613192094791,
+        1.0062218236735612
+      ],
+      "maximum_edge_gradient": 0.015428839617887139,
+      "two_ring_vertex_count": 24
+    },
+    "F02": {
+      "anatomical_donor_assignment": "No new anatomical claim",
+      "area_ratio_range": [
+        0.9687111543646203,
+        1.0126824226892996
+      ],
+      "maximum_edge_gradient": 0.024273189934726075,
+      "two_ring_vertex_count": 34
+    },
+    "F03": {
+      "anatomical_donor_assignment": "UNCONFIRMED",
+      "area_ratio_range": [
+        0.975810069912876,
+        1.0051986186833999
+      ],
+      "maximum_edge_gradient": 0.01967484323825568,
+      "two_ring_vertex_count": 24
+    },
+    "F04": {
+      "anatomical_donor_assignment": "UNCONFIRMED",
+      "area_ratio_range": [
+        0.9823669114442336,
+        1.004866737476588
+      ],
+      "maximum_edge_gradient": 0.02406955458824508,
+      "two_ring_vertex_count": 21
+    }
+  }
+}

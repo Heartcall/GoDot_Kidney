@@ -1,0 +1,210 @@
+{
+  "endoscope_radius_or_selected_path_assumed": false,
+  "no_route_safety_certificate": true,
+  "paths": {
+    "B_01": {
+      "minimum_sampled_centerline_surface_distance_mm": 2.0525405406951904,
+      "minimum_station_id": "B_01:14",
+      "not_instrument_clearance": true,
+      "positive_sign_outside_samples": 0,
+      "samples": 5
+    },
+    "B_02": {
+      "minimum_sampled_centerline_surface_distance_mm": 0.9306432008743286,
+      "minimum_station_id": "B_02:25",
+      "not_instrument_clearance": true,
+      "positive_sign_outside_samples": 0,
+      "samples": 15
+    },
+    "B_03": {
+      "minimum_sampled_centerline_surface_distance_mm": 1.0412099361419678,
+      "minimum_station_id": "B_03:11",
+      "not_instrument_clearance": true,
+      "positive_sign_outside_samples": 0,
+      "samples": 13
+    },
+    "B_04": {
+      "minimum_sampled_centerline_surface_distance_mm": 0.9093537330627441,
+      "minimum_station_id": "B_04:14",
+      "not_instrument_clearance": true,
+      "positive_sign_outside_samples": 0,
+      "samples": 20
+    },
+    "B_05": {
+      "minimum_sampled_centerline_surface_distance_mm": 0.48580607771873474,
+      "minimum_station_id": "B_05:24",
+      "not_instrument_clearance": true,
+      "positive_sign_outside_samples": 0,
+      "samples": 17
+    },
+    "B_06": {
+      "minimum_sampled_centerline_surface_distance_mm": 1.8488556146621704,
+      "minimum_station_id": "B_06:11",
+      "not_instrument_clearance": true,
+      "positive_sign_outside_samples": 0,
+      "samples": 6
+    },
+    "B_07": {
+      "minimum_sampled_centerline_surface_distance_mm": 0.32995086908340454,
+      "minimum_station_id": "B_07:21",
+      "not_instrument_clearance": true,
+      "positive_sign_outside_samples": 0,
+      "samples": 15
+    },
+    "B_08": {
+      "minimum_sampled_centerline_surface_distance_mm": 0.7259271144866943,
+      "minimum_station_id": "B_08:22",
+      "not_instrument_clearance": true,
+      "positive_sign_outside_samples": 0,
+      "samples": 16
+    },
+    "B_09": {
+      "minimum_sampled_centerline_surface_distance_mm": 0.5174540281295776,
+      "minimum_station_id": "B_09:31",
+      "not_instrument_clearance": true,
+      "positive_sign_outside_samples": 0,
+      "samples": 20
+    },
+    "B_10": {
+      "minimum_sampled_centerline_surface_distance_mm": 2.1973724365234375,
+      "minimum_station_id": "B_10:10",
+      "not_instrument_clearance": true,
+      "positive_sign_outside_samples": 0,
+      "samples": 6
+    },
+    "B_12": {
+      "minimum_sampled_centerline_surface_distance_mm": 0.38301903009414673,
+      "minimum_station_id": "B_12:45",
+      "not_instrument_clearance": true,
+      "positive_sign_outside_samples": 0,
+      "samples": 26
+    },
+    "B_13": {
+      "minimum_sampled_centerline_surface_distance_mm": 0.37371954321861267,
+      "minimum_station_id": "B_13:47",
+      "not_instrument_clearance": true,
+      "positive_sign_outside_samples": 0,
+      "samples": 27
+    },
+    "B_14": {
+      "minimum_sampled_centerline_surface_distance_mm": 0.763717532157898,
+      "minimum_station_id": "B_14:42",
+      "not_instrument_clearance": true,
+      "positive_sign_outside_samples": 0,
+      "samples": 26
+    },
+    "B_15": {
+      "minimum_sampled_centerline_surface_distance_mm": 0.4427418112754822,
+      "minimum_station_id": "B_15:51",
+      "not_instrument_clearance": true,
+      "positive_sign_outside_samples": 0,
+      "samples": 22
+    },
+    "B_16": {
+      "minimum_sampled_centerline_surface_distance_mm": 1.0802541971206665,
+      "minimum_station_id": "B_16:54",
+      "not_instrument_clearance": true,
+      "positive_sign_outside_samples": 0,
+      "samples": 25
+    },
+    "B_17": {
+      "minimum_sampled_centerline_surface_distance_mm": 0.9745385646820068,
+      "minimum_station_id": "B_17:47",
+      "not_instrument_clearance": true,
+      "positive_sign_outside_samples": 0,
+      "samples": 22
+    },
+    "B_18": {
+      "minimum_sampled_centerline_surface_distance_mm": 0.5571672320365906,
+      "minimum_station_id": "B_18:40",
+      "not_instrument_clearance": true,
+      "positive_sign_outside_samples": 0,
+      "samples": 20
+    },
+    "B_19": {
+      "minimum_sampled_centerline_surface_distance_mm": 3.0486228466033936,
+      "minimum_station_id": "B_19:8",
+      "not_instrument_clearance": true,
+      "positive_sign_outside_samples": 0,
+      "samples": 3
+    },
+    "B_20": {
+      "minimum_sampled_centerline_surface_distance_mm": 0.9001349806785583,
+      "minimum_station_id": "B_20:27",
+      "not_instrument_clearance": true,
+      "positive_sign_outside_samples": 0,
+      "samples": 19
+    },
+    "B_21": {
+      "minimum_sampled_centerline_surface_distance_mm": 3.560246467590332,
+      "minimum_station_id": "B_21:8",
+      "not_instrument_clearance": true,
+      "positive_sign_outside_samples": 0,
+      "samples": 2
+    },
+    "B_23": {
+      "minimum_sampled_centerline_surface_distance_mm": 0.7546273469924927,
+      "minimum_station_id": "B_23:23",
+      "not_instrument_clearance": true,
+      "positive_sign_outside_samples": 0,
+      "samples": 12
+    },
+    "B_24": {
+      "minimum_sampled_centerline_surface_distance_mm": 0.6136783361434937,
+      "minimum_station_id": "B_24:22",
+      "not_instrument_clearance": true,
+      "positive_sign_outside_samples": 0,
+      "samples": 13
+    },
+    "B_25": {
+      "minimum_sampled_centerline_surface_distance_mm": 1.2767760753631592,
+      "minimum_station_id": "B_25:23",
+      "not_instrument_clearance": true,
+      "positive_sign_outside_samples": 0,
+      "samples": 16
+    },
+    "B_26": {
+      "minimum_sampled_centerline_surface_distance_mm": 0.7530290484428406,
+      "minimum_station_id": "B_26:25",
+      "not_instrument_clearance": true,
+      "positive_sign_outside_samples": 0,
+      "samples": 13
+    },
+    "B_28": {
+      "minimum_sampled_centerline_surface_distance_mm": 1.8110480308532715,
+      "minimum_station_id": "B_28:35",
+      "not_instrument_clearance": true,
+      "positive_sign_outside_samples": 0,
+      "samples": 24
+    },
+    "B_29": {
+      "minimum_sampled_centerline_surface_distance_mm": 0.7524807453155518,
+      "minimum_station_id": "B_29:44",
+      "not_instrument_clearance": true,
+      "positive_sign_outside_samples": 0,
+      "samples": 21
+    },
+    "B_30": {
+      "minimum_sampled_centerline_surface_distance_mm": 0.9648959040641785,
+      "minimum_station_id": "B_30:48",
+      "not_instrument_clearance": true,
+      "positive_sign_outside_samples": 0,
+      "samples": 24
+    },
+    "B_31": {
+      "minimum_sampled_centerline_surface_distance_mm": 1.6521270275115967,
+      "minimum_station_id": "B_31:26",
+      "not_instrument_clearance": true,
+      "positive_sign_outside_samples": 0,
+      "samples": 5
+    },
+    "MAIN": {
+      "minimum_sampled_centerline_surface_distance_mm": 2.216923475265503,
+      "minimum_station_id": "MAIN:10",
+      "not_instrument_clearance": true,
+      "positive_sign_outside_samples": 0,
+      "samples": 30
+    }
+  },
+  "scope": "Float32 centered RaycastingScene signed-distance sampling at trusted N1 local stations. No new section areas computed; unresolved stations excluded. Sign near baseline defects is not certified."
+}

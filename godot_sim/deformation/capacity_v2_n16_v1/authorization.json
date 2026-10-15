@@ -1,0 +1,12 @@
+{
+  "N15M_conclusion_preserved": true,
+  "authority": "User explicitly authorized S1/S2/S3 engineering exploration and isolated numerical prototypes",
+  "date": "2026-10-15",
+  "fallback": "S1",
+  "label": "MORPHOLOGY_GUIDED_UNCALIBRATED_CAPACITY_ESTIMATE",
+  "physiological_parameters_remain_null": true,
+  "preferred": "S2",
+  "production_N2_authorized": false,
+  "stage": "N1.6",
+  "stress_case": "S3"
+}

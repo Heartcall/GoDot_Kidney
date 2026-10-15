@@ -1,0 +1,1394 @@
+{
+  "algorithm": "Fresh topology-restricted centerline radial + wall-normal directions, N1 trusted local radii, independent thin-region suppression, shared surface solve and unchanged P1.2 mask",
+  "candidate_details": [
+    {
+      "id": "MAIN",
+      "own_vertices": 2320,
+      "radius_mm": 4.798697561468069,
+      "supported_vertices": 2674,
+      "surface_support_mm": 3.0,
+      "terminal_normal_blend": false
+    },
+    {
+      "id": "BLADDER_TRANSITION",
+      "own_vertices": 475,
+      "radius_mm": 4.4363146386303365,
+      "supported_vertices": 647,
+      "surface_support_mm": 3.0,
+      "terminal_normal_blend": false
+    },
+    {
+      "id": "B_01",
+      "own_vertices": 626,
+      "radius_mm": 3.3160617443536227,
+      "supported_vertices": 924,
+      "surface_support_mm": 3.0,
+      "terminal_normal_blend": false
+    },
+    {
+      "id": "B_02",
+      "own_vertices": 718,
+      "radius_mm": 3.232813353265983,
+      "supported_vertices": 865,
+      "surface_support_mm": 3.0,
+      "terminal_normal_blend": true
+    },
+    {
+      "id": "B_03",
+      "own_vertices": 675,
+      "radius_mm": 3.087368628645968,
+      "supported_vertices": 827,
+      "surface_support_mm": 3.0,
+      "terminal_normal_blend": true
+    },
+    {
+      "id": "B_04",
+      "own_vertices": 688,
+      "radius_mm": 2.686028141399646,
+      "supported_vertices": 836,
+      "surface_support_mm": 3.0,
+      "terminal_normal_blend": true
+    },
+    {
+      "id": "B_05",
+      "own_vertices": 618,
+      "radius_mm": 2.8715941868663633,
+      "supported_vertices": 786,
+      "surface_support_mm": 3.0,
+      "terminal_normal_blend": true
+    },
+    {
+      "id": "B_06",
+      "own_vertices": 395,
+      "radius_mm": 3.0345256028437655,
+      "supported_vertices": 638,
+      "surface_support_mm": 3.0,
+      "terminal_normal_blend": false
+    },
+    {
+      "id": "B_07",
+      "own_vertices": 520,
+      "radius_mm": 2.9594391172581185,
+      "supported_vertices": 666,
+      "surface_support_mm": 3.0,
+      "terminal_normal_blend": true
+    },
+    {
+      "id": "B_08",
+      "own_vertices": 539,
+      "radius_mm": 2.9277011093374905,
+      "supported_vertices": 696,
+      "surface_support_mm": 3.0,
+      "terminal_normal_blend": true
+    },
+    {
+      "id": "B_09",
+      "own_vertices": 773,
+      "radius_mm": 2.7015139125495193,
+      "supported_vertices": 886,
+      "surface_support_mm": 3.0,
+      "terminal_normal_blend": true
+    },
+    {
+      "id": "B_10",
+      "own_vertices": 862,
+      "radius_mm": 4.230490955381013,
+      "supported_vertices": 1133,
+      "surface_support_mm": 3.0,
+      "terminal_normal_blend": false
+    },
+    {
+      "id": "B_11",
+      "own_vertices": 118,
+      "radius_mm": 2.8201140439478736,
+      "supported_vertices": 262,
+      "surface_support_mm": 3.0,
+      "terminal_normal_blend": false
+    },
+    {
+      "id": "B_12",
+      "own_vertices": 651,
+      "radius_mm": 3.0694067156249516,
+      "supported_vertices": 696,
+      "surface_support_mm": 3.0,
+      "terminal_normal_blend": true
+    },
+    {
+      "id": "B_13",
+      "own_vertices": 568,
+      "radius_mm": 2.8153931070595584,
+      "supported_vertices": 581,
+      "surface_support_mm": 3.0,
+      "terminal_normal_blend": true
+    },
+    {
+      "id": "B_14",
+      "own_vertices": 705,
+      "radius_mm": 3.169009335416254,
+      "supported_vertices": 803,
+      "surface_support_mm": 3.0,
+      "terminal_normal_blend": true
+    },
+    {
+      "id": "B_15",
+      "own_vertices": 628,
+      "radius_mm": 2.9893991500977632,
+      "supported_vertices": 673,
+      "surface_support_mm": 3.0,
+      "terminal_normal_blend": true
+    },
+    {
+      "id": "B_16",
+      "own_vertices": 650,
+      "radius_mm": 2.9508386448379347,
+      "supported_vertices": 685,
+      "surface_support_mm": 3.0,
+      "terminal_normal_blend": true
+    },
+    {
+      "id": "B_17",
+      "own_vertices": 606,
+      "radius_mm": 3.068808208012258,
+      "supported_vertices": 643,
+      "surface_support_mm": 3.0,
+      "terminal_normal_blend": true
+    },
+    {
+      "id": "B_18",
+      "own_vertices": 565,
+      "radius_mm": 3.0409423006382563,
+      "supported_vertices": 641,
+      "surface_support_mm": 3.0,
+      "terminal_normal_blend": true
+    },
+    {
+      "id": "B_19",
+      "own_vertices": 402,
+      "radius_mm": 4.173801107065625,
+      "supported_vertices": 719,
+      "surface_support_mm": 3.0,
+      "terminal_normal_blend": false
+    },
+    {
+      "id": "B_20",
+      "own_vertices": 848,
+      "radius_mm": 3.1176210692686572,
+      "supported_vertices": 1011,
+      "surface_support_mm": 3.0,
+      "terminal_normal_blend": true
+    },
+    {
+      "id": "B_21",
+      "own_vertices": 372,
+      "radius_mm": 4.4186970946812885,
+      "supported_vertices": 647,
+      "surface_support_mm": 3.0,
+      "terminal_normal_blend": false
+    },
+    {
+      "id": "B_22",
+      "own_vertices": 47,
+      "radius_mm": 4.137315713773046,
+      "supported_vertices": 178,
+      "surface_support_mm": 3.0,
+      "terminal_normal_blend": false
+    },
+    {
+      "id": "B_23",
+      "own_vertices": 735,
+      "radius_mm": 3.781195831599543,
+      "supported_vertices": 818,
+      "surface_support_mm": 3.0,
+      "terminal_normal_blend": true
+    },
+    {
+      "id": "B_24",
+      "own_vertices": 569,
+      "radius_mm": 3.2624409579707665,
+      "supported_vertices": 703,
+      "surface_support_mm": 3.0,
+      "terminal_normal_blend": true
+    },
+    {
+      "id": "B_25",
+      "own_vertices": 923,
+      "radius_mm": 4.02747993470471,
+      "supported_vertices": 1033,
+      "surface_support_mm": 3.0,
+      "terminal_normal_blend": true
+    },
+    {
+      "id": "B_26",
+      "own_vertices": 912,
+      "radius_mm": 3.9156517920356126,
+      "supported_vertices": 963,
+      "surface_support_mm": 3.0,
+      "terminal_normal_blend": true
+    },
+    {
+      "id": "B_27",
+      "own_vertices": 208,
+      "radius_mm": 3.654933805246541,
+      "supported_vertices": 335,
+      "surface_support_mm": 3.0,
+      "terminal_normal_blend": false
+    },
+    {
+      "id": "B_28",
+      "own_vertices": 817,
+      "radius_mm": 4.045545664361047,
+      "supported_vertices": 925,
+      "surface_support_mm": 3.0,
+      "terminal_normal_blend": true
+    },
+    {
+      "id": "B_29",
+      "own_vertices": 715,
+      "radius_mm": 3.1220976241706144,
+      "supported_vertices": 803,
+      "surface_support_mm": 3.0,
+      "terminal_normal_blend": true
+    },
+    {
+      "id": "B_30",
+      "own_vertices": 766,
+      "radius_mm": 3.766735861389459,
+      "supported_vertices": 800,
+      "surface_support_mm": 3.0,
+      "terminal_normal_blend": true
+    },
+    {
+      "id": "B_31",
+      "own_vertices": 194,
+      "radius_mm": 2.769600045249094,
+      "supported_vertices": 248,
+      "surface_support_mm": 3.0,
+      "terminal_normal_blend": false
+    },
+    {
+      "id": "B_32",
+      "own_vertices": 66,
+      "radius_mm": 2.832114139445654,
+      "supported_vertices": 122,
+      "surface_support_mm": 3.0,
+      "terminal_normal_blend": false
+    }
+  ],
+  "contract_radial_gate": ".25+.75*smoothstep((minor_half-.8)/3.5)",
+  "expand_radial_gate": ".55+.45*smoothstep((minor_half-.6)/3)",
+  "fixed_vertices": 3675,
+  "label": "MORPHOLOGY_GUIDED_UNCALIBRATED_CAPACITY_ESTIMATE",
+  "narrow_definition": "N1 geometric minor scale only; not clinical stenosis",
+  "not_biological_compliance": true,
+  "old_displacement_used_as_driver": false,
+  "paths": [
+    {
+      "confidence_quantiles": [
+        0.4524650287505957,
+        0.9945616017520059,
+        0.9999998997634136
+      ],
+      "fallback": "Own centerline-to-wall geometry where trusted same-path local stations absent/distant; never unresolved ring outer area",
+      "path_id": "MAIN",
+      "radius_mm_quantiles": [
+        1.8333022666060736,
+        4.66277664452118,
+        5.4634144542630185
+      ],
+      "trusted_station_ids": [
+        "MAIN:3",
+        "MAIN:4",
+        "MAIN:5",
+        "MAIN:6",
+        "MAIN:7",
+        "MAIN:8",
+        "MAIN:9",
+        "MAIN:10",
+        "MAIN:11",
+        "MAIN:12",
+        "MAIN:13",
+        "MAIN:14",
+        "MAIN:15",
+        "MAIN:16",
+        "MAIN:17",
+        "MAIN:18",
+        "MAIN:19",
+        "MAIN:20",
+        "MAIN:21",
+        "MAIN:22",
+        "MAIN:23",
+        "MAIN:24",
+        "MAIN:25",
+        "MAIN:26",
+        "MAIN:27",
+        "MAIN:28",
+        "MAIN:29",
+        "MAIN:30",
+        "MAIN:31",
+        "MAIN:32"
+      ]
+    },
+    {
+      "confidence_quantiles": [
+        0.5349565968216273,
+        0.964898396012813,
+        0.9999997770286391
+      ],
+      "fallback": "Own centerline-to-wall geometry where trusted same-path local stations absent/distant; never unresolved ring outer area",
+      "path_id": "BLADDER_TRANSITION",
+      "radius_mm_quantiles": [
+        3.5387846187631693,
+        4.427531236746988,
+        4.427531236746988
+      ],
+      "trusted_station_ids": [
+        "BLADDER_TRANSITION:8",
+        "BLADDER_TRANSITION:9",
+        "BLADDER_TRANSITION:10",
+        "BLADDER_TRANSITION:11",
+        "BLADDER_TRANSITION:12"
+      ]
+    },
+    {
+      "confidence_quantiles": [
+        0.4500516770330782,
+        0.9203295289645392,
+        0.9999998340179022
+      ],
+      "fallback": "Own centerline-to-wall geometry where trusted same-path local stations absent/distant; never unresolved ring outer area",
+      "path_id": "B_01",
+      "radius_mm_quantiles": [
+        1.8780595943506753,
+        2.865939376086687,
+        3.2721536632161032
+      ],
+      "trusted_station_ids": [
+        "B_01:14",
+        "B_01:15",
+        "B_01:16",
+        "B_01:17",
+        "B_01:18"
+      ]
+    },
+    {
+      "confidence_quantiles": [
+        0.4574983367937446,
+        0.9965053368525754,
+        0.9999999954111878
+      ],
+      "fallback": "Own centerline-to-wall geometry where trusted same-path local stations absent/distant; never unresolved ring outer area",
+      "path_id": "B_02",
+      "radius_mm_quantiles": [
+        1.4412688662275532,
+        3.136911969827798,
+        3.7802335915592287
+      ],
+      "trusted_station_ids": [
+        "B_02:11",
+        "B_02:12",
+        "B_02:13",
+        "B_02:14",
+        "B_02:15",
+        "B_02:16",
+        "B_02:17",
+        "B_02:18",
+        "B_02:19",
+        "B_02:20",
+        "B_02:21",
+        "B_02:22",
+        "B_02:23",
+        "B_02:24",
+        "B_02:25"
+      ]
+    },
+    {
+      "confidence_quantiles": [
+        0.4727431715464359,
+        0.9974384594116321,
+        0.9999999987818966
+      ],
+      "fallback": "Own centerline-to-wall geometry where trusted same-path local stations absent/distant; never unresolved ring outer area",
+      "path_id": "B_03",
+      "radius_mm_quantiles": [
+        1.4798660175115539,
+        3.069662523209895,
+        3.4440748014113844
+      ],
+      "trusted_station_ids": [
+        "B_03:11",
+        "B_03:12",
+        "B_03:13",
+        "B_03:14",
+        "B_03:15",
+        "B_03:16",
+        "B_03:17",
+        "B_03:18",
+        "B_03:19",
+        "B_03:20",
+        "B_03:21",
+        "B_03:22",
+        "B_03:23"
+      ]
+    },
+    {
+      "confidence_quantiles": [
+        0.6544549657032053,
+        0.9972804613852001,
+        0.9999999995976117
+      ],
+      "fallback": "Own centerline-to-wall geometry where trusted same-path local stations absent/distant; never unresolved ring outer area",
+      "path_id": "B_04",
+      "radius_mm_quantiles": [
+        1.3905391714303197,
+        2.6418405526675532,
+        3.148682908637937
+      ],
+      "trusted_station_ids": [
+        "B_04:8",
+        "B_04:9",
+        "B_04:10",
+        "B_04:11",
+        "B_04:12",
+        "B_04:13",
+        "B_04:14",
+        "B_04:15",
+        "B_04:16",
+        "B_04:17",
+        "B_04:18",
+        "B_04:19",
+        "B_04:20",
+        "B_04:21",
+        "B_04:22",
+        "B_04:23",
+        "B_04:24",
+        "B_04:25",
+        "B_04:26",
+        "B_04:27"
+      ]
+    },
+    {
+      "confidence_quantiles": [
+        0.7416222558944077,
+        0.9961976462695966,
+        0.999999999800659
+      ],
+      "fallback": "Own centerline-to-wall geometry where trusted same-path local stations absent/distant; never unresolved ring outer area",
+      "path_id": "B_05",
+      "radius_mm_quantiles": [
+        1.0,
+        2.761361871358467,
+        2.917424252847932
+      ],
+      "trusted_station_ids": [
+        "B_05:8",
+        "B_05:9",
+        "B_05:10",
+        "B_05:11",
+        "B_05:12",
+        "B_05:13",
+        "B_05:14",
+        "B_05:15",
+        "B_05:16",
+        "B_05:17",
+        "B_05:18",
+        "B_05:19",
+        "B_05:20",
+        "B_05:21",
+        "B_05:22",
+        "B_05:23",
+        "B_05:24"
+      ]
+    },
+    {
+      "confidence_quantiles": [
+        0.4619204928865607,
+        0.9913413057314036,
+        0.9999999813123486
+      ],
+      "fallback": "Own centerline-to-wall geometry where trusted same-path local stations absent/distant; never unresolved ring outer area",
+      "path_id": "B_06",
+      "radius_mm_quantiles": [
+        1.5108941147599602,
+        3.2966705533692022,
+        3.4841314466891027
+      ],
+      "trusted_station_ids": [
+        "B_06:11",
+        "B_06:12",
+        "B_06:13",
+        "B_06:14",
+        "B_06:15",
+        "B_06:16"
+      ]
+    },
+    {
+      "confidence_quantiles": [
+        0.6560774163106572,
+        0.9972067239313096,
+        0.9999998347740686
+      ],
+      "fallback": "Own centerline-to-wall geometry where trusted same-path local stations absent/distant; never unresolved ring outer area",
+      "path_id": "B_07",
+      "radius_mm_quantiles": [
+        1.0,
+        2.928991578972829,
+        3.119112493676411
+      ],
+      "trusted_station_ids": [
+        "B_07:7",
+        "B_07:8",
+        "B_07:9",
+        "B_07:10",
+        "B_07:11",
+        "B_07:12",
+        "B_07:13",
+        "B_07:14",
+        "B_07:15",
+        "B_07:16",
+        "B_07:17",
+        "B_07:18",
+        "B_07:19",
+        "B_07:20",
+        "B_07:21"
+      ]
+    },
+    {
+      "confidence_quantiles": [
+        0.6689316422655657,
+        0.9971949478251729,
+        0.9999999907673309
+      ],
+      "fallback": "Own centerline-to-wall geometry where trusted same-path local stations absent/distant; never unresolved ring outer area",
+      "path_id": "B_08",
+      "radius_mm_quantiles": [
+        1.036208436865751,
+        2.98620123393985,
+        3.2561086522552327
+      ],
+      "trusted_station_ids": [
+        "B_08:7",
+        "B_08:8",
+        "B_08:9",
+        "B_08:10",
+        "B_08:11",
+        "B_08:12",
+        "B_08:13",
+        "B_08:14",
+        "B_08:15",
+        "B_08:16",
+        "B_08:17",
+        "B_08:18",
+        "B_08:19",
+        "B_08:20",
+        "B_08:21",
+        "B_08:22"
+      ]
+    },
+    {
+      "confidence_quantiles": [
+        0.45131484455703513,
+        0.9952122531504823,
+        0.9999999879186525
+      ],
+      "fallback": "Own centerline-to-wall geometry where trusted same-path local stations absent/distant; never unresolved ring outer area",
+      "path_id": "B_09",
+      "radius_mm_quantiles": [
+        0.9861119310330387,
+        2.706626942309314,
+        3.071150510370485
+      ],
+      "trusted_station_ids": [
+        "B_09:12",
+        "B_09:13",
+        "B_09:14",
+        "B_09:15",
+        "B_09:16",
+        "B_09:17",
+        "B_09:18",
+        "B_09:19",
+        "B_09:20",
+        "B_09:21",
+        "B_09:22",
+        "B_09:23",
+        "B_09:24",
+        "B_09:25",
+        "B_09:26",
+        "B_09:27",
+        "B_09:28",
+        "B_09:29",
+        "B_09:30",
+        "B_09:31"
+      ]
+    },
+    {
+      "confidence_quantiles": [
+        0.4565867708436725,
+        0.9708951438149793,
+        0.9999986283866724
+      ],
+      "fallback": "Own centerline-to-wall geometry where trusted same-path local stations absent/distant; never unresolved ring outer area",
+      "path_id": "B_10",
+      "radius_mm_quantiles": [
+        1.5699714959663058,
+        4.07578564467979,
+        4.4541894323813
+      ],
+      "trusted_station_ids": [
+        "B_10:10",
+        "B_10:11",
+        "B_10:12",
+        "B_10:13",
+        "B_10:14",
+        "B_10:15"
+      ]
+    },
+    {
+      "confidence_quantiles": [
+        0.45,
+        0.45,
+        0.45
+      ],
+      "fallback": "Own centerline-to-wall geometry where trusted same-path local stations absent/distant; never unresolved ring outer area",
+      "path_id": "B_11",
+      "radius_mm_quantiles": [
+        1.2682590429143517,
+        2.8201140439478736,
+        5.03251702672182
+      ],
+      "trusted_station_ids": []
+    },
+    {
+      "confidence_quantiles": [
+        0.46357826956063386,
+        0.9987384296640343,
+        0.999999998997841
+      ],
+      "fallback": "Own centerline-to-wall geometry where trusted same-path local stations absent/distant; never unresolved ring outer area",
+      "path_id": "B_12",
+      "radius_mm_quantiles": [
+        1.0,
+        2.6035215155039335,
+        3.5284314074116994
+      ],
+      "trusted_station_ids": [
+        "B_12:20",
+        "B_12:21",
+        "B_12:22",
+        "B_12:23",
+        "B_12:24",
+        "B_12:25",
+        "B_12:26",
+        "B_12:27",
+        "B_12:28",
+        "B_12:29",
+        "B_12:30",
+        "B_12:31",
+        "B_12:32",
+        "B_12:33",
+        "B_12:34",
+        "B_12:35",
+        "B_12:36",
+        "B_12:37",
+        "B_12:38",
+        "B_12:39",
+        "B_12:40",
+        "B_12:41",
+        "B_12:42",
+        "B_12:43",
+        "B_12:44",
+        "B_12:45"
+      ]
+    },
+    {
+      "confidence_quantiles": [
+        0.5490445324989759,
+        0.9991586542684956,
+        0.9999999998041311
+      ],
+      "fallback": "Own centerline-to-wall geometry where trusted same-path local stations absent/distant; never unresolved ring outer area",
+      "path_id": "B_13",
+      "radius_mm_quantiles": [
+        1.0,
+        2.7013921358880806,
+        3.02122309641194
+      ],
+      "trusted_station_ids": [
+        "B_13:21",
+        "B_13:22",
+        "B_13:23",
+        "B_13:24",
+        "B_13:25",
+        "B_13:26",
+        "B_13:27",
+        "B_13:28",
+        "B_13:29",
+        "B_13:30",
+        "B_13:31",
+        "B_13:32",
+        "B_13:33",
+        "B_13:34",
+        "B_13:35",
+        "B_13:36",
+        "B_13:37",
+        "B_13:38",
+        "B_13:39",
+        "B_13:40",
+        "B_13:41",
+        "B_13:42",
+        "B_13:43",
+        "B_13:44",
+        "B_13:45",
+        "B_13:46",
+        "B_13:47"
+      ]
+    },
+    {
+      "confidence_quantiles": [
+        0.4610075464982487,
+        0.9989052857757843,
+        0.9999998768532159
+      ],
+      "fallback": "Own centerline-to-wall geometry where trusted same-path local stations absent/distant; never unresolved ring outer area",
+      "path_id": "B_14",
+      "radius_mm_quantiles": [
+        1.1665519356577885,
+        2.9427255361874067,
+        3.962058082772077
+      ],
+      "trusted_station_ids": [
+        "B_14:17",
+        "B_14:18",
+        "B_14:19",
+        "B_14:20",
+        "B_14:21",
+        "B_14:22",
+        "B_14:23",
+        "B_14:24",
+        "B_14:25",
+        "B_14:26",
+        "B_14:27",
+        "B_14:28",
+        "B_14:29",
+        "B_14:30",
+        "B_14:31",
+        "B_14:32",
+        "B_14:33",
+        "B_14:34",
+        "B_14:35",
+        "B_14:36",
+        "B_14:37",
+        "B_14:38",
+        "B_14:39",
+        "B_14:40",
+        "B_14:41",
+        "B_14:42"
+      ]
+    },
+    {
+      "confidence_quantiles": [
+        0.45000291628118866,
+        0.9981760709690646,
+        0.9999999899744829
+      ],
+      "fallback": "Own centerline-to-wall geometry where trusted same-path local stations absent/distant; never unresolved ring outer area",
+      "path_id": "B_15",
+      "radius_mm_quantiles": [
+        1.0,
+        2.4597735620042323,
+        3.3929064518945373
+      ],
+      "trusted_station_ids": [
+        "B_15:30",
+        "B_15:31",
+        "B_15:32",
+        "B_15:33",
+        "B_15:34",
+        "B_15:35",
+        "B_15:36",
+        "B_15:37",
+        "B_15:38",
+        "B_15:39",
+        "B_15:40",
+        "B_15:41",
+        "B_15:42",
+        "B_15:43",
+        "B_15:44",
+        "B_15:45",
+        "B_15:46",
+        "B_15:47",
+        "B_15:48",
+        "B_15:49",
+        "B_15:50",
+        "B_15:51"
+      ]
+    },
+    {
+      "confidence_quantiles": [
+        0.4500258740857076,
+        0.9990061477505324,
+        0.9999999999494589
+      ],
+      "fallback": "Own centerline-to-wall geometry where trusted same-path local stations absent/distant; never unresolved ring outer area",
+      "path_id": "B_16",
+      "radius_mm_quantiles": [
+        1.6412960588860932,
+        2.908923165319271,
+        3.1018409067069963
+      ],
+      "trusted_station_ids": [
+        "B_16:30",
+        "B_16:31",
+        "B_16:32",
+        "B_16:33",
+        "B_16:34",
+        "B_16:35",
+        "B_16:36",
+        "B_16:37",
+        "B_16:38",
+        "B_16:39",
+        "B_16:40",
+        "B_16:41",
+        "B_16:42",
+        "B_16:43",
+        "B_16:44",
+        "B_16:45",
+        "B_16:46",
+        "B_16:47",
+        "B_16:48",
+        "B_16:49",
+        "B_16:50",
+        "B_16:51",
+        "B_16:52",
+        "B_16:53",
+        "B_16:54"
+      ]
+    },
+    {
+      "confidence_quantiles": [
+        0.45090603771317733,
+        0.99883464273175,
+        0.9999999012283369
+      ],
+      "fallback": "Own centerline-to-wall geometry where trusted same-path local stations absent/distant; never unresolved ring outer area",
+      "path_id": "B_17",
+      "radius_mm_quantiles": [
+        1.4490560826608982,
+        2.8387953069030374,
+        3.3161981736320776
+      ],
+      "trusted_station_ids": [
+        "B_17:26",
+        "B_17:27",
+        "B_17:28",
+        "B_17:29",
+        "B_17:30",
+        "B_17:31",
+        "B_17:32",
+        "B_17:33",
+        "B_17:34",
+        "B_17:35",
+        "B_17:36",
+        "B_17:37",
+        "B_17:38",
+        "B_17:39",
+        "B_17:40",
+        "B_17:41",
+        "B_17:42",
+        "B_17:43",
+        "B_17:44",
+        "B_17:45",
+        "B_17:46",
+        "B_17:47"
+      ]
+    },
+    {
+      "confidence_quantiles": [
+        0.45062305056354185,
+        0.9988771921392208,
+        0.9999999995787052
+      ],
+      "fallback": "Own centerline-to-wall geometry where trusted same-path local stations absent/distant; never unresolved ring outer area",
+      "path_id": "B_18",
+      "radius_mm_quantiles": [
+        1.0,
+        2.85139918045341,
+        3.509156470165255
+      ],
+      "trusted_station_ids": [
+        "B_18:21",
+        "B_18:22",
+        "B_18:23",
+        "B_18:24",
+        "B_18:25",
+        "B_18:26",
+        "B_18:27",
+        "B_18:28",
+        "B_18:29",
+        "B_18:30",
+        "B_18:31",
+        "B_18:32",
+        "B_18:33",
+        "B_18:34",
+        "B_18:35",
+        "B_18:36",
+        "B_18:37",
+        "B_18:38",
+        "B_18:39",
+        "B_18:40"
+      ]
+    },
+    {
+      "confidence_quantiles": [
+        0.5451245848544365,
+        0.9624287081384751,
+        0.9999993556579991
+      ],
+      "fallback": "Own centerline-to-wall geometry where trusted same-path local stations absent/distant; never unresolved ring outer area",
+      "path_id": "B_19",
+      "radius_mm_quantiles": [
+        4.0544666102911515,
+        4.092199154670177,
+        4.149885762939394
+      ],
+      "trusted_station_ids": [
+        "B_19:8",
+        "B_19:9",
+        "B_19:10"
+      ]
+    },
+    {
+      "confidence_quantiles": [
+        0.48364478625218493,
+        0.9956240326314323,
+        0.9999998721424961
+      ],
+      "fallback": "Own centerline-to-wall geometry where trusted same-path local stations absent/distant; never unresolved ring outer area",
+      "path_id": "B_20",
+      "radius_mm_quantiles": [
+        1.4143705636372887,
+        2.793157920836841,
+        3.709801605336654
+      ],
+      "trusted_station_ids": [
+        "B_20:9",
+        "B_20:10",
+        "B_20:11",
+        "B_20:12",
+        "B_20:13",
+        "B_20:14",
+        "B_20:15",
+        "B_20:16",
+        "B_20:17",
+        "B_20:18",
+        "B_20:19",
+        "B_20:20",
+        "B_20:21",
+        "B_20:22",
+        "B_20:23",
+        "B_20:24",
+        "B_20:25",
+        "B_20:26",
+        "B_20:27"
+      ]
+    },
+    {
+      "confidence_quantiles": [
+        0.4800848586088223,
+        0.9294212648404618,
+        0.9999985230182566
+      ],
+      "fallback": "Own centerline-to-wall geometry where trusted same-path local stations absent/distant; never unresolved ring outer area",
+      "path_id": "B_21",
+      "radius_mm_quantiles": [
+        3.28773261781141,
+        4.719027184135469,
+        4.741781735093613
+      ],
+      "trusted_station_ids": [
+        "B_21:7",
+        "B_21:8"
+      ]
+    },
+    {
+      "confidence_quantiles": [
+        0.45,
+        0.45,
+        0.45
+      ],
+      "fallback": "Own centerline-to-wall geometry where trusted same-path local stations absent/distant; never unresolved ring outer area",
+      "path_id": "B_22",
+      "radius_mm_quantiles": [
+        2.826623702296251,
+        4.137315713773046,
+        5.456865698517271
+      ],
+      "trusted_station_ids": []
+    },
+    {
+      "confidence_quantiles": [
+        0.45047439972393377,
+        0.9935476054768051,
+        0.9999997071134816
+      ],
+      "fallback": "Own centerline-to-wall geometry where trusted same-path local stations absent/distant; never unresolved ring outer area",
+      "path_id": "B_23",
+      "radius_mm_quantiles": [
+        1.1784027254959213,
+        3.7520411164503034,
+        4.1512415974326125
+      ],
+      "trusted_station_ids": [
+        "B_23:12",
+        "B_23:13",
+        "B_23:14",
+        "B_23:15",
+        "B_23:16",
+        "B_23:17",
+        "B_23:18",
+        "B_23:19",
+        "B_23:20",
+        "B_23:21",
+        "B_23:22",
+        "B_23:23"
+      ]
+    },
+    {
+      "confidence_quantiles": [
+        0.4592564353006385,
+        0.9962158985076937,
+        0.9999996298449505
+      ],
+      "fallback": "Own centerline-to-wall geometry where trusted same-path local stations absent/distant; never unresolved ring outer area",
+      "path_id": "B_24",
+      "radius_mm_quantiles": [
+        1.0,
+        3.1886430055488733,
+        3.3328646152853456
+      ],
+      "trusted_station_ids": [
+        "B_24:10",
+        "B_24:11",
+        "B_24:12",
+        "B_24:13",
+        "B_24:14",
+        "B_24:15",
+        "B_24:16",
+        "B_24:17",
+        "B_24:18",
+        "B_24:19",
+        "B_24:20",
+        "B_24:21",
+        "B_24:22"
+      ]
+    },
+    {
+      "confidence_quantiles": [
+        0.568523740263954,
+        0.9975136777724527,
+        0.9999999864775722
+      ],
+      "fallback": "Own centerline-to-wall geometry where trusted same-path local stations absent/distant; never unresolved ring outer area",
+      "path_id": "B_25",
+      "radius_mm_quantiles": [
+        2.0100910404184686,
+        4.070416333950243,
+        4.722265370140342
+      ],
+      "trusted_station_ids": [
+        "B_25:8",
+        "B_25:9",
+        "B_25:10",
+        "B_25:11",
+        "B_25:12",
+        "B_25:13",
+        "B_25:14",
+        "B_25:15",
+        "B_25:16",
+        "B_25:17",
+        "B_25:18",
+        "B_25:19",
+        "B_25:20",
+        "B_25:21",
+        "B_25:22",
+        "B_25:23"
+      ]
+    },
+    {
+      "confidence_quantiles": [
+        0.45011894051963475,
+        0.9968485768950881,
+        0.9999999743891406
+      ],
+      "fallback": "Own centerline-to-wall geometry where trusted same-path local stations absent/distant; never unresolved ring outer area",
+      "path_id": "B_26",
+      "radius_mm_quantiles": [
+        1.2960183228723716,
+        3.765170819746107,
+        4.246895798035664
+      ],
+      "trusted_station_ids": [
+        "B_26:13",
+        "B_26:14",
+        "B_26:15",
+        "B_26:16",
+        "B_26:17",
+        "B_26:18",
+        "B_26:19",
+        "B_26:20",
+        "B_26:21",
+        "B_26:22",
+        "B_26:23",
+        "B_26:24",
+        "B_26:25"
+      ]
+    },
+    {
+      "confidence_quantiles": [
+        0.45,
+        0.45,
+        0.45
+      ],
+      "fallback": "Own centerline-to-wall geometry where trusted same-path local stations absent/distant; never unresolved ring outer area",
+      "path_id": "B_27",
+      "radius_mm_quantiles": [
+        1.839021575302887,
+        3.654933805246541,
+        6.077501290762313
+      ],
+      "trusted_station_ids": []
+    },
+    {
+      "confidence_quantiles": [
+        0.6359751264500901,
+        0.9994686742506882,
+        0.9999999968191844
+      ],
+      "fallback": "Own centerline-to-wall geometry where trusted same-path local stations absent/distant; never unresolved ring outer area",
+      "path_id": "B_28",
+      "radius_mm_quantiles": [
+        2.849193741474416,
+        4.077367453046298,
+        4.483137850615764
+      ],
+      "trusted_station_ids": [
+        "B_28:12",
+        "B_28:13",
+        "B_28:14",
+        "B_28:15",
+        "B_28:16",
+        "B_28:17",
+        "B_28:18",
+        "B_28:19",
+        "B_28:20",
+        "B_28:21",
+        "B_28:22",
+        "B_28:23",
+        "B_28:24",
+        "B_28:25",
+        "B_28:26",
+        "B_28:27",
+        "B_28:28",
+        "B_28:29",
+        "B_28:30",
+        "B_28:31",
+        "B_28:32",
+        "B_28:33",
+        "B_28:34",
+        "B_28:35"
+      ]
+    },
+    {
+      "confidence_quantiles": [
+        0.4502660045070725,
+        0.997372986853623,
+        0.9999999999609077
+      ],
+      "fallback": "Own centerline-to-wall geometry where trusted same-path local stations absent/distant; never unresolved ring outer area",
+      "path_id": "B_29",
+      "radius_mm_quantiles": [
+        1.1468340950776672,
+        3.0434216474122064,
+        3.1907226849333385
+      ],
+      "trusted_station_ids": [
+        "B_29:24",
+        "B_29:25",
+        "B_29:26",
+        "B_29:27",
+        "B_29:28",
+        "B_29:29",
+        "B_29:30",
+        "B_29:31",
+        "B_29:32",
+        "B_29:33",
+        "B_29:34",
+        "B_29:35",
+        "B_29:36",
+        "B_29:37",
+        "B_29:38",
+        "B_29:39",
+        "B_29:40",
+        "B_29:41",
+        "B_29:42",
+        "B_29:43",
+        "B_29:44"
+      ]
+    },
+    {
+      "confidence_quantiles": [
+        0.4507838849956361,
+        0.9986328915157727,
+        0.9999999910555202
+      ],
+      "fallback": "Own centerline-to-wall geometry where trusted same-path local stations absent/distant; never unresolved ring outer area",
+      "path_id": "B_30",
+      "radius_mm_quantiles": [
+        1.5144303793103213,
+        3.7434775670283678,
+        4.217072843602691
+      ],
+      "trusted_station_ids": [
+        "B_30:25",
+        "B_30:26",
+        "B_30:27",
+        "B_30:28",
+        "B_30:29",
+        "B_30:30",
+        "B_30:31",
+        "B_30:32",
+        "B_30:33",
+        "B_30:34",
+        "B_30:35",
+        "B_30:36",
+        "B_30:37",
+        "B_30:38",
+        "B_30:39",
+        "B_30:40",
+        "B_30:41",
+        "B_30:42",
+        "B_30:43",
+        "B_30:44",
+        "B_30:45",
+        "B_30:46",
+        "B_30:47",
+        "B_30:48"
+      ]
+    },
+    {
+      "confidence_quantiles": [
+        0.45160646694690665,
+        0.9706847990190179,
+        0.999999553895301
+      ],
+      "fallback": "Own centerline-to-wall geometry where trusted same-path local stations absent/distant; never unresolved ring outer area",
+      "path_id": "B_31",
+      "radius_mm_quantiles": [
+        1.87466026829277,
+        3.0111825693385694,
+        3.0111825693385694
+      ],
+      "trusted_station_ids": [
+        "B_31:22",
+        "B_31:23",
+        "B_31:24",
+        "B_31:25",
+        "B_31:26"
+      ]
+    },
+    {
+      "confidence_quantiles": [
+        0.45,
+        0.45,
+        0.45
+      ],
+      "fallback": "Own centerline-to-wall geometry where trusted same-path local stations absent/distant; never unresolved ring outer area",
+      "path_id": "B_32",
+      "radius_mm_quantiles": [
+        1.6354151738210736,
+        2.7559902364242017,
+        4.937750766146476
+      ],
+      "trusted_station_ids": []
+    }
+  ],
+  "region_names": [
+    "BLADDER_TRANSITION",
+    "B_01",
+    "B_02",
+    "B_03",
+    "B_04",
+    "B_05",
+    "B_06",
+    "B_07",
+    "B_08",
+    "B_09",
+    "B_10",
+    "B_11",
+    "B_12",
+    "B_13",
+    "B_14",
+    "B_15",
+    "B_16",
+    "B_17",
+    "B_18",
+    "B_19",
+    "B_20",
+    "B_21",
+    "B_22",
+    "B_23",
+    "B_24",
+    "B_25",
+    "B_26",
+    "B_27",
+    "B_28",
+    "B_29",
+    "B_30",
+    "B_31",
+    "B_32",
+    "FIXED_ARTIFICIAL",
+    "IN_01",
+    "IN_02",
+    "J_01_SHARED",
+    "J_02_SHARED",
+    "J_03_SHARED",
+    "J_04_SHARED",
+    "J_05_SHARED",
+    "J_06_SHARED",
+    "J_07_SHARED",
+    "J_08_SHARED",
+    "J_09_SHARED",
+    "MAIN",
+    "T_01_CAP",
+    "T_02_CAP",
+    "T_03_CAP",
+    "T_04_CAP",
+    "T_05_CAP",
+    "T_06_CAP",
+    "T_07_CAP",
+    "T_08_CAP",
+    "T_09_CAP",
+    "T_10_CAP",
+    "T_11_CAP",
+    "T_12_CAP",
+    "T_13_CAP",
+    "T_14_CAP",
+    "T_15_CAP",
+    "T_16_CAP",
+    "T_17_CAP",
+    "T_18_CAP",
+    "T_19_CAP",
+    "T_20_CAP",
+    "T_21_CAP",
+    "T_22_CAP"
+  ],
+  "response_constants_are_engineering_assumptions": true,
+  "smoothing_strength": 120.0,
+  "status": "NON_PRODUCTION_PROTOTYPE",
+  "topological_support": {
+    "fallback_normal_vertices": 22,
+    "maximum_candidates_at_vertex": 5,
+    "mean_candidates_at_free_vertex": 1.2116258372757507,
+    "nonadjacent_candidate_weight_maximum": 0.0
+  },
+  "unresolved_sections_used_as_net_area": false
+}

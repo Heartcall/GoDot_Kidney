@@ -1,0 +1,24 @@
+{
+  "V_reference_mL": 16.805962087430178,
+  "candidates": {
+    "S1": {
+      "V_max_target_mL": 18.15043905442459,
+      "V_min_target_mL": 15.965663983058668,
+      "lower_ratio": 0.95,
+      "upper_ratio": 1.08
+    },
+    "S2": {
+      "V_max_target_mL": 19.326856400544703,
+      "V_min_target_mL": 15.12536587868716,
+      "lower_ratio": 0.9,
+      "upper_ratio": 1.15
+    },
+    "S3": {
+      "V_max_target_mL": 21.00745260928772,
+      "V_min_target_mL": 14.285067774315651,
+      "lower_ratio": 0.85,
+      "upper_ratio": 1.25
+    }
+  },
+  "source": "Direct user-specified engineering exploration, NOT medical evidence"
+}

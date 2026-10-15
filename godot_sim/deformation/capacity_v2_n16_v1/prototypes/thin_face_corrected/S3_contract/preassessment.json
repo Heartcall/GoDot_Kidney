@@ -1,0 +1,765 @@
+{
+  "D2_measurement_mesh": {
+    "continuous_area": {
+      "critical_candidate_faces": 311,
+      "maximum_area_ratio": 1.7806433790046081,
+      "maximum_face": 42369,
+      "method": "Exact quartic squared-area extrema; derivative Bernstein sign screen, then real cubic roots on [0,1]",
+      "minimum_area_ratio": 0.11934979862505894,
+      "minimum_face": 42370,
+      "minimum_oriented_area_ratio": -0.9527039883404345
+    },
+    "endpoint_displacement_mm": {
+      "maximum": 0.9098635303689518,
+      "mean": 0.26393980447203763,
+      "median": 0.22031927189452766,
+      "p95": 0.678963979288338
+    },
+    "five_levels": [
+      {
+        "area_fail_faces": 0,
+        "degenerate_faces": 0,
+        "finite": true,
+        "maximum_area_ratio": 1.0,
+        "maximum_edge_gradient": 0.0,
+        "maximum_normal_rotation_deg": 1.7075472925031877e-06,
+        "minimum_area_ratio": 1.0,
+        "reversed_faces": 0,
+        "u": 0,
+        "volume_mL": 16.805962087430167
+      },
+      {
+        "area_fail_faces": 2,
+        "degenerate_faces": 0,
+        "finite": true,
+        "maximum_area_ratio": 1.207544025988747,
+        "maximum_edge_gradient": 0.055064496969505515,
+        "maximum_normal_rotation_deg": 7.786838261419831,
+        "minimum_area_ratio": 0.50686623089435,
+        "reversed_faces": 0,
+        "u": 0.25,
+        "volume_mL": 16.152614795866835
+      },
+      {
+        "area_fail_faces": 7,
+        "degenerate_faces": 0,
+        "finite": true,
+        "maximum_area_ratio": 1.407082837480995,
+        "maximum_edge_gradient": 0.11012899393901103,
+        "maximum_normal_rotation_deg": 84.06842948283864,
+        "minimum_area_ratio": 0.11936540268597072,
+        "reversed_faces": 0,
+        "u": 0.5,
+        "volume_mL": 15.514703631080039
+      },
+      {
+        "area_fail_faces": 23,
+        "degenerate_faces": 0,
+        "finite": true,
+        "maximum_area_ratio": 1.5981891018936725,
+        "maximum_edge_gradient": 0.16519349090851654,
+        "maximum_normal_rotation_deg": 159.47197319823653,
+        "minimum_area_ratio": 0.26792527718050957,
+        "reversed_faces": 1,
+        "u": 0.75,
+        "volume_mL": 14.892198116189654
+      },
+      {
+        "area_fail_faces": 499,
+        "degenerate_faces": 0,
+        "finite": true,
+        "maximum_area_ratio": 1.780643379005481,
+        "maximum_edge_gradient": 0.22025798787802206,
+        "maximum_normal_rotation_deg": 166.15154438050422,
+        "minimum_area_ratio": 0.2849090030672901,
+        "reversed_faces": 2,
+        "u": 1,
+        "volume_mL": 14.285067774315653
+      }
+    ],
+    "gradient_fail_edges": 17,
+    "maximum_edge_gradient": 0.22025798787802206,
+    "quality_gate_passed": false,
+    "worst_edge": [
+      19282,
+      19417
+    ]
+  },
+  "actual_D2_mL": 14.285067774315653,
+  "capacity_contribution": {
+    "D2_actual_delta_mL": -2.520894313114514,
+    "interpretation": "Nonoverlapping source-vertex response supports integrated along this trial trajectory, NOT baseline anatomical region capacities",
+    "regions": [
+      {
+        "delta_volume_mL": -0.03483462237348718,
+        "fraction_of_signed_total": 0.013818358902341173,
+        "max_displacement_mm": 0.5834506882854983,
+        "region": "BLADDER_TRANSITION",
+        "vertices": 475
+      },
+      {
+        "delta_volume_mL": -0.05689345713923662,
+        "fraction_of_signed_total": 0.02256875936577678,
+        "max_displacement_mm": 0.5164898009847777,
+        "region": "B_01",
+        "vertices": 604
+      },
+      {
+        "delta_volume_mL": -0.058925309590306195,
+        "fraction_of_signed_total": 0.02337476398108303,
+        "max_displacement_mm": 0.4587612931731946,
+        "region": "B_02",
+        "vertices": 538
+      },
+      {
+        "delta_volume_mL": -0.032007624096562035,
+        "fraction_of_signed_total": 0.01269693216809921,
+        "max_displacement_mm": 0.3717985142252698,
+        "region": "B_03",
+        "vertices": 439
+      },
+      {
+        "delta_volume_mL": -0.026433045306153976,
+        "fraction_of_signed_total": 0.010485582504843879,
+        "max_displacement_mm": 0.28123425390619605,
+        "region": "B_04",
+        "vertices": 528
+      },
+      {
+        "delta_volume_mL": -0.03006304991492465,
+        "fraction_of_signed_total": 0.011925549499844902,
+        "max_displacement_mm": 0.22609067477181594,
+        "region": "B_05",
+        "vertices": 511
+      },
+      {
+        "delta_volume_mL": -0.03212606606836589,
+        "fraction_of_signed_total": 0.01274391627655139,
+        "max_displacement_mm": 0.2717813317030474,
+        "region": "B_06",
+        "vertices": 352
+      },
+      {
+        "delta_volume_mL": -0.03190405203655169,
+        "fraction_of_signed_total": 0.012655846724940592,
+        "max_displacement_mm": 0.26272874179992534,
+        "region": "B_07",
+        "vertices": 371
+      },
+      {
+        "delta_volume_mL": -0.03306999378124833,
+        "fraction_of_signed_total": 0.013118357881648366,
+        "max_displacement_mm": 0.2592200813094293,
+        "region": "B_08",
+        "vertices": 422
+      },
+      {
+        "delta_volume_mL": -0.043167929680683746,
+        "fraction_of_signed_total": 0.017124053736053156,
+        "max_displacement_mm": 0.3461884314407976,
+        "region": "B_09",
+        "vertices": 643
+      },
+      {
+        "delta_volume_mL": -0.12037782126188112,
+        "fraction_of_signed_total": 0.04775203015677272,
+        "max_displacement_mm": 0.7049789544646083,
+        "region": "B_10",
+        "vertices": 798
+      },
+      {
+        "delta_volume_mL": -0.00584159934349438,
+        "fraction_of_signed_total": 0.0023172726096070254,
+        "max_displacement_mm": 0.24664384995176547,
+        "region": "B_11",
+        "vertices": 86
+      },
+      {
+        "delta_volume_mL": -0.0344208179600775,
+        "fraction_of_signed_total": 0.01365420905628974,
+        "max_displacement_mm": 0.27165737428897707,
+        "region": "B_12",
+        "vertices": 521
+      },
+      {
+        "delta_volume_mL": -0.02700260452219537,
+        "fraction_of_signed_total": 0.010711517885426222,
+        "max_displacement_mm": 0.2459924629481251,
+        "region": "B_13",
+        "vertices": 458
+      },
+      {
+        "delta_volume_mL": -0.04432857517932685,
+        "fraction_of_signed_total": 0.017584463953413336,
+        "max_displacement_mm": 0.42747790282752157,
+        "region": "B_14",
+        "vertices": 500
+      },
+      {
+        "delta_volume_mL": -0.035083785475121664,
+        "fraction_of_signed_total": 0.013917198072368355,
+        "max_displacement_mm": 0.3790670950571879,
+        "region": "B_15",
+        "vertices": 482
+      },
+      {
+        "delta_volume_mL": -0.03832373766923657,
+        "fraction_of_signed_total": 0.015202437273892838,
+        "max_displacement_mm": 0.2636634960455637,
+        "region": "B_16",
+        "vertices": 509
+      },
+      {
+        "delta_volume_mL": -0.03327309128546099,
+        "fraction_of_signed_total": 0.013198923537715773,
+        "max_displacement_mm": 0.2749919448008797,
+        "region": "B_17",
+        "vertices": 461
+      },
+      {
+        "delta_volume_mL": -0.030289276027512864,
+        "fraction_of_signed_total": 0.012015289919112505,
+        "max_displacement_mm": 0.3728881248846874,
+        "region": "B_18",
+        "vertices": 409
+      },
+      {
+        "delta_volume_mL": -0.04273097951284803,
+        "fraction_of_signed_total": 0.01695072232522702,
+        "max_displacement_mm": 0.5197442633017809,
+        "region": "B_19",
+        "vertices": 287
+      },
+      {
+        "delta_volume_mL": -0.06934251743664421,
+        "fraction_of_signed_total": 0.027507110106084906,
+        "max_displacement_mm": 0.3776863506296826,
+        "region": "B_20",
+        "vertices": 668
+      },
+      {
+        "delta_volume_mL": -0.05351848294968508,
+        "fraction_of_signed_total": 0.021229959015443244,
+        "max_displacement_mm": 0.659060665880413,
+        "region": "B_21",
+        "vertices": 281
+      },
+      {
+        "delta_volume_mL": -0.0019266651182165532,
+        "fraction_of_signed_total": 0.0007642784182555426,
+        "max_displacement_mm": 0.4592297058697007,
+        "region": "B_22",
+        "vertices": 14
+      },
+      {
+        "delta_volume_mL": -0.08044623954913535,
+        "fraction_of_signed_total": 0.03191178588115646,
+        "max_displacement_mm": 0.5765373513706022,
+        "region": "B_23",
+        "vertices": 533
+      },
+      {
+        "delta_volume_mL": -0.03928937003038401,
+        "fraction_of_signed_total": 0.015585488779116165,
+        "max_displacement_mm": 0.37632644611364374,
+        "region": "B_24",
+        "vertices": 416
+      },
+      {
+        "delta_volume_mL": -0.11704678087296866,
+        "fraction_of_signed_total": 0.046430657669404525,
+        "max_displacement_mm": 0.8151740915322031,
+        "region": "B_25",
+        "vertices": 614
+      },
+      {
+        "delta_volume_mL": -0.07585368303805386,
+        "fraction_of_signed_total": 0.030089989351571887,
+        "max_displacement_mm": 0.5784817406418118,
+        "region": "B_26",
+        "vertices": 609
+      },
+      {
+        "delta_volume_mL": -0.021729734876146635,
+        "fraction_of_signed_total": 0.008619851599133478,
+        "max_displacement_mm": 0.4403675338609196,
+        "region": "B_27",
+        "vertices": 193
+      },
+      {
+        "delta_volume_mL": -0.08763331323987958,
+        "fraction_of_signed_total": 0.03476278746950339,
+        "max_displacement_mm": 0.5782085462583699,
+        "region": "B_28",
+        "vertices": 480
+      },
+      {
+        "delta_volume_mL": -0.058998462913495975,
+        "fraction_of_signed_total": 0.023403782779217175,
+        "max_displacement_mm": 0.3736803945764287,
+        "region": "B_29",
+        "vertices": 591
+      },
+      {
+        "delta_volume_mL": -0.09022544043723957,
+        "fraction_of_signed_total": 0.035791044459046704,
+        "max_displacement_mm": 0.5239874815463199,
+        "region": "B_30",
+        "vertices": 601
+      },
+      {
+        "delta_volume_mL": -0.005393237406888303,
+        "fraction_of_signed_total": 0.0021394143256347254,
+        "max_displacement_mm": 0.1732100804295769,
+        "region": "B_31",
+        "vertices": 193
+      },
+      {
+        "delta_volume_mL": -0.0017830103183216945,
+        "fraction_of_signed_total": 0.0007072927686995419,
+        "max_displacement_mm": 0.22910229679401775,
+        "region": "B_32",
+        "vertices": 66
+      },
+      {
+        "delta_volume_mL": 0.0,
+        "fraction_of_signed_total": -0.0,
+        "max_displacement_mm": 0.0,
+        "region": "FIXED_ARTIFICIAL",
+        "vertices": 3675
+      },
+      {
+        "delta_volume_mL": -3.7065634161355184e-07,
+        "fraction_of_signed_total": 1.4703366963274768e-07,
+        "max_displacement_mm": 0.0006312597384049256,
+        "region": "IN_01",
+        "vertices": 3
+      },
+      {
+        "delta_volume_mL": -0.002741813391875037,
+        "fraction_of_signed_total": 0.0010876352005759343,
+        "max_displacement_mm": 0.22559076381211046,
+        "region": "IN_02",
+        "vertices": 72
+      },
+      {
+        "delta_volume_mL": -0.009614560330477775,
+        "fraction_of_signed_total": 0.0038139482010252066,
+        "max_displacement_mm": 0.4704813141676997,
+        "region": "J_01_SHARED",
+        "vertices": 67
+      },
+      {
+        "delta_volume_mL": -0.0028465278671016233,
+        "fraction_of_signed_total": 0.0011291738222792829,
+        "max_displacement_mm": 0.23534102508187285,
+        "region": "J_02_SHARED",
+        "vertices": 35
+      },
+      {
+        "delta_volume_mL": -0.011026175955368062,
+        "fraction_of_signed_total": 0.004373914407282487,
+        "max_displacement_mm": 0.2721196042884008,
+        "region": "J_03_SHARED",
+        "vertices": 91
+      },
+      {
+        "delta_volume_mL": -0.0134119431598896,
+        "fraction_of_signed_total": 0.00532031156170106,
+        "max_displacement_mm": 0.38960802302734576,
+        "region": "J_04_SHARED",
+        "vertices": 112
+      },
+      {
+        "delta_volume_mL": -0.001797672633873967,
+        "fraction_of_signed_total": 0.0007131090837572554,
+        "max_displacement_mm": 0.14533157411635367,
+        "region": "J_05_SHARED",
+        "vertices": 38
+      },
+      {
+        "delta_volume_mL": -0.028159039189978648,
+        "fraction_of_signed_total": 0.011170257730951332,
+        "max_displacement_mm": 0.5767482330374988,
+        "region": "J_06_SHARED",
+        "vertices": 163
+      },
+      {
+        "delta_volume_mL": -0.005996379505803416,
+        "fraction_of_signed_total": 0.002378671519312926,
+        "max_displacement_mm": 0.4207974104443422,
+        "region": "J_07_SHARED",
+        "vertices": 48
+      },
+      {
+        "delta_volume_mL": -0.011161086407859228,
+        "fraction_of_signed_total": 0.004427431308720726,
+        "max_displacement_mm": 0.4162642829715806,
+        "region": "J_08_SHARED",
+        "vertices": 86
+      },
+      {
+        "delta_volume_mL": -0.002450896869245563,
+        "fraction_of_signed_total": 0.000972233090651678,
+        "max_displacement_mm": 0.3187130796660671,
+        "region": "J_09_SHARED",
+        "vertices": 23
+      },
+      {
+        "delta_volume_mL": -0.5941346764515582,
+        "fraction_of_signed_total": 0.23568408773056287,
+        "max_displacement_mm": 0.9098635303689518,
+        "region": "MAIN",
+        "vertices": 2299
+      },
+      {
+        "delta_volume_mL": -0.017761413231540873,
+        "fraction_of_signed_total": 0.007045679439689404,
+        "max_displacement_mm": 0.4215866224149619,
+        "region": "T_01_CAP",
+        "vertices": 174
+      },
+      {
+        "delta_volume_mL": -0.019733845087545332,
+        "fraction_of_signed_total": 0.007828112818884726,
+        "max_displacement_mm": 0.3560848644755948,
+        "region": "T_02_CAP",
+        "vertices": 234
+      },
+      {
+        "delta_volume_mL": -0.008578890539492784,
+        "fraction_of_signed_total": 0.0034031139246348406,
+        "max_displacement_mm": 0.20182794623856048,
+        "region": "T_03_CAP",
+        "vertices": 148
+      },
+      {
+        "delta_volume_mL": -0.0032343920463915807,
+        "fraction_of_signed_total": 0.0012830335764435735,
+        "max_displacement_mm": 0.14410161589325254,
+        "region": "T_04_CAP",
+        "vertices": 105
+      },
+      {
+        "delta_volume_mL": -0.006333661038818558,
+        "fraction_of_signed_total": 0.0025124659157144302,
+        "max_displacement_mm": 0.2193015069929422,
+        "region": "T_05_CAP",
+        "vertices": 112
+      },
+      {
+        "delta_volume_mL": -0.004243271272240728,
+        "fraction_of_signed_total": 0.0016832404477116901,
+        "max_displacement_mm": 0.16490067823890647,
+        "region": "T_06_CAP",
+        "vertices": 101
+      },
+      {
+        "delta_volume_mL": -0.004991601688566102,
+        "fraction_of_signed_total": 0.0019800916137571348,
+        "max_displacement_mm": 0.1581953598583564,
+        "region": "T_07_CAP",
+        "vertices": 113
+      },
+      {
+        "delta_volume_mL": -0.009244230461427208,
+        "fraction_of_signed_total": 0.003667044038036703,
+        "max_displacement_mm": 0.27204987658987295,
+        "region": "T_08_CAP",
+        "vertices": 130
+      },
+      {
+        "delta_volume_mL": -0.005675572656153549,
+        "fraction_of_signed_total": 0.0022514123764044254,
+        "max_displacement_mm": 0.1978334328222573,
+        "region": "T_09_CAP",
+        "vertices": 110
+      },
+      {
+        "delta_volume_mL": -0.017930502764518044,
+        "fraction_of_signed_total": 0.007112754656646144,
+        "max_displacement_mm": 0.3787150091196732,
+        "region": "T_10_CAP",
+        "vertices": 196
+      },
+      {
+        "delta_volume_mL": -0.010738662649241781,
+        "fraction_of_signed_total": 0.004259862300999989,
+        "max_displacement_mm": 0.3057347395451784,
+        "region": "T_11_CAP",
+        "vertices": 146
+      },
+      {
+        "delta_volume_mL": -0.009066565715107127,
+        "fraction_of_signed_total": 0.003596567165842652,
+        "max_displacement_mm": 0.2254323812038017,
+        "region": "T_12_CAP",
+        "vertices": 141
+      },
+      {
+        "delta_volume_mL": -0.009141580093693577,
+        "fraction_of_signed_total": 0.00362632421602766,
+        "max_displacement_mm": 0.315207541938113,
+        "region": "T_13_CAP",
+        "vertices": 145
+      },
+      {
+        "delta_volume_mL": -0.011745116523530538,
+        "fraction_of_signed_total": 0.004659107072608563,
+        "max_displacement_mm": 0.37028773358186634,
+        "region": "T_14_CAP",
+        "vertices": 144
+      },
+      {
+        "delta_volume_mL": -0.011269334777456605,
+        "fraction_of_signed_total": 0.004470371771965945,
+        "max_displacement_mm": 0.31286120797841077,
+        "region": "T_15_CAP",
+        "vertices": 153
+      },
+      {
+        "delta_volume_mL": -0.0196613718588843,
+        "fraction_of_signed_total": 0.007799363803789565,
+        "max_displacement_mm": 0.39497707913526864,
+        "region": "T_16_CAP",
+        "vertices": 186
+      },
+      {
+        "delta_volume_mL": -0.007646026694259058,
+        "fraction_of_signed_total": 0.003033061185660158,
+        "max_displacement_mm": 0.1931805040639449,
+        "region": "T_17_CAP",
+        "vertices": 134
+      },
+      {
+        "delta_volume_mL": -0.05259573575067131,
+        "fraction_of_signed_total": 0.020863919394419332,
+        "max_displacement_mm": 0.7187517902192987,
+        "region": "T_18_CAP",
+        "vertices": 283
+      },
+      {
+        "delta_volume_mL": -0.045860303498130396,
+        "fraction_of_signed_total": 0.01819207701788613,
+        "max_displacement_mm": 0.5737283371095753,
+        "region": "T_19_CAP",
+        "vertices": 286
+      },
+      {
+        "delta_volume_mL": -0.048785707112841234,
+        "fraction_of_signed_total": 0.019352539636049826,
+        "max_displacement_mm": 0.5332956963611091,
+        "region": "T_20_CAP",
+        "vertices": 330
+      },
+      {
+        "delta_volume_mL": -0.006406109919708221,
+        "fraction_of_signed_total": 0.002541205272423183,
+        "max_displacement_mm": 0.2568072336869004,
+        "region": "T_21_CAP",
+        "vertices": 123
+      },
+      {
+        "delta_volume_mL": -0.012624898903189173,
+        "fraction_of_signed_total": 0.005008103210638516,
+        "max_displacement_mm": 0.3859736084189679,
+        "region": "T_22_CAP",
+        "vertices": 165
+      }
+    ],
+    "residual_mL": -1.3322676295501878e-15,
+    "sum_delta_mL": -2.5208943131145154
+  },
+  "cavity": {
+    "continuous_area": {
+      "critical_candidate_faces": 331,
+      "maximum_area_ratio": 1.1259329826020292,
+      "maximum_face": 5230,
+      "method": "Exact quartic squared-area extrema; derivative Bernstein sign screen, then real cubic roots on [0,1]",
+      "minimum_area_ratio": 0.7060360079971353,
+      "minimum_face": 33399,
+      "minimum_oriented_area_ratio": 0.7055516699684781
+    },
+    "endpoint_displacement_mm": {
+      "maximum": 0.9098635303689518,
+      "mean": 0.2644532331900678,
+      "median": 0.2200272560627185,
+      "p95": 0.6831822920305212
+    },
+    "five_levels": [
+      {
+        "area_fail_faces": 0,
+        "degenerate_faces": 0,
+        "finite": true,
+        "maximum_area_ratio": 1.0,
+        "maximum_edge_gradient": 0.0,
+        "maximum_normal_rotation_deg": 1.9090959104164224e-06,
+        "minimum_area_ratio": 1.0,
+        "reversed_faces": 0,
+        "u": 0,
+        "volume_mL": 19.723077362519593
+      },
+      {
+        "area_fail_faces": 0,
+        "degenerate_faces": 0,
+        "finite": true,
+        "maximum_area_ratio": 1.0319765796391325,
+        "maximum_edge_gradient": 0.055064496969505515,
+        "maximum_normal_rotation_deg": 3.6897022953487286,
+        "minimum_area_ratio": 0.9240571880630426,
+        "reversed_faces": 0,
+        "u": 0.25,
+        "volume_mL": 19.06706719198539
+      },
+      {
+        "area_fail_faces": 0,
+        "degenerate_faces": 0,
+        "finite": true,
+        "maximum_area_ratio": 1.063687762074914,
+        "maximum_edge_gradient": 0.11012899393901103,
+        "maximum_normal_rotation_deg": 7.359106037151925,
+        "minimum_area_ratio": 0.8507891126631605,
+        "reversed_faces": 0,
+        "u": 0.5,
+        "volume_mL": 18.426526089350936
+      },
+      {
+        "area_fail_faces": 12,
+        "degenerate_faces": 0,
+        "finite": true,
+        "maximum_area_ratio": 1.0950346298200089,
+        "maximum_edge_gradient": 0.16519349090851654,
+        "maximum_normal_rotation_deg": 11.471682777113704,
+        "minimum_area_ratio": 0.779693032664509,
+        "reversed_faces": 0,
+        "u": 0.75,
+        "volume_mL": 17.801423481415423
+      },
+      {
+        "area_fail_faces": 485,
+        "degenerate_faces": 0,
+        "finite": true,
+        "maximum_area_ratio": 1.1259329826020366,
+        "maximum_edge_gradient": 0.22025798787802206,
+        "maximum_normal_rotation_deg": 16.028605433727524,
+        "minimum_area_ratio": 0.7060360079971398,
+        "reversed_faces": 0,
+        "u": 1,
+        "volume_mL": 17.19172879497815
+      }
+    ],
+    "gradient_fail_edges": 17,
+    "maximum_edge_gradient": 0.22025798787802206,
+    "quality_gate_passed": false,
+    "worst_edge": [
+      19282,
+      19417
+    ]
+  },
+  "coincident_relative_motion_maximum_mm": 0.0,
+  "direction": "contract",
+  "endoscope_clearance_status": "NOT_COMPUTED_NEEDS_SELECTED_STATE_PATH_AND_INSTRUMENT_ENVELOPE",
+  "finite_intersections_status": "PENDING_SEPARATE_CONTACT_SCAN",
+  "fixed_maximum_mm": 0.0,
+  "id": "S3_contract",
+  "label": "MORPHOLOGY_GUIDED_UNCALIBRATED_CAPACITY_ESTIMATE",
+  "plan": "S3",
+  "reference_sensitivity_mL_per_unit": -10.964760816522762,
+  "relative_capacity_change": -0.15000000000000002,
+  "remote_tissue_maximum_mm": 0.0,
+  "response_amplitude": 0.24116367879741332,
+  "status": "NUMERICAL_PREASSESSMENT_NOT_ACCEPTED_N2",
+  "target_mL": 14.285067774315651,
+  "tissue": {
+    "continuous_area": {
+      "critical_candidate_faces": 213,
+      "maximum_area_ratio": 1.0649685398514115,
+      "maximum_face": 199326,
+      "method": "Exact quartic squared-area extrema; derivative Bernstein sign screen, then real cubic roots on [0,1]",
+      "minimum_area_ratio": 0.7122599588241616,
+      "minimum_face": 181408,
+      "minimum_oriented_area_ratio": 0.71173081195788
+    },
+    "endpoint_displacement_mm": {
+      "maximum": 0.7652751312768848,
+      "mean": 0.03754840165701218,
+      "median": 0.0,
+      "p95": 0.27326950816520146
+    },
+    "five_levels": [
+      {
+        "area_fail_faces": 0,
+        "degenerate_faces": 0,
+        "finite": true,
+        "maximum_area_ratio": 1.0,
+        "maximum_edge_gradient": 0.0,
+        "maximum_normal_rotation_deg": 1.9090959104164224e-06,
+        "minimum_area_ratio": 1.0,
+        "reversed_faces": 0,
+        "u": 0,
+        "volume_mL": 300.22443238551654
+      },
+      {
+        "area_fail_faces": 0,
+        "degenerate_faces": 0,
+        "finite": true,
+        "maximum_area_ratio": 1.0171493601581805,
+        "maximum_edge_gradient": 0.04442497889204856,
+        "maximum_normal_rotation_deg": 2.57339851651109,
+        "minimum_area_ratio": 0.9281024470060801,
+        "reversed_faces": 0,
+        "u": 0.25,
+        "volume_mL": 300.7897732482218
+      },
+      {
+        "area_fail_faces": 0,
+        "degenerate_faces": 0,
+        "finite": true,
+        "maximum_area_ratio": 1.0333710976134618,
+        "maximum_edge_gradient": 0.08884995778409711,
+        "maximum_normal_rotation_deg": 5.202706241244895,
+        "minimum_area_ratio": 0.8561694134825125,
+        "reversed_faces": 0,
+        "u": 0.5,
+        "volume_mL": 301.34575208683464
+      },
+      {
+        "area_fail_faces": 1,
+        "degenerate_faces": 0,
+        "finite": true,
+        "maximum_area_ratio": 1.049348367178614,
+        "maximum_edge_gradient": 0.13327493667614568,
+        "maximum_normal_rotation_deg": 7.882601348224756,
+        "minimum_area_ratio": 0.7842150899264585,
+        "reversed_faces": 0,
+        "u": 0.75,
+        "volume_mL": 301.8923788426237
+      },
+      {
+        "area_fail_faces": 8,
+        "degenerate_faces": 0,
+        "finite": true,
+        "maximum_area_ratio": 1.0649685398514248,
+        "maximum_edge_gradient": 0.17769991556819423,
+        "maximum_normal_rotation_deg": 10.606964089595884,
+        "minimum_area_ratio": 0.7122599588241412,
+        "reversed_faces": 0,
+        "u": 1,
+        "volume_mL": 302.429663456858
+      }
+    ],
+    "gradient_fail_edges": 0,
+    "maximum_edge_gradient": 0.17769991556819423,
+    "quality_gate_passed": false,
+    "worst_edge": [
+      94809,
+      94810
+    ]
+  },
+  "volume_polynomial_mL": [
+    16.805962087430167,
+    -10.964760816522762,
+    2.1274587261117794,
+    -0.023177336660633766
+  ]
+}

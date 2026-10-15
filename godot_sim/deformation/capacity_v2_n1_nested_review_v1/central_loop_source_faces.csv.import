@@ -1,0 +1,19 @@
+[remap]
+
+importer="csv_translation"
+type="Translation"
+uid="uid://cbkngubymsrhh"
+
+[deps]
+
+files=["res://deformation/capacity_v2_n1_nested_review_v1/central_loop_source_faces.loop.translation", "res://deformation/capacity_v2_n1_nested_review_v1/central_loop_source_faces.segment.translation", "res://deformation/capacity_v2_n1_nested_review_v1/central_loop_source_faces.D2.translation", "res://deformation/capacity_v2_n1_nested_review_v1/central_loop_source_faces.source.translation", "res://deformation/capacity_v2_n1_nested_review_v1/central_loop_source_faces.CT.translation", "res://deformation/capacity_v2_n1_nested_review_v1/central_loop_source_faces.CT.translation", "res://deformation/capacity_v2_n1_nested_review_v1/central_loop_source_faces.CT.translation", "res://deformation/capacity_v2_n1_nested_review_v1/central_loop_source_faces.start.translation", "res://deformation/capacity_v2_n1_nested_review_v1/central_loop_source_faces.start.translation", "res://deformation/capacity_v2_n1_nested_review_v1/central_loop_source_faces.start.translation"]
+
+source_file="res://deformation/capacity_v2_n1_nested_review_v1/central_loop_source_faces.csv"
+dest_files=["res://deformation/capacity_v2_n1_nested_review_v1/central_loop_source_faces.loop.translation", "res://deformation/capacity_v2_n1_nested_review_v1/central_loop_source_faces.segment.translation", "res://deformation/capacity_v2_n1_nested_review_v1/central_loop_source_faces.D2.translation", "res://deformation/capacity_v2_n1_nested_review_v1/central_loop_source_faces.source.translation", "res://deformation/capacity_v2_n1_nested_review_v1/central_loop_source_faces.CT.translation", "res://deformation/capacity_v2_n1_nested_review_v1/central_loop_source_faces.CT.translation", "res://deformation/capacity_v2_n1_nested_review_v1/central_loop_source_faces.CT.translation", "res://deformation/capacity_v2_n1_nested_review_v1/central_loop_source_faces.start.translation", "res://deformation/capacity_v2_n1_nested_review_v1/central_loop_source_faces.start.translation", "res://deformation/capacity_v2_n1_nested_review_v1/central_loop_source_faces.start.translation"]
+
+[params]
+
+compress=1
+delimiter=0
+unescape_keys=false
+unescape_translations=true

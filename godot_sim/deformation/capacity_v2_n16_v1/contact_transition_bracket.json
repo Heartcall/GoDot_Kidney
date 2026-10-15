@@ -1,0 +1,425 @@
+{
+  "field_geometry_parameters_changed_during_search": false,
+  "last_observed_clean_amplitude": 0.04616061529196876,
+  "last_observed_failing_amplitude": 0.046502412741852885,
+  "margin_factor": 0.8,
+  "not_a_clinical_margin": true,
+  "not_a_global_first_collision_proof": true,
+  "observations": [
+    {
+      "actual_D2_volume_mL": 17.136647623217044,
+      "amplitude": 0.02599456574880555,
+      "confirmed_transverse_crossings": 0,
+      "crossing_rows": []
+    },
+    {
+      "actual_D2_volume_mL": 17.41773200605653,
+      "amplitude": 0.047869602541389375,
+      "confirmed_transverse_crossings": 18,
+      "crossing_rows": [
+        {
+          "cavity_face": 1353,
+          "center_mm": [
+            2.24288662222037,
+            6.437904317245438,
+            -48.37845418551129
+          ],
+          "class": "FINITE_TRANSVERSE_CROSSING",
+          "coplanar_pair_overlap_area_mm2": 0.0,
+          "finite_segment_length_mm": 0.0036824575584020244,
+          "segment_support_residual_mm": 7.160723346098895e-15,
+          "tissue_face": 90282
+        },
+        {
+          "cavity_face": 1354,
+          "center_mm": [
+            2.237946534198408,
+            6.435191670939528,
+            -48.37843782012103
+          ],
+          "class": "FINITE_TRANSVERSE_CROSSING",
+          "coplanar_pair_overlap_area_mm2": 0.0,
+          "finite_segment_length_mm": 0.0034758447234625595,
+          "segment_support_residual_mm": 7.215595591812694e-15,
+          "tissue_face": 90281
+        },
+        {
+          "cavity_face": 1354,
+          "center_mm": [
+            2.240137192943461,
+            6.437370186559772,
+            -48.378444294692244
+          ],
+          "class": "FINITE_TRANSVERSE_CROSSING",
+          "coplanar_pair_overlap_area_mm2": 0.0,
+          "finite_segment_length_mm": 0.002703144742448285,
+          "segment_support_residual_mm": 7.105427357601002e-15,
+          "tissue_face": 90282
+        },
+        {
+          "cavity_face": 1355,
+          "center_mm": [
+            2.2353743016542396,
+            6.430997726014848,
+            -48.37843155356983
+          ],
+          "class": "FINITE_TRANSVERSE_CROSSING",
+          "coplanar_pair_overlap_area_mm2": 0.0,
+          "finite_segment_length_mm": 0.006515268589320757,
+          "segment_support_residual_mm": 7.119291619286993e-15,
+          "tissue_face": 90281
+        },
+        {
+          "cavity_face": 1355,
+          "center_mm": [
+            2.23359074186908,
+            6.427039513507999,
+            -48.378428881160694
+          ],
+          "class": "FINITE_TRANSVERSE_CROSSING",
+          "coplanar_pair_overlap_area_mm2": 0.0,
+          "finite_segment_length_mm": 0.0021677122416617705,
+          "segment_support_residual_mm": 7.105427357601002e-15,
+          "tissue_face": 96366
+        },
+        {
+          "cavity_face": 15125,
+          "center_mm": [
+            2.245794041602541,
+            6.436571151534945,
+            -48.37846759831394
+          ],
+          "class": "FINITE_TRANSVERSE_CROSSING",
+          "coplanar_pair_overlap_area_mm2": 0.0,
+          "finite_segment_length_mm": 0.0028816834547169294,
+          "segment_support_residual_mm": 7.105427357601002e-15,
+          "tissue_face": 90282
+        },
+        {
+          "cavity_face": 15125,
+          "center_mm": [
+            2.2480039345030187,
+            6.43478823552441,
+            -48.37847552770961
+          ],
+          "class": "FINITE_TRANSVERSE_CROSSING",
+          "coplanar_pair_overlap_area_mm2": 0.0,
+          "finite_segment_length_mm": 0.002797372754612438,
+          "segment_support_residual_mm": 7.119291619286993e-15,
+          "tissue_face": 90283
+        },
+        {
+          "cavity_face": 15520,
+          "center_mm": [
+            2.249115967703362,
+            6.430952949376983,
+            -48.378477093976
+          ],
+          "class": "FINITE_TRANSVERSE_CROSSING",
+          "coplanar_pair_overlap_area_mm2": 0.0,
+          "finite_segment_length_mm": 0.005930330246583376,
+          "segment_support_residual_mm": 4.440892098500626e-16,
+          "tissue_face": 90283
+        },
+        {
+          "cavity_face": 15520,
+          "center_mm": [
+            2.2512580797194874,
+            5.972144611450003,
+            -48.3784351673373
+          ],
+          "class": "FINITE_TRANSVERSE_CROSSING",
+          "coplanar_pair_overlap_area_mm2": 0.0,
+          "finite_segment_length_mm": 0.9116963539977949,
+          "segment_support_residual_mm": 7.119291619286993e-15,
+          "tissue_face": 96368
+        },
+        {
+          "cavity_face": 15521,
+          "center_mm": [
+            2.2528658356482154,
+            5.515169293769732,
+            -48.37839261328453
+          ],
+          "class": "FINITE_TRANSVERSE_CROSSING",
+          "coplanar_pair_overlap_area_mm2": 0.0,
+          "finite_segment_length_mm": 0.002489427809932925,
+          "segment_support_residual_mm": 0.0,
+          "tissue_face": 96368
+        },
+        {
+          "cavity_face": 15521,
+          "center_mm": [
+            2.2512614734579013,
+            5.511633039172626,
+            -48.378386557902346
+          ],
+          "class": "FINITE_TRANSVERSE_CROSSING",
+          "coplanar_pair_overlap_area_mm2": 0.0,
+          "finite_segment_length_mm": 0.00527695284697343,
+          "segment_support_residual_mm": 7.160723346098895e-15,
+          "tissue_face": 96369
+        },
+        {
+          "cavity_face": 15522,
+          "center_mm": [
+            2.2482290615981597,
+            5.5072956613719635,
+            -48.378377360683885
+          ],
+          "class": "FINITE_TRANSVERSE_CROSSING",
+          "coplanar_pair_overlap_area_mm2": 0.0,
+          "finite_segment_length_mm": 0.005485254973440895,
+          "segment_support_residual_mm": 7.160723346098895e-15,
+          "tissue_face": 96369
+        },
+        {
+          "cavity_face": 15524,
+          "center_mm": [
+            2.2331912268214302,
+            6.424067229886148,
+            -48.37843163853607
+          ],
+          "class": "FINITE_TRANSVERSE_CROSSING",
+          "coplanar_pair_overlap_area_mm2": 0.0,
+          "finite_segment_length_mm": 0.003969155408220421,
+          "segment_support_residual_mm": 4.440892098500626e-16,
+          "tissue_face": 96366
+        },
+        {
+          "cavity_face": 15524,
+          "center_mm": [
+            2.2361933265742673,
+            5.965678351742257,
+            -48.378396542425
+          ],
+          "class": "FINITE_TRANSVERSE_CROSSING",
+          "coplanar_pair_overlap_area_mm2": 0.0,
+          "finite_segment_length_mm": 0.9128288096714612,
+          "segment_support_residual_mm": 4.440892098500626e-16,
+          "tissue_face": 96367
+        },
+        {
+          "cavity_face": 15525,
+          "center_mm": [
+            2.2411338465270667,
+            5.507698677735421,
+            -48.378364392414426
+          ],
+          "class": "FINITE_TRANSVERSE_CROSSING",
+          "coplanar_pair_overlap_area_mm2": 0.0,
+          "finite_segment_length_mm": 0.005066189752328005,
+          "segment_support_residual_mm": 8.881784197001252e-16,
+          "tissue_face": 96367
+        },
+        {
+          "cavity_face": 15533,
+          "center_mm": [
+            2.2431554666095965,
+            5.5061152796822945,
+            -48.37837085260938
+          ],
+          "class": "FINITE_TRANSVERSE_CROSSING",
+          "coplanar_pair_overlap_area_mm2": 0.0,
+          "finite_segment_length_mm": 7.709499553712986e-05,
+          "segment_support_residual_mm": 7.105427357601002e-15,
+          "tissue_face": 96367
+        },
+        {
+          "cavity_face": 15533,
+          "center_mm": [
+            2.243667517214603,
+            5.505996023609944,
+            -48.37837198042746
+          ],
+          "class": "FINITE_TRANSVERSE_CROSSING",
+          "coplanar_pair_overlap_area_mm2": 0.0,
+          "finite_segment_length_mm": 0.0009744176277332797,
+          "segment_support_residual_mm": 7.337557957613285e-15,
+          "tissue_face": 96368
+        },
+        {
+          "cavity_face": 15533,
+          "center_mm": [
+            2.2452128125609487,
+            5.505623880595202,
+            -48.37837299112174
+          ],
+          "class": "FINITE_TRANSVERSE_CROSSING",
+          "coplanar_pair_overlap_area_mm2": 0.0,
+          "finite_segment_length_mm": 0.002204568187795902,
+          "segment_support_residual_mm": 7.160723346098895e-15,
+          "tissue_face": 96369
+        }
+      ]
+    },
+    {
+      "actual_D2_volume_mL": 17.276869234610775,
+      "amplitude": 0.036932084145097466,
+      "confirmed_transverse_crossings": 0,
+      "crossing_rows": []
+    },
+    {
+      "actual_D2_volume_mL": 17.347220457819294,
+      "amplitude": 0.04240084334324342,
+      "confirmed_transverse_crossings": 0,
+      "crossing_rows": []
+    },
+    {
+      "actual_D2_volume_mL": 17.382456189120813,
+      "amplitude": 0.045135222942316394,
+      "confirmed_transverse_crossings": 0,
+      "crossing_rows": []
+    },
+    {
+      "actual_D2_volume_mL": 17.400089086610834,
+      "amplitude": 0.046502412741852885,
+      "confirmed_transverse_crossings": 10,
+      "crossing_rows": [
+        {
+          "cavity_face": 1353,
+          "center_mm": [
+            2.2416541533661283,
+            6.434368361603383,
+            -48.37656985708882
+          ],
+          "class": "FINITE_TRANSVERSE_CROSSING",
+          "coplanar_pair_overlap_area_mm2": 0.0,
+          "finite_segment_length_mm": 0.00024249409138482657,
+          "segment_support_residual_mm": 7.105427357601002e-15,
+          "tissue_face": 90282
+        },
+        {
+          "cavity_face": 1354,
+          "center_mm": [
+            2.2413922512020483,
+            6.434252523004519,
+            -48.376569039747
+          ],
+          "class": "FINITE_TRANSVERSE_CROSSING",
+          "coplanar_pair_overlap_area_mm2": 0.0,
+          "finite_segment_length_mm": 0.00040641748253767676,
+          "segment_support_residual_mm": 7.215595591812694e-15,
+          "tissue_face": 90282
+        },
+        {
+          "cavity_face": 1355,
+          "center_mm": [
+            2.2411323283418403,
+            6.433850088619968,
+            -48.37656866331123
+          ],
+          "class": "FINITE_TRANSVERSE_CROSSING",
+          "coplanar_pair_overlap_area_mm2": 0.0,
+          "finite_segment_length_mm": 0.0005674746467916892,
+          "segment_support_residual_mm": 7.105427357601002e-15,
+          "tissue_face": 90282
+        },
+        {
+          "cavity_face": 15125,
+          "center_mm": [
+            2.2419157263473615,
+            6.434223261395046,
+            -48.37657106778849
+          ],
+          "class": "FINITE_TRANSVERSE_CROSSING",
+          "coplanar_pair_overlap_area_mm2": 0.0,
+          "finite_segment_length_mm": 0.0003708805103749483,
+          "segment_support_residual_mm": 7.17448075233818e-15,
+          "tissue_face": 90282
+        },
+        {
+          "cavity_face": 15520,
+          "center_mm": [
+            2.24204102021986,
+            6.432383731918787,
+            -48.37657432444202
+          ],
+          "class": "FINITE_TRANSVERSE_CROSSING",
+          "coplanar_pair_overlap_area_mm2": 0.0,
+          "finite_segment_length_mm": 0.003444420844655816,
+          "segment_support_residual_mm": 7.119291619286993e-15,
+          "tissue_face": 90282
+        },
+        {
+          "cavity_face": 15520,
+          "center_mm": [
+            2.242029262079546,
+            6.429498130588293,
+            -48.3765766326136
+          ],
+          "class": "FINITE_TRANSVERSE_CROSSING",
+          "coplanar_pair_overlap_area_mm2": 0.0,
+          "finite_segment_length_mm": 0.0023270147466160963,
+          "segment_support_residual_mm": 7.119291619286993e-15,
+          "tissue_face": 90283
+        },
+        {
+          "cavity_face": 15520,
+          "center_mm": [
+            2.2432444085438976,
+            6.161549251424836,
+            -48.376552899959535
+          ],
+          "class": "FINITE_TRANSVERSE_CROSSING",
+          "coplanar_pair_overlap_area_mm2": 0.0,
+          "finite_segment_length_mm": 0.5335762575938834,
+          "segment_support_residual_mm": 4.440892098500626e-16,
+          "tissue_face": 96368
+        },
+        {
+          "cavity_face": 15524,
+          "center_mm": [
+            2.241058060184221,
+            6.431668096711343,
+            -48.376571681583016
+          ],
+          "class": "FINITE_TRANSVERSE_CROSSING",
+          "coplanar_pair_overlap_area_mm2": 0.0,
+          "finite_segment_length_mm": 0.0038470709041858223,
+          "segment_support_residual_mm": 7.160723346098895e-15,
+          "tissue_face": 90282
+        },
+        {
+          "cavity_face": 15524,
+          "center_mm": [
+            2.2411035490178284,
+            6.42904107083206,
+            -48.37657461034924
+          ],
+          "class": "FINITE_TRANSVERSE_CROSSING",
+          "coplanar_pair_overlap_area_mm2": 0.0,
+          "finite_segment_length_mm": 0.0014079134269769946,
+          "segment_support_residual_mm": 7.160723346098895e-15,
+          "tissue_face": 90283
+        },
+        {
+          "cavity_face": 15524,
+          "center_mm": [
+            2.2427801596763777,
+            6.161550492699831,
+            -48.376551933418725
+          ],
+          "class": "FINITE_TRANSVERSE_CROSSING",
+          "coplanar_pair_overlap_area_mm2": 0.0,
+          "finite_segment_length_mm": 0.5335837542711795,
+          "segment_support_residual_mm": 7.160723346098895e-15,
+          "tissue_face": 96368
+        }
+      ]
+    },
+    {
+      "actual_D2_volume_mL": 17.39127138515557,
+      "amplitude": 0.045818817842084636,
+      "confirmed_transverse_crossings": 0,
+      "crossing_rows": []
+    },
+    {
+      "actual_D2_volume_mL": 17.39567992270135,
+      "amplitude": 0.04616061529196876,
+      "confirmed_transverse_crossings": 0,
+      "crossing_rows": []
+    }
+  ],
+  "reason": "Keep 20% amplitude margin below this experimentally bracketed onset for the fixed provisional mapping"
+}

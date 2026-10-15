@@ -1,0 +1,768 @@
+{
+  "label": "MORPHOLOGY_GUIDED_UNCALIBRATED_CAPACITY_ESTIMATE",
+  "reference_mL": 16.805962087430178,
+  "trials": [
+    {
+      "actual_material_D2_integral_mL": 15.96566398305867,
+      "capacity_accounting_residual_mL": -2.3314683517128287e-15,
+      "cavity_continuous_area": {
+        "critical_candidate_faces": 101,
+        "maximum_area_ratio": 1.0412231079265564,
+        "maximum_face": 5230,
+        "method": "Exact quartic squared-area extrema; derivative Bernstein sign screen, then real cubic roots on [0,1]",
+        "minimum_area_ratio": 0.902491461777913,
+        "minimum_face": 1153,
+        "minimum_oriented_area_ratio": 0.9024509141740024
+      },
+      "cavity_displacement_mm": {
+        "maximum": 0.2935618228780249,
+        "mean": 0.08532419490402386,
+        "median": 0.07099042902228375,
+        "p95": 0.2204245277587298
+      },
+      "cavity_max_gradient": 0.07106487321092925,
+      "contact_samples": [
+        {
+          "D2_self_confirmed": 0,
+          "cavity_self_confirmed": 0,
+          "cavity_tissue_confirmed": 0,
+          "cross_coplanar_pair_area_sum_mm2": 11.982428756757585,
+          "maximum_crossing_segment_mm": 0.0,
+          "new_cross_coplanar_overlap_pairs": 0,
+          "new_self_coplanar_overlap_pairs": 0,
+          "retained_cross_coplanar_overlap_pairs": 42,
+          "tissue_self_confirmed": null,
+          "u": 0.25
+        },
+        {
+          "D2_self_confirmed": 0,
+          "cavity_self_confirmed": 0,
+          "cavity_tissue_confirmed": 0,
+          "cross_coplanar_pair_area_sum_mm2": 11.89112292064774,
+          "maximum_crossing_segment_mm": 0.0,
+          "new_cross_coplanar_overlap_pairs": 0,
+          "new_self_coplanar_overlap_pairs": 0,
+          "retained_cross_coplanar_overlap_pairs": 42,
+          "tissue_self_confirmed": null,
+          "u": 0.5
+        },
+        {
+          "D2_self_confirmed": 0,
+          "cavity_self_confirmed": 0,
+          "cavity_tissue_confirmed": 0,
+          "cross_coplanar_pair_area_sum_mm2": 11.80006258677167,
+          "maximum_crossing_segment_mm": 0.0,
+          "new_cross_coplanar_overlap_pairs": 0,
+          "new_self_coplanar_overlap_pairs": 0,
+          "retained_cross_coplanar_overlap_pairs": 42,
+          "tissue_self_confirmed": null,
+          "u": 0.75
+        },
+        {
+          "D2_self_confirmed": 0,
+          "cavity_self_confirmed": 0,
+          "cavity_tissue_confirmed": 0,
+          "cross_coplanar_pair_area_sum_mm2": 11.709247897700385,
+          "maximum_crossing_segment_mm": 0.0,
+          "new_cross_coplanar_overlap_pairs": 0,
+          "new_self_coplanar_overlap_pairs": 0,
+          "retained_cross_coplanar_overlap_pairs": 42,
+          "tissue_self_confirmed": 0,
+          "u": 1.0
+        }
+      ],
+      "failed_alternative_closures": [],
+      "fixed_maximum_mm": 0.0,
+      "id": "S1_contract",
+      "quality_pass": true,
+      "relative_capacity_change": -0.050000000000000044,
+      "remaining": [
+        "Full continuous finite collision detection",
+        "Intermediate tissue self-intersection scans",
+        "Godot float32/runtime export consistency",
+        "Selected endoscope path and envelope clearance",
+        "User review and formal N2 solve"
+      ],
+      "response_amplitude": 0.07780996467792374,
+      "sampled_contact_pass": true,
+      "status": "SAMPLED_PREASSESSMENT_PASS_NOT_N2_ACCEPTED",
+      "tissue_continuous_area": {
+        "critical_candidate_faces": 72,
+        "maximum_area_ratio": 1.0219586940725878,
+        "maximum_face": 199318,
+        "method": "Exact quartic squared-area extrema; derivative Bernstein sign screen, then real cubic roots on [0,1]",
+        "minimum_area_ratio": 0.9072036140430557,
+        "minimum_face": 181408,
+        "minimum_oriented_area_ratio": 0.9071587861158367
+      },
+      "tissue_displacement_mm": {
+        "maximum": 0.24691127300130797,
+        "mean": 0.012114758827754073,
+        "median": 0.0,
+        "p95": 0.08816871132468387
+      },
+      "tissue_max_gradient": 0.05733377522925531,
+      "valid_endpoint_closure_spread_mL": 9.637177634580496e-05,
+      "valid_endpoint_closure_volume_range_mL": [
+        15.965567618591924,
+        15.96566399036827
+      ]
+    },
+    {
+      "actual_material_D2_integral_mL": 18.150439054424535,
+      "capacity_accounting_residual_mL": -4.218847493575595e-15,
+      "cavity_continuous_area": {
+        "critical_candidate_faces": 150,
+        "maximum_area_ratio": 1.1440549484104992,
+        "maximum_face": 7709,
+        "method": "Exact quartic squared-area extrema; derivative Bernstein sign screen, then real cubic roots on [0,1]",
+        "minimum_area_ratio": 0.9360753765846189,
+        "minimum_face": 5230,
+        "minimum_oriented_area_ratio": 0.9346127853598996
+      },
+      "cavity_displacement_mm": {
+        "maximum": 0.39549750666024963,
+        "mean": 0.13202679752498742,
+        "median": 0.12173223434133523,
+        "p95": 0.3048024513641049
+      },
+      "cavity_max_gradient": 0.10287152624806116,
+      "contact_samples": [
+        {
+          "D2_self_confirmed": 0,
+          "cavity_self_confirmed": 0,
+          "cavity_tissue_confirmed": 0,
+          "cross_coplanar_pair_area_sum_mm2": 12.204883767693158,
+          "maximum_crossing_segment_mm": 0.0,
+          "new_cross_coplanar_overlap_pairs": 0,
+          "new_self_coplanar_overlap_pairs": 0,
+          "retained_cross_coplanar_overlap_pairs": 42,
+          "tissue_self_confirmed": null,
+          "u": 0.25
+        },
+        {
+          "D2_self_confirmed": 0,
+          "cavity_self_confirmed": 0,
+          "cavity_tissue_confirmed": 20,
+          "cross_coplanar_pair_area_sum_mm2": 12.336261910410686,
+          "maximum_crossing_segment_mm": 0.8904892227722881,
+          "new_cross_coplanar_overlap_pairs": 0,
+          "new_self_coplanar_overlap_pairs": 0,
+          "retained_cross_coplanar_overlap_pairs": 42,
+          "tissue_self_confirmed": null,
+          "u": 0.5
+        },
+        {
+          "D2_self_confirmed": 0,
+          "cavity_self_confirmed": 0,
+          "cavity_tissue_confirmed": 39,
+          "cross_coplanar_pair_area_sum_mm2": 12.468114281865288,
+          "maximum_crossing_segment_mm": 0.749201908495825,
+          "new_cross_coplanar_overlap_pairs": 0,
+          "new_self_coplanar_overlap_pairs": 0,
+          "retained_cross_coplanar_overlap_pairs": 42,
+          "tissue_self_confirmed": null,
+          "u": 0.75
+        },
+        {
+          "D2_self_confirmed": 0,
+          "cavity_self_confirmed": 0,
+          "cavity_tissue_confirmed": 173,
+          "cross_coplanar_pair_area_sum_mm2": 12.60044081719398,
+          "maximum_crossing_segment_mm": 1.063368680111161,
+          "new_cross_coplanar_overlap_pairs": 0,
+          "new_self_coplanar_overlap_pairs": 0,
+          "retained_cross_coplanar_overlap_pairs": 42,
+          "tissue_self_confirmed": 0,
+          "u": 1.0
+        }
+      ],
+      "failed_alternative_closures": [],
+      "fixed_maximum_mm": 0.0,
+      "id": "S1_expand",
+      "quality_pass": true,
+      "relative_capacity_change": 0.08000000000000007,
+      "remaining": [
+        "Full continuous finite collision detection",
+        "Intermediate tissue self-intersection scans",
+        "Godot float32/runtime export consistency",
+        "Selected endoscope path and envelope clearance",
+        "User review and formal N2 solve"
+      ],
+      "response_amplitude": 0.1039782629952222,
+      "sampled_contact_pass": false,
+      "status": "REJECTED_CURRENT_PROTOTYPE",
+      "tissue_continuous_area": {
+        "critical_candidate_faces": 83,
+        "maximum_area_ratio": 1.1233014112316126,
+        "maximum_face": 181408,
+        "method": "Exact quartic squared-area extrema; derivative Bernstein sign screen, then real cubic roots on [0,1]",
+        "minimum_area_ratio": 0.9696352450495397,
+        "minimum_face": 199318,
+        "minimum_oriented_area_ratio": 0.9696087184147473
+      },
+      "tissue_displacement_mm": {
+        "maximum": 0.3325905194528885,
+        "mean": 0.018679539331400853,
+        "median": 0.0,
+        "p95": 0.13433718427978114
+      },
+      "tissue_max_gradient": 0.08118036754671136,
+      "valid_endpoint_closure_spread_mL": 0.00012325330661866474,
+      "valid_endpoint_closure_volume_range_mL": [
+        18.15043906528716,
+        18.150562318593778
+      ]
+    },
+    {
+      "actual_material_D2_integral_mL": 15.125365878687154,
+      "capacity_accounting_residual_mL": 6.439293542825908e-15,
+      "cavity_continuous_area": {
+        "critical_candidate_faces": 229,
+        "maximum_area_ratio": 1.0832506408066787,
+        "maximum_face": 5230,
+        "method": "Exact quartic squared-area extrema; derivative Bernstein sign screen, then real cubic roots on [0,1]",
+        "minimum_area_ratio": 0.8065299119105794,
+        "minimum_face": 1153,
+        "minimum_oriented_area_ratio": 0.8063572300218759
+      },
+      "cavity_displacement_mm": {
+        "maximum": 0.5965365671994866,
+        "mean": 0.1733842698893953,
+        "median": 0.14425713268093354,
+        "p95": 0.44791686407532405
+      },
+      "cavity_max_gradient": 0.14440840807603483,
+      "contact_samples": [
+        {
+          "D2_self_confirmed": 0,
+          "cavity_self_confirmed": 0,
+          "cavity_tissue_confirmed": 0,
+          "cross_coplanar_pair_area_sum_mm2": 11.888199303522558,
+          "maximum_crossing_segment_mm": 0.0,
+          "new_cross_coplanar_overlap_pairs": 0,
+          "new_self_coplanar_overlap_pairs": 0,
+          "retained_cross_coplanar_overlap_pairs": 42,
+          "tissue_self_confirmed": null,
+          "u": 0.25
+        },
+        {
+          "D2_self_confirmed": 0,
+          "cavity_self_confirmed": 0,
+          "cavity_tissue_confirmed": 0,
+          "cross_coplanar_pair_area_sum_mm2": 11.703432422696611,
+          "maximum_crossing_segment_mm": 0.0,
+          "new_cross_coplanar_overlap_pairs": 0,
+          "new_self_coplanar_overlap_pairs": 0,
+          "retained_cross_coplanar_overlap_pairs": 42,
+          "tissue_self_confirmed": null,
+          "u": 0.5
+        },
+        {
+          "D2_self_confirmed": 0,
+          "cavity_self_confirmed": 0,
+          "cavity_tissue_confirmed": 0,
+          "cross_coplanar_pair_area_sum_mm2": 11.240628405400228,
+          "maximum_crossing_segment_mm": 0.0,
+          "new_cross_coplanar_overlap_pairs": 0,
+          "new_self_coplanar_overlap_pairs": 0,
+          "retained_cross_coplanar_overlap_pairs": 41,
+          "tissue_self_confirmed": null,
+          "u": 0.75
+        },
+        {
+          "D2_self_confirmed": 0,
+          "cavity_self_confirmed": 0,
+          "cavity_tissue_confirmed": 0,
+          "cross_coplanar_pair_area_sum_mm2": 11.336945728007349,
+          "maximum_crossing_segment_mm": 0.0,
+          "new_cross_coplanar_overlap_pairs": 0,
+          "new_self_coplanar_overlap_pairs": 0,
+          "retained_cross_coplanar_overlap_pairs": 42,
+          "tissue_self_confirmed": 0,
+          "u": 1.0
+        }
+      ],
+      "failed_alternative_closures": [
+        {
+          "cap_cap_crossings": 0,
+          "cap_wall_crossings": 3,
+          "u": 0.75,
+          "variant": 0
+        }
+      ],
+      "fixed_maximum_mm": 0.0,
+      "id": "S2_contract",
+      "quality_pass": true,
+      "relative_capacity_change": -0.09999999999999998,
+      "remaining": [
+        "Full continuous finite collision detection",
+        "Intermediate tissue self-intersection scans",
+        "Godot float32/runtime export consistency",
+        "Selected endoscope path and envelope clearance",
+        "User review and formal N2 solve"
+      ],
+      "response_amplitude": 0.15811486918776904,
+      "sampled_contact_pass": true,
+      "status": "SAMPLED_PREASSESSMENT_PASS_NOT_N2_ACCEPTED",
+      "tissue_continuous_area": {
+        "critical_candidate_faces": 146,
+        "maximum_area_ratio": 1.0433447377622223,
+        "maximum_face": 199326,
+        "method": "Exact quartic squared-area extrema; derivative Bernstein sign screen, then real cubic roots on [0,1]",
+        "minimum_area_ratio": 0.8113769106022177,
+        "minimum_face": 181408,
+        "minimum_oriented_area_ratio": 0.8111737841832585
+      },
+      "tissue_displacement_mm": {
+        "maximum": 0.5017396395588375,
+        "mean": 0.024617971685510588,
+        "median": 0.0,
+        "p95": 0.17916451080862453
+      },
+      "tissue_max_gradient": 0.11650593092977811,
+      "valid_endpoint_closure_spread_mL": 0.00019287892786934435,
+      "valid_endpoint_closure_volume_range_mL": [
+        15.125173073496333,
+        15.125365952424202
+      ]
+    },
+    {
+      "actual_material_D2_integral_mL": 19.326856400544713,
+      "capacity_accounting_residual_mL": -8.881784197001252e-15,
+      "cavity_continuous_area": {
+        "critical_candidate_faces": 245,
+        "maximum_area_ratio": 1.2751387132802243,
+        "maximum_face": 7709,
+        "method": "Exact quartic squared-area extrema; derivative Bernstein sign screen, then real cubic roots on [0,1]",
+        "minimum_area_ratio": 0.8808674486952744,
+        "minimum_face": 7167,
+        "minimum_oriented_area_ratio": 0.8767225619364161
+      },
+      "cavity_displacement_mm": {
+        "maximum": 0.7283179350978997,
+        "mean": 0.24313044439390355,
+        "median": 0.22417276482730825,
+        "p95": 0.5613008634741788
+      },
+      "cavity_max_gradient": 0.18944032848662112,
+      "contact_samples": [
+        {
+          "D2_self_confirmed": 0,
+          "cavity_self_confirmed": 0,
+          "cavity_tissue_confirmed": 18,
+          "cross_coplanar_pair_area_sum_mm2": 12.024641509304356,
+          "maximum_crossing_segment_mm": 0.9128288096714612,
+          "new_cross_coplanar_overlap_pairs": 0,
+          "new_self_coplanar_overlap_pairs": 0,
+          "retained_cross_coplanar_overlap_pairs": 41,
+          "tissue_self_confirmed": null,
+          "u": 0.25
+        },
+        {
+          "D2_self_confirmed": 0,
+          "cavity_self_confirmed": 0,
+          "cavity_tissue_confirmed": 153,
+          "cross_coplanar_pair_area_sum_mm2": 12.558448188065311,
+          "maximum_crossing_segment_mm": 0.902645823837879,
+          "new_cross_coplanar_overlap_pairs": 0,
+          "new_self_coplanar_overlap_pairs": 0,
+          "retained_cross_coplanar_overlap_pairs": 42,
+          "tissue_self_confirmed": null,
+          "u": 0.5
+        },
+        {
+          "D2_self_confirmed": 0,
+          "cavity_self_confirmed": 0,
+          "cavity_tissue_confirmed": 317,
+          "cross_coplanar_pair_area_sum_mm2": 12.803094417536451,
+          "maximum_crossing_segment_mm": 1.0921982277675657,
+          "new_cross_coplanar_overlap_pairs": 0,
+          "new_self_coplanar_overlap_pairs": 0,
+          "retained_cross_coplanar_overlap_pairs": 42,
+          "tissue_self_confirmed": null,
+          "u": 0.75
+        },
+        {
+          "D2_self_confirmed": 0,
+          "cavity_self_confirmed": 0,
+          "cavity_tissue_confirmed": 753,
+          "cross_coplanar_pair_area_sum_mm2": 13.04934885912888,
+          "maximum_crossing_segment_mm": 1.1440459808820695,
+          "new_cross_coplanar_overlap_pairs": 0,
+          "new_self_coplanar_overlap_pairs": 0,
+          "retained_cross_coplanar_overlap_pairs": 42,
+          "tissue_self_confirmed": 0,
+          "u": 1.0
+        }
+      ],
+      "failed_alternative_closures": [],
+      "fixed_maximum_mm": 0.0,
+      "id": "S2_expand",
+      "quality_pass": true,
+      "relative_capacity_change": 0.1499999999999999,
+      "remaining": [
+        "Full continuous finite collision detection",
+        "Intermediate tissue self-intersection scans",
+        "Godot float32/runtime export consistency",
+        "Selected endoscope path and envelope clearance",
+        "User review and formal N2 solve"
+      ],
+      "response_amplitude": 0.1914784101655575,
+      "sampled_contact_pass": false,
+      "status": "REJECTED_CURRENT_PROTOTYPE",
+      "tissue_continuous_area": {
+        "critical_candidate_faces": 151,
+        "maximum_area_ratio": 1.2267988381373955,
+        "maximum_face": 181408,
+        "method": "Exact quartic squared-area extrema; derivative Bernstein sign screen, then real cubic roots on [0,1]",
+        "minimum_area_ratio": 0.9413205758569733,
+        "minimum_face": 199318,
+        "minimum_oriented_area_ratio": 0.9412226917561538
+      },
+      "tissue_displacement_mm": {
+        "maximum": 0.6124732426420922,
+        "mean": 0.03439880981629773,
+        "median": 0.0,
+        "p95": 0.24738507579408187
+      },
+      "tissue_max_gradient": 0.14949555096159065,
+      "valid_endpoint_closure_spread_mL": 0.00023061612678532128,
+      "valid_endpoint_closure_volume_range_mL": [
+        19.326856420878418,
+        19.327087037005203
+      ]
+    },
+    {
+      "actual_material_D2_integral_mL": 14.285067774315653,
+      "capacity_accounting_residual_mL": -1.3322676295501878e-15,
+      "cavity_continuous_area": {
+        "critical_candidate_faces": 331,
+        "maximum_area_ratio": 1.1259329826020292,
+        "maximum_face": 5230,
+        "method": "Exact quartic squared-area extrema; derivative Bernstein sign screen, then real cubic roots on [0,1]",
+        "minimum_area_ratio": 0.7060360079971353,
+        "minimum_face": 33399,
+        "minimum_oriented_area_ratio": 0.7055516699684781
+      },
+      "cavity_displacement_mm": {
+        "maximum": 0.9098635303689518,
+        "mean": 0.2644532331900678,
+        "median": 0.2200272560627185,
+        "p95": 0.6831822920305212
+      },
+      "cavity_max_gradient": 0.22025798787802206,
+      "contact_samples": [
+        {
+          "D2_self_confirmed": 0,
+          "cavity_self_confirmed": 0,
+          "cavity_tissue_confirmed": 0,
+          "cross_coplanar_pair_area_sum_mm2": 11.51777290599755,
+          "maximum_crossing_segment_mm": 0.0,
+          "new_cross_coplanar_overlap_pairs": 0,
+          "new_self_coplanar_overlap_pairs": 0,
+          "retained_cross_coplanar_overlap_pairs": 41,
+          "tissue_self_confirmed": null,
+          "u": 0.25
+        },
+        {
+          "D2_self_confirmed": 0,
+          "cavity_self_confirmed": 0,
+          "cavity_tissue_confirmed": 0,
+          "cross_coplanar_pair_area_sum_mm2": 11.510430510990364,
+          "maximum_crossing_segment_mm": 0.0,
+          "new_cross_coplanar_overlap_pairs": 0,
+          "new_self_coplanar_overlap_pairs": 0,
+          "retained_cross_coplanar_overlap_pairs": 42,
+          "tissue_self_confirmed": null,
+          "u": 0.5
+        },
+        {
+          "D2_self_confirmed": 2,
+          "cavity_self_confirmed": 0,
+          "cavity_tissue_confirmed": 0,
+          "cross_coplanar_pair_area_sum_mm2": 11.232201767670096,
+          "maximum_crossing_segment_mm": 0.0,
+          "new_cross_coplanar_overlap_pairs": 0,
+          "new_self_coplanar_overlap_pairs": 0,
+          "retained_cross_coplanar_overlap_pairs": 42,
+          "tissue_self_confirmed": null,
+          "u": 0.75
+        },
+        {
+          "D2_self_confirmed": 2,
+          "cavity_self_confirmed": 0,
+          "cavity_tissue_confirmed": 12,
+          "cross_coplanar_pair_area_sum_mm2": 10.956347805029822,
+          "maximum_crossing_segment_mm": 0.18002692875692403,
+          "new_cross_coplanar_overlap_pairs": 0,
+          "new_self_coplanar_overlap_pairs": 0,
+          "retained_cross_coplanar_overlap_pairs": 42,
+          "tissue_self_confirmed": 0,
+          "u": 1.0
+        }
+      ],
+      "failed_alternative_closures": [
+        {
+          "cap_cap_crossings": 0,
+          "cap_wall_crossings": 4,
+          "u": 0.5,
+          "variant": 0
+        },
+        {
+          "cap_cap_crossings": 0,
+          "cap_wall_crossings": 3,
+          "u": 0.75,
+          "variant": 0
+        }
+      ],
+      "fixed_maximum_mm": 0.0,
+      "id": "S3_contract",
+      "quality_pass": false,
+      "relative_capacity_change": -0.15000000000000002,
+      "remaining": [
+        "Full continuous finite collision detection",
+        "Intermediate tissue self-intersection scans",
+        "Godot float32/runtime export consistency",
+        "Selected endoscope path and envelope clearance",
+        "User review and formal N2 solve"
+      ],
+      "response_amplitude": 0.24116367879741332,
+      "sampled_contact_pass": false,
+      "status": "REJECTED_CURRENT_PROTOTYPE",
+      "tissue_continuous_area": {
+        "critical_candidate_faces": 213,
+        "maximum_area_ratio": 1.0649685398514115,
+        "maximum_face": 199326,
+        "method": "Exact quartic squared-area extrema; derivative Bernstein sign screen, then real cubic roots on [0,1]",
+        "minimum_area_ratio": 0.7122599588241616,
+        "minimum_face": 181408,
+        "minimum_oriented_area_ratio": 0.71173081195788
+      },
+      "tissue_displacement_mm": {
+        "maximum": 0.7652751312768848,
+        "mean": 0.03754840165701218,
+        "median": 0.0,
+        "p95": 0.27326950816520146
+      },
+      "tissue_max_gradient": 0.17769991556819423,
+      "valid_endpoint_closure_spread_mL": 0.0002895843216119687,
+      "valid_endpoint_closure_volume_range_mL": [
+        14.284778448495612,
+        14.285068032817223
+      ]
+    },
+    {
+      "actual_material_D2_integral_mL": 21.007452609287732,
+      "capacity_accounting_residual_mL": 6.217248937900877e-15,
+      "cavity_continuous_area": {
+        "critical_candidate_faces": 414,
+        "maximum_area_ratio": 1.4687129742560763,
+        "maximum_face": 7709,
+        "method": "Exact quartic squared-area extrema; derivative Bernstein sign screen, then real cubic roots on [0,1]",
+        "minimum_area_ratio": 0.8010837374139358,
+        "minimum_face": 7167,
+        "minimum_oriented_area_ratio": 0.7930690025578739
+      },
+      "cavity_displacement_mm": {
+        "maximum": 1.184772334091732,
+        "mean": 0.3955061522061862,
+        "median": 0.36466723806347845,
+        "p95": 0.9130816393483664
+      },
+      "cavity_max_gradient": 0.30816714697823416,
+      "contact_samples": [
+        {
+          "D2_self_confirmed": 0,
+          "cavity_self_confirmed": 0,
+          "cavity_tissue_confirmed": 37,
+          "cross_coplanar_pair_area_sum_mm2": 12.467539773437153,
+          "maximum_crossing_segment_mm": 0.7498176443403166,
+          "new_cross_coplanar_overlap_pairs": 0,
+          "new_self_coplanar_overlap_pairs": 0,
+          "retained_cross_coplanar_overlap_pairs": 42,
+          "tissue_self_confirmed": null,
+          "u": 0.25
+        },
+        {
+          "D2_self_confirmed": 0,
+          "cavity_self_confirmed": 0,
+          "cavity_tissue_confirmed": 406,
+          "cross_coplanar_pair_area_sum_mm2": 12.865354992712286,
+          "maximum_crossing_segment_mm": 1.057800929100397,
+          "new_cross_coplanar_overlap_pairs": 0,
+          "new_self_coplanar_overlap_pairs": 0,
+          "retained_cross_coplanar_overlap_pairs": 42,
+          "tissue_self_confirmed": null,
+          "u": 0.5
+        },
+        {
+          "D2_self_confirmed": 0,
+          "cavity_self_confirmed": 0,
+          "cavity_tissue_confirmed": 1183,
+          "cross_coplanar_pair_area_sum_mm2": 13.267426454777295,
+          "maximum_crossing_segment_mm": 1.0847282905496494,
+          "new_cross_coplanar_overlap_pairs": 0,
+          "new_self_coplanar_overlap_pairs": 0,
+          "retained_cross_coplanar_overlap_pairs": 42,
+          "tissue_self_confirmed": null,
+          "u": 0.75
+        },
+        {
+          "D2_self_confirmed": 1,
+          "cavity_self_confirmed": 0,
+          "cavity_tissue_confirmed": 1838,
+          "cross_coplanar_pair_area_sum_mm2": 13.673758284796488,
+          "maximum_crossing_segment_mm": 1.1670035223713915,
+          "new_cross_coplanar_overlap_pairs": 0,
+          "new_self_coplanar_overlap_pairs": 0,
+          "retained_cross_coplanar_overlap_pairs": 42,
+          "tissue_self_confirmed": 0,
+          "u": 1.0
+        }
+      ],
+      "failed_alternative_closures": [],
+      "fixed_maximum_mm": 0.0,
+      "id": "S3_expand",
+      "quality_pass": false,
+      "relative_capacity_change": 0.25,
+      "remaining": [
+        "Full continuous finite collision detection",
+        "Intermediate tissue self-intersection scans",
+        "Godot float32/runtime export consistency",
+        "Selected endoscope path and envelope clearance",
+        "User review and formal N2 solve"
+      ],
+      "response_amplitude": 0.3114825435536302,
+      "sampled_contact_pass": false,
+      "status": "REJECTED_CURRENT_PROTOTYPE",
+      "tissue_continuous_area": {
+        "critical_candidate_faces": 265,
+        "maximum_area_ratio": 1.3683321050011195,
+        "maximum_face": 181408,
+        "method": "Exact quartic squared-area extrema; derivative Bernstein sign screen, then real cubic roots on [0,1]",
+        "minimum_area_ratio": 0.8984060903126025,
+        "minimum_face": 199318,
+        "minimum_oriented_area_ratio": 0.898114057778755
+      },
+      "tissue_displacement_mm": {
+        "maximum": 0.9963249815566649,
+        "mean": 0.05595737277917566,
+        "median": 0.0,
+        "p95": 0.40242726362164466
+      },
+      "tissue_max_gradient": 0.24318801489528763,
+      "valid_endpoint_closure_spread_mL": 0.0003832581427865023,
+      "valid_endpoint_closure_volume_range_mL": [
+        21.007452644470856,
+        21.007835902613643
+      ]
+    },
+    {
+      "actual_material_D2_integral_mL": 17.27682308021336,
+      "capacity_accounting_residual_mL": -4.6629367034256575e-15,
+      "cavity_continuous_area": {
+        "critical_candidate_faces": 64,
+        "maximum_area_ratio": 1.0496536125145155,
+        "maximum_face": 7709,
+        "method": "Exact quartic squared-area extrema; derivative Bernstein sign screen, then real cubic roots on [0,1]",
+        "minimum_area_ratio": 0.9773738485390076,
+        "minimum_face": 5230,
+        "minimum_oriented_area_ratio": 0.9772008012474651
+      },
+      "cavity_displacement_mm": {
+        "maximum": 0.14046326782524166,
+        "mean": 0.0468900943964539,
+        "median": 0.04323391967661831,
+        "p95": 0.10825238500561585
+      },
+      "cavity_max_gradient": 0.036535428162346714,
+      "contact_samples": [
+        {
+          "D2_self_confirmed": 0,
+          "cavity_self_confirmed": 0,
+          "cavity_tissue_confirmed": 0,
+          "cross_coplanar_pair_area_sum_mm2": 12.12041689964572,
+          "maximum_crossing_segment_mm": 0.0,
+          "new_cross_coplanar_overlap_pairs": 0,
+          "new_self_coplanar_overlap_pairs": 0,
+          "retained_cross_coplanar_overlap_pairs": 42,
+          "tissue_self_confirmed": null,
+          "u": 0.25
+        },
+        {
+          "D2_self_confirmed": 0,
+          "cavity_self_confirmed": 0,
+          "cavity_tissue_confirmed": 0,
+          "cross_coplanar_pair_area_sum_mm2": 12.16691367010747,
+          "maximum_crossing_segment_mm": 0.0,
+          "new_cross_coplanar_overlap_pairs": 0,
+          "new_self_coplanar_overlap_pairs": 0,
+          "retained_cross_coplanar_overlap_pairs": 42,
+          "tissue_self_confirmed": null,
+          "u": 0.5
+        },
+        {
+          "D2_self_confirmed": 0,
+          "cavity_self_confirmed": 0,
+          "cavity_tissue_confirmed": 0,
+          "cross_coplanar_pair_area_sum_mm2": 12.213470278316258,
+          "maximum_crossing_segment_mm": 0.0,
+          "new_cross_coplanar_overlap_pairs": 0,
+          "new_self_coplanar_overlap_pairs": 0,
+          "retained_cross_coplanar_overlap_pairs": 42,
+          "tissue_self_confirmed": null,
+          "u": 0.75
+        },
+        {
+          "D2_self_confirmed": 0,
+          "cavity_self_confirmed": 0,
+          "cavity_tissue_confirmed": 0,
+          "cross_coplanar_pair_area_sum_mm2": 12.260086717206342,
+          "maximum_crossing_segment_mm": 0.0,
+          "new_cross_coplanar_overlap_pairs": 0,
+          "new_self_coplanar_overlap_pairs": 0,
+          "retained_cross_coplanar_overlap_pairs": 42,
+          "tissue_self_confirmed": 0,
+          "u": 1.0
+        }
+      ],
+      "failed_alternative_closures": [],
+      "fixed_maximum_mm": 0.0,
+      "id": "A1_expand_contact_margin",
+      "quality_pass": true,
+      "relative_capacity_change": 0.028017497024782623,
+      "remaining": [
+        "Full continuous finite collision detection",
+        "Intermediate tissue self-intersection scans",
+        "Godot float32/runtime export consistency",
+        "Selected endoscope path and envelope clearance",
+        "User review and formal N2 solve"
+      ],
+      "response_amplitude": 0.03692849223357501,
+      "sampled_contact_pass": true,
+      "status": "SAMPLED_PREASSESSMENT_PASS_NOT_N2_ACCEPTED",
+      "tissue_continuous_area": {
+        "critical_candidate_faces": 32,
+        "maximum_area_ratio": 1.0438288801913518,
+        "maximum_face": 181408,
+        "method": "Exact quartic squared-area extrema; derivative Bernstein sign screen, then real cubic roots on [0,1]",
+        "minimum_area_ratio": 0.9895178168809828,
+        "minimum_face": 28672,
+        "minimum_oriented_area_ratio": 0.9895161760946134
+      },
+      "tissue_displacement_mm": {
+        "maximum": 0.11812148097858713,
+        "mean": 0.006634148361933032,
+        "median": 0.0,
+        "p95": 0.047710641853905424
+      },
+      "tissue_max_gradient": 0.028831685451460635,
+      "valid_endpoint_closure_spread_mL": 4.323511360482257e-05,
+      "valid_endpoint_closure_volume_range_mL": [
+        17.27682308402153,
+        17.276866319135134
+      ]
+    }
+  ]
+}

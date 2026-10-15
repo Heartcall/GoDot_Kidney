@@ -1,0 +1,41 @@
+{
+  "files": {
+    "docs/kidney_irrigation_capacity_v2_n16_n2_plan.md": {
+      "sha256": "2fea088b377d65a1f6bc9845fa7d3774a89fe48b3c93c67188923e22e193223d",
+      "snapshot": "implementation_snapshot/docs/kidney_irrigation_capacity_v2_n16_n2_plan.md"
+    },
+    "docs/kidney_irrigation_capacity_v2_n16_result.md": {
+      "sha256": "f822eb21c257767fbeef0a1cac47b23420836b8bdd7c4a0771b2dc046302224a",
+      "snapshot": "implementation_snapshot/docs/kidney_irrigation_capacity_v2_n16_result.md"
+    },
+    "godot_sim/tools/capacity_v2/n16_adjusted_candidate.py": {
+      "sha256": "06ea3eb0dcc558f555da50f40e8d675fc80978aaf4c6bad965301d6cace5abbb",
+      "snapshot": "implementation_snapshot/godot_sim/tools/capacity_v2/n16_adjusted_candidate.py"
+    },
+    "godot_sim/tools/capacity_v2/n16_closure_and_regions.py": {
+      "sha256": "0a2ed8167c7f67c571c07f2c17b5a07767985053aeaaed1cdb302ec5abc8b0ea",
+      "snapshot": "implementation_snapshot/godot_sim/tools/capacity_v2/n16_closure_and_regions.py"
+    },
+    "godot_sim/tools/capacity_v2/n16_contacts.py": {
+      "sha256": "597f3a5858bd9abcc8025ee6d7f0676ee7292a503c852e1c78def2bf42a8cc2d",
+      "snapshot": "implementation_snapshot/godot_sim/tools/capacity_v2/n16_contacts.py"
+    },
+    "godot_sim/tools/capacity_v2/n16_feasibility.py": {
+      "sha256": "6d5a0043d2d4bef2d374fe09d2d910e4ef8e086517c085d600159ff2776ebc09",
+      "snapshot": "implementation_snapshot/godot_sim/tools/capacity_v2/n16_feasibility.py"
+    },
+    "godot_sim/tools/capacity_v2/n16_finalize.py": {
+      "sha256": "04955904b0c2d53b1bb2f634b27a48d9816fdb05c36ac9cd5aa517e64bcf7cd1",
+      "snapshot": "implementation_snapshot/godot_sim/tools/capacity_v2/n16_finalize.py"
+    },
+    "godot_sim/tools/capacity_v2/n16_report.py": {
+      "sha256": "19617208d1de5d6d800085298cd537bdaa6ba35a2722c9553f44c4ce84bbb6c0",
+      "snapshot": "implementation_snapshot/godot_sim/tools/capacity_v2/n16_report.py"
+    },
+    "godot_sim/tools/capacity_v2/test_n16.py": {
+      "sha256": "c9e2d3c02279d3031b2720e7ce0db96a85007aefcdca90bce62c03c99dfb591a",
+      "snapshot": "implementation_snapshot/godot_sim/tools/capacity_v2/test_n16.py"
+    }
+  },
+  "role": "Versioned audit snapshots; run canonical scripts from repository root"
+}

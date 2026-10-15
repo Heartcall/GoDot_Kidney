@@ -1,0 +1,20 @@
+{
+  "constraints": "Exact shared coordinates hard; verified reference coplanar tissue faces provisional donor hard; C near-wall soft; D continuity; E remote zero",
+  "distance_decay_end_mm": 12.0,
+  "exact_coincident_vertices": 139,
+  "incompatible_donor_triangles": 259,
+  "limits": [
+    "Nearest surface barycentric mapping is a geometric starting hypothesis, not anatomy",
+    "F03/F04 remain unconfirmed",
+    "Reference contacts do not prove finite deformation contact preservation",
+    "No tissue wall-thickness claim"
+  ],
+  "local_metric_mm2": 0.05,
+  "normal_compatible_near_vertices": 26836,
+  "old_tissue_displacement_used": false,
+  "remote_fixed_vertices": 126104,
+  "screened_strength": 5.0,
+  "status": "PREASSESSMENT_NOT_ACCEPTED_N3_MAPPING",
+  "support_mm": 8.0,
+  "verified_reference_coplanar_contact_vertices": 69
+}

@@ -1,0 +1,47 @@
+{
+  "D2": "C11_R1_IN02_fixed_collar",
+  "N2_authorized": false,
+  "V_max_estimated_mL": 17.27682308021336,
+  "V_min_estimated_mL": 15.96566398305867,
+  "V_reference_mL": 16.805962087430178,
+  "clinical_evidence_grade": null,
+  "date": "2026-10-15",
+  "display_precision": "Six decimals or fewer in UI; extra digits only reproducibility, not clinical certainty",
+  "evidence_level": "G2_SAMPLED_NUMERICAL_PREASSESSMENT_WITH_G1_CONTINUOUS_AREA_BOUNDS",
+  "label": "MORPHOLOGY_GUIDED_UNCALIBRATED_CAPACITY_ESTIMATE",
+  "limits": [
+    "Full continuous finite collision detection",
+    "Intermediate tissue self-intersection scans",
+    "Godot float32/runtime export consistency",
+    "Selected endoscope path and envelope clearance",
+    "User review and formal N2 solve",
+    "Mapping-specific numerical example, not proof that S2/S3 are globally impossible",
+    "The 20% amplitude margin is an engineering choice, not clinical calibration",
+    "Closure variant spread is a limited sensitivity study, not a clinical or universal volume error bound"
+  ],
+  "lower_trial": "S1_contract",
+  "medical_parameter_record": {
+    "V_max_mL": null,
+    "V_min_mL": null,
+    "compliance": null,
+    "path": "godot_sim/deformation/capacity_v2_n15_m_v1/real_parameter_status.json",
+    "pressure": null,
+    "real_flow_mL_s": null,
+    "sha256": "8bd479964a4ae32900aa77d5be2baca0d3afc2a1969f35fe3856e7cfe2111ca6"
+  },
+  "normal_physiological_limits_claimed": false,
+  "rationale": "S2/S1 expansions cross nearby B30 tissue under provisional mapping; contraction kept S1 for margin to area gates; expansion 0.8 times observed clean contact-transition amplitude",
+  "relative_contract": -0.050000000000000044,
+  "relative_expand": 0.028017497024782623,
+  "runtime_eligible": false,
+  "schema": "N16_ENGINEERING_ESTIMATE_V1",
+  "signed_geometry_parameter": {
+    "Contracted": -1,
+    "Expanded": 1,
+    "Reference": 0,
+    "not_volume_fraction": true,
+    "reference_not_capacity_midpoint": true
+  },
+  "status": "PENDING_USER_CAPACITY_SELECTION",
+  "upper_trial": "A1_expand_contact_margin"
+}

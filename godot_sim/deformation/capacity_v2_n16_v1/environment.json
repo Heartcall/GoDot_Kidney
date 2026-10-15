@@ -1,0 +1,9 @@
+{
+  "finite_intersection_tolerance_mm": 1e-10,
+  "no_runtime_performance_optimization": true,
+  "numpy": "2.2.6",
+  "platform": "Windows-10-10.0.26200-SP0",
+  "python": "3.10.21 | packaged by Anaconda, Inc. | (main, Aug 27 2026, 14:35:39) [MSC v.1942 64 bit (AMD64)]",
+  "units": "mm, mm2, mL; 1000 mm3=1mL",
+  "zero_broadphase_tolerances": true
+}
