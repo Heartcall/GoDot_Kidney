@@ -1,0 +1,41 @@
+{
+  "features": {
+    "inactive": {
+      "active": false,
+      "dual": 0.125,
+      "release_count": 2
+    }
+  },
+  "iteration": 0,
+  "numerical_arrays": {
+    "linearization": {
+      "file": "roundtrip_linearization.npy",
+      "sha256": "884474f80bd027a0211ac1c725502565c1fdb3648cb6515b7420655142c02e79"
+    },
+    "warm_cavity": {
+      "file": "roundtrip_warm_cavity.npy",
+      "sha256": "6927c56e42ef3ce67617c975d66c1faa7940a1e32e51d5036b5da74b96217ab0"
+    },
+    "warm_tissue": {
+      "file": "roundtrip_warm_tissue.npy",
+      "sha256": "884474f80bd027a0211ac1c725502565c1fdb3648cb6515b7420655142c02e79"
+    }
+  },
+  "outer_index": 2,
+  "pairs": [
+    [
+      34852,
+      181160
+    ]
+  ],
+  "resume_semantics": "Restart complete saved outer transaction, including warm and linearization arrays; never resume partial KKT factorization",
+  "schema": "N21R_CONTACT_STATE_V2",
+  "settings": {
+    "rho": 0.02
+  },
+  "source_hashes": {
+    "a": "hash"
+  },
+  "stage": "OUTER_BEGIN",
+  "trust_radius": 0.02
+}

@@ -1,0 +1,1512 @@
+{
+  "D2_reference_independent_recomputed_mL": 16.805962087430167,
+  "Godot_or_performance_modifications": false,
+  "blockers": [
+    {
+      "evidence": "contact_final/summary.json",
+      "id": "FINITE_COLD_MAPPING",
+      "reason": "Cold +8/+15/+25 candidates retain 76/822/1894 confirmed transverse pairs. Warm fixtures retain N2.0 solutions; not independent new mapping cures.",
+      "status": "FAILED"
+    },
+    {
+      "evidence": "regional_sqp/nonlinear_failure.json",
+      "id": "REGIONAL_NONLINEAR_CONTACT",
+      "reason": "LP-initialized total-coefficient proposal has 69 true finite crossings; linearized current features do not constrain all newly encountered contacts.",
+      "status": "FAILED"
+    },
+    {
+      "evidence": "ccd_self/",
+      "id": "SELF_CCD_SCOPE",
+      "reason": "Moving shared-one-vertex pairs and shared-feature coplanar overlap require completion. No complete +15 self-CCD.",
+      "status": "UNRESOLVED"
+    },
+    {
+      "evidence": "verification/",
+      "id": "FLOAT32_CONTACT_TRAJECTORY",
+      "reason": "Five float32 relative tests and whole-interval area/gradient budgets do not certify quantized trajectory contacts or all float32 self-intersections.",
+      "status": "UNRESOLVED"
+    },
+    {
+      "evidence": "boundary/",
+      "id": "MEASUREMENT_CAP_CCD",
+      "reason": "Fixed and material-moving cap templates valid at samples only; continuous cap-wall/cap-self interval gate not complete.",
+      "status": "UNRESOLVED"
+    },
+    {
+      "id": "TARGETS_30_PERCENT",
+      "reason": "No safety-qualified path to either specified target. No inference of a global geometric capacity limit.",
+      "status": "NOT_ESTABLISHED"
+    }
+  ],
+  "boundary_sensitivity": [
+    {
+      "direction": "contract",
+      "endpoint_oriented_integral_mL": 16.721932276992987,
+      "max_boundary_motion_mm": 0.0,
+      "max_edge_gradient": 0.017057934078789444,
+      "min_area": 0.9732089009178106,
+      "physical_quality": true,
+      "sampled_domain_valid": true,
+      "strategy": "FIXED_97"
+    },
+    {
+      "direction": "expand",
+      "endpoint_oriented_integral_mL": 16.889991897867304,
+      "max_boundary_motion_mm": 0.0,
+      "max_edge_gradient": 0.019347332235490816,
+      "min_area": 0.9953722332727634,
+      "physical_quality": true,
+      "sampled_domain_valid": true,
+      "strategy": "FIXED_97"
+    },
+    {
+      "direction": "contract",
+      "endpoint_oriented_integral_mL": 16.721932276993005,
+      "max_boundary_motion_mm": 0.003437618763617155,
+      "max_edge_gradient": 0.017011130574404062,
+      "min_area": 0.9732821319158439,
+      "physical_quality": true,
+      "sampled_domain_valid": true,
+      "strategy": "MATERIAL_MOVING_SAME_CAP_TEMPLATE"
+    },
+    {
+      "direction": "expand",
+      "endpoint_oriented_integral_mL": 16.889991897867308,
+      "max_boundary_motion_mm": 0.00358603773256394,
+      "max_edge_gradient": 0.01929372085950275,
+      "min_area": 0.9953850864244356,
+      "physical_quality": true,
+      "sampled_domain_valid": true,
+      "strategy": "MATERIAL_MOVING_SAME_CAP_TEMPLATE"
+    }
+  ],
+  "candidate_comparison": [
+    {
+      "actual_D2_endpoint_mL": 15.524507478263558,
+      "cavity_maximum_gradient": 0.18518242227407575,
+      "cavity_maximum_mm": 0.5526274058722139,
+      "cavity_minimum_area_ratio": 0.8015942144156221,
+      "cavity_sha256": "09809ac4c804a720ba1447781a4461ec4eed080e9d2de784c5372d355a439213",
+      "continuous_cavity_tissue_transverse_result": "CERTIFIED_NO_NEW_TRANSVERSE_ON_EXACT_ENDPOINT_AFFINE_TRAJECTORY",
+      "formal_N2": false,
+      "label": "Contraction repaired",
+      "name": "robust_contract_r2",
+      "physical_quality_float64_pass": true,
+      "relative_change_percent": -7.625000000000403,
+      "tissue_maximum_gradient": 0.1112075901917996,
+      "tissue_maximum_mm": 0.5045847147742147,
+      "tissue_minimum_area_ratio": 0.8458103558891464,
+      "tissue_sha256": "180db63c4a4a9516a48bb8439c8ebf495deadd5d7d7700f1b78f3a010488fc04",
+      "whole_system_continuous_safety": "NOT_CERTIFIED"
+    },
+    {
+      "actual_D2_endpoint_mL": 18.150439054424535,
+      "cavity_maximum_gradient": 0.10287152624806116,
+      "cavity_maximum_mm": 0.39549750666024963,
+      "cavity_minimum_area_ratio": 0.9360753765846189,
+      "cavity_sha256": "cb8cf4c6c01311c7d43157b4e7c215e169643899f5e19cf2b42305252bc46958",
+      "continuous_cavity_tissue_transverse_result": "CERTIFIED_NO_NEW_TRANSVERSE_ON_EXACT_ENDPOINT_AFFINE_TRAJECTORY",
+      "formal_N2": false,
+      "label": "Old +8% warm fixture",
+      "name": "S1_expand",
+      "physical_quality_float64_pass": true,
+      "relative_change_percent": 7.999999999999652,
+      "tissue_maximum_gradient": 0.08203881634789088,
+      "tissue_maximum_mm": 0.3309587332302769,
+      "tissue_minimum_area_ratio": 0.9696894868840056,
+      "tissue_sha256": "28139d01f02d6832098eeb5d243439aafe25ccad1050483b88c555ab1fce5008",
+      "whole_system_continuous_safety": "NOT_CERTIFIED"
+    },
+    {
+      "actual_D2_endpoint_mL": 19.326856400544713,
+      "cavity_maximum_gradient": 0.18944032848662112,
+      "cavity_maximum_mm": 0.7283179350978997,
+      "cavity_minimum_area_ratio": 0.8808674486952744,
+      "cavity_sha256": "fe7d18e20233ac3e798244c33453ac7dc522b9164b0ca1573b159049857cb23b",
+      "continuous_cavity_tissue_transverse_result": "CERTIFIED_NO_NEW_TRANSVERSE_ON_EXACT_ENDPOINT_AFFINE_TRAJECTORY",
+      "formal_N2": false,
+      "label": "Old +15% warm fixture",
+      "name": "S2_expand",
+      "physical_quality_float64_pass": true,
+      "relative_change_percent": 15.000000000000057,
+      "tissue_maximum_gradient": 0.14666214824707993,
+      "tissue_maximum_mm": 0.6098038660670575,
+      "tissue_minimum_area_ratio": 0.9335782596799433,
+      "tissue_sha256": "f743131831da78ef505580f7f56bf5c6b23a085ac9b1794922896ac153051931",
+      "whole_system_continuous_safety": "NOT_CERTIFIED"
+    }
+  ],
+  "cold_regression": [
+    {
+      "cavity_quality_pass": true,
+      "crossings": 76,
+      "name": "S1_expand",
+      "qp_pass": false,
+      "static_candidate_pass": false,
+      "tissue_quality_pass": true
+    },
+    {
+      "cavity_quality_pass": true,
+      "crossings": 822,
+      "name": "S2_expand",
+      "qp_pass": false,
+      "static_candidate_pass": false,
+      "tissue_quality_pass": true
+    },
+    {
+      "cavity_quality_pass": false,
+      "crossings": 1894,
+      "name": "S3_expand",
+      "qp_pass": false,
+      "static_candidate_pass": false,
+      "tissue_quality_pass": false
+    },
+    {
+      "cavity_quality_pass": true,
+      "crossings": 53,
+      "name": "expand",
+      "qp_pass": false,
+      "static_candidate_pass": false,
+      "tissue_quality_pass": true
+    }
+  ],
+  "continuous_cavity_tissue": [
+    {
+      "arithmetic": "Outward nextafter fixed-axis projection intervals; Fraction exact rational Bernstein sign tests and dyadic finite witnesses",
+      "broad_pairs": 345803,
+      "certified_fixed_axis_separation_pairs": 331203,
+      "exact_pair_counts": {
+        "CERTIFIED_NO_TRANSVERSE_PERSISTENT_COPLANAR": 92,
+        "CERTIFIED_NO_TRANSVERSE_SEPARATING_POLYNOMIAL": 10106,
+        "CERTIFIED_NO_TRANSVERSE_SHARED_FEATURE": 4402
+      },
+      "exact_witness_uses_no_increased_contact_tolerance": true,
+      "full_continuous_safe": false,
+      "max_time_depth": 3,
+      "name": "s1_n20_passed",
+      "scope": "Complete cavity-tissue transverse analysis; self-CCD and new-overlap acceptability require separate gates",
+      "seconds_exact_stage": 38.1184344291687,
+      "source_endpoint_sha256": {
+        "cavity": "6082cd53387333ea351587435b2f46d23389df8952ebe84370dc37df6742b1c5",
+        "tissue": "c7833c8676e32c21b4020415a61bf0a65bfc527f4de453be71126308db090b23"
+      },
+      "sources_and_settings": {
+        "cavity": "6082cd53387333ea351587435b2f46d23389df8952ebe84370dc37df6742b1c5",
+        "cavity_faces": "25e530e2a92db99758601fbd938effe69b9b6a3dfc7518f60e966e9853eff184",
+        "settings": {
+          "depth": 3,
+          "kernel_sha256": "85c3e4d2abd524b14f821c279c217d6d1e1990a3877584fed5e0b8bbe084fb2d",
+          "version": "EXACT_INTERVAL_V2"
+        },
+        "tissue": "c7833c8676e32c21b4020415a61bf0a65bfc527f4de453be71126308db090b23",
+        "tissue_faces": "25e4a8af49959e7a792fa81f0d919acb3a2326415fa5d5e511460ede111e1e59"
+      },
+      "trajectory_definition": "Exact affine interpolation between supplied IEEE binary64 vertex ENDPOINTS; not float32 quantized runtime motion",
+      "unresolved_never_passed": true
+    },
+    {
+      "arithmetic": "Outward nextafter fixed-axis projection intervals; Fraction exact rational Bernstein sign tests and dyadic finite witnesses",
+      "broad_pairs": 435581,
+      "certified_fixed_axis_separation_pairs": 376142,
+      "exact_pair_counts": {
+        "CERTIFIED_NO_TRANSVERSE_PERSISTENT_COPLANAR": 92,
+        "CERTIFIED_NO_TRANSVERSE_SEPARATING_POLYNOMIAL": 54945,
+        "CERTIFIED_NO_TRANSVERSE_SHARED_FEATURE": 4402
+      },
+      "exact_witness_uses_no_increased_contact_tolerance": true,
+      "full_continuous_safe": false,
+      "max_time_depth": 3,
+      "name": "s2_warm",
+      "scope": "Complete cavity-tissue transverse analysis; self-CCD and new-overlap acceptability require separate gates",
+      "seconds_exact_stage": 134.05874252319336,
+      "source_endpoint_sha256": {
+        "cavity": "1e06d0d1d2e35765fccb455a55bff4317ffbca79c5b90c9edce4cddf890a646f",
+        "tissue": "967caf2aa25f6d0b281ed2864151dba52516698a7d5d7bb12f8185ffd6b275fe"
+      },
+      "sources_and_settings": {
+        "cavity": "1e06d0d1d2e35765fccb455a55bff4317ffbca79c5b90c9edce4cddf890a646f",
+        "cavity_faces": "25e530e2a92db99758601fbd938effe69b9b6a3dfc7518f60e966e9853eff184",
+        "settings": {
+          "depth": 3,
+          "kernel_sha256": "85c3e4d2abd524b14f821c279c217d6d1e1990a3877584fed5e0b8bbe084fb2d",
+          "version": "EXACT_INTERVAL_V2"
+        },
+        "tissue": "967caf2aa25f6d0b281ed2864151dba52516698a7d5d7bb12f8185ffd6b275fe",
+        "tissue_faces": "25e4a8af49959e7a792fa81f0d919acb3a2326415fa5d5e511460ede111e1e59"
+      },
+      "trajectory_definition": "Exact affine interpolation between supplied IEEE binary64 vertex ENDPOINTS; not float32 quantized runtime motion",
+      "unresolved_never_passed": true
+    },
+    {
+      "arithmetic": "Outward nextafter fixed-axis projection intervals; Fraction exact rational Bernstein sign tests and dyadic finite witnesses",
+      "broad_pairs": 325604,
+      "certified_fixed_axis_separation_pairs": 311027,
+      "exact_pair_counts": {
+        "CERTIFIED_NO_TRANSVERSE_PERSISTENT_COPLANAR": 92,
+        "CERTIFIED_NO_TRANSVERSE_SEPARATING_POLYNOMIAL": 10083,
+        "CERTIFIED_NO_TRANSVERSE_SHARED_FEATURE": 4402
+      },
+      "exact_witness_uses_no_increased_contact_tolerance": true,
+      "full_continuous_safe": false,
+      "max_time_depth": 3,
+      "name": "robust_contract_r2",
+      "scope": "Complete cavity-tissue transverse analysis; self-CCD and new-overlap acceptability require separate gates",
+      "seconds_exact_stage": 34.02120494842529,
+      "source_endpoint_sha256": {
+        "cavity": "0e4becfd77db4dff0931ea32df73468ff29bb0a5223d381173f0d446fa01c401",
+        "tissue": "28bec2fa1d8a8d6fd5709e0f4605574d12cd68335e6ea2c2dd09b2b1dbfee163"
+      },
+      "sources_and_settings": {
+        "cavity": "0e4becfd77db4dff0931ea32df73468ff29bb0a5223d381173f0d446fa01c401",
+        "cavity_faces": "25e530e2a92db99758601fbd938effe69b9b6a3dfc7518f60e966e9853eff184",
+        "settings": {
+          "depth": 3,
+          "kernel_sha256": "85c3e4d2abd524b14f821c279c217d6d1e1990a3877584fed5e0b8bbe084fb2d",
+          "version": "EXACT_INTERVAL_V2"
+        },
+        "tissue": "28bec2fa1d8a8d6fd5709e0f4605574d12cd68335e6ea2c2dd09b2b1dbfee163",
+        "tissue_faces": "25e4a8af49959e7a792fa81f0d919acb3a2326415fa5d5e511460ede111e1e59"
+      },
+      "trajectory_definition": "Exact affine interpolation between supplied IEEE binary64 vertex ENDPOINTS; not float32 quantized runtime motion",
+      "unresolved_never_passed": true
+    }
+  ],
+  "date": "2026-10-15",
+  "environment": {
+    "VTK": "9.6.2",
+    "arithmetic_contact": "same 1e-10 mm finite static tolerance; exact rational CCD witnesses use no increased tolerance",
+    "numpy": "2.2.6",
+    "platform": "Windows-10-10.0.26200-SP0",
+    "python": "3.10.21 | packaged by Anaconda, Inc. | (main, Aug 27 2026, 14:35:39) [MSC v.1942 64 bit (AMD64)]",
+    "scipy": "1.15.3"
+  },
+  "finite_conflict": {
+    "cavity_face_vertices": [
+      17844,
+      17718,
+      17842
+    ],
+    "finite_face_distance_mm": 0.9297275607252136,
+    "finite_features": [
+      {
+        "cavity_vertices": [
+          17844,
+          17718,
+          17842
+        ],
+        "cavity_weights": [
+          0.0005357298907134878,
+          0.9994642701092865,
+          0.0
+        ],
+        "current_normal_gap_mm": 0.003506365185003925,
+        "key": "34852:181160:EE:0:0",
+        "kind": "EE",
+        "normal": [
+          0.025047165775718083,
+          0.9994272175346421,
+          -0.022756896483632796
+        ],
+        "pair": [
+          34852,
+          181160
+        ],
+        "point_cavity_mm": [
+          13.334632705455554,
+          21.02168362556539,
+          -81.09650585374483
+        ],
+        "point_tissue_mm": [
+          13.334720529965614,
+          21.0251879823659,
+          -81.09658564773439
+        ],
+        "reference_normal_gap_mm": 0.03940775228292529,
+        "tissue_vertices": [
+          93578,
+          94805,
+          94806
+        ],
+        "tissue_weights": [
+          0.005978933876347181,
+          0.9940210661236528,
+          0.0
+        ]
+      },
+      {
+        "cavity_vertices": [
+          17844,
+          17718,
+          17842
+        ],
+        "cavity_weights": [
+          0.006127855527999215,
+          0.9938721444720008,
+          0.0
+        ],
+        "current_normal_gap_mm": 0.004082946924817711,
+        "key": "34852:181160:EE:0:1",
+        "kind": "EE",
+        "normal": [
+          -0.08572773535535354,
+          0.9870256897590167,
+          0.13576097799654926
+        ],
+        "pair": [
+          34852,
+          181160
+        ],
+        "point_cavity_mm": [
+          13.329518936760318,
+          21.02173049755292,
+          -81.1000757725267
+        ],
+        "point_tissue_mm": [
+          13.329168914966877,
+          21.025760471057637,
+          -81.09952146765907
+        ],
+        "reference_normal_gap_mm": 0.0390941697148053,
+        "tissue_vertices": [
+          93578,
+          94805,
+          94806
+        ],
+        "tissue_weights": [
+          0.0,
+          0.9952280200058209,
+          0.004771979994179092
+        ]
+      },
+      {
+        "cavity_vertices": [
+          17844,
+          17718,
+          17842
+        ],
+        "cavity_weights": [
+          0.0,
+          0.9993923401355145,
+          0.000607659864485474
+        ],
+        "current_normal_gap_mm": 0.0035011752478173092,
+        "key": "34852:181160:EE:1:0",
+        "kind": "EE",
+        "normal": [
+          0.02542038114304774,
+          0.9996356650573353,
+          -0.00907421445202331
+        ],
+        "pair": [
+          34852,
+          181160
+        ],
+        "point_cavity_mm": [
+          13.335134080681057,
+          21.021675180352002,
+          -81.09656738860569
+        ],
+        "point_tissue_mm": [
+          13.335223081890305,
+          21.025175079999336,
+          -81.09659915902073
+        ],
+        "reference_normal_gap_mm": 0.03940117191746627,
+        "tissue_vertices": [
+          93578,
+          94805,
+          94806
+        ],
+        "tissue_weights": [
+          0.006515495148462613,
+          0.9934845048515374,
+          0.0
+        ]
+      },
+      {
+        "cavity_vertices": [
+          17844,
+          17718,
+          17842
+        ],
+        "cavity_weights": [
+          0.0,
+          0.9999025011315202,
+          9.74988684797964e-05
+        ],
+        "current_normal_gap_mm": -0.0056730120999619865,
+        "key": "34852:181160:EE:1:1",
+        "kind": "EE",
+        "normal": [
+          0.9959606045232949,
+          0.08548391088779726,
+          0.02747681235005061
+        ],
+        "pair": [
+          34852,
+          181160
+        ],
+        "point_cavity_mm": [
+          13.335124449113849,
+          21.021678500640053,
+          -81.09622860002382
+        ],
+        "point_tissue_mm": [
+          13.32912056425189,
+          21.02533175419688,
+          -81.09643509067443
+        ],
+        "reference_normal_gap_mm": 0.0033803472814632933,
+        "tissue_vertices": [
+          93578,
+          94805,
+          94806
+        ],
+        "tissue_weights": [
+          0.0,
+          1.0,
+          0.0
+        ]
+      }
+    ],
+    "infinite_plane_signed_gap_mm": -0.005547817850517856,
+    "interpretation": "Old inequality is attached to an off-triangle point; rejecting its infinite-plane row is not deleting a real finite contact.",
+    "outside_finite_face": [
+      {
+        "barycentric": [
+          -0.9971781667439206,
+          1.0001831901130946,
+          0.9969949766308259
+        ],
+        "key": "34852:181160:VF:0:0",
+        "reason": "OUTSIDE_FINITE_FACE",
+        "signed_plane_gap_mm": -0.005547817850517856
+      },
+      {
+        "barycentric": [
+          0.0065029300804483195,
+          0.9993900526309121,
+          -0.005892982711360393
+        ],
+        "key": "34852:181160:VF:0:1",
+        "reason": "OUTSIDE_FINITE_FACE",
+        "signed_plane_gap_mm": 0.0035603536611482954
+      },
+      {
+        "barycentric": [
+          -0.9773511247606339,
+          0.9761149131201159,
+          1.001236211640518
+        ],
+        "key": "34852:181160:VF:1:0",
+        "reason": "OUTSIDE_FINITE_FACE",
+        "signed_plane_gap_mm": 0.10982152941037966
+      },
+      {
+        "barycentric": [
+          0.0065292171930149585,
+          0.9948705056319864,
+          -0.0013997228250013827
+        ],
+        "key": "34852:181160:VF:1:1",
+        "reason": "OUTSIDE_FINITE_FACE",
+        "signed_plane_gap_mm": 0.0034038766154018693
+      },
+      {
+        "barycentric": [
+          0.018841762947427565,
+          -0.022924198444495687,
+          1.004082435497068
+        ],
+        "key": "34852:181160:VF:1:2",
+        "reason": "OUTSIDE_FINITE_FACE",
+        "signed_plane_gap_mm": 0.10092356786554532
+      }
+    ],
+    "pair": [
+      34852,
+      181160
+    ],
+    "point_mm": [
+      14.265736661626375,
+      21.001285354963287,
+      -81.12161634590514
+    ],
+    "projected_barycentric": [
+      -0.9971781667439206,
+      1.0001831901130946,
+      0.9969949766308259
+    ],
+    "strict_coincident_cavity_vertex": 17717,
+    "tissue_face_vertices": [
+      93578,
+      94805,
+      94806
+    ],
+    "tissue_vertex": 93578
+  },
+  "formal_resources_generated": false,
+  "full_continuously_verified_safe_capacity": null,
+  "global_safe_capacity_limit": null,
+  "historical_changed_files": [],
+  "persistent_coplanar": [
+    {
+      "class_counts": {
+        "CERTIFIED_COPLANAR_CONTACT_TOPOLOGY_INVARIANT": 92
+      },
+      "finite_positive_overlap_not_equal_to_permanent_plane_pair_count": true,
+      "name": "s1_n20_passed",
+      "reference_relations": {
+        "POINT_OR_EDGE_CONTACT": 50,
+        "POSITIVE_AREA_OVERLAP": 42
+      }
+    },
+    {
+      "class_counts": {
+        "CERTIFIED_COPLANAR_CONTACT_TOPOLOGY_INVARIANT": 92
+      },
+      "finite_positive_overlap_not_equal_to_permanent_plane_pair_count": true,
+      "name": "s2_warm",
+      "reference_relations": {
+        "POINT_OR_EDGE_CONTACT": 50,
+        "POSITIVE_AREA_OVERLAP": 42
+      }
+    },
+    {
+      "class_counts": {
+        "CERTIFIED_COPLANAR_CONTACT_TOPOLOGY_INVARIANT": 92
+      },
+      "finite_positive_overlap_not_equal_to_permanent_plane_pair_count": true,
+      "name": "robust_contract_r2",
+      "reference_relations": {
+        "POINT_OR_EDGE_CONTACT": 50,
+        "POSITIVE_AREA_OVERLAP": 42
+      }
+    }
+  ],
+  "physiological_parameters_remain_null": true,
+  "protected_files": 2919,
+  "python_tests": {
+    "errors": [],
+    "failures": [],
+    "passed": true,
+    "seconds": 13.059921264648438,
+    "synthetic_values_never_used_as_real_targets": true,
+    "tests": 38
+  },
+  "regional_capacity_attribution": {
+    "D2_actual_delta_mL": 0.8405453255607824,
+    "interpretation": "Nonoverlapping source-vertex response supports integrated along this trial trajectory, NOT baseline anatomical region capacities",
+    "regions": [
+      {
+        "delta_volume_mL": 0.0,
+        "fraction_of_signed_total": 0.0,
+        "max_displacement_mm": 0.0,
+        "region": "FIXED",
+        "vertices": 3675
+      },
+      {
+        "delta_volume_mL": 0.22491390947100726,
+        "fraction_of_signed_total": 0.2675809413620289,
+        "max_displacement_mm": 0.33986767721247074,
+        "region": "Terminals",
+        "vertices": 3659
+      },
+      {
+        "delta_volume_mL": 0.28967561300228173,
+        "fraction_of_signed_total": 0.34462818862150035,
+        "max_displacement_mm": 0.37703983433179983,
+        "region": "MainCavity",
+        "vertices": 2299
+      },
+      {
+        "delta_volume_mL": 0.0026840666204500183,
+        "fraction_of_signed_total": 0.0031932443603315537,
+        "max_displacement_mm": 0.1437907835622982,
+        "region": "J_01",
+        "vertices": 67
+      },
+      {
+        "delta_volume_mL": 0.30765577327772364,
+        "fraction_of_signed_total": 0.3660192543126291,
+        "max_displacement_mm": 0.22226414463018948,
+        "region": "Branches",
+        "vertices": 13919
+      },
+      {
+        "delta_volume_mL": 0.009942748979826692,
+        "fraction_of_signed_total": 0.011828926623550296,
+        "max_displacement_mm": 0.06514552247795916,
+        "region": "OtherJunctions",
+        "vertices": 595
+      },
+      {
+        "delta_volume_mL": 0.00567321420948203,
+        "fraction_of_signed_total": 0.006749444719946613,
+        "max_displacement_mm": 0.1652295795843933,
+        "region": "InterfaceTransition",
+        "vertices": 810
+      }
+    ],
+    "residual_mL": -1.0880185641326534e-14,
+    "sum_delta_mL": 0.8405453255607716
+  },
+  "regional_failed_endpoint_capacity_mL": 17.64650741299095,
+  "regional_failed_finite_pairs": 69,
+  "regional_failed_longest_crossing_mm": 0.6164633508163375,
+  "robust_patch": {
+    "actual_repaired_volume_mL": 15.524507478263558,
+    "budget_margin_on_seed_faces": [
+      0.001861176195916391,
+      0.0007971072075059511
+    ],
+    "continuous_collision_certified": false,
+    "endpoint_roundoff_bound_maximum_area_ratio": 1.069890201986098,
+    "endpoint_roundoff_bound_minimum_area_ratio": 0.800837556320789,
+    "formal_N2": false,
+    "full_float32_five_levels": [
+      {
+        "bad_edges": [],
+        "bad_faces": [],
+        "maximum_area_ratio": 1.0,
+        "maximum_edge_gradient": 0.0,
+        "maximum_face": 0,
+        "minimum_area_ratio": 1.0,
+        "minimum_face": 0,
+        "pass": true,
+        "u": 0
+      },
+      {
+        "bad_edges": [],
+        "bad_faces": [],
+        "maximum_area_ratio": 1.0177147138700895,
+        "maximum_edge_gradient": 0.04629543996017258,
+        "maximum_face": 11690,
+        "minimum_area_ratio": 0.9482333209484446,
+        "minimum_face": 7680,
+        "pass": true,
+        "u": 0.25
+      },
+      {
+        "bad_edges": [],
+        "bad_faces": [],
+        "maximum_area_ratio": 1.0352700756364526,
+        "maximum_edge_gradient": 0.09259166535900674,
+        "maximum_face": 11690,
+        "minimum_area_ratio": 0.8980334294727071,
+        "minimum_face": 7680,
+        "pass": true,
+        "u": 0.5
+      },
+      {
+        "bad_edges": [],
+        "bad_faces": [],
+        "maximum_area_ratio": 1.052649160706615,
+        "maximum_edge_gradient": 0.13888682171762678,
+        "maximum_face": 11690,
+        "minimum_area_ratio": 0.8492063272483624,
+        "minimum_face": 7680,
+        "pass": true,
+        "u": 0.75
+      },
+      {
+        "bad_edges": [],
+        "bad_faces": [],
+        "maximum_area_ratio": 1.0698737166661385,
+        "maximum_edge_gradient": 0.1851822562115562,
+        "maximum_face": 11690,
+        "minimum_area_ratio": 0.8016106613934776,
+        "minimum_face": 7680,
+        "pass": true,
+        "u": 1.0
+      }
+    ],
+    "full_float64_quality": {
+      "continuous_area": {
+        "critical_candidate_faces": 202,
+        "maximum_area_ratio": 1.0698647749702506,
+        "maximum_face": 11690,
+        "method": "Exact quartic squared-area extrema; derivative Bernstein sign screen, then real cubic roots on [0,1]",
+        "minimum_area_ratio": 0.8015942144156221,
+        "minimum_face": 7680,
+        "minimum_oriented_area_ratio": 0.8009450472064366
+      },
+      "endpoint_displacement_mm": {
+        "maximum": 0.5526274058722139,
+        "mean": 0.12851315673767433,
+        "median": 0.10265127709425748,
+        "p95": 0.4345395574836544
+      },
+      "five_levels": [
+        {
+          "area_fail_faces": 0,
+          "degenerate_faces": 0,
+          "finite": true,
+          "maximum_area_ratio": 1.0,
+          "maximum_edge_gradient": 0.0,
+          "maximum_normal_rotation_deg": 1.9090959104164224e-06,
+          "minimum_area_ratio": 1.0,
+          "reversed_faces": 0,
+          "u": 0,
+          "volume_mL": 19.723077362519593
+        },
+        {
+          "area_fail_faces": 0,
+          "degenerate_faces": 0,
+          "finite": true,
+          "maximum_area_ratio": 1.0177178641980518,
+          "maximum_edge_gradient": 0.04629560556851894,
+          "maximum_normal_rotation_deg": 3.253672408705784,
+          "minimum_area_ratio": 0.9483157903768493,
+          "reversed_faces": 0,
+          "u": 0.25,
+          "volume_mL": 19.395578598951953
+        },
+        {
+          "area_fail_faces": 0,
+          "degenerate_faces": 0,
+          "finite": true,
+          "maximum_area_ratio": 1.0352680274559976,
+          "maximum_edge_gradient": 0.09259121113703787,
+          "maximum_normal_rotation_deg": 6.6374454655116,
+          "minimum_area_ratio": 0.8980203340698434,
+          "reversed_faces": 0,
+          "u": 0.5,
+          "volume_mL": 19.07280171758659
+        },
+        {
+          "area_fail_faces": 0,
+          "degenerate_faces": 0,
+          "finite": true,
+          "maximum_area_ratio": 1.052650303095072,
+          "maximum_edge_gradient": 0.1388868167055568,
+          "maximum_normal_rotation_deg": 10.134026757474022,
+          "minimum_area_ratio": 0.8491132535255451,
+          "reversed_faces": 0,
+          "u": 0.75,
+          "volume_mL": 18.754737311514372
+        },
+        {
+          "area_fail_faces": 0,
+          "degenerate_faces": 0,
+          "finite": true,
+          "maximum_area_ratio": 1.0698647749702372,
+          "maximum_edge_gradient": 0.18518242227407575,
+          "maximum_normal_rotation_deg": 13.721589006220029,
+          "minimum_area_ratio": 0.8015942144156079,
+          "reversed_faces": 0,
+          "u": 1,
+          "volume_mL": 18.44137597382611
+        }
+      ],
+      "gradient_fail_edges": 0,
+      "maximum_edge_gradient": 0.18518242227407575,
+      "quality_gate_passed": true,
+      "worst_edge": [
+        17371,
+        17372
+      ]
+    },
+    "hardcoded_special_face": false,
+    "maximum_correction_mm": 1.2000850504353597e-05,
+    "maximum_ratio_margin": 0.0018783440633645045,
+    "patches": [
+      {
+        "iterations": 150,
+        "maximum_correction_mm": 1.2000850504353597e-05,
+        "message": "Iteration limit reached",
+        "minimum_internal_margin_residual": -2.1280046280658382e-08,
+        "optimizer_success": false,
+        "source_incident_faces": [
+          504,
+          505,
+          506,
+          507,
+          508,
+          509,
+          510,
+          511,
+          512,
+          513,
+          514,
+          515,
+          516,
+          517,
+          518,
+          519,
+          520,
+          530,
+          531,
+          532,
+          533,
+          534,
+          535,
+          536,
+          537,
+          538,
+          539,
+          540,
+          541,
+          542,
+          543,
+          552,
+          553,
+          554,
+          555,
+          556,
+          557,
+          558,
+          559,
+          560,
+          578,
+          579,
+          580,
+          581,
+          582,
+          583,
+          601,
+          602,
+          603,
+          604,
+          605,
+          625,
+          626,
+          627,
+          628,
+          629,
+          665,
+          666,
+          667,
+          668,
+          669,
+          670,
+          671,
+          672,
+          673,
+          674,
+          684,
+          685,
+          686,
+          687,
+          688,
+          689,
+          690,
+          691,
+          692,
+          693,
+          694,
+          697,
+          698,
+          699,
+          700,
+          701,
+          702,
+          752,
+          753,
+          754,
+          755,
+          756,
+          763,
+          764,
+          765,
+          767,
+          768,
+          769,
+          770,
+          771,
+          775,
+          776,
+          777,
+          782,
+          783,
+          784,
+          785,
+          786,
+          787,
+          788,
+          789,
+          799,
+          800,
+          801,
+          802,
+          1484,
+          1565
+        ],
+        "source_vertex_ids": [
+          414,
+          415,
+          416,
+          417,
+          418,
+          419,
+          420,
+          421,
+          422,
+          423,
+          424,
+          425,
+          426,
+          427,
+          428,
+          429,
+          430,
+          440,
+          441,
+          442,
+          443,
+          444,
+          445,
+          446,
+          447,
+          448,
+          457,
+          458,
+          459,
+          462,
+          463,
+          464,
+          465,
+          466,
+          483,
+          484,
+          485,
+          505,
+          506,
+          542,
+          548,
+          549,
+          550,
+          551,
+          552,
+          578,
+          580
+        ],
+        "status": "PATCH_UPDATED",
+        "vertices": 47,
+        "volume_residual_mL": -7.105427357601002e-15
+      },
+      {
+        "iterations": 53,
+        "maximum_correction_mm": 1.048329584012972e-05,
+        "message": "Optimization terminated successfully",
+        "minimum_internal_margin_residual": 5.958566973163215e-13,
+        "optimizer_success": true,
+        "source_incident_faces": [
+          6230,
+          6231,
+          6232,
+          6233,
+          6234,
+          6235,
+          6236,
+          6237,
+          6238,
+          6239,
+          6240,
+          6241,
+          6242,
+          6710,
+          6711,
+          6712,
+          6713,
+          6714,
+          6715,
+          6716,
+          7670,
+          7671,
+          7672,
+          7673,
+          7674,
+          7675,
+          7676,
+          7677,
+          7678,
+          7679,
+          7680,
+          7681,
+          7682,
+          7683,
+          7684,
+          7685,
+          7686,
+          7687,
+          7688,
+          8350,
+          8351,
+          8352,
+          8353,
+          8354,
+          8355,
+          8356,
+          8357,
+          8358,
+          8359,
+          8360,
+          8760,
+          8761,
+          8778,
+          8779,
+          8781,
+          8790,
+          8791,
+          8792,
+          8793,
+          8794,
+          8795,
+          8799,
+          8800,
+          8803,
+          9439,
+          9440,
+          9441,
+          9442,
+          9461,
+          9462,
+          9463,
+          9464,
+          9465,
+          9466,
+          9467,
+          9468,
+          9485,
+          9486,
+          9487,
+          9488,
+          9489,
+          9490,
+          9491,
+          9493,
+          9494,
+          9495,
+          9496,
+          9497,
+          9498,
+          9499,
+          9500,
+          9501,
+          9502,
+          9503,
+          9504,
+          9505,
+          9834,
+          9840,
+          9841,
+          9846,
+          9847,
+          9850,
+          9851,
+          10208,
+          10209,
+          10210,
+          10211,
+          10212,
+          10213,
+          10214,
+          10215,
+          10847,
+          10852,
+          10853,
+          10854,
+          10855,
+          10857,
+          10858,
+          10859,
+          10866,
+          10867,
+          10871,
+          10874,
+          10875,
+          10876,
+          10877,
+          10878,
+          10879
+        ],
+        "source_vertex_ids": [
+          3715,
+          3716,
+          3717,
+          3718,
+          3719,
+          3720,
+          3721,
+          3722,
+          3723,
+          3724,
+          3725,
+          3955,
+          3957,
+          3958,
+          3959,
+          4457,
+          4458,
+          4459,
+          4460,
+          4461,
+          4462,
+          4463,
+          4464,
+          4465,
+          4466,
+          4467,
+          4468,
+          4469,
+          4470,
+          4471,
+          4472,
+          4473,
+          4730,
+          4731,
+          4732,
+          4733,
+          4734,
+          4944,
+          4948,
+          4949,
+          4950,
+          5369,
+          5370,
+          5372,
+          5373,
+          5374,
+          5378,
+          5379,
+          5380,
+          5381,
+          6068
+        ],
+        "status": "PATCH_UPDATED",
+        "vertices": 51,
+        "volume_residual_mL": 0.0
+      }
+    ],
+    "seed_faces_selected_by_rounding_budget": [
+      535,
+      7680
+    ],
+    "sources": {
+      "cavity": {
+        "path": "godot_sim/deformation/capacity_v2_n20_v1/contract/cavity_013.npy",
+        "sha256": "c17e7cd7af9f0744c00f42066807cbe332cd387e7ff99d30e8595b30521f439a"
+      },
+      "tissue": {
+        "path": "godot_sim/deformation/capacity_v2_n20_v1/contract/tissue_013.npy",
+        "sha256": "1ea7dfd865df947cdcfb6ecf3caab6de887702bc5f716f9891f364216707ef55"
+      }
+    },
+    "target_research_candidate_volume_mL": 15.524507478263565,
+    "tissue_float32_five_levels": [
+      {
+        "bad_edges": [],
+        "bad_faces": [],
+        "maximum_area_ratio": 1.0,
+        "maximum_edge_gradient": 0.0,
+        "maximum_face": 0,
+        "minimum_area_ratio": 1.0,
+        "minimum_face": 0,
+        "pass": true,
+        "u": 0
+      },
+      {
+        "bad_edges": [],
+        "bad_faces": [],
+        "maximum_area_ratio": 1.0117721086782103,
+        "maximum_edge_gradient": 0.027801988669477813,
+        "maximum_face": 199318,
+        "minimum_area_ratio": 0.9614140571282761,
+        "minimum_face": 181408,
+        "pass": true,
+        "u": 0.25
+      },
+      {
+        "bad_edges": [],
+        "bad_faces": [],
+        "maximum_area_ratio": 1.0233140792000002,
+        "maximum_edge_gradient": 0.05560342880817676,
+        "maximum_face": 199318,
+        "minimum_area_ratio": 0.9228571757943238,
+        "minimum_face": 181408,
+        "pass": true,
+        "u": 0.5
+      },
+      {
+        "bad_edges": [],
+        "bad_faces": [],
+        "maximum_area_ratio": 1.0346280880448584,
+        "maximum_edge_gradient": 0.08340569707351947,
+        "maximum_face": 199318,
+        "minimum_area_ratio": 0.88431758318848,
+        "minimum_face": 181408,
+        "pass": true,
+        "u": 0.75
+      },
+      {
+        "bad_edges": [],
+        "bad_faces": [],
+        "maximum_area_ratio": 1.045712558852044,
+        "maximum_edge_gradient": 0.11120768574290643,
+        "maximum_face": 199318,
+        "minimum_area_ratio": 0.8458080413741005,
+        "minimum_face": 181408,
+        "pass": true,
+        "u": 1.0
+      }
+    ],
+    "tissue_quality": {
+      "continuous_area": {
+        "critical_candidate_faces": 96,
+        "maximum_area_ratio": 1.045712573320614,
+        "maximum_face": 199318,
+        "method": "Exact quartic squared-area extrema; derivative Bernstein sign screen, then real cubic roots on [0,1]",
+        "minimum_area_ratio": 0.8458103558891464,
+        "minimum_face": 181408,
+        "minimum_oriented_area_ratio": 0.8455144272552534
+      },
+      "endpoint_displacement_mm": {
+        "maximum": 0.5045847147742147,
+        "mean": 0.017862539637121158,
+        "median": 0.0,
+        "p95": 0.11453969351489961
+      },
+      "five_levels": [
+        {
+          "area_fail_faces": 0,
+          "degenerate_faces": 0,
+          "finite": true,
+          "maximum_area_ratio": 1.0,
+          "maximum_edge_gradient": 0.0,
+          "maximum_normal_rotation_deg": 1.9090959104164224e-06,
+          "minimum_area_ratio": 1.0,
+          "reversed_faces": 0,
+          "u": 0,
+          "volume_mL": 300.22443238551654
+        },
+        {
+          "area_fail_faces": 0,
+          "degenerate_faces": 0,
+          "finite": true,
+          "maximum_area_ratio": 1.0117717349887345,
+          "maximum_edge_gradient": 0.0278018975479499,
+          "maximum_normal_rotation_deg": 1.6640150277811554,
+          "minimum_area_ratio": 0.9614157666481526,
+          "reversed_faces": 0,
+          "u": 0.25,
+          "volume_mL": 300.5030013903587
+        },
+        {
+          "area_fail_faces": 0,
+          "degenerate_faces": 0,
+          "finite": true,
+          "maximum_area_ratio": 1.0233147177192388,
+          "maximum_edge_gradient": 0.0556037950958998,
+          "maximum_normal_rotation_deg": 3.357406910588367,
+          "minimum_area_ratio": 0.9228536629753332,
+          "reversed_faces": 0,
+          "u": 0.5,
+          "volume_mL": 300.7787937563768
+        },
+        {
+          "area_fail_faces": 0,
+          "degenerate_faces": 0,
+          "finite": true,
+          "maximum_area_ratio": 1.0346284768978513,
+          "maximum_edge_gradient": 0.0834056926438497,
+          "maximum_normal_rotation_deg": 5.078390145099409,
+          "minimum_area_ratio": 0.8843171320740071,
+          "reversed_faces": 0,
+          "u": 0.75,
+          "volume_mL": 301.05181190904676
+        },
+        {
+          "area_fail_faces": 0,
+          "degenerate_faces": 0,
+          "finite": true,
+          "maximum_area_ratio": 1.0457125733205865,
+          "maximum_edge_gradient": 0.1112075901917996,
+          "maximum_normal_rotation_deg": 6.824933960900043,
+          "minimum_area_ratio": 0.8458103558891399,
+          "reversed_faces": 0,
+          "u": 1,
+          "volume_mL": 301.32205827384564
+        }
+      ],
+      "gradient_fail_edges": 0,
+      "maximum_edge_gradient": 0.1112075901917996,
+      "quality_gate_passed": true,
+      "worst_edge": [
+        94809,
+        94810
+      ]
+    },
+    "topology_changed": false
+  },
+  "self_CCD_scope": [
+    {
+      "broad_pairs": 396572,
+      "certified_interval_separated_selected_pairs": 74607,
+      "exact_class_counts": {
+        "CERTIFIED_NO_TRANSVERSE_SEPARATING_POLYNOMIAL": 1083,
+        "CERTIFIED_NO_TRANSVERSE_SHARED_FEATURE": 1286
+      },
+      "full_self_continuous_safety_certified": false,
+      "invariant_reference_pairs": 55483,
+      "mesh": "cavity",
+      "name": "robust_contract_r2",
+      "scope": "All nonadjacent moving pairs plus critical one-vertex neighborhoods. Remaining shared-one-vertex pairs explicitly unresolved by scope; no silent exclusion.",
+      "selected_pairs": 76976,
+      "shared_edge_pairs_no_transverse_by_common_edge_identity": 64105,
+      "shared_feature_coplanar_overlap_not_certified": true,
+      "unprocessed_shared_one_vertex_pairs": 200008
+    },
+    {
+      "broad_pairs": 2391351,
+      "certified_interval_separated_selected_pairs": 91250,
+      "exact_class_counts": {
+        "CERTIFIED_NO_TRANSVERSE_SEPARATING_POLYNOMIAL": 855,
+        "CERTIFIED_NO_TRANSVERSE_SHARED_FEATURE": 344
+      },
+      "full_self_continuous_safety_certified": false,
+      "invariant_reference_pairs": 1927713,
+      "mesh": "tissue",
+      "name": "robust_contract_r2",
+      "scope": "All nonadjacent moving pairs plus critical one-vertex neighborhoods. Remaining shared-one-vertex pairs explicitly unresolved by scope; no silent exclusion.",
+      "selected_pairs": 92449,
+      "shared_edge_pairs_no_transverse_by_common_edge_identity": 89845,
+      "shared_feature_coplanar_overlap_not_certified": true,
+      "unprocessed_shared_one_vertex_pairs": 281344
+    },
+    {
+      "broad_pairs": 395101,
+      "certified_interval_separated_selected_pairs": 72894,
+      "exact_class_counts": {
+        "CERTIFIED_NO_TRANSVERSE_SEPARATING_POLYNOMIAL": 1361,
+        "CERTIFIED_NO_TRANSVERSE_SHARED_FEATURE": 201463
+      },
+      "full_self_continuous_safety_certified": false,
+      "invariant_reference_pairs": 55169,
+      "mesh": "cavity",
+      "name": "s1_n20_passed",
+      "scope": "All nonadjacent moving pairs plus critical one-vertex neighborhoods. Remaining shared-one-vertex pairs explicitly unresolved by scope; no silent exclusion.",
+      "selected_pairs": 275718,
+      "shared_edge_pairs_no_transverse_by_common_edge_identity": 64214,
+      "shared_feature_coplanar_overlap_not_certified": true,
+      "unprocessed_shared_one_vertex_pairs": 0
+    },
+    {
+      "broad_pairs": 2390095,
+      "certified_interval_separated_selected_pairs": 89690,
+      "exact_class_counts": {
+        "CERTIFIED_NO_TRANSVERSE_SEPARATING_POLYNOMIAL": 1159,
+        "CERTIFIED_NO_TRANSVERSE_SHARED_FEATURE": 344
+      },
+      "full_self_continuous_safety_certified": false,
+      "invariant_reference_pairs": 1927713,
+      "mesh": "tissue",
+      "name": "s1_n20_passed",
+      "scope": "All nonadjacent moving pairs plus critical one-vertex neighborhoods. Remaining shared-one-vertex pairs explicitly unresolved by scope; no silent exclusion.",
+      "selected_pairs": 91193,
+      "shared_edge_pairs_no_transverse_by_common_edge_identity": 89845,
+      "shared_feature_coplanar_overlap_not_certified": true,
+      "unprocessed_shared_one_vertex_pairs": 281344
+    }
+  ],
+  "stage": "N2.1-R",
+  "status": "PARTIAL_REMEDIATION_RESEARCH_ONLY_AWAITING_USER_REVIEW",
+  "target_30_percent_passed": false,
+  "targets": {
+    "contract_mL": 11.764173461201125,
+    "expand_mL": 21.84775071365923,
+    "reference_mL": 16.805962087430178
+  },
+  "warm_regression": [
+    {
+      "continuous_certificate": false,
+      "crossings": 0,
+      "max_tissue_change_mm": 0.0,
+      "name": "S1_expand",
+      "not_a_new_independent_mapping_cure": true,
+      "qp_pass": true,
+      "static_candidate_pass": true,
+      "warm_start_is_previous_N20_research_mapping": true
+    },
+    {
+      "continuous_certificate": false,
+      "crossings": 0,
+      "max_tissue_change_mm": 0.0,
+      "name": "S2_expand",
+      "not_a_new_independent_mapping_cure": true,
+      "qp_pass": true,
+      "static_candidate_pass": true,
+      "warm_start_is_previous_N20_research_mapping": true
+    },
+    {
+      "continuous_certificate": false,
+      "crossings": 0,
+      "max_tissue_change_mm": 0.0,
+      "name": "expand",
+      "not_a_new_independent_mapping_cure": true,
+      "qp_pass": true,
+      "static_candidate_pass": true,
+      "warm_start_is_previous_N20_research_mapping": true
+    }
+  ],
+  "whole_interval_float32_margin": [
+    {
+      "area_bound_fail_source_faces": [
+        535
+      ],
+      "arithmetic_guard": "128*binary64_epsilon times cross-product condition proxy; separate exact rational CCD is not implied",
+      "candidate": "robust_contract",
+      "hard_gate_protected_by_bound": false,
+      "includes_u_rounding_and_multiply_add": true,
+      "maximum_area_ratio_upper_bound": 1.0698902680801714,
+      "maximum_edge_gradient_upper_bound": 0.18518345189142882,
+      "mesh": "cavity",
+      "minimum_area_ratio_lower_bound": 0.7993259780283252,
+      "minimum_bound_face": 535,
+      "scope": "Conservative IEEE float32 rendering area/gradient error budget; not a formal interval-arithmetic proof of all CPU implementations or finite contacts",
+      "whole_interval_not_only_five_samples": true
+    },
+    {
+      "area_bound_fail_source_faces": [],
+      "arithmetic_guard": "128*binary64_epsilon times cross-product condition proxy; separate exact rational CCD is not implied",
+      "candidate": "robust_contract",
+      "hard_gate_protected_by_bound": true,
+      "includes_u_rounding_and_multiply_add": true,
+      "maximum_area_ratio_upper_bound": 1.0457196068767163,
+      "maximum_edge_gradient_upper_bound": 0.11120861684437337,
+      "mesh": "tissue",
+      "minimum_area_ratio_lower_bound": 0.8455038901394133,
+      "minimum_bound_face": 181408,
+      "scope": "Conservative IEEE float32 rendering area/gradient error budget; not a formal interval-arithmetic proof of all CPU implementations or finite contacts",
+      "whole_interval_not_only_five_samples": true
+    },
+    {
+      "area_bound_fail_source_faces": [],
+      "arithmetic_guard": "128*binary64_epsilon times cross-product condition proxy; separate exact rational CCD is not implied",
+      "candidate": "robust_contract_r2",
+      "hard_gate_protected_by_bound": true,
+      "includes_u_rounding_and_multiply_add": true,
+      "maximum_area_ratio_upper_bound": 1.0698902680801714,
+      "maximum_edge_gradient_upper_bound": 0.18518345189142882,
+      "mesh": "cavity",
+      "minimum_area_ratio_lower_bound": 0.8001809734832348,
+      "minimum_bound_face": 7680,
+      "scope": "Conservative IEEE float32 rendering area/gradient error budget; not a formal interval-arithmetic proof of all CPU implementations or finite contacts",
+      "whole_interval_not_only_five_samples": true
+    },
+    {
+      "area_bound_fail_source_faces": [],
+      "arithmetic_guard": "128*binary64_epsilon times cross-product condition proxy; separate exact rational CCD is not implied",
+      "candidate": "robust_contract_r2",
+      "hard_gate_protected_by_bound": true,
+      "includes_u_rounding_and_multiply_add": true,
+      "maximum_area_ratio_upper_bound": 1.0457196068767163,
+      "maximum_edge_gradient_upper_bound": 0.11120861684437337,
+      "mesh": "tissue",
+      "minimum_area_ratio_lower_bound": 0.8455038901394133,
+      "minimum_bound_face": 181408,
+      "scope": "Conservative IEEE float32 rendering area/gradient error budget; not a formal interval-arithmetic proof of all CPU implementations or finite contacts",
+      "whole_interval_not_only_five_samples": true
+    }
+  ]
+}

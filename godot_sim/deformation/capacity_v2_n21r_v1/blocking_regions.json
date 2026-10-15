@@ -1,0 +1,37 @@
+[
+  {
+    "evidence": "contact_final/summary.json",
+    "id": "FINITE_COLD_MAPPING",
+    "reason": "Cold +8/+15/+25 candidates retain 76/822/1894 confirmed transverse pairs. Warm fixtures retain N2.0 solutions; not independent new mapping cures.",
+    "status": "FAILED"
+  },
+  {
+    "evidence": "regional_sqp/nonlinear_failure.json",
+    "id": "REGIONAL_NONLINEAR_CONTACT",
+    "reason": "LP-initialized total-coefficient proposal has 69 true finite crossings; linearized current features do not constrain all newly encountered contacts.",
+    "status": "FAILED"
+  },
+  {
+    "evidence": "ccd_self/",
+    "id": "SELF_CCD_SCOPE",
+    "reason": "Moving shared-one-vertex pairs and shared-feature coplanar overlap require completion. No complete +15 self-CCD.",
+    "status": "UNRESOLVED"
+  },
+  {
+    "evidence": "verification/",
+    "id": "FLOAT32_CONTACT_TRAJECTORY",
+    "reason": "Five float32 relative tests and whole-interval area/gradient budgets do not certify quantized trajectory contacts or all float32 self-intersections.",
+    "status": "UNRESOLVED"
+  },
+  {
+    "evidence": "boundary/",
+    "id": "MEASUREMENT_CAP_CCD",
+    "reason": "Fixed and material-moving cap templates valid at samples only; continuous cap-wall/cap-self interval gate not complete.",
+    "status": "UNRESOLVED"
+  },
+  {
+    "id": "TARGETS_30_PERCENT",
+    "reason": "No safety-qualified path to either specified target. No inference of a global geometric capacity limit.",
+    "status": "NOT_ESTABLISHED"
+  }
+]

@@ -1,0 +1,42 @@
+{
+  "features": {},
+  "iteration": 0,
+  "numerical_arrays": {
+    "cavity": {
+      "file": "real_transaction_cavity.npy",
+      "sha256": "6927c56e42ef3ce67617c975d66c1faa7940a1e32e51d5036b5da74b96217ab0"
+    },
+    "linearization": {
+      "file": "real_transaction_linearization.npy",
+      "sha256": "32755c0b3ef73ea775718390eeb646ea7e18db20b7b29d660f215aab3d0816db"
+    },
+    "warm_cavity": {
+      "file": "real_transaction_warm_cavity.npy",
+      "sha256": "6927c56e42ef3ce67617c975d66c1faa7940a1e32e51d5036b5da74b96217ab0"
+    },
+    "warm_tissue": {
+      "file": "real_transaction_warm_tissue.npy",
+      "sha256": "884474f80bd027a0211ac1c725502565c1fdb3648cb6515b7420655142c02e79"
+    }
+  },
+  "outer_index": 0,
+  "pairs": [
+    [
+      34852,
+      181160
+    ]
+  ],
+  "resume_semantics": "Restart complete saved outer transaction, including warm and linearization arrays; never resume partial KKT factorization",
+  "schema": "N21R_CONTACT_STATE_V2",
+  "settings": {
+    "max_outer": 1,
+    "solver": "FINITE_TRANSACTION_TEST"
+  },
+  "source_hashes": {
+    "cavity_bytes": "b7938f5c7085df01671b53a37b1c847105a6b35221c7f2f5c96b81a9191e6b3f",
+    "reference_cavity": "f584cf22a3c0104b7caf4198b5965c05524fe18c08a455dd2a8ba2cdd4cb27af",
+    "reference_tissue": "3156158dcee1c407575ecebb5b31b6646f15f24f205fac9e9035f6226be9552a"
+  },
+  "stage": "OUTER_BEGIN",
+  "trust_radius": 0.02
+}

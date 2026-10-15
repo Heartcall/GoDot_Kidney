@@ -1,0 +1,17 @@
+{
+  "broad_pairs": 396572,
+  "certified_interval_separated_selected_pairs": 74607,
+  "exact_class_counts": {
+    "CERTIFIED_NO_TRANSVERSE_SEPARATING_POLYNOMIAL": 1083,
+    "CERTIFIED_NO_TRANSVERSE_SHARED_FEATURE": 1286
+  },
+  "full_self_continuous_safety_certified": false,
+  "invariant_reference_pairs": 55483,
+  "mesh": "cavity",
+  "name": "robust_contract_r2",
+  "scope": "All nonadjacent moving pairs plus critical one-vertex neighborhoods. Remaining shared-one-vertex pairs explicitly unresolved by scope; no silent exclusion.",
+  "selected_pairs": 76976,
+  "shared_edge_pairs_no_transverse_by_common_edge_identity": 64105,
+  "shared_feature_coplanar_overlap_not_certified": true,
+  "unprocessed_shared_one_vertex_pairs": 200008
+}

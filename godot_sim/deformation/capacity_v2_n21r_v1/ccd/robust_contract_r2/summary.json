@@ -1,0 +1,22 @@
+{
+  "arithmetic": "Outward nextafter fixed-axis projection intervals; Fraction exact rational Bernstein sign tests and dyadic finite witnesses",
+  "broad_pairs": 325604,
+  "certified_fixed_axis_separation_pairs": 311027,
+  "exact_pair_counts": {
+    "CERTIFIED_NO_TRANSVERSE_PERSISTENT_COPLANAR": 92,
+    "CERTIFIED_NO_TRANSVERSE_SEPARATING_POLYNOMIAL": 10083,
+    "CERTIFIED_NO_TRANSVERSE_SHARED_FEATURE": 4402
+  },
+  "exact_witness_uses_no_increased_contact_tolerance": true,
+  "full_continuous_safe": false,
+  "max_time_depth": 3,
+  "name": "robust_contract_r2",
+  "scope": "Complete cavity-tissue transverse analysis; self-CCD and new-overlap acceptability require separate gates",
+  "seconds_exact_stage": 29.271491527557373,
+  "source_endpoint_sha256": {
+    "cavity": "0e4becfd77db4dff0931ea32df73468ff29bb0a5223d381173f0d446fa01c401",
+    "tissue": "28bec2fa1d8a8d6fd5709e0f4605574d12cd68335e6ea2c2dd09b2b1dbfee163"
+  },
+  "trajectory_definition": "Exact affine interpolation between supplied IEEE binary64 vertex ENDPOINTS; not float32 quantized runtime motion",
+  "unresolved_never_passed": true
+}

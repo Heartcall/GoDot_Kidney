@@ -1,0 +1,32 @@
+[
+  {
+    "continuous_certificate": false,
+    "crossings": 0,
+    "max_tissue_change_mm": 0.0,
+    "name": "S1_expand",
+    "not_a_new_independent_mapping_cure": true,
+    "qp_pass": true,
+    "static_candidate_pass": true,
+    "warm_start_is_previous_N20_research_mapping": true
+  },
+  {
+    "continuous_certificate": false,
+    "crossings": 126,
+    "max_tissue_change_mm": 22.297627342780935,
+    "name": "S2_expand",
+    "not_a_new_independent_mapping_cure": true,
+    "qp_pass": false,
+    "static_candidate_pass": false,
+    "warm_start_is_previous_N20_research_mapping": true
+  },
+  {
+    "continuous_certificate": false,
+    "crossings": 0,
+    "max_tissue_change_mm": 0.0,
+    "name": "expand",
+    "not_a_new_independent_mapping_cure": true,
+    "qp_pass": true,
+    "static_candidate_pass": true,
+    "warm_start_is_previous_N20_research_mapping": true
+  }
+]

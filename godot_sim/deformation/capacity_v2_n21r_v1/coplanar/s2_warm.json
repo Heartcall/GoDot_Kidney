@@ -1,0 +1,2497 @@
+{
+  "class_counts": {
+    "CERTIFIED_COPLANAR_CONTACT_TOPOLOGY_INVARIANT": 92
+  },
+  "finite_positive_overlap_not_equal_to_permanent_plane_pair_count": true,
+  "name": "s2_warm",
+  "pairs": [
+    {
+      "cavity_face": 6806,
+      "class": "CERTIFIED_COPLANAR_CONTACT_TOPOLOGY_INVARIANT",
+      "constant_barycentric_embedding": [
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "endpoint_exact": true,
+      "precondition": "Triangle A remains nondegenerate; guaranteed for these selected pairs by fresh CCD exact normal-polynomial guard.",
+      "reference_exact": true,
+      "reference_projected_overlap_area_exact": "1294674948743115/4503599627370496",
+      "reference_relation": "POSITIVE_AREA_OVERLAP",
+      "tissue_face": 72260
+    },
+    {
+      "cavity_face": 6807,
+      "class": "CERTIFIED_COPLANAR_CONTACT_TOPOLOGY_INVARIANT",
+      "constant_barycentric_embedding": [
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "endpoint_exact": true,
+      "precondition": "Triangle A remains nondegenerate; guaranteed for these selected pairs by fresh CCD exact normal-polynomial guard.",
+      "reference_exact": true,
+      "reference_projected_overlap_area_exact": "1294674948743115/4503599627370496",
+      "reference_relation": "POSITIVE_AREA_OVERLAP",
+      "tissue_face": 72261
+    },
+    {
+      "cavity_face": 6808,
+      "class": "CERTIFIED_COPLANAR_CONTACT_TOPOLOGY_INVARIANT",
+      "constant_barycentric_embedding": [
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "endpoint_exact": true,
+      "precondition": "Triangle A remains nondegenerate; guaranteed for these selected pairs by fresh CCD exact normal-polynomial guard.",
+      "reference_exact": true,
+      "reference_projected_overlap_area_exact": "1294674934669365/4503599627370496",
+      "reference_relation": "POSITIVE_AREA_OVERLAP",
+      "tissue_face": 72262
+    },
+    {
+      "cavity_face": 6809,
+      "class": "CERTIFIED_COPLANAR_CONTACT_TOPOLOGY_INVARIANT",
+      "constant_barycentric_embedding": [
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "endpoint_exact": true,
+      "precondition": "Triangle A remains nondegenerate; guaranteed for these selected pairs by fresh CCD exact normal-polynomial guard.",
+      "reference_exact": true,
+      "reference_projected_overlap_area_exact": "1294674934669365/4503599627370496",
+      "reference_relation": "POSITIVE_AREA_OVERLAP",
+      "tissue_face": 72263
+    },
+    {
+      "cavity_face": 7735,
+      "class": "CERTIFIED_COPLANAR_CONTACT_TOPOLOGY_INVARIANT",
+      "constant_barycentric_embedding": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ]
+      ],
+      "endpoint_exact": true,
+      "precondition": "Triangle A remains nondegenerate; guaranteed for these selected pairs by fresh CCD exact normal-polynomial guard.",
+      "reference_exact": true,
+      "reference_projected_overlap_area_exact": "2589349897486225/9007199254740992",
+      "reference_relation": "POSITIVE_AREA_OVERLAP",
+      "tissue_face": 55413
+    },
+    {
+      "cavity_face": 7736,
+      "class": "CERTIFIED_COPLANAR_CONTACT_TOPOLOGY_INVARIANT",
+      "constant_barycentric_embedding": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ]
+      ],
+      "endpoint_exact": true,
+      "precondition": "Triangle A remains nondegenerate; guaranteed for these selected pairs by fresh CCD exact normal-polynomial guard.",
+      "reference_exact": true,
+      "reference_projected_overlap_area_exact": "2589349897486225/9007199254740992",
+      "reference_relation": "POSITIVE_AREA_OVERLAP",
+      "tissue_face": 62206
+    },
+    {
+      "cavity_face": 7746,
+      "class": "CERTIFIED_COPLANAR_CONTACT_TOPOLOGY_INVARIANT",
+      "constant_barycentric_embedding": [
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "endpoint_exact": true,
+      "precondition": "Triangle A remains nondegenerate; guaranteed for these selected pairs by fresh CCD exact normal-polynomial guard.",
+      "reference_exact": true,
+      "reference_projected_overlap_area_exact": "2589349897486225/9007199254740992",
+      "reference_relation": "POSITIVE_AREA_OVERLAP",
+      "tissue_face": 55412
+    },
+    {
+      "cavity_face": 8447,
+      "class": "CERTIFIED_COPLANAR_CONTACT_TOPOLOGY_INVARIANT",
+      "constant_barycentric_embedding": [
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "endpoint_exact": true,
+      "precondition": "Triangle A remains nondegenerate; guaranteed for these selected pairs by fresh CCD exact normal-polynomial guard.",
+      "reference_exact": true,
+      "reference_projected_overlap_area_exact": "1294674934669365/4503599627370496",
+      "reference_relation": "POSITIVE_AREA_OVERLAP",
+      "tissue_face": 70220
+    },
+    {
+      "cavity_face": 21735,
+      "class": "CERTIFIED_COPLANAR_CONTACT_TOPOLOGY_INVARIANT",
+      "constant_barycentric_embedding": [
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "endpoint_exact": true,
+      "precondition": "Triangle A remains nondegenerate; guaranteed for these selected pairs by fresh CCD exact normal-polynomial guard.",
+      "reference_exact": true,
+      "reference_projected_overlap_area_exact": "2589352571498505/9007199254740992",
+      "reference_relation": "POSITIVE_AREA_OVERLAP",
+      "tissue_face": 124788
+    },
+    {
+      "cavity_face": 22492,
+      "class": "CERTIFIED_COPLANAR_CONTACT_TOPOLOGY_INVARIANT",
+      "constant_barycentric_embedding": [
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "endpoint_exact": true,
+      "precondition": "Triangle A remains nondegenerate; guaranteed for these selected pairs by fresh CCD exact normal-polynomial guard.",
+      "reference_exact": true,
+      "reference_projected_overlap_area_exact": "2589349897486225/9007199254740992",
+      "reference_relation": "POSITIVE_AREA_OVERLAP",
+      "tissue_face": 111568
+    },
+    {
+      "cavity_face": 22493,
+      "class": "CERTIFIED_COPLANAR_CONTACT_TOPOLOGY_INVARIANT",
+      "constant_barycentric_embedding": [
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "endpoint_exact": true,
+      "precondition": "Triangle A remains nondegenerate; guaranteed for these selected pairs by fresh CCD exact normal-polynomial guard.",
+      "reference_exact": true,
+      "reference_projected_overlap_area_exact": "2589349897486225/9007199254740992",
+      "reference_relation": "POSITIVE_AREA_OVERLAP",
+      "tissue_face": 111569
+    },
+    {
+      "cavity_face": 28133,
+      "class": "CERTIFIED_COPLANAR_CONTACT_TOPOLOGY_INVARIANT",
+      "constant_barycentric_embedding": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ]
+      ],
+      "endpoint_exact": true,
+      "precondition": "Triangle A remains nondegenerate; guaranteed for these selected pairs by fresh CCD exact normal-polynomial guard.",
+      "reference_exact": true,
+      "reference_projected_overlap_area_exact": "2589349869338735/9007199254740992",
+      "reference_relation": "POSITIVE_AREA_OVERLAP",
+      "tissue_face": 162092
+    },
+    {
+      "cavity_face": 29169,
+      "class": "CERTIFIED_COPLANAR_CONTACT_TOPOLOGY_INVARIANT",
+      "constant_barycentric_embedding": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ]
+      ],
+      "endpoint_exact": true,
+      "precondition": "Triangle A remains nondegenerate; guaranteed for these selected pairs by fresh CCD exact normal-polynomial guard.",
+      "reference_exact": true,
+      "reference_projected_overlap_area_exact": "678782628071001562175/2361183241434822606848",
+      "reference_relation": "POSITIVE_AREA_OVERLAP",
+      "tissue_face": 159433
+    },
+    {
+      "cavity_face": 29170,
+      "class": "CERTIFIED_COPLANAR_CONTACT_TOPOLOGY_INVARIANT",
+      "constant_barycentric_embedding": [
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "endpoint_exact": true,
+      "precondition": "Triangle A remains nondegenerate; guaranteed for these selected pairs by fresh CCD exact normal-polynomial guard.",
+      "reference_exact": true,
+      "reference_projected_overlap_area_exact": "678782628071001562175/2361183241434822606848",
+      "reference_relation": "POSITIVE_AREA_OVERLAP",
+      "tissue_face": 159434
+    },
+    {
+      "cavity_face": 29171,
+      "class": "CERTIFIED_COPLANAR_CONTACT_TOPOLOGY_INVARIANT",
+      "constant_barycentric_embedding": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ]
+      ],
+      "endpoint_exact": true,
+      "precondition": "Triangle A remains nondegenerate; guaranteed for these selected pairs by fresh CCD exact normal-polynomial guard.",
+      "reference_exact": true,
+      "reference_projected_overlap_area_exact": "41429606466258985/144115188075855872",
+      "reference_relation": "POSITIVE_AREA_OVERLAP",
+      "tissue_face": 159484
+    },
+    {
+      "cavity_face": 33769,
+      "class": "CERTIFIED_COPLANAR_CONTACT_TOPOLOGY_INVARIANT",
+      "constant_barycentric_embedding": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ]
+      ],
+      "endpoint_exact": true,
+      "precondition": "Triangle A remains nondegenerate; guaranteed for these selected pairs by fresh CCD exact normal-polynomial guard.",
+      "reference_exact": true,
+      "reference_projected_overlap_area_exact": "1294674948743115/4503599627370496",
+      "reference_relation": "POSITIVE_AREA_OVERLAP",
+      "tissue_face": 195061
+    },
+    {
+      "cavity_face": 33770,
+      "class": "CERTIFIED_COPLANAR_CONTACT_TOPOLOGY_INVARIANT",
+      "constant_barycentric_embedding": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ]
+      ],
+      "endpoint_exact": true,
+      "precondition": "Triangle A remains nondegenerate; guaranteed for these selected pairs by fresh CCD exact normal-polynomial guard.",
+      "reference_exact": true,
+      "reference_projected_overlap_area_exact": "1294674948743115/4503599627370496",
+      "reference_relation": "POSITIVE_AREA_OVERLAP",
+      "tissue_face": 195060
+    },
+    {
+      "cavity_face": 33928,
+      "class": "CERTIFIED_COPLANAR_CONTACT_TOPOLOGY_INVARIANT",
+      "constant_barycentric_embedding": [
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "endpoint_exact": true,
+      "precondition": "Triangle A remains nondegenerate; guaranteed for these selected pairs by fresh CCD exact normal-polynomial guard.",
+      "reference_exact": true,
+      "reference_projected_overlap_area_exact": "1294674948743115/4503599627370496",
+      "reference_relation": "POSITIVE_AREA_OVERLAP",
+      "tissue_face": 191769
+    },
+    {
+      "cavity_face": 33929,
+      "class": "CERTIFIED_COPLANAR_CONTACT_TOPOLOGY_INVARIANT",
+      "constant_barycentric_embedding": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ]
+      ],
+      "endpoint_exact": true,
+      "precondition": "Triangle A remains nondegenerate; guaranteed for these selected pairs by fresh CCD exact normal-polynomial guard.",
+      "reference_exact": true,
+      "reference_projected_overlap_area_exact": "5178702440837235/18014398509481984",
+      "reference_relation": "POSITIVE_AREA_OVERLAP",
+      "tissue_face": 196181
+    },
+    {
+      "cavity_face": 34880,
+      "class": "CERTIFIED_COPLANAR_CONTACT_TOPOLOGY_INVARIANT",
+      "constant_barycentric_embedding": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ]
+      ],
+      "endpoint_exact": true,
+      "precondition": "Triangle A remains nondegenerate; guaranteed for these selected pairs by fresh CCD exact normal-polynomial guard.",
+      "reference_exact": true,
+      "reference_projected_overlap_area_exact": "1294674948743115/4503599627370496",
+      "reference_relation": "POSITIVE_AREA_OVERLAP",
+      "tissue_face": 191772
+    },
+    {
+      "cavity_face": 34881,
+      "class": "CERTIFIED_COPLANAR_CONTACT_TOPOLOGY_INVARIANT",
+      "constant_barycentric_embedding": [
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "endpoint_exact": true,
+      "precondition": "Triangle A remains nondegenerate; guaranteed for these selected pairs by fresh CCD exact normal-polynomial guard.",
+      "reference_exact": true,
+      "reference_projected_overlap_area_exact": "1294674948743115/4503599627370496",
+      "reference_relation": "POSITIVE_AREA_OVERLAP",
+      "tissue_face": 191773
+    },
+    {
+      "cavity_face": 36890,
+      "class": "CERTIFIED_COPLANAR_CONTACT_TOPOLOGY_INVARIANT",
+      "constant_barycentric_embedding": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ]
+      ],
+      "endpoint_exact": true,
+      "precondition": "Triangle A remains nondegenerate; guaranteed for these selected pairs by fresh CCD exact normal-polynomial guard.",
+      "reference_exact": true,
+      "reference_projected_overlap_area_exact": "1294674934669365/4503599627370496",
+      "reference_relation": "POSITIVE_AREA_OVERLAP",
+      "tissue_face": 199260
+    },
+    {
+      "cavity_face": 37230,
+      "class": "CERTIFIED_COPLANAR_CONTACT_TOPOLOGY_INVARIANT",
+      "constant_barycentric_embedding": [
+        [
+          "0",
+          "0",
+          "1"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "1",
+          "0",
+          "0"
+        ]
+      ],
+      "endpoint_exact": true,
+      "precondition": "Triangle A remains nondegenerate; guaranteed for these selected pairs by fresh CCD exact normal-polynomial guard.",
+      "reference_exact": true,
+      "reference_projected_overlap_area_exact": "1294674934669365/4503599627370496",
+      "reference_relation": "POSITIVE_AREA_OVERLAP",
+      "tissue_face": 200651
+    },
+    {
+      "cavity_face": 37231,
+      "class": "CERTIFIED_COPLANAR_CONTACT_TOPOLOGY_INVARIANT",
+      "constant_barycentric_embedding": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ]
+      ],
+      "endpoint_exact": true,
+      "precondition": "Triangle A remains nondegenerate; guaranteed for these selected pairs by fresh CCD exact normal-polynomial guard.",
+      "reference_exact": true,
+      "reference_projected_overlap_area_exact": "1294674948743115/4503599627370496",
+      "reference_relation": "POSITIVE_AREA_OVERLAP",
+      "tissue_face": 191770
+    },
+    {
+      "cavity_face": 37520,
+      "class": "CERTIFIED_COPLANAR_CONTACT_TOPOLOGY_INVARIANT",
+      "constant_barycentric_embedding": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ]
+      ],
+      "endpoint_exact": true,
+      "precondition": "Triangle A remains nondegenerate; guaranteed for these selected pairs by fresh CCD exact normal-polynomial guard.",
+      "reference_exact": true,
+      "reference_projected_overlap_area_exact": "1294674948743115/4503599627370496",
+      "reference_relation": "POSITIVE_AREA_OVERLAP",
+      "tissue_face": 191771
+    },
+    {
+      "cavity_face": 38886,
+      "class": "CERTIFIED_COPLANAR_CONTACT_TOPOLOGY_INVARIANT",
+      "constant_barycentric_embedding": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ]
+      ],
+      "endpoint_exact": true,
+      "precondition": "Triangle A remains nondegenerate; guaranteed for these selected pairs by fresh CCD exact normal-polynomial guard.",
+      "reference_exact": true,
+      "reference_projected_overlap_area_exact": "1294674948743115/4503599627370496",
+      "reference_relation": "POSITIVE_AREA_OVERLAP",
+      "tissue_face": 200905
+    },
+    {
+      "cavity_face": 38887,
+      "class": "CERTIFIED_COPLANAR_CONTACT_TOPOLOGY_INVARIANT",
+      "constant_barycentric_embedding": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ]
+      ],
+      "endpoint_exact": true,
+      "precondition": "Triangle A remains nondegenerate; guaranteed for these selected pairs by fresh CCD exact normal-polynomial guard.",
+      "reference_exact": true,
+      "reference_projected_overlap_area_exact": "1294674948743115/4503599627370496",
+      "reference_relation": "POSITIVE_AREA_OVERLAP",
+      "tissue_face": 200763
+    },
+    {
+      "cavity_face": 38888,
+      "class": "CERTIFIED_COPLANAR_CONTACT_TOPOLOGY_INVARIANT",
+      "constant_barycentric_embedding": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ]
+      ],
+      "endpoint_exact": true,
+      "precondition": "Triangle A remains nondegenerate; guaranteed for these selected pairs by fresh CCD exact normal-polynomial guard.",
+      "reference_exact": true,
+      "reference_projected_overlap_area_exact": "1294674934669365/4503599627370496",
+      "reference_relation": "POSITIVE_AREA_OVERLAP",
+      "tissue_face": 200762
+    },
+    {
+      "cavity_face": 38943,
+      "class": "CERTIFIED_COPLANAR_CONTACT_TOPOLOGY_INVARIANT",
+      "constant_barycentric_embedding": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ]
+      ],
+      "endpoint_exact": true,
+      "precondition": "Triangle A remains nondegenerate; guaranteed for these selected pairs by fresh CCD exact normal-polynomial guard.",
+      "reference_exact": true,
+      "reference_projected_overlap_area_exact": "1294674934669365/4503599627370496",
+      "reference_relation": "POSITIVE_AREA_OVERLAP",
+      "tissue_face": 200761
+    },
+    {
+      "cavity_face": 42329,
+      "class": "CERTIFIED_COPLANAR_CONTACT_TOPOLOGY_INVARIANT",
+      "constant_barycentric_embedding": [
+        [
+          "-1",
+          "1",
+          "1"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ],
+        [
+          "-1",
+          "0",
+          "2"
+        ]
+      ],
+      "endpoint_exact": true,
+      "precondition": "Triangle A remains nondegenerate; guaranteed for these selected pairs by fresh CCD exact normal-polynomial guard.",
+      "reference_exact": true,
+      "reference_projected_overlap_area_exact": "0",
+      "reference_relation": "POINT_OR_EDGE_CONTACT",
+      "tissue_face": 250834
+    },
+    {
+      "cavity_face": 42329,
+      "class": "CERTIFIED_COPLANAR_CONTACT_TOPOLOGY_INVARIANT",
+      "constant_barycentric_embedding": [
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ],
+        [
+          "-1",
+          "1",
+          "1"
+        ]
+      ],
+      "endpoint_exact": true,
+      "precondition": "Triangle A remains nondegenerate; guaranteed for these selected pairs by fresh CCD exact normal-polynomial guard.",
+      "reference_exact": true,
+      "reference_projected_overlap_area_exact": "0",
+      "reference_relation": "POINT_OR_EDGE_CONTACT",
+      "tissue_face": 250833
+    },
+    {
+      "cavity_face": 42329,
+      "class": "CERTIFIED_COPLANAR_CONTACT_TOPOLOGY_INVARIANT",
+      "constant_barycentric_embedding": [
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "endpoint_exact": true,
+      "precondition": "Triangle A remains nondegenerate; guaranteed for these selected pairs by fresh CCD exact normal-polynomial guard.",
+      "reference_exact": true,
+      "reference_projected_overlap_area_exact": "647338811377695/2251799813685248",
+      "reference_relation": "POSITIVE_AREA_OVERLAP",
+      "tissue_face": 250832
+    },
+    {
+      "cavity_face": 44418,
+      "class": "CERTIFIED_COPLANAR_CONTACT_TOPOLOGY_INVARIANT",
+      "constant_barycentric_embedding": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ]
+      ],
+      "endpoint_exact": true,
+      "precondition": "Triangle A remains nondegenerate; guaranteed for these selected pairs by fresh CCD exact normal-polynomial guard.",
+      "reference_exact": true,
+      "reference_projected_overlap_area_exact": "1294674948743115/4503599627370496",
+      "reference_relation": "POSITIVE_AREA_OVERLAP",
+      "tissue_face": 245270
+    },
+    {
+      "cavity_face": 44418,
+      "class": "CERTIFIED_COPLANAR_CONTACT_TOPOLOGY_INVARIANT",
+      "constant_barycentric_embedding": [
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ],
+        [
+          "-1",
+          "1",
+          "1"
+        ]
+      ],
+      "endpoint_exact": true,
+      "precondition": "Triangle A remains nondegenerate; guaranteed for these selected pairs by fresh CCD exact normal-polynomial guard.",
+      "reference_exact": true,
+      "reference_projected_overlap_area_exact": "0",
+      "reference_relation": "POINT_OR_EDGE_CONTACT",
+      "tissue_face": 245271
+    },
+    {
+      "cavity_face": 44419,
+      "class": "CERTIFIED_COPLANAR_CONTACT_TOPOLOGY_INVARIANT",
+      "constant_barycentric_embedding": [
+        [
+          "1",
+          "1",
+          "-1"
+        ],
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ]
+      ],
+      "endpoint_exact": true,
+      "precondition": "Triangle A remains nondegenerate; guaranteed for these selected pairs by fresh CCD exact normal-polynomial guard.",
+      "reference_exact": true,
+      "reference_projected_overlap_area_exact": "0",
+      "reference_relation": "POINT_OR_EDGE_CONTACT",
+      "tissue_face": 245270
+    },
+    {
+      "cavity_face": 44419,
+      "class": "CERTIFIED_COPLANAR_CONTACT_TOPOLOGY_INVARIANT",
+      "constant_barycentric_embedding": [
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "endpoint_exact": true,
+      "precondition": "Triangle A remains nondegenerate; guaranteed for these selected pairs by fresh CCD exact normal-polynomial guard.",
+      "reference_exact": true,
+      "reference_projected_overlap_area_exact": "1294674948743115/4503599627370496",
+      "reference_relation": "POSITIVE_AREA_OVERLAP",
+      "tissue_face": 245271
+    },
+    {
+      "cavity_face": 44950,
+      "class": "CERTIFIED_COPLANAR_CONTACT_TOPOLOGY_INVARIANT",
+      "constant_barycentric_embedding": [
+        [
+          "2",
+          "-1",
+          "0"
+        ],
+        [
+          "1",
+          "-1",
+          "1"
+        ],
+        [
+          "1",
+          "0",
+          "0"
+        ]
+      ],
+      "endpoint_exact": true,
+      "precondition": "Triangle A remains nondegenerate; guaranteed for these selected pairs by fresh CCD exact normal-polynomial guard.",
+      "reference_exact": true,
+      "reference_projected_overlap_area_exact": "0",
+      "reference_relation": "POINT_OR_EDGE_CONTACT",
+      "tissue_face": 252333
+    },
+    {
+      "cavity_face": 44950,
+      "class": "CERTIFIED_COPLANAR_CONTACT_TOPOLOGY_INVARIANT",
+      "constant_barycentric_embedding": [
+        [
+          "1",
+          "-1",
+          "1"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ],
+        [
+          "1",
+          "0",
+          "0"
+        ]
+      ],
+      "endpoint_exact": true,
+      "precondition": "Triangle A remains nondegenerate; guaranteed for these selected pairs by fresh CCD exact normal-polynomial guard.",
+      "reference_exact": true,
+      "reference_projected_overlap_area_exact": "0",
+      "reference_relation": "POINT_OR_EDGE_CONTACT",
+      "tissue_face": 252268
+    },
+    {
+      "cavity_face": 44951,
+      "class": "CERTIFIED_COPLANAR_CONTACT_TOPOLOGY_INVARIANT",
+      "constant_barycentric_embedding": [
+        [
+          "1",
+          "-1",
+          "1"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ],
+        [
+          "1",
+          "0",
+          "0"
+        ]
+      ],
+      "endpoint_exact": true,
+      "precondition": "Triangle A remains nondegenerate; guaranteed for these selected pairs by fresh CCD exact normal-polynomial guard.",
+      "reference_exact": true,
+      "reference_projected_overlap_area_exact": "0",
+      "reference_relation": "POINT_OR_EDGE_CONTACT",
+      "tissue_face": 252333
+    },
+    {
+      "cavity_face": 44951,
+      "class": "CERTIFIED_COPLANAR_CONTACT_TOPOLOGY_INVARIANT",
+      "constant_barycentric_embedding": [
+        [
+          "0",
+          "0",
+          "1"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "1",
+          "0",
+          "0"
+        ]
+      ],
+      "endpoint_exact": true,
+      "precondition": "Triangle A remains nondegenerate; guaranteed for these selected pairs by fresh CCD exact normal-polynomial guard.",
+      "reference_exact": true,
+      "reference_projected_overlap_area_exact": "1294676285749255/4503599627370496",
+      "reference_relation": "POSITIVE_AREA_OVERLAP",
+      "tissue_face": 252268
+    },
+    {
+      "cavity_face": 45010,
+      "class": "CERTIFIED_COPLANAR_CONTACT_TOPOLOGY_INVARIANT",
+      "constant_barycentric_embedding": [
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "-1",
+          "1",
+          "1"
+        ],
+        [
+          "-1",
+          "2",
+          "0"
+        ]
+      ],
+      "endpoint_exact": true,
+      "precondition": "Triangle A remains nondegenerate; guaranteed for these selected pairs by fresh CCD exact normal-polynomial guard.",
+      "reference_exact": true,
+      "reference_projected_overlap_area_exact": "0",
+      "reference_relation": "POINT_OR_EDGE_CONTACT",
+      "tissue_face": 252333
+    },
+    {
+      "cavity_face": 45011,
+      "class": "CERTIFIED_COPLANAR_CONTACT_TOPOLOGY_INVARIANT",
+      "constant_barycentric_embedding": [
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ],
+        [
+          "-1",
+          "1",
+          "1"
+        ]
+      ],
+      "endpoint_exact": true,
+      "precondition": "Triangle A remains nondegenerate; guaranteed for these selected pairs by fresh CCD exact normal-polynomial guard.",
+      "reference_exact": true,
+      "reference_projected_overlap_area_exact": "0",
+      "reference_relation": "POINT_OR_EDGE_CONTACT",
+      "tissue_face": 252333
+    },
+    {
+      "cavity_face": 45011,
+      "class": "CERTIFIED_COPLANAR_CONTACT_TOPOLOGY_INVARIANT",
+      "constant_barycentric_embedding": [
+        [
+          "0",
+          "0",
+          "1"
+        ],
+        [
+          "-1",
+          "0",
+          "2"
+        ],
+        [
+          "-1",
+          "1",
+          "1"
+        ]
+      ],
+      "endpoint_exact": true,
+      "precondition": "Triangle A remains nondegenerate; guaranteed for these selected pairs by fresh CCD exact normal-polynomial guard.",
+      "reference_exact": true,
+      "reference_projected_overlap_area_exact": "0",
+      "reference_relation": "POINT_OR_EDGE_CONTACT",
+      "tissue_face": 252268
+    },
+    {
+      "cavity_face": 45373,
+      "class": "CERTIFIED_COPLANAR_CONTACT_TOPOLOGY_INVARIANT",
+      "constant_barycentric_embedding": [
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "endpoint_exact": true,
+      "precondition": "Triangle A remains nondegenerate; guaranteed for these selected pairs by fresh CCD exact normal-polynomial guard.",
+      "reference_exact": true,
+      "reference_projected_overlap_area_exact": "647338811377695/2251799813685248",
+      "reference_relation": "POSITIVE_AREA_OVERLAP",
+      "tissue_face": 259512
+    },
+    {
+      "cavity_face": 45373,
+      "class": "CERTIFIED_COPLANAR_CONTACT_TOPOLOGY_INVARIANT",
+      "constant_barycentric_embedding": [
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ],
+        [
+          "-1",
+          "1",
+          "1"
+        ]
+      ],
+      "endpoint_exact": true,
+      "precondition": "Triangle A remains nondegenerate; guaranteed for these selected pairs by fresh CCD exact normal-polynomial guard.",
+      "reference_exact": true,
+      "reference_projected_overlap_area_exact": "0",
+      "reference_relation": "POINT_OR_EDGE_CONTACT",
+      "tissue_face": 259513
+    },
+    {
+      "cavity_face": 45373,
+      "class": "CERTIFIED_COPLANAR_CONTACT_TOPOLOGY_INVARIANT",
+      "constant_barycentric_embedding": [
+        [
+          "-1",
+          "1",
+          "1"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ],
+        [
+          "-1",
+          "0",
+          "2"
+        ]
+      ],
+      "endpoint_exact": true,
+      "precondition": "Triangle A remains nondegenerate; guaranteed for these selected pairs by fresh CCD exact normal-polynomial guard.",
+      "reference_exact": true,
+      "reference_projected_overlap_area_exact": "0",
+      "reference_relation": "POINT_OR_EDGE_CONTACT",
+      "tissue_face": 259514
+    },
+    {
+      "cavity_face": 45428,
+      "class": "CERTIFIED_COPLANAR_CONTACT_TOPOLOGY_INVARIANT",
+      "constant_barycentric_embedding": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ]
+      ],
+      "endpoint_exact": true,
+      "precondition": "Triangle A remains nondegenerate; guaranteed for these selected pairs by fresh CCD exact normal-polynomial guard.",
+      "reference_exact": true,
+      "reference_projected_overlap_area_exact": "1294676285749255/4503599627370496",
+      "reference_relation": "POSITIVE_AREA_OVERLAP",
+      "tissue_face": 252333
+    },
+    {
+      "cavity_face": 45428,
+      "class": "CERTIFIED_COPLANAR_CONTACT_TOPOLOGY_INVARIANT",
+      "constant_barycentric_embedding": [
+        [
+          "0",
+          "0",
+          "1"
+        ],
+        [
+          "-1",
+          "1",
+          "1"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ]
+      ],
+      "endpoint_exact": true,
+      "precondition": "Triangle A remains nondegenerate; guaranteed for these selected pairs by fresh CCD exact normal-polynomial guard.",
+      "reference_exact": true,
+      "reference_projected_overlap_area_exact": "0",
+      "reference_relation": "POINT_OR_EDGE_CONTACT",
+      "tissue_face": 252268
+    },
+    {
+      "cavity_face": 45667,
+      "class": "CERTIFIED_COPLANAR_CONTACT_TOPOLOGY_INVARIANT",
+      "constant_barycentric_embedding": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "172623504766567/86311663249541",
+          "-86311841517026/86311663249541",
+          "0"
+        ],
+        [
+          "86311841517026/86311663249541",
+          "-86311841517026/86311663249541",
+          "1"
+        ]
+      ],
+      "endpoint_exact": true,
+      "precondition": "Triangle A remains nondegenerate; guaranteed for these selected pairs by fresh CCD exact normal-polynomial guard.",
+      "reference_exact": true,
+      "reference_projected_overlap_area_exact": "0",
+      "reference_relation": "POINT_OR_EDGE_CONTACT",
+      "tissue_face": 250834
+    },
+    {
+      "cavity_face": 45667,
+      "class": "CERTIFIED_COPLANAR_CONTACT_TOPOLOGY_INVARIANT",
+      "constant_barycentric_embedding": [
+        [
+          "2",
+          "0",
+          "-1"
+        ],
+        [
+          "172623504766567/86311663249541",
+          "-86311841517026/86311663249541",
+          "0"
+        ],
+        [
+          "1",
+          "0",
+          "0"
+        ]
+      ],
+      "endpoint_exact": true,
+      "precondition": "Triangle A remains nondegenerate; guaranteed for these selected pairs by fresh CCD exact normal-polynomial guard.",
+      "reference_exact": true,
+      "reference_projected_overlap_area_exact": "0",
+      "reference_relation": "POINT_OR_EDGE_CONTACT",
+      "tissue_face": 250833
+    },
+    {
+      "cavity_face": 45667,
+      "class": "CERTIFIED_COPLANAR_CONTACT_TOPOLOGY_INVARIANT",
+      "constant_barycentric_embedding": [
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ],
+        [
+          "-1",
+          "1",
+          "1"
+        ]
+      ],
+      "endpoint_exact": true,
+      "precondition": "Triangle A remains nondegenerate; guaranteed for these selected pairs by fresh CCD exact normal-polynomial guard.",
+      "reference_exact": true,
+      "reference_projected_overlap_area_exact": "0",
+      "reference_relation": "POINT_OR_EDGE_CONTACT",
+      "tissue_face": 249400
+    },
+    {
+      "cavity_face": 45667,
+      "class": "CERTIFIED_COPLANAR_CONTACT_TOPOLOGY_INVARIANT",
+      "constant_barycentric_embedding": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "86311841517026/86311663249541",
+          "-86311841517026/86311663249541",
+          "1"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "endpoint_exact": true,
+      "precondition": "Triangle A remains nondegenerate; guaranteed for these selected pairs by fresh CCD exact normal-polynomial guard.",
+      "reference_exact": true,
+      "reference_projected_overlap_area_exact": "0",
+      "reference_relation": "POINT_OR_EDGE_CONTACT",
+      "tissue_face": 250835
+    },
+    {
+      "cavity_face": 45667,
+      "class": "CERTIFIED_COPLANAR_CONTACT_TOPOLOGY_INVARIANT",
+      "constant_barycentric_embedding": [
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "endpoint_exact": true,
+      "precondition": "Triangle A remains nondegenerate; guaranteed for these selected pairs by fresh CCD exact normal-polynomial guard.",
+      "reference_exact": true,
+      "reference_projected_overlap_area_exact": "1294674948743115/4503599627370496",
+      "reference_relation": "POSITIVE_AREA_OVERLAP",
+      "tissue_face": 249399
+    },
+    {
+      "cavity_face": 45668,
+      "class": "CERTIFIED_COPLANAR_CONTACT_TOPOLOGY_INVARIANT",
+      "constant_barycentric_embedding": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "1",
+          "-1",
+          "1"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "endpoint_exact": true,
+      "precondition": "Triangle A remains nondegenerate; guaranteed for these selected pairs by fresh CCD exact normal-polynomial guard.",
+      "reference_exact": true,
+      "reference_projected_overlap_area_exact": "0",
+      "reference_relation": "POINT_OR_EDGE_CONTACT",
+      "tissue_face": 250834
+    },
+    {
+      "cavity_face": 45668,
+      "class": "CERTIFIED_COPLANAR_CONTACT_TOPOLOGY_INVARIANT",
+      "constant_barycentric_embedding": [
+        [
+          "2",
+          "-1",
+          "0"
+        ],
+        [
+          "1",
+          "-1",
+          "1"
+        ],
+        [
+          "1",
+          "0",
+          "0"
+        ]
+      ],
+      "endpoint_exact": true,
+      "precondition": "Triangle A remains nondegenerate; guaranteed for these selected pairs by fresh CCD exact normal-polynomial guard.",
+      "reference_exact": true,
+      "reference_projected_overlap_area_exact": "0",
+      "reference_relation": "POINT_OR_EDGE_CONTACT",
+      "tissue_face": 250833
+    },
+    {
+      "cavity_face": 45668,
+      "class": "CERTIFIED_COPLANAR_CONTACT_TOPOLOGY_INVARIANT",
+      "constant_barycentric_embedding": [
+        [
+          "1",
+          "86311663249541/86311841517026",
+          "-86311663249541/86311841517026"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "172623504766567/86311841517026",
+          "-86311663249541/86311841517026"
+        ]
+      ],
+      "endpoint_exact": true,
+      "precondition": "Triangle A remains nondegenerate; guaranteed for these selected pairs by fresh CCD exact normal-polynomial guard.",
+      "reference_exact": true,
+      "reference_projected_overlap_area_exact": "0",
+      "reference_relation": "POINT_OR_EDGE_CONTACT",
+      "tissue_face": 249400
+    },
+    {
+      "cavity_face": 45668,
+      "class": "CERTIFIED_COPLANAR_CONTACT_TOPOLOGY_INVARIANT",
+      "constant_barycentric_embedding": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ]
+      ],
+      "endpoint_exact": true,
+      "precondition": "Triangle A remains nondegenerate; guaranteed for these selected pairs by fresh CCD exact normal-polynomial guard.",
+      "reference_exact": true,
+      "reference_projected_overlap_area_exact": "647338811377695/2251799813685248",
+      "reference_relation": "POSITIVE_AREA_OVERLAP",
+      "tissue_face": 250835
+    },
+    {
+      "cavity_face": 45668,
+      "class": "CERTIFIED_COPLANAR_CONTACT_TOPOLOGY_INVARIANT",
+      "constant_barycentric_embedding": [
+        [
+          "1",
+          "86311663249541/86311841517026",
+          "-86311663249541/86311841517026"
+        ],
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ]
+      ],
+      "endpoint_exact": true,
+      "precondition": "Triangle A remains nondegenerate; guaranteed for these selected pairs by fresh CCD exact normal-polynomial guard.",
+      "reference_exact": true,
+      "reference_projected_overlap_area_exact": "0",
+      "reference_relation": "POINT_OR_EDGE_CONTACT",
+      "tissue_face": 249399
+    },
+    {
+      "cavity_face": 45669,
+      "class": "CERTIFIED_COPLANAR_CONTACT_TOPOLOGY_INVARIANT",
+      "constant_barycentric_embedding": [
+        [
+          "1",
+          "1",
+          "-1"
+        ],
+        [
+          "2",
+          "0",
+          "-1"
+        ],
+        [
+          "1",
+          "0",
+          "0"
+        ]
+      ],
+      "endpoint_exact": true,
+      "precondition": "Triangle A remains nondegenerate; guaranteed for these selected pairs by fresh CCD exact normal-polynomial guard.",
+      "reference_exact": true,
+      "reference_projected_overlap_area_exact": "0",
+      "reference_relation": "POINT_OR_EDGE_CONTACT",
+      "tissue_face": 250834
+    },
+    {
+      "cavity_face": 45669,
+      "class": "CERTIFIED_COPLANAR_CONTACT_TOPOLOGY_INVARIANT",
+      "constant_barycentric_embedding": [
+        [
+          "178267485/86311841517026",
+          "172623504766567/86311841517026",
+          "-1"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "-86311663249541/86311841517026",
+          "172623504766567/86311841517026",
+          "0"
+        ]
+      ],
+      "endpoint_exact": true,
+      "precondition": "Triangle A remains nondegenerate; guaranteed for these selected pairs by fresh CCD exact normal-polynomial guard.",
+      "reference_exact": true,
+      "reference_projected_overlap_area_exact": "0",
+      "reference_relation": "POINT_OR_EDGE_CONTACT",
+      "tissue_face": 249400
+    },
+    {
+      "cavity_face": 45669,
+      "class": "CERTIFIED_COPLANAR_CONTACT_TOPOLOGY_INVARIANT",
+      "constant_barycentric_embedding": [
+        [
+          "1",
+          "1",
+          "-1"
+        ],
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ]
+      ],
+      "endpoint_exact": true,
+      "precondition": "Triangle A remains nondegenerate; guaranteed for these selected pairs by fresh CCD exact normal-polynomial guard.",
+      "reference_exact": true,
+      "reference_projected_overlap_area_exact": "0",
+      "reference_relation": "POINT_OR_EDGE_CONTACT",
+      "tissue_face": 250835
+    },
+    {
+      "cavity_face": 45669,
+      "class": "CERTIFIED_COPLANAR_CONTACT_TOPOLOGY_INVARIANT",
+      "constant_barycentric_embedding": [
+        [
+          "178267485/86311841517026",
+          "172623504766567/86311841517026",
+          "-1"
+        ],
+        [
+          "1",
+          "1",
+          "-1"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ]
+      ],
+      "endpoint_exact": true,
+      "precondition": "Triangle A remains nondegenerate; guaranteed for these selected pairs by fresh CCD exact normal-polynomial guard.",
+      "reference_exact": true,
+      "reference_projected_overlap_area_exact": "0",
+      "reference_relation": "POINT_OR_EDGE_CONTACT",
+      "tissue_face": 249399
+    },
+    {
+      "cavity_face": 45782,
+      "class": "CERTIFIED_COPLANAR_CONTACT_TOPOLOGY_INVARIANT",
+      "constant_barycentric_embedding": [
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ],
+        [
+          "-1",
+          "1",
+          "1"
+        ]
+      ],
+      "endpoint_exact": true,
+      "precondition": "Triangle A remains nondegenerate; guaranteed for these selected pairs by fresh CCD exact normal-polynomial guard.",
+      "reference_exact": true,
+      "reference_projected_overlap_area_exact": "0",
+      "reference_relation": "POINT_OR_EDGE_CONTACT",
+      "tissue_face": 250834
+    },
+    {
+      "cavity_face": 45782,
+      "class": "CERTIFIED_COPLANAR_CONTACT_TOPOLOGY_INVARIANT",
+      "constant_barycentric_embedding": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ]
+      ],
+      "endpoint_exact": true,
+      "precondition": "Triangle A remains nondegenerate; guaranteed for these selected pairs by fresh CCD exact normal-polynomial guard.",
+      "reference_exact": true,
+      "reference_projected_overlap_area_exact": "647338811377695/2251799813685248",
+      "reference_relation": "POSITIVE_AREA_OVERLAP",
+      "tissue_face": 250833
+    },
+    {
+      "cavity_face": 45782,
+      "class": "CERTIFIED_COPLANAR_CONTACT_TOPOLOGY_INVARIANT",
+      "constant_barycentric_embedding": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "1",
+          "-1",
+          "1"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "endpoint_exact": true,
+      "precondition": "Triangle A remains nondegenerate; guaranteed for these selected pairs by fresh CCD exact normal-polynomial guard.",
+      "reference_exact": true,
+      "reference_projected_overlap_area_exact": "0",
+      "reference_relation": "POINT_OR_EDGE_CONTACT",
+      "tissue_face": 250832
+    },
+    {
+      "cavity_face": 45782,
+      "class": "CERTIFIED_COPLANAR_CONTACT_TOPOLOGY_INVARIANT",
+      "constant_barycentric_embedding": [
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "-1",
+          "1",
+          "1"
+        ],
+        [
+          "-1",
+          "2",
+          "0"
+        ]
+      ],
+      "endpoint_exact": true,
+      "precondition": "Triangle A remains nondegenerate; guaranteed for these selected pairs by fresh CCD exact normal-polynomial guard.",
+      "reference_exact": true,
+      "reference_projected_overlap_area_exact": "0",
+      "reference_relation": "POINT_OR_EDGE_CONTACT",
+      "tissue_face": 250835
+    },
+    {
+      "cavity_face": 45782,
+      "class": "CERTIFIED_COPLANAR_CONTACT_TOPOLOGY_INVARIANT",
+      "constant_barycentric_embedding": [
+        [
+          "0",
+          "172623504766567/86311841517026",
+          "-86311663249541/86311841517026"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "-1",
+          "2",
+          "0"
+        ]
+      ],
+      "endpoint_exact": true,
+      "precondition": "Triangle A remains nondegenerate; guaranteed for these selected pairs by fresh CCD exact normal-polynomial guard.",
+      "reference_exact": true,
+      "reference_projected_overlap_area_exact": "0",
+      "reference_relation": "POINT_OR_EDGE_CONTACT",
+      "tissue_face": 249399
+    },
+    {
+      "cavity_face": 45783,
+      "class": "CERTIFIED_COPLANAR_CONTACT_TOPOLOGY_INVARIANT",
+      "constant_barycentric_embedding": [
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "endpoint_exact": true,
+      "precondition": "Triangle A remains nondegenerate; guaranteed for these selected pairs by fresh CCD exact normal-polynomial guard.",
+      "reference_exact": true,
+      "reference_projected_overlap_area_exact": "647338811377695/2251799813685248",
+      "reference_relation": "POSITIVE_AREA_OVERLAP",
+      "tissue_face": 250834
+    },
+    {
+      "cavity_face": 45783,
+      "class": "CERTIFIED_COPLANAR_CONTACT_TOPOLOGY_INVARIANT",
+      "constant_barycentric_embedding": [
+        [
+          "1",
+          "1",
+          "-1"
+        ],
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ]
+      ],
+      "endpoint_exact": true,
+      "precondition": "Triangle A remains nondegenerate; guaranteed for these selected pairs by fresh CCD exact normal-polynomial guard.",
+      "reference_exact": true,
+      "reference_projected_overlap_area_exact": "0",
+      "reference_relation": "POINT_OR_EDGE_CONTACT",
+      "tissue_face": 250833
+    },
+    {
+      "cavity_face": 45783,
+      "class": "CERTIFIED_COPLANAR_CONTACT_TOPOLOGY_INVARIANT",
+      "constant_barycentric_embedding": [
+        [
+          "1",
+          "1",
+          "-1"
+        ],
+        [
+          "2",
+          "0",
+          "-1"
+        ],
+        [
+          "1",
+          "0",
+          "0"
+        ]
+      ],
+      "endpoint_exact": true,
+      "precondition": "Triangle A remains nondegenerate; guaranteed for these selected pairs by fresh CCD exact normal-polynomial guard.",
+      "reference_exact": true,
+      "reference_projected_overlap_area_exact": "0",
+      "reference_relation": "POINT_OR_EDGE_CONTACT",
+      "tissue_face": 250832
+    },
+    {
+      "cavity_face": 45783,
+      "class": "CERTIFIED_COPLANAR_CONTACT_TOPOLOGY_INVARIANT",
+      "constant_barycentric_embedding": [
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ],
+        [
+          "-1",
+          "1",
+          "1"
+        ]
+      ],
+      "endpoint_exact": true,
+      "precondition": "Triangle A remains nondegenerate; guaranteed for these selected pairs by fresh CCD exact normal-polynomial guard.",
+      "reference_exact": true,
+      "reference_projected_overlap_area_exact": "0",
+      "reference_relation": "POINT_OR_EDGE_CONTACT",
+      "tissue_face": 250835
+    },
+    {
+      "cavity_face": 45783,
+      "class": "CERTIFIED_COPLANAR_CONTACT_TOPOLOGY_INVARIANT",
+      "constant_barycentric_embedding": [
+        [
+          "-86311663249541/86311841517026",
+          "172623504766567/86311841517026",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "-1",
+          "1",
+          "1"
+        ]
+      ],
+      "endpoint_exact": true,
+      "precondition": "Triangle A remains nondegenerate; guaranteed for these selected pairs by fresh CCD exact normal-polynomial guard.",
+      "reference_exact": true,
+      "reference_projected_overlap_area_exact": "0",
+      "reference_relation": "POINT_OR_EDGE_CONTACT",
+      "tissue_face": 249399
+    },
+    {
+      "cavity_face": 46013,
+      "class": "CERTIFIED_COPLANAR_CONTACT_TOPOLOGY_INVARIANT",
+      "constant_barycentric_embedding": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ]
+      ],
+      "endpoint_exact": true,
+      "precondition": "Triangle A remains nondegenerate; guaranteed for these selected pairs by fresh CCD exact normal-polynomial guard.",
+      "reference_exact": true,
+      "reference_projected_overlap_area_exact": "1294674948743115/4503599627370496",
+      "reference_relation": "POSITIVE_AREA_OVERLAP",
+      "tissue_face": 249400
+    },
+    {
+      "cavity_face": 46013,
+      "class": "CERTIFIED_COPLANAR_CONTACT_TOPOLOGY_INVARIANT",
+      "constant_barycentric_embedding": [
+        [
+          "1",
+          "-1",
+          "1"
+        ],
+        [
+          "0",
+          "-86311841517026/86311663249541",
+          "172623504766567/86311663249541"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "endpoint_exact": true,
+      "precondition": "Triangle A remains nondegenerate; guaranteed for these selected pairs by fresh CCD exact normal-polynomial guard.",
+      "reference_exact": true,
+      "reference_projected_overlap_area_exact": "0",
+      "reference_relation": "POINT_OR_EDGE_CONTACT",
+      "tissue_face": 250835
+    },
+    {
+      "cavity_face": 46013,
+      "class": "CERTIFIED_COPLANAR_CONTACT_TOPOLOGY_INVARIANT",
+      "constant_barycentric_embedding": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "1",
+          "-1",
+          "1"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "endpoint_exact": true,
+      "precondition": "Triangle A remains nondegenerate; guaranteed for these selected pairs by fresh CCD exact normal-polynomial guard.",
+      "reference_exact": true,
+      "reference_projected_overlap_area_exact": "0",
+      "reference_relation": "POINT_OR_EDGE_CONTACT",
+      "tissue_face": 249399
+    },
+    {
+      "cavity_face": 46014,
+      "class": "CERTIFIED_COPLANAR_CONTACT_TOPOLOGY_INVARIANT",
+      "constant_barycentric_embedding": [
+        [
+          "1",
+          "1",
+          "-1"
+        ],
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ]
+      ],
+      "endpoint_exact": true,
+      "precondition": "Triangle A remains nondegenerate; guaranteed for these selected pairs by fresh CCD exact normal-polynomial guard.",
+      "reference_exact": true,
+      "reference_projected_overlap_area_exact": "0",
+      "reference_relation": "POINT_OR_EDGE_CONTACT",
+      "tissue_face": 249400
+    },
+    {
+      "cavity_face": 46014,
+      "class": "CERTIFIED_COPLANAR_CONTACT_TOPOLOGY_INVARIANT",
+      "constant_barycentric_embedding": [
+        [
+          "2",
+          "0",
+          "-1"
+        ],
+        [
+          "172623504766567/86311663249541",
+          "-86311841517026/86311663249541",
+          "0"
+        ],
+        [
+          "1",
+          "0",
+          "0"
+        ]
+      ],
+      "endpoint_exact": true,
+      "precondition": "Triangle A remains nondegenerate; guaranteed for these selected pairs by fresh CCD exact normal-polynomial guard.",
+      "reference_exact": true,
+      "reference_projected_overlap_area_exact": "0",
+      "reference_relation": "POINT_OR_EDGE_CONTACT",
+      "tissue_face": 250835
+    },
+    {
+      "cavity_face": 46014,
+      "class": "CERTIFIED_COPLANAR_CONTACT_TOPOLOGY_INVARIANT",
+      "constant_barycentric_embedding": [
+        [
+          "1",
+          "1",
+          "-1"
+        ],
+        [
+          "2",
+          "0",
+          "-1"
+        ],
+        [
+          "1",
+          "0",
+          "0"
+        ]
+      ],
+      "endpoint_exact": true,
+      "precondition": "Triangle A remains nondegenerate; guaranteed for these selected pairs by fresh CCD exact normal-polynomial guard.",
+      "reference_exact": true,
+      "reference_projected_overlap_area_exact": "0",
+      "reference_relation": "POINT_OR_EDGE_CONTACT",
+      "tissue_face": 249399
+    },
+    {
+      "cavity_face": 46015,
+      "class": "CERTIFIED_COPLANAR_CONTACT_TOPOLOGY_INVARIANT",
+      "constant_barycentric_embedding": [
+        [
+          "2",
+          "-178267485/86311841517026",
+          "-86311663249541/86311841517026"
+        ],
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "1",
+          "86311663249541/86311841517026",
+          "-86311663249541/86311841517026"
+        ]
+      ],
+      "endpoint_exact": true,
+      "precondition": "Triangle A remains nondegenerate; guaranteed for these selected pairs by fresh CCD exact normal-polynomial guard.",
+      "reference_exact": true,
+      "reference_projected_overlap_area_exact": "0",
+      "reference_relation": "POINT_OR_EDGE_CONTACT",
+      "tissue_face": 249400
+    },
+    {
+      "cavity_face": 46015,
+      "class": "CERTIFIED_COPLANAR_CONTACT_TOPOLOGY_INVARIANT",
+      "constant_barycentric_embedding": [
+        [
+          "2",
+          "-1",
+          "0"
+        ],
+        [
+          "1",
+          "-1",
+          "1"
+        ],
+        [
+          "1",
+          "0",
+          "0"
+        ]
+      ],
+      "endpoint_exact": true,
+      "precondition": "Triangle A remains nondegenerate; guaranteed for these selected pairs by fresh CCD exact normal-polynomial guard.",
+      "reference_exact": true,
+      "reference_projected_overlap_area_exact": "0",
+      "reference_relation": "POINT_OR_EDGE_CONTACT",
+      "tissue_face": 250835
+    },
+    {
+      "cavity_face": 46015,
+      "class": "CERTIFIED_COPLANAR_CONTACT_TOPOLOGY_INVARIANT",
+      "constant_barycentric_embedding": [
+        [
+          "2",
+          "-178267485/86311841517026",
+          "-86311663249541/86311841517026"
+        ],
+        [
+          "2",
+          "-1",
+          "0"
+        ],
+        [
+          "1",
+          "0",
+          "0"
+        ]
+      ],
+      "endpoint_exact": true,
+      "precondition": "Triangle A remains nondegenerate; guaranteed for these selected pairs by fresh CCD exact normal-polynomial guard.",
+      "reference_exact": true,
+      "reference_projected_overlap_area_exact": "0",
+      "reference_relation": "POINT_OR_EDGE_CONTACT",
+      "tissue_face": 249399
+    },
+    {
+      "cavity_face": 46141,
+      "class": "CERTIFIED_COPLANAR_CONTACT_TOPOLOGY_INVARIANT",
+      "constant_barycentric_embedding": [
+        [
+          "2",
+          "-1",
+          "0"
+        ],
+        [
+          "1",
+          "-1",
+          "1"
+        ],
+        [
+          "1",
+          "0",
+          "0"
+        ]
+      ],
+      "endpoint_exact": true,
+      "precondition": "Triangle A remains nondegenerate; guaranteed for these selected pairs by fresh CCD exact normal-polynomial guard.",
+      "reference_exact": true,
+      "reference_projected_overlap_area_exact": "0",
+      "reference_relation": "POINT_OR_EDGE_CONTACT",
+      "tissue_face": 249400
+    },
+    {
+      "cavity_face": 46771,
+      "class": "CERTIFIED_COPLANAR_CONTACT_TOPOLOGY_INVARIANT",
+      "constant_barycentric_embedding": [
+        [
+          "2",
+          "0",
+          "-1"
+        ],
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "1",
+          "1",
+          "-1"
+        ]
+      ],
+      "endpoint_exact": true,
+      "precondition": "Triangle A remains nondegenerate; guaranteed for these selected pairs by fresh CCD exact normal-polynomial guard.",
+      "reference_exact": true,
+      "reference_projected_overlap_area_exact": "0",
+      "reference_relation": "POINT_OR_EDGE_CONTACT",
+      "tissue_face": 252268
+    },
+    {
+      "cavity_face": 47350,
+      "class": "CERTIFIED_COPLANAR_CONTACT_TOPOLOGY_INVARIANT",
+      "constant_barycentric_embedding": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "1",
+          "-1",
+          "1"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "endpoint_exact": true,
+      "precondition": "Triangle A remains nondegenerate; guaranteed for these selected pairs by fresh CCD exact normal-polynomial guard.",
+      "reference_exact": true,
+      "reference_projected_overlap_area_exact": "0",
+      "reference_relation": "POINT_OR_EDGE_CONTACT",
+      "tissue_face": 259512
+    },
+    {
+      "cavity_face": 47350,
+      "class": "CERTIFIED_COPLANAR_CONTACT_TOPOLOGY_INVARIANT",
+      "constant_barycentric_embedding": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ]
+      ],
+      "endpoint_exact": true,
+      "precondition": "Triangle A remains nondegenerate; guaranteed for these selected pairs by fresh CCD exact normal-polynomial guard.",
+      "reference_exact": true,
+      "reference_projected_overlap_area_exact": "647338811377695/2251799813685248",
+      "reference_relation": "POSITIVE_AREA_OVERLAP",
+      "tissue_face": 259513
+    },
+    {
+      "cavity_face": 47350,
+      "class": "CERTIFIED_COPLANAR_CONTACT_TOPOLOGY_INVARIANT",
+      "constant_barycentric_embedding": [
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ],
+        [
+          "-1",
+          "1",
+          "1"
+        ]
+      ],
+      "endpoint_exact": true,
+      "precondition": "Triangle A remains nondegenerate; guaranteed for these selected pairs by fresh CCD exact normal-polynomial guard.",
+      "reference_exact": true,
+      "reference_projected_overlap_area_exact": "0",
+      "reference_relation": "POINT_OR_EDGE_CONTACT",
+      "tissue_face": 259514
+    },
+    {
+      "cavity_face": 47351,
+      "class": "CERTIFIED_COPLANAR_CONTACT_TOPOLOGY_INVARIANT",
+      "constant_barycentric_embedding": [
+        [
+          "1",
+          "1",
+          "-1"
+        ],
+        [
+          "2",
+          "0",
+          "-1"
+        ],
+        [
+          "1",
+          "0",
+          "0"
+        ]
+      ],
+      "endpoint_exact": true,
+      "precondition": "Triangle A remains nondegenerate; guaranteed for these selected pairs by fresh CCD exact normal-polynomial guard.",
+      "reference_exact": true,
+      "reference_projected_overlap_area_exact": "0",
+      "reference_relation": "POINT_OR_EDGE_CONTACT",
+      "tissue_face": 259512
+    },
+    {
+      "cavity_face": 47351,
+      "class": "CERTIFIED_COPLANAR_CONTACT_TOPOLOGY_INVARIANT",
+      "constant_barycentric_embedding": [
+        [
+          "1",
+          "1",
+          "-1"
+        ],
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ]
+      ],
+      "endpoint_exact": true,
+      "precondition": "Triangle A remains nondegenerate; guaranteed for these selected pairs by fresh CCD exact normal-polynomial guard.",
+      "reference_exact": true,
+      "reference_projected_overlap_area_exact": "0",
+      "reference_relation": "POINT_OR_EDGE_CONTACT",
+      "tissue_face": 259513
+    },
+    {
+      "cavity_face": 47351,
+      "class": "CERTIFIED_COPLANAR_CONTACT_TOPOLOGY_INVARIANT",
+      "constant_barycentric_embedding": [
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "endpoint_exact": true,
+      "precondition": "Triangle A remains nondegenerate; guaranteed for these selected pairs by fresh CCD exact normal-polynomial guard.",
+      "reference_exact": true,
+      "reference_projected_overlap_area_exact": "647338811377695/2251799813685248",
+      "reference_relation": "POSITIVE_AREA_OVERLAP",
+      "tissue_face": 259514
+    },
+    {
+      "cavity_face": 47389,
+      "class": "CERTIFIED_COPLANAR_CONTACT_TOPOLOGY_INVARIANT",
+      "constant_barycentric_embedding": [
+        [
+          "2",
+          "-1",
+          "0"
+        ],
+        [
+          "1",
+          "-1",
+          "1"
+        ],
+        [
+          "1",
+          "0",
+          "0"
+        ]
+      ],
+      "endpoint_exact": true,
+      "precondition": "Triangle A remains nondegenerate; guaranteed for these selected pairs by fresh CCD exact normal-polynomial guard.",
+      "reference_exact": true,
+      "reference_projected_overlap_area_exact": "0",
+      "reference_relation": "POINT_OR_EDGE_CONTACT",
+      "tissue_face": 259513
+    },
+    {
+      "cavity_face": 47389,
+      "class": "CERTIFIED_COPLANAR_CONTACT_TOPOLOGY_INVARIANT",
+      "constant_barycentric_embedding": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "1",
+          "-1",
+          "1"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "endpoint_exact": true,
+      "precondition": "Triangle A remains nondegenerate; guaranteed for these selected pairs by fresh CCD exact normal-polynomial guard.",
+      "reference_exact": true,
+      "reference_projected_overlap_area_exact": "0",
+      "reference_relation": "POINT_OR_EDGE_CONTACT",
+      "tissue_face": 259514
+    },
+    {
+      "cavity_face": 47390,
+      "class": "CERTIFIED_COPLANAR_CONTACT_TOPOLOGY_INVARIANT",
+      "constant_barycentric_embedding": [
+        [
+          "1",
+          "1",
+          "-1"
+        ],
+        [
+          "2",
+          "0",
+          "-1"
+        ],
+        [
+          "1",
+          "0",
+          "0"
+        ]
+      ],
+      "endpoint_exact": true,
+      "precondition": "Triangle A remains nondegenerate; guaranteed for these selected pairs by fresh CCD exact normal-polynomial guard.",
+      "reference_exact": true,
+      "reference_projected_overlap_area_exact": "0",
+      "reference_relation": "POINT_OR_EDGE_CONTACT",
+      "tissue_face": 259514
+    }
+  ],
+  "reference_relations": {
+    "POINT_OR_EDGE_CONTACT": 50,
+    "POSITIVE_AREA_OVERLAP": 42
+  }
+}

@@ -1,0 +1,35 @@
+[
+  {
+    "class_counts": {
+      "CERTIFIED_COPLANAR_CONTACT_TOPOLOGY_INVARIANT": 92
+    },
+    "finite_positive_overlap_not_equal_to_permanent_plane_pair_count": true,
+    "name": "s1_n20_passed",
+    "reference_relations": {
+      "POINT_OR_EDGE_CONTACT": 50,
+      "POSITIVE_AREA_OVERLAP": 42
+    }
+  },
+  {
+    "class_counts": {
+      "CERTIFIED_COPLANAR_CONTACT_TOPOLOGY_INVARIANT": 92
+    },
+    "finite_positive_overlap_not_equal_to_permanent_plane_pair_count": true,
+    "name": "s2_warm",
+    "reference_relations": {
+      "POINT_OR_EDGE_CONTACT": 50,
+      "POSITIVE_AREA_OVERLAP": 42
+    }
+  },
+  {
+    "class_counts": {
+      "CERTIFIED_COPLANAR_CONTACT_TOPOLOGY_INVARIANT": 92
+    },
+    "finite_positive_overlap_not_equal_to_permanent_plane_pair_count": true,
+    "name": "robust_contract_r2",
+    "reference_relations": {
+      "POINT_OR_EDGE_CONTACT": 50,
+      "POSITIVE_AREA_OVERLAP": 42
+    }
+  }
+]

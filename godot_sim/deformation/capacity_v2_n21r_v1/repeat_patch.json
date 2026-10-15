@@ -1,0 +1,12 @@
+{
+  "byte_identical": true,
+  "current_generator_sha256": "52fb2684423d2e44170f9890f01d3ced9dd39dab07b0da8b7e011d35254759b1",
+  "delivered_candidate_sha256": "09809ac4c804a720ba1447781a4461ec4eed080e9d2de784c5372d355a439213",
+  "maximum_abs_error_mm": 0.0,
+  "policy": "FROZEN_GENERATOR_V1_PLUS_REQUIRED_FULL_V2_AUDIT",
+  "repeated_seed_faces": [
+    535,
+    7680
+  ],
+  "seconds": 76.53885960578918
+}

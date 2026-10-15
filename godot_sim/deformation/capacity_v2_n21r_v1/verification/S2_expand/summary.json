@@ -1,0 +1,380 @@
+{
+  "all_float32_relative_crossings_zero": true,
+  "all_float64_sampled_crossings_zero": true,
+  "cavity_float32_quality": [
+    {
+      "bad_edges": [],
+      "bad_faces": [],
+      "maximum_area_ratio": 1.0,
+      "maximum_edge_gradient": 0.0,
+      "maximum_face": 0,
+      "minimum_area_ratio": 1.0,
+      "minimum_face": 0,
+      "pass": true,
+      "u": 0
+    },
+    {
+      "bad_edges": [],
+      "bad_faces": [],
+      "maximum_area_ratio": 1.0646870546985103,
+      "maximum_edge_gradient": 0.04736055678608984,
+      "maximum_face": 7709,
+      "minimum_area_ratio": 0.9706517129290841,
+      "minimum_face": 5230,
+      "pass": true,
+      "u": 0.25
+    },
+    {
+      "bad_edges": [],
+      "bad_faces": [],
+      "maximum_area_ratio": 1.1321398943664023,
+      "maximum_edge_gradient": 0.09472111357217967,
+      "maximum_face": 7709,
+      "minimum_area_ratio": 0.9411592121064095,
+      "minimum_face": 5230,
+      "pass": true,
+      "u": 0.5
+    },
+    {
+      "bad_edges": [],
+      "bad_faces": [],
+      "maximum_area_ratio": 1.2023254220041846,
+      "maximum_edge_gradient": 0.14208167035826952,
+      "maximum_face": 7709,
+      "minimum_area_ratio": 0.9116210972762787,
+      "minimum_face": 5230,
+      "pass": true,
+      "u": 0.75
+    },
+    {
+      "bad_edges": [],
+      "bad_faces": [],
+      "maximum_area_ratio": 1.2751573683225246,
+      "maximum_edge_gradient": 0.1894399283503698,
+      "maximum_face": 7709,
+      "minimum_area_ratio": 0.880870241086506,
+      "minimum_face": 7167,
+      "pass": true,
+      "u": 1.0
+    }
+  ],
+  "cavity_quality": {
+    "continuous_area": {
+      "critical_candidate_faces": 245,
+      "maximum_area_ratio": 1.2751387132802243,
+      "maximum_face": 7709,
+      "method": "Exact quartic squared-area extrema; derivative Bernstein sign screen, then real cubic roots on [0,1]",
+      "minimum_area_ratio": 0.8808674486952744,
+      "minimum_face": 7167,
+      "minimum_oriented_area_ratio": 0.8767225619364161
+    },
+    "endpoint_displacement_mm": {
+      "maximum": 0.7283179350978997,
+      "mean": 0.24313044439390355,
+      "median": 0.22417276482730825,
+      "p95": 0.5613008634741788
+    },
+    "five_levels": [
+      {
+        "area_fail_faces": 0,
+        "degenerate_faces": 0,
+        "finite": true,
+        "maximum_area_ratio": 1.0,
+        "maximum_edge_gradient": 0.0,
+        "maximum_normal_rotation_deg": 1.9090959104164224e-06,
+        "minimum_area_ratio": 1.0,
+        "reversed_faces": 0,
+        "u": 0,
+        "volume_mL": 19.723077362519593
+      },
+      {
+        "area_fail_faces": 0,
+        "degenerate_faces": 0,
+        "finite": true,
+        "maximum_area_ratio": 1.0646883374562874,
+        "maximum_edge_gradient": 0.04736008212165528,
+        "maximum_normal_rotation_deg": 3.080962287741079,
+        "minimum_area_ratio": 0.9706500960706879,
+        "reversed_faces": 0,
+        "u": 0.25,
+        "volume_mL": 20.337084094692266
+      },
+      {
+        "area_fail_faces": 0,
+        "degenerate_faces": 0,
+        "finite": true,
+        "maximum_area_ratio": 1.1321664448067743,
+        "maximum_edge_gradient": 0.09472016424331056,
+        "maximum_normal_rotation_deg": 6.1405091039472435,
+        "minimum_area_ratio": 0.9411589408292647,
+        "reversed_faces": 0,
+        "u": 0.5,
+        "volume_mL": 20.96340020149128
+      },
+      {
+        "area_fail_faces": 0,
+        "degenerate_faces": 0,
+        "finite": true,
+        "maximum_area_ratio": 1.2023429610989844,
+        "maximum_edge_gradient": 0.14208024636496586,
+        "maximum_normal_rotation_deg": 9.161733120006609,
+        "minimum_area_ratio": 0.91161909439506,
+        "reversed_faces": 0,
+        "u": 0.75,
+        "volume_mL": 21.60204921466118
+      },
+      {
+        "area_fail_faces": 0,
+        "degenerate_faces": 0,
+        "finite": true,
+        "maximum_area_ratio": 1.2751387132802268,
+        "maximum_edge_gradient": 0.18944032848662112,
+        "maximum_normal_rotation_deg": 12.128987656228698,
+        "minimum_area_ratio": 0.8808674486952753,
+        "reversed_faces": 0,
+        "u": 1,
+        "volume_mL": 22.25305466594657
+      }
+    ],
+    "gradient_fail_edges": 0,
+    "maximum_edge_gradient": 0.18944032848662112,
+    "quality_gate_passed": true,
+    "worst_edge": [
+      4292,
+      4294
+    ]
+  },
+  "complete_self_CCD_certified": false,
+  "five_levels": [
+    {
+      "D2_oriented_integral_mL": 16.805962087430167,
+      "counts": {
+        "D2_self": 0,
+        "cavity_self": 0,
+        "cavity_tissue": 0,
+        "float32_cavity_tissue": 0,
+        "tissue_self": 0,
+        "tissue_shared_vertex_transverse": 0
+      },
+      "fixed_cavity_maximum_mm": 0.0,
+      "float32_relative_crossings": 0,
+      "sampled_measurement_domain_valid": true,
+      "source_float64_crossings": 0,
+      "u": 0
+    },
+    {
+      "D2_oriented_integral_mL": 17.41773200605653,
+      "counts": {
+        "D2_self": 0,
+        "cavity_self": 0,
+        "cavity_tissue": 0,
+        "float32_cavity_tissue": 0,
+        "tissue_self": 0,
+        "tissue_shared_vertex_transverse": 0
+      },
+      "fixed_cavity_maximum_mm": 0.0,
+      "float32_relative_crossings": 0,
+      "sampled_measurement_domain_valid": true,
+      "source_float64_crossings": 0,
+      "u": 0.25
+    },
+    {
+      "D2_oriented_integral_mL": 18.04178870829013,
+      "counts": {
+        "D2_self": 0,
+        "cavity_self": 0,
+        "cavity_tissue": 0,
+        "float32_cavity_tissue": 0,
+        "tissue_self": 0,
+        "tissue_shared_vertex_transverse": 0
+      },
+      "fixed_cavity_maximum_mm": 0.0,
+      "float32_relative_crossings": 0,
+      "sampled_measurement_domain_valid": true,
+      "source_float64_crossings": 0,
+      "u": 0.5
+    },
+    {
+      "D2_oriented_integral_mL": 18.678155678372374,
+      "counts": {
+        "D2_self": 0,
+        "cavity_self": 0,
+        "cavity_tissue": 0,
+        "float32_cavity_tissue": 0,
+        "tissue_self": 0,
+        "tissue_shared_vertex_transverse": 0
+      },
+      "fixed_cavity_maximum_mm": 0.0,
+      "float32_relative_crossings": 0,
+      "sampled_measurement_domain_valid": true,
+      "source_float64_crossings": 0,
+      "u": 0.75
+    },
+    {
+      "D2_oriented_integral_mL": 19.326856400544713,
+      "counts": {
+        "D2_self": 0,
+        "cavity_self": 0,
+        "cavity_tissue": 0,
+        "float32_cavity_tissue": 0,
+        "tissue_self": 0,
+        "tissue_shared_vertex_transverse": 0
+      },
+      "fixed_cavity_maximum_mm": 0.0,
+      "float32_relative_crossings": 0,
+      "sampled_measurement_domain_valid": true,
+      "source_float64_crossings": 0,
+      "u": 1.0
+    }
+  ],
+  "float32_self_intersections_at_all_times_certified": false,
+  "formal_N2": false,
+  "name": "S2_expand",
+  "sources": {
+    "cavity": "fe7d18e20233ac3e798244c33453ac7dc522b9164b0ca1573b159049857cb23b",
+    "tissue": "f743131831da78ef505580f7f56bf5c6b23a085ac9b1794922896ac153051931"
+  },
+  "tissue_float32_quality": [
+    {
+      "bad_edges": [],
+      "bad_faces": [],
+      "maximum_area_ratio": 1.0,
+      "maximum_edge_gradient": 0.0,
+      "maximum_face": 0,
+      "minimum_area_ratio": 1.0,
+      "minimum_face": 0,
+      "pass": true,
+      "u": 0
+    },
+    {
+      "bad_edges": [],
+      "bad_faces": [],
+      "maximum_area_ratio": 1.0469671012534336,
+      "maximum_edge_gradient": 0.03666541164401597,
+      "maximum_face": 181408,
+      "minimum_area_ratio": 0.9845365591871202,
+      "minimum_face": 199318,
+      "pass": true,
+      "u": 0.25
+    },
+    {
+      "bad_edges": [],
+      "bad_faces": [],
+      "maximum_area_ratio": 1.0938792514785702,
+      "maximum_edge_gradient": 0.07333110995139593,
+      "maximum_face": 181408,
+      "minimum_area_ratio": 0.9683109600347797,
+      "minimum_face": 199318,
+      "pass": true,
+      "u": 0.5
+    },
+    {
+      "bad_edges": [],
+      "bad_faces": [],
+      "maximum_area_ratio": 1.140727280054558,
+      "maximum_edge_gradient": 0.10999663987990274,
+      "maximum_face": 181408,
+      "minimum_area_ratio": 0.9513256207194455,
+      "minimum_face": 199318,
+      "pass": true,
+      "u": 0.75
+    },
+    {
+      "bad_edges": [],
+      "bad_faces": [],
+      "maximum_area_ratio": 1.187516104836668,
+      "maximum_edge_gradient": 0.14666233818565844,
+      "maximum_face": 181408,
+      "minimum_area_ratio": 0.9335792068261309,
+      "minimum_face": 199318,
+      "pass": true,
+      "u": 1.0
+    }
+  ],
+  "tissue_quality": {
+    "continuous_area": {
+      "critical_candidate_faces": 165,
+      "maximum_area_ratio": 1.1875160836322545,
+      "maximum_face": 181408,
+      "method": "Exact quartic squared-area extrema; derivative Bernstein sign screen, then real cubic roots on [0,1]",
+      "minimum_area_ratio": 0.9335782596799433,
+      "minimum_face": 199318,
+      "minimum_oriented_area_ratio": 0.9335503852322146
+    },
+    "endpoint_displacement_mm": {
+      "maximum": 0.6098038660670575,
+      "mean": 0.034489495256096146,
+      "median": 0.0,
+      "p95": 0.24828015789028923
+    },
+    "five_levels": [
+      {
+        "area_fail_faces": 0,
+        "degenerate_faces": 0,
+        "finite": true,
+        "maximum_area_ratio": 1.0,
+        "maximum_edge_gradient": 0.0,
+        "maximum_normal_rotation_deg": 1.9090959104164224e-06,
+        "minimum_area_ratio": 1.0,
+        "reversed_faces": 0,
+        "u": 0,
+        "volume_mL": 300.22443238551654
+      },
+      {
+        "area_fail_faces": 0,
+        "degenerate_faces": 0,
+        "finite": true,
+        "maximum_area_ratio": 1.0469673414427503,
+        "maximum_edge_gradient": 0.03666553706176998,
+        "maximum_normal_rotation_deg": 2.142477007980704,
+        "minimum_area_ratio": 0.9845366108822381,
+        "reversed_faces": 0,
+        "u": 0.25,
+        "volume_mL": 299.69923540365124
+      },
+      {
+        "area_fail_faces": 0,
+        "degenerate_faces": 0,
+        "finite": true,
+        "maximum_area_ratio": 1.0938768526347036,
+        "maximum_edge_gradient": 0.07333107412353997,
+        "maximum_normal_rotation_deg": 4.243483199433342,
+        "minimum_area_ratio": 0.9683115850323725,
+        "reversed_faces": 0,
+        "u": 0.5,
+        "volume_mL": 299.16672394310496
+      },
+      {
+        "area_fail_faces": 0,
+        "degenerate_faces": 0,
+        "finite": true,
+        "maximum_area_ratio": 1.1407268788153129,
+        "maximum_edge_gradient": 0.10999661118530996,
+        "maximum_normal_rotation_deg": 6.301184306655909,
+        "minimum_area_ratio": 0.951325314644084,
+        "reversed_faces": 0,
+        "u": 0.75,
+        "volume_mL": 298.62689075291905
+      },
+      {
+        "area_fail_faces": 0,
+        "degenerate_faces": 0,
+        "finite": true,
+        "maximum_area_ratio": 1.1875160836322936,
+        "maximum_edge_gradient": 0.14666214824707993,
+        "maximum_normal_rotation_deg": 8.314077903659609,
+        "minimum_area_ratio": 0.9335782596799701,
+        "reversed_faces": 0,
+        "u": 1,
+        "volume_mL": 298.0797285821349
+      }
+    ],
+    "gradient_fail_edges": 0,
+    "maximum_edge_gradient": 0.14666214824707993,
+    "quality_gate_passed": true,
+    "worst_edge": [
+      79161,
+      79162
+    ]
+  }
+}

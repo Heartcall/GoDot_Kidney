@@ -1,0 +1,34 @@
+[
+  {
+    "cavity_quality_pass": true,
+    "crossings": 76,
+    "name": "S1_expand",
+    "qp_pass": false,
+    "static_candidate_pass": false,
+    "tissue_quality_pass": true
+  },
+  {
+    "cavity_quality_pass": true,
+    "crossings": 822,
+    "name": "S2_expand",
+    "qp_pass": false,
+    "static_candidate_pass": false,
+    "tissue_quality_pass": true
+  },
+  {
+    "cavity_quality_pass": false,
+    "crossings": 1894,
+    "name": "S3_expand",
+    "qp_pass": false,
+    "static_candidate_pass": false,
+    "tissue_quality_pass": false
+  },
+  {
+    "cavity_quality_pass": true,
+    "crossings": 53,
+    "name": "expand",
+    "qp_pass": false,
+    "static_candidate_pass": false,
+    "tissue_quality_pass": true
+  }
+]

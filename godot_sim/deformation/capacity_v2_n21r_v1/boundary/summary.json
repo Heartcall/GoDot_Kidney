@@ -1,0 +1,42 @@
+[
+  {
+    "direction": "contract",
+    "endpoint_oriented_integral_mL": 16.721932276992987,
+    "max_boundary_motion_mm": 0.0,
+    "max_edge_gradient": 0.017057934078789444,
+    "min_area": 0.9732089009178106,
+    "physical_quality": true,
+    "sampled_domain_valid": true,
+    "strategy": "FIXED_97"
+  },
+  {
+    "direction": "expand",
+    "endpoint_oriented_integral_mL": 16.889991897867304,
+    "max_boundary_motion_mm": 0.0,
+    "max_edge_gradient": 0.019347332235490816,
+    "min_area": 0.9953722332727634,
+    "physical_quality": true,
+    "sampled_domain_valid": true,
+    "strategy": "FIXED_97"
+  },
+  {
+    "direction": "contract",
+    "endpoint_oriented_integral_mL": 16.721932276993005,
+    "max_boundary_motion_mm": 0.003437618763617155,
+    "max_edge_gradient": 0.017011130574404062,
+    "min_area": 0.9732821319158439,
+    "physical_quality": true,
+    "sampled_domain_valid": true,
+    "strategy": "MATERIAL_MOVING_SAME_CAP_TEMPLATE"
+  },
+  {
+    "direction": "expand",
+    "endpoint_oriented_integral_mL": 16.889991897867308,
+    "max_boundary_motion_mm": 0.00358603773256394,
+    "max_edge_gradient": 0.01929372085950275,
+    "min_area": 0.9953850864244356,
+    "physical_quality": true,
+    "sampled_domain_valid": true,
+    "strategy": "MATERIAL_MOVING_SAME_CAP_TEMPLATE"
+  }
+]

@@ -1,0 +1,17 @@
+{
+  "broad_pairs": 395101,
+  "certified_interval_separated_selected_pairs": 72894,
+  "exact_class_counts": {
+    "CERTIFIED_NO_TRANSVERSE_SEPARATING_POLYNOMIAL": 1361,
+    "CERTIFIED_NO_TRANSVERSE_SHARED_FEATURE": 201463
+  },
+  "full_self_continuous_safety_certified": false,
+  "invariant_reference_pairs": 55169,
+  "mesh": "cavity",
+  "name": "s1_n20_passed",
+  "scope": "All nonadjacent moving pairs plus critical one-vertex neighborhoods. Remaining shared-one-vertex pairs explicitly unresolved by scope; no silent exclusion.",
+  "selected_pairs": 275718,
+  "shared_edge_pairs_no_transverse_by_common_edge_identity": 64214,
+  "shared_feature_coplanar_overlap_not_certified": true,
+  "unprocessed_shared_one_vertex_pairs": 0
+}

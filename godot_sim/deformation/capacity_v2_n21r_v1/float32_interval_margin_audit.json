@@ -1,0 +1,60 @@
+[
+  {
+    "area_bound_fail_source_faces": [
+      535
+    ],
+    "arithmetic_guard": "128*binary64_epsilon times cross-product condition proxy; separate exact rational CCD is not implied",
+    "candidate": "robust_contract",
+    "hard_gate_protected_by_bound": false,
+    "includes_u_rounding_and_multiply_add": true,
+    "maximum_area_ratio_upper_bound": 1.0698902680801714,
+    "maximum_edge_gradient_upper_bound": 0.18518345189142882,
+    "mesh": "cavity",
+    "minimum_area_ratio_lower_bound": 0.7993259780283252,
+    "minimum_bound_face": 535,
+    "scope": "Conservative IEEE float32 rendering area/gradient error budget; not a formal interval-arithmetic proof of all CPU implementations or finite contacts",
+    "whole_interval_not_only_five_samples": true
+  },
+  {
+    "area_bound_fail_source_faces": [],
+    "arithmetic_guard": "128*binary64_epsilon times cross-product condition proxy; separate exact rational CCD is not implied",
+    "candidate": "robust_contract",
+    "hard_gate_protected_by_bound": true,
+    "includes_u_rounding_and_multiply_add": true,
+    "maximum_area_ratio_upper_bound": 1.0457196068767163,
+    "maximum_edge_gradient_upper_bound": 0.11120861684437337,
+    "mesh": "tissue",
+    "minimum_area_ratio_lower_bound": 0.8455038901394133,
+    "minimum_bound_face": 181408,
+    "scope": "Conservative IEEE float32 rendering area/gradient error budget; not a formal interval-arithmetic proof of all CPU implementations or finite contacts",
+    "whole_interval_not_only_five_samples": true
+  },
+  {
+    "area_bound_fail_source_faces": [],
+    "arithmetic_guard": "128*binary64_epsilon times cross-product condition proxy; separate exact rational CCD is not implied",
+    "candidate": "robust_contract_r2",
+    "hard_gate_protected_by_bound": true,
+    "includes_u_rounding_and_multiply_add": true,
+    "maximum_area_ratio_upper_bound": 1.0698902680801714,
+    "maximum_edge_gradient_upper_bound": 0.18518345189142882,
+    "mesh": "cavity",
+    "minimum_area_ratio_lower_bound": 0.8001809734832348,
+    "minimum_bound_face": 7680,
+    "scope": "Conservative IEEE float32 rendering area/gradient error budget; not a formal interval-arithmetic proof of all CPU implementations or finite contacts",
+    "whole_interval_not_only_five_samples": true
+  },
+  {
+    "area_bound_fail_source_faces": [],
+    "arithmetic_guard": "128*binary64_epsilon times cross-product condition proxy; separate exact rational CCD is not implied",
+    "candidate": "robust_contract_r2",
+    "hard_gate_protected_by_bound": true,
+    "includes_u_rounding_and_multiply_add": true,
+    "maximum_area_ratio_upper_bound": 1.0457196068767163,
+    "maximum_edge_gradient_upper_bound": 0.11120861684437337,
+    "mesh": "tissue",
+    "minimum_area_ratio_lower_bound": 0.8455038901394133,
+    "minimum_bound_face": 181408,
+    "scope": "Conservative IEEE float32 rendering area/gradient error budget; not a formal interval-arithmetic proof of all CPU implementations or finite contacts",
+    "whole_interval_not_only_five_samples": true
+  }
+]

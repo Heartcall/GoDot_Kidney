@@ -1,0 +1,33 @@
+{
+  "arithmetic": "Outward nextafter fixed-axis projection intervals; Fraction exact rational Bernstein sign tests and dyadic finite witnesses",
+  "broad_pairs": 435581,
+  "certified_fixed_axis_separation_pairs": 376142,
+  "exact_pair_counts": {
+    "CERTIFIED_NO_TRANSVERSE_PERSISTENT_COPLANAR": 92,
+    "CERTIFIED_NO_TRANSVERSE_SEPARATING_POLYNOMIAL": 54945,
+    "CERTIFIED_NO_TRANSVERSE_SHARED_FEATURE": 4402
+  },
+  "exact_witness_uses_no_increased_contact_tolerance": true,
+  "full_continuous_safe": false,
+  "max_time_depth": 3,
+  "name": "s2_warm",
+  "scope": "Complete cavity-tissue transverse analysis; self-CCD and new-overlap acceptability require separate gates",
+  "seconds_exact_stage": 134.05874252319336,
+  "source_endpoint_sha256": {
+    "cavity": "1e06d0d1d2e35765fccb455a55bff4317ffbca79c5b90c9edce4cddf890a646f",
+    "tissue": "967caf2aa25f6d0b281ed2864151dba52516698a7d5d7bb12f8185ffd6b275fe"
+  },
+  "sources_and_settings": {
+    "cavity": "1e06d0d1d2e35765fccb455a55bff4317ffbca79c5b90c9edce4cddf890a646f",
+    "cavity_faces": "25e530e2a92db99758601fbd938effe69b9b6a3dfc7518f60e966e9853eff184",
+    "settings": {
+      "depth": 3,
+      "kernel_sha256": "85c3e4d2abd524b14f821c279c217d6d1e1990a3877584fed5e0b8bbe084fb2d",
+      "version": "EXACT_INTERVAL_V2"
+    },
+    "tissue": "967caf2aa25f6d0b281ed2864151dba52516698a7d5d7bb12f8185ffd6b275fe",
+    "tissue_faces": "25e4a8af49959e7a792fa81f0d919acb3a2326415fa5d5e511460ede111e1e59"
+  },
+  "trajectory_definition": "Exact affine interpolation between supplied IEEE binary64 vertex ENDPOINTS; not float32 quantized runtime motion",
+  "unresolved_never_passed": true
+}
