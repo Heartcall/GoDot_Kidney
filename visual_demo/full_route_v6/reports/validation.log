@@ -1,0 +1,44 @@
+{
+  "status": "FEASIBLE_WITH_DEMO_PATH_ONLY_NO_V4_REQUIRED",
+  "state_range": [
+    -0.4,
+    1.0
+  ],
+  "path_nodes": 869,
+  "original_length_mm": 86.53288913360154,
+  "optimized_length_mm": 89.17993213825031,
+  "sampled_min_clearance_mm": 1.3919351098325898,
+  "continuous_certified_min_clearance_mm": 1.2392520543306922,
+  "max_segment_mm": 0.1979474811418953,
+  "max_state_step": 0.025,
+  "wall_motion_bound_per_state": {
+    "contracted": 4.446402558090889,
+    "expanded": 6.929017379486292
+  },
+  "bottleneck_original_offsets_mm": [
+    86.43296662882834,
+    86.53288913360154
+  ],
+  "bottleneck_states": [
+    -0.4,
+    -0.375
+  ],
+  "outside_samples": [],
+  "start_shift_mm": 0.0,
+  "end_shift_mm": 1.6326632263722631,
+  "max_route_deviation_mm": 2.3857667754693717,
+  "source_junctions_mm": [
+    71.99792702979907,
+    78.99528536747917
+  ],
+  "optimized_junctions_mm": [
+    72.21822368976672,
+    79.5622030724657
+  ],
+  "original_progress_monotonic": true,
+  "duration_seconds": 45.93333333333333,
+  "speed_range_mm_s": [
+    1.0388560072104929,
+    2.3
+  ]
+}

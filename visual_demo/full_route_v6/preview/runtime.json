@@ -1,0 +1,13 @@
+{
+  "complete": true,
+  "duration": 45.9333333333333,
+  "end_position": "(26.93661, 5.510513, -72.40282)",
+  "final_contracted": 0.400000005960464,
+  "final_expanded": 0.0,
+  "first_arc_mm": 0,
+  "frames": 1379,
+  "last_arc_mm": 89.1799321382503,
+  "max_forward_error_deg": 0.0559529119041136,
+  "max_frame_rotation_deg": 0.612936320279331,
+  "no_movie_recorded": true
+}

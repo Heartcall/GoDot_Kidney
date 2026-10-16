@@ -1,0 +1,6 @@
+Godot Engine v4.7.stable.official.5b4e0cb0f - https://godotengine.org
+Vulkan 1.4.341 - Forward+ - Using Device #0: NVIDIA - NVIDIA GeForce RTX 4070 Ti
+
+EndoscopeController: loaded cavity path with 869 points, length 89.1799 m (explicit look directions) (2 junctions)
+FULL_ROUTE_PREVIEW_START {"duration":45.9333333333333,"engine":{"build":"official","hash":"5b4e0cb0fd279832bbdd69fed5354d4e5ad26f88","hex":263936,"major":4,"minor":7,"patch":0,"status":"stable","string":"4.7-stable (official)","timestamp":0},"global_morph":true,"junctions":[72.2182235717773,79.5622024536133],"model":"manual_v3","near_clip_mm":0.05,"points":869,"renderer":"forward_plus","route":"res://visual_demo/data/full_route_c04.json","states":[-0.4,1.0,-0.4]}
+FULL_ROUTE_PREVIEW_COMPLETE {"complete":true,"duration":45.9333333333333,"end_position":"(26.93661, 5.510513, -72.40282)","final_contracted":0.400000005960464,"final_expanded":0.0,"first_arc_mm":0,"frames":1379,"last_arc_mm":89.1799321382503,"max_forward_error_deg":0.0559529119041136,"max_frame_rotation_deg":0.612936320279331,"no_movie_recorded":true}

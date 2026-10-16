@@ -1,0 +1,47 @@
+{
+  "probe_spacing_approx_mm": 1,
+  "near_clip_mm": 0.05,
+  "scope": "camera centre and central optical ray; no physical instrument-radius claim",
+  "runtime": {
+    "samples": 1379,
+    "time_first": 0.0,
+    "time_last": 45.933333333,
+    "start_position": [
+      -10.0,
+      22.0,
+      -139.0
+    ],
+    "end_position": [
+      26.936609268,
+      5.510513306,
+      -72.402824402
+    ],
+    "max_path_sampling_error_mm": 2.5285057168060155e-05,
+    "arc_first": 0.0,
+    "arc_last": 89.179932138,
+    "monotonic_arc": true,
+    "max_rotation_deg_per_frame": 0.6127748826040422,
+    "max_forward_error_deg": 0.055952912,
+    "first_weights": [
+      0.400000006,
+      0.0
+    ],
+    "peak_weights": [
+      0.0,
+      1.0
+    ],
+    "last_weights": [
+      0.400000006,
+      0.0
+    ]
+  },
+  "imported_shape_max_error_mm": {
+    "-0.4": 6.150300612788124e-06,
+    "0.0": 3.840241942754777e-06,
+    "1.0": 5.855925744171435e-06
+  },
+  "runtime_continuous_clearance_lower_bound_mm": 1.2392267692735242,
+  "near_plane_corner_radius_mm": 0.11358360166811597,
+  "near_plane_clearance_lower_bound_mm": 1.1256431676054082,
+  "v4_needed_for_geometric_passage": false
+}
