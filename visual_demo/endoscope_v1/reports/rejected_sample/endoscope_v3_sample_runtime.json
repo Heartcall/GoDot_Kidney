@@ -1,0 +1,13 @@
+{
+  "final_contracted": 0.600000023841858,
+  "final_expanded": 0.0,
+  "final_time": 2.0,
+  "finished_normally": true,
+  "frames": 61,
+  "max_frame_rotation_deg": 0.271242046464707,
+  "movie": true,
+  "viewport_size": [
+    1920,
+    1080
+  ]
+}

@@ -1,0 +1,92 @@
+{
+  "Basis_reference_max_error_mm": 0.0,
+  "Blender": "5.2.2 LTS",
+  "GLB_sha256": "f6e74dcfb85135bef585e5216b48ac666f6fad699d2945428e0def3d48b63074",
+  "contains_only_dynamic_cavity": true,
+  "disk_blend_unchanged": true,
+  "export_options": {
+    "export_animations": false,
+    "export_apply": false,
+    "export_attributes": true,
+    "export_extras": true,
+    "export_format": "GLB",
+    "export_materials": "EXPORT",
+    "export_morph": true,
+    "export_morph_normal": true,
+    "export_normals": true,
+    "export_texcoords": false,
+    "export_try_sparse_sk": false,
+    "export_yup": true,
+    "filepath": "E:\\Study\\双翌老师组\\Simulator\\FURS-NAV-main\\godot_sim\\visual_demo\\assets\\kidney_manual_v3.glb",
+    "use_selection": true
+  },
+  "keys": [
+    "Basis",
+    "Contracted",
+    "Expanded"
+  ],
+  "materials": [
+    {
+      "base_color": [
+        0.2306751310825348,
+        0.08348526060581207,
+        0.08348526060581207,
+        1.0
+      ],
+      "diffuse_color": [
+        0.05999999865889549,
+        0.47999998927116394,
+        0.800000011920929,
+        1.0
+      ],
+      "name": "Cavity_blue",
+      "roughness": 0.3799999952316284
+    }
+  ],
+  "object_matrix": [
+    [
+      1.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      1.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      1.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "shapes": {
+    "Basis": {
+      "fixed_max_displacement_mm": 0.0,
+      "fixed_moved_vertices": [],
+      "max_displacement_mm": 0.0
+    },
+    "Contracted": {
+      "fixed_max_displacement_mm": 0.0,
+      "fixed_moved_vertices": [],
+      "max_displacement_mm": 4.446402558090889
+    },
+    "Expanded": {
+      "fixed_max_displacement_mm": 0.0,
+      "fixed_moved_vertices": [],
+      "max_displacement_mm": 6.929017379486294
+    }
+  },
+  "source_blend_sha256": "a450e8f639d7d647ff8238a09cff2f20458beb4f8a4229b72ea6e425e6802d69",
+  "triangles": 50044,
+  "vertices": 25024
+}

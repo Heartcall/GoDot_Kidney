@@ -1,0 +1,45 @@
+{
+  "files": {
+    "godot_sim/recordings/endoscope_v3_final.avi": {
+      "bytes": 31883316,
+      "sha256": "0318595a03f518c5c18f4dcace7e29a6eda039a3933060d08157e2f430d4b86b"
+    },
+    "godot_sim/recordings/endoscope_v3_final.mp4": {
+      "bytes": 3140762,
+      "sha256": "ce8933ef412bef56165ed54118a8df4d9393e857ccc5ced6bbbf21bb9485eced"
+    },
+    "godot_sim/visual_demo/assets/kidney_manual_v3.glb": {
+      "bytes": 2204772,
+      "sha256": "f6e74dcfb85135bef585e5216b48ac666f6fad699d2945428e0def3d48b63074"
+    },
+    "godot_sim/visual_demo/scripts/endoscope_video.gd": {
+      "bytes": 8630,
+      "sha256": "5792889ce109a28ede8b2ee68a0121b3e7f9c9d51f5036b4f523d8afe4c621ad"
+    },
+    "godot_sim/visual_demo/scripts/endoscope_video_path.gd": {
+      "bytes": 1088,
+      "sha256": "71f5e491985be5dc10fbe34d1504eb170d6d65fa5a20d7d4034e43f08adca2c2"
+    },
+    "godot_sim/visual_demo_endoscope_video.tscn": {
+      "bytes": 260,
+      "sha256": "18e6b025197fe35e36ee1ded9fa452f1f231687a1ca48efc0137fcdeb53899c6"
+    },
+    "visual_demo/docs/V-Demo内镜视频运行指南.md": {
+      "bytes": 9537,
+      "sha256": "190c2bbcb0a93457b4794f52c4fa7acc3905c170b51050507157f0af5bba170c"
+    },
+    "visual_demo/endoscope_v1/reports/endoscope_v3_final_video_validation.json": {
+      "bytes": 2830,
+      "sha256": "158961965bc1ef1a48d68a7a7d71b7b6a4b20c08c177c9296414002434f570f8"
+    },
+    "visual_demo/endoscope_v1/reports/final_geometry_validation.json": {
+      "bytes": 9979,
+      "sha256": "9d9f683d765fa9272b2b0cc1a0ca543954eeceb5333b8f8ca1bf5fd7e05aaacf"
+    },
+    "visual_demo/tools/record_endoscope.ps1": {
+      "bytes": 3310,
+      "sha256": "c1248002e60844ef350c428f651b732028d238e05b7cbc1ca3f61ab2066755e1"
+    }
+  },
+  "source_blend_sha256": "a450e8f639d7d647ff8238a09cff2f20458beb4f8a4229b72ea6e425e6802d69"
+}

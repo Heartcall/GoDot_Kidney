@@ -1,0 +1,2 @@
+E:\Study\双翌老师组\Simulator\FURS-NAV-main\visual_demo\tools\endo_export.py:33: DeprecationWarning: 'Material.use_nodes' is expected to be removed in Blender 6.0
+  if m.use_nodes:

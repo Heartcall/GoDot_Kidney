@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3]
+
+[ext_resource type="Script" path="res://visual_demo/scripts/endoscope_video.gd" id="1"]
+
+[node name="VisualDemoEndoscopeVideo" type="Node3D"]
+script = ExtResource("1")
+metadata/movie_file = "res://recordings/endoscope_v3.avi"

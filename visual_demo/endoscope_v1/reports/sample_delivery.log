@@ -1,0 +1,120 @@
+The frame size for reading (480, 270) is different from the source frame size (1920, 1080).
+AVI metadata {'ffmpeg_version': '7.1-essentials_build-www.gyan.dev built with gcc 14.2.0 (Rev1, Built by MSYS2 project)', 'codec': 'mjpeg', 'pix_fmt': 'yuvj420p(pc, bt470bg/unknown/unknown)', 'audio_codec': 'pcm_s16le', 'fps': 30.0, 'source_size': (1920, 1080), 'size': (480, 270), 'rotate': 0, 'duration': 2.07} decoded frames 62 snapshot correspondence [{'telemetry_frame': 0, 'avi_nearest_frame': 0, 'mae': 0.5814583333333333}, {'telemetry_frame': 15, 'avi_nearest_frame': 15, 'mae': 0.5866152263374486}, {'telemetry_frame': 30, 'avi_nearest_frame': 30, 'mae': 0.579022633744856}, {'telemetry_frame': 45, 'avi_nearest_frame': 45, 'mae': 0.554917695473251}, {'telemetry_frame': 60, 'avi_nearest_frame': 60, 'mae': 0.5421116255144033}]
+The frame size for reading (480, 270) is different from the source frame size (1920, 1080).
+{
+  "avi_metadata": {
+    "ffmpeg_version": "7.1-essentials_build-www.gyan.dev built with gcc 14.2.0 (Rev1, Built by MSYS2 project)",
+    "codec": "mjpeg",
+    "pix_fmt": "yuvj420p(pc, bt470bg/unknown/unknown)",
+    "audio_codec": "pcm_s16le",
+    "fps": 30.0,
+    "source_size": [
+      1920,
+      1080
+    ],
+    "size": [
+      480,
+      270
+    ],
+    "rotate": 0,
+    "duration": 2.07
+  },
+  "avi_decoded_frames": 62,
+  "mp4_metadata": {
+    "ffmpeg_version": "7.1-essentials_build-www.gyan.dev built with gcc 14.2.0 (Rev1, Built by MSYS2 project)",
+    "codec": "h264",
+    "pix_fmt": "yuv420p(tv, bt709/unknown/unknown, progressive)",
+    "fps": 30.0,
+    "source_size": [
+      1920,
+      1080
+    ],
+    "size": [
+      480,
+      270
+    ],
+    "rotate": 0,
+    "duration": 2.03
+  },
+  "mp4_decoded_frames": 61,
+  "snapshot_correspondence": [
+    {
+      "telemetry_frame": 0,
+      "avi_nearest_frame": 0,
+      "mae": 0.5814583333333333
+    },
+    {
+      "telemetry_frame": 15,
+      "avi_nearest_frame": 15,
+      "mae": 0.5866152263374486
+    },
+    {
+      "telemetry_frame": 30,
+      "avi_nearest_frame": 30,
+      "mae": 0.579022633744856
+    },
+    {
+      "telemetry_frame": 45,
+      "avi_nearest_frame": 45,
+      "mae": 0.554917695473251
+    },
+    {
+      "telemetry_frame": 60,
+      "avi_nearest_frame": 60,
+      "mae": 0.5421116255144033
+    }
+  ],
+  "endpoint_inclusive_samples": 61,
+  "first_weights": [
+    0.600000024,
+    0.0
+  ],
+  "middle_weights": [
+    0.0,
+    1.0
+  ],
+  "last_weights": [
+    0.600000024,
+    0.0
+  ],
+  "frame_luminance_range": [
+    114.65621399176955,
+    135.81207304526748
+  ],
+  "adjacent_frame_MAE_max_8bit": 3.522204218106996,
+  "adjacent_frame_MAE_median_8bit": 1.813031121399177,
+  "mp4_sha256": "b3dfba9face11e5aefba1a4f1eab3b19c96732cd881d187d792431542e643c10",
+  "command": [
+    "E:\\Study\\\u53cc\u7fcc\u8001\u5e08\u7ec4\\Simulator\\FURS-NAV-main\\visual_demo\\endoscope_v1\\vendor\\imageio_ffmpeg\\binaries\\ffmpeg-win-x86_64-v7.1.exe",
+    "-y",
+    "-hide_banner",
+    "-i",
+    "E:\\Study\\\u53cc\u7fcc\u8001\u5e08\u7ec4\\Simulator\\FURS-NAV-main\\godot_sim\\recordings\\endoscope_v3_sample2.avi",
+    "-an",
+    "-frames:v",
+    "61",
+    "-vf",
+    "scale=in_color_matrix=bt601:out_color_matrix=bt709:in_range=pc:out_range=tv",
+    "-c:v",
+    "libx264",
+    "-preset",
+    "slow",
+    "-crf",
+    "17",
+    "-pix_fmt",
+    "yuv420p",
+    "-color_range",
+    "tv",
+    "-colorspace",
+    "bt709",
+    "-color_trc",
+    "bt709",
+    "-color_primaries",
+    "bt709",
+    "-video_track_timescale",
+    "15360",
+    "-movflags",
+    "+faststart",
+    "E:\\Study\\\u53cc\u7fcc\u8001\u5e08\u7ec4\\Simulator\\FURS-NAV-main\\godot_sim\\recordings\\endoscope_v3_sample2.mp4"
+  ]
+}

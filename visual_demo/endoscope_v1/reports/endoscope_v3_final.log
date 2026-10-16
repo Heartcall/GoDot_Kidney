@@ -1,0 +1,7 @@
+Godot Engine v4.7.stable.official.5b4e0cb0f - https://godotengine.org
+Vulkan 1.4.341 - Forward+ - Using Device #0: NVIDIA - NVIDIA GeForce RTX 4070 Ti
+
+Movie Maker mode enabled, recording movie in 1920×1080 @ 30 FPS...
+EndoscopeController: loaded cavity path with 88 points, length 86.5329 m (explicit look directions) (2 junctions)
+ENDOSCOPE_VIDEO_START {"device":"NVIDIA GeForce RTX 4070 Ti","duration":8.0,"engine":{"build":"official","hash":"5b4e0cb0fd279832bbdd69fed5354d4e5ad26f88","hex":263936,"major":4,"minor":7,"patch":0,"status":"stable","string":"4.7-stable (official)","timestamp":0},"fps":30,"frames":241,"model":"kidney_manual_v3.glb","morphs":["Contracted","Expanded"],"movie":true,"path_mm":[49.9999962791642,59.9999955332664],"renderer":"forward_plus"}
+ENDOSCOPE_VIDEO_COMPLETE {"final_contracted":0.600000023841858,"final_expanded":0.0,"final_time":8.0,"finished_normally":true,"frames":241,"max_frame_rotation_deg":0.11869406690113,"movie":true,"viewport_size":[1920,1080]}
